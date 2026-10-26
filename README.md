@@ -1,8 +1,12 @@
 <div align="center">
 
-# Hole-It-Game-Project
+# Hole It 흡수·성장 게임
 
-## 🕳️ Hole It 흡수·성장 게임
+**Hole-It-Game-Project**
+
+**기술 분류:** 게임 프로그래밍 › Unity 게임플레이 › 물리·흡수·성장·상태
+
+
 
 ### Unity · 터치 조작 · 레벨 진행 · 보상과 성장
 
@@ -15,7 +19,31 @@
 
 [빠른 시작](#quick-start) · [저장소 구성](#repository-structure) · [게임 설정](#data-settings)
 
+[예시 이미지](#preview)
+
 </div>
+
+<a name="preview"></a>
+
+## 🖼️ 예시로 보기
+
+<p align="center"><img src="assets/previews/historical-app-preview.png" width="306" alt="기존 앱 화면 · Hole-It-Game-Project" /></p>
+
+**기존 앱 화면** — 6차에 보관된 첫 레벨 게임 화면입니다. 기존 미리보기 기록이며 이번 작업에서 게임을 실행한 결과가 아닙니다.
+
+
+
+<a name="input-processing-output"></a>
+
+## 🔄 입력·처리·출력
+
+| 단계 | 이 프로젝트에서 다루는 내용 |
+| :--- | :--- |
+| 입력 | 터치 입력·레벨 배치·물체 |
+| 처리 | Unity 이동·충돌·흡수, 성장·레벨·로컬 보상 |
+| 출력 | 게임 화면·진행 상태·로컬 저장 |
+
+
 
 ---
 
