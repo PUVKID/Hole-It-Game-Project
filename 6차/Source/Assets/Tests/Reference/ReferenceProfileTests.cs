@@ -1,0 +1,5 @@
+using NUnit.Framework;
+public class ReferenceProfileTests {
+ [Test]public void LifeRefillPreservesPartialTimeAndCapsAtFive(){var p=new ReferenceProfile();p.Lose(100);Assert.AreEqual(4,p.hearts);Assert.AreEqual(1900,p.refillAt);p.Lose(200);p.Refresh(1899);Assert.AreEqual(3,p.hearts);p.Refresh(1900);Assert.AreEqual(4,p.hearts);Assert.AreEqual(3700,p.refillAt);p.Refresh(100000);Assert.AreEqual(5,p.hearts);Assert.AreEqual(0,p.refillAt);}
+ [Test]public void CurrencyTransactionsAreAtomicAndFreePlayDoesNotConsume(){var p=new ReferenceProfile();Assert.IsFalse(p.BuyBooster(0));Assert.AreEqual(1,p.boosters[0]);p.coins=1800;Assert.IsTrue(p.BuyBooster(0));Assert.AreEqual(0,p.coins);Assert.AreEqual(2,p.boosters[0]);Assert.IsTrue(p.Consume(1));Assert.IsFalse(p.Consume(1));p.freePlay=true;Assert.IsTrue(p.Consume(1));p.Lose(100);Assert.AreEqual(5,p.hearts);p.freePlay=false;p.Lose(100);p.coins=899;Assert.IsFalse(p.RefillHearts());p.coins=900;Assert.IsTrue(p.RefillHearts());Assert.AreEqual(0,p.coins);Assert.AreEqual(5,p.hearts);}
+}

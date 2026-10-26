@@ -1,0 +1,6 @@
+numpy==2.3.5
+Pillow==12.3.0
+PyYAML==6.0.3
+Pygments==2.20.0
+trimesh==4.11.1
+scipy==1.17.0
