@@ -1,17 +1,10 @@
 <div align="center">
 
-# 🕳️ Hole It 흡수·성장 게임
+# 🕳️ Hole It Project
 
-**Hole-It-Game-Project**
+물체를 흡수하며 성장하는 Unity 게임입니다.
 
 **기술 분류:** 게임 프로그래밍 › Unity 게임플레이 › 물리·흡수·성장·상태
-
-
-
-### ✨ Unity · 터치 조작 · 레벨 진행 · 보상과 성장
-
-홀을 움직여 물체를 흡수하고, 성장하며 레벨을 진행합니다.<br>
-게임플레이·화면·물리 처리와 출석·재화 시스템을 차수별로 보존한 Unity 프로젝트입니다.
 
 ![Unity](https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white)
 ![CSharp](https://img.shields.io/badge/Language-C%23-7C3AED?style=flat-square)
@@ -22,6 +15,37 @@
 [예시 이미지](#preview)
 
 </div>
+
+<a name="overview"></a>
+
+## 🗺️ 한눈에 보는 구성
+
+<p align="center"><img src="assets/overview.png" width="960" alt="프로젝트의 입력·처리·출력을 정리한 설명도" /></p>
+보관한 프로젝트 자료의 흐름을 정리한 설명도입니다.
+
+<a name="latest-changes"></a>
+## ✨ 최신차수에서 달라진 점
+
+**8차 · 최신보관본** — 실제 수집 트리거·지연 성장과 열린 원형 게이지
+
+- 모든 배치 물체의 강체·충돌체를 유지하고 ReferencePhysicsTrigger의 진입·이탈 이벤트를 전달합니다. 프레임당 활성화 25개를 전체 강체 수 제한으로 해석하지 않습니다.
+- ReferenceGrowthProgress는 목표·적용 성장 단계를 구분하고 0.3초 뒤 성장시키며 ReferenceGrowthRing은 열린 원형 게이지를 그립니다. 수집 뒤 강체 렌더 유지·승리 후 물리 갱신·전체 bounds 시야 검사가 7차와 다릅니다.
+
+[🔍 최신 자료 자세히 보기](docs/versions/8%EC%B0%A8.md) · [🗂️ 전체 차수 의미 비교](docs/VERSIONS.md)
+
+### 🧭 차수 바로가기
+
+[1차](docs/versions/1%EC%B0%A8.md) · [2차](docs/versions/2%EC%B0%A8.md) · [3차](docs/versions/3%EC%B0%A8.md) · [4차](docs/versions/4%EC%B0%A8.md) · [5차](docs/versions/5%EC%B0%A8.md) · [6차](docs/versions/6%EC%B0%A8.md) · [7차](docs/versions/7%EC%B0%A8.md) · [8차](docs/versions/8%EC%B0%A8.md)
+
+1~8차의 실제 보관 폴더를 안내합니다. 8차는 최신보관본이며 별도의 최종 확정 폴더나 출시 완료 상태를 뜻하지 않습니다.
+
+| 관심 있는 내용 | 바로가기 |
+| :--- | :--- |
+| 코드를 먼저 보고 싶어요 | [최신 원본 폴더](8%EC%B0%A8/) |
+| 이전과 무엇이 다른가요? | [차수별 해설과 근거](docs/VERSIONS.md) |
+| 어떻게 실행하나요? | [준비 조건과 실행 제약](#quick-start) |
+
+
 
 <a name="preview"></a>
 
