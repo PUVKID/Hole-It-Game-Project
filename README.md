@@ -6,22 +6,17 @@
 
 **기술 분류:** 게임 프로그래밍 › Unity 게임플레이 › 물리·흡수·성장·상태
 
-![Unity](https://img.shields.io/badge/Unity-222222?style=flat-square&logo=unity&logoColor=white)
-![CSharp](https://img.shields.io/badge/Language-C%23-7C3AED?style=flat-square)
-![Android](https://img.shields.io/badge/Target-Android-3DDC84?style=flat-square)
+`Unity`
+`C#`
+`Android`
 
 [빠른 시작](#quick-start) · [저장소 구성](#repository-structure) · [게임 설정](#data-settings)
 
-[예시 이미지](#preview)
+[핵심 구성](#input-processing-output)
 
 </div>
 
 <a name="overview"></a>
-
-## 🗺️ 한눈에 보는 구성
-
-<p align="center"><img src="assets/overview.png" width="960" alt="프로젝트의 입력·처리·출력을 정리한 설명도" /></p>
-보관한 프로젝트 자료의 흐름을 정리한 설명도입니다.
 
 <a name="latest-changes"></a>
 ## ✨ 최신차수에서 달라진 점
@@ -46,16 +41,7 @@
 | 어떻게 실행하나요? | [준비 조건과 실행 제약](#quick-start) |
 
 
-
 <a name="preview"></a>
-
-## 🖼️ 예시로 보기
-
-<p align="center"><img src="assets/previews/historical-app-preview.png" width="306" alt="기존 앱 화면 · Hole-It-Game-Project" /></p>
-
-**기존 앱 화면** — 6차에 보관된 첫 레벨 게임 화면입니다. 기존 미리보기 기록이며 이번 작업에서 게임을 실행한 결과가 아닙니다.
-
-
 
 <a name="input-processing-output"></a>
 
@@ -63,10 +49,9 @@
 
 | 단계 | 이 프로젝트에서 다루는 내용 |
 | :--- | :--- |
-| 입력 | 터치 입력·레벨 배치·물체 |
-| 처리 | Unity 이동·충돌·흡수, 성장·레벨·로컬 보상 |
-| 출력 | 게임 화면·진행 상태·로컬 저장 |
-
+| 📥 입력 | 터치 입력·레벨 배치·물체 |
+| ⚙️ 처리 | Unity 이동·충돌·흡수, 성장·레벨·로컬 보상 |
+| 📤 출력 | 게임 화면·진행 상태·로컬 저장 |
 
 
 ---
