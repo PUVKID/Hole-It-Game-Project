@@ -1,0 +1,4 @@
+Windows standalone, D3D11, 540x960, stage 16, stationary, 180 frame samples. Not an Android performance test.
+Actors: 2973; visible at end: 1053
+Median ms: 16.6668
+p95 ms: 16.6672

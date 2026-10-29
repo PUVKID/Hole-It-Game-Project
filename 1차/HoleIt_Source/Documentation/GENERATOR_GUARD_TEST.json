@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "asset_bytes_unchanged": true,
+  "tests": [
+    {
+      "tool": "generate_models.py",
+      "exit": 1,
+      "message": "Asset regeneration overwrites generated model/data assets. Set HOLEIT_ALLOW_ASSET_REGEN=1 only in a backed-up development copy."
+    },
+    {
+      "tool": "campaign.py",
+      "exit": 1,
+      "message": "This resets authored campaign and audio defaults. Set HOLEIT_ALLOW_ASSET_REGEN=1 only in a backed-up development copy."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+Coton de Tulear artwork — generation record
+Tool mode: built-in image_gen imagegen, reference-guided new artwork.
+Final project paths: Assets/Resources/CotonArt/Loading.png and Home.png.
+These are newly generated mascot backgrounds. UI text is rendered in Unity.
+
+Loading prompt design:
+Portrait mobile game splash illustration. A charming fluffy white Coton de Tulear
+with natural soft wavy fur, expressive dark eyes, black nose, turquoise bandana
+and small gold tag. Premium rounded 3D toy style, soft warm lighting. A golden
+playful tunnel surrounded by tiny toys, rounded cosmetics/perfume bottles and
+fruit. Cheerful premium casual collect-and-grow mobile game atmosphere. Keep
+upper title area and lower progress-bar area quiet and readable. No embedded
+text, watermark, logo, UI, or black-hole space imagery. Use the supplied loading
+composition only as a reference for visual density and warm framing.
+
+Home prompt design:
+Portrait mobile game home background with the same fluffy white Coton de Tulear
+mascot, turquoise bandana and gold tag, by a turquoise lake and gentle meadow.
+Rounded trees, soft natural lighting, colorful toy/cosmetic props and a simple
+round collection hole in the ground. Polished softly shaded 3D cartoon visual.
+Keep top 20 percent and bottom 32 percent calm for title and game controls.
+No embedded lettering, logo, watermark or UI. Preserve mascot continuity with
+the loading artwork. Reference the original home composition, replace its art
+with this newly created dog scene.
+
+Runtime import preserves original aspect ratio (941 × 1672), max size 2048,
+no mipmaps. Full-bleed layout crops uniformly to the device's screen ratio.
+Font: bundled Nanum Gothic Bold; license included separately.

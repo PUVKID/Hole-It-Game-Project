@@ -1,0 +1,7 @@
+Source: user-supplied Hole+it! 1.31.17 XAPK.
+Primary font: sharedassets0.assets:636, linik-sans, Linik Sans Black.
+Static SDF atlas: sharedassets0.assets:130, 512x512, padding5.
+99 original glyphs and character mappings. Source TTF is not embedded.
+Font and material values are recovered without substituting another typeface.
+Original shader: TextMeshPro/Distance Field, provided by Unity TMP essential resources.
+The custom Coton loading and home artwork is intentionally retained.

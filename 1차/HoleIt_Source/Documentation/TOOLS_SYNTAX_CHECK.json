@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-10-10T08:03:25.791454+00:00",
+  "python_ast": {
+    "status": "PASS",
+    "files": [
+      "Tools/validate_static.py",
+      "Tools/OfflineAuthoring/unity_assets.py",
+      "Tools/OfflineAuthoring/generate_models.py",
+      "Tools/OfflineAuthoring/campaign.py"
+    ]
+  },
+  "bash_syntax": {
+    "status": "PASS",
+    "exit_code": 0,
+    "stderr": ""
+  },
+  "powershell_execution": "NOT RUN",
+  "csharp_semantic_compile": "NOT RUN"
+}
