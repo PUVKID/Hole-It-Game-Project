@@ -1,0 +1,23 @@
+{
+  "Operation": "Lossless NTFS compression only; no source bytes changed or files deleted",
+  "Targets": [
+    "C:\\Users\\PUVKID\\Desktop\\Hole It\\6차\\Source\\Assets",
+    "C:\\Users\\PUVKID\\Desktop\\Hole It\\6차\\Gaeun_Hole_6.apk"
+  ],
+  "CatalogSHA256": "A1E19B9B3892385C3469CADADFAAB7B8D743695A167CA0A1AC6F1DA1CC3031BE",
+  "ApkSHA256": "95DA27F1FD7415F866A9239A55A3EE8720FEAE9B093608538BFD3CD05FD2A2E1",
+  "ChecksumsUnchanged": true,
+  "AdditionalLosslessCompression": {
+    "targets": [
+      "C:\\Users\\PUVKID\\Desktop\\Hole It\\1차",
+      "C:\\Users\\PUVKID\\Desktop\\Hole It\\2차",
+      "C:\\Users\\PUVKID\\Desktop\\Hole It\\3차",
+      "C:\\Users\\PUVKID\\Desktop\\Hole It\\4차",
+      "C:\\Users\\PUVKID\\Desktop\\Hole It\\5차"
+    ],
+    "method": "Windows compact.exe /C /S:<exact previous release directory> /I /Q",
+    "contentsDeleted": false,
+    "checksumScope": "Earlier recorded SHA256 checks cover edition 6 only; no before/after digest claim for editions 1-5.",
+    "completedUtc": "2026-10-13T08:29:08.905981+00:00"
+  }
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_Pillar
+  m_EditorClassIdentifier: ''
+  displayName: BOLLARD
+  objectId: Pillar
+  colorVariant: 0
+  footprintRadius: 0.322441
+  prefab: {fileID: 1000, guid: 0495fc536703056f4edad5021de428dc, type: 3}
+  icon: {fileID: 21300000, guid: 3b227141ff60c6a6619fb039d28e3a07, type: 3}
+  uiColor: {r: 0.25, g: 0.29, b: 0.37, a: 1.0}
+  objectType: 5
+  sizeTier: 1
+  score: 8
+  growthValue: 0.5
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.2749306">
+  <test-suite type="TestSuite" id="1014" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.274931" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1011" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.269308" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="68380" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.267731" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1009" name="AllLevelsHaveGoalsAndBoundedSceneObjects" fullname="ReferenceTests.AllLevelsHaveGoalsAndBoundedSceneObjects" methodname="AllLevelsHaveGoalsAndBoundedSceneObjects" classname="ReferenceTests" runstate="Runnable" seed="782998567" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:25:57Z" duration="3.978393" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="AllThirtyStagesCompleteThroughMouthAndStackSimulation" fullname="ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation" methodname="AllThirtyStagesCompleteThroughMouthAndStackSimulation" classname="ReferenceTests" runstate="Runnable" seed="1742182998" result="Passed" start-time="2026-10-12 19:25:57Z" end-time="2026-10-12 19:29:18Z" duration="200.493094" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="600000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="AuthoredArenaStopsMovementAtBorder" fullname="ReferenceTests.AuthoredArenaStopsMovementAtBorder" methodname="AuthoredArenaStopsMovementAtBorder" classname="ReferenceTests" runstate="Runnable" seed="255838515" result="Passed" start-time="2026-10-12 19:29:18Z" end-time="2026-10-12 19:29:18Z" duration="0.530368" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="BombLosesAndRetryResets" fullname="ReferenceTests.BombLosesAndRetryResets" methodname="BombLosesAndRetryResets" classname="ReferenceTests" runstate="Runnable" seed="2031595680" result="Passed" start-time="2026-10-12 19:29:18Z" end-time="2026-10-12 19:29:19Z" duration="0.715329" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="72120915" result="Passed" start-time="2026-10-12 19:29:19Z" end-time="2026-10-12 19:29:22Z" duration="3.179311" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1002" name="GrowthConsumesWeightedPointsAndCapsPhysicalSize" fullname="ReferenceTests.GrowthConsumesWeightedPointsAndCapsPhysicalSize" methodname="GrowthConsumesWeightedPointsAndCapsPhysicalSize" classname="ReferenceTests" runstate="Runnable" seed="1488146354" result="Passed" start-time="2026-10-12 19:29:22Z" end-time="2026-10-12 19:29:22Z" duration="0.075714" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="HoldingMovesAtSpeedLimitAndReleaseStops" fullname="ReferenceTests.HoldingMovesAtSpeedLimitAndReleaseStops" methodname="HoldingMovesAtSpeedLimitAndReleaseStops" classname="ReferenceTests" runstate="Runnable" seed="1356152327" result="Passed" start-time="2026-10-12 19:29:22Z" end-time="2026-10-12 19:29:23Z" duration="0.730979" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="JoystickIsBoundedVelocityNotTravelDistance" fullname="ReferenceTests.JoystickIsBoundedVelocityNotTravelDistance" methodname="JoystickIsBoundedVelocityNotTravelDistance" classname="ReferenceTests" runstate="Runnable" seed="1902536113" result="Passed" start-time="2026-10-12 19:29:23Z" end-time="2026-10-12 19:29:23Z" duration="0.077968" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="TimersPauseAndRetryUseOriginalBudget" fullname="ReferenceTests.TimersPauseAndRetryUseOriginalBudget" methodname="TimersPauseAndRetryUseOriginalBudget" classname="ReferenceTests" runstate="Runnable" seed="331620723" result="Passed" start-time="2026-10-12 19:29:23Z" end-time="2026-10-12 19:29:23Z" duration="0.476424" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-release-tests.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

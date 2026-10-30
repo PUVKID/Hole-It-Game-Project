@@ -1,0 +1,646 @@
+{
+  "type": "Single fresh full regression run; no case replacement/aggregation",
+  "canonicalXml": "Tests.xml",
+  "identicalRawXml": "Tests-final.xml",
+  "sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+  "result": "Failed(Child)",
+  "total": 81,
+  "passed": 80,
+  "failed": 1,
+  "skipped": 0,
+  "inconclusive": 0,
+  "end": "2026-10-13 10:34:44Z",
+  "sourceSnapshot": "FinalRegressionSourceHashes.json",
+  "sourceSnapshotUnchangedAtFinalization": true,
+  "postTestEditorOnlyChange": "ArchitecturePlan.json records the later two-ABI editor build configuration change. Runtime/test code remains the tested snapshot.",
+  "caseOutcomes": [
+    {
+      "fullname": "ReferenceAttendanceTests.AllTimesOnTheSameLocalDateShareOneClaim",
+      "id": "1004",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.CalendarTransitionsKeepSequentialAttendance(2026,1,31)",
+      "id": "1006",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.CalendarTransitionsKeepSequentialAttendance(2026,12,31)",
+      "id": "1007",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.CalendarTransitionsKeepSequentialAttendance(2028,2,28)",
+      "id": "1008",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.CalendarTransitionsKeepSequentialAttendance(2028,2,29)",
+      "id": "1009",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.ClockRollbackNeverReopensAnEarlierOrAlreadyClaimedDate",
+      "id": "1012",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.CoinOverflowAtCycleRolloverDoesNotAdvanceBoard",
+      "id": "1016",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.CoinOverflowRejectsWholeTransactionAndLeavesDateClaimable",
+      "id": "1015",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.FirstClaimPaysExactlyOneThousandAndRapidDuplicateClaimsDoNothing",
+      "id": "1002",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.LocalMidnightUnlocksNextClaimWithoutWaitingTwentyFourHours",
+      "id": "1003",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.MissedDaysPreserveProgressAndDoNotAwardUnclaimedDays",
+      "id": "1005",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.PreviousReleaseProfileGainsAttendanceWithoutLosingProgress",
+      "id": "1014",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.SavingAndReloadingKeepsSameDayBlockedAndNextDayAvailable",
+      "id": "1013",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTests.ThirtyOneClaimsCompleteBoardAndNextDateStartsNextCycle",
+      "id": "1011",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceAttendanceTouchTests.NativeTouchOpensClaimsOnceClosesAndKeepsRewardClaimed",
+      "id": "1018",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceCameraSettingsTests.CameraTweenStateIsFrameRateIndependentAndClampsHitchesToTweenEndpoints",
+      "id": "1026",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceCameraSettingsTests.CinemachineDampingLeavesOnePercentResidualAtAllSupportedFrameRates",
+      "id": "1025",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceCameraSettingsTests.GrowthDuringSizeBoosterPreservesExtraHeightWithoutFovInflation",
+      "id": "1024",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceCameraSettingsTests.GrowthHeightUsesPointFiveSecondOutCubicAndSourceDepthRatio",
+      "id": "1021",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceCameraSettingsTests.InterruptedGrowthKeepsCurrentViewAndInterpolatesTowardNewHeight",
+      "id": "1022",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceCameraSettingsTests.NormalCapSkipsCameraEventButSizeBoosterRecomputesActualTier",
+      "id": "1023",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceCameraSettingsTests.PlayFovUsesRuntimeFirstLaunchOverrideAndLinearPointThreeSecondTween",
+      "id": "1020",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceExtraTouchTests.ChallengeNativeTouchStartsFreePracticeAndHomeRestoresCampaign",
+      "id": "1028",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceExtraTouchTests.CollectionNativeTouchRendersActualModelAndNextKeepsCampaignSelection",
+      "id": "1029",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceFifthTests.CotonArtAndOriginalSoundsAreBundled",
+      "id": "1034",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceFifthTests.DenseAndLateStagesUseBoundedStableContacts",
+      "id": "1033",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceFifthTests.EveryAuthoredStageLoadsWithGoalsAndReachableStart",
+      "id": "1031",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceFifthTests.FreeFallUsesReferenceGravityAndPauseFreezesPhysics",
+      "id": "1032",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceFifthTests.MovementReachesAuthoredFloorBeyondInitialItemBounds",
+      "id": "1035",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceIndicatorTests.BehindCameraTargetsRemainFiniteAndVisibleAfterClamping",
+      "id": "1038",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceIndicatorTests.OffscreenMarkersKeepOriginalAsymmetricBuffersAndNeverCrossScreenEdges",
+      "id": "1037",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceIndicatorTests.RestoredLeftFacingArrowRotatesTowardTargetFromItsClampedPosition",
+      "id": "1039",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceMotionSettingsTests.GrowthAnimationEmitsOneExpansionCallbackAndRetargetsWithoutSnapping",
+      "id": "1046",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceMotionSettingsTests.GrowthHasBoundedDurationAndRestoresUniformScaleAfterSourceWidthPunch",
+      "id": "1045",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceMotionSettingsTests.LongAndDiagonalDragsStayBoundedWhilePartialInputRemainsAnalog",
+      "id": "1042",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceMotionSettingsTests.SpeedChangesAtExpansionCallbackAndCapMatchesNativeGuard",
+      "id": "1047",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceMotionSettingsTests.SpeedUsesActualPhysicalGrowthAndBoosterRestoresBaseline",
+      "id": "1041",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceMotionSettingsTests.VelocityIntegratesToSameTravelDistanceAtThirtySixtyAndOneTwentyFps",
+      "id": "1043",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceMotionSettingsTests.VisibleScaleAndContactRadiusRetainTheirDifferentSourceIncrements",
+      "id": "1044",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceProfileTests.CurrencyTransactionsAreAtomicAndFreePlayDoesNotConsume",
+      "id": "1050",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceProfileTests.LifeRefillPreservesPartialTimeAndCapsAtFive",
+      "id": "1049",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.ActualSourceApertureDropsOnlyBodiesThatPhysicallyFit(0.2f,0.0f,True)",
+      "id": "1058",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.ActualSourceApertureDropsOnlyBodiesThatPhysicallyFit(2.0f,0.0f,False)",
+      "id": "1059",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.ActualSourceApertureDropsOnlyBodiesThatPhysicallyFit(0.2f,2.0f,False)",
+      "id": "1060",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.NativePlacementMassSentinelsAndAuthoredGrowthAreRetained",
+      "id": "1054",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.NativeReleaseSettingsDifferFromSerializedAndDebugGravity",
+      "id": "1052",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.ObstacleAwakeOverridesPrefabDampingAndUsesItsOwnRestDelay",
+      "id": "1053",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.RecoveredComplexContactsStayWithinNativeConvexCookingLimit",
+      "id": "1057",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.SourceCompoundAndSpecialColliderMembershipIsRecovered",
+      "id": "1055",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.SourceFloorMeshHasPhysicalApertureAndOriginalExtent",
+      "id": "1056",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSeventhPhysicsTests.ZeroDeadZoneJoystickKeepsStationaryTouchFinite",
+      "id": "1062",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSixthContentTests.AuthoredBombsPillarsAndThemesMatchBundledData",
+      "id": "1072",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSixthContentTests.ChallengesDoNotAwardCurrencyOrChangeCampaignProgress",
+      "id": "1074",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSixthContentTests.EveryExtraMapLoadsWithAvailableGoalsAndReachableStart",
+      "id": "1073",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceSixthContentTests.RandomPoisonDoesNotReplaceThinPlateSupports",
+      "id": "1071",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.AllLevelsHaveGoalsAndBoundedSceneObjects",
+      "id": "1088",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation",
+      "id": "1089",
+      "result": "Failed"
+    },
+    {
+      "fullname": "ReferenceTests.AuthoredArenaStopsMovementAtBorder",
+      "id": "1077",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.BombLosesAndRetryResets",
+      "id": "1086",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.FirstStageCompletesUsingCappedMovement",
+      "id": "1087",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.GrowthConsumesWeightedPointsAndCapsPhysicalSize",
+      "id": "1076",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.GrowthOverlapAtBorderCanMoveBackInside",
+      "id": "1078",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.HoldingMovesAtSpeedLimitAndReleaseStops",
+      "id": "1081",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.JoystickIsBoundedVelocityNotTravelDistance",
+      "id": "1079",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.RotatedSourceFloorPreservesWalkableInteriorAtGrownRadius",
+      "id": "1083",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.StageNineLongBasketProbeExposesSupportUsingOnlyReachableHolePositions",
+      "id": "1082",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit",
+      "id": "1080",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.TightCapsuleTestProbesFollowItsActualAxisAndStartWithinClearance",
+      "id": "1084",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTests.TimersPauseAndRetryUseOriginalBudget",
+      "id": "1085",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTimingTests.CountdownAccountsForRealElapsedHitchWhileFreezeDiscardsFrozenTime",
+      "id": "1092",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTimingTests.EveryBoosterExpiresAndCanBeBoughtFromInventoryAgainWithoutDuplicateConsumption",
+      "id": "1093",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTimingTests.PlayWaitsForFirstJoystickGestureAndResumeDoesNotChargePauseTime",
+      "id": "1091",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTouchTests.FinderMarkersStayVisibleInOverlayAndCameraCanvasAndExpireCleanly",
+      "id": "1098",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTouchTests.FloatingTouchKeepsOwnerAndCancelStops",
+      "id": "1100",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTouchTests.FreePlayModeAndLevelPickerRespondToNativeTouch",
+      "id": "1101",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTouchTests.OriginalBombMessageRetainsItsLightSourcePanelAndDarkSourceText",
+      "id": "1097",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTouchTests.OriginalSettingsToggleAndFailureTypographyRemainUsable",
+      "id": "1096",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTouchTests.OriginalTypographyAndCanvasScalingSurviveScreenTransitions",
+      "id": "1095",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTouchTests.TouchPlaysDragsStopsAndResumes",
+      "id": "1099",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTypographyTests.ButtonAndTitleMaterialsKeepOriginalOutlineAndUnderlay",
+      "id": "1104",
+      "result": "Passed"
+    },
+    {
+      "fullname": "ReferenceTypographyTests.FontUsesOriginalAtlasAndMeasuredGlyphAdvance",
+      "id": "1103",
+      "result": "Passed"
+    }
+  ],
+  "campaignUnresolvedStages": [
+    13,
+    14,
+    26
+  ],
+  "historicalRunsNotCombined": [
+    {
+      "file": "Tests-before-final-20261013T103550Z.xml",
+      "sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+      "result": "Failed(Child)",
+      "total": "75",
+      "passed": "73",
+      "failed": "2",
+      "end": "2026-10-13 06:54:39Z"
+    },
+    {
+      "file": "Tests-campaign-all30-initial.xml",
+      "sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+      "result": "Failed(Child)",
+      "total": "4",
+      "passed": "3",
+      "failed": "1",
+      "end": "2026-10-13 09:28:35Z"
+    },
+    {
+      "file": "Tests-campaign-basket-failure.xml",
+      "sha256": "3180fec8be477e6a3d03615c75c7cd225a5cfd0cabb13736f8f882694fc14323",
+      "result": "Failed(Child)",
+      "total": "2",
+      "passed": "1",
+      "failed": "1",
+      "end": "2026-10-13 07:32:24Z"
+    },
+    {
+      "file": "Tests-campaign-diagonal-failure.xml",
+      "sha256": "cefaaa2069f407f97849be12b7a66d363e524230127177f1e48a74729291aa2e",
+      "result": "Failed(Child)",
+      "total": "4",
+      "passed": "3",
+      "failed": "1",
+      "end": "2026-10-13 08:23:18Z"
+    },
+    {
+      "file": "Tests-campaign-edge-failure.xml",
+      "sha256": "d61b72c8e092395fc5f372565e0202d17305fdfbeeaf8d166bbd739ce977a5e7",
+      "result": "Failed(Child)",
+      "total": "1",
+      "passed": "0",
+      "failed": "1",
+      "end": "2026-10-13 07:24:49Z"
+    },
+    {
+      "file": "Tests-campaign-exhaustion-failure.xml",
+      "sha256": "377da3d29bf6e79e4072b9f3a180dd6d068f58f9a5f99811b43ad72715846910",
+      "result": "Failed(Child)",
+      "total": "4",
+      "passed": "3",
+      "failed": "1",
+      "end": "2026-10-13 08:50:42Z"
+    },
+    {
+      "file": "Tests-campaign-intermittent-cluster-failure.xml",
+      "sha256": "3645e35bf79e5b32169e86106410b066bba2eb37bd45f0710534f31386ccd54e",
+      "result": "Failed(Child)",
+      "total": "4",
+      "passed": "3",
+      "failed": "1",
+      "end": "2026-10-13 09:03:25Z"
+    },
+    {
+      "file": "Tests-campaign.xml",
+      "sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+      "result": "Failed(Child)",
+      "total": "4",
+      "passed": "3",
+      "failed": "1",
+      "end": "2026-10-13 09:28:35Z"
+    },
+    {
+      "file": "Tests-initial.xml",
+      "sha256": "700093b9d3128b115d0a60856bbd57c908823422350e67541ebaeb40d4094a84",
+      "result": "Failed(Child)",
+      "total": "73",
+      "passed": "68",
+      "failed": "5",
+      "end": "2026-10-13 06:42:19Z"
+    },
+    {
+      "file": "Tests-remaining-normal.xml",
+      "sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+      "result": "Failed(Child)",
+      "total": "12",
+      "passed": "11",
+      "failed": "1",
+      "end": "2026-10-13 07:16:49Z"
+    },
+    {
+      "file": "Tests-remaining.xml",
+      "sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+      "result": "Failed(Child)",
+      "total": "12",
+      "passed": "11",
+      "failed": "1",
+      "end": "2026-10-13 07:16:49Z"
+    },
+    {
+      "file": "Tests-second.xml",
+      "sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+      "result": "Failed(Child)",
+      "total": "75",
+      "passed": "73",
+      "failed": "2",
+      "end": "2026-10-13 06:54:39Z"
+    },
+    {
+      "file": "TraceFocusedSix-before-rotated-floor.xml",
+      "sha256": "c63bddba2b71a2cb083c4838fdc5053c97c4bae6d63d3642684dce9c353dcc59",
+      "result": "Failed(Child)",
+      "total": "1",
+      "passed": "0",
+      "failed": "1",
+      "end": "2026-10-13 09:40:00Z"
+    },
+    {
+      "file": "TraceFocusedSix.xml",
+      "sha256": "6c8127d7f20b43e89888aa68f9cf09f1c5367c5d5b1d3355dab356c640b153d3",
+      "result": "Failed(Child)",
+      "total": "3",
+      "passed": "2",
+      "failed": "1",
+      "end": "2026-10-13 09:55:19Z"
+    },
+    {
+      "file": "TraceStage11-cluster-failure.xml",
+      "sha256": "299bd2686199e1213fbedf52b7697f21c0f92733fcb156ee0df6b79863e01ace",
+      "result": "Failed(Child)",
+      "total": "1",
+      "passed": "0",
+      "failed": "1",
+      "end": "2026-10-13 08:38:32Z"
+    },
+    {
+      "file": "TraceStage11-conservative-fit-failure.xml",
+      "sha256": "76e24aa0196014307c23a828c9ddb5cd9b419b4e66d9fb47160e3adcd40127a6",
+      "result": "Failed(Child)",
+      "total": "1",
+      "passed": "0",
+      "failed": "1",
+      "end": "2026-10-13 08:26:31Z"
+    },
+    {
+      "file": "TraceStage11-passed-before-geometry.xml",
+      "sha256": "780ee41d620f3f3c3bf3299470394683a97aaa6a1045f52a7858556775a4f3ec",
+      "result": "Passed",
+      "total": "1",
+      "passed": "1",
+      "failed": "0",
+      "end": "2026-10-13 08:41:54Z"
+    },
+    {
+      "file": "TraceStage11.xml",
+      "sha256": "c8c6d224fbb15d0be3cd3879b479fab0b0164540c7c1ae3bf6bb83344f7afd7a",
+      "result": "Passed",
+      "total": "1",
+      "passed": "1",
+      "failed": "0",
+      "end": "2026-10-13 09:07:38Z"
+    },
+    {
+      "file": "TraceStage14-centered-aim-failure.xml",
+      "sha256": "e8da1d213f42da41aeee58eb449fc6fdcd522afa46216d91eada396cb7a72554",
+      "result": "Failed(Child)",
+      "total": "1",
+      "passed": "0",
+      "failed": "1",
+      "end": "2026-10-13 08:54:40Z"
+    },
+    {
+      "file": "TraceStage14.xml",
+      "sha256": "7789493baa413bd916ecd4ad56d7a2248794616e7ebd72ff04854c8c8835077c",
+      "result": "Passed",
+      "total": "1",
+      "passed": "1",
+      "failed": "0",
+      "end": "2026-10-13 08:57:13Z"
+    },
+    {
+      "file": "TraceStage26.xml",
+      "sha256": "0d4e628316ac04e49930c7d68925832eaf606bdbfced071ecb2a4a66fd17e754",
+      "result": "Failed(Child)",
+      "total": "2",
+      "passed": "1",
+      "failed": "1",
+      "end": "2026-10-13 10:02:41Z"
+    },
+    {
+      "file": "TraceStage3.xml",
+      "sha256": "e8cf19d2b08d0fb966efc4f5b2ed71c18effd16eef0d565bdf1299e2b07cfe65",
+      "result": "Passed",
+      "total": "1",
+      "passed": "1",
+      "failed": "0",
+      "end": "2026-10-13 07:00:26Z"
+    },
+    {
+      "file": "TraceStage9-wide-probes-failure.xml",
+      "sha256": "ec752c4594f298af570bdcc0d51d3655414eb339f6ac32498159461ad4d85ad1",
+      "result": "Failed(Child)",
+      "total": "2",
+      "passed": "1",
+      "failed": "1",
+      "end": "2026-10-13 07:37:52Z"
+    },
+    {
+      "file": "TraceStage9.xml",
+      "sha256": "8c29a0902e6a46e2f2a5f45464df907d1a8833c3279b3cb21d78f9fd2781e09f",
+      "result": "Passed",
+      "total": "3",
+      "passed": "3",
+      "failed": "0",
+      "end": "2026-10-13 07:45:25Z"
+    }
+  ]
+}

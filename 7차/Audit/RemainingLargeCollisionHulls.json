@@ -1,0 +1,34 @@
+[
+  {
+    "mesh": "G-4494295972605348666",
+    "models": [
+      14
+    ],
+    "hullVertices": 542,
+    "hullTriangles": 1080
+  },
+  {
+    "mesh": "G-4952678351463023605",
+    "models": [
+      34
+    ],
+    "hullVertices": 662,
+    "hullTriangles": 1320
+  },
+  {
+    "mesh": "G8186878611941021423",
+    "models": [
+      115
+    ],
+    "hullVertices": 214,
+    "hullTriangles": 424
+  },
+  {
+    "mesh": "G4136433066467917765",
+    "models": [
+      116
+    ],
+    "hullVertices": 229,
+    "hullTriangles": 454
+  }
+]

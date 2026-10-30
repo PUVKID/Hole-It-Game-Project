@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_DuckS
+  m_EditorClassIdentifier: 
+  displayName: RUBBER DUCK
+  objectId: DuckS
+  colorVariant: 0
+  footprintRadius: 0.559151
+  prefab: {fileID: 1000, guid: 5b45591caa3391bd26820533320b5916, type: 3}
+  icon: {fileID: 21300000, guid: a5942079e1488bbe2bfffb590b5f412e, type: 3}
+  uiColor: {r: 1, g: 0.77, b: 0.08, a: 1}
+  stackHeight: 0.8166636
+  objectType: 8
+  sizeTier: 1
+  score: 12
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

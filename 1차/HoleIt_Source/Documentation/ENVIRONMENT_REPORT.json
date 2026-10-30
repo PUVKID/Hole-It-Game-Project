@@ -1,0 +1,15 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "unity_executable": null,
+  "dotnet_executable": null,
+  "mcs_executable": null,
+  "csc_executable": null,
+  "unity_wrapper_preflight": {
+    "command": "bash Tools/unity.sh validate",
+    "exit_code": 69,
+    "stderr": "BLOCKED: set UNITY_EDITOR to an installed Unity 6000.3.6f1 Editor executable."
+  },
+  "actual_unity_invoked": false,
+  "portable_python_syntax": "PASS"
+}

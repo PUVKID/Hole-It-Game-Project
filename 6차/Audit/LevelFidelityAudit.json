@@ -1,0 +1,243 @@
+{
+  "source": "Hole+it! 1.31.17 user-supplied XAPK",
+  "mainOrderEntries": 465,
+  "uniqueMainLayouts": 463,
+  "extraChallengeLayouts": 111,
+  "allUniqueLayouts": 574,
+  "uniqueCollectibleModels": 1010,
+  "addedModels": 141,
+  "campaignThemeCounts": {
+    "0": 465
+  },
+  "themes": [
+    {
+      "themeIndex": 0,
+      "variationFolder": 1,
+      "shadowStrength": 0.6,
+      "characterStartRadiusField": 0.62,
+      "holeGlowMaterialPathID": 34
+    },
+    {
+      "themeIndex": 1,
+      "variationFolder": 2,
+      "shadowStrength": 1,
+      "characterStartRadiusField": 0.62,
+      "holeGlowMaterialPathID": 38
+    },
+    {
+      "themeIndex": 2,
+      "variationFolder": 3,
+      "shadowStrength": 1,
+      "characterStartRadiusField": 0.28,
+      "holeGlowMaterialPathID": 35
+    },
+    {
+      "themeIndex": 3,
+      "variationFolder": 8,
+      "shadowStrength": 1,
+      "characterStartRadiusField": 0.28,
+      "holeGlowMaterialPathID": 37
+    },
+    {
+      "themeIndex": 4,
+      "variationFolder": 9,
+      "shadowStrength": 0.6,
+      "characterStartRadiusField": 0.62,
+      "holeGlowMaterialPathID": 36
+    }
+  ],
+  "authoredBombStages": [
+    {
+      "stage": 96,
+      "source": "00686",
+      "count": 5
+    },
+    {
+      "stage": 122,
+      "source": "00668",
+      "count": 6
+    },
+    {
+      "stage": 127,
+      "source": "00819_v2",
+      "count": 1
+    },
+    {
+      "stage": 148,
+      "source": "00659",
+      "count": 1
+    },
+    {
+      "stage": 166,
+      "source": "00812",
+      "count": 2
+    },
+    {
+      "stage": 192,
+      "source": "00674",
+      "count": 1
+    },
+    {
+      "stage": 218,
+      "source": "00673",
+      "count": 17
+    },
+    {
+      "stage": 252,
+      "source": "00942",
+      "count": 1
+    },
+    {
+      "stage": 269,
+      "source": "00671",
+      "count": 1
+    },
+    {
+      "stage": 271,
+      "source": "00695",
+      "count": 7
+    },
+    {
+      "stage": 278,
+      "source": "00666",
+      "count": 10
+    },
+    {
+      "stage": 305,
+      "source": "00642",
+      "count": 1
+    },
+    {
+      "stage": 312,
+      "source": "00655",
+      "count": 2
+    },
+    {
+      "stage": 352,
+      "source": "00829",
+      "count": 7
+    },
+    {
+      "stage": 361,
+      "source": "00805",
+      "count": 8
+    },
+    {
+      "stage": 367,
+      "source": "00802",
+      "count": 5
+    },
+    {
+      "stage": 373,
+      "source": "00803",
+      "count": 5
+    },
+    {
+      "stage": 377,
+      "source": "00828",
+      "count": 1
+    },
+    {
+      "stage": 388,
+      "source": "00838",
+      "count": 2
+    },
+    {
+      "stage": 389,
+      "source": "00864",
+      "count": 3
+    },
+    {
+      "stage": 391,
+      "source": "00865",
+      "count": 4
+    },
+    {
+      "stage": 397,
+      "source": "00513",
+      "count": 2
+    },
+    {
+      "stage": 400,
+      "source": "00866",
+      "count": 9
+    },
+    {
+      "stage": 406,
+      "source": "00503_v2",
+      "count": 5
+    },
+    {
+      "stage": 410,
+      "source": "00856",
+      "count": 2
+    },
+    {
+      "stage": 411,
+      "source": "00868",
+      "count": 4
+    },
+    {
+      "stage": 420,
+      "source": "00850",
+      "count": 4
+    },
+    {
+      "stage": 421,
+      "source": "00851",
+      "count": 6
+    },
+    {
+      "stage": 424,
+      "source": "00525",
+      "count": 1
+    },
+    {
+      "stage": 430,
+      "source": "00852",
+      "count": 3
+    },
+    {
+      "stage": 433,
+      "source": "00863",
+      "count": 9
+    },
+    {
+      "stage": 448,
+      "source": "00857",
+      "count": 4
+    },
+    {
+      "stage": 461,
+      "source": "00859_v2",
+      "count": 4
+    },
+    {
+      "stage": 462,
+      "source": "00872",
+      "count": 6
+    },
+    {
+      "stage": 464,
+      "source": "00848",
+      "count": 4
+    }
+  ],
+  "pillarStages": [
+    {
+      "stage": 412,
+      "count": 24
+    }
+  ],
+  "mainPlacements": 637825,
+  "challengePlacements": 199473,
+  "newGeometryBytes": 57258576,
+  "evidence": {
+    "themeSelect": "ARM SpawnLevelFromData 0x17D8020 reads currentLevelSaveInfo.th (+0x18), 0x17D8110 calls EnvironmentVariantSo.GetEnvironmentInfo; default/invalid=0 unless debug override",
+    "themeCtor": "LevelSaveVariables..ctor 0x18AF048 does not initialize th, so omitted JSON is 0",
+    "variantGetter": "0x193DFD8 uses supplied zero-based index directly",
+    "variantOrder": "EnvironmentVariantSo sharedassets2.assets pathID540, matched AssetReference GUIDs to catalog.bin and exact prefab names",
+    "obstacleEnum": "dump.cs ObstacleType.None=0 Poison=1",
+    "demoWall": "EnvironmentManager.OnEnable 0x19757D4 disables DemoWall while Application.isPlaying"
+  }
+}

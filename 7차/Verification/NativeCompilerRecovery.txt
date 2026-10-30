@@ -1,0 +1,58 @@
+Android native build recovery, edition 7
+
+The first build stopped in bundled Android NDK clang 18.0.3 during the ARM64
+Register Coalescer pass for generated EqualityComparer.CreateComparer code in
+Generics__28.cpp. Exception: 0xC0000005. It was not a C# compilation error.
+The exact compiler command then succeeded in isolation with exit code 0,
+without modifying source, the NDK, or optimization settings.
+
+The first incremental Unity retry used process-scoped BEE_BUILD_THREADS=8 and
+-job-worker-count 8, but reached an explicit No space left on device error during
+native linking. Completed Windows caches were removed and NTFS compression was
+applied to this edition's files without changing their bytes. The next retry used
+BEE_BUILD_THREADS=1 and -job-worker-count 4 to serialize native jobs.
+Build-Android.ps1 defaults Bee to 8 only if the caller has
+not supplied a value, restoring the process environment when it exits.
+The original crash cause is not proven. Resource pressure is only a hypothesis.
+
+Unity documents the Bee environment variable in its editor release notes:
+https://unity.com/es/releases/editor/whats-new/6000.0.33f1
+The installed bee_backend binary also contains BEE_BUILD_THREADS.
+
+Later Unity retries completed native linking and symbol processing for ARMv7,
+ARM64 and x86_64, then generated the Android Gradle project. Unity's Gradle
+assembleRelease stage stopped with insufficient disk space. The original
+AndroidBuild.txt and AndroidBuild logs remain failed; they must not be rewritten
+as a successful Unity build.
+
+The generated Gradle project was checked before recovery: it has no buildIl2Cpp
+task, its CMake input paths remain available, and its native debug symbol level
+is none. Regenerable native compilation/symbol caches were removed while the
+generated Gradle project, game data and all nine native JNI library inputs were
+preserved. GradleRecoveryCacheCleanup.json records the preserved native hashes.
+The recovery uses the same Gradle assembleRelease task against those existing
+inputs without changing Assets, ProjectSettings, native libraries, the SDK, or
+native optimization flags. This paragraph does not claim that recovery passed.
+
+The release packager accepts either the existing Unity Succeeded/Errors: 0
+report or a separate Gradle recovery result. The recovery route requires all of:
+AndroidGradleBuild.txt recording Gradle assembleRelease: Succeeded and exit code
+0; AndroidGradleBuild.log containing BUILD SUCCESSFUL without BUILD FAILED; and
+the recorded APK SHA256 matching the APK actually packaged. Verification's
+BuildRoute.json records the selected route and the hashes of its evidence files.
+
+Successful APK build, signing, alignment, and installation/runtime verification
+must be read separately from AndroidBuild.txt or AndroidGradleBuild.txt,
+AndroidGradleBuild.log, ApkSignature.txt, ApkAlignment.txt and the AndroidQA
+reports. Neither an isolated compiler retry nor this recovery plan proves a
+completed APK, valid signature, or successful Android runtime test.
+
+Superseded build inputs (2026-10-13, rotated-floor correction)
+The generated native/Gradle inputs described above were discarded before any
+APK was delivered. The later verified runtime fix changes floor membership to
+respect authored rotation in 27 campaign stages. It changes actual gameplay,
+so the old native inputs cannot be used for the final release.
+ObsoleteAndroidCacheCleanup.json and ObsoleteGradleTransformCacheCleanup.json
+record removal of those regenerable caches. SourceBuildManifestWorkflow.txt
+now requires a fresh C# snapshot and a new successful native build. No fresh
+build success is asserted by this historical recovery note.

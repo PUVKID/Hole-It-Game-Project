@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!30 &1
+GraphicsSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 16
+  m_CustomRenderPipeline: {fileID: 0}
+  m_DefaultRenderingPath: 1
+  m_DefaultMobileRenderingPath: 1
+  m_AlwaysIncludedShaders:
+  - {fileID: 4800000, guid: 1b46fa412e7eccbfa612f43396c20c20, type: 3}
+  - {fileID: 4800000, guid: c33e3b9ee1fbe65dc832a10121e23dd3, type: 3}
+  - {fileID: 4800000, guid: d40a95287a7e4ffac496c5ee6ab98796, type: 3}
+  - {fileID: 4800000, guid: a3f1385062678ff191694d7cf6349b82, type: 3}
+  - {fileID: 4800000, guid: ec2c916893dd398a524c54c5565e5ae8, type: 3}
+  m_PreloadedShaders: []
+  m_LightmapStripping: 0
+  m_FogStripping: 0
+  m_InstancingStripping: 0
+  m_BrgStripping: 0
+  m_LightsUseLinearIntensity: 0
+  m_LightsUseColorTemperature: 0
+  m_LogWhenShaderIsCompiled: 0

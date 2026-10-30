@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 08:25:36Z" end-time="2026-10-13 08:26:31Z" duration="55.2811568">
+  <test-suite type="TestSuite" id="1103" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-10-13 08:25:36Z" end-time="2026-10-13 08:26:31Z" duration="55.281157" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1100" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="82" result="Failed" site="Child" start-time="2026-10-13 08:25:36Z" end-time="2026-10-13 08:26:31Z" duration="55.273818" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="84092" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1063" name="ReferenceSeventhStageProbeTests" fullname="ReferenceSeventhStageProbeTests" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-13 08:25:36Z" end-time="2026-10-13 08:26:31Z" duration="55.270549" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1064" name="StageElevenDiagonalSupportTrace" fullname="ReferenceSeventhStageProbeTests.StageElevenDiagonalSupportTrace" methodname="StageElevenDiagonalSupportTrace" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" seed="1730541203" result="Failed" start-time="2026-10-13 08:25:36Z" end-time="2026-10-13 08:26:31Z" duration="55.261544" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="160000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  sim=186.64 collected=345 hole=(16.20, 0.00, -36.73) aperture=1.497 active=0 target=none
+  Expected: Won
+  But was:  Playing
+]]></message>
+            <stack-trace><![CDATA[at ReferenceSeventhStageProbeTests+<StageElevenDiagonalSupportTrace>d__0.MoveNext () [0x00299] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhStageProbeTests.cs:23
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\TraceStage11.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

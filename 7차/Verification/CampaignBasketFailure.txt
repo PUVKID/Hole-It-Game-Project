@@ -1,0 +1,10 @@
+Physical reachability audit. Test teleports between targets at timeScale4 with the original0.02s physics step; this is NOT a human timing benchmark. Source timers are informational. Watchdogs:45 simulated seconds without collection progress,1200 simulated seconds/stage,30 real minutes overall.
+Level 1: Won; collected=30; radius=1.066; simulated=6.04; realElapsed=1.51; sourceBudget=300; goals=6,15,9; stop=state
+Level 2: Won; collected=200; radius=1.289; simulated=37.22; realElapsed=9.26; sourceBudget=240; goals=1,18; stop=state
+Level 3: Won; collected=323; radius=1.512; simulated=63.26; realElapsed=15.77; sourceBudget=240; goals=1,2,2; stop=state
+Level 4: Won; collected=519; radius=1.735; simulated=65.54; realElapsed=16.33; sourceBudget=210; goals=200,88,228,3; stop=state
+Level 5: Won; collected=798; radius=1.958; simulated=93.70; realElapsed=23.37; sourceBudget=150; goals=4; stop=state
+Level 6: Won; collected=391; radius=1.958; simulated=98.30; realElapsed=24.49; sourceBudget=110; goals=2,2,7; stop=state
+Level 7: Won; collected=759; radius=1.958; simulated=124.27; realElapsed=31.01; sourceBudget=120; goals=66,3,4,3,4; stop=state
+Level 8: Won; collected=1001; radius=2.404; simulated=152.22; realElapsed=37.86; sourceBudget=120; goals=23,28,10,4,2; stop=state
+Level 9: Playing; collected=807; radius=2.181; simulated=148.69; realElapsed=37.09; sourceBudget=160; goals=2,2,9; stop=45 simulated seconds without collection progress; diagnostic=sim=148.69 collected=807 hole=(-11.78, 0.00, -2.07) aperture=1.881 active=1 target=641/71/Basket pivot=(-11.78, 0.08, -2.37) fit=1.546 bottom=0.082 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=7 latch=False initial=False activeBoundsCenter=(-11.78, 0.50, -2.38) size=(3.95, 0.83, 2.36) enabled=5 detection=True floorRayY=aperture; remaining=71:Basket radius=1.174278 bottom=0.08150002 position=(-11.78, 0.08, -2.37); 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_SodaS
+  m_EditorClassIdentifier: ''
+  displayName: SODA CAN
+  objectId: SodaS
+  colorVariant: 0
+  footprintRadius: 0.24775
+  prefab: {fileID: 1000, guid: 3a880213aeb91bb78709e3300a9f0c03, type: 3}
+  icon: {fileID: 21300000, guid: 8e0cf55cf54caca56b55840a19fa3de4, type: 3}
+  uiColor: {r: 0.25, g: 0.74, b: 0.98, a: 1.0}
+  objectType: 2
+  sizeTier: 1
+  score: 8
+  growthValue: 0.6
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

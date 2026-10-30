@@ -1,0 +1,15 @@
+Physical reachability audit. Test teleports between targets at timeScale4 with the original0.02s physics step; this is NOT a human timing benchmark. Source timers are informational. Watchdogs:45 simulated seconds without collection progress,1200 simulated seconds/stage,30 real minutes overall.
+Level 1: Won; collected=30; radius=1.066; simulated=6.38; realElapsed=1.60; sourceBudget=300; goals=6,15,9; stop=state
+Level 2: Won; collected=225; radius=1.289; simulated=43.08; realElapsed=10.74; sourceBudget=240; goals=1,18; stop=state
+Level 3: Won; collected=293; radius=1.512; simulated=57.40; realElapsed=14.32; sourceBudget=240; goals=1,2,2; stop=state
+Level 4: Won; collected=519; radius=1.735; simulated=67.30; realElapsed=16.78; sourceBudget=210; goals=200,88,228,3; stop=state
+Level 5: Won; collected=779; radius=1.958; simulated=89.20; realElapsed=22.24; sourceBudget=150; goals=4; stop=state
+Level 6: Won; collected=396; radius=1.958; simulated=115.79; realElapsed=28.87; sourceBudget=110; goals=2,2,7; stop=state
+Level 7: Won; collected=743; radius=1.958; simulated=189.02; realElapsed=47.20; sourceBudget=120; goals=66,3,4,3,4; stop=state
+Level 8: Won; collected=1027; radius=2.404; simulated=163.22; realElapsed=40.63; sourceBudget=120; goals=23,28,10,4,2; stop=state
+Level 9: Won; collected=803; radius=2.181; simulated=103.95; realElapsed=25.91; sourceBudget=160; goals=2,3,9; stop=state
+Level 10: Won; collected=982; radius=1.958; simulated=138.41; realElapsed=34.52; sourceBudget=130; goals=138,6,6; stop=state
+Level 11: Won; collected=358; radius=1.735; simulated=169.96; realElapsed=42.42; sourceBudget=135; goals=24,43,9,10,4; stop=state
+Level 12: Won; collected=767; radius=2.181; simulated=124.79; realElapsed=31.13; sourceBudget=120; goals=8,8,30; stop=state
+Level 13: Won; collected=711; radius=2.181; simulated=150.32; realElapsed=37.54; sourceBudget=110; goals=; stop=state
+Level 14: Playing; collected=1003; radius=2.181; simulated=242.17; realElapsed=60.36; sourceBudget=115; goals=120,75,4,26,1; stop=45 simulated seconds without collection progress; diagnostic=sim=242.17 collected=1003 hole=(-7.59, 0.00, -2.99) aperture=1.881 active=1 target=none; remaining=113:Arcade Machine radius=1.288847 bottom=-0.290247 position=(-7.58, 1.50, -3.29); 

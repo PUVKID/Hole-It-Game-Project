@@ -1,0 +1,33 @@
+Stage 1 test-only accelerated physical trace.
+New input attempt 48 at 0.06
+sim=0.06 collected=0 hole=(0.00, 0.00, -21.65) aperture=0.538 active=22 target=3/11/Cat pivot=(0.00, -0.08, -21.60) fit=0.262 bottom=-0.084 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(0.00, 0.12, -21.69) size=(0.41, 0.41, 0.41) enabled=2 detection=True floorRayY=aperture
+New input attempt 63 at 0.18
+New input attempt 63 at 0.52
+New input attempt 63 at 0.58
+New input attempt 112 at 0.66
+New input attempt 127 at 0.78
+New input attempt 127 at 1.06
+New input attempt 80 at 1.26
+New input attempt 95 at 1.38
+New input attempt 95 at 1.66
+New input attempt 16 at 1.86
+New input attempt 31 at 1.98
+New input attempt 288 at 2.26
+New input attempt 303 at 2.32
+New input attempt 303 at 2.66
+New input attempt 303 at 2.86
+New input attempt 352 at 2.92
+New input attempt 367 at 3.06
+New input attempt 367 at 3.32
+New input attempt 448 at 3.58
+New input attempt 463 at 3.72
+New input attempt 463 at 3.98
+New input attempt 208 at 4.06
+New input attempt 223 at 4.12
+New input attempt 223 at 4.46
+New input attempt 176 at 4.52
+New input attempt 191 at 4.66
+New input attempt 191 at 4.92
+New input attempt 144 at 5.06
+New input attempt 159 at 5.12
+sim=5.12 collected=27 hole=(-1.51, 0.00, -17.04) aperture=0.730 active=3 target=9/7/Duck Yellow pivot=(-1.50, -0.12, -17.07) fit=0.345 bottom=-0.420 kinematic=False velocity=(0.00, -4.90, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-1.51, -0.12, -17.03) size=(0.38, 0.60, 0.63) enabled=3 detection=True floorRayY=aperture

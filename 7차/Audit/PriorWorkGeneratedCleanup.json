@@ -1,0 +1,21 @@
+{
+  "Utc": "2026-10-13T10:49:50.6138676Z",
+  "RemovedGeneratedOnly": [
+    {
+      "Path": "C:\\Users\\PUVKID\\Documents\\Codex\\2026-10-13\\new-chat\\work\\PocketPit\\Builds\\Windows",
+      "LogicalBytes": 111700720.0
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Documents\\Codex\\2026-10-13\\new-chat\\work\\AndroidBuild\\.utmp",
+      "LogicalBytes": 4064109.0
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Documents\\Codex\\2026-10-13\\new-chat\\work\\AndroidFinal\\.utmp",
+      "LogicalBytes": 4188065.0
+    }
+  ],
+  "FreeBytesBefore": 507641856,
+  "FreeBytesAfter": 575238144,
+  "PreviousDesktopEditionsPreserved": true,
+  "SourceAndInputArchivesPreserved": true
+}

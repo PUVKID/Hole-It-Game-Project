@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:17:54Z" end-time="2026-10-12 19:18:52Z" duration="58.4733613">
+  <test-suite type="TestSuite" id="1013" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:17:54Z" end-time="2026-10-12 19:18:52Z" duration="58.473361" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1010" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:17:54Z" end-time="2026-10-12 19:18:52Z" duration="58.467722" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="74228" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:17:54Z" end-time="2026-10-12 19:18:52Z" duration="58.466450" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1009" name="AllThirtyStagesCompleteThroughMouthAndStackSimulation" fullname="ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation" methodname="AllThirtyStagesCompleteThroughMouthAndStackSimulation" classname="ReferenceTests" runstate="Runnable" seed="455046969" result="Failed" start-time="2026-10-12 19:17:54Z" end-time="2026-10-12 19:18:52Z" duration="58.459137" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="600000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Stage 7 collected 755 radius 1.592
+  Expected: Won
+  But was:  Playing
+]]></message>
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__13.MoveNext () [0x00198] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:22
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-size-diagnostic.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

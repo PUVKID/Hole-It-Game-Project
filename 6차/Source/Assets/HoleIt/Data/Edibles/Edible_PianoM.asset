@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_PianoM
+  m_EditorClassIdentifier: 
+  displayName: TOY PIANO
+  objectId: PianoM
+  colorVariant: 0
+  footprintRadius: 0.9517
+  prefab: {fileID: 1000, guid: 850a45bc608fc2d9beee2cbb54ce8c00, type: 3}
+  icon: {fileID: 21300000, guid: 437faaddfd6d6b4f62b6a84f973e44b1, type: 3}
+  uiColor: {r: 0.18, g: 0.12, b: 0.3, a: 1}
+  stackHeight: 1.0625572
+  objectType: 8
+  sizeTier: 2
+  score: 32
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

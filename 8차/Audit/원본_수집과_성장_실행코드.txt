@@ -1,0 +1,1779 @@
+
+함수: HoleProgressBar$$DrawProgressBar / 주소: 0x18b88a4
+18b88a4: push {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+18b88a8: sub sp, sp, #4
+18b88ac: vpush {d8, d9, d10}
+18b88b0: sub sp, sp, #8
+18b88b4: ldr r4, [pc, #0x488] 값:88ad2004 실수:1.8887591e-36
+18b88b8: mov r5, r0
+18b88bc: vmov s16, r1
+18b88c0: mov r8, r1
+18b88c4: add r4, pc, r4
+18b88c8: ldrb r0, [r4]
+18b88cc: cmp r0, #0
+18b88d0: bne #0x18b8990
+18b88d4: ldr r0, [pc, #0x46c] 값:d83dfe03 실수:1.4942977e-36
+18b88d8: ldr r0, [pc, r0]
+18b88dc: bl #0x161f5e0 
+18b88e0: ldr r0, [pc, #0x464] 값:d03dfe03 실수:1.494297e-36
+18b88e4: ldr r0, [pc, r0]
+18b88e8: bl #0x161f5e0 
+18b88ec: ldr r0, [pc, #0x45c] 값:c83dfe03 실수:1.4942963e-36
+18b88f0: ldr r0, [pc, r0]
+18b88f4: bl #0x161f5e0 
+18b88f8: ldr r0, [pc, #0x454] 값:9872fe03 실수:1.4955088e-36
+18b88fc: ldr r0, [pc, r0]
+18b8900: bl #0x161f5e0 
+18b8904: ldr r0, [pc, #0x44c] 값:9072fe03 실수:1.4955081e-36
+18b8908: ldr r0, [pc, r0]
+18b890c: bl #0x161f5e0 
+18b8910: ldr r0, [pc, #0x444] 값:8872fe03 실수:1.4955073e-36
+18b8914: ldr r0, [pc, r0]
+18b8918: bl #0x161f5e0 
+18b891c: ldr r0, [pc, #0x43c] 값:8072fe03 실수:1.4955066e-36
+18b8920: ldr r0, [pc, r0]
+18b8924: bl #0x161f5e0 
+18b8928: ldr r0, [pc, #0x434] 값:7872fe03 실수:1.4955059e-36
+18b892c: ldr r0, [pc, r0]
+18b8930: bl #0x161f5e0 
+18b8934: ldr r0, [pc, #0x42c] 값:7072fe03 실수:1.4955052e-36
+18b8938: ldr r0, [pc, r0]
+18b893c: bl #0x161f5e0 
+18b8940: ldr r0, [pc, #0x424] 값:6872fe03 실수:1.4955045e-36
+18b8944: ldr r0, [pc, r0]
+18b8948: bl #0x161f5e0 
+18b894c: ldr r0, [pc, #0x41c] 값:6072fe03 실수:1.4955037e-36
+18b8950: ldr r0, [pc, r0]
+18b8954: bl #0x161f5e0 
+18b8958: ldr r0, [pc, #0x414] 값:5872fe03 실수:1.495503e-36
+18b895c: ldr r0, [pc, r0]
+18b8960: bl #0x161f5e0 
+18b8964: ldr r0, [pc, #0x40c] 값:5072fe03 실수:1.4955023e-36
+18b8968: ldr r0, [pc, r0]
+18b896c: bl #0x161f5e0 
+18b8970: ldr r0, [pc, #0x404] 값:4872fe03 실수:1.4955016e-36
+18b8974: ldr r0, [pc, r0]
+18b8978: bl #0x161f5e0 
+18b897c: ldr r0, [pc, #0x3fc] 값:4072fe03 실수:1.4955009e-36
+18b8980: ldr r0, [pc, r0]
+18b8984: bl #0x161f5e0 
+18b8988: mov r0, #1
+18b898c: strb r0, [r4]
+18b8990: ldr r4, [r5, #0x10]
+18b8994: vstr s16, [r5, #0x38]
+18b8998: cmp r4, #0
+18b899c: bne #0x18b89a4
+18b89a0: bl #0x161f890 
+18b89a4: mov r0, r4
+18b89a8: mov r1, #0
+18b89ac: bl #0x26d5e2c 
+18b89b0: mov r4, r0
+18b89b4: cmp r0, #0
+18b89b8: bne #0x18b89c0
+18b89bc: bl #0x161f890 
+18b89c0: vcmp.f32 s16, #0
+18b89c4: mov r1, #0
+18b89c8: vmrs apsr_nzcv, fpscr
+18b89cc: mov r0, r4
+18b89d0: mov r2, #0
+18b89d4: movwgt r1, #1
+18b89d8: bl #0x26d64b4 
+18b89dc: ldr r4, [r5, #0x14]
+18b89e0: cmp r4, #0
+18b89e4: bne #0x18b89ec
+18b89e8: bl #0x161f890 
+18b89ec: mov r0, r4
+18b89f0: mov r1, #0
+18b89f4: bl #0x26d5e2c 
+18b89f8: mov r4, r0
+18b89fc: cmp r0, #0
+18b8a00: bne #0x18b8a08
+18b8a04: bl #0x161f890 
+18b8a08: vcmp.f32 s16, #0
+18b8a0c: mov r1, #0
+18b8a10: vmrs apsr_nzcv, fpscr
+18b8a14: mov r0, r4
+18b8a18: mov r2, #0
+18b8a1c: movwgt r1, #1
+18b8a20: bl #0x26d64b4 
+18b8a24: vcmp.f32 s16, #0
+18b8a28: vmrs apsr_nzcv, fpscr
+18b8a2c: ble #0x18b8d34
+18b8a30: ldr sl, [pc, #0x34c] 값:7c3cfe03 실수:1.4942665e-36
+18b8a34: ldr sl, [pc, sl]
+18b8a38: vldr s18, [r5, #0x18]
+18b8a3c: vldr s20, [r5, #0x1c]
+18b8a40: ldr r0, [sl]
+18b8a44: bl #0x161f884 
+18b8a48: mov r6, r0
+18b8a4c: ldr r0, [pc, #0x334] 값:3871fe03 실수:1.4954772e-36
+18b8a50: mov r1, r5
+18b8a54: mov r3, #0
+18b8a58: mov sb, #0
+18b8a5c: ldr r0, [pc, r0]
+18b8a60: ldr r2, [r0]
+18b8a64: mov r0, r6
+18b8a68: bl #0x308f3bc DG.Tweening.Core.DOGetter<float>$$.ctor
+18b8a6c: ldr fp, [pc, #0x318] 값:443cfe03 실수:1.4942615e-36
+18b8a70: ldr fp, [pc, fp]
+18b8a74: ldr r0, [fp]
+18b8a78: bl #0x161f884 
+18b8a7c: mov r4, r0
+18b8a80: ldr r0, [pc, #0x308] 값:1471fe03 실수:1.495474e-36
+18b8a84: mov r1, r5
+18b8a88: mov r3, #0
+18b8a8c: ldr r0, [pc, r0]
+18b8a90: ldr r2, [r0]
+18b8a94: mov r0, r4
+18b8a98: bl #0x30906c8 DG.Tweening.Core.DOSetter<float>$$.ctor
+18b8a9c: vsub.f32 s0, s18, s20
+18b8aa0: ldr r0, [pc, #0x2ec] 값:143cfe03 실수:1.4942572e-36
+18b8aa4: ldr r0, [pc, r0]
+18b8aa8: ldr r0, [r0]
+18b8aac: vmls.f32 s18, s0, s16
+18b8ab0: ldr r1, [r0, #0x74]
+18b8ab4: cmp r1, #0
+18b8ab8: bne #0x18b8ac0
+18b8abc: bl #0x161f754 
+18b8ac0: vmov r7, s18
+18b8ac4: mov r0, r6
+18b8ac8: mov r1, r4
+18b8acc: mov r3, #0x3e800000
+18b8ad0: str sb, [sp]
+18b8ad4: mov r2, r7
+18b8ad8: bl #0x199fff4 DG.Tweening.DOTween$$To
+18b8adc: ldr r0, [sl]
+18b8ae0: bl #0x161f884 
+18b8ae4: mov r4, r0
+18b8ae8: ldr r0, [pc, #0x2a8] 값:b070fe03 실수:1.495465e-36
+18b8aec: mov r1, r5
+18b8af0: mov r3, #0
+18b8af4: ldr r0, [pc, r0]
+18b8af8: ldr r2, [r0]
+18b8afc: mov r0, r4
+18b8b00: bl #0x308f3bc DG.Tweening.Core.DOGetter<float>$$.ctor
+18b8b04: ldr r0, [fp]
+18b8b08: bl #0x161f884 
+18b8b0c: mov r6, r0
+18b8b10: ldr r0, [pc, #0x284] 값:8c70fe03 실수:1.4954618e-36
+18b8b14: mov r1, r5
+18b8b18: mov r3, #0
+18b8b1c: ldr r0, [pc, r0]
+18b8b20: ldr r2, [r0]
+18b8b24: mov r0, r6
+18b8b28: bl #0x30906c8 DG.Tweening.Core.DOSetter<float>$$.ctor
+18b8b2c: mov r0, r4
+18b8b30: mov r1, r6
+18b8b34: mov r2, r7
+18b8b38: mov r3, #0x3e800000
+18b8b3c: str sb, [sp]
+18b8b40: bl #0x199fff4 DG.Tweening.DOTween$$To
+18b8b44: ldr r0, [sl]
+18b8b48: vldr s18, [r5, #0x20]
+18b8b4c: vldr s20, [r5, #0x24]
+18b8b50: bl #0x161f884 
+18b8b54: mov r4, r0
+18b8b58: ldr r0, [pc, #0x240] 값:4870fe03 실수:1.4954557e-36
+18b8b5c: mov r1, r5
+18b8b60: mov r3, #0
+18b8b64: ldr r0, [pc, r0]
+18b8b68: ldr r2, [r0]
+18b8b6c: mov r0, r4
+18b8b70: bl #0x308f3bc DG.Tweening.Core.DOGetter<float>$$.ctor
+18b8b74: ldr r0, [fp]
+18b8b78: bl #0x161f884 
+18b8b7c: mov r6, r0
+18b8b80: ldr r0, [pc, #0x21c] 값:2470fe03 실수:1.4954524e-36
+18b8b84: mov r1, r5
+18b8b88: mov r3, #0
+18b8b8c: ldr r0, [pc, r0]
+18b8b90: ldr r2, [r0]
+18b8b94: mov r0, r6
+18b8b98: bl #0x30906c8 DG.Tweening.Core.DOSetter<float>$$.ctor
+18b8b9c: vsub.f32 s0, s20, s18
+18b8ba0: mov r0, r4
+18b8ba4: mov r1, r6
+18b8ba8: mov r3, #0x3e800000
+18b8bac: str sb, [sp]
+18b8bb0: vmla.f32 s18, s0, s16
+18b8bb4: vmov r2, s18
+18b8bb8: bl #0x199fff4 DG.Tweening.DOTween$$To
+18b8bbc: ldr r0, [sl]
+18b8bc0: vldr s18, [r5, #0x28]
+18b8bc4: vldr s20, [r5, #0x2c]
+18b8bc8: bl #0x161f884 
+18b8bcc: mov r4, r0
+18b8bd0: ldr r0, [pc, #0x1d0] 값:d86ffe03 실수:1.4954456e-36
+18b8bd4: mov r1, r5
+18b8bd8: mov r3, #0
+18b8bdc: ldr r0, [pc, r0]
+18b8be0: ldr r2, [r0]
+18b8be4: mov r0, r4
+18b8be8: bl #0x308f3bc DG.Tweening.Core.DOGetter<float>$$.ctor
+18b8bec: ldr r0, [fp]
+18b8bf0: bl #0x161f884 
+18b8bf4: mov r6, r0
+18b8bf8: ldr r0, [pc, #0x1ac] 값:b46ffe03 실수:1.4954424e-36
+18b8bfc: mov r1, r5
+18b8c00: mov r3, #0
+18b8c04: ldr r0, [pc, r0]
+18b8c08: ldr r2, [r0]
+18b8c0c: mov r0, r6
+18b8c10: bl #0x30906c8 DG.Tweening.Core.DOSetter<float>$$.ctor
+18b8c14: vsub.f32 s0, s20, s18
+18b8c18: mov r0, r4
+18b8c1c: mov r1, r6
+18b8c20: mov r3, #0x3e800000
+18b8c24: str sb, [sp]
+18b8c28: vmla.f32 s18, s0, s16
+18b8c2c: vmov r2, s18
+18b8c30: bl #0x199fff4 DG.Tweening.DOTween$$To
+18b8c34: ldr r0, [sl]
+18b8c38: vldr s18, [r5, #0x30]
+18b8c3c: vldr s20, [r5, #0x34]
+18b8c40: bl #0x161f884 
+18b8c44: mov r4, r0
+18b8c48: ldr r0, [pc, #0x160] 값:686ffe03 실수:1.4954356e-36
+18b8c4c: mov r1, r5
+18b8c50: mov r3, #0
+18b8c54: ldr r0, [pc, r0]
+18b8c58: ldr r2, [r0]
+18b8c5c: mov r0, r4
+18b8c60: bl #0x308f3bc DG.Tweening.Core.DOGetter<float>$$.ctor
+18b8c64: ldr r0, [fp]
+18b8c68: bl #0x161f884 
+18b8c6c: mov r7, r0
+18b8c70: ldr r0, [pc, #0x13c] 값:446ffe03 실수:1.4954324e-36
+18b8c74: mov r1, r5
+18b8c78: mov r3, #0
+18b8c7c: ldr r0, [pc, r0]
+18b8c80: ldr r2, [r0]
+18b8c84: mov r0, r7
+18b8c88: bl #0x30906c8 DG.Tweening.Core.DOSetter<float>$$.ctor
+18b8c8c: vsub.f32 s0, s20, s18
+18b8c90: mov r0, r4
+18b8c94: mov r1, r7
+18b8c98: mov r3, #0x3e800000
+18b8c9c: str sb, [sp]
+18b8ca0: vmla.f32 s18, s0, s16
+18b8ca4: vmov r6, s18
+18b8ca8: mov r2, r6
+18b8cac: bl #0x199fff4 DG.Tweening.DOTween$$To
+18b8cb0: ldr r0, [sl]
+18b8cb4: bl #0x161f884 
+18b8cb8: mov r4, r0
+18b8cbc: ldr r0, [pc, #0xf4] 값:d06efe03 실수:1.495422e-36
+18b8cc0: mov r1, r5
+18b8cc4: mov r3, #0
+18b8cc8: ldr r0, [pc, r0]
+18b8ccc: ldr r2, [r0]
+18b8cd0: mov r0, r4
+18b8cd4: bl #0x308f3bc DG.Tweening.Core.DOGetter<float>$$.ctor
+18b8cd8: ldr r0, [fp]
+18b8cdc: bl #0x161f884 
+18b8ce0: mov r7, r0
+18b8ce4: ldr r0, [pc, #0xd0] 값:ac6efe03 실수:1.4954187e-36
+18b8ce8: mov r1, r5
+18b8cec: mov r3, #0
+18b8cf0: ldr r0, [pc, r0]
+18b8cf4: ldr r2, [r0]
+18b8cf8: mov r0, r7
+18b8cfc: bl #0x30906c8 DG.Tweening.Core.DOSetter<float>$$.ctor
+18b8d00: mov r0, r4
+18b8d04: mov r1, r7
+18b8d08: mov r2, r6
+18b8d0c: mov r3, #0x3e800000
+18b8d10: str sb, [sp]
+18b8d14: bl #0x199fff4 DG.Tweening.DOTween$$To
+18b8d18: mov r0, r5
+18b8d1c: mov r1, r8
+18b8d20: add sp, sp, #8
+18b8d24: vpop {d8, d9, d10}
+18b8d28: add sp, sp, #4
+18b8d2c: pop {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+18b8d30: b #0x18b8dc0 HoleProgressBar$$PlayBreateAnimation
+18b8d34: add sp, sp, #8
+18b8d38: vpop {d8, d9, d10}
+18b8d3c: add sp, sp, #4
+18b8d40: pop {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+18b8d44: strteq sl, [r0], #-0xd88
+
+함수: HoleProgressBar$$.ctor / 주소: 0x18b9258
+18b9258: add r1, pc, #0x20
+18b925c: vld1.64 {d16, d17}, [r1]
+18b9260: add r1, pc, #0x28
+18b9264: vld1.64 {d18, d19}, [r1]
+18b9268: add r1, r0, #0x18
+18b926c: vst1.32 {d18, d19}, [r1]!
+18b9270: vst1.32 {d16, d17}, [r1]
+18b9274: mov r1, #0
+18b9278: b #0x26d5cdc 
+18b927c: nop 
+18b9280: ldcllo p2, c12, [r5, #0x23c]!
+18b9284: cdplo p12, #4, c12, c12, c13, #6
+18b9288: svclo #0x866666
+18b928c: svclo #0x8b851f
+18b9290: addmi r6, r6, r6, ror #12
+18b9294: svclt #0x8ccccd
+18b9298: ldcllo p2, c12, [r5, #-0x23c]!
+18b929c: cdplo p12, #0, c5, c15, c9, #1
+
+함수: _Project.Scripts.Game.Hole.CollectionCollisionManager$$OnTriggerEnter / 주소: 0x196e518
+196e518: push {r4, r5, r6, lr}
+196e51c: sub sp, sp, #0x10
+196e520: ldr r6, [pc, #0x3c4] 값:3e561504 실수:1.7554466e-36
+196e524: mov r5, r0
+196e528: mov r4, r1
+196e52c: add r6, pc, r6
+196e530: ldrb r0, [r6]
+196e534: cmp r0, #0
+196e538: bne #0x196e598
+196e53c: ldr r0, [pc, #0x3ac] 값:c4ecf203 실수:1.427784e-36
+196e540: ldr r0, [pc, r0]
+196e544: bl #0x161f5e0 
+196e548: ldr r0, [pc, #0x3a4] 값:502ef303 실수:1.4292889e-36
+196e54c: ldr r0, [pc, r0]
+196e550: bl #0x161f5e0 
+196e554: ldr r0, [pc, #0x39c] 값:482ef303 실수:1.4292882e-36
+196e558: ldr r0, [pc, r0]
+196e55c: bl #0x161f5e0 
+196e560: ldr r0, [pc, #0x394] 값:402ef303 실수:1.4292875e-36
+196e564: ldr r0, [pc, r0]
+196e568: bl #0x161f5e0 
+196e56c: ldr r0, [pc, #0x38c] 값:d0e5f203 실수:1.4276244e-36
+196e570: ldr r0, [pc, r0]
+196e574: bl #0x161f5e0 
+196e578: ldr r0, [pc, #0x384] 값:9412f303 실수:1.4286522e-36
+196e57c: ldr r0, [pc, r0]
+196e580: bl #0x161f5e0 
+196e584: ldr r0, [pc, #0x37c] 값:8c12f303 실수:1.4286515e-36
+196e588: ldr r0, [pc, r0]
+196e58c: bl #0x161f5e0 
+196e590: mov r0, #1
+196e594: strb r0, [r6]
+196e598: mov r0, #0
+196e59c: mov r1, #0
+196e5a0: str r0, [sp, #0xc]
+196e5a4: str r0, [sp, #8]
+196e5a8: str r0, [sp, #4]
+196e5ac: add r0, r5, #0x10
+196e5b0: bl #0x26d9130 
+196e5b4: mov r5, r0
+196e5b8: cmp r4, #0
+196e5bc: bne #0x196e5c4
+196e5c0: bl #0x161f890 
+196e5c4: mov r0, r4
+196e5c8: mov r1, #0
+196e5cc: bl #0x26d5e2c 
+196e5d0: mov r6, r0
+196e5d4: cmp r0, #0
+196e5d8: bne #0x196e5e0
+196e5dc: bl #0x161f890 
+196e5e0: mov r0, r6
+196e5e4: mov r1, #0
+196e5e8: bl #0x26d7388 
+196e5ec: and r0, r0, #0x1f
+196e5f0: mov r1, #1
+196e5f4: tst r1, r5, lsr r0
+196e5f8: beq #0x196e8e4
+196e5fc: cmp r4, #0
+196e600: beq #0x196e628
+196e604: ldr r0, [pc, #0x314] 값:942df303 실수:1.4292721e-36
+196e608: add r1, sp, #0xc
+196e60c: ldr r0, [pc, r0]
+196e610: ldr r2, [r0]
+196e614: mov r0, r4
+196e618: bl #0x1de25c4 UnityEngine.Component$$TryGetComponent<object>
+196e61c: cmp r0, #0
+196e620: bne #0x196e64c
+196e624: b #0x196e684 
+196e628: bl #0x161f890 
+196e62c: ldr r0, [pc, #0x2d8] 값:6c2df303 실수:1.4292685e-36
+196e630: add r1, sp, #0xc
+196e634: ldr r0, [pc, r0]
+196e638: ldr r2, [r0]
+196e63c: mov r0, #0
+196e640: bl #0x1de25c4 UnityEngine.Component$$TryGetComponent<object>
+196e644: cmp r0, #0
+196e648: beq #0x196e680
+196e64c: ldr r4, [sp, #0xc]
+196e650: cmp r4, #0
+196e654: bne #0x196e65c
+196e658: bl #0x161f890 
+196e65c: ldrb r0, [r4, #0x30]
+196e660: cmp r0, #0
+196e664: bne #0x196e8e4
+196e668: ldr r0, [sp, #0xc]
+196e66c: cmp r0, #0
+196e670: beq #0x196e880
+196e674: mov r1, #1
+196e678: strb r1, [r0, #0x30]
+196e67c: b #0x196e8a4 
+196e680: bl #0x161f890 
+196e684: mov r0, r4
+196e688: mov r1, #0
+196e68c: bl #0x26d5e2c 
+196e690: mov r5, r0
+196e694: cmp r0, #0
+196e698: bne #0x196e6a0
+196e69c: bl #0x161f890 
+196e6a0: ldr r0, [pc, #0x268] 값:6811f303 실수:1.4286253e-36
+196e6a4: mov r2, #0
+196e6a8: ldr r0, [pc, r0]
+196e6ac: ldr r1, [r0]
+196e6b0: mov r0, r5
+196e6b4: bl #0x26d80fc 
+196e6b8: cmp r0, #0
+196e6bc: beq #0x196e798
+196e6c0: cmp r4, #0
+196e6c4: bne #0x196e6cc
+196e6c8: bl #0x161f890 
+196e6cc: ldr r0, [pc, #0x240] 값:c82cf303 실수:1.4292538e-36
+196e6d0: add r1, sp, #8
+196e6d4: ldr r0, [pc, r0]
+196e6d8: ldr r2, [r0]
+196e6dc: mov r0, r4
+196e6e0: bl #0x1de25c4 UnityEngine.Component$$TryGetComponent<object>
+196e6e4: cmp r0, #0
+196e6e8: beq #0x196e8e4
+196e6ec: ldr r4, [sp, #8]
+196e6f0: cmp r4, #0
+196e6f4: bne #0x196e6fc
+196e6f8: bl #0x161f890 
+196e6fc: ldrb r0, [r4, #0x14]
+196e700: cmp r0, #0
+196e704: bne #0x196e8e4
+196e708: ldr r0, [pc, #0x208] 값:f8eaf203 실수:1.4277428e-36
+196e70c: ldr r0, [pc, r0]
+196e710: ldr r0, [r0]
+196e714: ldr r0, [r0, #0x5c]
+196e718: ldr r4, [r0]
+196e71c: cmp r4, #0
+196e720: bne #0x196e728
+196e724: bl #0x161f890 
+196e728: mov r0, r4
+196e72c: mov r1, #0xa
+196e730: mov r2, #0
+196e734: bl #0x191dd20 _Project._AudioSystem.Scripts.AudioManager$$PlayAudio
+196e738: ldr r4, [sp, #8]
+196e73c: cmp r4, #0
+196e740: bne #0x196e748
+196e744: bl #0x161f890 
+196e748: ldr r0, [pc, #0x1cc] 값:f0e3f203 실수:1.4275814e-36
+196e74c: mov r1, #1
+196e750: ldr r0, [pc, r0]
+196e754: strb r1, [r4, #0x14]
+196e758: ldr r0, [r0]
+196e75c: ldr r0, [r0, #0x5c]
+196e760: ldr r5, [r0, #4]
+196e764: cmp r5, #0
+196e768: bne #0x196e770
+196e76c: bl #0x161f890 
+196e770: ldr r5, [r5, #0x7c]
+196e774: ldr r4, [sp, #8]
+196e778: cmp r5, #0
+196e77c: bne #0x196e784
+196e780: bl #0x161f890 
+196e784: mov r0, r5
+196e788: mov r1, r4
+196e78c: mov r2, #0
+196e790: bl #0x1922df0 _Project._Butler.Scripts.ButlerManager$$OnItemCollected
+196e794: b #0x196e8e4 
+196e798: cmp r4, #0
+196e79c: bne #0x196e7a4
+196e7a0: bl #0x161f890 
+196e7a4: mov r0, r4
+196e7a8: mov r1, #0
+196e7ac: bl #0x26d5e2c 
+196e7b0: mov r5, r0
+196e7b4: cmp r0, #0
+196e7b8: bne #0x196e7c0
+196e7bc: bl #0x161f890 
+196e7c0: ldr r0, [pc, #0x160] 값:4c10f303 실수:1.4285998e-36
+196e7c4: mov r2, #0
+196e7c8: ldr r0, [pc, r0]
+196e7cc: ldr r1, [r0]
+196e7d0: mov r0, r5
+196e7d4: bl #0x26d80fc 
+196e7d8: cmp r0, #0
+196e7dc: beq #0x196e8e4
+196e7e0: cmp r4, #0
+196e7e4: bne #0x196e7ec
+196e7e8: bl #0x161f890 
+196e7ec: ldr r0, [pc, #0x138] 값:b02bf303 실수:1.4292287e-36
+196e7f0: add r1, sp, #4
+196e7f4: ldr r0, [pc, r0]
+196e7f8: ldr r2, [r0]
+196e7fc: mov r0, r4
+196e800: bl #0x1de25c4 UnityEngine.Component$$TryGetComponent<object>
+196e804: cmp r0, #0
+196e808: beq #0x196e8e4
+196e80c: ldr r4, [sp, #4]
+196e810: cmp r4, #0
+196e814: bne #0x196e81c
+196e818: bl #0x161f890 
+196e81c: ldrb r0, [r4, #0x24]
+196e820: cmp r0, #0
+196e824: bne #0x196e8e4
+196e828: ldr r4, [sp, #4]
+196e82c: cmp r4, #0
+196e830: bne #0x196e838
+196e834: bl #0x161f890 
+196e838: ldr r0, [pc, #0xf0] 값:00e3f203 실수:1.4275598e-36
+196e83c: mov r1, #1
+196e840: ldr r0, [pc, r0]
+196e844: strb r1, [r4, #0x24]
+196e848: ldr r0, [r0]
+196e84c: ldr r0, [r0, #0x5c]
+196e850: ldr r5, [r0, #4]
+196e854: cmp r5, #0
+196e858: bne #0x196e860
+196e85c: bl #0x161f890 
+196e860: ldr r4, [r5, #0x30]
+196e864: cmp r4, #0
+196e868: bne #0x196e870
+196e86c: bl #0x161f890 
+196e870: mov r0, r4
+196e874: mov r1, #0
+196e878: bl #0x197f578 _Project.Scripts.Game.Collectables.HoleCollectionManager$$OnBombEaten
+196e87c: b #0x196e8e4 
+196e880: bl #0x161f890 
+196e884: ldr r0, [sp, #0xc]
+196e888: mov r1, #0x30
+196e88c: mov r2, #1
+196e890: cmp r0, #0
+196e894: strb r2, [r1]
+196e898: bne #0x196e8a4
+196e89c: bl #0x161f890 
+196e8a0: mov r0, #0
+196e8a4: mov r1, #0
+196e8a8: bl #0x197bf10 _Project.Scripts.Game.Collectables.CollectableManager$$OnCollected
+196e8ac: ldr r0, [pc, #0x70] 값:90e2f203 실수:1.4275498e-36
+196e8b0: ldr r0, [pc, r0]
+196e8b4: ldr r0, [r0]
+196e8b8: ldr r0, [r0, #0x5c]
+196e8bc: ldr r4, [r0, #4]
+196e8c0: cmp r4, #0
+196e8c4: bne #0x196e8cc
+196e8c8: bl #0x161f890 
+196e8cc: ldr r4, [r4, #0x48]
+196e8d0: cmp r4, #0
+196e8d4: bne #0x196e8dc
+196e8d8: bl #0x161f890 
+196e8dc: mov r0, r4
+196e8e0: bl #0x196b404 _Project.Scripts.Game.TutorialManager.TutorialManager$$HideStarGoalTutorial
+196e8e4: add sp, sp, #0x10
+196e8e8: pop {r4, r5, r6, pc}
+196e8ec: ldreq r5, [r5], #-0x63e
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$UpdateHoleSizeLevelText / 주소: 0x1970148
+1970148: push {r4, r5, r6, r7, r8, sb, fp, lr}
+197014c: sub sp, sp, #0x18
+1970150: ldr r4, [pc, #0x2dc] 값:293a1504 실수:1.7541572e-36
+1970154: mov r8, r0
+1970158: add r4, pc, r4
+197015c: ldrb r0, [r4]
+1970160: cmp r0, #0
+1970164: bne #0x19701b8
+1970168: ldr r0, [pc, #0x2c8] 값:d8c5f203 실수:1.4268904e-36
+197016c: ldr r0, [pc, r0]
+1970170: bl #0x161f5e0 
+1970174: ldr r0, [pc, #0x2c0] 값:50d5f203 실수:1.4272456e-36
+1970178: ldr r0, [pc, r0]
+197017c: bl #0x161f5e0 
+1970180: ldr r0, [pc, #0x2b8] 값:5cd7f203 실수:1.4272926e-36
+1970184: ldr r0, [pc, r0]
+1970188: bl #0x161f5e0 
+197018c: ldr r0, [pc, #0x2b0] 값:5412f303 실수:1.4286464e-36
+1970190: ldr r0, [pc, r0]
+1970194: bl #0x161f5e0 
+1970198: ldr r0, [pc, #0x2a8] 값:4c12f303 실수:1.4286457e-36
+197019c: ldr r0, [pc, r0]
+19701a0: bl #0x161f5e0 
+19701a4: ldr r0, [pc, #0x2a0] 값:4412f303 실수:1.428645e-36
+19701a8: ldr r0, [pc, r0]
+19701ac: bl #0x161f5e0 
+19701b0: mov r0, #1
+19701b4: strb r0, [r4]
+19701b8: ldr r0, [pc, #0x290] 값:2812f303 실수:1.4286425e-36
+19701bc: mov r1, #0
+19701c0: ldr r0, [pc, r0]
+19701c4: str r1, [sp, #0x14]
+19701c8: ldr r0, [r0]
+19701cc: bl #0x161f884 
+19701d0: mov r1, #0
+19701d4: mov r5, r0
+19701d8: bl #0x1972354 _Project.Scripts.Game.Hole.HoleSizeManager.<>c__DisplayClass46_0$$.ctor
+19701dc: cmp r5, #0
+19701e0: bne #0x19701e8
+19701e4: bl #0x161f890 
+19701e8: mov r0, r5
+19701ec: mov r1, r8
+19701f0: str r8, [r0, #8]!
+19701f4: bl #0x161f57c 
+19701f8: mov r6, r8
+19701fc: mov r1, #0
+1970200: ldr r0, [r6, #0x64]!
+1970204: bl #0x19a58e0 DG.Tweening.TweenExtensions$$Complete
+1970208: ldr r0, [r6, #4]
+197020c: mov r1, #0
+1970210: bl #0x19a58e0 DG.Tweening.TweenExtensions$$Complete
+1970214: ldr r4, [r6, #-0x1c]
+1970218: cmp r4, #0
+197021c: bne #0x1970224
+1970220: bl #0x161f890 
+1970224: ldr r4, [r4, #0x10]
+1970228: cmp r4, #0
+197022c: bne #0x1970234
+1970230: bl #0x161f890 
+1970234: ldr r7, [r4, #0x2c]
+1970238: cmp r7, #0
+197023c: bne #0x1970244
+1970240: bl #0x161f890 
+1970244: mov r0, r7
+1970248: mov r1, #0
+197024c: bl #0x26d6ca0 
+1970250: mov r7, r0
+1970254: cmp r0, #0
+1970258: bne #0x1970260
+197025c: bl #0x161f890 
+1970260: add r0, sp, #8
+1970264: mov r1, r7
+1970268: mov r2, #0
+197026c: bl #0x26d661c 
+1970270: ldr r4, [r8, #0x48]
+1970274: ldr r0, [sp, #8]
+1970278: cmp r4, #0
+197027c: str r0, [r5, #0xc]
+1970280: bne #0x1970288
+1970284: bl #0x161f890 
+1970288: ldr r4, [r4, #0x10]
+197028c: cmp r4, #0
+1970290: bne #0x1970298
+1970294: bl #0x161f890 
+1970298: ldr r7, [r4, #0x2c]
+197029c: cmp r7, #0
+19702a0: bne #0x19702a8
+19702a4: bl #0x161f890 
+19702a8: mov r0, r7
+19702ac: mov r1, #0
+19702b0: mov sb, #0
+19702b4: bl #0x26d6ca0 
+19702b8: ldr r4, [pc, #0x194] 값:1e2d1504 실수:1.7535583e-36
+19702bc: mov r7, r0
+19702c0: add r4, pc, r4
+19702c4: ldrb r0, [r4]
+19702c8: cmp r0, #0
+19702cc: bne #0x19702e4
+19702d0: ldr r0, [pc, #0x180] 값:6cc4f203 실수:1.4268578e-36
+19702d4: ldr r0, [pc, r0]
+19702d8: bl #0x161f5e0 
+19702dc: mov r0, #1
+19702e0: strb r0, [r4]
+19702e4: ldr r0, [pc, #0x170] 값:54c4f203 실수:1.4268556e-36
+19702e8: vldr s0, [pc, #0x140] 값:3333b33f 실수:1.4
+19702ec: ldr r0, [pc, r0]
+19702f0: ldr r0, [r0]
+19702f4: ldr r0, [r0, #0x5c]
+19702f8: vldr s2, [r0, #0xc]
+19702fc: vldr s4, [r0, #0x10]
+1970300: vldr s6, [r0, #0x14]
+1970304: vmul.f32 s2, s2, s0
+1970308: vmul.f32 s4, s4, s0
+197030c: mov r0, #0x3e800000
+1970310: vmul.f32 s0, s6, s0
+1970314: vldr s6, [r5, #0xc]
+1970318: stm sp, {r0, sb}
+197031c: mov r0, r7
+1970320: vmul.f32 s2, s2, s6
+1970324: vmul.f32 s4, s4, s6
+1970328: vmul.f32 s0, s0, s6
+197032c: vmov r1, s2
+1970330: vmov r2, s4
+1970334: vmov r3, s0
+1970338: bl #0x19b0944 DG.Tweening.ShortcutExtensions$$DOScale
+197033c: ldr r1, [pc, #0x11c] 값:a0d5f203 실수:1.4272528e-36
+1970340: ldr r1, [pc, r1]
+1970344: ldr r2, [r1]
+1970348: mov r1, #0x1b
+197034c: bl #0x20ec140 DG.Tweening.TweenSettingsExtensions$$SetEase<object>
+1970350: mov r7, r0
+1970354: ldr r0, [pc, #0x108] 값:ecc3f203 실수:1.4268463e-36
+1970358: ldr r0, [pc, r0]
+197035c: ldr r0, [r0]
+1970360: bl #0x161f884 
+1970364: mov r4, r0
+1970368: ldr r0, [pc, #0xf8] 값:7010f303 실수:1.428603e-36
+197036c: mov r1, r5
+1970370: mov r3, #0
+1970374: ldr r0, [pc, r0]
+1970378: ldr r2, [r0]
+197037c: mov r0, r4
+1970380: bl #0x199e4e8 DG.Tweening.TweenCallback$$.ctor
+1970384: ldr r0, [pc, #0xe0] 값:3cd3f203 실수:1.4271979e-36
+1970388: mov r1, r4
+197038c: ldr r0, [pc, r0]
+1970390: ldr r2, [r0]
+1970394: mov r0, r7
+1970398: bl #0x20eb894 DG.Tweening.TweenSettingsExtensions$$OnComplete<object>
+197039c: mov r1, r0
+19703a0: str r0, [r8, #0x64]
+19703a4: mov r0, r6
+19703a8: bl #0x161f57c 
+19703ac: ldr r4, [r8, #0x48]
+19703b0: cmp r4, #0
+19703b4: bne #0x19703bc
+19703b8: bl #0x161f890 
+19703bc: ldr r4, [r4, #0x10]
+19703c0: cmp r4, #0
+19703c4: bne #0x19703cc
+19703c8: bl #0x161f890 
+19703cc: ldr r0, [r8, #0x18]
+19703d0: mov r1, #0
+19703d4: ldr r4, [r4, #0x2c]
+19703d8: add r0, r0, #1
+19703dc: str r0, [sp, #0x14]
+19703e0: add r0, sp, #0x14
+19703e4: bl #0x1700a04 
+19703e8: mov r1, r0
+19703ec: ldr r0, [pc, #0x7c] 값:f80ff303 실수:1.4285923e-36
+19703f0: mov r2, #0
+19703f4: ldr r0, [pc, r0]
+19703f8: ldr r0, [r0]
+19703fc: bl #0x26d5ea4 
+1970400: mov r5, r0
+1970404: cmp r4, #0
+1970408: bne #0x1970410
+197040c: bl #0x161f890 
+1970410: ldr r0, [r4]
+1970414: mov r1, r5
+1970418: ldr r3, [r0, #0x2d0]
+197041c: ldr r2, [r0, #0x2d4]
+1970420: mov r0, r4
+1970424: blx r3
+1970428: add sp, sp, #0x18
+197042c: pop {r4, r5, r6, r7, r8, sb, fp, pc}
+1970430: svclo #0xb33333
+1970434: ldreq r3, [r5], #-0xa29
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$GetNextHoleSizeIncreaseInfo / 주소: 0x1970474
+1970474: push {r4, r5, r6, r7, r8, sb, fp, lr}
+1970478: sub sp, sp, #0x18
+197047c: ldr r5, [pc, #0x244] 값:f3361504 실수:1.7540097e-36
+1970480: mov r4, r0
+1970484: mov r6, r1
+1970488: add r5, pc, r5
+197048c: ldrb r0, [r5]
+1970490: cmp r0, #0
+1970494: bne #0x19704dc
+1970498: ldr r0, [pc, #0x22c] 값:78c7f203 실수:1.4269277e-36
+197049c: ldr r0, [pc, r0]
+19704a0: bl #0x161f5e0 
+19704a4: ldr r0, [pc, #0x224] 값:70c7f203 실수:1.426927e-36
+19704a8: ldr r0, [pc, r0]
+19704ac: bl #0x161f5e0 
+19704b0: ldr r0, [pc, #0x21c] 값:68c7f203 실수:1.4269263e-36
+19704b4: ldr r0, [pc, r0]
+19704b8: bl #0x161f5e0 
+19704bc: ldr r0, [pc, #0x214] 값:64c7f203 실수:1.4269259e-36
+19704c0: ldr r0, [pc, r0]
+19704c4: bl #0x161f5e0 
+19704c8: ldr r0, [pc, #0x20c] 값:240ff303 실수:1.4285732e-36
+19704cc: ldr r0, [pc, r0]
+19704d0: bl #0x161f5e0 
+19704d4: mov r0, #1
+19704d8: strb r0, [r5]
+19704dc: ldr r7, [r4, #0x38]
+19704e0: vmov.i32 q8, #0
+19704e4: add r5, sp, #8
+19704e8: add r8, r6, #1
+19704ec: cmp r7, #0
+19704f0: vst1.64 {d16, d17}, [r5]
+19704f4: bne #0x19704fc
+19704f8: bl #0x161f890 
+19704fc: ldr r0, [r7, #0x10]
+1970500: ldr r6, [r4, #0x38]
+1970504: cmp r8, r0
+1970508: ble #0x197051c
+197050c: cmp r6, #0
+1970510: beq #0x19705e8
+1970514: add r0, r6, #0x10
+1970518: b #0x19705fc 
+197051c: cmp r6, #0
+1970520: bne #0x1970528
+1970524: bl #0x161f890 
+1970528: ldr r4, [r6, #0x18]
+197052c: cmp r4, #0
+1970530: bne #0x1970538
+1970534: bl #0x161f890 
+1970538: ldr r0, [pc, #0x1a4] 값:e4c6f203 실수:1.4269145e-36
+197053c: mov r1, r4
+1970540: ldr r0, [pc, r0]
+1970544: ldr r2, [r0]
+1970548: mov r0, r5
+197054c: bl #0x236ba08 System.Collections.Generic.List<object>$$GetEnumerator
+1970550: mov r0, #0
+1970554: str r5, [sp, #4]
+1970558: str r0, [sp]
+197055c: ldr r4, [pc, #0x184] 값:b8c6f203 실수:1.4269105e-36
+1970560: ldr r4, [pc, r4]
+1970564: ldr r1, [r4]
+1970568: mov r0, r5
+197056c: bl #0x339244c System.Collections.Generic.List.Enumerator<object>$$MoveNext
+1970570: cmp r0, #0
+1970574: beq #0x19705cc
+1970578: ldr r6, [sp, #0x14]
+197057c: cmp r6, #0
+1970580: bne #0x1970588
+1970584: bl #0x161f890 
+1970588: ldr r0, [r6, #8]
+197058c: cmp r0, r8
+1970590: bne #0x1970564
+1970594: ldr r0, [pc, #0x150] 값:580ef303 실수:1.428555e-36
+1970598: ldr r0, [pc, r0]
+197059c: ldr r0, [r0]
+19705a0: bl #0x161f884 
+19705a4: mov r1, #0
+19705a8: mov r4, r0
+19705ac: bl #0x19724c8 _Project.Scripts.Game.Hole.PerLevelSizeInfo$$.ctor
+19705b0: ldr r8, [r6, #8]
+19705b4: cmp r4, #0
+19705b8: bne #0x19705c0
+19705bc: bl #0x161f890 
+19705c0: ldr sb, [r6, #0xc]
+19705c4: strd r8, sb, [r4, #8]
+19705c8: b #0x19705d0 
+19705cc: mov r4, #0
+19705d0: ldr r0, [pc, #0x11c] 값:40c6f203 실수:1.4268998e-36
+19705d4: ldr r0, [pc, r0]
+19705d8: ldr r1, [r0]
+19705dc: add r0, sp, #8
+19705e0: bl #0x3392448 System.Collections.Generic.List.Enumerator<object>$$Dispose
+19705e4: b #0x1970654 
+19705e8: bl #0x161f890 
+19705ec: ldr r6, [r4, #0x38]
+19705f0: mov r0, #0x10
+19705f4: cmp r6, #0
+19705f8: beq #0x1970660
+19705fc: ldr r2, [r6, #0x10]
+1970600: ldr r5, [r0]
+1970604: mov r0, r4
+1970608: ldr r7, [r6, #0x14]
+197060c: mov r1, r2
+1970610: bl #0x1970fa4 _Project.Scripts.Game.Hole.HoleSizeManager$$GetRequiredSizeAmount
+1970614: mov r6, r0
+1970618: ldr r0, [pc, #0xc0] 값:d40df303 실수:1.4285431e-36
+197061c: ldr r0, [pc, r0]
+1970620: ldr r0, [r0]
+1970624: bl #0x161f884 
+1970628: mov r1, #0
+197062c: mov r4, r0
+1970630: bl #0x19724c8 _Project.Scripts.Game.Hole.PerLevelSizeInfo$$.ctor
+1970634: mov r0, r8
+1970638: mov r1, r5
+197063c: bl #0x16e4d94 
+1970640: mla sb, r1, r7, r6
+1970644: cmp r4, #0
+1970648: bne #0x1970650
+197064c: bl #0x161f890 
+1970650: strd r8, sb, [r4, #8]
+1970654: mov r0, r4
+1970658: add sp, sp, #0x18
+197065c: pop {r4, r5, r6, r7, r8, sb, fp, pc}
+1970660: bl #0x161f890 
+1970664: bl #0x161f890 
+1970668: b #0x1970674 
+197066c: b #0x1970674 
+1970670: b #0x1970674 
+1970674: cmp r1, #1
+1970678: bne #0x19706b8
+197067c: bl #0x16e7f28 
+1970680: ldr r5, [r0]
+1970684: str r5, [sp]
+1970688: bl #0x16ff644 
+197068c: ldr r0, [pc, #0x5c] 값:84c5f203 실수:1.4268829e-36
+1970690: ldr r0, [pc, r0]
+1970694: ldr r1, [r0]
+1970698: ldr r0, [sp, #4]
+197069c: bl #0x3392448 System.Collections.Generic.List.Enumerator<object>$$Dispose
+19706a0: mov r4, #0
+19706a4: cmp r5, #0
+19706a8: beq #0x1970654
+19706ac: mov r0, r5
+19706b0: bl #0x161f88c 
+19706b4: b #0x1970654 
+19706b8: mov r0, sp
+19706bc: bl #0x10c8b84 
+19706c0: bl #0x16e7ff4 
+19706c4: bl #0x10c873c 
+19706c8: ldreq r3, [r5], #-0x6f3
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$UpdateHoleProgressValue / 주소: 0x19706f8
+19706f8: push {r4, r5, r6, lr}
+19706fc: vpush {d8}
+1970700: ldr r5, [pc, #0x188] 값:78341504 실수:1.7538958e-36
+1970704: mov r4, r0
+1970708: add r5, pc, r5
+197070c: ldrb r0, [r5]
+1970710: cmp r0, #0
+1970714: bne #0x1970744
+1970718: ldr r0, [pc, #0x174] 값:74f4f203 실수:1.4279605e-36
+197071c: ldr r0, [pc, r0]
+1970720: bl #0x161f5e0 
+1970724: ldr r0, [pc, #0x16c] 값:cc0cf303 실수:1.4285194e-36
+1970728: ldr r0, [pc, r0]
+197072c: bl #0x161f5e0 
+1970730: ldr r0, [pc, #0x164] 값:10c0f203 실수:1.4267577e-36
+1970734: ldr r0, [pc, r0]
+1970738: bl #0x161f5e0 
+197073c: mov r0, #1
+1970740: strb r0, [r5]
+1970744: ldr r6, [r4, #0x10]
+1970748: vldr s16, [r4, #0x14]
+197074c: cmp r6, #0
+1970750: mov r5, r6
+1970754: bne #0x1970760
+1970758: bl #0x161f890 
+197075c: ldr r5, [r4, #0x10]
+1970760: vldr s0, [r6, #0xc]
+1970764: vldr s2, [pc, #0x120] 값:00000000 실수:0
+1970768: vcvt.f32.s32 s0, s0
+197076c: vcmp.f32 s16, s0
+1970770: vmrs apsr_nzcv, fpscr
+1970774: vcmp.f32 s16, #0
+1970778: vmovgt.f32 s16, s0
+197077c: vmrs apsr_nzcv, fpscr
+1970780: vmovmi.f32 s16, s2
+1970784: cmp r5, #0
+1970788: bne #0x1970790
+197078c: bl #0x161f890 
+1970790: ldrb r0, [r4, #0x60]
+1970794: cmp r0, #0
+1970798: bne #0x19707d8
+197079c: vldr s0, [r5, #0xc]
+19707a0: ldr r0, [pc, #0xf8] 값:e8f3f203 실수:1.427948e-36
+19707a4: vcvt.f32.s32 s0, s0
+19707a8: ldr r0, [pc, r0]
+19707ac: ldr r0, [r0]
+19707b0: vdiv.f32 s16, s16, s0
+19707b4: ldr r0, [r0, #0x5c]
+19707b8: ldr r5, [r0]
+19707bc: cmp r5, #0
+19707c0: bne #0x19707c8
+19707c4: bl #0x161f890 
+19707c8: vmov r1, s16
+19707cc: mov r0, r5
+19707d0: mov r2, #0
+19707d4: bl #0x18b88a4 HoleProgressBar$$DrawProgressBar
+19707d8: ldr r5, [r4, #0x10]
+19707dc: vldr s16, [r4, #0x14]
+19707e0: cmp r5, #0
+19707e4: bne #0x19707ec
+19707e8: bl #0x161f890 
+19707ec: vldr s0, [r5, #0xc]
+19707f0: vcvt.f32.s32 s0, s0
+19707f4: vcmp.f32 s16, s0
+19707f8: vmrs apsr_nzcv, fpscr
+19707fc: bge #0x1970808
+1970800: vpop {d8}
+1970804: pop {r4, r5, r6, pc}
+1970808: ldr r5, [r4, #0x10]
+197080c: vldr s16, [r4, #0x14]
+1970810: cmp r5, #0
+1970814: bne #0x197081c
+1970818: bl #0x161f890 
+197081c: vldr s0, [r5, #0xc]
+1970820: mov r0, r4
+1970824: vcvt.f32.s32 s0, s0
+1970828: vsub.f32 s0, s16, s0
+197082c: vstr s0, [r4, #0x14]
+1970830: bl #0x1970ed4 _Project.Scripts.Game.Hole.HoleSizeManager$$SetNextHoleSizeLevel
+1970834: ldr r0, [pc, #0x68] 값:08bff203 실수:1.426734e-36
+1970838: mov r1, #1
+197083c: ldr r0, [pc, r0]
+1970840: strb r1, [r4, #0x60]
+1970844: ldr r0, [r0]
+1970848: bl #0x161f884 
+197084c: mov r5, r0
+1970850: ldr r0, [pc, #0x50] 값:980bf303 실수:1.4284918e-36
+1970854: mov r1, r4
+1970858: mov r3, #0
+197085c: ldr r0, [pc, r0]
+1970860: ldr r2, [r0]
+1970864: mov r0, r5
+1970868: bl #0x199e4e8 DG.Tweening.TweenCallback$$.ctor
+197086c: movw r0, #0x999a
+1970870: mov r1, r5
+1970874: movt r0, #0x3e99
+1970878: mov r2, #1
+197087c: mov r3, #0
+1970880: vpop {d8}
+1970884: pop {r4, r5, r6, lr}
+1970888: b #0x19a52e0 DG.Tweening.DOVirtual$$DelayedCall
+197088c: andeq r0, r0, r0
+1970890: ldreq r3, [r5], #-0x478
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$IncreaseHoleSize / 주소: 0x1970a84
+1970a84: push {r4, r5, r6, r7, r8, lr}
+1970a88: vpush {d8, d9, d10, d11}
+1970a8c: sub sp, sp, #8
+1970a90: ldr r5, [pc, #0x174] 값:e5301504 실수:1.7537317e-36
+1970a94: mov r4, r0
+1970a98: add r5, pc, r5
+1970a9c: ldrb r0, [r5]
+1970aa0: cmp r0, #0
+1970aa4: bne #0x1970ac8
+1970aa8: ldr r0, [pc, #0x160] 값:58c7f203 실수:1.4269249e-36
+1970aac: ldr r0, [pc, r0]
+1970ab0: bl #0x161f5e0 
+1970ab4: ldr r0, [pc, #0x158] 값:f8c1f203 실수:1.4268015e-36
+1970ab8: ldr r0, [pc, r0]
+1970abc: bl #0x161f5e0 
+1970ac0: mov r0, #1
+1970ac4: strb r0, [r5]
+1970ac8: ldr r0, [pc, #0x148] 값:e4c1f203 실수:1.4267997e-36
+1970acc: ldr r0, [pc, r0]
+1970ad0: ldr r5, [r4, #0x18]
+1970ad4: ldr r0, [r0]
+1970ad8: ldr r1, [r0, #0x74]
+1970adc: cmp r1, #0
+1970ae0: bne #0x1970ae8
+1970ae4: bl #0x161f754 
+1970ae8: mov r0, r5
+1970aec: mov r1, #0
+1970af0: bl #0x17a7b88 HoleAnalyticsHelper$$HoleSizeIncreased
+1970af4: ldr r5, [r4, #0x48]
+1970af8: cmp r5, #0
+1970afc: bne #0x1970b04
+1970b00: bl #0x161f890 
+1970b04: ldr r6, [r5, #0x28]
+1970b08: cmp r6, #0
+1970b0c: bne #0x1970b14
+1970b10: bl #0x161f890 
+1970b14: ldr r6, [r6, #0x20]
+1970b18: ldr r5, [r4, #0x1c]
+1970b1c: cmp r6, #0
+1970b20: bne #0x1970b28
+1970b24: bl #0x161f890 
+1970b28: mov r0, r6
+1970b2c: mov r1, r5
+1970b30: mov r2, #0
+1970b34: bl #0x1975c7c _Project.Scripts.Game.GameLevel.GeneratedLevel$$HoleVsColliderActivity
+1970b38: ldr r7, [r4, #0x38]
+1970b3c: ldr r6, [r4, #0x1c]
+1970b40: vldr s16, [r4, #0x2c]
+1970b44: cmp r7, #0
+1970b48: vldr s20, [r4, #0x30]
+1970b4c: mov r5, r7
+1970b50: vldr s18, [r4, #0x34]
+1970b54: mov r8, r6
+1970b58: bne #0x1970b68
+1970b5c: bl #0x161f890 
+1970b60: ldr r8, [r4, #0x1c]
+1970b64: ldr r5, [r4, #0x38]
+1970b68: vmov s0, r6
+1970b6c: vldr s2, [r7, #8]
+1970b70: vldr s22, [r4, #0x3c]
+1970b74: cmp r5, #0
+1970b78: vcvt.f32.s32 s0, s0
+1970b7c: vmul.f32 s0, s2, s0
+1970b80: vadd.f32 s18, s18, s0
+1970b84: vstr s0, [r4, #0x44]
+1970b88: vadd.f32 s20, s20, s0
+1970b8c: vadd.f32 s16, s16, s0
+1970b90: bne #0x1970b98
+1970b94: bl #0x161f890 
+1970b98: vmov s0, r8
+1970b9c: vldr s2, [r5, #0xc]
+1970ba0: mov r0, r4
+1970ba4: vcvt.f32.s32 s0, s0
+1970ba8: vmla.f32 s22, s2, s0
+1970bac: vmov r1, s22
+1970bb0: bl #0x1971130 _Project.Scripts.Game.Hole.HoleSizeManager$$SetCharacterRadius
+1970bb4: vmov r1, s16
+1970bb8: mov r0, r4
+1970bbc: vmov r2, s20
+1970bc0: vmov r3, s18
+1970bc4: bl #0x197117c _Project.Scripts.Game.Hole.HoleSizeManager$$HoleScaleUpWithAnimation
+1970bc8: mov r0, r4
+1970bcc: bl #0x1970148 _Project.Scripts.Game.Hole.HoleSizeManager$$UpdateHoleSizeLevelText
+1970bd0: ldr r0, [pc, #0x44] 값:30c6f203 실수:1.4268983e-36
+1970bd4: ldr r0, [pc, r0]
+1970bd8: ldr r0, [r0]
+1970bdc: ldr r0, [r0, #0x5c]
+1970be0: ldr r4, [r0]
+1970be4: cmp r4, #0
+1970be8: bne #0x1970bf0
+1970bec: bl #0x161f890 
+1970bf0: mov r0, r4
+1970bf4: mov r1, #4
+1970bf8: mov r2, #0
+1970bfc: add sp, sp, #8
+1970c00: vpop {d8, d9, d10, d11}
+1970c04: pop {r4, r5, r6, r7, r8, lr}
+1970c08: b #0x191dd20 _Project._AudioSystem.Scripts.AudioManager$$PlayAudio
+1970c0c: ldreq r3, [r5], #-0xe5
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$OnObjectEatenResponse / 주소: 0x1970dd0
+1970dd0: push {r4, r5, r6, lr}
+1970dd4: vpush {d8}
+1970dd8: ldr r6, [pc, #0xe8] 값:922d1504 실수:1.7535791e-36
+1970ddc: mov r4, r0
+1970de0: vmov s16, r1
+1970de4: mov r5, r2
+1970de8: add r6, pc, r6
+1970dec: ldrb r0, [r6]
+1970df0: cmp r0, #0
+1970df4: bne #0x1970e0c
+1970df8: ldr r0, [pc, #0xcc] 값:58c0f203 실수:1.4267642e-36
+1970dfc: ldr r0, [pc, r0]
+1970e00: bl #0x161f5e0 
+1970e04: mov r0, #1
+1970e08: strb r0, [r6]
+1970e0c: vldr s0, [r4, #0x14]
+1970e10: mov r0, r4
+1970e14: vadd.f32 s0, s0, s16
+1970e18: vstr s0, [r4, #0x14]
+1970e1c: bl #0x19706f8 _Project.Scripts.Game.Hole.HoleSizeManager$$UpdateHoleProgressValue
+1970e20: ldr r0, [pc, #0xa8] 값:30c0f203 실수:1.4267606e-36
+1970e24: ldr r0, [pc, r0]
+1970e28: ldr r0, [r0]
+1970e2c: ldr r0, [r0, #0x5c]
+1970e30: ldr r6, [r0]
+1970e34: cmp r6, #0
+1970e38: bne #0x1970e40
+1970e3c: bl #0x161f890 
+1970e40: mov r0, r6
+1970e44: mov r1, #0
+1970e48: bl #0x18c781c Save_System.Scripts.GameDataManager$$GetCurrentLevelNumber
+1970e4c: cmp r0, #1
+1970e50: bne #0x1970e90
+1970e54: vmov.f32 s0, #9.000000e+00
+1970e58: vldr s2, [r4, #0x14]
+1970e5c: vcmp.f32 s2, s0
+1970e60: vmrs apsr_nzcv, fpscr
+1970e64: blt #0x1970e90
+1970e68: ldr r6, [r4, #0x48]
+1970e6c: cmp r6, #0
+1970e70: bne #0x1970e78
+1970e74: bl #0x161f890 
+1970e78: ldr r6, [r6, #0x48]
+1970e7c: cmp r6, #0
+1970e80: bne #0x1970e88
+1970e84: bl #0x161f890 
+1970e88: mov r0, r6
+1970e8c: bl #0x196b528 _Project.Scripts.Game.TutorialManager.TutorialManager$$DeActivateWalls
+1970e90: cmp r5, #0
+1970e94: bne #0x1970ebc
+1970e98: vldr s0, [pc, #0x24] 값:0000807f 실수:inf
+1970e9c: vcvt.s32.f32 s2, s16
+1970ea0: ldr r0, [r4, #0x50]
+1970ea4: vcmp.f32 s16, s0
+1970ea8: vmrs apsr_nzcv, fpscr
+1970eac: vmov r1, s2
+1970eb0: moveq r1, #0x80000000
+1970eb4: add r0, r0, r1
+1970eb8: str r0, [r4, #0x50]
+1970ebc: vpop {d8}
+1970ec0: pop {r4, r5, r6, pc}
+1970ec4: svcvc #0x800000
+1970ec8: ldreq r2, [r5], #-0xd92
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$SetNextHoleSizeLevel / 주소: 0x1970ed4
+1970ed4: push {r4, r5, r6, lr}
+1970ed8: mov r4, r0
+1970edc: ldr r0, [r0, #0x18]
+1970ee0: add r1, r0, #1
+1970ee4: mov r0, r4
+1970ee8: str r1, [r4, #0x18]
+1970eec: bl #0x1970474 _Project.Scripts.Game.Hole.HoleSizeManager$$GetNextHoleSizeIncreaseInfo
+1970ef0: mov r5, r4
+1970ef4: mov r1, r0
+1970ef8: str r0, [r5, #0x10]!
+1970efc: mov r0, r5
+1970f00: bl #0x161f57c 
+1970f04: ldr r5, [r5]
+1970f08: cmp r5, #0
+1970f0c: bne #0x1970f14
+1970f10: bl #0x161f890 
+1970f14: ldr r6, [r4, #0x38]
+1970f18: ldr r5, [r5, #8]
+1970f1c: cmp r6, #0
+1970f20: bne #0x1970f28
+1970f24: bl #0x161f890 
+1970f28: ldr r0, [r6, #0x10]
+1970f2c: cmp r5, r0
+1970f30: ble #0x1970f58
+1970f34: ldr r5, [r4, #0x38]
+1970f38: cmp r5, #0
+1970f3c: bne #0x1970f44
+1970f40: bl #0x161f890 
+1970f44: mov r0, #1
+1970f48: ldr r1, [r5, #0x10]
+1970f4c: strb r0, [r4, #0x20]
+1970f50: str r1, [r4, #0x1c]
+1970f54: pop {r4, r5, r6, pc}
+1970f58: ldrb r0, [r4, #0x20]
+1970f5c: ldr r5, [r4, #0x18]
+1970f60: cmp r0, #0
+1970f64: str r5, [r4, #0x1c]
+1970f68: popne {r4, r5, r6, pc}
+1970f6c: ldr r6, [r4, #0x48]
+1970f70: cmp r6, #0
+1970f74: bne #0x1970f80
+1970f78: bl #0x161f890 
+1970f7c: ldr r5, [r4, #0x1c]
+1970f80: ldr r4, [r6, #0x20]
+1970f84: cmp r4, #0
+1970f88: bne #0x1970f90
+1970f8c: bl #0x161f890 
+1970f90: mov r0, r4
+1970f94: mov r1, r5
+1970f98: mov r2, #0
+1970f9c: pop {r4, r5, r6, lr}
+1970fa0: b #0x1978d94 _Project.Scripts.Game.GameCamera.CameraManager$$OnHoleSizeIncreaseResponse
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$GetRequiredSizeAmount / 주소: 0x1970fa4
+1970fa4: push {r4, r5, r6, r7, fp, lr}
+1970fa8: sub sp, sp, #0x18
+1970fac: ldr r6, [pc, #0x158] 값:c42b1504 실수:1.7534962e-36
+1970fb0: mov r5, r0
+1970fb4: mov r4, r1
+1970fb8: add r6, pc, r6
+1970fbc: ldrb r0, [r6]
+1970fc0: cmp r0, #0
+1970fc4: bne #0x1971000
+1970fc8: ldr r0, [pc, #0x140] 값:48bcf203 실수:1.4266709e-36
+1970fcc: ldr r0, [pc, r0]
+1970fd0: bl #0x161f5e0 
+1970fd4: ldr r0, [pc, #0x138] 값:40bcf203 실수:1.4266702e-36
+1970fd8: ldr r0, [pc, r0]
+1970fdc: bl #0x161f5e0 
+1970fe0: ldr r0, [pc, #0x130] 값:38bcf203 실수:1.4266695e-36
+1970fe4: ldr r0, [pc, r0]
+1970fe8: bl #0x161f5e0 
+1970fec: ldr r0, [pc, #0x128] 값:34bcf203 실수:1.4266691e-36
+1970ff0: ldr r0, [pc, r0]
+1970ff4: bl #0x161f5e0 
+1970ff8: mov r0, #1
+1970ffc: strb r0, [r6]
+1971000: ldr r6, [r5, #0x38]
+1971004: vmov.i32 q8, #0
+1971008: add r5, sp, #8
+197100c: cmp r6, #0
+1971010: vst1.64 {d16, d17}, [r5]
+1971014: bne #0x197101c
+1971018: bl #0x161f890 
+197101c: ldr r6, [r6, #0x18]
+1971020: cmp r6, #0
+1971024: bne #0x197102c
+1971028: bl #0x161f890 
+197102c: ldr r0, [pc, #0xec] 값:f0bbf203 실수:1.426663e-36
+1971030: mov r1, r6
+1971034: ldr r0, [pc, r0]
+1971038: ldr r2, [r0]
+197103c: mov r0, r5
+1971040: bl #0x236ba08 System.Collections.Generic.List<object>$$GetEnumerator
+1971044: mov r0, #0
+1971048: str r5, [sp, #4]
+197104c: str r0, [sp]
+1971050: ldr r6, [pc, #0xcc] 값:c4bbf203 실수:1.4266591e-36
+1971054: ldr r6, [pc, r6]
+1971058: ldr r1, [r6]
+197105c: mov r0, r5
+1971060: bl #0x339244c System.Collections.Generic.List.Enumerator<object>$$MoveNext
+1971064: cmp r0, #0
+1971068: beq #0x1971090
+197106c: ldr r7, [sp, #0x14]
+1971070: cmp r7, #0
+1971074: bne #0x197107c
+1971078: bl #0x161f890 
+197107c: ldr r0, [r7, #8]
+1971080: cmp r0, r4
+1971084: bne #0x1971058
+1971088: ldr r4, [r7, #0xc]
+197108c: b #0x1971094 
+1971090: mov r4, #0
+1971094: ldr r0, [pc, #0x90] 값:7cbbf203 실수:1.4266526e-36
+1971098: ldr r0, [pc, r0]
+197109c: ldr r1, [r0]
+19710a0: add r0, sp, #8
+19710a4: bl #0x3392448 System.Collections.Generic.List.Enumerator<object>$$Dispose
+19710a8: mov r0, r4
+19710ac: add sp, sp, #0x18
+19710b0: pop {r4, r5, r6, r7, fp, pc}
+19710b4: b #0x19710b8 
+19710b8: cmp r1, #1
+19710bc: bne #0x19710fc
+19710c0: bl #0x16e7f28 
+19710c4: ldr r5, [r0]
+19710c8: str r5, [sp]
+19710cc: bl #0x16ff644 
+19710d0: ldr r0, [pc, #0x50] 값:40bbf203 실수:1.4266472e-36
+19710d4: ldr r0, [pc, r0]
+19710d8: ldr r1, [r0]
+19710dc: ldr r0, [sp, #4]
+19710e0: bl #0x3392448 System.Collections.Generic.List.Enumerator<object>$$Dispose
+19710e4: mov r4, #0
+19710e8: cmp r5, #0
+19710ec: beq #0x19710a8
+19710f0: mov r0, r5
+19710f4: bl #0x161f88c 
+19710f8: b #0x19710a8 
+19710fc: mov r0, sp
+1971100: bl #0x10c8b84 
+1971104: bl #0x16e7ff4 
+1971108: bl #0x10c873c 
+197110c: ldreq r2, [r5], #-0xbc4
+
+함수: _Project.Scripts.Game.Hole.HoleSizeManager$$<UpdateHoleProgressValue>b__42_0 / 주소: 0x1971ff0
+1971ff0: push {r4, r5, r6, r7, fp, lr}
+1971ff4: ldr r5, [pc, #0xbc] 값:8a1b1504 실수:1.7527511e-36
+1971ff8: mov r4, r0
+1971ffc: add r5, pc, r5
+1972000: ldrb r0, [r5]
+1972004: cmp r0, #0
+1972008: bne #0x1972020
+197200c: ldr r0, [pc, #0xa8] 값:80dbf203 실수:1.4273876e-36
+1972010: ldr r0, [pc, r0]
+1972014: bl #0x161f5e0 
+1972018: mov r0, #1
+197201c: strb r0, [r5]
+1972020: mov r0, r4
+1972024: bl #0x1970a84 _Project.Scripts.Game.Hole.HoleSizeManager$$IncreaseHoleSize
+1972028: ldr r7, [pc, #0x90] 값:64dbf203 실수:1.4273851e-36
+197202c: ldr r7, [pc, r7]
+1972030: ldr r0, [r7]
+1972034: ldr r0, [r0, #0x5c]
+1972038: ldr r5, [r0]
+197203c: cmp r5, #0
+1972040: bne #0x1972048
+1972044: bl #0x161f890 
+1972048: mov r0, r5
+197204c: mov r1, #0
+1972050: mov r2, #0
+1972054: mov r6, #0
+1972058: bl #0x18b88a4 HoleProgressBar$$DrawProgressBar
+197205c: ldr r0, [r7]
+1972060: ldr r0, [r0, #0x5c]
+1972064: ldr r5, [r0]
+1972068: cmp r5, #0
+197206c: bne #0x1972074
+1972070: bl #0x161f890 
+1972074: mov r0, r5
+1972078: mov r1, #0
+197207c: bl #0x18b90b8 HoleProgressBar$$ResetBreateAnimation
+1972080: mov r0, r4
+1972084: bl #0x1970148 _Project.Scripts.Game.Hole.HoleSizeManager$$UpdateHoleSizeLevelText
+1972088: ldr r1, [r4, #0x44]
+197208c: mov r0, r4
+1972090: bl #0x1970c20 _Project.Scripts.Game.Hole.HoleSizeManager$$DoSizeParticleEffect
+1972094: vldr s0, [r4, #0x14]
+1972098: strb r6, [r4, #0x60]
+197209c: vcmp.f32 s0, #0
+19720a0: vmrs apsr_nzcv, fpscr
+19720a4: ble #0x19720b4
+19720a8: mov r0, r4
+19720ac: pop {r4, r5, r6, r7, fp, lr}
+19720b0: b #0x19706f8 _Project.Scripts.Game.Hole.HoleSizeManager$$UpdateHoleProgressValue
+19720b4: pop {r4, r5, r6, r7, fp, pc}
+19720b8: ldreq r1, [r5], #-0xb8a
+
+함수: _Project.Scripts.Game.Hole.SmoothObjectDetection$$OnTriggerEnter / 주소: 0x197275c
+197275c: mov r2, #1
+1972760: b #0x1972590 _Project.Scripts.Game.Hole.SmoothObjectDetection$$HandleCollectable
+
+함수: _Project.Scripts.Game.Hole.SmoothObjectDetection$$OnTriggerExit / 주소: 0x1972764
+1972764: mov r2, #0
+1972768: b #0x1972590 _Project.Scripts.Game.Hole.SmoothObjectDetection$$HandleCollectable
+
+함수: _Project.Scripts.Game.Collectables.CollectableManager$$MakeItemPhysics / 주소: 0x197b674
+197b674: push {r4, r5, r6, lr}
+197b678: ldr r5, [pc, #0x100] 값:59851404 실수:1.7458547e-36
+197b67c: mov r4, r0
+197b680: add r5, pc, r5
+197b684: ldrb r0, [r5]
+197b688: cmp r0, #0
+197b68c: bne #0x197b6b0
+197b690: ldr r0, [pc, #0xec] 값:9414f203 실수:1.4228206e-36
+197b694: ldr r0, [pc, r0]
+197b698: bl #0x161f5e0 
+197b69c: ldr r0, [pc, #0xe4] 값:54f2f103 실수:1.4220343e-36
+197b6a0: ldr r0, [pc, r0]
+197b6a4: bl #0x161f5e0 
+197b6a8: mov r0, #1
+197b6ac: strb r0, [r5]
+197b6b0: ldr r0, [pc, #0xd4] 값:3cf2f103 실수:1.4220321e-36
+197b6b4: mov r5, r4
+197b6b8: ldr r0, [pc, r0]
+197b6bc: ldr r6, [r5, #0x28]!
+197b6c0: ldr r0, [r0]
+197b6c4: ldr r1, [r0, #0x74]
+197b6c8: cmp r1, #0
+197b6cc: bne #0x197b6d4
+197b6d0: bl #0x161f754 
+197b6d4: mov r0, r6
+197b6d8: mov r1, #0
+197b6dc: mov r2, #0
+197b6e0: bl #0x26d5dfc 
+197b6e4: cmp r0, #0
+197b6e8: beq #0x197b710
+197b6ec: ldr r0, [pc, #0x9c] 값:3814f203 실수:1.4228124e-36
+197b6f0: ldr r0, [pc, r0]
+197b6f4: ldr r1, [r0]
+197b6f8: mov r0, r4
+197b6fc: bl #0x1de1678 UnityEngine.Component$$GetComponent<object>
+197b700: mov r1, r0
+197b704: str r0, [r4, #0x28]
+197b708: mov r0, r5
+197b70c: bl #0x161f57c 
+197b710: ldr r6, [r5]
+197b714: cmp r6, #0
+197b718: bne #0x197b720
+197b71c: bl #0x161f890 
+197b720: mov r0, r6
+197b724: mov r1, #0
+197b728: bl #0x26d6b9c 
+197b72c: cmp r0, #0
+197b730: popeq {r4, r5, r6, pc}
+197b734: ldr r6, [r5]
+197b738: cmp r6, #0
+197b73c: bne #0x197b744
+197b740: bl #0x161f890 
+197b744: mov r0, r6
+197b748: mov r1, #1
+197b74c: mov r2, #0
+197b750: bl #0x26d8e70 
+197b754: ldr r5, [r5]
+197b758: cmp r5, #0
+197b75c: bne #0x197b764
+197b760: bl #0x161f890 
+197b764: mov r0, r5
+197b768: mov r1, #0
+197b76c: mov r2, #0
+197b770: bl #0x26d6bac 
+197b774: mov r0, r4
+197b778: pop {r4, r5, r6, lr}
+197b77c: b #0x197b794 _Project.Scripts.Game.Collectables.CollectableManager$$MakeAboveItemPhysics
+197b780: ldreq r8, [r4], #-0x559
+
+함수: _Project.Scripts.Game.Collectables.CollectableManager$$MakeAboveItemPhysics / 주소: 0x197b794
+197b794: push {r4, r5, r6, r7, fp, lr}
+197b798: sub sp, sp, #0x18
+197b79c: ldr r4, [pc, #0x1bc] 값:36841404 실수:1.7458025e-36
+197b7a0: mov r5, r0
+197b7a4: add r4, pc, r4
+197b7a8: ldrb r0, [r4]
+197b7ac: cmp r0, #0
+197b7b0: bne #0x197b7f8
+197b7b4: ldr r0, [pc, #0x1a8] 값:3c5ef203 실수:1.4245117e-36
+197b7b8: ldr r0, [pc, r0]
+197b7bc: bl #0x161f5e0 
+197b7c0: ldr r0, [pc, #0x1a0] 값:345ef203 실수:1.424511e-36
+197b7c4: ldr r0, [pc, r0]
+197b7c8: bl #0x161f5e0 
+197b7cc: ldr r0, [pc, #0x198] 값:2c5ef203 실수:1.4245102e-36
+197b7d0: ldr r0, [pc, r0]
+197b7d4: bl #0x161f5e0 
+197b7d8: ldr r0, [pc, #0x190] 값:245ef203 실수:1.4245095e-36
+197b7dc: ldr r0, [pc, r0]
+197b7e0: bl #0x161f5e0 
+197b7e4: ldr r0, [pc, #0x188] 값:4c34f203 실수:1.4235488e-36
+197b7e8: ldr r0, [pc, r0]
+197b7ec: bl #0x161f5e0 
+197b7f0: mov r0, #1
+197b7f4: strb r0, [r4]
+197b7f8: ldrb r0, [r5, #0x88]
+197b7fc: vmov.i32 q8, #0
+197b800: add r4, sp, #8
+197b804: cmp r0, #0
+197b808: vst1.64 {d16, d17}, [r4]
+197b80c: bne #0x197b8f8
+197b810: ldr r6, [r5, #0x84]
+197b814: mov r0, #1
+197b818: strb r0, [r5, #0x88]
+197b81c: cmp r6, #0
+197b820: bne #0x197b828
+197b824: bl #0x161f890 
+197b828: ldr r0, [r6, #0xc]
+197b82c: cmp r0, #1
+197b830: blt #0x197b8f8
+197b834: ldr r5, [r5, #0x84]
+197b838: cmp r5, #0
+197b83c: bne #0x197b844
+197b840: bl #0x161f890 
+197b844: ldr r0, [pc, #0x12c] 값:b45df203 실수:1.4244995e-36
+197b848: mov r1, r5
+197b84c: ldr r0, [pc, r0]
+197b850: ldr r2, [r0]
+197b854: mov r0, r4
+197b858: bl #0x236ba08 System.Collections.Generic.List<object>$$GetEnumerator
+197b85c: mov r0, #0
+197b860: str r4, [sp, #4]
+197b864: str r0, [sp]
+197b868: ldr r7, [pc, #0x10c] 값:8c5df203 실수:1.4244959e-36
+197b86c: ldr r7, [pc, r7]
+197b870: ldr r1, [r7]
+197b874: mov r0, r4
+197b878: bl #0x339244c System.Collections.Generic.List.Enumerator<object>$$MoveNext
+197b87c: cmp r0, #0
+197b880: beq #0x197b8e4
+197b884: ldr r5, [sp, #0x14]
+197b888: cmp r5, #0
+197b88c: bne #0x197b894
+197b890: bl #0x161f890 
+197b894: mov r0, r5
+197b898: mov r1, #0
+197b89c: bl #0x26d5e2c 
+197b8a0: mov r6, r0
+197b8a4: cmp r0, #0
+197b8a8: bne #0x197b8b0
+197b8ac: bl #0x161f890 
+197b8b0: mov r0, r6
+197b8b4: mov r1, #0
+197b8b8: bl #0x26d671c 
+197b8bc: cmp r0, #0
+197b8c0: beq #0x197b870
+197b8c4: cmp r5, #0
+197b8c8: bne #0x197b8d0
+197b8cc: bl #0x161f890 
+197b8d0: mov r0, r5
+197b8d4: mov r1, #0
+197b8d8: mov r2, #0
+197b8dc: bl #0x26d6bac 
+197b8e0: b #0x197b870 
+197b8e4: ldr r0, [pc, #0x94] 값:0c5df203 실수:1.4244844e-36
+197b8e8: ldr r0, [pc, r0]
+197b8ec: ldr r1, [r0]
+197b8f0: add r0, sp, #8
+197b8f4: bl #0x3392448 System.Collections.Generic.List.Enumerator<object>$$Dispose
+197b8f8: add sp, sp, #0x18
+197b8fc: pop {r4, r5, r6, r7, fp, pc}
+197b900: b #0x197b910 
+197b904: b #0x197b910 
+197b908: b #0x197b910 
+197b90c: b #0x197b910 
+197b910: cmp r1, #1
+197b914: bne #0x197b950
+197b918: bl #0x16e7f28 
+197b91c: ldr r4, [r0]
+197b920: str r4, [sp]
+197b924: bl #0x16ff644 
+197b928: ldr r0, [pc, #0x54] 값:c85cf203 실수:1.4244783e-36
+197b92c: ldr r0, [pc, r0]
+197b930: ldr r1, [r0]
+197b934: ldr r0, [sp, #4]
+197b938: bl #0x3392448 System.Collections.Generic.List.Enumerator<object>$$Dispose
+197b93c: cmp r4, #0
+197b940: beq #0x197b8f8
+197b944: mov r0, r4
+197b948: bl #0x161f88c 
+197b94c: b #0x197b8f8 
+197b950: mov r0, sp
+197b954: bl #0x10cb7c0 
+197b958: bl #0x16e7ff4 
+197b95c: bl #0x10c873c 
+197b960: ldreq r8, [r4], #-0x436
+
+함수: _Project.Scripts.Game.Collectables.CollectableManager$$OnCollected / 주소: 0x197bf10
+197bf10: push {r4, r5, r6, r7, fp, lr}
+197bf14: vpush {d8}
+197bf18: ldr r5, [pc, #0x310] 값:be7c1404 실수:1.7454595e-36
+197bf1c: mov r4, r0
+197bf20: add r5, pc, r5
+197bf24: ldrb r0, [r5]
+197bf28: cmp r0, #0
+197bf2c: bne #0x197bf68
+197bf30: ldr r0, [pc, #0x2fc] 값:d012f203 실수:1.4227801e-36
+197bf34: ldr r0, [pc, r0]
+197bf38: bl #0x161f5e0 
+197bf3c: ldr r0, [pc, #0x2f4] 값:6c0df203 실수:1.4226563e-36
+197bf40: ldr r0, [pc, r0]
+197bf44: bl #0x161f5e0 
+197bf48: ldr r0, [pc, #0x2ec] 값:a8e9f103 실수:1.4218352e-36
+197bf4c: ldr r0, [pc, r0]
+197bf50: bl #0x161f5e0 
+197bf54: ldr r0, [pc, #0x2e4] 값:2418f203 실수:1.4229024e-36
+197bf58: ldr r0, [pc, r0]
+197bf5c: bl #0x161f5e0 
+197bf60: mov r0, #1
+197bf64: strb r0, [r5]
+197bf68: mov r0, r4
+197bf6c: bl #0x197bea8 _Project.Scripts.Game.Collectables.CollectableManager$$AssignNoFricitonMaterial
+197bf70: ldr r5, [r4, #0x50]
+197bf74: cmp r5, #0
+197bf78: bne #0x197bf80
+197bf7c: bl #0x161f890 
+197bf80: ldr r5, [r5, #0x28]
+197bf84: cmp r5, #0
+197bf88: bne #0x197bf90
+197bf8c: bl #0x161f890 
+197bf90: mov r0, r5
+197bf94: mov r1, r4
+197bf98: mov r2, #0
+197bf9c: bl #0x17d8dd8 _Project.Scripts.Core.GameLevelManager$$RemoveFromCollectables
+197bfa0: ldr r5, [r4, #0x50]
+197bfa4: cmp r5, #0
+197bfa8: bne #0x197bfb0
+197bfac: bl #0x161f890 
+197bfb0: ldr r5, [r5, #0x28]
+197bfb4: cmp r5, #0
+197bfb8: bne #0x197bfc0
+197bfbc: bl #0x161f890 
+197bfc0: mov r0, r5
+197bfc4: mov r1, r4
+197bfc8: mov r2, #0
+197bfcc: bl #0x17da958 _Project.Scripts.Core.GameLevelManager$$UpdateGateInfo
+197bfd0: ldr r7, [pc, #0x26c] 값:20e9f103 실수:1.421823e-36
+197bfd4: ldr r7, [pc, r7]
+197bfd8: ldr r5, [r4, #0x6c]
+197bfdc: ldr r0, [r7]
+197bfe0: ldr r1, [r0, #0x74]
+197bfe4: cmp r1, #0
+197bfe8: bne #0x197bff0
+197bfec: bl #0x161f754 
+197bff0: mov r0, r5
+197bff4: mov r1, #0
+197bff8: mov r2, #0
+197bffc: bl #0x26d5cac 
+197c000: cmp r0, #0
+197c004: beq #0x197c048
+197c008: ldr r5, [r4, #0x50]
+197c00c: cmp r5, #0
+197c010: bne #0x197c018
+197c014: bl #0x161f890 
+197c018: ldr r5, [r5, #0x4c]
+197c01c: cmp r5, #0
+197c020: bne #0x197c028
+197c024: bl #0x161f890 
+197c028: ldr r5, [r5, #0x14]
+197c02c: cmp r5, #0
+197c030: bne #0x197c038
+197c034: bl #0x161f890 
+197c038: mov r0, r5
+197c03c: mov r1, r4
+197c040: mov r2, #0
+197c044: bl #0x196c780 _Project.Scripts.Game.Indicator.GameIndicatorManager$$RemoveFromActiveIndicator
+197c048: vldr s16, [r4, #0x1c]
+197c04c: vcmp.f32 s16, #0
+197c050: vmrs apsr_nzcv, fpscr
+197c054: ble #0x197c210
+197c058: ldr r5, [r4, #0x50]
+197c05c: cmp r5, #0
+197c060: bne #0x197c06c
+197c064: bl #0x161f890 
+197c068: vldr s16, [r4, #0x1c]
+197c06c: ldr r5, [r5, #0x1c]
+197c070: cmp r5, #0
+197c074: bne #0x197c07c
+197c078: bl #0x161f890 
+197c07c: vmov r1, s16
+197c080: mov r0, r5
+197c084: mov r2, #0
+197c088: mov r3, #0
+197c08c: bl #0x1970dd0 _Project.Scripts.Game.Hole.HoleSizeManager$$OnObjectEatenResponse
+197c090: ldr r5, [r4, #0x50]
+197c094: cmp r5, #0
+197c098: bne #0x197c0a0
+197c09c: bl #0x161f890 
+197c0a0: ldr r5, [r5, #0x30]
+197c0a4: cmp r5, #0
+197c0a8: bne #0x197c0b0
+197c0ac: bl #0x161f890 
+197c0b0: mov r0, r5
+197c0b4: mov r1, r4
+197c0b8: bl #0x197c254 _Project.Scripts.Game.Collectables.HoleCollectionManager$$OnCollectedResponse
+197c0bc: ldr r5, [r4, #0x50]
+197c0c0: cmp r5, #0
+197c0c4: bne #0x197c0cc
+197c0c8: bl #0x161f890 
+197c0cc: ldr r5, [r5, #0x34]
+197c0d0: cmp r5, #0
+197c0d4: bne #0x197c0dc
+197c0d8: bl #0x161f890 
+197c0dc: mov r0, r5
+197c0e0: mov r1, r4
+197c0e4: bl #0x197c640 _Project.Scripts.Game.Collectables.GameGoalManager$$CheckForGoalItem
+197c0e8: ldr r6, [r4, #0x50]
+197c0ec: cmp r6, #0
+197c0f0: bne #0x197c0f8
+197c0f4: bl #0x161f890 
+197c0f8: ldr r6, [r6, #0x34]
+197c0fc: ldr r5, [r4, #0x18]
+197c100: cmp r6, #0
+197c104: bne #0x197c10c
+197c108: bl #0x161f890 
+197c10c: mov r0, r6
+197c110: mov r1, r5
+197c114: bl #0x197ccfc _Project.Scripts.Game.Collectables.GameGoalManager$$GetGoalItem
+197c118: mov r5, r0
+197c11c: ldr r0, [r7]
+197c120: ldr r1, [r0, #0x74]
+197c124: cmp r1, #0
+197c128: bne #0x197c130
+197c12c: bl #0x161f754 
+197c130: mov r0, r5
+197c134: mov r1, #0
+197c138: mov r2, #0
+197c13c: bl #0x26d5cac 
+197c140: mov r5, r0
+197c144: ldr r0, [pc, #0xfc] 값:3416f203 실수:1.4228579e-36
+197c148: ldr r0, [pc, r0]
+197c14c: ldr r0, [r0]
+197c150: bl #0x2ac6908 Singleton<object>$$get_Instance
+197c154: mov r6, r0
+197c158: cmp r0, #0
+197c15c: bne #0x197c164
+197c160: bl #0x161f890 
+197c164: eor r5, r5, #1
+197c168: mov r0, r6
+197c16c: mov r2, #0
+197c170: mov r1, r5
+197c174: bl #0x196299c _Project.Scripts.HapticManager$$PlayObjectInHoleHaptic
+197c178: cmp r5, #0
+197c17c: bne #0x197c218
+197c180: ldr r0, [pc, #0xc4] 값:8010f203 실수:1.422727e-36
+197c184: ldr r0, [pc, r0]
+197c188: ldr r0, [r0]
+197c18c: ldr r0, [r0, #0x5c]
+197c190: ldr r5, [r0]
+197c194: cmp r5, #0
+197c198: bne #0x197c1a0
+197c19c: bl #0x161f890 
+197c1a0: mov r0, r5
+197c1a4: mov r1, #0
+197c1a8: bl #0x1927840 _Project._AudioSystem.Scripts.AudioManager$$PlayGoalInHoleSound
+197c1ac: ldr r0, [pc, #0x9c] 값:fc0af203 실수:1.4226004e-36
+197c1b0: ldr r0, [pc, r0]
+197c1b4: vldr s16, [r4, #0x7c]
+197c1b8: ldr r0, [r0]
+197c1bc: ldr r1, [r0, #0x74]
+197c1c0: cmp r1, #0
+197c1c4: bne #0x197c1cc
+197c1c8: bl #0x161f754 
+197c1cc: vldr s0, [pc, #0x58] 값:0000807f 실수:inf
+197c1d0: vcvt.s32.f32 s2, s16
+197c1d4: mov r1, #1
+197c1d8: mov r2, #0
+197c1dc: vcmp.f32 s16, s0
+197c1e0: vmrs apsr_nzcv, fpscr
+197c1e4: vmov r0, s2
+197c1e8: moveq r0, #0x80000000
+197c1ec: bl #0x17a75e0 GoalAnalyticsHelper$$UpdateGoalItemsCollected
+197c1f0: mov r0, #1
+197c1f4: mov r1, #0
+197c1f8: bl #0x1811354 _Project.DailyChallenge.DailyChallengeTracker$$CollectObjects
+197c1fc: mov r0, #1
+197c200: mov r1, #0
+197c204: vpop {d8}
+197c208: pop {r4, r5, r6, r7, fp, lr}
+197c20c: b #0x1811384 _Project.DailyChallenge.DailyChallengeTracker$$CollectGoal
+197c210: vpop {d8}
+197c214: pop {r4, r5, r6, r7, fp, pc}
+197c218: mov r0, #1
+197c21c: mov r1, #0
+197c220: vpop {d8}
+197c224: pop {r4, r5, r6, r7, fp, lr}
+197c228: b #0x1811354 _Project.DailyChallenge.DailyChallengeTracker$$CollectObjects
+197c22c: svcvc #0x800000
+197c230: ldreq r7, [r4], #-0xcbe

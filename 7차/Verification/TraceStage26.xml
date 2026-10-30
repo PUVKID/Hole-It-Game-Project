@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Failed(Child)" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 09:57:33Z" end-time="2026-10-13 10:02:41Z" duration="307.8090004">
+  <test-suite type="TestSuite" id="1108" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-13 09:57:33Z" end-time="2026-10-13 10:02:41Z" duration="307.809000" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1105" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-13 09:57:33Z" end-time="2026-10-13 10:02:41Z" duration="307.800399" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="1824" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1063" name="ReferenceSeventhStageProbeTests" fullname="ReferenceSeventhStageProbeTests" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" testcasecount="6" result="Failed" site="Child" start-time="2026-10-13 09:57:33Z" end-time="2026-10-13 10:02:40Z" duration="306.935679" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1065" name="StageTwentySixCapsuleAxisTrace" fullname="ReferenceSeventhStageProbeTests.StageTwentySixCapsuleAxisTrace" methodname="StageTwentySixCapsuleAxisTrace" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" seed="1411742106" result="Failed" start-time="2026-10-13 09:57:33Z" end-time="2026-10-13 10:02:40Z" duration="306.927753" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="340000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  sim=1200.03 collected=684 hole=(16.22, 0.00, -10.20) aperture=1.689 active=2 target=680/255/Robot Red pivot=(18.37, 1.55, -12.04) fit=1.484 bottom=0.018 kinematic=False velocity=(-0.08, -0.01, -0.10) angular=(-0.06, 0.00, 0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(16.18, 1.58, -10.09) size=(5.19, 3.13, 4.92) enabled=1 detection=True floorRayY=0.069
+  Expected: Won
+  But was:  Playing
+]]></message>
+            <stack-trace><![CDATA[at ReferenceSeventhStageProbeTests+<StageTwentySixCapsuleAxisTrace>d__1.MoveNext () [0x00331] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhStageProbeTests.cs:28
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1075" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-13 10:02:40Z" end-time="2026-10-13 10:02:41Z" duration="0.861954" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1084" name="TightCapsuleTestProbesFollowItsActualAxisAndStartWithinClearance" fullname="ReferenceTests.TightCapsuleTestProbesFollowItsActualAxisAndStartWithinClearance" methodname="TightCapsuleTestProbesFollowItsActualAxisAndStartWithinClearance" classname="ReferenceTests" runstate="Runnable" seed="717017942" result="Passed" start-time="2026-10-13 10:02:40Z" end-time="2026-10-13 10:02:41Z" duration="0.859159" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\TraceStage26.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

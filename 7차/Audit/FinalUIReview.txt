@@ -1,0 +1,30 @@
+Final UI review — Edition 7
+Reviewed 2026-10-13; read-only source/screenshots review. No Unity launched, no Assets edited.
+
+Branding: active Assets/Scripts, Assets/Editor, Main scene and ProjectSettings have no player-facing Gaeun/GAEUN/가은 strings. Remaining Gaeun matches are compatibility PlayerPrefs keys and capture/test reset code. Product name is Hole It!, Android ID remains com.pocketplayground.pocketpit. The release readme mentions the removed FOR GAEUN label as change history; it is not present in the app UI.
+
+Viewed final regular 540x960 previews: loading, home, first level, bomb failure, Finder, settings, pause, timeout failure and attendance. Viewed tall 540x1200 home, first level, settings and attendance. No clipped headings/buttons/counts or unsupported glyph boxes were visible. Bomb failure now places original dark-red You Blasted! on its light info-card-v1 panel and is readable. Finder targets and edge arrows are visible after the camera-canvas conversion fix. Attendance has all31day cells and the1,000coin claim label; small cell captions remain dense but are inside their cells. Coton art remains intact and no dedication appears.
+
+Fidelity scope: original Linik Sans Black SDF glyph metrics/materials and measured key TMP presets are restored. Coton art and HOLE IT! text treatment, extra home/menu controls,31-day attendance, challenge/collection screens and some responsive placement are reconstruction/custom additions. Finder nearest-target selection/pooling scheduling is reconstructed; exact source activation tween/order is not claimed. No dedicated original home-logo sprite was verified. Remote/server-controlled screens, floating point popup behavior and every original runtime animation have not been fully matched or visually audited. Screenshots are Windows renders, not physical-phone performance evidence.
+
+Documentation review: Source/README.txt, Build-Android.ps1 and ReferenceAndroidPackaging.cs do not claim blanket1:1 fidelity. The500MB explanation correctly identifies actual uncompressed resources/native libraries and does not equate file size with quality.
+Suggested release prose correction in Audit/package_release.py (and generator create_packager.py): replace "Linik Sans Black 원본 글꼴과 실제 화면의 문구·크기·자간·재질을 복원했습니다." with "Linik Sans Black 원본 글꼴과 확인된 주요 화면의 문구·크기·자간·재질을 반영했습니다." This states the measured scope without implying all remote/custom screens are exact.
+Retain the existing explicit online/runtime and physical-Android verification limits. Include this review, BombInfoSource7.json, FinderSpriteSource7.json, IndicatorMidpointsSource7.json and FinderNative7.txt in packaged Verification for the final additions' provenance. No current clipping/contrast repair remains from this review.
+Fresh post-floor-fix Windows preview review
+Reviewed UTC: 2026-10-13T10:40:17.151591+00:00
+Independent visual inspection of the newly generated screenshots listed below. Regular captures are 540x960; tall captures are 540x1200. No Source edits, Unity launch or player launch performed by this reviewer.
+
+Observed: regular joystick ring and displaced knob are clearly visible; timer/goals/booster labels remain legible and inside the frame. Bomb failure shows Level 21, the poison icon, readable dark-red You Blasted! on the light card, and complete Try Again/Home controls. Finder shows in-world target rings, directional item icons and Active 12s feedback; dense edge markers overlap one another and partly share the lower-left joystick region, so no claim of universally uncluttered indicator placement is made.
+Attendance ready/claimed screenshots show all 31 cells, complete Claim 1,000 Coins/Done controls, day 1 changing to Done, the wallet changing 0 -> 1000, and the disabled Come Back Tomorrow state. Small cell captions are dense but fit within their cells. Tall home and first-level screens retain complete headings, action controls, goal counts, timer, joystick and booster captions without visible missing-glyph boxes or clipped text. No personal dedication is visible in these inspected images.
+Fresh Preview.log and Preview-tall.log have no matches for the checked exception/convex-cooking failure patterns. This is a targeted log check, not proof that all possible runtime issues are absent.
+
+Scope: these are screenshots from the fresh Windows standalone capture after the floor fix. The capture code temporarily uses a camera canvas/RenderTexture; still images establish visible composition only. They do not establish physical-phone touch accuracy, frame pacing, Android stability, human timer balance or completion of all campaign stages. Parent reviewed fresh regular home and level 28 separately; this reviewer does not claim direct visual inspection of those two in this pass.
+
+Inspected screenshot identities (UTC filesystem capture time; SHA256):
+Previews/04-joystick.png | 540x960 | 2026-10-13T10:37:53.043186+00:00 | 1e71fb096f0dc4ed6080409fab47b1bce2961fb74736ac326fd2feceb53700d6
+Previews/03-bomb-failure.png | 540x960 | 2026-10-13T10:37:52.476571+00:00 | af4a542f8166a08496a2ddc7c99b8f0191b52be5d9ef94841a506662dc64195c
+Previews/14-finder.png | 540x960 | 2026-10-13T10:37:56.516018+00:00 | 96b5d8151ea50f0b0a6150ef351c0f280dfa4f72a12c41c53e56d3590e0b1fc2
+Previews/09-attendance-ready.png | 540x960 | 2026-10-13T10:37:40.254594+00:00 | 83194cb2c5f08e6b08f252d48bd6a236e48708bef0dadd05e5db5a5af8d96bd7
+Previews/10-attendance-claimed.png | 540x960 | 2026-10-13T10:37:40.521943+00:00 | 0f5c7384802f2249ea0b7f8c963c7cf348311ee4d0ff342e17dde83467ebd25c
+Previews/Tall/01-home.png | 540x1200 | 2026-10-13T10:38:31.106888+00:00 | 1947cd7b3aea230a33f6c22c3ca28bff57bbf8ed76afc108e8ad61fe2a41152f
+Previews/Tall/02-first-level.png | 540x1200 | 2026-10-13T10:38:33.502768+00:00 | 124fb6209669fe550a4c041f9485a1ea16a19db38a72f11dc3f3101485fc406a

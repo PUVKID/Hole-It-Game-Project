@@ -1,0 +1,247 @@
+{
+  "createdUtc": "2026-10-13T09:14:23.832963+00:00",
+  "scope": "Read-only static geometry analysis. No Unity invocation; no Assets or gameplay changes. This JSON is the only written artifact.",
+  "stage": 11,
+  "model": {
+    "id": 118,
+    "label": "Trumpet",
+    "scale": 2.47,
+    "authoredQuaternion": [
+      0,
+      0.38235295,
+      0,
+      0.92156863
+    ],
+    "quaternionNormalizedAsLoadLevelDoes": true,
+    "maxRadiusReductionRate": 0,
+    "sourcePrefab": "Assets/_Project/Prefabs/Items/_Objects_Sprint01/Trumpet/Trumpet_Prefab.prefab"
+  },
+  "meshes": [
+    {
+      "path": "Source\\Assets\\ReferenceContent\\Built\\G-2884651339043034568.asset",
+      "guid": "678c833fdc4dca342b044fb84afd766e",
+      "unityMeshFileID": 4300000,
+      "role": "holeSizeMesh and render mesh",
+      "sha256": "e4cfdd6ad93171e059df763c624a7608396f1cdd81998c5dde4bdba01eab294b",
+      "vertexCount": 1577,
+      "vertexStrideBytes": 32,
+      "localMin": [
+        -0.3552347719669342,
+        -0.20406879484653473,
+        -0.6528083682060242
+      ],
+      "localMax": [
+        0.32716846466064453,
+        0.46699827909469604,
+        0.49219879508018494
+      ],
+      "localCenter": [
+        -0.014033153653144836,
+        0.13146474212408066,
+        -0.08030478656291962
+      ],
+      "localSize": [
+        0.6824032366275787,
+        0.6710670739412308,
+        1.145007163286209
+      ],
+      "exactRotatedVertexAABBExtents": [
+        1.3152755834010506,
+        0.82876783631742,
+        1.2999919298967848
+      ],
+      "exactRotatedVertexAABBCenter": [
+        -0.3104992672203264,
+        0.32471791304647923,
+        -0.2863879422304886
+      ],
+      "maxXZDistanceFromLocalBoundsCenter": 1.5245140694638588,
+      "longClassificationRatio": 1.480462866532155,
+      "exportKeyNumericSuffix": -2884651339043034568
+    },
+    {
+      "path": "Source\\Assets\\ReferenceContent\\Built\\G7902098905628174650.asset",
+      "guid": "063f547e679a8854faaaffe624300887",
+      "unityMeshFileID": 4300000,
+      "role": "single enabled source collisionPart, group 0, identity local matrix",
+      "sha256": "a67a46d0014cb7e5f87ca27107a0bfe1a64b8d3e194fb92959a3523a47008614",
+      "vertexCount": 236,
+      "vertexStrideBytes": 32,
+      "localMin": [
+        -0.3233848214149475,
+        -0.21384505927562714,
+        -0.6830345988273621
+      ],
+      "localMax": [
+        0.3233848214149475,
+        0.404098242521286,
+        0.5056029558181763
+      ],
+      "localCenter": [
+        0.0,
+        0.09512659162282944,
+        -0.0887158215045929
+      ],
+      "localSize": [
+        0.646769642829895,
+        0.6179433017969131,
+        1.1886375546455383
+      ],
+      "exactRotatedVertexAABBExtents": [
+        1.3705244207351632,
+        0.7631599777191878,
+        1.3692164767366004
+      ],
+      "exactRotatedVertexAABBCenter": [
+        -0.2879014068505896,
+        0.23496268130838877,
+        -0.28798323816730553
+      ],
+      "maxXZDistanceFromLocalBoundsCenter": 1.5546430088021346,
+      "longClassificationRatio": 1.6447334784285719,
+      "exportKeyNumericSuffix": 7902098905628174650
+    }
+  ],
+  "finalHole": {
+    "tierIndex": 5,
+    "characterControllerRadius": 1.7349999999999999,
+    "visualScale": 1.95,
+    "sourcePhysicalApertureRadius": 1.4973961275
+  },
+  "inactiveFallback": {
+    "method": "WorldBounds rotates the eight corners of model.bounds, not its actual vertices",
+    "extents": [
+      1.5963030010242183,
+      0.8287678191000001,
+      1.5953652304302222
+    ],
+    "center": [
+      -0.1649005131321334,
+      0.3247179325,
+      -0.11555570227550971
+    ],
+    "sourceFitRadius": 1.5245140694638588,
+    "notLong": true,
+    "normalPlannerRejects": true
+  },
+  "activeCollisionComparison": {
+    "actualCollisionVertexMinimumHorizontalExtent": 1.3692164767366004,
+    "samePosePassesNormalPlannerWidthGate": true
+  },
+  "floorCheck": {
+    "tileCount": 76,
+    "allFloorModelVariantHalfExtentsXZ": [
+      2.5,
+      2.5
+    ],
+    "tileScale": 1.01,
+    "globalActorAndTileMinXZ": [
+      -25.55,
+      -43.025
+    ],
+    "globalActorAndTileMaxXZ": [
+      20.64,
+      2.025
+    ],
+    "cluster": [
+      {
+        "index": 336,
+        "id": 118,
+        "position": [
+          -20.93,
+          0.49,
+          -4.31
+        ],
+        "renderBoundsAimXZ": [
+          -21.09490051313213,
+          -4.425555702275509
+        ],
+        "canStandAt12Samples": true,
+        "globalClampWouldChangeCenter": false
+      },
+      {
+        "index": 337,
+        "id": 118,
+        "position": [
+          -20.93,
+          0.49,
+          -2.31
+        ],
+        "renderBoundsAimXZ": [
+          -21.09490051313213,
+          -2.42555570227551
+        ],
+        "canStandAt12Samples": true,
+        "globalClampWouldChangeCenter": false
+      },
+      {
+        "index": 338,
+        "id": 118,
+        "position": [
+          -18.93,
+          0.49,
+          -4.31
+        ],
+        "renderBoundsAimXZ": [
+          -19.09490051313213,
+          -4.425555702275509
+        ],
+        "canStandAt12Samples": true,
+        "globalClampWouldChangeCenter": false
+      },
+      {
+        "index": 339,
+        "id": 118,
+        "position": [
+          -18.93,
+          0.49,
+          -2.31
+        ],
+        "renderBoundsAimXZ": [
+          -19.09490051313213,
+          -2.42555570227551
+        ],
+        "canStandAt12Samples": true,
+        "globalClampWouldChangeCenter": false
+      }
+    ]
+  },
+  "conclusion": "The original/native effective-radius estimate selects collider modes; it is not itself a physical swallow gate. The verification planner combines it with an enlarged rotated render box when a pooled body is absent. This rejects the four distant Trumpets before floor or bomb checks, while the same meshes with active actual collider bounds pass. It is a concrete selection/activation circular-dependency risk consistent with active=0 and target=none in the failure trace. The authorized fallback now skips this size estimate only after ordinary candidates are exhausted, retaining arena/bomb checks and requiring actual physical collection.",
+  "limits": [
+    "Authored-pose calculations use double precision; Unity uses float. Margins are sufficient that rounding does not change this comparison.",
+    "Actual Rigidbody.collider.bounds depends on cooking and the current pose; listed exact collision-vertex bounds are source mesh geometry, not a live Unity capture.",
+    "Failure trace positions differ slightly from authored positions and does not include their full current rotations. Thus this is a demonstrated static rejection defect and strong causal explanation, not a replay proof of every failed frame.",
+    "Floor checks here cover the four authored center aims and 12 CC perimeter samples. Generated bomb positions were not re-simulated; normal gate rejects before bomb checks anyway.",
+    "The larger native/root mesh circle is not proof the object cannot fall: actual collision shape and tipping determine collection."
+  ],
+  "sources": [
+    {
+      "path": "Source/Assets/Scripts/ReferenceGame.Verification.cs",
+      "sha256": "2b6dd042ca9a0c393d1d81a607f20b4ba155783ed6dcc723e03629616d58b1fe"
+    },
+    {
+      "path": "Source/Assets/Scripts/ReferenceGame.cs",
+      "sha256": "97bfd3540d5931efab2fc1fc6eb640e3adeed6cfbe711e292d8b11291f88550d"
+    },
+    {
+      "path": "Source/Assets/Scripts/ReferencePhysicsSettings.cs",
+      "sha256": "30aaba85c26688196e0bc0e0266ca92805352aa91c1ccae12659b0b714bdeafd"
+    },
+    {
+      "path": "Source/Assets/Scripts/ReferenceGame.Physics.cs",
+      "sha256": "780fd0b1fd62b9b8d754e2f07d371b0f9dc31adaee353580bc6a943a7a6237ad"
+    },
+    {
+      "path": "Source/Assets/Resources/ReferenceCatalog.asset",
+      "sha256": "b877248e46f78d8cb763101e7dde3f77aee1ac8d51c34ebc4367d4e28af0f0de"
+    },
+    {
+      "path": "Audit/Stage11ClusterFailureTrace.txt",
+      "sha256": "f9b127b77e29f74446b18ae8d7b06906b1cfdf952153334566565bf4072a633d"
+    },
+    {
+      "path": "Source/Assets/ReferenceContent/Models.json",
+      "sha256": "7ffd4b5d90ee3e8221c89dba4c0c9301d86e66ff90b39eeec0b2df69b1b2123e"
+    }
+  ]
+}

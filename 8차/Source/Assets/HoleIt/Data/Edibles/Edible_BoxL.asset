@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_BoxL
+  m_EditorClassIdentifier: 
+  displayName: DELIVERY CRATE
+  objectId: BoxL
+  colorVariant: 0
+  footprintRadius: 1.078371
+  prefab: {fileID: 1000, guid: db1c1d07590e08baceedea3d6735bec6, type: 3}
+  icon: {fileID: 21300000, guid: 845fe2f12c9002262594932c31cf729d, type: 3}
+  uiColor: {r: 0.22, g: 0.72, b: 0.79, a: 1}
+  stackHeight: 1.4896173
+  objectType: 1
+  sizeTier: 3
+  score: 60
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

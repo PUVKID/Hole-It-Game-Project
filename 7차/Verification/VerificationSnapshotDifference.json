@@ -1,0 +1,21 @@
+{
+  "scope": "Test-input target selection only; called by NearestCollectible for automated verification. Player joystick motion, actors, physics contacts, gravity, collection, scoring and authored content are unchanged.",
+  "nativeCompileSnapshot": "VerificationAtNativeCompile.cs.txt",
+  "snapshotSha256": "ea0303817b4b555bcec52a0d07234ace8ef2038447e5e0d38ae198c835013586",
+  "currentSourceSha256": "190f74e1a6b174acc36873adcc4087a6c1d7d0e8284294555ceac6048dab5eea",
+  "changes": [
+    "Retry an exhausted pass while retaining per-target cooldown.",
+    "Use horizontal AABB corner distance when choosing support-probe duration.",
+    "Allow an already-validated offset catch as the start aim when center aim fails arena or bomb clearance.",
+    "After all size-prioritized candidates are exhausted, attempt remaining shapes physically instead of treating estimated fit or rotated render AABB as a rejection; retain all arena and bomb checks.",
+    "Wait for falling bodies to cross the unchanged collection trigger before test-input teleportation.",
+    "Aim at lower support points and capsule endpoints; hold each validated probe position stable.",
+    "Use partial adjacent catches only after ordinary candidates are exhausted.",
+    "Expose input-attempt and falling-motion progress to bounded verification watchdogs.",
+    "For a sole near-fit capsule, use its actual center/axis with small axial biases, longer stable holds and unchanged bomb/floor checks; focused geometry test passed but stage26 completion remained unverified."
+  ],
+  "caveat": "The earlier native/Gradle output is obsolete and must not be delivered. This file does not describe a final APK/source mismatch; the fresh build manifest will establish the delivered source snapshot.",
+  "callSites": "NearestCollectible is called only from test fixtures and ReferenceCapture automated capture mode; normal joystick gameplay does not call it.",
+  "status": "Historical comparison against a discarded, not-delivered native compilation. A fresh APK build must include the corrected rotated-floor runtime and current helper.",
+  "separateGameplayFix": "Main/Levels now use authored rotated floor membership; see RotatedFloorMembershipDefect28.json. This real runtime correction requires a fresh native build."
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_CarS
+  m_EditorClassIdentifier: 
+  displayName: RED CAR
+  objectId: CarS
+  colorVariant: 1
+  footprintRadius: 1.05
+  prefab: {fileID: 1000, guid: e58248caa5ef190ca74731626bb5e88e, type: 3}
+  icon: {fileID: 21300000, guid: f0b1637644af7daf8151fe78d4df985c, type: 3}
+  uiColor: {r: 0.92, g: 0.11, b: 0.12, a: 1}
+  stackHeight: 0.9953588
+  objectType: 4
+  sizeTier: 2
+  score: 40
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

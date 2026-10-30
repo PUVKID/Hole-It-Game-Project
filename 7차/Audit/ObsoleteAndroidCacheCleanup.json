@@ -1,0 +1,10 @@
+{
+  "Reason": "Discard obsolete generated Android build: verified rotated-floor gameplay fix requires new native compilation; no APK from these inputs may be delivered",
+  "Target": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android",
+  "RemovedFiles": 21488,
+  "RemovedLogicalBytes": 4552101732.0,
+  "FreeBefore": 1370488832,
+  "FreeAfter": 8353554432,
+  "OriginalInputsAndSourcePreserved": true,
+  "NativeInputHashesRecordedIn": "GradleRecoveryCacheCleanup.json"
+}

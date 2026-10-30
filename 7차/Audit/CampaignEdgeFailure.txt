@@ -1,0 +1,8 @@
+Physical reachability audit. Test teleports between targets at timeScale4 with the original0.02s physics step; this is NOT a human timing benchmark. Source timers are informational. Watchdogs:45 simulated seconds without collection progress,1200 simulated seconds/stage,30 real minutes overall.
+Level 1: Won; collected=30; radius=1.066; simulated=6.18; realElapsed=1.55; sourceBudget=300; goals=6,15,9; stop=state
+Level 2: Won; collected=141; radius=1.289; simulated=28.48; realElapsed=7.09; sourceBudget=240; goals=1,18; stop=state
+Level 3: Won; collected=328; radius=1.512; simulated=68.26; realElapsed=17.02; sourceBudget=240; goals=1,2,2; stop=state
+Level 4: Won; collected=519; radius=1.735; simulated=69.36; realElapsed=17.30; sourceBudget=210; goals=200,88,228,3; stop=state
+Level 5: Won; collected=751; radius=1.958; simulated=89.46; realElapsed=22.31; sourceBudget=150; goals=4; stop=state
+Level 6: Won; collected=390; radius=1.958; simulated=96.58; realElapsed=24.06; sourceBudget=110; goals=2,2,7; stop=state
+Level 7: Playing; collected=757; radius=1.958; simulated=175.74; realElapsed=43.88; sourceBudget=120; goals=64,3,4,3,4; stop=45 simulated seconds without collection progress; diagnostic=sim=175.74 collected=757 hole=(-19.84, 0.00, -18.54) aperture=1.689 active=0 target=none; remaining=45:Billiard Ball3 radius=0.2671055 bottom=0.03149998 position=(-5.83, 0.30, -27.53); 9:Tennis Ball radius=0.2626308 bottom=0.06900001 position=(16.92, 0.33, -22.93); 9:Tennis Ball radius=0.2631548 bottom=0.06900001 position=(16.92, 0.33, -15.71); 

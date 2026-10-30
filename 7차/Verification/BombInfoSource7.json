@@ -1,0 +1,30 @@
+{
+  "source": "User-supplied Hole+it! 1.31.17",
+  "panel": {
+    "rect": 2067,
+    "size": [
+      759.6,
+      511.02
+    ],
+    "scene": "level2",
+    "combinedY": 132,
+    "image": 2800
+  },
+  "sprites": [
+    {
+      "id": 206,
+      "file": "sharedassets0.assets",
+      "name": "info-card-v1"
+    },
+    {
+      "id": 246,
+      "file": "sharedassets2.assets",
+      "name": "poison-bomb"
+    },
+    {
+      "id": 252,
+      "file": "sharedassets2.assets",
+      "name": "FreezeGLow"
+    }
+  ]
+}

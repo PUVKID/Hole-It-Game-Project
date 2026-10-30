@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_Hydrant
+  m_EditorClassIdentifier: 
+  displayName: FIRE HYDRANT
+  objectId: Hydrant
+  colorVariant: 0
+  footprintRadius: 0.332006
+  prefab: {fileID: 1000, guid: 1dd9f2928a937093e0ca4550461ac0e0, type: 3}
+  icon: {fileID: 21300000, guid: 5992af51c23c3e6eb4f440db6e42e56d, type: 3}
+  uiColor: {r: 0.9, g: 0.08, b: 0.06, a: 1}
+  stackHeight: 0.6438251
+  objectType: 5
+  sizeTier: 2
+  score: 25
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

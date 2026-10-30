@@ -1,0 +1,16 @@
+Root cause: edition 3 selected the legacy backend (activeInputHandler: 0),
+but ReferenceGame.ReadInput was entirely guarded by ENABLE_INPUT_SYSTEM.
+The Android player therefore contained no executable joystick polling path.
+Earlier movement tests used TestInput/TestDirection and missed this defect.
+
+Edition 4 selects the new Input System (activeInputHandler: 1). The joystick
+is visible while playing even at rest, above the booster buttons. Touching
+it uses its displayed center. Dragging another empty area starts a floating
+stick there. Movement is speed limited; releasing or canceling stops it.
+ReferenceInputBuildGuard rejects inconsistent backend configurations.
+
+ReferenceTouchTests exercises Input System Touchscreen events and the real
+runtime/UI code, without movement override. This is desktop simulation,
+not physical Android touchscreen verification. No phone was connected.
+Previews are Windows standalone renders. The Android APK build, package
+version, architectures and signature were checked separately.

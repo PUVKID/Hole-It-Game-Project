@@ -1,0 +1,825 @@
+New input attempt 160 at 0.58
+sim=0.58 collected=0 hole=(-0.02, 0.00, -21.79) aperture=0.538 active=22 target=10/50/Cola Can Red pivot=(-0.02, -6.08, -21.79) fit=0.327 bottom=-6.092 kinematic=False velocity=(0.00, -20.30, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(-0.02, -5.57, -21.79) size=(0.55, 1.04, 0.55) enabled=2 detection=True floorRayY=aperture
+New input attempt 128 at 0.66
+New input attempt 143 at 0.80
+New input attempt 96 at 1.08
+New input attempt 111 at 1.20
+New input attempt 64 at 1.48
+New input attempt 79 at 1.62
+New input attempt 80 at 1.90
+New input attempt 95 at 2.02
+New input attempt 112 at 2.30
+New input attempt 127 at 2.44
+sim=2.64 collected=5 hole=(-1.21, 0.00, -21.19) aperture=0.538 active=20 target=7/50/Cola Can Red pivot=(-1.22, -3.23, -21.19) fit=0.327 bottom=-3.241 kinematic=False velocity=(0.00, -14.70, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(-1.22, -2.72, -21.19) size=(0.55, 1.04, 0.55) enabled=2 detection=True floorRayY=aperture
+New input attempt 144 at 2.72
+New input attempt 159 at 2.84
+New input attempt 176 at 3.12
+New input attempt 191 at 3.26
+New input attempt 208 at 3.54
+New input attempt 223 at 3.66
+New input attempt 240 at 3.94
+New input attempt 255 at 4.08
+New input attempt 224 at 4.34
+New input attempt 239 at 4.48
+sim=4.68 collected=10 hole=(1.18, 0.00, -21.79) aperture=0.730 active=17 target=14/50/Cola Can Red pivot=(1.17, -2.93, -21.79) fit=0.327 bottom=-2.946 kinematic=False velocity=(0.00, -14.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(1.17, -2.43, -21.79) size=(0.55, 1.04, 0.55) enabled=2 detection=True floorRayY=aperture
+New input attempt 256 at 4.76
+New input attempt 271 at 4.82
+New input attempt 271 at 5.16
+New input attempt 288 at 5.38
+New input attempt 303 at 5.50
+New input attempt 320 at 5.78
+New input attempt 335 at 5.84
+New input attempt 304 at 6.12
+New input attempt 319 at 6.26
+New input attempt 336 at 6.52
+New input attempt 351 at 6.66
+sim=6.72 collected=16 hole=(2.98, 0.00, -21.19) aperture=0.730 active=17 target=21/50/Cola Can Red pivot=(2.97, -1.26, -21.19) fit=0.327 bottom=-1.268 kinematic=False velocity=(0.00, -9.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(2.97, -0.75, -21.19) size=(0.55, 1.04, 0.55) enabled=2 detection=True floorRayY=aperture
+New input attempt 192 at 6.94
+New input attempt 207 at 7.06
+New input attempt 32 at 7.34
+New input attempt 47 at 7.48
+New input attempt 48 at 7.76
+New input attempt 63 at 7.82
+New input attempt 16 at 8.16
+New input attempt 31 at 8.30
+New input attempt 0 at 8.56
+New input attempt 15 at 8.70
+sim=8.76 collected=21 hole=(-2.61, 0.00, -22.41) aperture=0.730 active=18 target=0/50/Cola Can Red pivot=(-3.05, -0.99, -22.14) fit=0.327 bottom=-1.268 kinematic=False velocity=(-0.17, -9.10, -0.21) angular=(-0.58, 0.00, 0.47) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-2.69, -0.99, -22.43) size=(0.99, 0.55, 0.92) enabled=2 detection=True floorRayY=aperture
+New input attempt 400 at 8.98
+New input attempt 415 at 9.10
+New input attempt 368 at 9.38
+New input attempt 383 at 9.44
+New input attempt 383 at 9.78
+New input attempt 383 at 9.98
+New input attempt 352 at 10.18
+New input attempt 367 at 10.26
+New input attempt 416 at 10.52
+New input attempt 431 at 10.66
+sim=10.80 collected=27 hole=(-1.78, 0.00, -25.86) aperture=0.730 active=24 target=26/50/Cola Can Red pivot=(-1.78, -2.12, -25.86) fit=0.327 bottom=-2.155 kinematic=False velocity=(-0.18, -11.91, 0.00) angular=(0.00, 0.00, 0.43) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-1.84, -1.63, -25.86) size=(0.60, 1.05, 0.55) enabled=2 detection=True floorRayY=aperture
+New input attempt 431 at 10.92
+New input attempt 464 at 11.14
+New input attempt 479 at 11.26
+New input attempt 479 at 11.52
+New input attempt 480 at 11.74
+New input attempt 495 at 11.80
+New input attempt 528 at 12.14
+New input attempt 543 at 12.22
+New input attempt 560 at 12.42
+New input attempt 575 at 12.50
+New input attempt 575 at 12.76
+New input attempt 576 at 12.84
+sim=12.84 collected=37 hole=(1.06, 0.00, -25.73) aperture=0.921 active=24 target=36/50/Cola Can Red pivot=(1.18, -0.11, -25.85) fit=0.327 bottom=-0.271 kinematic=False velocity=(-1.21, -3.60, 0.89) angular=(1.90, -0.07, 2.54) group=0 switch=1 latch=False initial=False activeBoundsCenter=(0.93, 0.22, -25.64) size=(0.86, 0.98, 0.75) enabled=2 detection=True floorRayY=aperture
+New input attempt 591 at 12.90
+New input attempt 591 at 13.24
+New input attempt 624 at 13.44
+New input attempt 639 at 13.50
+New input attempt 656 at 13.72
+New input attempt 671 at 13.78
+New input attempt 671 at 14.04
+New input attempt 671 at 14.12
+New input attempt 671 at 14.18
+New input attempt 1984 at 14.38
+New input attempt 1999 at 14.52
+New input attempt 1999 at 14.78
+sim=14.86 collected=45 hole=(3.33, 0.00, -26.59) aperture=0.921 active=30 target=124/20/Can Red pivot=(3.42, -3.70, -26.65) fit=0.348 bottom=-3.931 body=none
+New input attempt 1999 at 14.92
+New input attempt 2016 at 15.00
+New input attempt 2031 at 15.12
+New input attempt 2031 at 15.40
+New input attempt 752 at 15.54
+New input attempt 767 at 15.66
+New input attempt 767 at 15.94
+New input attempt 736 at 16.00
+New input attempt 751 at 16.08
+New input attempt 784 at 16.42
+New input attempt 799 at 16.48
+New input attempt 1120 at 16.70
+New input attempt 1135 at 16.82
+sim=16.90 collected=53 hole=(5.08, 0.00, -28.14) aperture=0.921 active=53 target=70/50/Cola Can Red pivot=(5.08, -1.44, -28.15) fit=0.382 bottom=-1.454 kinematic=False velocity=(0.00, -9.81, -0.02) angular=(-0.02, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(5.09, -0.85, -28.14) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 1136 at 17.10
+New input attempt 1151 at 17.16
+New input attempt 1168 at 17.50
+New input attempt 1183 at 17.64
+New input attempt 1200 at 17.92
+New input attempt 1215 at 17.98
+New input attempt 1248 at 18.20
+New input attempt 1263 at 18.32
+New input attempt 1263 at 18.58
+New input attempt 1263 at 18.72
+New input attempt 1280 at 18.86
+sim=18.92 collected=61 hole=(6.57, 0.00, -25.66) aperture=0.921 active=56 target=80/50/Cola Can Red pivot=(6.59, -0.38, -25.69) fit=0.382 bottom=-0.400 kinematic=False velocity=(0.43, -4.90, -0.43) angular=(0.56, -0.01, 0.56) group=0 switch=1 latch=False initial=False activeBoundsCenter=(6.58, 0.21, -25.68) size=(0.65, 1.22, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 1295 at 19.00
+New input attempt 1295 at 19.26
+New input attempt 1295 at 19.32
+New input attempt 1184 at 19.54
+New input attempt 1199 at 19.66
+New input attempt 2048 at 19.94
+New input attempt 2063 at 20.08
+New input attempt 1664 at 20.34
+New input attempt 1679 at 20.48
+New input attempt 1679 at 20.74
+New input attempt 1679 at 20.88
+New input attempt 1679 at 20.94
+sim=20.94 collected=69 hole=(5.80, 0.00, -28.99) aperture=0.921 active=54 target=104/20/Can Red pivot=(5.76, -3.87, -28.89) fit=0.348 bottom=-3.944 body=none
+New input attempt 1952 at 21.02
+New input attempt 1967 at 21.16
+New input attempt 1967 at 21.42
+New input attempt 1967 at 21.56
+New input attempt 1967 at 21.62
+New input attempt 1696 at 21.70
+New input attempt 1711 at 21.82
+New input attempt 1711 at 22.10
+New input attempt 1711 at 22.22
+New input attempt 1711 at 22.30
+New input attempt 1920 at 22.36
+New input attempt 1935 at 22.50
+New input attempt 1935 at 22.76
+New input attempt 1935 at 22.90
+New input attempt 1935 at 22.96
+sim=22.96 collected=81 hole=(6.78, 0.00, -30.98) aperture=0.921 active=54 target=120/20/Can Red pivot=(6.68, -3.86, -30.88) fit=0.348 bottom=-3.881 body=none
+New input attempt 1728 at 23.04
+New input attempt 1743 at 23.18
+New input attempt 1743 at 23.44
+New input attempt 1344 at 23.58
+New input attempt 1359 at 23.72
+New input attempt 1328 at 23.98
+New input attempt 1343 at 24.04
+New input attempt 1360 at 24.38
+New input attempt 1375 at 24.52
+New input attempt 1392 at 24.78
+New input attempt 1407 at 24.86
+sim=24.98 collected=87 hole=(10.74, 0.00, -31.03) aperture=0.921 active=52 target=87/50/Cola Can Red pivot=(10.63, -2.57, -31.24) fit=0.382 bottom=-2.668 kinematic=False velocity=(0.48, -12.13, 0.42) angular=(2.71, -0.25, -3.32) group=0 switch=1 latch=False initial=False activeBoundsCenter=(10.56, -2.04, -31.07) size=(0.71, 1.25, 0.80) enabled=2 detection=True floorRayY=aperture
+New input attempt 1440 at 25.12
+New input attempt 1455 at 25.18
+New input attempt 1424 at 25.52
+New input attempt 1439 at 25.66
+New input attempt 1424 at 25.80
+New input attempt 1439 at 26.12
+New input attempt 7760 at 26.46
+New input attempt 7775 at 26.52
+New input attempt 7744 at 26.86
+New input attempt 7759 at 27.00
+sim=27.00 collected=92 hole=(11.58, 0.00, -28.85) aperture=0.921 active=39 target=484/96/Orange Juice Box pivot=(11.33, 0.01, -28.67) fit=0.394 bottom=-0.808 kinematic=False velocity=(0.25, -7.02, -0.15) angular=(-0.17, 0.00, -0.29) group=0 switch=1 latch=False initial=False activeBoundsCenter=(11.33, -0.03, -28.67) size=(1.17, 1.55, 1.05) enabled=1 detection=True floorRayY=aperture
+New input attempt 7728 at 27.26
+New input attempt 7743 at 27.40
+New input attempt 7712 at 27.66
+New input attempt 7727 at 27.80
+New input attempt 1488 at 28.08
+New input attempt 1503 at 28.20
+New input attempt 1503 at 28.48
+New input attempt 1503 at 28.54
+New input attempt 1536 at 28.74
+New input attempt 1551 at 28.88
+sim=29.00 collected=98 hole=(8.53, 0.00, -28.75) aperture=0.921 active=34 target=96/20/Can Red pivot=(8.56, -1.89, -28.78) fit=0.348 bottom=-1.902 kinematic=False velocity=(0.18, -11.24, -0.18) angular=(-0.11, 0.00, -0.11) group=0 switch=1 latch=False initial=False activeBoundsCenter=(8.57, -1.53, -28.79) size=(0.66, 0.74, 0.66) enabled=2 detection=True floorRayY=aperture
+New input attempt 1551 at 29.14
+New input attempt 1551 at 29.28
+New input attempt 1551 at 29.34
+New input attempt 1551 at 29.40
+New input attempt 1552 at 29.48
+New input attempt 1567 at 29.60
+New input attempt 1376 at 29.88
+New input attempt 1391 at 30.00
+New input attempt 1312 at 30.28
+New input attempt 1327 at 30.40
+New input attempt 928 at 30.68
+New input attempt 943 at 30.74
+sim=31.00 collected=106 hole=(8.12, 0.00, -31.93) aperture=0.921 active=33 target=58/50/Cola Can Red pivot=(8.10, -2.86, -32.05) fit=0.382 bottom=-3.070 kinematic=False velocity=(0.01, -14.35, 0.13) angular=(-0.16, 0.08, -0.12) group=0 switch=1 latch=True initial=False activeBoundsCenter=(7.99, -2.54, -31.64) size=(0.76, 1.06, 1.18) enabled=2 detection=True floorRayY=aperture
+New input attempt 944 at 31.08
+New input attempt 959 at 31.14
+New input attempt 959 at 31.48
+New input attempt 976 at 31.68
+New input attempt 991 at 31.80
+New input attempt 1008 at 32.08
+New input attempt 1023 at 32.14
+New input attempt 1056 at 32.34
+New input attempt 1071 at 32.48
+New input attempt 1040 at 32.74
+New input attempt 1055 at 32.80
+New input attempt 1055 at 33.00
+sim=33.00 collected=113 hole=(5.39, 0.00, -33.18) aperture=0.921 active=29 target=65/50/Cola Can Red pivot=(5.24, -2.42, -32.86) fit=0.382 bottom=-2.629 kinematic=False velocity=(0.32, -13.17, 0.03) angular=(-1.33, 0.11, -1.12) group=0 switch=1 latch=False initial=False activeBoundsCenter=(5.61, -2.20, -33.21) size=(1.11, 0.85, 1.05) enabled=2 detection=True floorRayY=aperture
+New input attempt 1760 at 33.14
+New input attempt 1775 at 33.28
+New input attempt 1775 at 33.54
+New input attempt 1775 at 33.74
+New input attempt 1775 at 33.80
+New input attempt 1824 at 33.88
+New input attempt 1839 at 34.00
+New input attempt 832 at 34.28
+New input attempt 847 at 34.40
+New input attempt 912 at 34.68
+New input attempt 927 at 34.74
+sim=35.00 collected=121 hole=(3.65, 0.00, -31.28) aperture=0.921 active=26 target=57/50/Cola Can Red pivot=(4.37, -2.15, -31.54) fit=0.382 bottom=-2.357 kinematic=False velocity=(-0.95, -11.35, 0.10) angular=(0.79, -0.25, 2.81) group=0 switch=1 latch=False initial=False activeBoundsCenter=(3.96, -1.81, -31.50) size=(1.16, 1.08, 0.67) enabled=2 detection=True floorRayY=aperture
+New input attempt 927 at 35.14
+New input attempt 927 at 35.20
+New input attempt 880 at 35.28
+New input attempt 895 at 35.40
+New input attempt 895 at 35.68
+New input attempt 816 at 35.74
+New input attempt 831 at 35.88
+New input attempt 831 at 36.14
+New input attempt 720 at 36.20
+New input attempt 735 at 36.34
+New input attempt 704 at 36.60
+New input attempt 719 at 36.74
+New input attempt 4048 at 37.00
+sim=37.00 collected=130 hole=(-2.65, 0.00, -29.31) aperture=1.113 active=29 target=253/50/Cola Can Red pivot=(-2.65, -0.07, -29.32) fit=0.382 bottom=-0.087 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-2.65, 0.52, -29.32) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 4063 at 37.14
+New input attempt 3952 at 37.40
+New input attempt 3967 at 37.54
+New input attempt 3904 at 37.80
+New input attempt 3919 at 37.94
+New input attempt 3968 at 38.20
+New input attempt 3983 at 38.34
+New input attempt 6064 at 38.60
+New input attempt 6079 at 38.74
+New input attempt 6079 at 39.00
+sim=39.00 collected=143 hole=(-0.66, 0.00, -32.64) aperture=1.113 active=38 target=379/74/Can Green pivot=(-0.66, -3.86, -32.64) fit=0.348 bottom=-3.864 body=none
+New input attempt 6079 at 39.14
+New input attempt 5712 at 39.20
+New input attempt 5727 at 39.34
+New input attempt 5727 at 39.60
+New input attempt 5727 at 39.68
+New input attempt 5648 at 39.74
+New input attempt 5663 at 39.88
+New input attempt 5680 at 40.14
+New input attempt 5695 at 40.28
+New input attempt 5695 at 40.54
+New input attempt 5792 at 40.60
+New input attempt 5807 at 40.74
+New input attempt 5807 at 41.00
+sim=41.00 collected=152 hole=(1.76, 0.00, -35.28) aperture=1.113 active=33 target=362/74/Can Green pivot=(1.76, -3.83, -35.28) fit=0.348 bottom=-3.833 body=none
+New input attempt 6288 at 41.08
+New input attempt 6303 at 41.20
+New input attempt 6303 at 41.48
+New input attempt 6368 at 41.54
+New input attempt 6383 at 41.68
+New input attempt 6256 at 41.94
+New input attempt 6271 at 42.08
+New input attempt 6271 at 42.34
+New input attempt 6224 at 42.40
+New input attempt 6239 at 42.54
+New input attempt 6239 at 42.80
+New input attempt 6208 at 42.86
+New input attempt 6223 at 43.00
+sim=43.00 collected=161 hole=(5.55, 0.00, -37.47) aperture=1.113 active=29 target=388/74/Can Green pivot=(5.55, -0.74, -37.47) fit=0.348 bottom=-0.739 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(5.55, -0.37, -37.47) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 6223 at 43.28
+New input attempt 6176 at 43.46
+New input attempt 6191 at 43.60
+New input attempt 6191 at 43.88
+New input attempt 6191 at 44.00
+New input attempt 5392 at 44.06
+New input attempt 5407 at 44.20
+New input attempt 5407 at 44.48
+New input attempt 5824 at 44.54
+New input attempt 5839 at 44.68
+New input attempt 5839 at 44.94
+New input attempt 5808 at 45.00
+sim=45.00 collected=172 hole=(0.14, 0.00, -39.91) aperture=1.113 active=26 target=363/85/Cup Brown pivot=(0.12, 0.13, -39.91) fit=0.430 bottom=-0.053 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(0.14, 0.13, -39.91) size=(0.87, 0.37, 0.87) enabled=3 detection=True floorRayY=aperture
+New input attempt 5823 at 45.14
+New input attempt 5856 at 45.40
+New input attempt 5871 at 45.54
+New input attempt 5871 at 45.80
+New input attempt 5344 at 45.86
+New input attempt 5359 at 45.94
+New input attempt 5359 at 46.20
+New input attempt 6320 at 46.26
+New input attempt 6335 at 46.40
+New input attempt 5472 at 46.66
+New input attempt 5487 at 46.80
+sim=47.00 collected=179 hole=(0.12, 0.00, -36.96) aperture=1.113 active=27 target=342/50/Cola Can Red pivot=(0.12, -2.93, -36.95) fit=0.382 bottom=-2.943 kinematic=False velocity=(0.00, -14.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(0.12, -2.34, -36.95) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 5504 at 47.06
+New input attempt 5519 at 47.20
+New input attempt 5519 at 47.48
+New input attempt 5488 at 47.54
+New input attempt 5503 at 47.68
+New input attempt 5616 at 47.92
+New input attempt 5631 at 48.08
+New input attempt 5631 at 48.34
+New input attempt 5888 at 48.40
+New input attempt 5903 at 48.54
+New input attempt 5903 at 48.80
+New input attempt 5920 at 48.86
+New input attempt 5935 at 49.00
+sim=49.00 collected=189 hole=(-0.49, 0.00, -40.99) aperture=1.113 active=19 target=370/74/Can Green pivot=(-0.49, -0.74, -40.99) fit=0.348 bottom=-0.739 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-0.49, -0.37, -40.99) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 5935 at 49.28
+New input attempt 6096 at 49.32
+New input attempt 6111 at 49.48
+New input attempt 6111 at 49.74
+New input attempt 6128 at 49.92
+New input attempt 6143 at 50.08
+New input attempt 5760 at 50.32
+New input attempt 5775 at 50.48
+New input attempt 5775 at 50.74
+New input attempt 5440 at 50.80
+New input attempt 5455 at 50.94
+sim=51.00 collected=196 hole=(-0.86, 0.00, -35.97) aperture=1.113 active=13 target=340/50/Cola Can Red pivot=(-0.86, -1.23, -35.96) fit=0.382 bottom=-1.243 kinematic=False velocity=(0.00, -9.10, 0.00) angular=(-0.01, 0.00, 0.01) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-0.86, -0.64, -35.96) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 5536 at 51.20
+New input attempt 5551 at 51.34
+New input attempt 5551 at 51.60
+New input attempt 5408 at 51.66
+New input attempt 5423 at 51.80
+New input attempt 5423 at 52.08
+New input attempt 6000 at 52.20
+New input attempt 6015 at 52.34
+New input attempt 6015 at 52.60
+New input attempt 5568 at 52.72
+New input attempt 5583 at 52.88
+sim=53.00 collected=205 hole=(-3.56, 0.00, -37.05) aperture=1.113 active=15 target=348/74/Can Green pivot=(-3.56, -1.87, -37.07) fit=0.348 bottom=-1.889 kinematic=False velocity=(0.00, -11.21, 0.29) angular=(1.82, -0.16, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-3.56, -1.51, -37.04) size=(0.65, 0.76, 0.66) enabled=2 detection=True floorRayY=aperture
+New input attempt 5583 at 53.14
+New input attempt 5968 at 53.20
+New input attempt 5983 at 53.34
+New input attempt 4480 at 53.60
+New input attempt 4495 at 53.74
+New input attempt 4448 at 53.98
+New input attempt 4463 at 54.14
+New input attempt 4384 at 54.38
+New input attempt 4399 at 54.54
+New input attempt 4320 at 54.80
+New input attempt 4335 at 54.94
+sim=55.00 collected=216 hole=(-6.09, 0.00, -33.29) aperture=1.113 active=19 target=270/20/Can Red pivot=(-6.09, -1.27, -33.29) fit=0.348 bottom=-1.274 kinematic=False velocity=(0.00, -9.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-6.09, -0.91, -33.29) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 4368 at 55.18
+New input attempt 4383 at 55.34
+New input attempt 4752 at 55.58
+New input attempt 4767 at 55.74
+New input attempt 4767 at 56.00
+New input attempt 4767 at 56.14
+New input attempt 4720 at 56.18
+New input attempt 4735 at 56.34
+New input attempt 4880 at 56.58
+New input attempt 4895 at 56.68
+New input attempt 4895 at 56.94
+sim=57.00 collected=225 hole=(-6.26, 0.00, -30.64) aperture=1.113 active=25 target=305/85/Cup Brown pivot=(-6.00, -3.93, -31.01) fit=0.430 bottom=-4.219 body=none
+New input attempt 4816 at 57.06
+New input attempt 4831 at 57.14
+New input attempt 4831 at 57.34
+New input attempt 4832 at 57.52
+New input attempt 4847 at 57.68
+New input attempt 4847 at 57.94
+New input attempt 4080 at 57.98
+New input attempt 4095 at 58.14
+New input attempt 4512 at 58.38
+New input attempt 4527 at 58.54
+New input attempt 4640 at 58.78
+New input attempt 4655 at 58.94
+sim=59.00 collected=232 hole=(-5.40, 0.00, -26.63) aperture=1.113 active=25 target=290/154/Soda Can Green pivot=(-5.40, -1.27, -26.64) fit=0.388 bottom=-1.275 kinematic=False velocity=(0.00, -9.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-5.40, -0.69, -26.64) size=(0.65, 1.17, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 4672 at 59.18
+New input attempt 4687 at 59.34
+New input attempt 4624 at 59.58
+New input attempt 4639 at 59.74
+New input attempt 4560 at 60.00
+New input attempt 4575 at 60.14
+New input attempt 4576 at 60.38
+New input attempt 4591 at 60.54
+New input attempt 4960 at 60.80
+New input attempt 4975 at 60.94
+sim=61.00 collected=244 hole=(-8.60, 0.00, -28.52) aperture=1.113 active=24 target=310/154/Soda Can Green pivot=(-8.61, -1.27, -28.52) fit=0.388 bottom=-1.275 kinematic=False velocity=(0.00, -9.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-8.61, -0.69, -28.52) size=(0.65, 1.17, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 4975 at 61.20
+New input attempt 4975 at 61.28
+New input attempt 4144 at 61.40
+New input attempt 4159 at 61.54
+New input attempt 4160 at 61.80
+New input attempt 4175 at 61.94
+New input attempt 4240 at 62.20
+New input attempt 4255 at 62.34
+New input attempt 4272 at 62.60
+New input attempt 4287 at 62.74
+New input attempt 4096 at 63.00
+sim=63.00 collected=259 hole=(-9.35, 0.00, -32.87) aperture=1.113 active=7 target=256/74/Can Green pivot=(-9.35, -0.08, -32.87) fit=0.348 bottom=-0.084 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=5 latch=False initial=False activeBoundsCenter=(-9.35, 0.28, -32.87) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 4111 at 63.14
+New input attempt 4496 at 63.40
+New input attempt 4511 at 63.48
+New input attempt 4784 at 63.74
+New input attempt 4799 at 63.88
+New input attempt 4799 at 64.14
+New input attempt 4928 at 64.20
+New input attempt 4943 at 64.34
+New input attempt 4943 at 64.60
+New input attempt 6864 at 64.68
+New input attempt 6879 at 64.74
+New input attempt 6879 at 65.08
+sim=65.08 collected=266 hole=(-9.02, 0.00, -21.00) aperture=1.113 active=16 target=429/84/Cup Pink pivot=(-9.05, -4.04, -21.01) fit=0.430 bottom=-4.276 body=none
+New input attempt 6752 at 65.12
+New input attempt 6767 at 65.28
+New input attempt 6767 at 65.54
+New input attempt 6784 at 65.62
+New input attempt 6799 at 65.68
+New input attempt 6816 at 66.00
+New input attempt 6831 at 66.14
+New input attempt 7024 at 66.40
+New input attempt 7039 at 66.54
+New input attempt 6896 at 66.80
+New input attempt 6911 at 66.88
+sim=67.14 collected=275 hole=(-10.69, 0.00, -17.44) aperture=1.305 active=19 target=431/96/Orange Juice Box pivot=(-10.26, -2.26, -17.20) fit=0.394 bottom=-2.719 kinematic=False velocity=(-0.09, -13.17, -0.04) angular=(2.33, -0.82, -0.70) group=0 switch=1 latch=True initial=False activeBoundsCenter=(-10.30, -2.26, -17.22) size=(1.74, 0.91, 1.50) enabled=1 detection=True floorRayY=aperture
+New input attempt 6911 at 67.20
+New input attempt 6912 at 67.34
+New input attempt 6927 at 67.48
+New input attempt 6928 at 67.74
+New input attempt 6943 at 67.80
+New input attempt 6944 at 68.00
+New input attempt 6959 at 68.14
+New input attempt 6960 at 68.40
+New input attempt 6975 at 68.54
+New input attempt 6976 at 68.80
+New input attempt 6991 at 68.88
+New input attempt 6992 at 69.14
+sim=69.20 collected=282 hole=(-13.13, 0.00, -18.19) aperture=1.305 active=21 target=437/96/Orange Juice Box pivot=(-13.13, 0.51, -18.19) fit=0.394 bottom=-0.250 kinematic=False velocity=(0.00, -4.20, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-13.13, 0.47, -18.19) size=(1.00, 1.45, 0.92) enabled=1 detection=True floorRayY=aperture
+New input attempt 7007 at 69.28
+New input attempt 5264 at 69.54
+New input attempt 5279 at 69.68
+New input attempt 5232 at 69.94
+New input attempt 5247 at 70.08
+New input attempt 5168 at 70.34
+New input attempt 5183 at 70.48
+New input attempt 9088 at 70.74
+New input attempt 9103 at 70.88
+New input attempt 5104 at 71.14
+New input attempt 5119 at 71.28
+sim=71.28 collected=294 hole=(-19.40, 0.00, -13.62) aperture=1.305 active=28 target=319/50/Cola Can Red pivot=(-19.25, -0.70, -13.32) fit=0.382 bottom=-0.861 kinematic=False velocity=(-0.51, -7.37, -1.01) angular=(-1.51, 0.06, 0.74) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-19.40, -0.28, -13.61) size=(0.83, 1.17, 1.03) enabled=2 detection=True floorRayY=aperture
+New input attempt 5024 at 71.54
+New input attempt 5039 at 71.68
+New input attempt 5056 at 71.94
+New input attempt 5071 at 72.08
+New input attempt 5088 at 72.34
+New input attempt 5103 at 72.48
+New input attempt 5152 at 72.74
+New input attempt 5167 at 72.88
+New input attempt 8064 at 73.14
+New input attempt 8079 at 73.28
+sim=73.34 collected=304 hole=(-14.86, 0.00, -9.89) aperture=1.305 active=15 target=504/20/Can Red pivot=(-14.85, -1.23, -9.89) fit=0.348 bottom=-1.242 kinematic=False velocity=(-0.10, -9.10, -0.04) angular=(-0.26, 0.31, 0.63) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-14.87, -0.87, -9.89) size=(0.67, 0.75, 0.66) enabled=2 detection=True floorRayY=aperture
+New input attempt 8079 at 73.54
+New input attempt 7968 at 73.60
+New input attempt 7983 at 73.74
+New input attempt 7983 at 74.00
+New input attempt 9760 at 74.20
+New input attempt 9775 at 74.28
+New input attempt 7872 at 74.60
+New input attempt 7887 at 74.74
+New input attempt 7887 at 75.00
+New input attempt 8016 at 75.20
+New input attempt 8031 at 75.34
+sim=75.40 collected=317 hole=(-8.68, 0.00, -9.36) aperture=1.305 active=20 target=501/20/Can Red pivot=(-8.68, -1.28, -9.36) fit=0.348 bottom=-1.279 kinematic=False velocity=(0.03, -9.14, 0.02) angular=(-0.06, -0.20, -0.16) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-8.68, -0.91, -9.36) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 8031 at 75.60
+New input attempt 9392 at 75.68
+New input attempt 9407 at 75.80
+New input attempt 9520 at 76.08
+New input attempt 9535 at 76.20
+New input attempt 9424 at 76.48
+New input attempt 9439 at 76.60
+New input attempt 9456 at 76.88
+New input attempt 9471 at 77.00
+New input attempt 9488 at 77.28
+New input attempt 9503 at 77.40
+sim=77.48 collected=329 hole=(-5.81, 0.00, -15.20) aperture=1.305 active=17 target=593/20/Can Red pivot=(-5.81, -1.47, -15.20) fit=0.348 bottom=-1.470 kinematic=False velocity=(0.00, -9.80, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-5.81, -1.11, -15.20) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 9632 at 77.68
+New input attempt 9647 at 77.80
+New input attempt 9536 at 78.08
+New input attempt 9551 at 78.20
+New input attempt 9568 at 78.48
+New input attempt 9583 at 78.60
+New input attempt 9600 at 78.88
+New input attempt 9615 at 79.00
+New input attempt 9328 at 79.28
+New input attempt 9343 at 79.40
+sim=79.54 collected=339 hole=(-4.93, 0.00, -13.69) aperture=1.305 active=22 target=583/20/Can Red pivot=(-4.93, -2.14, -13.69) fit=0.348 bottom=-2.142 kinematic=False velocity=(0.00, -11.90, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-4.93, -1.78, -13.69) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 9360 at 79.68
+New input attempt 9375 at 79.80
+New input attempt 2560 at 80.08
+New input attempt 2575 at 80.20
+New input attempt 2592 at 80.48
+New input attempt 2607 at 80.60
+New input attempt 2624 at 80.88
+New input attempt 2639 at 81.00
+New input attempt 2656 at 81.28
+New input attempt 2671 at 81.40
+sim=81.60 collected=349 hole=(-0.13, 0.00, -13.62) aperture=1.305 active=19 target=166/50/Cola Can Red pivot=(-0.13, -2.88, -13.61) fit=0.382 bottom=-2.897 kinematic=False velocity=(0.00, -14.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(-0.13, -2.29, -13.61) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 2688 at 81.68
+New input attempt 2703 at 81.80
+New input attempt 2720 at 82.08
+New input attempt 2735 at 82.20
+New input attempt 2176 at 82.48
+New input attempt 2191 at 82.60
+New input attempt 2208 at 82.88
+New input attempt 2223 at 83.00
+New input attempt 2240 at 83.28
+New input attempt 2255 at 83.40
+New input attempt 2272 at 83.68
+sim=83.68 collected=361 hole=(4.76, 0.00, -8.72) aperture=1.305 active=20 target=142/50/Cola Can Red pivot=(4.76, -0.08, -8.71) fit=0.382 bottom=-0.096 kinematic=False velocity=(0.00, -2.80, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(4.76, 0.51, -8.71) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 2287 at 83.80
+New input attempt 2304 at 84.08
+New input attempt 2319 at 84.20
+New input attempt 2336 at 84.48
+New input attempt 2351 at 84.60
+New input attempt 2368 at 84.88
+New input attempt 2383 at 85.00
+New input attempt 2400 at 85.28
+New input attempt 2415 at 85.40
+New input attempt 2432 at 85.68
+sim=85.74 collected=371 hole=(-0.78, 0.00, -6.13) aperture=1.305 active=28 target=152/50/Cola Can Red pivot=(-0.78, -0.33, -6.12) fit=0.382 bottom=-0.348 kinematic=False velocity=(0.00, -4.90, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-0.78, 0.26, -6.12) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 2447 at 85.80
+New input attempt 2464 at 86.08
+New input attempt 2479 at 86.20
+New input attempt 2496 at 86.48
+New input attempt 2511 at 86.60
+New input attempt 2528 at 86.88
+New input attempt 2543 at 87.00
+New input attempt 2768 at 87.28
+New input attempt 2783 at 87.40
+New input attempt 2800 at 87.68
+New input attempt 2815 at 87.80
+sim=87.80 collected=379 hole=(0.93, 0.00, -7.87) aperture=1.305 active=19 target=175/19/Watermelon pivot=(0.94, 0.75, -7.86) fit=1.251 bottom=-0.726 kinematic=False velocity=(0.04, -7.00, 0.03) angular=(0.01, 0.02, -0.02) group=0 switch=5 latch=False initial=False activeBoundsCenter=(0.93, 0.75, -7.86) size=(2.48, 2.94, 2.48) enabled=2 detection=True floorRayY=aperture
+New input attempt 2784 at 88.08
+New input attempt 2799 at 88.20
+New input attempt 2752 at 88.48
+New input attempt 2767 at 88.60
+New input attempt 6480 at 88.88
+New input attempt 6495 at 88.94
+New input attempt 6592 at 89.28
+New input attempt 6607 at 89.40
+New input attempt 6432 at 89.68
+New input attempt 6447 at 89.80
+sim=89.88 collected=386 hole=(8.17, 0.00, -12.13) aperture=1.497 active=17 target=402/85/Cup Brown pivot=(8.15, -1.23, -12.13) fit=0.430 bottom=-1.414 kinematic=False velocity=(0.00, -9.80, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(8.17, -1.23, -12.13) size=(0.87, 0.37, 0.87) enabled=3 detection=True floorRayY=aperture
+New input attempt 6400 at 90.08
+New input attempt 6415 at 90.20
+New input attempt 6560 at 90.48
+New input attempt 6575 at 90.60
+New input attempt 6608 at 90.88
+New input attempt 6623 at 91.00
+New input attempt 6624 at 91.28
+New input attempt 6639 at 91.40
+New input attempt 6672 at 91.68
+New input attempt 6687 at 91.80
+sim=91.94 collected=395 hole=(11.02, 0.00, -16.87) aperture=1.497 active=27 target=417/87/Milk Box pivot=(10.94, -0.59, -16.94) fit=0.709 bottom=-2.086 kinematic=False velocity=(0.00, -11.90, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=4 latch=False initial=False activeBoundsCenter=(11.02, -0.91, -16.87) size=(1.53, 2.36, 1.53) enabled=1 detection=True floorRayY=aperture
+New input attempt 6656 at 92.08
+New input attempt 6671 at 92.20
+New input attempt 6704 at 92.48
+New input attempt 6719 at 92.60
+New input attempt 6720 at 92.88
+New input attempt 6735 at 93.00
+New input attempt 7552 at 93.28
+New input attempt 7567 at 93.40
+New input attempt 7584 at 93.68
+New input attempt 7599 at 93.80
+sim=94.00 collected=402 hole=(10.57, 0.00, -20.98) aperture=1.497 active=35 target=474/96/Orange Juice Box pivot=(10.57, -2.12, -20.98) fit=0.394 bottom=-2.884 kinematic=False velocity=(0.00, -14.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(10.57, -2.16, -20.98) size=(1.00, 1.45, 1.00) enabled=1 detection=True floorRayY=aperture
+New input attempt 7616 at 94.08
+New input attempt 7631 at 94.20
+New input attempt 7648 at 94.48
+New input attempt 7663 at 94.60
+New input attempt 7680 at 94.88
+New input attempt 7695 at 95.00
+New input attempt 7184 at 95.28
+New input attempt 7199 at 95.40
+New input attempt 7168 at 95.68
+New input attempt 7183 at 95.80
+New input attempt 7152 at 96.08
+sim=96.08 collected=412 hole=(11.34, 0.00, -22.84) aperture=1.497 active=22 target=447/89/Waffle Round pivot=(11.34, 0.12, -22.84) fit=0.789 bottom=-0.086 kinematic=False velocity=(0.00, -2.81, 0.00) angular=(-0.02, 0.00, 0.00) group=2 switch=3 latch=False initial=False activeBoundsCenter=(11.34, 0.12, -22.84) size=(1.54, 0.40, 1.54) enabled=5 detection=True floorRayY=aperture
+New input attempt 7167 at 96.20
+New input attempt 7136 at 96.48
+New input attempt 7151 at 96.60
+New input attempt 7120 at 96.88
+New input attempt 7135 at 97.00
+New input attempt 7104 at 97.28
+New input attempt 7119 at 97.40
+New input attempt 7088 at 97.68
+New input attempt 7103 at 97.80
+New input attempt 7072 at 98.08
+sim=98.14 collected=417 hole=(17.32, 0.00, -23.93) aperture=1.497 active=36 target=442/89/Waffle Round pivot=(17.32, -0.13, -23.93) fit=0.789 bottom=-0.336 kinematic=False velocity=(0.00, -4.90, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=3 latch=False initial=False activeBoundsCenter=(17.32, -0.14, -23.93) size=(1.55, 0.40, 1.55) enabled=5 detection=True floorRayY=aperture
+New input attempt 7087 at 98.20
+New input attempt 7056 at 98.48
+New input attempt 7071 at 98.60
+New input attempt 7040 at 98.88
+New input attempt 7055 at 99.00
+New input attempt 7232 at 99.28
+New input attempt 7247 at 99.40
+New input attempt 7216 at 99.68
+New input attempt 7231 at 99.80
+New input attempt 7200 at 100.08
+New input attempt 7215 at 100.20
+sim=100.20 collected=422 hole=(12.12, 0.00, -27.08) aperture=1.497 active=16 target=450/89/Waffle Round pivot=(12.12, -0.51, -27.08) fit=0.789 bottom=-0.725 kinematic=False velocity=(-0.02, -7.00, -0.01) angular=(-0.03, 0.00, 0.10) group=2 switch=3 latch=False initial=False activeBoundsCenter=(12.11, -0.51, -27.09) size=(1.58, 0.43, 1.58) enabled=5 detection=True floorRayY=aperture
+New input attempt 7776 at 100.48
+New input attempt 7791 at 100.60
+New input attempt 7808 at 100.88
+New input attempt 7823 at 101.00
+New input attempt 7840 at 101.28
+New input attempt 7855 at 101.40
+New input attempt 7296 at 101.67
+New input attempt 7311 at 101.79
+New input attempt 7328 at 102.07
+New input attempt 7343 at 102.19
+sim=102.27 collected=431 hole=(18.64, 0.00, -26.63) aperture=1.497 active=9 target=458/96/Orange Juice Box pivot=(18.64, -0.65, -26.63) fit=0.394 bottom=-1.414 kinematic=False velocity=(0.00, -9.80, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(18.64, -0.69, -26.63) size=(0.89, 1.45, 0.99) enabled=1 detection=True floorRayY=aperture
+New input attempt 7360 at 102.47
+New input attempt 7375 at 102.59
+New input attempt 7392 at 102.87
+New input attempt 7407 at 102.99
+New input attempt 7424 at 103.27
+New input attempt 7439 at 103.39
+New input attempt 7456 at 103.67
+New input attempt 7471 at 103.79
+New input attempt 7471 at 104.07
+New input attempt 3360 at 104.13
+New input attempt 3375 at 104.27
+sim=104.33 collected=442 hole=(17.44, 0.00, -18.93) aperture=1.497 active=34 target=210/84/Cup Pink pivot=(17.44, -1.03, -18.91) fit=0.430 bottom=-1.218 kinematic=False velocity=(0.00, -9.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(17.44, -1.03, -18.93) size=(0.87, 0.37, 0.87) enabled=3 detection=True floorRayY=aperture
+New input attempt 3328 at 104.53
+New input attempt 3343 at 104.67
+New input attempt 3248 at 104.93
+New input attempt 3263 at 105.07
+New input attempt 3232 at 105.33
+New input attempt 3247 at 105.47
+New input attempt 3616 at 105.73
+New input attempt 3631 at 105.87
+New input attempt 3600 at 106.13
+New input attempt 3615 at 106.19
+sim=106.39 collected=454 hole=(21.34, 0.00, -17.43) aperture=1.497 active=40 target=225/96/Orange Juice Box pivot=(21.14, -1.87, -18.06) fit=0.394 bottom=-2.544 kinematic=False velocity=(0.10, -12.74, 0.37) angular=(-0.22, -3.42, 1.56) group=0 switch=1 latch=False initial=False activeBoundsCenter=(21.15, -1.88, -18.02) size=(1.24, 1.33, 1.57) enabled=1 detection=True floorRayY=aperture
+New input attempt 3615 at 106.47
+New input attempt 3632 at 106.53
+New input attempt 3647 at 106.67
+New input attempt 3647 at 106.93
+New input attempt 3056 at 107.13
+New input attempt 3071 at 107.27
+New input attempt 3040 at 107.53
+New input attempt 3055 at 107.67
+New input attempt 3648 at 107.93
+New input attempt 3663 at 108.07
+New input attempt 3104 at 108.33
+New input attempt 3119 at 108.47
+sim=108.47 collected=466 hole=(20.79, 0.00, -12.61) aperture=1.497 active=21 target=194/84/Cup Pink pivot=(20.80, -0.53, -12.62) fit=0.430 bottom=-0.714 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(20.79, -0.53, -12.60) size=(0.81, 0.37, 0.81) enabled=3 detection=True floorRayY=aperture
+New input attempt 3152 at 108.73
+New input attempt 3167 at 108.87
+New input attempt 3120 at 109.13
+New input attempt 3135 at 109.27
+New input attempt 2992 at 109.53
+New input attempt 3007 at 109.59
+New input attempt 3007 at 109.87
+New input attempt 2960 at 109.93
+New input attempt 2975 at 110.07
+New input attempt 2896 at 110.33
+New input attempt 2911 at 110.39
+sim=110.53 collected=476 hole=(25.10, 0.00, -17.67) aperture=1.497 active=12 target=181/154/Soda Can Green pivot=(24.89, -1.79, -17.20) fit=0.388 bottom=-2.687 kinematic=False velocity=(-0.56, -13.30, 1.98) angular=(4.01, 0.02, 1.15) group=0 switch=1 latch=True initial=False activeBoundsCenter=(24.78, -2.15, -16.81) size=(0.74, 1.07, 1.07) enabled=2 detection=True floorRayY=aperture
+New input attempt 2911 at 110.59
+New input attempt 2832 at 110.73
+New input attempt 2847 at 110.87
+New input attempt 3392 at 111.13
+New input attempt 3407 at 111.27
+New input attempt 3440 at 111.53
+New input attempt 3455 at 111.67
+New input attempt 3456 at 111.93
+New input attempt 3471 at 111.99
+New input attempt 3471 at 112.27
+New input attempt 3520 at 112.33
+New input attempt 3535 at 112.39
+sim=112.59 collected=489 hole=(20.78, 0.00, -20.11) aperture=1.497 active=5 target=220/50/Cola Can Red pivot=(21.35, -1.98, -20.48) fit=0.382 bottom=-2.978 kinematic=False velocity=(1.15, -13.21, 0.03) angular=(1.04, 1.64, -3.99) group=0 switch=1 latch=True initial=False activeBoundsCenter=(21.01, -2.39, -20.40) size=(1.07, 1.18, 0.71) enabled=2 detection=True floorRayY=aperture
+New input attempt 3535 at 112.67
+New input attempt 3504 at 112.73
+New input attempt 3519 at 112.79
+New input attempt 3568 at 113.13
+New input attempt 3583 at 113.27
+New input attempt 7488 at 113.53
+New input attempt 7503 at 113.67
+New input attempt 7520 at 113.93
+New input attempt 7535 at 114.07
+New input attempt 6736 at 114.33
+New input attempt 6751 at 114.47
+sim=114.67 collected=497 hole=(13.04, 0.00, -16.90) aperture=1.497 active=4 target=421/87/Milk Box pivot=(12.96, -1.39, -16.97) fit=0.709 bottom=-2.884 kinematic=False velocity=(0.00, -14.00, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=4 latch=True initial=False activeBoundsCenter=(13.04, -1.70, -16.90) size=(1.53, 2.36, 1.53) enabled=1 detection=True floorRayY=aperture
+New input attempt 6688 at 114.73
+New input attempt 6703 at 114.87
+New input attempt 6640 at 115.13
+New input attempt 6655 at 115.27
+New input attempt 9920 at 115.53
+New input attempt 9935 at 115.67
+New input attempt 9904 at 115.93
+New input attempt 9919 at 116.07
+New input attempt 6512 at 116.33
+New input attempt 6527 at 116.47
+New input attempt 3760 at 116.73
+sim=116.73 collected=504 hole=(6.91, 0.00, -18.36) aperture=1.497 active=15 target=235/50/Cola Can Red pivot=(6.91, -0.07, -18.35) fit=0.382 bottom=-0.087 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(6.91, 0.52, -18.35) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 3775 at 116.87
+New input attempt 3664 at 117.13
+New input attempt 3679 at 117.27
+New input attempt 3728 at 117.53
+New input attempt 3743 at 117.67
+New input attempt 3696 at 117.93
+New input attempt 3711 at 118.07
+New input attempt 3872 at 118.33
+New input attempt 3887 at 118.47
+New input attempt 3840 at 118.73
+sim=118.79 collected=514 hole=(5.97, 0.00, -21.40) aperture=1.497 active=5 target=240/50/Cola Can Red pivot=(5.97, -0.22, -21.39) fit=0.382 bottom=-0.238 kinematic=False velocity=(0.00, -4.20, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(5.97, 0.37, -21.39) size=(0.64, 1.21, 0.64) enabled=2 detection=True floorRayY=aperture
+New input attempt 3855 at 118.87
+New input attempt 3808 at 119.13
+New input attempt 3823 at 119.27
+New input attempt 9728 at 119.53
+New input attempt 9743 at 119.67
+New input attempt 9696 at 119.93
+New input attempt 9711 at 120.07
+New input attempt 9664 at 120.33
+New input attempt 9679 at 120.47
+New input attempt 9936 at 120.73
+sim=120.81 collected=523 hole=(-6.79, 0.00, -17.48) aperture=1.689 active=2 target=621/124/Cake Big Vanilla pivot=(-6.79, -0.27, -17.48) fit=1.370 bottom=-0.326 kinematic=False velocity=(-0.02, -4.90, 0.04) angular=(0.02, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-6.80, 1.79, -17.48) size=(2.77, 4.24, 2.77) enabled=10 detection=True floorRayY=aperture
+New input attempt 9951 at 120.87
+New input attempt 6384 at 121.13
+New input attempt 6399 at 121.19
+New input attempt 9792 at 121.53
+New input attempt 9807 at 121.59
+New input attempt 9856 at 121.93
+New input attempt 9871 at 122.07
+New input attempt 9808 at 122.33
+New input attempt 9823 at 122.47
+New input attempt 9824 at 122.73
+New input attempt 9839 at 122.87
+sim=122.87 collected=528 hole=(-17.01, 0.00, -23.00) aperture=1.689 active=5 target=614/125/Cake Big Chocolate pivot=(-16.99, -0.70, -23.00) fit=1.464 bottom=-0.701 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-17.01, 1.51, -23.00) size=(2.98, 4.42, 2.98) enabled=6 detection=True floorRayY=aperture
+New input attempt 9872 at 123.13
+New input attempt 9887 at 123.27
+New input attempt 9888 at 123.53
+New input attempt 9903 at 123.67
+New input attempt 9008 at 123.93
+New input attempt 9023 at 124.07
+New input attempt 9023 at 124.33
+New input attempt 9312 at 124.47
+New input attempt 9327 at 124.59
+New input attempt 9216 at 124.87
+sim=124.93 collected=537 hole=(-23.15, 0.00, -17.77) aperture=1.689 active=12 target=576/20/Can Red pivot=(-23.15, -0.39, -17.77) fit=0.348 bottom=-0.392 kinematic=False velocity=(0.00, -4.90, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-23.15, -0.03, -17.77) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+New input attempt 9231 at 124.99
+New input attempt 9231 at 125.27
+New input attempt 9231 at 125.33
+New input attempt 9264 at 125.39
+New input attempt 9279 at 125.53
+New input attempt 9840 at 125.79
+New input attempt 9855 at 125.93
+New input attempt 9168 at 126.19
+Stage 28: Won; goals=11,4,3,6; sim=126.19 collected=545 hole=(-23.15, 0.00, -15.50) aperture=1.689 active=4 target=573/20/Can Red pivot=(-23.15, -0.08, -15.50) fit=0.348 bottom=-0.084 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-23.15, 0.28, -15.50) size=(0.65, 0.73, 0.65) enabled=2 detection=True floorRayY=aperture
+Remaining: 50:Cola Can Red radius=0.3179597 bottom=-0.003487229 position=(7.63, 0.01, -33.67); 50:Cola Can Red radius=0.3179597 bottom=-0.003487229 position=(7.38, 0.01, -34.41); 50:Cola Can Red radius=0.3179597 bottom=-0.003487229 position=(6.64, 0.01, -34.66); 50:Cola Can Red radius=0.3179597 bottom=-0.003487229 position=(7.14, 0.01, -35.15); 20:Can Red radius=0.3476923 bottom=0.0189985 position=(8.81, 0.02, -32.60); 20:Can Red radius=0.3476923 bottom=0 position=(8.62, 0.00, -33.32); 20:Can Red radius=0.3476923 bottom=0 position=(9.15, 0.00, -33.85); 20:Can Red radius=0.3476923 bottom=0 position=(9.87, 0.00, -33.66); 20:Can Red radius=0.3476923 bottom=0 position=(10.07, 0.00, -32.93); 20:Can Red radius=0.3476923 bottom=0.01899993 position=(9.54, 0.02, -32.40); 50:Cola Can Red radius=0.3179597 bottom=0.04399878 position=(-15.27, 0.06, -12.28); 50:Cola Can Red radius=0.3179597 bottom=0.04399061 position=(-15.27, 0.06, -13.27); 50:Cola Can Red radius=0.3179597 bottom=-0.003487229 position=(-14.78, 0.01, -12.78); 89:Waffle Round radius=0.7864555 bottom=0.05649957 position=(14.83, 0.26, -25.23); 89:Waffle Round radius=0.7802493 bottom=0.05638534 position=(14.38, 0.26, -23.55); 89:Waffle Round radius=0.7803822 bottom=0.05649585 position=(13.15, 0.26, -24.78); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-9.98, 0.20, -2.39); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-9.27, 0.20, -1.68); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-8.57, 0.20, -0.98); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-7.86, 0.20, -0.27); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-7.15, 0.20, 0.43); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-6.45, 0.20, 1.13); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-5.74, 0.20, 1.84); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-5.03, 0.20, 2.55); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-9.27, 0.20, -3.10); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-4.32, 0.20, 1.84); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-8.57, 0.20, -3.81); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-3.62, 0.20, 1.13); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-7.86, 0.20, -4.51); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-2.91, 0.20, 0.43); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-7.15, 0.20, -5.22); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-2.20, 0.20, -0.27); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-6.45, 0.20, -5.93); 12:Donut Green radius=0.532131 bottom=-0.02511863 position=(-1.50, 0.20, -0.98); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-5.74, 0.20, -6.63); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-0.79, 0.20, -1.68); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-5.03, 0.20, -7.34); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-4.32, 0.20, -6.63); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-3.62, 0.20, -5.93); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-2.91, 0.20, -5.22); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-2.20, 0.20, -4.51); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-1.50, 0.20, -3.81); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-0.79, 0.20, -3.10); 12:Donut Green radius=0.532131 bottom=-0.02913278 position=(-0.08, 0.20, -2.39); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-4.97, 0.17, -4.41); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-4.33, 0.17, -3.77); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-3.70, 0.17, -3.13); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-3.06, 0.17, -2.50); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-4.33, 0.17, -5.04); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-3.70, 0.17, -4.41); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-3.06, 0.17, -3.77); 84:Cup Pink radius=0.4281244 bottom=-0.01673347 position=(-2.42, 0.17, -3.13); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-7.71, 0.17, -1.67); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-7.07, 0.17, -1.03); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-6.44, 0.17, -0.39); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-5.80, 0.17, 0.23); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-7.07, 0.17, -2.30); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-6.44, 0.17, -1.67); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-5.80, 0.17, -1.03); 85:Cup Brown radius=0.4281244 bottom=-0.01676738 position=(-5.16, 0.17, -0.39); 20:Can Red radius=0.3476923 bottom=-2.980232E-08 position=(-4.54, 0.00, 0.34); 20:Can Red radius=0.3476923 bottom=-2.980232E-08 position=(-4.01, 0.00, -0.18); 20:Can Red radius=0.3476923 bottom=-2.980232E-08 position=(-3.48, 0.00, -0.71); 20:Can Red radius=0.3476923 bottom=-2.980232E-08 position=(-2.95, 0.00, -1.24); 20:Can Red radius=0.3476923 bottom=-2.980232E-08 position=(-2.42, 0.00, -1.77); 84:Cup Pink radius=0.4243811 bottom=-0.01676738 position=(-7.87, 0.17, -2.87); 84:Cup Pink radius=0.4243811 bottom=-0.01676738 position=(-7.26, 0.17, -3.47); 84:Cup Pink radius=0.4243811 bottom=-0.01676738 position=(-6.66, 0.17, -4.07); 84:Cup Pink radius=0.4243811 bottom=-0.01676738 position=(-6.06, 0.17, -4.67); 84:Cup Pink radius=0.4243811 bottom=-0.01673344 position=(-5.46, 0.17, -5.27); 20:Can Red radius=0.3476923 bottom=0.0439986 position=(-21.32, 0.04, -14.17); 20:Can Red radius=0.3476923 bottom=0.02107668 position=(-22.06, 0.05, -14.41); 20:Can Red radius=0.3476923 bottom=-0.08399999 position=(-22.69, -0.08, -14.87); 20:Can Red radius=0.3476923 bottom=-0.08399999 position=(-23.15, -0.08, -15.50); 19:Watermelon radius=1.233918 bottom=-0.1313201 position=(-11.41, 1.34, -11.24); 19:Watermelon radius=1.23703 bottom=0.06893277 position=(-12.73, 1.54, -26.90); 
+Bombs: (-17.23, 0.66, -12.75);(2.99, 0.66, -16.44)
+RemainingActor 62/50 center=(7.63, 0.60, -33.67) size=(0.90, 1.21, 0.90) fit=0.3815131 p0=True:(7.63, 0.00, -33.67) p1=True:(8.02, 0.00, -33.67) p2=True:(7.63, 0.00, -33.28) p3=True:(7.24, 0.00, -33.67) p4=True:(7.63, 0.00, -34.06) p5=True:(7.90, 0.00, -33.40) p6=True:(7.36, 0.00, -33.40) p7=True:(7.36, 0.00, -33.94) p8=True:(7.90, 0.00, -33.94)
+RemainingActor 64/50 center=(7.38, 0.60, -34.41) size=(0.90, 1.21, 0.90) fit=0.3815131 p0=True:(7.38, 0.00, -34.41) p1=True:(7.77, 0.00, -34.41) p2=True:(7.38, 0.00, -34.02) p3=True:(6.99, 0.00, -34.41) p4=True:(7.38, 0.00, -34.80) p5=True:(7.65, 0.00, -34.14) p6=True:(7.11, 0.00, -34.14) p7=True:(7.11, 0.00, -34.68) p8=True:(7.65, 0.00, -34.68)
+RemainingActor 68/50 center=(6.64, 0.60, -34.66) size=(0.90, 1.21, 0.90) fit=0.3815131 p0=True:(6.64, 0.00, -34.66) p1=True:(7.03, 0.00, -34.66) p2=True:(6.64, 0.00, -34.27) p3=True:(6.25, 0.00, -34.66) p4=True:(6.64, 0.00, -35.05) p5=True:(6.91, 0.00, -34.39) p6=True:(6.37, 0.00, -34.39) p7=True:(6.37, 0.00, -34.93) p8=True:(6.91, 0.00, -34.93)
+RemainingActor 69/50 center=(7.14, 0.60, -35.15) size=(0.90, 1.21, 0.90) fit=0.3815131 p0=True:(7.14, 0.00, -35.15) p1=True:(7.53, 0.00, -35.15) p2=True:(7.14, 0.00, -34.76) p3=True:(6.75, 0.00, -35.15) p4=True:(7.14, 0.00, -35.54) p5=True:(7.41, 0.00, -34.88) p6=True:(6.87, 0.00, -34.88) p7=True:(6.87, 0.00, -35.42) p8=True:(7.41, 0.00, -35.42)
+RemainingActor 130/20 center=(8.81, 0.38, -32.60) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(8.81, 0.00, -32.60) p1=True:(9.20, 0.00, -32.60) p2=True:(8.81, 0.00, -32.21) p3=True:(8.42, 0.00, -32.60) p4=True:(8.81, 0.00, -32.99) p5=True:(9.08, 0.00, -32.33) p6=True:(8.54, 0.00, -32.33) p7=True:(8.54, 0.00, -32.87) p8=True:(9.08, 0.00, -32.87)
+RemainingActor 131/20 center=(8.62, 0.36, -33.32) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(8.62, 0.00, -33.32) p1=True:(9.01, 0.00, -33.32) p2=True:(8.62, 0.00, -32.93) p3=True:(8.23, 0.00, -33.32) p4=True:(8.62, 0.00, -33.71) p5=True:(8.89, 0.00, -33.05) p6=True:(8.35, 0.00, -33.05) p7=True:(8.35, 0.00, -33.59) p8=True:(8.89, 0.00, -33.59)
+RemainingActor 132/20 center=(9.15, 0.36, -33.85) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(9.15, 0.00, -33.85) p1=True:(9.54, 0.00, -33.85) p2=True:(9.15, 0.00, -33.46) p3=True:(8.76, 0.00, -33.85) p4=True:(9.15, 0.00, -34.24) p5=True:(9.42, 0.00, -33.58) p6=True:(8.88, 0.00, -33.58) p7=True:(8.88, 0.00, -34.12) p8=True:(9.42, 0.00, -34.12)
+RemainingActor 133/20 center=(9.87, 0.36, -33.66) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(9.87, 0.00, -33.66) p1=True:(10.26, 0.00, -33.66) p2=True:(9.87, 0.00, -33.27) p3=True:(9.48, 0.00, -33.66) p4=True:(9.87, 0.00, -34.05) p5=True:(10.14, 0.00, -33.39) p6=True:(9.60, 0.00, -33.39) p7=True:(9.60, 0.00, -33.93) p8=True:(10.14, 0.00, -33.93)
+RemainingActor 134/20 center=(10.07, 0.36, -32.93) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(10.07, 0.00, -32.93) p1=True:(10.46, 0.00, -32.93) p2=True:(10.07, 0.00, -32.54) p3=True:(9.68, 0.00, -32.93) p4=True:(10.07, 0.00, -33.32) p5=True:(10.34, 0.00, -32.66) p6=True:(9.80, 0.00, -32.66) p7=True:(9.80, 0.00, -33.20) p8=True:(10.34, 0.00, -33.20)
+RemainingActor 135/20 center=(9.54, 0.38, -32.40) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(9.54, 0.00, -32.40) p1=True:(9.93, 0.00, -32.40) p2=True:(9.54, 0.00, -32.01) p3=True:(9.15, 0.00, -32.40) p4=True:(9.54, 0.00, -32.79) p5=True:(9.81, 0.00, -32.13) p6=True:(9.27, 0.00, -32.13) p7=True:(9.27, 0.00, -32.67) p8=True:(9.81, 0.00, -32.67)
+RemainingActor 326/50 center=(-15.27, 0.65, -12.28) size=(0.90, 1.21, 0.90) fit=0.3815131 p0=True:(-14.59, 0.00, -12.12) p1=True:(-14.56, 0.00, -12.22) p2=True:(-14.74, 0.00, -11.66) p3=True:(-14.62, 0.00, -11.97) p4=True:(-14.51, 0.00, -12.64) p5=True:(-14.65, 0.00, -11.89) p6=True:(-14.74, 0.00, -11.65) p7=True:(-14.53, 0.00, -12.44) p8=True:(-14.52, 0.00, -12.51)
+RemainingActor 331/50 center=(-15.27, 0.65, -13.27) size=(0.90, 1.21, 0.90) fit=0.3815131 p0=True:(-14.60, 0.00, -13.45) p1=True:(-14.57, 0.00, -13.34) p2=True:(-14.52, 0.00, -12.93) p3=True:(-14.65, 0.00, -13.60) p4=True:(-14.76, 0.00, -13.89) p5=True:(-14.53, 0.00, -13.05) p6=True:(-14.54, 0.00, -13.14) p7=True:(-14.77, 0.00, -13.91) p8=True:(-14.67, 0.00, -13.66)
+RemainingActor 332/50 center=(-14.78, 0.60, -12.78) size=(0.90, 1.21, 0.90) fit=0.3815131 p0=True:(-14.51, 0.00, -12.78) p1=True:(-14.39, 0.00, -12.78) p2=True:(-14.54, 0.00, -12.36) p3=True:(-14.51, 0.00, -12.79) p4=True:(-14.55, 0.00, -13.21) p5=True:(-14.51, 0.00, -12.51) p6=True:(-14.53, 0.00, -12.45) p7=True:(-14.54, 0.00, -13.13) p8=True:(-14.51, 0.00, -13.05)
+RemainingActor 453/89 center=(14.83, 0.26, -25.23) size=(2.22, 0.41, 2.22) fit=0.7892218 p0=True:(14.83, 0.00, -25.23) p1=True:(15.22, 0.00, -25.23) p2=True:(14.83, 0.00, -24.84) p3=True:(14.44, 0.00, -25.23) p4=True:(14.83, 0.00, -25.62) p5=True:(15.10, 0.00, -24.96) p6=True:(14.56, 0.00, -24.96) p7=True:(14.56, 0.00, -25.50) p8=True:(15.10, 0.00, -25.50)
+RemainingActor 454/89 center=(14.38, 0.26, -23.55) size=(1.91, 0.41, 1.92) fit=0.7892218 p0=True:(14.38, 0.00, -23.55) p1=True:(14.77, 0.00, -23.55) p2=True:(14.38, 0.00, -23.16) p3=True:(13.99, 0.00, -23.55) p4=True:(14.38, 0.00, -23.94) p5=True:(14.65, 0.00, -23.28) p6=True:(14.11, 0.00, -23.28) p7=True:(14.11, 0.00, -23.82) p8=True:(14.65, 0.00, -23.82)
+RemainingActor 455/89 center=(13.15, 0.26, -24.78) size=(1.91, 0.41, 1.91) fit=0.7892218 p0=True:(13.15, 0.00, -24.78) p1=True:(13.54, 0.00, -24.78) p2=True:(13.15, 0.00, -24.39) p3=True:(12.76, 0.00, -24.78) p4=True:(13.15, 0.00, -25.17) p5=True:(13.42, 0.00, -24.51) p6=True:(12.88, 0.00, -24.51) p7=True:(12.88, 0.00, -25.05) p8=True:(13.42, 0.00, -25.05)
+RemainingActor 508/12 center=(-9.98, 0.21, -2.39) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-9.98, 0.00, -2.39) p1=True:(-9.59, 0.00, -2.39) p2=True:(-9.98, 0.00, -2.01) p3=True:(-10.37, 0.00, -2.39) p4=True:(-9.98, 0.00, -2.78) p5=True:(-9.71, 0.00, -2.12) p6=True:(-10.25, 0.00, -2.12) p7=True:(-10.25, 0.00, -2.67) p8=True:(-9.71, 0.00, -2.67)
+RemainingActor 509/12 center=(-9.27, 0.21, -1.68) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-9.27, 0.00, -1.68) p1=True:(-8.88, 0.00, -1.68) p2=True:(-9.27, 0.00, -1.30) p3=True:(-9.66, 0.00, -1.68) p4=True:(-9.27, 0.00, -2.07) p5=True:(-9.00, 0.00, -1.41) p6=True:(-9.54, 0.00, -1.41) p7=True:(-9.54, 0.00, -1.96) p8=True:(-9.00, 0.00, -1.96)
+RemainingActor 510/12 center=(-8.57, 0.21, -0.98) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-8.57, 0.00, -0.98) p1=True:(-8.18, 0.00, -0.98) p2=True:(-8.57, 0.00, -0.60) p3=True:(-8.96, 0.00, -0.98) p4=True:(-8.57, 0.00, -1.37) p5=True:(-8.30, 0.00, -0.71) p6=True:(-8.84, 0.00, -0.71) p7=True:(-8.84, 0.00, -1.26) p8=True:(-8.30, 0.00, -1.26)
+RemainingActor 511/12 center=(-7.86, 0.21, -0.27) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-7.86, 0.00, -0.27) p1=True:(-7.47, 0.00, -0.27) p2=True:(-7.86, 0.00, 0.11) p3=True:(-8.25, 0.00, -0.27) p4=True:(-7.86, 0.00, -0.66) p5=True:(-7.59, 0.00, 0.00) p6=True:(-8.13, 0.00, 0.00) p7=True:(-8.13, 0.00, -0.55) p8=True:(-7.59, 0.00, -0.55)
+RemainingActor 512/12 center=(-7.15, 0.21, 0.43) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-7.15, 0.00, 0.43) p1=True:(-6.76, 0.00, 0.43) p2=True:(-7.15, 0.00, 0.81) p3=True:(-7.54, 0.00, 0.43) p4=True:(-7.15, 0.00, 0.04) p5=True:(-6.88, 0.00, 0.70) p6=True:(-7.42, 0.00, 0.70) p7=True:(-7.42, 0.00, 0.15) p8=True:(-6.88, 0.00, 0.15)
+RemainingActor 513/12 center=(-6.45, 0.21, 1.13) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-6.45, 0.00, 1.13) p1=True:(-6.06, 0.00, 1.13) p2=True:(-6.45, 0.00, 1.51) p3=True:(-6.84, 0.00, 1.13) p4=True:(-6.45, 0.00, 0.74) p5=True:(-6.18, 0.00, 1.40) p6=True:(-6.72, 0.00, 1.40) p7=True:(-6.72, 0.00, 0.85) p8=True:(-6.18, 0.00, 0.85)
+RemainingActor 514/12 center=(-5.74, 0.21, 1.84) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-5.74, 0.00, 1.84) p1=True:(-5.35, 0.00, 1.84) p2=True:(-5.74, 0.00, 2.22) p3=True:(-6.13, 0.00, 1.84) p4=True:(-5.74, 0.00, 1.45) p5=True:(-5.47, 0.00, 2.11) p6=True:(-6.01, 0.00, 2.11) p7=True:(-6.01, 0.00, 1.56) p8=True:(-5.47, 0.00, 1.56)
+RemainingActor 515/12 center=(-5.03, 0.21, 2.55) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-5.03, 0.00, 2.55) p1=True:(-4.64, 0.00, 2.55) p2=True:(-5.03, 0.00, 2.93) p3=True:(-5.42, 0.00, 2.55) p4=True:(-5.03, 0.00, 2.16) p5=True:(-4.76, 0.00, 2.82) p6=True:(-5.30, 0.00, 2.82) p7=True:(-5.30, 0.00, 2.27) p8=True:(-4.76, 0.00, 2.27)
+RemainingActor 516/12 center=(-9.27, 0.21, -3.10) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-9.27, 0.00, -3.10) p1=True:(-8.88, 0.00, -3.10) p2=True:(-9.27, 0.00, -2.72) p3=True:(-9.66, 0.00, -3.10) p4=True:(-9.27, 0.00, -3.49) p5=True:(-9.00, 0.00, -2.83) p6=True:(-9.54, 0.00, -2.83) p7=True:(-9.54, 0.00, -3.38) p8=True:(-9.00, 0.00, -3.38)
+RemainingActor 517/12 center=(-4.32, 0.21, 1.84) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-4.32, 0.00, 1.84) p1=True:(-3.93, 0.00, 1.84) p2=True:(-4.32, 0.00, 2.22) p3=True:(-4.71, 0.00, 1.84) p4=True:(-4.32, 0.00, 1.45) p5=True:(-4.05, 0.00, 2.11) p6=True:(-4.59, 0.00, 2.11) p7=True:(-4.59, 0.00, 1.56) p8=True:(-4.05, 0.00, 1.56)
+RemainingActor 518/12 center=(-8.57, 0.21, -3.81) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-8.57, 0.00, -3.81) p1=True:(-8.18, 0.00, -3.81) p2=True:(-8.57, 0.00, -3.43) p3=True:(-8.96, 0.00, -3.81) p4=True:(-8.57, 0.00, -4.20) p5=True:(-8.30, 0.00, -3.54) p6=True:(-8.84, 0.00, -3.54) p7=True:(-8.84, 0.00, -4.09) p8=True:(-8.30, 0.00, -4.09)
+RemainingActor 519/12 center=(-3.62, 0.21, 1.13) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-3.62, 0.00, 1.13) p1=True:(-3.23, 0.00, 1.13) p2=True:(-3.62, 0.00, 1.51) p3=True:(-4.01, 0.00, 1.13) p4=True:(-3.62, 0.00, 0.74) p5=True:(-3.35, 0.00, 1.40) p6=True:(-3.89, 0.00, 1.40) p7=True:(-3.89, 0.00, 0.85) p8=True:(-3.35, 0.00, 0.85)
+RemainingActor 520/12 center=(-7.86, 0.21, -4.51) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-7.86, 0.00, -4.51) p1=True:(-7.47, 0.00, -4.51) p2=True:(-7.86, 0.00, -4.13) p3=True:(-8.25, 0.00, -4.51) p4=True:(-7.86, 0.00, -4.90) p5=True:(-7.59, 0.00, -4.24) p6=True:(-8.13, 0.00, -4.24) p7=True:(-8.13, 0.00, -4.79) p8=True:(-7.59, 0.00, -4.79)
+RemainingActor 521/12 center=(-2.91, 0.21, 0.43) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-2.91, 0.00, 0.43) p1=True:(-2.52, 0.00, 0.43) p2=True:(-2.91, 0.00, 0.81) p3=True:(-3.30, 0.00, 0.43) p4=True:(-2.91, 0.00, 0.04) p5=True:(-2.64, 0.00, 0.70) p6=True:(-3.18, 0.00, 0.70) p7=True:(-3.18, 0.00, 0.15) p8=True:(-2.64, 0.00, 0.15)
+RemainingActor 522/12 center=(-7.15, 0.21, -5.22) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-7.15, 0.00, -5.22) p1=True:(-6.76, 0.00, -5.22) p2=True:(-7.15, 0.00, -4.84) p3=True:(-7.54, 0.00, -5.22) p4=True:(-7.15, 0.00, -5.61) p5=True:(-6.88, 0.00, -4.95) p6=True:(-7.42, 0.00, -4.95) p7=True:(-7.42, 0.00, -5.50) p8=True:(-6.88, 0.00, -5.50)
+RemainingActor 523/12 center=(-2.20, 0.21, -0.27) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-2.20, 0.00, -0.27) p1=True:(-1.81, 0.00, -0.27) p2=True:(-2.20, 0.00, 0.11) p3=True:(-2.59, 0.00, -0.27) p4=True:(-2.20, 0.00, -0.66) p5=True:(-1.93, 0.00, 0.00) p6=True:(-2.47, 0.00, 0.00) p7=True:(-2.47, 0.00, -0.55) p8=True:(-1.93, 0.00, -0.55)
+RemainingActor 524/12 center=(-6.45, 0.21, -5.93) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-6.45, 0.00, -5.93) p1=True:(-6.06, 0.00, -5.93) p2=True:(-6.45, 0.00, -5.55) p3=True:(-6.84, 0.00, -5.93) p4=True:(-6.45, 0.00, -6.32) p5=True:(-6.18, 0.00, -5.66) p6=True:(-6.72, 0.00, -5.66) p7=True:(-6.72, 0.00, -6.21) p8=True:(-6.18, 0.00, -6.21)
+RemainingActor 525/12 center=(-1.50, 0.21, -0.98) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-1.50, 0.00, -0.98) p1=True:(-1.11, 0.00, -0.98) p2=True:(-1.50, 0.00, -0.60) p3=True:(-1.89, 0.00, -0.98) p4=True:(-1.50, 0.00, -1.37) p5=True:(-1.23, 0.00, -0.71) p6=True:(-1.77, 0.00, -0.71) p7=True:(-1.77, 0.00, -1.26) p8=True:(-1.23, 0.00, -1.26)
+RemainingActor 526/12 center=(-5.74, 0.21, -6.63) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-5.74, 0.00, -6.63) p1=True:(-5.35, 0.00, -6.63) p2=True:(-5.74, 0.00, -6.25) p3=True:(-6.13, 0.00, -6.63) p4=True:(-5.74, 0.00, -7.02) p5=True:(-5.47, 0.00, -6.36) p6=True:(-6.01, 0.00, -6.36) p7=True:(-6.01, 0.00, -6.91) p8=True:(-5.47, 0.00, -6.91)
+RemainingActor 527/12 center=(-0.79, 0.21, -1.68) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-0.79, 0.00, -1.68) p1=True:(-0.40, 0.00, -1.68) p2=True:(-0.79, 0.00, -1.30) p3=True:(-1.18, 0.00, -1.68) p4=True:(-0.79, 0.00, -2.07) p5=True:(-0.52, 0.00, -1.41) p6=True:(-1.06, 0.00, -1.41) p7=True:(-1.06, 0.00, -1.96) p8=True:(-0.52, 0.00, -1.96)
+RemainingActor 528/12 center=(-5.03, 0.21, -7.34) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-5.03, 0.00, -7.34) p1=True:(-4.64, 0.00, -7.34) p2=True:(-5.03, 0.00, -6.96) p3=True:(-5.42, 0.00, -7.34) p4=True:(-5.03, 0.00, -7.73) p5=True:(-4.76, 0.00, -7.07) p6=True:(-5.30, 0.00, -7.07) p7=True:(-5.30, 0.00, -7.62) p8=True:(-4.76, 0.00, -7.62)
+RemainingActor 529/12 center=(-4.32, 0.21, -6.63) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-4.32, 0.00, -6.63) p1=True:(-3.93, 0.00, -6.63) p2=True:(-4.32, 0.00, -6.25) p3=True:(-4.71, 0.00, -6.63) p4=True:(-4.32, 0.00, -7.02) p5=True:(-4.05, 0.00, -6.36) p6=True:(-4.59, 0.00, -6.36) p7=True:(-4.59, 0.00, -6.91) p8=True:(-4.05, 0.00, -6.91)
+RemainingActor 530/12 center=(-3.62, 0.21, -5.93) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-3.62, 0.00, -5.93) p1=True:(-3.23, 0.00, -5.93) p2=True:(-3.62, 0.00, -5.55) p3=True:(-4.01, 0.00, -5.93) p4=True:(-3.62, 0.00, -6.32) p5=True:(-3.35, 0.00, -5.66) p6=True:(-3.89, 0.00, -5.66) p7=True:(-3.89, 0.00, -6.21) p8=True:(-3.35, 0.00, -6.21)
+RemainingActor 531/12 center=(-2.91, 0.21, -5.22) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-2.91, 0.00, -5.22) p1=True:(-2.52, 0.00, -5.22) p2=True:(-2.91, 0.00, -4.84) p3=True:(-3.30, 0.00, -5.22) p4=True:(-2.91, 0.00, -5.61) p5=True:(-2.64, 0.00, -4.95) p6=True:(-3.18, 0.00, -4.95) p7=True:(-3.18, 0.00, -5.50) p8=True:(-2.64, 0.00, -5.50)
+RemainingActor 532/12 center=(-2.20, 0.21, -4.51) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-2.20, 0.00, -4.51) p1=True:(-1.81, 0.00, -4.51) p2=True:(-2.20, 0.00, -4.13) p3=True:(-2.59, 0.00, -4.51) p4=True:(-2.20, 0.00, -4.90) p5=True:(-1.93, 0.00, -4.24) p6=True:(-2.47, 0.00, -4.24) p7=True:(-2.47, 0.00, -4.79) p8=True:(-1.93, 0.00, -4.79)
+RemainingActor 533/12 center=(-1.50, 0.21, -3.81) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-1.50, 0.00, -3.81) p1=True:(-1.11, 0.00, -3.81) p2=True:(-1.50, 0.00, -3.43) p3=True:(-1.89, 0.00, -3.81) p4=True:(-1.50, 0.00, -4.20) p5=True:(-1.23, 0.00, -3.54) p6=True:(-1.77, 0.00, -3.54) p7=True:(-1.77, 0.00, -4.09) p8=True:(-1.23, 0.00, -4.09)
+RemainingActor 534/12 center=(-0.79, 0.21, -3.10) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-0.79, 0.00, -3.10) p1=True:(-0.40, 0.00, -3.10) p2=True:(-0.79, 0.00, -2.72) p3=True:(-1.18, 0.00, -3.10) p4=True:(-0.79, 0.00, -3.49) p5=True:(-0.52, 0.00, -2.83) p6=True:(-1.06, 0.00, -2.83) p7=True:(-1.06, 0.00, -3.38) p8=True:(-0.52, 0.00, -3.38)
+RemainingActor 535/12 center=(-0.08, 0.21, -2.39) size=(1.52, 0.46, 1.52) fit=0.5549604 p0=True:(-0.08, 0.00, -2.39) p1=True:(0.31, 0.00, -2.39) p2=True:(-0.08, 0.00, -2.01) p3=True:(-0.47, 0.00, -2.39) p4=True:(-0.08, 0.00, -2.78) p5=True:(0.19, 0.00, -2.12) p6=True:(-0.35, 0.00, -2.12) p7=True:(-0.35, 0.00, -2.67) p8=True:(0.19, 0.00, -2.67)
+RemainingActor 536/84 center=(-4.95, 0.17, -4.43) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-4.95, 0.00, -4.43) p1=True:(-4.57, 0.00, -4.43) p2=True:(-4.95, 0.00, -4.04) p3=True:(-5.34, 0.00, -4.43) p4=True:(-4.95, 0.00, -4.81) p5=True:(-4.68, 0.00, -4.15) p6=True:(-5.23, 0.00, -4.15) p7=True:(-5.23, 0.00, -4.70) p8=True:(-4.68, 0.00, -4.70)
+RemainingActor 537/84 center=(-4.31, 0.17, -3.79) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-4.31, 0.00, -3.79) p1=True:(-3.93, 0.00, -3.79) p2=True:(-4.31, 0.00, -3.40) p3=True:(-4.70, 0.00, -3.79) p4=True:(-4.31, 0.00, -4.17) p5=True:(-4.04, 0.00, -3.51) p6=True:(-4.59, 0.00, -3.51) p7=True:(-4.59, 0.00, -4.06) p8=True:(-4.04, 0.00, -4.06)
+RemainingActor 538/84 center=(-3.68, 0.17, -3.15) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-3.68, 0.00, -3.15) p1=True:(-3.30, 0.00, -3.15) p2=True:(-3.68, 0.00, -2.76) p3=True:(-4.07, 0.00, -3.15) p4=True:(-3.68, 0.00, -3.53) p5=True:(-3.41, 0.00, -2.87) p6=True:(-3.96, 0.00, -2.87) p7=True:(-3.96, 0.00, -3.42) p8=True:(-3.41, 0.00, -3.42)
+RemainingActor 539/84 center=(-3.04, 0.17, -2.52) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-3.04, 0.00, -2.52) p1=True:(-2.66, 0.00, -2.52) p2=True:(-3.04, 0.00, -2.13) p3=True:(-3.43, 0.00, -2.52) p4=True:(-3.04, 0.00, -2.90) p5=True:(-2.77, 0.00, -2.24) p6=True:(-3.32, 0.00, -2.24) p7=True:(-3.32, 0.00, -2.79) p8=True:(-2.77, 0.00, -2.79)
+RemainingActor 540/84 center=(-4.31, 0.17, -5.06) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-4.31, 0.00, -5.06) p1=True:(-3.93, 0.00, -5.06) p2=True:(-4.31, 0.00, -4.67) p3=True:(-4.70, 0.00, -5.06) p4=True:(-4.31, 0.00, -5.44) p5=True:(-4.04, 0.00, -4.78) p6=True:(-4.59, 0.00, -4.78) p7=True:(-4.59, 0.00, -5.33) p8=True:(-4.04, 0.00, -5.33)
+RemainingActor 541/84 center=(-3.68, 0.17, -4.43) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-3.68, 0.00, -4.43) p1=True:(-3.30, 0.00, -4.43) p2=True:(-3.68, 0.00, -4.04) p3=True:(-4.07, 0.00, -4.43) p4=True:(-3.68, 0.00, -4.81) p5=True:(-3.41, 0.00, -4.15) p6=True:(-3.96, 0.00, -4.15) p7=True:(-3.96, 0.00, -4.70) p8=True:(-3.41, 0.00, -4.70)
+RemainingActor 542/84 center=(-3.04, 0.17, -3.79) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-3.04, 0.00, -3.79) p1=True:(-2.66, 0.00, -3.79) p2=True:(-3.04, 0.00, -3.40) p3=True:(-3.43, 0.00, -3.79) p4=True:(-3.04, 0.00, -4.17) p5=True:(-2.77, 0.00, -3.51) p6=True:(-3.32, 0.00, -3.51) p7=True:(-3.32, 0.00, -4.06) p8=True:(-2.77, 0.00, -4.06)
+RemainingActor 543/84 center=(-2.40, 0.17, -3.15) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-2.40, 0.00, -3.15) p1=True:(-2.02, 0.00, -3.15) p2=True:(-2.40, 0.00, -2.76) p3=True:(-2.79, 0.00, -3.15) p4=True:(-2.40, 0.00, -3.53) p5=True:(-2.13, 0.00, -2.87) p6=True:(-2.68, 0.00, -2.87) p7=True:(-2.68, 0.00, -3.42) p8=True:(-2.13, 0.00, -3.42)
+RemainingActor 544/85 center=(-7.69, 0.17, -1.69) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-7.69, 0.00, -1.69) p1=True:(-7.31, 0.00, -1.69) p2=True:(-7.69, 0.00, -1.30) p3=True:(-8.08, 0.00, -1.69) p4=True:(-7.69, 0.00, -2.07) p5=True:(-7.42, 0.00, -1.41) p6=True:(-7.97, 0.00, -1.41) p7=True:(-7.97, 0.00, -1.96) p8=True:(-7.42, 0.00, -1.96)
+RemainingActor 545/85 center=(-7.05, 0.17, -1.05) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-7.05, 0.00, -1.05) p1=True:(-6.67, 0.00, -1.05) p2=True:(-7.05, 0.00, -0.66) p3=True:(-7.44, 0.00, -1.05) p4=True:(-7.05, 0.00, -1.43) p5=True:(-6.78, 0.00, -0.77) p6=True:(-7.33, 0.00, -0.77) p7=True:(-7.33, 0.00, -1.32) p8=True:(-6.78, 0.00, -1.32)
+RemainingActor 546/85 center=(-6.42, 0.17, -0.41) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-6.42, 0.00, -0.41) p1=True:(-6.04, 0.00, -0.41) p2=True:(-6.42, 0.00, -0.02) p3=True:(-6.81, 0.00, -0.41) p4=True:(-6.42, 0.00, -0.79) p5=True:(-6.15, 0.00, -0.13) p6=True:(-6.70, 0.00, -0.13) p7=True:(-6.70, 0.00, -0.68) p8=True:(-6.15, 0.00, -0.68)
+RemainingActor 547/85 center=(-5.78, 0.17, 0.21) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-5.78, 0.00, 0.21) p1=True:(-5.40, 0.00, 0.21) p2=True:(-5.78, 0.00, 0.60) p3=True:(-6.17, 0.00, 0.21) p4=True:(-5.78, 0.00, -0.17) p5=True:(-5.51, 0.00, 0.49) p6=True:(-6.06, 0.00, 0.49) p7=True:(-6.06, 0.00, -0.06) p8=True:(-5.51, 0.00, -0.06)
+RemainingActor 548/85 center=(-7.05, 0.17, -2.32) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-7.05, 0.00, -2.32) p1=True:(-6.67, 0.00, -2.32) p2=True:(-7.05, 0.00, -1.93) p3=True:(-7.44, 0.00, -2.32) p4=True:(-7.05, 0.00, -2.70) p5=True:(-6.78, 0.00, -2.04) p6=True:(-7.33, 0.00, -2.04) p7=True:(-7.33, 0.00, -2.59) p8=True:(-6.78, 0.00, -2.59)
+RemainingActor 549/85 center=(-6.42, 0.17, -1.69) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-6.42, 0.00, -1.69) p1=True:(-6.04, 0.00, -1.69) p2=True:(-6.42, 0.00, -1.30) p3=True:(-6.81, 0.00, -1.69) p4=True:(-6.42, 0.00, -2.07) p5=True:(-6.15, 0.00, -1.41) p6=True:(-6.70, 0.00, -1.41) p7=True:(-6.70, 0.00, -1.96) p8=True:(-6.15, 0.00, -1.96)
+RemainingActor 550/85 center=(-5.78, 0.17, -1.05) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-5.78, 0.00, -1.05) p1=True:(-5.40, 0.00, -1.05) p2=True:(-5.78, 0.00, -0.66) p3=True:(-6.17, 0.00, -1.05) p4=True:(-5.78, 0.00, -1.43) p5=True:(-5.51, 0.00, -0.77) p6=True:(-6.06, 0.00, -0.77) p7=True:(-6.06, 0.00, -1.32) p8=True:(-5.51, 0.00, -1.32)
+RemainingActor 551/85 center=(-5.14, 0.17, -0.41) size=(1.21, 0.37, 1.21) fit=0.4297381 p0=True:(-5.14, 0.00, -0.41) p1=True:(-4.76, 0.00, -0.41) p2=True:(-5.14, 0.00, -0.02) p3=True:(-5.53, 0.00, -0.41) p4=True:(-5.14, 0.00, -0.79) p5=True:(-4.87, 0.00, -0.13) p6=True:(-5.42, 0.00, -0.13) p7=True:(-5.42, 0.00, -0.68) p8=True:(-4.87, 0.00, -0.68)
+RemainingActor 552/20 center=(-4.54, 0.36, 0.34) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(-4.54, 0.00, 0.34) p1=True:(-4.15, 0.00, 0.34) p2=True:(-4.54, 0.00, 0.73) p3=True:(-4.93, 0.00, 0.34) p4=True:(-4.54, 0.00, -0.05) p5=True:(-4.27, 0.00, 0.61) p6=True:(-4.81, 0.00, 0.61) p7=True:(-4.81, 0.00, 0.07) p8=True:(-4.27, 0.00, 0.07)
+RemainingActor 553/20 center=(-4.01, 0.36, -0.18) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(-4.01, 0.00, -0.18) p1=True:(-3.62, 0.00, -0.18) p2=True:(-4.01, 0.00, 0.21) p3=True:(-4.40, 0.00, -0.18) p4=True:(-4.01, 0.00, -0.57) p5=True:(-3.74, 0.00, 0.09) p6=True:(-4.28, 0.00, 0.09) p7=True:(-4.28, 0.00, -0.45) p8=True:(-3.74, 0.00, -0.45)
+RemainingActor 554/20 center=(-3.48, 0.36, -0.71) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(-3.48, 0.00, -0.71) p1=True:(-3.09, 0.00, -0.71) p2=True:(-3.48, 0.00, -0.32) p3=True:(-3.87, 0.00, -0.71) p4=True:(-3.48, 0.00, -1.10) p5=True:(-3.21, 0.00, -0.44) p6=True:(-3.75, 0.00, -0.44) p7=True:(-3.75, 0.00, -0.98) p8=True:(-3.21, 0.00, -0.98)
+RemainingActor 555/20 center=(-2.95, 0.36, -1.24) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(-2.95, 0.00, -1.24) p1=True:(-2.56, 0.00, -1.24) p2=True:(-2.95, 0.00, -0.85) p3=True:(-3.34, 0.00, -1.24) p4=True:(-2.95, 0.00, -1.63) p5=True:(-2.68, 0.00, -0.97) p6=True:(-3.22, 0.00, -0.97) p7=True:(-3.22, 0.00, -1.51) p8=True:(-2.68, 0.00, -1.51)
+RemainingActor 556/20 center=(-2.42, 0.36, -1.77) size=(0.98, 0.73, 0.98) fit=0.3476927 p0=True:(-2.42, 0.00, -1.77) p1=True:(-2.03, 0.00, -1.77) p2=True:(-2.42, 0.00, -1.38) p3=True:(-2.81, 0.00, -1.77) p4=True:(-2.42, 0.00, -2.16) p5=True:(-2.15, 0.00, -1.50) p6=True:(-2.69, 0.00, -1.50) p7=True:(-2.69, 0.00, -2.04) p8=True:(-2.15, 0.00, -2.04)
+RemainingActor 557/84 center=(-7.87, 0.17, -2.89) size=(0.86, 0.37, 0.85) fit=0.4297381 p0=True:(-7.87, 0.00, -2.89) p1=True:(-7.48, 0.00, -2.89) p2=True:(-7.87, 0.00, -2.50) p3=True:(-8.26, 0.00, -2.89) p4=True:(-7.87, 0.00, -3.28) p5=True:(-7.60, 0.00, -2.62) p6=True:(-8.14, 0.00, -2.62) p7=True:(-8.14, 0.00, -3.17) p8=True:(-7.60, 0.00, -3.17)
+RemainingActor 558/84 center=(-7.26, 0.17, -3.49) size=(0.86, 0.37, 0.85) fit=0.4297381 p0=True:(-7.26, 0.00, -3.49) p1=True:(-6.87, 0.00, -3.49) p2=True:(-7.26, 0.00, -3.10) p3=True:(-7.65, 0.00, -3.49) p4=True:(-7.26, 0.00, -3.88) p5=True:(-6.99, 0.00, -3.22) p6=True:(-7.53, 0.00, -3.22) p7=True:(-7.53, 0.00, -3.77) p8=True:(-6.99, 0.00, -3.77)
+RemainingActor 559/84 center=(-6.66, 0.17, -4.09) size=(0.86, 0.37, 0.85) fit=0.4297381 p0=True:(-6.66, 0.00, -4.09) p1=True:(-6.27, 0.00, -4.09) p2=True:(-6.66, 0.00, -3.70) p3=True:(-7.05, 0.00, -4.09) p4=True:(-6.66, 0.00, -4.48) p5=True:(-6.39, 0.00, -3.82) p6=True:(-6.93, 0.00, -3.82) p7=True:(-6.93, 0.00, -4.37) p8=True:(-6.39, 0.00, -4.37)
+RemainingActor 560/84 center=(-6.06, 0.17, -4.69) size=(0.86, 0.37, 0.85) fit=0.4297381 p0=True:(-6.06, 0.00, -4.69) p1=True:(-5.67, 0.00, -4.69) p2=True:(-6.06, 0.00, -4.30) p3=True:(-6.45, 0.00, -4.69) p4=True:(-6.06, 0.00, -5.08) p5=True:(-5.79, 0.00, -4.42) p6=True:(-6.33, 0.00, -4.42) p7=True:(-6.33, 0.00, -4.97) p8=True:(-5.79, 0.00, -4.97)
+RemainingActor 561/84 center=(-5.46, 0.17, -5.29) size=(0.86, 0.37, 0.85) fit=0.4297381 p0=True:(-5.46, 0.00, -5.29) p1=True:(-5.07, 0.00, -5.29) p2=True:(-5.46, 0.00, -4.90) p3=True:(-5.85, 0.00, -5.29) p4=True:(-5.46, 0.00, -5.68) p5=True:(-5.19, 0.00, -5.02) p6=True:(-5.73, 0.00, -5.02) p7=True:(-5.73, 0.00, -5.57) p8=True:(-5.19, 0.00, -5.57)
+RemainingActor 570/20 center=(-21.32, 0.41, -14.17) size=(0.65, 0.73, 0.65) fit=0.3476927 p0=True:(-21.32, 0.00, -14.17) p1=True:(-20.93, 0.00, -14.17) p2=True:(-21.32, 0.00, -13.78) p3=True:(-21.71, 0.00, -14.17) p4=True:(-21.32, 0.00, -14.56) p5=True:(-21.05, 0.00, -13.90) p6=True:(-21.59, 0.00, -13.90) p7=True:(-21.59, 0.00, -14.44) p8=True:(-21.05, 0.00, -14.44)
+RemainingActor 571/20 center=(-22.09, 0.41, -14.44) size=(0.70, 0.78, 0.70) fit=0.3476927 p0=True:(-22.07, 0.00, -14.42) p1=True:(-21.68, 0.00, -14.42) p2=True:(-22.07, 0.00, -14.04) p3=True:(-22.46, 0.00, -14.42) p4=True:(-22.07, 0.00, -14.81) p5=True:(-21.80, 0.00, -14.15) p6=True:(-22.35, 0.00, -14.15) p7=True:(-22.35, 0.00, -14.70) p8=True:(-21.80, 0.00, -14.70)
+RemainingActor 572/20 center=(-22.69, 0.28, -14.87) size=(0.65, 0.73, 0.65) fit=0.3476927 p0=True:(-22.69, 0.00, -14.87) p1=True:(-22.30, 0.00, -14.87) p2=True:(-22.69, 0.00, -14.48) p3=True:(-23.08, 0.00, -14.87) p4=True:(-22.69, 0.00, -15.26) p5=True:(-22.42, 0.00, -14.60) p6=True:(-22.96, 0.00, -14.60) p7=True:(-22.96, 0.00, -15.14) p8=True:(-22.42, 0.00, -15.14)
+RemainingActor 573/20 center=(-23.15, 0.28, -15.50) size=(0.65, 0.73, 0.65) fit=0.3476927 p0=True:(-23.15, 0.00, -15.50) p1=True:(-22.76, 0.00, -15.50) p2=True:(-23.15, 0.00, -15.11) p3=True:(-23.54, 0.00, -15.50) p4=True:(-23.15, 0.00, -15.89) p5=True:(-22.88, 0.00, -15.23) p6=True:(-23.42, 0.00, -15.23) p7=True:(-23.42, 0.00, -15.77) p8=True:(-22.88, 0.00, -15.77)
+RemainingActor 609/19 center=(-11.42, 1.34, -11.24) size=(2.47, 2.94, 2.48) fit=1.250748 p0=True:(-11.42, 0.00, -11.24) p1=True:(-10.49, 0.00, -11.24) p2=True:(-11.42, 0.00, -10.31) p3=True:(-12.35, 0.00, -11.24) p4=True:(-11.42, 0.00, -12.17) p5=True:(-10.40, 0.00, -10.22) p6=True:(-12.43, 0.00, -10.22) p7=True:(-12.43, 0.00, -12.26) p8=True:(-10.40, 0.00, -12.26)
+RemainingActor 611/19 center=(-12.74, 1.54, -26.90) size=(3.51, 2.95, 3.50) fit=1.250748 p0=True:(-12.74, 0.00, -26.90) p1=True:(-11.81, 0.00, -26.90) p2=True:(-12.74, 0.00, -25.97) p3=True:(-13.67, 0.00, -26.90) p4=True:(-12.74, 0.00, -27.83) p5=True:(-11.72, 0.00, -25.89) p6=True:(-13.76, 0.00, -25.89) p7=True:(-13.76, 0.00, -27.92) p8=True:(-11.72, 0.00, -27.92)

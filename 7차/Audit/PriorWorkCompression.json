@@ -1,0 +1,12 @@
+{
+  "Operation": "Lossless NTFS compression of earlier task working directories; no file deletion",
+  "Targets": [
+    "PocketPit",
+    "package",
+    "AndroidBuild",
+    "AndroidFinal"
+  ],
+  "FilesUnchanged": 5567,
+  "FreeBefore": 1209405440,
+  "FreeAfter": 1389256704
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_TrafficLight
+  m_EditorClassIdentifier: 
+  displayName: TRAFFIC LIGHT
+  objectId: TrafficLight
+  colorVariant: 0
+  footprintRadius: 0.285105
+  prefab: {fileID: 1000, guid: f065539e30f41078d83282e32aa6436a, type: 3}
+  icon: {fileID: 21300000, guid: 1ddf0c83849e637778a00ff7c9ff7fdc, type: 3}
+  uiColor: {r: 0.13, g: 0.16, b: 0.22, a: 1}
+  stackHeight: 1.6323473
+  objectType: 5
+  sizeTier: 3
+  score: 55
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

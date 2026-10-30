@@ -1,0 +1,25 @@
+{
+  "name": "HoleCollider",
+  "vertices": 664,
+  "triangles": 384,
+  "boundsMin": [
+    -275.6212158203125,
+    -8.595720291137695,
+    -275.62115478515625
+  ],
+  "boundsMax": [
+    275.62115478515625,
+    2.358711753913667e-06,
+    275.62115478515625
+  ],
+  "bytes": 25868,
+  "sourceFile": "sharedassets2.assets",
+  "sourcePathID": 160,
+  "collectionTriggers": [
+    {
+      "monoPathID": 2600,
+      "gameObject": 56,
+      "name": "Cube-CollectionTrigger"
+    }
+  ]
+}

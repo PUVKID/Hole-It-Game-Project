@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 20:21:19Z" end-time="2026-10-12 20:21:33Z" duration="13.9543776">
+  <test-suite type="TestSuite" id="1018" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 20:21:19Z" end-time="2026-10-12 20:21:33Z" duration="13.954378" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1015" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 20:21:19Z" end-time="2026-10-12 20:21:33Z" duration="13.948460" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="68636" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 20:21:19Z" end-time="2026-10-12 20:21:30Z" duration="11.028734" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1008" name="BombLosesAndRetryResets" fullname="ReferenceTests.BombLosesAndRetryResets" methodname="BombLosesAndRetryResets" classname="ReferenceTests" runstate="Runnable" seed="1090822976" result="Passed" start-time="2026-10-12 20:21:19Z" end-time="2026-10-12 20:21:26Z" duration="7.120459" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="1609240033" result="Passed" start-time="2026-10-12 20:21:26Z" end-time="2026-10-12 20:21:30Z" duration="3.897938" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Couldn't create a Convex Mesh from source mesh, within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. Source mesh name: Sphere
+Couldn't create a Convex Mesh from source mesh, within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. Source mesh name: Capsule
+]]></output>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1012" name="ReferenceTouchTests" fullname="ReferenceTouchTests" classname="ReferenceTouchTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-12 20:21:30Z" end-time="2026-10-12 20:21:33Z" duration="2.918323" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1014" name="FloatingTouchKeepsOwnerAndCancelStops" fullname="ReferenceTouchTests.FloatingTouchKeepsOwnerAndCancelStops" methodname="FloatingTouchKeepsOwnerAndCancelStops" classname="ReferenceTouchTests" runstate="Runnable" seed="405168078" result="Passed" start-time="2026-10-12 20:21:30Z" end-time="2026-10-12 20:21:31Z" duration="1.204760" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1013" name="TouchPlaysDragsStopsAndResumes" fullname="ReferenceTouchTests.TouchPlaysDragsStopsAndResumes" methodname="TouchPlaysDragsStopsAndResumes" classname="ReferenceTouchTests" runstate="Runnable" seed="1855850968" result="Passed" start-time="2026-10-12 20:21:31Z" end-time="2026-10-12 20:21:33Z" duration="1.698758" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference5-first-tests.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

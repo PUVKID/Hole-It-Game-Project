@@ -1,0 +1,8 @@
+{
+  "Reason": "Obsolete edition7 Gradle transform cache after required native gameplay rebuild",
+  "Target": "C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378",
+  "ProjectOwnership": "Native and representative asset SHA256 matched recorded edition7 inputs",
+  "FreeBefore": 8346697728,
+  "FreeAfter": 8744226816,
+  "OtherGradleCachesUntouched": true
+}

@@ -1,0 +1,46 @@
+{
+  "reviewedAtUTC": "2026-10-13T08:28:01.039935+00:00",
+  "sourcePlayerFacingPersonalNameMatches": 0,
+  "remainingSourceMatches": [
+    {
+      "file": "Assets/Scripts/ReferenceCapture.cs",
+      "line": 7,
+      "category": "compatibility PlayerPrefs key/capture reset"
+    },
+    {
+      "file": "Assets/Scripts/ReferenceGame.cs",
+      "line": 55,
+      "category": "compatibility PlayerPrefs key/capture reset"
+    },
+    {
+      "file": "Assets/Scripts/ReferenceGame.cs",
+      "line": 95,
+      "category": "compatibility PlayerPrefs key/capture reset"
+    },
+    {
+      "file": "Assets/Scripts/ReferenceGame.Presentation.cs",
+      "line": 69,
+      "category": "compatibility PlayerPrefs key/capture reset"
+    },
+    {
+      "file": "Assets/Scripts/ReferenceGame.Profile.cs",
+      "line": 11,
+      "category": "compatibility PlayerPrefs key/capture reset"
+    },
+    {
+      "file": "Assets/Scripts/ReferenceGame.Profile.cs",
+      "line": 12,
+      "category": "compatibility PlayerPrefs key/capture reset"
+    },
+    {
+      "file": "Assets/Scripts/ReferenceGame.Profile.cs",
+      "line": 23,
+      "category": "compatibility PlayerPrefs key/capture reset"
+    }
+  ],
+  "productName": "Hole It!",
+  "apkPresent": false,
+  "apkBrandScan": "not performed: final APK not yet built",
+  "androidQARecordsPresent": [],
+  "scope": "Read-only active source/scene/settings scan plus previously inspected final regular/tall Windows previews; no new Android execution evidence."
+}

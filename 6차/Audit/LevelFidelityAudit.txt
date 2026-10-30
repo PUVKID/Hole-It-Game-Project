@@ -1,0 +1,25 @@
+EDITION 6 - LOCAL SOURCE CONTENT AUDIT
+
+Verified source data
+- The supplied fallback campaign contains 465 entries representing 463 unique layouts.
+- 111 further authored layouts are present locally. Edition 6 labels them optional Challenges and keeps them separate from campaign progression.
+- All 1,010 unique item definitions have exact matching local prefab assets. The previous 1,768 count included duplicate definitions. Edition 6 adds 141 models and exposes the actual meshes in an interactive 3D Collection.
+- 35 campaign stages contain 153 authored poison obstacles. Exact position, rotation and scale are now retained; those stages no longer get invented extra bomb placements.
+- Campaign stage 412 contains 24 ManualWallPillar placements previously discarded by the exporter. Their original mesh and contact geometry are included.
+- All 465 bundled campaign entries omit th, whose default is 0. Source native code selects theme by th; the former arbitrary five-theme cycle was not source-authored. Edition 6 uses Variation1 for the supplied fallback campaign.
+- Theme index mapping: 0=Variation1, 1=Variation2, 2=Variation3, 3=Variation8, 4=Variation9. Shadow strengths are 0.6, 1, 1, 1, 0.6. The characterStartRadius fields are 0.62, 0.62, 0.28, 0.28, 0.62. These are source collider parameters, not automatically interchangeable with the recreation's visual hole scale.
+- Variation3 intentionally references its convex wall prefab for both concave and convex kinds in the supplied settings.
+- Per-placement physicsMode, massOverride, holeColliderActive, holeColliderLevel and specialCollision flags are now preserved in JSON. Their complete original runtime meanings are not reimplemented merely by storing them.
+
+Implementation limits
+- The original server may supply campaign lists/themes different from the locally bundled fallback. No live server configuration or account data was requested or reproduced.
+- Random bomb stages use deterministic non-goal replacements with full spawn-volume clearance, or empty authored floor when no replacement fits. The original remote-assisted/random selection algorithm is not claimed identical.
+- Authored poison transforms are exact at load. Elevated bombs use the recreation's support graph and gravity; full original PhysX behavior is not a byte-for-byte runtime port.
+- All five local environment variants are retained as source resources, but the bundled campaign correctly uses source theme index 0. Extra challenges have no original campaign order, so their numerical order is explicitly optional content.
+- Extra 3D collection, practice challenges and 31-day attendance are extensions, not original online events or purchases.
+- Increasing APK size by storing actual native libraries/game resources uncompressed does not itself improve graphics. All additional models are browsable, and additional challenge content is playable; no arbitrary filler is needed.
+
+Validation prepared
+ReferenceSixthContentTests verifies source counts, every authored bomb transform, pillars, every challenge's goals/start, and challenge/campaign profile isolation. Test execution and final APK verification are recorded by the parent build task.
+
+Follow-up defect fix: fallback placement previously used only support-graph children to reject stacked props. Thin plates below the graph threshold could therefore be replaced by an overlapping bomb. Edition 6 now rejects the whole bomb footprint/height when it intersects another collectible, and exposes RandomBombOverlapCountForTest for regression verification.

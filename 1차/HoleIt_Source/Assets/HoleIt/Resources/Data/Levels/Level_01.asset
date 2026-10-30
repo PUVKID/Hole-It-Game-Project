@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a76abab04e5c880607646dcf7d3dd, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: ''
+  schemaVersion: 8
+  levelId: 1
+  levelTitle: 01  Dessert Plaza
+  difficulty: 1
+  timeLimit: 0
+  theme: {fileID: 11400000, guid: be35c3d1d86797758d7c2ff6ddb6e135, type: 2}
+  mapSize: 15.049999999999999
+  arenaSize: {x: 15.05, y: 15.05}
+  gridSize: {x: 7, y: 7}
+  startClearRadius: 2.1
+  initialSizeTier: 1
+  growthMultiplier: 1.0
+  movementSpeed: 8.0
+  holeStart: {x: 0.0, y: 0.0}
+  cameraZoomMultiplier: 1.0
+  missions:
+  - missionId: L01_M1
+    kind: 0
+    target: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    category: 2
+    color: 0
+    tier: 1
+    requiredCount: 6
+    icon: {fileID: 21300000, guid: b82a057adff2a3ea5b795364f6b8fbd7, type: 3}
+    description: DONUT
+  defaultWrongBehavior: 0
+  penaltySeconds: 2.0
+  penaltyScore: 8
+  randomSeed: 51720
+  spawnGroups:
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    count: 7
+    center: {x: 3.8304, y: 1.7567}
+    radius: 4.1
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    count: 2
+    center: {x: -4.011, y: 1.2921}
+    radius: 4.1
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 940be2c52ee3aaa7095e01516edd205a, type: 2}
+    count: 2
+    center: {x: 2.0848, y: -3.6621}
+    radius: 4.1
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: d809c5d4738edd45c18045d806ab719b, type: 2}
+    count: 2
+    center: {x: 0.9364, y: 4.1086}
+    radius: 4.1
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0c05a95eb683e1570913c7275070a619, type: 2}
+    count: 2
+    center: {x: -3.4658, y: -2.397}
+    radius: 4.1
+    ring: 0
+    decorative: 0
+  placements:
+  - edible: {fileID: 11400000, guid: 0c05a95eb683e1570913c7275070a619, type: 2}
+    position: {x: -4.3, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0c05a95eb683e1570913c7275070a619, type: 2}
+    position: {x: -2.15, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 940be2c52ee3aaa7095e01516edd205a, type: 2}
+    position: {x: 2.15, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 940be2c52ee3aaa7095e01516edd205a, type: 2}
+    position: {x: 2.15, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    position: {x: 4.3, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    position: {x: 2.15, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    position: {x: 4.3, y: 0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    position: {x: 6.45, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    position: {x: 4.3, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    position: {x: 2.15, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 2b0ad6066e248211f839b4c84a0e7021, type: 2}
+    position: {x: 6.45, y: 0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: -4.3, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: -4.3, y: 0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: d809c5d4738edd45c18045d806ab719b, type: 2}
+    position: {x: 0.0, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: d809c5d4738edd45c18045d806ab719b, type: 2}
+    position: {x: 2.15, y: 6.45}
+    yaw: 180
+    decorative: 0
+  missionBonus: 100
+  clearBonus: 200
+  timeBonusPerSecond: 5
+  nextLevelId: 2

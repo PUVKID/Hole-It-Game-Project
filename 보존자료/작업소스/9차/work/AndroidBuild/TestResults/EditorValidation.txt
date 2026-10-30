@@ -1,0 +1,3 @@
+2026-10-12T16:57:39.5766918Z
+PASS: 30 levels, mesh data, imported shaders, scene references
+NOT RUN by this validator: complete playthrough, performance, Android build

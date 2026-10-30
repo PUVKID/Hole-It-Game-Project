@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f08642ebcbd995b5bd3bf0ae149ee2a, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  joystickRadius: 110
+  joystickDeadZone: 0.08
+  baseSpeed: 3.8
+  dragSensitivity: 0.85
+  maxSpeed: 4.2
+  acceleration: 35
+  deceleration: 100
+  speedByRadius:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  radiusFollowSpeed: 9
+  growthPunch: 0.08
+  growthPunchDuration: 0.22
+  attractRadiusFactor: 1
+  attractSpeed: 0
+  attractSpin: 0
+  swallowDuration: 0.34
+  swallowStagger: 0.07
+  fallGravity: 22
+  swallowEdgeFactor: 0.5
+  maxObjectToHoleRatio: 1
+  cameraSmooth: 12
+  cameraZoomSmooth: 2.5
+  cameraPitch: 57
+  cameraYaw: 0
+  cameraDistance: 40
+  readyDelay: 0.8
+  clearDelay: 0.6
+  lowTimeWarning: 10
+  topScoreCount: 3

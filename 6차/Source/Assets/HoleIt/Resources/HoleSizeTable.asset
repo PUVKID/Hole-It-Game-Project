@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6fad6086972cb5054ed2d7db164d8e2, type: 3}
+  m_Name: HoleSizeTable
+  m_EditorClassIdentifier: 
+  tiers:
+  - growthRequired: 0
+    radius: 0.9
+    cameraSize: 8.6
+  - growthRequired: 4
+    radius: 1.2
+    cameraSize: 9
+  - growthRequired: 12
+    radius: 1.6
+    cameraSize: 9.5
+  - growthRequired: 26
+    radius: 2.1
+    cameraSize: 10.2
+  - growthRequired: 46
+    radius: 2.7
+    cameraSize: 11.2
+  - growthRequired: 74
+    radius: 3.4
+    cameraSize: 12.5

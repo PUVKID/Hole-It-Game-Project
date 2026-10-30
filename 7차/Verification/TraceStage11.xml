@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 09:06:51Z" end-time="2026-10-13 09:07:38Z" duration="46.9945707">
+  <test-suite type="TestSuite" id="1104" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="83" result="Passed" start-time="2026-10-13 09:06:51Z" end-time="2026-10-13 09:07:38Z" duration="46.994571" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1101" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="83" result="Passed" start-time="2026-10-13 09:06:51Z" end-time="2026-10-13 09:07:38Z" duration="46.988510" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="48392" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1063" name="ReferenceSeventhStageProbeTests" fullname="ReferenceSeventhStageProbeTests" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-13 09:06:51Z" end-time="2026-10-13 09:07:38Z" duration="46.986621" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1065" name="StageElevenDiagonalSupportTrace" fullname="ReferenceSeventhStageProbeTests.StageElevenDiagonalSupportTrace" methodname="StageElevenDiagonalSupportTrace" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" seed="703213049" result="Passed" start-time="2026-10-13 09:06:51Z" end-time="2026-10-13 09:07:38Z" duration="46.979497" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="160000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\TraceStage11.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

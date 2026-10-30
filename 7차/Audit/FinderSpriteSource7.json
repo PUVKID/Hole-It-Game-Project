@@ -1,0 +1,59 @@
+[
+  {
+    "sourceFile": "sharedassets2.assets",
+    "sourcePathID": 210,
+    "name": "terget",
+    "output": "terget.png",
+    "width": 256,
+    "height": 256,
+    "mode": "RGBA",
+    "textureCropSize": [
+      256,
+      256
+    ],
+    "textureRectOffset": [
+      0.0,
+      0.0
+    ],
+    "sourcePixelsPerUnit": 50.0,
+    "note": "Preserves the original logical sprite rectangle; trimmed texture pixels are placed at source textureRectOffset."
+  },
+  {
+    "sourceFile": "sharedassets2.assets",
+    "sourcePathID": 216,
+    "name": "indicator-pointer_2",
+    "output": "indicator-pointer_2.png",
+    "width": 256,
+    "height": 256,
+    "mode": "RGBA",
+    "textureCropSize": [
+      97,
+      128
+    ],
+    "textureRectOffset": [
+      20.056371688842773,
+      64.02674865722656
+    ],
+    "sourcePixelsPerUnit": 50.0,
+    "note": "Preserves the original logical sprite rectangle; trimmed texture pixels are placed at source textureRectOffset."
+  },
+  {
+    "sourceFile": "sharedassets2.assets",
+    "sourcePathID": 263,
+    "name": "indicator-circle_2",
+    "output": "indicator-circle_2.png",
+    "width": 256,
+    "height": 256,
+    "mode": "RGBA",
+    "textureCropSize": [
+      256,
+      256
+    ],
+    "textureRectOffset": [
+      0.0,
+      0.0
+    ],
+    "sourcePixelsPerUnit": 50.0,
+    "note": "Preserves the original logical sprite rectangle; trimmed texture pixels are placed at source textureRectOffset."
+  }
+]

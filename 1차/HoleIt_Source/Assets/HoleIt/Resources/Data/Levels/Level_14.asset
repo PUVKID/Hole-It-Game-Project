@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a76abab04e5c880607646dcf7d3dd, type: 3}
+  m_Name: Level_14
+  m_EditorClassIdentifier: ''
+  schemaVersion: 8
+  levelId: 14
+  levelTitle: 14  Food Truck Court
+  difficulty: 3
+  timeLimit: 80
+  theme: {fileID: 11400000, guid: b2426ac2da508210b2d9afaa2d67452e, type: 2}
+  mapSize: 27.95
+  arenaSize: {x: 27.95, y: 21.5}
+  gridSize: {x: 13, y: 10}
+  startClearRadius: 2.1
+  initialSizeTier: 1
+  growthMultiplier: 1.0
+  movementSpeed: 8.0
+  holeStart: {x: 0.0, y: 0.0}
+  cameraZoomMultiplier: 1.0
+  missions:
+  - missionId: L14_M1
+    kind: 0
+    target: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    category: 2
+    color: 0
+    tier: 1
+    requiredCount: 6
+    icon: {fileID: 21300000, guid: 11238d647c097b681322c3149823d695, type: 3}
+    description: BURGER
+  - missionId: L14_M2
+    kind: 0
+    target: {fileID: 11400000, guid: 6749b71c3a211795825a980a1ef4a00d, type: 2}
+    category: 2
+    color: 0
+    tier: 1
+    requiredCount: 4
+    icon: {fileID: 21300000, guid: bb30a6eec53117048efc0dc04fdf161b, type: 3}
+    description: COFFEE CUP
+  defaultWrongBehavior: 0
+  penaltySeconds: 2.0
+  penaltyScore: 8
+  randomSeed: 154667
+  spawnGroups:
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    count: 7
+    center: {x: 7.5565, y: -1.5661}
+    radius: 5.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6749b71c3a211795825a980a1ef4a00d, type: 2}
+    count: 5
+    center: {x: -4.1967, y: 5.0813}
+    radius: 5.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c4f1bb380e5d7834110701870a662cec, type: 2}
+    count: 3
+    center: {x: -1.3676, y: -5.9274}
+    radius: 5.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f80b1ea1d2fbe7388f520190557a8e6e, type: 2}
+    count: 3
+    center: {x: 6.2134, y: 3.6601}
+    radius: 5.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 5c2c4b3861358b0e793ceb44fea87890, type: 2}
+    count: 3
+    center: {x: -7.7956, y: 0.5297}
+    radius: 5.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    count: 3
+    center: {x: 5.2831, y: -4.4413}
+    radius: 5.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    count: 1
+    center: {x: 0.0045, y: 6.02}
+    radius: 5.4
+    ring: 0
+    decorative: 0
+  placements:
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    position: {x: 8.6, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    position: {x: 6.45, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    position: {x: 8.6, y: -3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    position: {x: 6.45, y: -3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    position: {x: 8.6, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    position: {x: 6.45, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: aaf99827e862ce53980dcbbdb3be4895, type: 2}
+    position: {x: 10.75, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c4f1bb380e5d7834110701870a662cec, type: 2}
+    position: {x: -2.15, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c4f1bb380e5d7834110701870a662cec, type: 2}
+    position: {x: -0.0, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c4f1bb380e5d7834110701870a662cec, type: 2}
+    position: {x: -2.15, y: -7.525}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 5c2c4b3861358b0e793ceb44fea87890, type: 2}
+    position: {x: -8.6, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 5c2c4b3861358b0e793ceb44fea87890, type: 2}
+    position: {x: -6.45, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 5c2c4b3861358b0e793ceb44fea87890, type: 2}
+    position: {x: -8.6, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f80b1ea1d2fbe7388f520190557a8e6e, type: 2}
+    position: {x: 6.45, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f80b1ea1d2fbe7388f520190557a8e6e, type: 2}
+    position: {x: 6.45, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f80b1ea1d2fbe7388f520190557a8e6e, type: 2}
+    position: {x: 4.3, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6749b71c3a211795825a980a1ef4a00d, type: 2}
+    position: {x: -4.3, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6749b71c3a211795825a980a1ef4a00d, type: 2}
+    position: {x: -4.3, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6749b71c3a211795825a980a1ef4a00d, type: 2}
+    position: {x: -2.15, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6749b71c3a211795825a980a1ef4a00d, type: 2}
+    position: {x: -6.45, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6749b71c3a211795825a980a1ef4a00d, type: 2}
+    position: {x: -4.3, y: 7.525}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 6.45, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 4.3, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 4.3, y: -3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    position: {x: -0.0, y: 5.375}
+    yaw: 180
+    decorative: 0
+  missionBonus: 100
+  clearBonus: 200
+  timeBonusPerSecond: 5
+  nextLevelId: 15

@@ -1,0 +1,98 @@
+[
+  {
+    "mesh": "G-2116295861802204215",
+    "originalHullFaces": 564,
+    "collisionHullFaces": 172,
+    "vertices": 88
+  },
+  {
+    "mesh": "G-2586985900301870130",
+    "originalHullFaces": 302,
+    "collisionHullFaces": 156,
+    "vertices": 80
+  },
+  {
+    "mesh": "G-3075635067240017007",
+    "originalHullFaces": 416,
+    "collisionHullFaces": 190,
+    "vertices": 97
+  },
+  {
+    "mesh": "G-3744723524812038613",
+    "originalHullFaces": 530,
+    "collisionHullFaces": 178,
+    "vertices": 91
+  },
+  {
+    "mesh": "G-4074044911129069646",
+    "originalHullFaces": 358,
+    "collisionHullFaces": 202,
+    "vertices": 103
+  },
+  {
+    "mesh": "G-4772394798970199427",
+    "originalHullFaces": 404,
+    "collisionHullFaces": 174,
+    "vertices": 89
+  },
+  {
+    "mesh": "G-4941289276890739789",
+    "originalHullFaces": 316,
+    "collisionHullFaces": 180,
+    "vertices": 92
+  },
+  {
+    "mesh": "G-6639565394817660866",
+    "originalHullFaces": 1194,
+    "collisionHullFaces": 226,
+    "vertices": 115
+  },
+  {
+    "mesh": "G-7743082321823335887",
+    "originalHullFaces": 564,
+    "collisionHullFaces": 172,
+    "vertices": 88
+  },
+  {
+    "mesh": "G1802228169694837164",
+    "originalHullFaces": 518,
+    "collisionHullFaces": 186,
+    "vertices": 95
+  },
+  {
+    "mesh": "G2032794676311815699",
+    "originalHullFaces": 422,
+    "collisionHullFaces": 140,
+    "vertices": 72
+  },
+  {
+    "mesh": "G3654792065515231057",
+    "originalHullFaces": 966,
+    "collisionHullFaces": 228,
+    "vertices": 116
+  },
+  {
+    "mesh": "G6613903022207511785",
+    "originalHullFaces": 396,
+    "collisionHullFaces": 208,
+    "vertices": 106
+  },
+  {
+    "mesh": "G7924547401351729074",
+    "originalHullFaces": 1266,
+    "collisionHullFaces": 212,
+    "vertices": 108
+  },
+  {
+    "mesh": "G8146554643079279606",
+    "originalHullFaces": 358,
+    "collisionHullFaces": 202,
+    "vertices": 103
+  },
+  {
+    "mesh": "G8958169467481395994",
+    "originalHullFaces": 448,
+    "collisionHullFaces": 190,
+    "vertices": 97
+  }
+]

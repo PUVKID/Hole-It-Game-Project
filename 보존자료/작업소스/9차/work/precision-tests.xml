@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 18:07:43Z" end-time="2026-10-12 18:07:49Z" duration="6.4035262">
+  <test-suite type="TestSuite" id="1023" name="포켓 홀" fullname="포켓 홀" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-12 18:07:43Z" end-time="2026-10-12 18:07:49Z" duration="6.403526" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1020" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-12 18:07:43Z" end-time="2026-10-12 18:07:49Z" duration="6.397154" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="48416" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestFixture" id="1011" name="PrecisionPlayTests" fullname="PrecisionPlayTests" classname="PrecisionPlayTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-10-12 18:07:43Z" end-time="2026-10-12 18:07:49Z" duration="6.395602" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1015" name="CountdownExpiresAndRetryRestoresShortChallenge" fullname="PrecisionPlayTests.CountdownExpiresAndRetryRestoresShortChallenge" methodname="CountdownExpiresAndRetryRestoresShortChallenge" classname="PrecisionPlayTests" runstate="Runnable" seed="262394798" result="Passed" start-time="2026-10-12 18:07:43Z" end-time="2026-10-12 18:07:45Z" duration="2.193923" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1012" name="DragTracksDisplacementWithoutJumpDriftOrReleaseSlide" fullname="PrecisionPlayTests.DragTracksDisplacementWithoutJumpDriftOrReleaseSlide" methodname="DragTracksDisplacementWithoutJumpDriftOrReleaseSlide" classname="PrecisionPlayTests" runstate="Runnable" seed="1571406414" result="Passed" start-time="2026-10-12 18:07:45Z" end-time="2026-10-12 18:07:47Z" duration="1.959681" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1014" name="FirstFourCollectedItemsCauseVisibleGrowth" fullname="PrecisionPlayTests.FirstFourCollectedItemsCauseVisibleGrowth" methodname="FirstFourCollectedItemsCauseVisibleGrowth" classname="PrecisionPlayTests" runstate="Runnable" seed="1580534121" result="Passed" start-time="2026-10-12 18:07:47Z" end-time="2026-10-12 18:07:48Z" duration="1.316893" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1013" name="SwallowedObjectDropsAtEntryInsteadOfFollowingMovingHole" fullname="PrecisionPlayTests.SwallowedObjectDropsAtEntryInsteadOfFollowingMovingHole" methodname="SwallowedObjectDropsAtEntryInsteadOfFollowingMovingHole" classname="PrecisionPlayTests" runstate="Runnable" seed="1254435418" result="Passed" start-time="2026-10-12 18:07:48Z" end-time="2026-10-12 18:07:49Z" duration="0.916320" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat/work/precision-tests.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

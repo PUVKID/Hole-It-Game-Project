@@ -1,0 +1,106 @@
+[
+  {
+    "path": "Assets/Scripts/Core/GameManager.cs",
+    "bytes": 11079,
+    "sha256": "47d713fd52d8d145f53cb755760c9207bc25db914277156a04decc81b1a571ba",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 112,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  },
+  {
+    "path": "Assets/Scripts/Core/LevelManager.cs",
+    "bytes": 2897,
+    "sha256": "cf629b77cf7c322c4a5c1679047cebb925e1a6f763a473ccec6ba622f4344672",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 44,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  },
+  {
+    "path": "Assets/Scripts/Core/LevelValidator.cs",
+    "bytes": 6439,
+    "sha256": "05abf0b4cfc31ea775a3fbcdb596b7dc5e8023ef3fad5f0ec3234aa3dcec11fc",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 71,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  },
+  {
+    "path": "Assets/Scripts/Objects/EdibleObject.cs",
+    "bytes": 5789,
+    "sha256": "92b215b07501cf9559bd4a879deae5694945a2b14b880454517ae9fcb571dac4",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 64,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  },
+  {
+    "path": "Assets/Scripts/UI/FamilyMode.cs",
+    "bytes": 1386,
+    "sha256": "521ed8b394c3008286c09b55959af20d17afab6eacfe2c8de788f7c05f17231f",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 22,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  },
+  {
+    "path": "Assets/Scripts/UI/MissionCardLayout.cs",
+    "bytes": 1128,
+    "sha256": "aa70abea11b7ac8f3d9260d8e9a73015585e0c27ea6c101af02d121a171772b9",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 13,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  },
+  {
+    "path": "Assets/Scripts/UI/MissionRowUI.cs",
+    "bytes": 2812,
+    "sha256": "1f6bd79f75994228a5946579b833bfc693675cf6beb6042ca1debb655c0feb94",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 60,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  },
+  {
+    "path": "Assets/Scripts/UI/PreviewCapture.cs",
+    "bytes": 2521,
+    "sha256": "c5c703eb6b4228aa7679331af11ea34f186b1a79d67ba04af733e527c1f01f45",
+    "text_bytes": {
+      "utf8_bom_count": 0,
+      "crlf_count": 0,
+      "lf_without_cr_count": 31,
+      "cr_without_lf_count": 0,
+      "ends_with_newline": true,
+      "empty_file": false
+    }
+  }
+]

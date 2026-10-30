@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Failed(Child)" total="8" passed="6" failed="2" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:15:50Z" end-time="2026-10-12 19:16:55Z" duration="65.0060929">
+  <test-suite type="TestSuite" id="1013" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:15:50Z" end-time="2026-10-12 19:16:55Z" duration="65.006093" total="8" passed="6" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1010" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:15:50Z" end-time="2026-10-12 19:16:55Z" duration="65.000744" total="8" passed="6" failed="2" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="38192" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:15:50Z" end-time="2026-10-12 19:16:55Z" duration="64.999301" total="8" passed="6" failed="2" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1008" name="AllLevelsHaveGoalsAndBoundedSceneObjects" fullname="ReferenceTests.AllLevelsHaveGoalsAndBoundedSceneObjects" methodname="AllLevelsHaveGoalsAndBoundedSceneObjects" classname="ReferenceTests" runstate="Runnable" seed="238043298" result="Passed" start-time="2026-10-12 19:15:50Z" end-time="2026-10-12 19:15:51Z" duration="1.192736" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="AllThirtyStagesCompleteThroughMouthAndStackSimulation" fullname="ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation" methodname="AllThirtyStagesCompleteThroughMouthAndStackSimulation" classname="ReferenceTests" runstate="Runnable" seed="1997474494" result="Failed" start-time="2026-10-12 19:15:51Z" end-time="2026-10-12 19:16:50Z" duration="58.561319" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="600000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Stage 7 collected 755 radius 1.592
+  Expected: Won
+  But was:  Playing
+]]></message>
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__13.MoveNext () [0x0016a] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:22
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1006" name="BombLosesAndRetryResets" fullname="ReferenceTests.BombLosesAndRetryResets" methodname="BombLosesAndRetryResets" classname="ReferenceTests" runstate="Runnable" seed="845870050" result="Passed" start-time="2026-10-12 19:16:50Z" end-time="2026-10-12 19:16:50Z" duration="0.615893" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="1976264675" result="Failed" start-time="2026-10-12 19:16:50Z" end-time="2026-10-12 19:16:54Z" duration="3.283560" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Expected: greater than 1.13999999f
+  But was:  0.957714081f
+]]></message>
+            <stack-trace><![CDATA[at ReferenceTests+<FirstStageCompletesUsingCappedMovement>d__11.MoveNext () [0x0011d] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:19
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1002" name="GrowthConsumesWeightedPointsAndCapsPhysicalSize" fullname="ReferenceTests.GrowthConsumesWeightedPointsAndCapsPhysicalSize" methodname="GrowthConsumesWeightedPointsAndCapsPhysicalSize" classname="ReferenceTests" runstate="Runnable" seed="617671884" result="Passed" start-time="2026-10-12 19:16:54Z" end-time="2026-10-12 19:16:54Z" duration="0.067350" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="HoldingMovesAtSpeedLimitAndReleaseStops" fullname="ReferenceTests.HoldingMovesAtSpeedLimitAndReleaseStops" methodname="HoldingMovesAtSpeedLimitAndReleaseStops" classname="ReferenceTests" runstate="Runnable" seed="610341335" result="Passed" start-time="2026-10-12 19:16:54Z" end-time="2026-10-12 19:16:55Z" duration="0.718669" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="JoystickIsBoundedVelocityNotTravelDistance" fullname="ReferenceTests.JoystickIsBoundedVelocityNotTravelDistance" methodname="JoystickIsBoundedVelocityNotTravelDistance" classname="ReferenceTests" runstate="Runnable" seed="135839873" result="Passed" start-time="2026-10-12 19:16:55Z" end-time="2026-10-12 19:16:55Z" duration="0.066344" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="TimersPauseAndRetryUseOriginalBudget" fullname="ReferenceTests.TimersPauseAndRetryUseOriginalBudget" methodname="TimersPauseAndRetryUseOriginalBudget" classname="ReferenceTests" runstate="Runnable" seed="1585077432" result="Passed" start-time="2026-10-12 19:16:55Z" end-time="2026-10-12 19:16:55Z" duration="0.484215" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-growth-tests.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

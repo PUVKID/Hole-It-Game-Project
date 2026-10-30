@@ -1,0 +1,22 @@
+﻿포켓 핏 / Pocket Pit · 가은이 2차 · 3.0.0 (4)
+
+설치: PocketPit_Gaeun.apk를 안드로이드 휴대전화로 옮겨 실행합니다.
+Android 8.0 이상, ARM64 및 ARMv7을 지원합니다. 개인 설치용 테스트 서명 APK입니다.
+기존 같은 패키지 앱에 업데이트 설치할 수 있도록 패키지 식별자를 유지했습니다.
+
+게임 화면은 전부 영어입니다. 기본 모드는 CHALLENGE입니다.
+PLAY: 시작 / TRY AGAIN: 재시도 / HOME: 메뉴 / SETTINGS: 설정
+CHALLENGE: 시간 안에 목표 수집 / RELAXED: 제한 시간 없음
+기존 저장에서 RELAXED를 선택했다면 메뉴의 모드 버튼을 눌러 CHALLENGE로 바꾸세요.
+드래그: 손가락을 댄 위치로 순간 이동하지 않고, 움직인 거리와 방향을 따라갑니다.
+처음 4개를 모으면 홀이 커집니다. 아래에 다음 성장까지 필요한 개수가 표시됩니다.
+폭탄을 삼키면 바로 실패합니다. TRY AGAIN으로 같은 스테이지를 다시 시작합니다.
+
+Source: Unity 6000.3.6f1 전체 프로젝트 소스(Assets, Packages, ProjectSettings)
+Source/Build-Android.ps1: Android Build Support가 설치된 Unity로 APK 재빌드
+Previews: 최종 영어 버전의 실제 Windows 렌더링 캡처
+Verification: 자동 검사 결과, Android 빌드 기록, APK 서명 확인
+
+원작의 화면 구성을 참고해 만든 별도 게임입니다. 원작의 비공개 소스나 모델을 사용하지 않았으며,
+원작과 동일한 그래픽·물리·조작감을 보장하는 복제본은 아닙니다.
+실제 안드로이드 기기가 연결되지 않아 휴대전화 터치감과 기기별 성능은 확인하지 못했습니다.

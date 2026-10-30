@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_TimeBoost
+  m_EditorClassIdentifier: ''
+  displayName: TIME BOOST
+  objectId: TimeBoost
+  colorVariant: 0
+  footprintRadius: 0.311137
+  prefab: {fileID: 1000, guid: 08e3ca0cf7204ac744b9a43c07e98c26, type: 3}
+  icon: {fileID: 21300000, guid: ff3e79dec8f344ecf87d09b395f948a5, type: 3}
+  uiColor: {r: 0.22, g: 0.95, b: 0.48, a: 1.0}
+  objectType: 7
+  sizeTier: 1
+  score: 15
+  growthValue: 0.3
+  specialTimeBonus: 8
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

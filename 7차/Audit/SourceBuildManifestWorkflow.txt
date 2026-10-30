@@ -1,0 +1,27 @@
+SourceBuildManifest workflow — edition7 fresh build
+
+Status at preparation: workflow only. No snapshot, successful build or final APK is claimed here.
+Run these commands with the installed Python, after runtime/test C# edits are frozen.
+No command in this utility launches Unity, Gradle or packaging.
+
+1. Immediately before the NEW full native build:
+   python Audit/source_build_manifest.py snapshot
+   This records every shipped .cs file under Source/Assets and Source/Packages, aggregate SHA256,
+   build ID and timestamp as prepared. An existing manifest is retained as a history JSON.
+2. Run the full Unity Android build. If a separate Gradle recovery is needed, keep its distinct
+   success report and log; preserve the original Unity failure report. Reports/APK must postdate
+   this snapshot. Do not reuse the retired pre-rotated-floor native inputs.
+3. Only after actual build completion:
+   python Audit/source_build_manifest.py complete
+   This requires unchanged C# hashes, a new successful Unity report or strict Gradle recovery
+   success/exit0/log/hash evidence, and the completed APK. It records status completed and APK SHA256.
+4. Before packaging:
+   python Audit/source_build_manifest.py verify
+   The packager calls this same verification gate and refuses missing/prepared/mismatched manifests.
+
+If ANY shipped C# file changes after snapshot, take a new snapshot and perform a fresh build.
+A later test-helper-only edit is not accepted as an undocumented exception.
+README edits and Audit diagnostics are outside the hashed C# scope. Assets equivalence, signing,
+alignment, tests and Android runtime QA have separate records; this manifest does not imply them.
+Historical VerificationAtNativeCompile.cs.txt and VerificationSnapshotDifference.* document
+DISCARDED build inputs and must not be described as the final APK's current source mismatch.

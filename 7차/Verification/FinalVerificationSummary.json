@@ -1,0 +1,508 @@
+{
+  "source": "Tests-final.xml",
+  "sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+  "result": "Failed(Child)",
+  "total": 81,
+  "passed": 80,
+  "failures": [
+    {
+      "name": "ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation",
+      "result": "Failed",
+      "message": "  Stage 13 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=313.11 collected=708 hole=(15.46, 0.00, -13.39) aperture=1.881 active=3 target=185/111/Radio Green pivot=(16.23, 0.91, -13.12) fit=1.920 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=7 latch=False initial=False activeBoundsCenter=(16.49, 0.80, -13.39) size=(4.64, 1.44, 4.63) enabled=1 detection=True floorRayY=aperture\nStage 14 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=371.63 collected=1003 hole=(-10.24, 0.00, -5.87) aperture=1.881 active=1 target=583/113/Arcade Machine pivot=(-11.13, 1.36, -4.53) fit=1.790 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=10 latch=False initial=False activeBoundsCenter=(-11.37, 1.36, -4.74) size=(3.81, 2.55, 3.92) enabled=1 detection=True floorRayY=aperture\nStage 26 1200 simulated seconds stage limit; sim=1200.05 collected=682 hole=(-1.14, 0.00, -11.31) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-0.71, 1.55, -8.41) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.14, 1.59, -11.32) size=(3.50, 3.09, 5.85) enabled=1 detection=True floorRayY=0.069\n  Expected: <empty>\n  But was:  < \"Stage 13 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=313.11 collected=708 hole=(15.46, 0.00, -13.39) aperture=1.881 active=3 target=185/111/Radio Green pivot=(16.23, 0.91, -13.12) fit=1.920 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=7 latch=False initial=False activeBoundsCenter=(16.49, 0.80, -13.39) size=(4.64, 1.44, 4.63) enabled=1 detection=True floorRayY=aperture\", \"Stage 14 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=371.63 collected=1003 hole=(-10.24, 0.00, -5.87) aperture=1.881 active=1 target=583/113/Arcade Machine pivot=(-11.13, 1.36, -4.53) fit=1.790 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=10 latch=False initial=False activeBoundsCenter=(-11.37, 1.36, -4.74) size=(3.81, 2.55, 3.92) enabled=1 detection=True floorRayY=aperture\", \"Stage 26 1200 simulated seconds stage limit; sim=1200.05 collected=682 hole=(-1.14, 0.00, -11.31) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-0.71, 1.55, -8.41) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.14, 1.59, -11.32) size=(3.50, 3.09, 5.85) enabled=1 detection=True floorRayY=0.069\" >\n"
+    }
+  ],
+  "start": "2026-10-13 10:03:45Z",
+  "end": "2026-10-13 10:34:44Z",
+  "sourceSnapshotUnchanged": true,
+  "campaign": {
+    "stagesAttempted": 30,
+    "stagesCompleted": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28,
+      29,
+      30
+    ],
+    "unresolvedStages": [
+      13,
+      14,
+      26
+    ],
+    "stages": [
+      {
+        "stage": 1,
+        "state": "Won",
+        "collected": 30,
+        "radius": 1.066,
+        "simulatedSeconds": 5.86,
+        "realSeconds": 1.47,
+        "sourceBudgetInformational": 300.0,
+        "goals": [
+          6,
+          15,
+          9
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 2,
+        "state": "Won",
+        "collected": 225,
+        "radius": 1.289,
+        "simulatedSeconds": 39.86,
+        "realSeconds": 9.94,
+        "sourceBudgetInformational": 240.0,
+        "goals": [
+          1,
+          18
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 3,
+        "state": "Won",
+        "collected": 297,
+        "radius": 1.512,
+        "simulatedSeconds": 56.8,
+        "realSeconds": 14.17,
+        "sourceBudgetInformational": 240.0,
+        "goals": [
+          1,
+          2,
+          2
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 4,
+        "state": "Won",
+        "collected": 519,
+        "radius": 1.735,
+        "simulatedSeconds": 63.72,
+        "realSeconds": 15.89,
+        "sourceBudgetInformational": 210.0,
+        "goals": [
+          200,
+          88,
+          228,
+          3
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 5,
+        "state": "Won",
+        "collected": 744,
+        "radius": 1.958,
+        "simulatedSeconds": 96.4,
+        "realSeconds": 24.05,
+        "sourceBudgetInformational": 150.0,
+        "goals": [
+          4
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 6,
+        "state": "Won",
+        "collected": 398,
+        "radius": 1.958,
+        "simulatedSeconds": 286.9,
+        "realSeconds": 71.65,
+        "sourceBudgetInformational": 110.0,
+        "goals": [
+          2,
+          2,
+          7
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 7,
+        "state": "Won",
+        "collected": 752,
+        "radius": 1.958,
+        "simulatedSeconds": 236.81,
+        "realSeconds": 59.15,
+        "sourceBudgetInformational": 120.0,
+        "goals": [
+          66,
+          3,
+          4,
+          3,
+          4
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 8,
+        "state": "Won",
+        "collected": 1019,
+        "radius": 2.404,
+        "simulatedSeconds": 164.78,
+        "realSeconds": 41.01,
+        "sourceBudgetInformational": 120.0,
+        "goals": [
+          23,
+          28,
+          10,
+          4,
+          2
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 9,
+        "state": "Won",
+        "collected": 806,
+        "radius": 2.181,
+        "simulatedSeconds": 100.34,
+        "realSeconds": 25.0,
+        "sourceBudgetInformational": 160.0,
+        "goals": [
+          2,
+          3,
+          9
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 10,
+        "state": "Won",
+        "collected": 889,
+        "radius": 1.958,
+        "simulatedSeconds": 140.63,
+        "realSeconds": 35.08,
+        "sourceBudgetInformational": 130.0,
+        "goals": [
+          138,
+          6,
+          6
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 11,
+        "state": "Won",
+        "collected": 358,
+        "radius": 1.735,
+        "simulatedSeconds": 278.51,
+        "realSeconds": 69.55,
+        "sourceBudgetInformational": 135.0,
+        "goals": [
+          24,
+          43,
+          9,
+          10,
+          4
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 12,
+        "state": "Won",
+        "collected": 767,
+        "radius": 2.181,
+        "simulatedSeconds": 130.21,
+        "realSeconds": 32.48,
+        "sourceBudgetInformational": 120.0,
+        "goals": [
+          8,
+          8,
+          30
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 13,
+        "state": "Playing",
+        "collected": 708,
+        "radius": 2.181,
+        "simulatedSeconds": 313.11,
+        "realSeconds": 78.24,
+        "sourceBudgetInformational": 110.0,
+        "goals": [],
+        "stop": "45 simulated seconds without collection, a new input attempt, or active downward progress"
+      },
+      {
+        "stage": 14,
+        "state": "Playing",
+        "collected": 1003,
+        "radius": 2.181,
+        "simulatedSeconds": 371.63,
+        "realSeconds": 92.73,
+        "sourceBudgetInformational": 115.0,
+        "goals": [
+          120,
+          75,
+          4,
+          26,
+          1
+        ],
+        "stop": "45 simulated seconds without collection, a new input attempt, or active downward progress"
+      },
+      {
+        "stage": 15,
+        "state": "Won",
+        "collected": 1074,
+        "radius": 2.181,
+        "simulatedSeconds": 136.63,
+        "realSeconds": 34.06,
+        "sourceBudgetInformational": 135.0,
+        "goals": [
+          42,
+          52,
+          4,
+          4
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 16,
+        "state": "Won",
+        "collected": 2969,
+        "radius": 2.85,
+        "simulatedSeconds": 254.56,
+        "realSeconds": 63.64,
+        "sourceBudgetInformational": 135.0,
+        "goals": [
+          5,
+          5,
+          430,
+          626
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 17,
+        "state": "Won",
+        "collected": 632,
+        "radius": 1.958,
+        "simulatedSeconds": 130.87,
+        "realSeconds": 32.66,
+        "sourceBudgetInformational": 95.0,
+        "goals": [
+          4,
+          2,
+          3
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 18,
+        "state": "Won",
+        "collected": 1050,
+        "radius": 2.181,
+        "simulatedSeconds": 158.64,
+        "realSeconds": 39.58,
+        "sourceBudgetInformational": 125.0,
+        "goals": [],
+        "stop": "state"
+      },
+      {
+        "stage": 19,
+        "state": "Won",
+        "collected": 845,
+        "radius": 2.181,
+        "simulatedSeconds": 196.67,
+        "realSeconds": 49.04,
+        "sourceBudgetInformational": 135.0,
+        "goals": [
+          2,
+          25,
+          8,
+          36,
+          2
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 20,
+        "state": "Won",
+        "collected": 536,
+        "radius": 1.735,
+        "simulatedSeconds": 102.47,
+        "realSeconds": 25.53,
+        "sourceBudgetInformational": 80.0,
+        "goals": [
+          48,
+          9,
+          13,
+          2
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 21,
+        "state": "Won",
+        "collected": 674,
+        "radius": 1.958,
+        "simulatedSeconds": 131.85,
+        "realSeconds": 32.86,
+        "sourceBudgetInformational": 80.0,
+        "goals": [],
+        "stop": "state"
+      },
+      {
+        "stage": 22,
+        "state": "Won",
+        "collected": 653,
+        "radius": 2.181,
+        "simulatedSeconds": 591.21,
+        "realSeconds": 147.68,
+        "sourceBudgetInformational": 115.0,
+        "goals": [
+          10,
+          11,
+          4
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 23,
+        "state": "Won",
+        "collected": 1272,
+        "radius": 2.404,
+        "simulatedSeconds": 198.15,
+        "realSeconds": 49.35,
+        "sourceBudgetInformational": 120.0,
+        "goals": [
+          10,
+          343,
+          96
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 24,
+        "state": "Won",
+        "collected": 1847,
+        "radius": 2.627,
+        "simulatedSeconds": 231.29,
+        "realSeconds": 57.71,
+        "sourceBudgetInformational": 145.0,
+        "goals": [
+          9,
+          138,
+          3,
+          612
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 25,
+        "state": "Won",
+        "collected": 1193,
+        "radius": 2.404,
+        "simulatedSeconds": 140.63,
+        "realSeconds": 35.01,
+        "sourceBudgetInformational": 95.0,
+        "goals": [
+          65,
+          2,
+          3,
+          9,
+          60
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 26,
+        "state": "Playing",
+        "collected": 682,
+        "radius": 1.958,
+        "simulatedSeconds": 1200.05,
+        "realSeconds": 299.76,
+        "sourceBudgetInformational": 120.0,
+        "goals": [
+          7,
+          7,
+          7
+        ],
+        "stop": "1200 simulated seconds stage limit"
+      },
+      {
+        "stage": 27,
+        "state": "Won",
+        "collected": 780,
+        "radius": 2.404,
+        "simulatedSeconds": 185.94,
+        "realSeconds": 46.43,
+        "sourceBudgetInformational": 105.0,
+        "goals": [],
+        "stop": "state"
+      },
+      {
+        "stage": 28,
+        "state": "Won",
+        "collected": 613,
+        "radius": 1.958,
+        "simulatedSeconds": 132.95,
+        "realSeconds": 33.14,
+        "sourceBudgetInformational": 115.0,
+        "goals": [
+          11,
+          4,
+          3,
+          6
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 29,
+        "state": "Won",
+        "collected": 1020,
+        "radius": 2.404,
+        "simulatedSeconds": 174.36,
+        "realSeconds": 43.48,
+        "sourceBudgetInformational": 120.0,
+        "goals": [
+          53,
+          10,
+          19,
+          206
+        ],
+        "stop": "state"
+      },
+      {
+        "stage": 30,
+        "state": "Won",
+        "collected": 944,
+        "radius": 2.404,
+        "simulatedSeconds": 155.28,
+        "realSeconds": 38.71,
+        "sourceBudgetInformational": 100.0,
+        "goals": [
+          234,
+          45,
+          121,
+          19
+        ],
+        "stop": "state"
+      }
+    ],
+    "notHumanTimingBenchmark": true
+  }
+}

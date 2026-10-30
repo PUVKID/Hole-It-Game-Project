@@ -1,0 +1,127 @@
+Edition 7 movement / growth / camera evidence
+Source: user-supplied Hole+it! 1.31.17; extracted Unity assets and ARM32 libil2cpp.so.
+Native addresses below are RVAs, also file offsets in this supplied ELF.
+
+Movement
+- level2 GameInputManager path ID 2409: moveSpeed 2.6, SpeedIncreaseRate .442,
+  arrowRotationSpeed 40. Start (0x1977ADC) stores 2.6 as the base speed.
+- SetNewSpeed (0x19722C8): base + .442 * actual physical growth tier.
+- Update (0x19782BC) passes direction * speed to CharacterController.SimpleMove;
+  no additional velocity lerp. Manual position integration requires dt exactly once.
+  The source call resolves through 0x26D91A4 to SimpleMove at 0x53048D8.
+- Speed booster multiplier 1.3. Ordinary growth updates speed at the .3-second
+  expansion callback, except when the physical-cap flag is set. Normal tier 9 speed
+  is 6.578; reaching tier 10 skips the callback. A later booster transition computes
+  tier 10's full 7.02 baseline (9.126 boosted).
+- level2 VariableJoystick path ID 2913: HandleRange 1, DeadZone 0, Floating mode 1.
+  Retain the zero-magnitude guard when accepting a zero dead zone.
+
+Growth
+- SizeInfos: visual increment .25, contact radius increment .223, physical cap 10.
+- Visual starting scale .7; campaign EnvironmentVariantSo contact start .62.
+  Other supplied environment variants can use .28; the constructor fallback .7
+  is overwritten by SetStartHoleCharacterControllerRadius (0x1971F38).
+- HoleScaleUpWithAnimation (0x197117C) target is (newSize * 1.125, newSize, newSize),
+  duration .3, DG.Tweening.Ease.OutBack (27). The Y/Z additive literal at 0x1971438
+  is 0.0; the nearby 100.0 literal at 0x1971434 belongs to percentage arithmetic.
+  Y/Z still grow to the new size; only X gets the extra width punch.
+- Callback (0x19721A8): restore uniform newSize in .15 seconds with Linear ease (1).
+  It starts the settle and updates speed together, rather than after the .15 settle.
+- Bundled DOTweenSettings resources.assets path ID 4589: overshoot 1.70158005.
+- IncreaseHoleSizeForBooster (0x1971588): visual scale multiplied by 1.3;
+  contact radius receives additive .30 (not multiplied by 1.3).
+- SetNextSizeLevel (0x1970ED4) reaches actual tier 10 then returns before the normal
+  camera-growth event. The growth callback separately skips speed if capped.
+
+Timing
+- TimeManager globalgamemanagers path ID 8: fixed step 2822399/141120000 seconds
+  (approximately .02, 50 Hz), maximum timestep .3333333432674408, time scale 1.
+  An extra .05 frame-delta cap is not present in these source settings.
+
+Camera: clean-launch default, not a user's modified debug preferences
+- InitHelpers (0x17D704C) calls ApplyHeightCamera (0x18AF50C). This migration selects
+  Height mode and FOV 44. Therefore serialized camera mode 0 / FOV 46 are stale
+  defaults, not the clean-launch runtime settings. CameraParamControl's static
+  initializer (0x18AF900) supplies height rate 1.5 and FOV 44.
+- level2 CameraManager path ID 2392: base height 12.5, Z divisor -1.73, height rate
+  1.5, height tween .5 OutCubic (9), size-booster extra height 1, initial FOV 25,
+  play FOV tween .3 Linear (1). Virtual camera pitch is 60 degrees.
+- CameraManager.Start (0x19788D0) replaces Transposer Y/Z with 12.5 and 12.5/-1.73,
+  and initial lens FOV with 25. It overrides the serialized offsets 12.4/-7.16.
+- OnPlayButtonClickedResponse (0x1978B7C) starts IncreaseCameraFov (0x1978B80),
+  FOV 25 to runtime gameFov 44 in .3 seconds.
+- OnHoleSizeIncreaseResponse (0x1978D94), Height mode: Y = 12.5 + 1.5 * actualTier;
+  Z = Y/-1.73. IncreaseCameraHeightOffset (0x1978E30) uses .5 OutCubic. If size
+  booster is active, adds 1 to Y and 1/-1.73 to Z before tweening.
+- AnimateCameraHeightForBooster (0x197988C) targets base + actualTier*1.5 + 1;
+  ResetHeightForBooster (0x19799B4) targets base + actualTier*1.5. Both use
+  SetCameraHeightOffsetForBooster (0x1979AB0), which loads duration/ease from the
+  same camera fields (+0x20=.5; +0x24=9) as the normal height animation.
+- The cap skips normal height update at tier 10. The ordinary tier 9 target is 26;
+  a booster activated at physical tier 10 targets 28.5; expiry targets 27.5.
+- level2 CinemachineTransposer path ID 2384: all three position damping values .3.
+  Cinemachine.Utility.Damper uses residual .01 and log residual -4.6051702.
+  Equivalent per-frame blend is 1-exp(-4.6051702*dt/.3), not 1-exp(-dt/.3).
+
+Limits of this evidence
+- These are exact extracted settings and the inspected native operations. The
+  recreation uses its own renderer and collision architecture, so these changes
+  do not by themselves prove pixel-identical framing or identical Unity physics.
+- Camera debug preferences in an existing original installation could override
+  defaults. The recreation implements the verified clean-launch Height mode.
+- The camera helper preserves observed cap behavior deliberately, including the
+  unusual skipped normal camera/speed callback at actual tier 10.
+
+Integration review after parent changes
+- Main Update now uses Time.deltaTime, velocity directly and immediate contact radius.
+- Radius uses environment contact base + .223*tier + .30 while size boosted.
+- Visual scaling composes X/normalScale on the root and the uniform graphics scale,
+  reproducing the helper's X-width pulse while retaining the target Y/Z scale.
+- Growth speed callback runs on the .3 expansion crossing, with actual cap state set
+  first. Camera event runs separately from the size animation as in the source.
+- LateUpdate uses camera state and source damping, without the old .05 dt cap.
+- RenderActors derives its distance from actual camera offset; camera growth therefore
+  expands the culling range as well as the view.
+- Existing real-touch .4-second movement guard (> .5 units and < speed*.55) remains
+  meaningful at speed 2.6 (expected about 1.04 units) and does not need weakening.
+- Source CinemachineVirtualCamera Follow/LookAt pointers both reference HoleParent
+  transform888. Its serialized initial world Y is -.041, compared with reconstruction
+  HolePosition Y=0. This small vertical framing difference is documented rather than
+  converted into a constant before verifying the source's runtime follow target Y.
+- Source Main Camera near/far clip values are .3/500; reconstruction uses .1/130.
+  No claim of exact complete camera-pipeline or collection-physics equivalence is made.
+
+Booster / feedback audit
+- GameSettingsManager boot level0:412 and level1:1516 match parsed source
+  work/reference5-audit/game-settings.json: Potion 8 seconds, activation level 3,
+  increment 30%; Lightning 8 seconds, activation level 5, increment 30%; Finder
+  12 seconds, activation level 9; Freeze 8 seconds, activation level 12.
+  These existing recreation durations do not need replacement.
+- GameIndicatorManager level2:2383 has maxIndicatorPerItems 5. Source Finder uses
+  PositionIndicatorManager with target-on-screen and pointer-offscreen icons, not
+  directional words. Sprite sharedassets2.assets:210 is named "terget"; :216 is
+  "indicator-pointer_2". Source edge buffers are top580, bottom420, width115.
+  Raw serialized evidence is saved separately in FinderSource7.json.
+- OnJoyStickDirectionChanged (0x1977DF4) rotates the movement arrow using
+  Quaternion.Slerp(current, Quaternion.LookRotation(-movementDirection, up), dt*40)
+  if direction.sqrMagnitude>.01 and angular difference>1 degree. This is an
+  interpolation coefficient, not a degrees-per-second value. Nonzero input controls
+  visibility. Its calls resolve to LookRotation 0x522D2EC and Slerp 0x522CC84.
+- That input handler first calls LTMx01.StartTimerOnGameStart (0x1974600), whose
+  FirstGameTimerStarted guard starts the timer exactly once. The aligned ARM call
+  scan over project code0x1700000-0x19A0000 found this only direct call at0x1977E3C.
+  Reset the first-input timer flag per level; pressing Play alone should not spend
+  countdown time. A deliberate test countdown setter can arm it explicitly.
+- Countdown TimerCo (0x1975508) uses Time.realtimeSinceStartup differences, refreshing
+  its markers during Pause and Freeze. This is distinct from motion's deltaTime;
+  source elapsed countdown does not lose hitch time to maximumDeltaTime. The raw
+  annotated method is preserved in CountdownNative7.txt. Its adaptive time factor
+  TE is derived from GetEtForAtt / GetVetForVt settings and is not fully reconstructed;
+  do not invent a rate from incomplete evidence.
+- Source boosters are reusable after expiry if inventory allows. DeActiveSizeBoost
+  (0x182F558) clears active state and calls BoosterTimeFinish (0x18B4058), which
+  invokes BoosterButton.ResetBoosterButtonState (0x182B7E8). That restores Normal
+  (or Locked based on level), not a permanent per-level Used state.
+- Exact Finder sprites are extracted into Resources/ReferenceStyle: terget,
+  indicator-pointer_2, indicator-circle_2. FinderSpriteSource7.json records source
+  IDs and preserves the pointer's logical 256x256 rectangle despite trimmed pixels.

@@ -1,0 +1,50 @@
+Edition 7 typography and UI fidelity audit
+Source: supplied Hole+it! 1.31.17 XAPK; source component inventory: edition 6 Audit/OriginalTypographyUI.json.
+
+Implemented exact source values
+- Linik Sans Black static SDF font and all 99 glyph/character metrics remain unchanged.
+- Added TextPresets.json: 28 original TMP components, retaining scene/path ID, original text, material, size, auto-size range, weight/style, alignment, character/word/line/paragraph spacing, wrapping, margins, color, and extra-padding state.
+- Loading: level1:1457, Loading..., size 55, character spacing -2, DropShadow_Loading. Progress BG 698x108 at bottom y161; fill 640x50, offset(-5.4,5.8), original SpScreen-progress. Removed the dedication text. Custom Coton artwork remains as requested.
+- Home play: level1:1426, dynamic Level N, max size67.5, bold, spacing-10, Play_Green. Restored 525x360 button, offset(0,-584.3), 370.32x183.75 label at(6.85,9.6). Removed duplicate level label and redundant total-level hint. Previous/next navigation remains as an extra.
+- Wallet: separate source coin/heart badges, with point-panel, Coin-UI, Heart and heart-loop sprites. Coin style level1:1448 (37.9, bold,-5), heart count1476 (50), full1504 (40,-5), timer1454 (37.55,-5). Retains local profile logic and compatible save keys.
+- HUD timer: level2:2355, 50,+2.8, regular Base material, no auto-size. Source timer panel 284.5626x147.7273 at top(-2.6702,-120), inner165.5234x99.2424 at(36.3202,23.5), original clock body/face/dial geometry. Source level badge level2:2333, 36.8,+1.8, at left-top(151.6047,-196). Parent updates goal row to center y-340 based on source top-pivot container y-230, height219.7.
+- Settings heading level1:1472 (100,bold,-10); pause heading level2:2286 (95,bold,-10). Source Sound label level1:1456 (55,bold,-10) and source 0.7-scale sound tile with original icon and mute cross. Sound toggle works in both settings and pause. Mode/help controls remain edition-specific.
+- Pause Continue level2:2239 (110.6, auto max120,-8.47), original 0.75-scale button and 500x200 text bounds; original center y-313. Extra restart/home controls stay accessible below it.
+- Result flow: Time Is Up! level2:2347, Level Failed!2329, You Blasted!2274, Next2248, Try Again2343; original material and style presets applied by main ShowResult hook. Win uses original six BRAVO! sprite letters, authored positions and .738 parent scale, rather than an invented heading font. Win reward style uses level2:2321.
+- Shop heading uses level1:1429 Shop (90.5,bold,-8.5). Custom attendance text uses title casing consistent with source menus while preserving all31 rewards and payout behavior.
+- All 25 added source sprites retain per-asset file/path-ID provenance in Edition7UIProvenance.json. ExportReferenceUIPresets.py reproduces the preset and sprite export from the supplied extraction.
+
+Limits / deliberate differences
+- Exact comparison is to serialized English components and sprites in the supplied files. Server-driven text/localization/animation state and all remote events are not proven identical.
+- Coton loading/home artwork, joystick controls, Free Play, offline shop, attendance, challenge browser and collection browser are requested additions and use adapted layout/copy.
+- Home badge row placement, settings with one working audio control, narrow-phone scaling, extra navigation and result item summaries are adaptations. They are not represented as pixel-identical originals.
+- Follow-up prefab scan closed the goal-count gap; details below. Numeric collect-all progress preserves this edition's existing collection rule, rather than claiming original star scoring.
+- Save-key strings containing Gaeun remain internal for save compatibility; user-visible dedication was removed.
+
+Validation at handoff
+- Export succeeded for28 text presets/25 sprites. All material references exist. New text uses the original available Latin glyph set.
+- Added real-touch settings mute/restore, countdown result/retry typography regression; extended original typography test with source play/timer geometry and no dedication; attendance test follows nested wallet and title-cased Done.
+- Unity import, compilation, actual portrait screenshots and PlayMode tests are pending parent-run validation. No Unity process was started by this agent.
+
+Follow-up: original goal prefab and world-space hole label
+- sharedassets2.assets:571 GoalAmountText_LinikSans is real original TMP text:37,bold,-5,no-auto-size,Outline_InCanvas(sharedassets1.assets:11). StarGoalText:569 uses19,bold,-5,no-auto-size and compact numeric ratio1000/3000.
+- Goal prefab root528 is1.2 scale; text container510 is114.78x35.4744 at(-.38979,-63.4), star text y+12.2. Effective label scale1.2 and local offsets restored within the adaptive current row. Completed goals use the original OK sprite(sharedassets2.assets:253), not invented Done text.
+- level2:2234 is TextMeshPro3D, not TextMeshProUGUI. Source HoleSizeText says Size1, color(252,190,15)/255, bold, spacing-3, font1.95 with original auto sizing0..72, Outline_InGame(sharedassets0.assets:7).
+- Source rect2063 is1.3808x.2384, X rotation90 degrees, local(0,.1,-1.121); HoleParent scale.7, localY-1.621 beneath HoleContainerY1.58. Implementation preserves the world orientation and rectangle, follows VisualRadius scale, and derives world offset(0,.1*radius-.041,-1.121*radius). The original font size is used in world units, never applied as1.95pixels to UGUI.
+- Main package scan decoded385 TMP components across scenes/sharedassets/resources including SDK/debug UI. The in-game source provides the world-space SizeN label and a floating +4 PointCountText prefab(sharedassets2.assets:557); no static points-to-next-size sentence or SizeUp popup is in this decoded set. Those invented persistent overlays were removed. Finder directional help remains only while that requested extra booster is active. Freeze uses the source snowflake clock overlay.
+- GoalGrowthSource.json stores source common TMP fields and IDs. The world component shares the TMP base layout; UGUI-only tail fields were discarded rather than treated as source world-text data.
+- Extended runtime test checks goal font37/19 family spacing/material/no-auto-size, world text color/rectangle/orientation, and absence of the invented growth chip.
+
+Finder follow-up (edition7)
+- Source PositionIndicatorManager sharedassets2.assets:574, IndicatorItem:555 and GameIndicatorManager level2:2383/2593; source native UpdateTargetIconPosition RVA0x196D794 confirms viewport visibility, independent screen-coordinate clamps, offscreen item icon/rotating pointer and on-screen target marker. No invented direction sentence remains.
+- Preserved sprites sharedassets2.assets:210 terget, :216 indicator-pointer_2, :263 indicator-circle_2. Pointer export restores its 256x256 logical transparent rectangle rather than stretching tightly cropped atlas content. FinderSpriteSource7.json records exact sprite provenance.
+- Preserved source marker hierarchy dimensions: root120, arrow10.7084x21.4877 with3.27scale/(-18.13,0)offset, icon background40, item27, target20 with179/255alpha. Manager scale3.5 offscreen and4.5 on-screen, maximum5 per item. Overlay graphics never receive touch input.
+- Runtime chooses nearest remaining required actors, excludes bombs/dropping/consumed actors, caps by unmet goal demand, and shares one bounded pool during Finder activation. Extra collect-all mode has one five-marker pool. Refresh selection at0.1seconds; marker placement updates every rendered frame using the same interpolated physics pose as the mesh. These scheduling/selection safeguards are reconstruction decisions; exact original native item selection order and activation tween have not been claimed.
+- Projection regression tests cover source asymmetric buffers, behind-camera stability and left-facing arrow orientation. Unity integration validation remains parent-owned.
+- Sprite-name inventory has generic resources.assets logo_white:880/splashlogo:901/popuplogoicon:905/SwLogo:917 and event logos. No verified dedicated Hole It home-title sprite was established in this pass; custom Coton artwork is preserved.
+- Native follow-up resolved scale: PositionIndicatorManager.Start RVA0x196D2E4 reads Canvas.scaleFactor into0x9C and pre-scales widthEdgeBuffer115 at0x196D354/35C; Update scales top580/bottom420 using0x9C. All three runtime buffers now multiply actual canvas.scaleFactor. Arrow rotation source is -90-atan2(dx,dy)*Rad2Deg, equivalent modulo360 to implemented atan2(dy,dx)+180. IndicatorMidpoints.json includes1011source model local MidPoint positions with4root fallbacks; on-screen markers transform those authored positions with interpolated actor rotation and scale. See IndicatorMidpointsSource7.json.
+
+Screenshot repair after Windows capture
+- 03-bomb-failure exposed dark source text on the wrong backing surface. Original InfoPanelTimeandBomb (level2 Image2800/Rect2067) uses info-card-v1, sharedassets0.assets:206,759.6x511.02. Restored it only for bomb failure at combined original parent y132; added original FreezeGLow sharedassets2.assets:252 at450x450 and poison-bomb:246 at337.5x337.5, both local(0,34). You Blasted! retains Base/darkred source color and moves to its original338.0251x73.518 local(0,-130.1). Extra collected summary is hidden for this native bomb-info state. Other results retain their existing content.
+- 14-finder capture exposed screen-coordinate conversion assuming Overlay. ReferenceCapture temporarily uses ScreenSpaceCamera; indicator conversion now selects canvas.worldCamera for that mode, exactly like the existing joystick coordinate conversion. Production Overlay behavior remains the same.
+- Added runtime regression cases for restored bomb panel/text and bounded nonblocking Finder markers in both canvas modes, including expiration cleanup. No Unity process was run by this agent.

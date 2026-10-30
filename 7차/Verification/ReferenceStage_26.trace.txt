@@ -1,0 +1,1413 @@
+Stage 26 test-only accelerated physical trace.
+New input attempt 1488 at 0.60
+sim=0.60 collected=0 hole=(0.04, 0.00, -21.63) aperture=0.538 active=39 target=93/145/Nail Polish pivot=(0.04, -6.51, -21.63) fit=0.324 bottom=-6.510 kinematic=False velocity=(0.00, -21.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(0.04, -5.97, -21.63) size=(0.53, 1.09, 0.53) enabled=2 detection=True floorRayY=aperture
+New input attempt 1344 at 0.70
+New input attempt 1359 at 0.76
+New input attempt 1360 at 1.10
+New input attempt 1375 at 1.24
+New input attempt 1504 at 1.50
+New input attempt 1519 at 1.64
+New input attempt 1648 at 1.90
+New input attempt 1663 at 2.04
+New input attempt 1632 at 2.30
+New input attempt 1647 at 2.44
+New input attempt 1776 at 2.70
+New input attempt 1791 at 2.84
+New input attempt 1792 at 3.10
+New input attempt 1807 at 3.24
+New input attempt 1936 at 3.50
+New input attempt 1951 at 3.64
+New input attempt 1920 at 3.90
+New input attempt 1935 at 4.04
+New input attempt 2064 at 4.30
+New input attempt 2079 at 4.44
+New input attempt 2080 at 4.70
+New input attempt 2095 at 4.84
+New input attempt 2224 at 5.10
+New input attempt 2239 at 5.24
+New input attempt 2208 at 5.50
+New input attempt 2223 at 5.64
+sim=5.64 collected=13 hole=(3.54, 0.00, -21.63) aperture=0.730 active=61 target=138/145/Nail Polish pivot=(3.54, -0.76, -21.63) fit=0.324 bottom=-0.764 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(-0.01, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(3.54, -0.22, -21.63) size=(0.53, 1.09, 0.53) enabled=2 detection=True floorRayY=aperture
+New input attempt 2352 at 5.90
+New input attempt 2367 at 6.04
+New input attempt 2368 at 6.30
+New input attempt 2383 at 6.44
+New input attempt 2512 at 6.70
+New input attempt 2527 at 6.84
+New input attempt 2496 at 7.10
+New input attempt 2511 at 7.24
+New input attempt 2528 at 7.50
+New input attempt 2543 at 7.64
+New input attempt 2544 at 7.90
+New input attempt 2559 at 8.04
+New input attempt 2400 at 8.30
+New input attempt 2415 at 8.44
+New input attempt 2384 at 8.70
+New input attempt 2399 at 8.84
+New input attempt 2240 at 9.12
+New input attempt 2255 at 9.24
+New input attempt 2256 at 9.52
+New input attempt 2271 at 9.64
+New input attempt 2112 at 9.92
+New input attempt 2127 at 10.04
+New input attempt 2096 at 10.32
+New input attempt 2111 at 10.44
+sim=10.64 collected=25 hole=(2.84, 0.00, -20.23) aperture=0.730 active=54 target=131/145/Nail Polish pivot=(2.84, -2.93, -20.23) fit=0.324 bottom=-2.934 kinematic=False velocity=(0.00, -14.00, 0.00) angular=(-0.01, 0.00, 0.00) group=0 switch=1 latch=True initial=False activeBoundsCenter=(2.84, -2.39, -20.23) size=(0.53, 1.09, 0.54) enabled=2 detection=True floorRayY=aperture
+New input attempt 1952 at 10.72
+New input attempt 1967 at 10.84
+New input attempt 1968 at 11.12
+New input attempt 1983 at 11.24
+New input attempt 1824 at 11.52
+New input attempt 1839 at 11.64
+New input attempt 1808 at 11.92
+New input attempt 1823 at 12.04
+New input attempt 1664 at 12.32
+New input attempt 1679 at 12.44
+New input attempt 1679 at 12.72
+New input attempt 1679 at 12.92
+New input attempt 1536 at 13.00
+New input attempt 1551 at 13.12
+New input attempt 1551 at 13.38
+New input attempt 1551 at 13.52
+New input attempt 1376 at 13.60
+New input attempt 1391 at 13.72
+New input attempt 1391 at 14.00
+New input attempt 1248 at 14.14
+New input attempt 1263 at 14.28
+New input attempt 1263 at 14.54
+New input attempt 1263 at 14.68
+New input attempt 1088 at 14.76
+New input attempt 1103 at 14.88
+New input attempt 1103 at 15.14
+New input attempt 1103 at 15.28
+New input attempt 960 at 15.36
+New input attempt 975 at 15.48
+sim=15.68 collected=44 hole=(-2.75, 0.00, -19.54) aperture=0.921 active=80 target=60/145/Nail Polish pivot=(-2.76, -2.90, -19.45) fit=0.324 bottom=-3.026 kinematic=False velocity=(0.04, -14.08, -0.29) angular=(-1.79, 0.00, -0.28) group=0 switch=1 latch=True initial=False activeBoundsCenter=(-2.75, -2.46, -19.58) size=(0.57, 1.13, 0.76) enabled=2 detection=True floorRayY=aperture
+New input attempt 975 at 15.76
+New input attempt 975 at 15.88
+New input attempt 800 at 15.96
+New input attempt 815 at 16.10
+New input attempt 815 at 16.36
+New input attempt 672 at 16.50
+New input attempt 687 at 16.64
+New input attempt 687 at 16.90
+New input attempt 687 at 17.04
+New input attempt 512 at 17.12
+New input attempt 527 at 17.24
+New input attempt 527 at 17.52
+New input attempt 640 at 17.64
+New input attempt 655 at 17.78
+New input attempt 655 at 18.04
+New input attempt 480 at 18.18
+New input attempt 495 at 18.32
+New input attempt 768 at 18.60
+New input attempt 783 at 18.72
+New input attempt 783 at 18.98
+New input attempt 928 at 19.12
+New input attempt 943 at 19.26
+New input attempt 1056 at 19.54
+New input attempt 1071 at 19.66
+New input attempt 1071 at 19.94
+New input attempt 1216 at 20.08
+New input attempt 1231 at 20.20
+New input attempt 1408 at 20.48
+New input attempt 1423 at 20.60
+sim=20.68 collected=64 hole=(-0.65, 0.00, -18.84) aperture=0.921 active=56 target=88/145/Nail Polish pivot=(-0.65, -1.45, -18.84) fit=0.324 bottom=-1.451 kinematic=False velocity=(0.00, -9.80, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-0.65, -0.91, -18.84) size=(0.53, 1.09, 0.53) enabled=2 detection=True floorRayY=aperture
+New input attempt 1423 at 20.88
+New input attempt 1568 at 21.02
+New input attempt 1583 at 21.14
+New input attempt 1583 at 21.42
+New input attempt 1583 at 21.54
+New input attempt 1440 at 21.62
+New input attempt 1455 at 21.74
+New input attempt 1455 at 22.02
+New input attempt 1455 at 22.14
+New input attempt 1280 at 22.22
+New input attempt 1295 at 22.36
+New input attempt 1295 at 22.62
+New input attempt 1152 at 22.76
+New input attempt 1167 at 22.90
+New input attempt 1167 at 23.16
+New input attempt 1167 at 23.30
+New input attempt 992 at 23.36
+New input attempt 1007 at 23.50
+New input attempt 1007 at 23.76
+New input attempt 864 at 23.90
+New input attempt 879 at 24.04
+New input attempt 879 at 24.30
+New input attempt 879 at 24.44
+New input attempt 704 at 24.50
+New input attempt 719 at 24.64
+New input attempt 719 at 24.90
+New input attempt 576 at 25.04
+New input attempt 591 at 25.16
+New input attempt 591 at 25.44
+New input attempt 736 at 25.56
+New input attempt 751 at 25.70
+sim=25.70 collected=86 hole=(-4.15, 0.00, -16.73) aperture=0.921 active=51 target=46/145/Nail Polish pivot=(-4.15, -0.75, -16.73) fit=0.324 bottom=-0.751 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-4.15, -0.21, -16.73) size=(0.53, 1.09, 0.53) enabled=2 detection=True floorRayY=aperture
+New input attempt 751 at 25.96
+New input attempt 608 at 26.10
+New input attempt 623 at 26.24
+New input attempt 2864 at 26.50
+New input attempt 2879 at 26.64
+New input attempt 2832 at 26.90
+New input attempt 2847 at 27.04
+New input attempt 2800 at 27.32
+New input attempt 2815 at 27.44
+New input attempt 2768 at 27.72
+New input attempt 2783 at 27.84
+New input attempt 2736 at 28.12
+New input attempt 2751 at 28.24
+New input attempt 2704 at 28.52
+New input attempt 2719 at 28.64
+New input attempt 2672 at 28.92
+New input attempt 2687 at 29.04
+New input attempt 2640 at 29.32
+New input attempt 2655 at 29.44
+New input attempt 2928 at 29.72
+New input attempt 2943 at 29.86
+New input attempt 2896 at 30.12
+New input attempt 2911 at 30.26
+New input attempt 1040 at 30.52
+New input attempt 1055 at 30.66
+sim=30.72 collected=109 hole=(-2.75, 0.00, -16.04) aperture=0.921 active=48 target=65/145/Nail Polish pivot=(-2.75, -1.26, -16.07) fit=0.324 bottom=-1.285 kinematic=False velocity=(0.00, -9.14, 0.23) angular=(1.67, 0.00, -0.01) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-2.75, -0.73, -16.03) size=(0.53, 1.11, 0.60) enabled=2 detection=True floorRayY=aperture
+New input attempt 1055 at 30.92
+New input attempt 896 at 31.06
+New input attempt 911 at 31.12
+New input attempt 1184 at 31.46
+New input attempt 1199 at 31.58
+New input attempt 1328 at 31.86
+New input attempt 1343 at 31.92
+New input attempt 1472 at 32.12
+New input attempt 1487 at 32.18
+New input attempt 1616 at 32.46
+New input attempt 1631 at 32.52
+New input attempt 1760 at 32.86
+New input attempt 1775 at 33.00
+New input attempt 1775 at 33.26
+New input attempt 1775 at 33.40
+New input attempt 1600 at 33.46
+New input attempt 1615 at 33.60
+New input attempt 1728 at 33.86
+New input attempt 1743 at 34.00
+New input attempt 1743 at 34.26
+New input attempt 1856 at 34.40
+New input attempt 1871 at 34.52
+New input attempt 1871 at 34.80
+New input attempt 1871 at 34.92
+New input attempt 2016 at 35.00
+New input attempt 2031 at 35.12
+New input attempt 2031 at 35.40
+New input attempt 2031 at 35.52
+New input attempt 2144 at 35.60
+New input attempt 2159 at 35.72
+sim=35.72 collected=128 hole=(2.84, 0.00, -18.13) aperture=0.921 active=53 target=134/145/Nail Polish pivot=(2.84, -0.75, -18.13) fit=0.324 bottom=-0.751 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(2.84, -0.21, -18.13) size=(0.53, 1.09, 0.53) enabled=2 detection=True floorRayY=aperture
+New input attempt 2159 at 36.00
+New input attempt 2159 at 36.12
+New input attempt 2304 at 36.20
+New input attempt 2319 at 36.32
+New input attempt 2176 at 36.60
+New input attempt 2191 at 36.66
+New input attempt 2191 at 36.92
+New input attempt 2191 at 37.06
+New input attempt 2191 at 37.26
+New input attempt 2048 at 37.46
+New input attempt 2063 at 37.60
+New input attempt 2063 at 37.86
+New input attempt 96 at 38.06
+New input attempt 111 at 38.12
+New input attempt 0 at 38.26
+New input attempt 15 at 38.32
+New input attempt 16 at 38.52
+New input attempt 31 at 38.60
+New input attempt 112 at 38.80
+New input attempt 127 at 38.86
+New input attempt 128 at 38.92
+New input attempt 143 at 39.06
+New input attempt 143 at 39.32
+New input attempt 143 at 39.40
+New input attempt 208 at 39.52
+New input attempt 223 at 39.66
+New input attempt 304 at 39.92
+New input attempt 319 at 40.00
+New input attempt 320 at 40.06
+New input attempt 335 at 40.12
+New input attempt 335 at 40.40
+New input attempt 288 at 40.52
+New input attempt 303 at 40.60
+sim=40.72 collected=153 hole=(3.80, 0.00, -14.57) aperture=1.113 active=44 target=18/153/Robot Blue pivot=(3.96, -0.92, -14.88) fit=0.354 bottom=-1.149 kinematic=False velocity=(0.46, -7.77, -0.83) angular=(-2.07, 0.00, -1.14) group=0 switch=1 latch=False initial=False activeBoundsCenter=(3.66, -0.65, -14.31) size=(1.03, 0.99, 1.28) enabled=1 detection=True floorRayY=aperture
+New input attempt 400 at 40.92
+New input attempt 415 at 41.06
+New input attempt 415 at 41.32
+New input attempt 432 at 41.40
+New input attempt 447 at 41.52
+New input attempt 447 at 41.80
+New input attempt 447 at 41.86
+New input attempt 352 at 41.92
+New input attempt 367 at 42.06
+New input attempt 272 at 42.32
+New input attempt 287 at 42.46
+New input attempt 287 at 42.72
+New input attempt 160 at 42.78
+New input attempt 175 at 42.92
+New input attempt 175 at 43.20
+New input attempt 80 at 43.26
+New input attempt 95 at 43.40
+New input attempt 5136 at 43.66
+New input attempt 5151 at 43.80
+New input attempt 5024 at 44.06
+New input attempt 5039 at 44.12
+New input attempt 5039 at 44.40
+New input attempt 48 at 44.46
+New input attempt 63 at 44.52
+New input attempt 63 at 44.66
+New input attempt 5088 at 44.78
+New input attempt 5103 at 44.92
+New input attempt 4976 at 45.18
+New input attempt 4991 at 45.26
+New input attempt 4991 at 45.46
+New input attempt 5056 at 45.58
+New input attempt 5071 at 45.66
+sim=45.72 collected=179 hole=(0.24, 0.00, -14.67) aperture=1.113 active=10 target=316/176/Water Bottle pivot=(0.35, -0.96, -14.83) fit=0.335 bottom=-1.204 kinematic=False velocity=(0.59, -8.52, -0.51) angular=(-0.21, 0.41, -0.35) group=0 switch=1 latch=False initial=False activeBoundsCenter=(0.05, -0.77, -14.38) size=(1.00, 0.87, 1.22) enabled=2 detection=True floorRayY=aperture
+New input attempt 192 at 45.92
+New input attempt 207 at 46.06
+New input attempt 2480 at 46.32
+New input attempt 2495 at 46.46
+New input attempt 2495 at 46.72
+New input attempt 2592 at 46.86
+New input attempt 2607 at 47.00
+New input attempt 2560 at 47.26
+New input attempt 2575 at 47.40
+New input attempt 2272 at 47.66
+New input attempt 2287 at 47.80
+New input attempt 2287 at 48.06
+New input attempt 1984 at 48.18
+New input attempt 1999 at 48.32
+New input attempt 1696 at 48.58
+New input attempt 1711 at 48.72
+New input attempt 1120 at 48.98
+New input attempt 1135 at 49.12
+New input attempt 832 at 49.38
+New input attempt 847 at 49.52
+New input attempt 544 at 49.78
+New input attempt 559 at 49.92
+New input attempt 3904 at 50.18
+New input attempt 3919 at 50.32
+New input attempt 3616 at 50.58
+New input attempt 3631 at 50.72
+sim=50.72 collected=198 hole=(-6.35, 0.00, -15.98) aperture=1.113 active=24 target=226/135/Cream Green pivot=(-6.35, -0.74, -15.98) fit=0.313 bottom=-0.739 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-6.35, -0.19, -15.98) size=(0.48, 1.11, 0.62) enabled=3 detection=True floorRayY=aperture
+New input attempt 3648 at 50.98
+New input attempt 3663 at 51.12
+New input attempt 3680 at 51.38
+New input attempt 3695 at 51.52
+New input attempt 3712 at 51.78
+New input attempt 3727 at 51.92
+New input attempt 3744 at 52.18
+New input attempt 3759 at 52.32
+New input attempt 3776 at 52.58
+New input attempt 3791 at 52.72
+New input attempt 3936 at 52.98
+New input attempt 3951 at 53.06
+New input attempt 3951 at 53.26
+New input attempt 4224 at 53.38
+New input attempt 4239 at 53.52
+New input attempt 4192 at 53.78
+New input attempt 4207 at 53.92
+New input attempt 4160 at 54.18
+New input attempt 4175 at 54.32
+New input attempt 4128 at 54.58
+New input attempt 4143 at 54.72
+New input attempt 4096 at 54.98
+New input attempt 4111 at 55.12
+New input attempt 4064 at 55.38
+New input attempt 4079 at 55.52
+sim=55.72 collected=223 hole=(-15.08, 0.00, -14.80) aperture=1.113 active=26 target=254/134/Cosmetic Bottle Purple pivot=(-15.21, -2.91, -14.93) fit=0.381 bottom=-2.938 kinematic=False velocity=(-0.37, -14.01, -0.39) angular=(-0.15, -0.02, 0.12) group=0 switch=1 latch=True initial=False activeBoundsCenter=(-15.24, -2.34, -14.97) size=(0.67, 1.20, 0.68) enabled=2 detection=True floorRayY=aperture
+New input attempt 4032 at 55.78
+New input attempt 4047 at 55.92
+New input attempt 3200 at 56.18
+New input attempt 3215 at 56.32
+New input attempt 3232 at 56.58
+New input attempt 3247 at 56.72
+New input attempt 4000 at 56.98
+New input attempt 4015 at 57.12
+New input attempt 3968 at 57.38
+New input attempt 3983 at 57.52
+New input attempt 3264 at 57.78
+New input attempt 3279 at 57.92
+New input attempt 2976 at 58.18
+New input attempt 2991 at 58.32
+New input attempt 3440 at 58.58
+New input attempt 3455 at 58.72
+New input attempt 3472 at 58.98
+New input attempt 3487 at 59.12
+New input attempt 3504 at 59.38
+New input attempt 3519 at 59.52
+New input attempt 3536 at 59.78
+New input attempt 3551 at 59.92
+New input attempt 3568 at 60.18
+New input attempt 3583 at 60.32
+New input attempt 3600 at 60.58
+New input attempt 3615 at 60.72
+sim=60.72 collected=250 hole=(-6.30, 0.00, -11.45) aperture=1.113 active=21 target=225/135/Cream Green pivot=(-6.44, -0.74, -11.40) fit=0.313 bottom=-0.739 kinematic=False velocity=(0.00, -7.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-6.44, -0.19, -11.40) size=(0.48, 1.11, 0.60) enabled=3 detection=True floorRayY=aperture
+New input attempt 3312 at 60.98
+New input attempt 3327 at 61.12
+New input attempt 3344 at 61.38
+New input attempt 3359 at 61.52
+New input attempt 3376 at 61.78
+New input attempt 3391 at 61.92
+New input attempt 10016 at 62.18
+New input attempt 10031 at 62.32
+New input attempt 10032 at 62.58
+New input attempt 10047 at 62.72
+New input attempt 9936 at 62.98
+New input attempt 9951 at 63.12
+New input attempt 9952 at 63.38
+New input attempt 9967 at 63.52
+New input attempt 9968 at 63.78
+New input attempt 9983 at 63.92
+New input attempt 9984 at 64.18
+New input attempt 9999 at 64.32
+New input attempt 10000 at 64.58
+New input attempt 10015 at 64.72
+New input attempt 9216 at 64.98
+New input attempt 9231 at 65.12
+New input attempt 3408 at 65.38
+New input attempt 3423 at 65.52
+New input attempt 3008 at 65.78
+sim=65.78 collected=267 hole=(-11.51, 0.00, -9.47) aperture=1.305 active=16 target=188/176/Water Bottle pivot=(-11.74, -0.04, -9.64) fit=0.335 bottom=-0.040 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-11.74, 0.60, -9.64) size=(0.57, 1.28, 0.57) enabled=2 detection=True floorRayY=aperture
+New input attempt 3023 at 65.92
+New input attempt 3040 at 66.18
+New input attempt 3055 at 66.32
+New input attempt 3072 at 66.58
+New input attempt 3087 at 66.72
+New input attempt 3104 at 66.98
+New input attempt 3119 at 67.12
+New input attempt 10192 at 67.38
+New input attempt 10207 at 67.46
+New input attempt 3136 at 67.52
+New input attempt 3151 at 67.66
+New input attempt 10416 at 67.92
+New input attempt 10431 at 68.00
+New input attempt 3168 at 68.26
+New input attempt 3183 at 68.40
+New input attempt 10400 at 68.64
+New input attempt 10415 at 68.80
+New input attempt 10384 at 69.06
+New input attempt 10399 at 69.20
+New input attempt 10368 at 69.44
+New input attempt 10383 at 69.60
+New input attempt 10352 at 69.84
+New input attempt 10367 at 70.00
+New input attempt 10336 at 70.26
+New input attempt 10351 at 70.40
+New input attempt 10320 at 70.64
+New input attempt 10335 at 70.80
+sim=70.80 collected=285 hole=(-23.13, 0.00, -10.68) aperture=1.305 active=22 target=645/146/Penguin Blue pivot=(-23.17, -0.71, -10.88) fit=0.758 bottom=-0.727 kinematic=False velocity=(0.01, -6.92, -0.70) angular=(0.32, -0.58, -0.04) group=0 switch=3 latch=False initial=False activeBoundsCenter=(-23.12, 0.21, -10.85) size=(1.08, 1.87, 1.45) enabled=3 detection=True floorRayY=aperture
+New input attempt 10304 at 71.04
+New input attempt 10319 at 71.20
+New input attempt 10288 at 71.44
+New input attempt 10303 at 71.60
+New input attempt 10272 at 71.84
+New input attempt 10287 at 72.00
+New input attempt 10256 at 72.24
+New input attempt 10271 at 72.40
+New input attempt 10240 at 72.64
+New input attempt 10255 at 72.80
+New input attempt 10224 at 73.04
+New input attempt 10239 at 73.20
+New input attempt 10208 at 73.44
+New input attempt 10223 at 73.60
+New input attempt 5776 at 73.84
+New input attempt 5791 at 74.00
+New input attempt 5791 at 74.26
+New input attempt 5808 at 74.38
+New input attempt 5823 at 74.52
+New input attempt 10176 at 74.78
+New input attempt 10191 at 74.86
+New input attempt 5824 at 75.04
+New input attempt 5839 at 75.12
+New input attempt 5839 at 75.46
+New input attempt 10160 at 75.58
+New input attempt 10175 at 75.72
+sim=75.86 collected=300 hole=(-19.71, 0.00, -10.49) aperture=1.305 active=9 target=635/146/Penguin Blue pivot=(-19.71, -2.11, -10.52) fit=0.758 bottom=-2.098 kinematic=False velocity=(0.00, -11.90, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=3 latch=False initial=False activeBoundsCenter=(-19.71, -1.18, -10.49) size=(1.51, 1.85, 1.06) enabled=3 detection=True floorRayY=aperture
+New input attempt 5856 at 75.98
+New input attempt 5871 at 76.12
+New input attempt 5872 at 76.38
+New input attempt 5887 at 76.52
+New input attempt 5920 at 76.78
+New input attempt 5935 at 76.92
+New input attempt 5936 at 77.18
+New input attempt 5951 at 77.26
+New input attempt 5952 at 77.52
+New input attempt 5967 at 77.66
+New input attempt 5904 at 77.92
+New input attempt 5919 at 78.06
+New input attempt 5888 at 78.32
+New input attempt 5903 at 78.46
+New input attempt 10832 at 78.72
+New input attempt 10847 at 78.86
+sim=80.92 collected=308 hole=(-13.54, 0.00, -15.89) aperture=1.305 active=2 target=677/255/Robot Red pivot=(-13.53, -0.67, -15.77) fit=1.484 bottom=-0.684 kinematic=False velocity=(-0.13, -0.33, -0.09) angular=(0.03, -0.02, -0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-13.56, 2.25, -16.03) size=(3.12, 5.87, 3.37) enabled=1 detection=True floorRayY=aperture
+New input attempt 10836 at 82.46
+New input attempt 10837 at 83.46
+New input attempt 10838 at 84.46
+New input attempt 10839 at 85.46
+sim=86.00 collected=308 hole=(-13.54, 0.00, -15.89) aperture=1.305 active=2 target=677/255/Robot Red pivot=(-13.27, 0.31, -14.44) fit=1.484 bottom=-0.500 kinematic=False velocity=(0.21, -0.38, -0.02) angular=(-0.47, 0.02, 0.19) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-13.82, 1.69, -16.97) size=(3.61, 4.38, 5.51) enabled=1 detection=True floorRayY=0.044
+New input attempt 10840 at 86.46
+New input attempt 10841 at 87.46
+New input attempt 10842 at 88.46
+New input attempt 3808 at 89.44
+New input attempt 3823 at 89.60
+New input attempt 3840 at 89.84
+New input attempt 3855 at 89.92
+New input attempt 3855 at 90.12
+New input attempt 3872 at 90.24
+New input attempt 3887 at 90.40
+New input attempt 9152 at 90.64
+New input attempt 9167 at 90.80
+New input attempt 1312 at 91.04
+sim=91.04 collected=314 hole=(-1.35, 0.00, -16.73) aperture=1.305 active=3 target=82/145/Nail Polish pivot=(-1.35, -0.01, -16.73) fit=0.324 bottom=-0.011 kinematic=False velocity=(0.00, -1.40, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-1.35, 0.53, -16.73) size=(0.53, 1.09, 0.53) enabled=2 detection=True floorRayY=aperture
+New input attempt 1327 at 91.20
+New input attempt 10928 at 91.44
+New input attempt 10943 at 91.60
+New input attempt 10929 at 92.92
+New input attempt 10930 at 93.12
+New input attempt 10931 at 94.12
+New input attempt 10932 at 95.12
+sim=96.06 collected=315 hole=(-1.50, 0.00, -8.40) aperture=1.305 active=41 target=683/255/Robot Red pivot=(-1.48, -0.67, -8.33) fit=1.484 bottom=-0.675 kinematic=False velocity=(-0.06, -0.09, 0.00) angular=(0.06, 0.02, 0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.52, 2.26, -8.49) size=(3.12, 5.88, 3.27) enabled=1 detection=True floorRayY=aperture
+New input attempt 10933 at 96.12
+New input attempt 10934 at 97.12
+New input attempt 10935 at 98.12
+New input attempt 10936 at 99.12
+New input attempt 10937 at 100.72
+New input attempt 10938 at 101.12
+sim=101.12 collected=315 hole=(-1.50, 0.00, -8.40) aperture=1.305 active=40 target=683/255/Robot Red pivot=(-1.23, 0.52, -6.88) fit=1.484 bottom=-0.417 kinematic=False velocity=(-0.11, 0.00, 0.01) angular=(0.00, 0.02, 0.07) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.62, 1.65, -9.55) size=(3.46, 4.14, 5.65) enabled=1 detection=True floorRayY=0.044
+New input attempt 6624 at 102.11
+New input attempt 6639 at 102.25
+New input attempt 6944 at 102.51
+New input attempt 6959 at 102.65
+New input attempt 6976 at 102.91
+New input attempt 6991 at 103.05
+New input attempt 7296 at 103.31
+New input attempt 7311 at 103.45
+New input attempt 7264 at 103.71
+New input attempt 7279 at 103.79
+New input attempt 7279 at 103.99
+New input attempt 7584 at 104.11
+New input attempt 7599 at 104.25
+New input attempt 7616 at 104.51
+New input attempt 7631 at 104.65
+New input attempt 7648 at 104.91
+New input attempt 7663 at 105.05
+New input attempt 7328 at 105.31
+New input attempt 7343 at 105.45
+New input attempt 7008 at 105.71
+New input attempt 7023 at 105.85
+New input attempt 7040 at 106.11
+sim=106.19 collected=361 hole=(-0.33, 0.00, -2.68) aperture=1.305 active=103 target=440/135/Cream Green pivot=(-0.33, -0.35, -2.60) fit=0.313 bottom=-0.396 kinematic=False velocity=(0.04, -4.97, -0.51) angular=(-0.91, 0.03, -0.07) group=0 switch=1 latch=False initial=False activeBoundsCenter=(-0.32, 0.19, -2.78) size=(0.50, 1.17, 0.70) enabled=3 detection=True floorRayY=aperture
+New input attempt 7055 at 106.25
+New input attempt 7360 at 106.51
+New input attempt 7375 at 106.65
+New input attempt 7392 at 106.91
+New input attempt 7407 at 107.05
+New input attempt 7072 at 107.31
+New input attempt 7087 at 107.39
+New input attempt 7088 at 107.51
+New input attempt 7103 at 107.59
+New input attempt 5328 at 107.71
+New input attempt 5343 at 107.85
+New input attempt 5296 at 108.11
+New input attempt 5311 at 108.19
+New input attempt 5311 at 108.31
+New input attempt 5311 at 108.51
+New input attempt 5344 at 108.57
+New input attempt 5359 at 108.65
+New input attempt 5359 at 108.85
+New input attempt 4816 at 109.03
+New input attempt 4831 at 109.19
+New input attempt 5488 at 109.43
+New input attempt 5503 at 109.59
+New input attempt 5408 at 109.83
+New input attempt 5423 at 109.99
+New input attempt 4720 at 110.23
+New input attempt 4735 at 110.39
+New input attempt 4688 at 110.63
+New input attempt 4703 at 110.79
+New input attempt 6128 at 111.03
+New input attempt 6143 at 111.11
+sim=111.25 collected=402 hole=(-4.24, 0.00, -0.48) aperture=1.501 active=55 target=383/135/Cream Green pivot=(-4.23, -1.91, 0.02) fit=0.313 bottom=-2.902 kinematic=False velocity=(0.00, -13.47, 1.93) angular=(4.43, -0.06, -0.09) group=0 switch=1 latch=True initial=False activeBoundsCenter=(-4.25, -2.35, 0.37) size=(0.50, 1.10, 0.99) enabled=3 detection=True floorRayY=aperture
+New input attempt 6143 at 111.31
+New input attempt 6143 at 111.45
+New input attempt 6096 at 111.57
+New input attempt 6111 at 111.65
+New input attempt 6111 at 111.91
+New input attempt 6111 at 111.99
+New input attempt 6111 at 112.05
+New input attempt 6400 at 112.23
+New input attempt 6415 at 112.39
+New input attempt 6415 at 112.65
+New input attempt 6415 at 112.85
+New input attempt 6528 at 113.05
+New input attempt 6543 at 113.19
+New input attempt 6543 at 113.45
+New input attempt 6192 at 113.51
+New input attempt 6207 at 113.59
+New input attempt 6207 at 113.79
+New input attempt 6207 at 113.85
+New input attempt 6160 at 113.91
+New input attempt 6175 at 113.99
+New input attempt 6175 at 114.11
+New input attempt 6175 at 114.25
+New input attempt 6656 at 114.31
+New input attempt 6671 at 114.45
+New input attempt 6736 at 114.71
+New input attempt 6751 at 114.85
+New input attempt 6751 at 115.11
+New input attempt 6608 at 115.19
+New input attempt 6623 at 115.25
+New input attempt 4784 at 115.45
+New input attempt 4799 at 115.59
+New input attempt 10800 at 115.85
+sim=116.31 collected=449 hole=(0.08, 0.00, 0.07) aperture=1.497 active=29 target=675/255/Robot Red pivot=(0.02, 1.57, 3.01) fit=1.484 bottom=0.053 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(0.08, 1.60, 0.07) size=(3.14, 3.09, 5.88) enabled=1 detection=True floorRayY=0.057
+New input attempt 10801 at 116.59
+New input attempt 10802 at 117.59
+New input attempt 10803 at 118.59
+New input attempt 10804 at 119.59
+New input attempt 10805 at 120.59
+sim=121.39 collected=449 hole=(0.75, 0.00, -0.65) aperture=1.497 active=37 target=675/255/Robot Red pivot=(0.38, 1.75, 2.91) fit=1.484 bottom=-0.117 kinematic=False velocity=(0.99, -0.06, -0.02) angular=(-0.01, 0.11, -0.75) group=0 switch=6 latch=False initial=False activeBoundsCenter=(0.48, 1.54, -0.01) size=(3.18, 3.32, 5.87) enabled=1 detection=True floorRayY=0.057
+New input attempt 10806 at 121.59
+New input attempt 10807 at 122.59
+New input attempt 10808 at 123.59
+New input attempt 10809 at 124.59
+New input attempt 10810 at 125.59
+New input attempt 10815 at 125.91
+sim=126.45 collected=449 hole=(-1.96, 0.00, 1.30) aperture=1.497 active=35 target=675/255/Robot Red pivot=(-1.97, 0.83, 3.24) fit=1.484 bottom=-0.355 kinematic=False velocity=(0.04, 0.00, 0.00) angular=(0.00, 0.00, -0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.93, 1.51, 0.39) size=(3.16, 3.72, 5.81) enabled=1 detection=True floorRayY=0.057
+New input attempt 5520 at 126.59
+New input attempt 5535 at 126.71
+New input attempt 5535 at 126.99
+New input attempt 4656 at 127.19
+New input attempt 4671 at 127.31
+New input attempt 4560 at 127.59
+New input attempt 4575 at 127.65
+New input attempt 4575 at 127.85
+New input attempt 5440 at 127.99
+New input attempt 5455 at 128.11
+New input attempt 9696 at 128.39
+New input attempt 9711 at 128.51
+New input attempt 9792 at 128.79
+New input attempt 9807 at 128.85
+New input attempt 9168 at 129.19
+New input attempt 9183 at 129.31
+New input attempt 9776 at 129.59
+New input attempt 9791 at 129.71
+New input attempt 9760 at 129.99
+New input attempt 9775 at 130.11
+New input attempt 9744 at 130.39
+New input attempt 9759 at 130.51
+New input attempt 10768 at 130.79
+New input attempt 10783 at 130.91
+sim=131.45 collected=468 hole=(-10.31, 0.00, 2.59) aperture=1.497 active=8 target=673/255/Robot Red pivot=(-8.88, 1.60, 2.63) fit=1.484 bottom=0.051 kinematic=False velocity=(0.70, -0.14, 0.07) angular=(0.06, 0.07, -0.45) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-11.80, 1.60, 2.33) size=(5.87, 3.11, 3.35) enabled=1 detection=True floorRayY=aperture
+New input attempt 10769 at 131.51
+New input attempt 10770 at 132.45
+New input attempt 10771 at 133.45
+New input attempt 10772 at 134.45
+New input attempt 10773 at 135.45
+New input attempt 10774 at 136.45
+sim=136.45 collected=468 hole=(-11.10, 0.00, 3.78) aperture=1.497 active=9 target=673/255/Robot Red pivot=(-8.84, 1.43, 3.16) fit=1.484 bottom=-0.004 kinematic=False velocity=(-0.72, -0.77, 1.52) angular=(1.04, -0.02, 0.44) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-11.75, 1.64, 2.85) size=(5.86, 3.29, 3.35) enabled=1 detection=True floorRayY=0.057
+New input attempt 10775 at 137.45
+New input attempt 10776 at 138.45
+New input attempt 10777 at 139.45
+New input attempt 10778 at 140.45
+New input attempt 9856 at 141.45
+sim=141.45 collected=468 hole=(-11.67, 0.00, -0.05) aperture=1.497 active=10 target=616/146/Penguin Blue pivot=(-11.68, -0.08, -0.02) fit=0.758 bottom=-0.074 kinematic=False velocity=(0.00, -2.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=3 latch=False initial=False activeBoundsCenter=(-11.68, 0.85, -0.05) size=(1.48, 1.85, 1.06) enabled=3 detection=True floorRayY=aperture
+New input attempt 9871 at 141.59
+New input attempt 9840 at 141.85
+New input attempt 9855 at 141.99
+New input attempt 9824 at 142.25
+New input attempt 9839 at 142.39
+New input attempt 9920 at 142.65
+New input attempt 9935 at 142.79
+New input attempt 9904 at 143.05
+New input attempt 9919 at 143.19
+New input attempt 9184 at 143.45
+New input attempt 9199 at 143.59
+New input attempt 9872 at 143.85
+New input attempt 9887 at 143.99
+New input attempt 9888 at 144.25
+New input attempt 9903 at 144.31
+New input attempt 10768 at 144.65
+New input attempt 10769 at 145.31
+New input attempt 10783 at 145.51
+New input attempt 10770 at 146.31
+sim=146.45 collected=476 hole=(-10.26, 0.00, 2.33) aperture=1.497 active=2 target=673/255/Robot Red pivot=(-8.88, 1.52, 1.66) fit=1.484 bottom=0.015 kinematic=False velocity=(-0.74, -0.21, -0.07) angular=(-0.04, -0.02, 0.47) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-11.80, 1.62, 1.36) size=(5.87, 3.21, 3.36) enabled=1 detection=True floorRayY=0.057
+New input attempt 10771 at 147.31
+New input attempt 10772 at 148.31
+New input attempt 10773 at 149.32
+New input attempt 10774 at 150.32
+New input attempt 10775 at 151.32
+sim=151.46 collected=476 hole=(-11.33, 0.00, 2.28) aperture=1.497 active=2 target=673/255/Robot Red pivot=(-9.09, 1.59, 3.43) fit=1.484 bottom=0.054 kinematic=False velocity=(0.14, -0.09, 0.86) angular=(0.55, -0.01, -0.09) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.02, 1.60, 3.29) size=(5.88, 3.10, 3.20) enabled=1 detection=True floorRayY=0.057
+New input attempt 10776 at 152.32
+New input attempt 10777 at 153.32
+New input attempt 10778 at 154.32
+New input attempt 9728 at 155.32
+New input attempt 9743 at 155.46
+New input attempt 10800 at 155.72
+New input attempt 10801 at 156.40
+sim=156.46 collected=477 hole=(-1.00, 0.00, 0.00) aperture=1.497 active=12 target=675/255/Robot Red pivot=(-1.87, 1.59, 2.93) fit=1.484 bottom=0.056 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.83, 1.60, 0.00) size=(3.16, 3.09, 5.88) enabled=1 detection=True floorRayY=0.057
+New input attempt 10802 at 157.40
+New input attempt 10803 at 158.40
+New input attempt 10804 at 159.40
+New input attempt 10815 at 159.60
+New input attempt 10805 at 160.40
+New input attempt 10806 at 161.40
+sim=161.46 collected=477 hole=(-1.91, 0.00, -0.66) aperture=1.497 active=13 target=675/255/Robot Red pivot=(-0.90, 1.56, 2.97) fit=1.484 bottom=0.055 kinematic=False velocity=(1.08, 0.34, 0.34) angular=(0.22, 0.01, -0.71) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-0.89, 1.61, 0.04) size=(3.12, 3.11, 5.88) enabled=1 detection=True floorRayY=0.057
+New input attempt 10807 at 162.40
+New input attempt 10808 at 163.40
+New input attempt 10815 at 163.86
+New input attempt 10808 at 164.00
+New input attempt 10809 at 164.40
+New input attempt 10810 at 165.40
+New input attempt 4416 at 166.40
+sim=166.46 collected=479 hole=(2.69, 0.00, 1.30) aperture=1.497 active=40 target=276/134/Cosmetic Bottle Purple pivot=(2.69, -0.39, 1.30) fit=0.381 bottom=-0.393 kinematic=False velocity=(0.00, -4.90, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(2.69, 0.20, 1.30) size=(0.63, 1.18, 0.63) enabled=2 detection=True floorRayY=aperture
+New input attempt 4431 at 166.52
+New input attempt 4512 at 166.80
+New input attempt 4527 at 166.86
+New input attempt 4527 at 167.06
+New input attempt 5232 at 167.20
+New input attempt 5247 at 167.32
+New input attempt 5264 at 167.60
+New input attempt 5279 at 167.72
+New input attempt 4304 at 168.00
+New input attempt 4319 at 168.06
+New input attempt 4319 at 168.26
+New input attempt 4336 at 168.40
+New input attempt 4351 at 168.52
+New input attempt 4351 at 168.86
+New input attempt 5168 at 169.06
+New input attempt 5183 at 169.20
+New input attempt 5616 at 169.46
+New input attempt 5631 at 169.60
+New input attempt 5648 at 169.86
+New input attempt 5663 at 170.00
+New input attempt 5568 at 170.26
+New input attempt 5583 at 170.32
+New input attempt 5583 at 170.60
+New input attempt 5536 at 170.66
+New input attempt 5551 at 170.80
+New input attempt 10800 at 171.06
+sim=171.46 collected=512 hole=(0.50, 0.00, -0.01) aperture=1.497 active=19 target=675/255/Robot Red pivot=(0.95, 1.57, 2.88) fit=1.484 bottom=0.053 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(0.50, 1.60, -0.01) size=(3.52, 3.09, 5.85) enabled=1 detection=True floorRayY=0.057
+New input attempt 10801 at 171.72
+New input attempt 10802 at 172.72
+New input attempt 10803 at 173.72
+New input attempt 10804 at 174.72
+New input attempt 10805 at 175.72
+sim=176.46 collected=512 hole=(0.81, 0.00, -0.65) aperture=1.497 active=20 target=675/255/Robot Red pivot=(1.24, 1.68, 2.77) fit=1.484 bottom=-0.069 kinematic=False velocity=(0.56, 0.00, -0.07) angular=(-0.06, 0.19, -0.50) group=0 switch=6 latch=False initial=False activeBoundsCenter=(0.76, 1.55, -0.12) size=(3.55, 3.24, 5.84) enabled=1 detection=True floorRayY=0.057
+New input attempt 10806 at 176.72
+New input attempt 10807 at 177.72
+New input attempt 10808 at 178.72
+New input attempt 10809 at 179.72
+New input attempt 10810 at 180.72
+New input attempt 10815 at 181.06
+sim=181.46 collected=512 hole=(-1.50, 0.00, 1.60) aperture=1.497 active=19 target=675/255/Robot Red pivot=(-1.15, 0.84, 3.52) fit=1.484 bottom=-0.349 kinematic=False velocity=(0.06, -0.01, -0.01) angular=(-0.01, 0.00, -0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.69, 1.51, 0.72) size=(3.58, 3.71, 5.77) enabled=1 detection=True floorRayY=0.057
+New input attempt 7888 at 181.72
+New input attempt 7903 at 181.86
+New input attempt 7903 at 182.12
+New input attempt 7696 at 182.20
+New input attempt 7711 at 182.26
+New input attempt 7711 at 182.46
+New input attempt 8000 at 182.60
+New input attempt 8015 at 182.72
+New input attempt 8015 at 183.00
+New input attempt 8128 at 183.06
+New input attempt 8143 at 183.12
+New input attempt 8143 at 183.32
+New input attempt 7936 at 183.46
+New input attempt 7951 at 183.60
+New input attempt 7951 at 183.86
+New input attempt 8064 at 183.92
+New input attempt 8079 at 184.00
+New input attempt 10960 at 184.20
+New input attempt 10975 at 184.32
+New input attempt 9632 at 185.06
+New input attempt 9647 at 185.20
+New input attempt 9680 at 185.46
+New input attempt 9695 at 185.52
+New input attempt 9648 at 185.66
+New input attempt 9663 at 185.72
+New input attempt 9664 at 186.06
+New input attempt 9679 at 186.20
+New input attempt 9568 at 186.46
+sim=186.46 collected=542 hole=(11.08, 0.00, -6.63) aperture=1.497 active=38 target=598/146/Penguin Blue pivot=(11.11, -0.04, -6.63) fit=0.758 bottom=-0.029 kinematic=False velocity=(0.01, -2.10, 0.03) angular=(0.03, 0.01, -0.02) group=0 switch=3 latch=False initial=False activeBoundsCenter=(11.08, 0.89, -6.63) size=(1.06, 1.85, 1.51) enabled=3 detection=True floorRayY=aperture
+New input attempt 9583 at 186.60
+New input attempt 9583 at 186.86
+New input attempt 9583 at 187.06
+New input attempt 9584 at 187.26
+New input attempt 9599 at 187.32
+New input attempt 8592 at 187.66
+New input attempt 8607 at 187.80
+New input attempt 8607 at 188.06
+New input attempt 9104 at 188.12
+New input attempt 9119 at 188.20
+New input attempt 9136 at 188.32
+New input attempt 9151 at 188.46
+New input attempt 9088 at 188.72
+New input attempt 9103 at 188.86
+New input attempt 9072 at 189.12
+New input attempt 9087 at 189.26
+New input attempt 9087 at 189.52
+New input attempt 8736 at 189.66
+New input attempt 8751 at 189.80
+New input attempt 8751 at 190.06
+New input attempt 8751 at 190.20
+New input attempt 10560 at 190.32
+New input attempt 10575 at 190.40
+New input attempt 10575 at 190.60
+New input attempt 10528 at 190.72
+New input attempt 10543 at 190.86
+New input attempt 10432 at 191.12
+New input attempt 10447 at 191.20
+New input attempt 10448 at 191.40
+New input attempt 10463 at 191.46
+sim=191.46 collected=565 hole=(10.68, 0.00, -0.04) aperture=1.497 active=37 target=653/146/Penguin Blue pivot=(10.42, -0.36, 0.22) fit=0.758 bottom=-0.454 kinematic=False velocity=(0.14, -5.02, -0.68) angular=(-0.70, 0.00, -0.15) group=0 switch=3 latch=False initial=False activeBoundsCenter=(10.45, 0.51, 0.07) size=(1.19, 1.93, 1.27) enabled=3 detection=True floorRayY=aperture
+New input attempt 10464 at 191.80
+New input attempt 10479 at 191.86
+New input attempt 10480 at 192.20
+New input attempt 10495 at 192.32
+New input attempt 10496 at 192.60
+New input attempt 10511 at 192.66
+New input attempt 10512 at 192.86
+New input attempt 10527 at 193.00
+New input attempt 10544 at 193.26
+New input attempt 10559 at 193.32
+New input attempt 10576 at 193.52
+New input attempt 10591 at 193.66
+New input attempt 10608 at 193.92
+New input attempt 10623 at 194.06
+New input attempt 10640 at 194.32
+New input attempt 10655 at 194.40
+New input attempt 10736 at 194.60
+New input attempt 10751 at 194.72
+New input attempt 10720 at 195.00
+New input attempt 10735 at 195.06
+New input attempt 10704 at 195.26
+New input attempt 10719 at 195.32
+New input attempt 10688 at 195.67
+New input attempt 10703 at 195.73
+New input attempt 10672 at 195.93
+New input attempt 10687 at 196.01
+New input attempt 10656 at 196.33
+New input attempt 10671 at 196.47
+sim=196.47 collected=579 hole=(16.69, 0.00, -1.00) aperture=1.689 active=23 target=666/146/Penguin Blue pivot=(16.66, -0.71, -1.02) fit=0.758 bottom=-0.723 kinematic=False velocity=(0.56, -7.11, 0.03) angular=(0.10, 0.01, -0.95) group=0 switch=3 latch=False initial=False activeBoundsCenter=(16.69, 0.21, -1.02) size=(1.20, 1.86, 1.20) enabled=3 detection=True floorRayY=aperture
+New input attempt 10671 at 196.73
+New input attempt 10671 at 196.93
+New input attempt 9376 at 197.01
+New input attempt 9391 at 197.13
+New input attempt 9360 at 197.41
+New input attempt 9375 at 197.47
+New input attempt 9408 at 197.81
+New input attempt 9423 at 197.87
+New input attempt 9024 at 198.07
+New input attempt 9039 at 198.21
+New input attempt 9344 at 198.47
+New input attempt 9359 at 198.61
+New input attempt 9359 at 198.87
+New input attempt 9328 at 199.01
+New input attempt 9343 at 199.07
+New input attempt 9343 at 199.41
+New input attempt 8944 at 199.61
+New input attempt 8959 at 199.73
+New input attempt 9056 at 200.01
+New input attempt 9071 at 200.07
+New input attempt 9120 at 200.27
+New input attempt 9135 at 200.41
+New input attempt 9312 at 200.67
+New input attempt 9327 at 200.81
+New input attempt 8368 at 201.07
+New input attempt 8383 at 201.21
+New input attempt 8336 at 201.47
+sim=201.47 collected=605 hole=(16.22, 0.00, -8.33) aperture=1.689 active=21 target=521/146/Penguin Blue pivot=(15.83, -0.19, -8.37) fit=0.758 bottom=-0.648 kinematic=False velocity=(1.62, -6.08, 0.13) angular=(0.30, -0.04, -4.19) group=0 switch=3 latch=False initial=False activeBoundsCenter=(16.55, 0.17, -8.37) size=(1.94, 1.63, 1.09) enabled=3 detection=True floorRayY=aperture
+New input attempt 8351 at 201.53
+New input attempt 8400 at 201.81
+New input attempt 8415 at 201.87
+New input attempt 10864 at 202.13
+New input attempt 10879 at 202.27
+New input attempt 8288 at 202.53
+New input attempt 8303 at 202.67
+New input attempt 8304 at 202.93
+New input attempt 8319 at 203.01
+New input attempt 8752 at 203.27
+New input attempt 8767 at 203.41
+New input attempt 8688 at 203.67
+New input attempt 8703 at 203.81
+New input attempt 8640 at 204.07
+New input attempt 8655 at 204.21
+New input attempt 4912 at 204.47
+New input attempt 4927 at 204.61
+New input attempt 4848 at 204.87
+New input attempt 4863 at 204.93
+New input attempt 4863 at 205.13
+New input attempt 4863 at 205.21
+New input attempt 9600 at 205.27
+New input attempt 9615 at 205.33
+New input attempt 9616 at 205.41
+New input attempt 9631 at 205.53
+New input attempt 10080 at 205.81
+New input attempt 10095 at 205.93
+New input attempt 10096 at 206.21
+New input attempt 10111 at 206.27
+New input attempt 5968 at 206.47
+sim=206.47 collected=626 hole=(9.19, 0.00, -11.92) aperture=1.689 active=9 target=373/37/Easter Egg Pink pivot=(9.08, 0.41, -11.83) fit=0.452 bottom=-0.130 kinematic=False velocity=(-1.24, -2.96, 0.99) angular=(1.94, -0.01, 2.41) group=0 switch=1 latch=False initial=False activeBoundsCenter=(9.11, 0.40, -11.87) size=(0.94, 1.06, 0.91) enabled=2 detection=True floorRayY=aperture
+New input attempt 5983 at 206.61
+New input attempt 10064 at 206.87
+New input attempt 10079 at 206.93
+New input attempt 10112 at 207.01
+New input attempt 10127 at 207.13
+New input attempt 10128 at 207.41
+New input attempt 10143 at 207.47
+New input attempt 10144 at 207.67
+New input attempt 10159 at 207.81
+New input attempt 10048 at 208.07
+New input attempt 10063 at 208.13
+New input attempt 10752 at 208.41
+New input attempt 10767 at 208.53
+New input attempt 11024 at 208.81
+New input attempt 11039 at 208.93
+New input attempt 10992 at 209.21
+New input attempt 11007 at 209.33
+New input attempt 10976 at 209.61
+New input attempt 10991 at 209.73
+New input attempt 11008 at 210.01
+New input attempt 11023 at 210.13
+New input attempt 11040 at 210.41
+New input attempt 11055 at 210.53
+New input attempt 11056 at 210.81
+New input attempt 11071 at 210.93
+New input attempt 8224 at 211.21
+New input attempt 8239 at 211.33
+sim=211.47 collected=639 hole=(14.41, 0.00, -15.85) aperture=1.689 active=8 target=514/146/Penguin Blue pivot=(14.39, -2.14, -15.87) fit=0.758 bottom=-2.132 kinematic=False velocity=(0.00, -11.90, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=3 latch=False initial=False activeBoundsCenter=(14.39, -1.21, -15.87) size=(1.20, 1.85, 1.20) enabled=3 detection=True floorRayY=aperture
+New input attempt 8320 at 211.61
+New input attempt 8335 at 211.67
+New input attempt 8352 at 212.01
+New input attempt 8367 at 212.13
+New input attempt 8384 at 212.41
+New input attempt 8399 at 212.47
+New input attempt 8416 at 212.73
+New input attempt 8431 at 212.87
+New input attempt 8448 at 213.13
+New input attempt 8463 at 213.27
+New input attempt 8464 at 213.53
+New input attempt 8479 at 213.61
+New input attempt 8480 at 213.87
+New input attempt 8495 at 214.01
+New input attempt 8496 at 214.27
+New input attempt 8511 at 214.33
+New input attempt 8512 at 214.61
+New input attempt 8527 at 214.73
+New input attempt 8528 at 215.01
+New input attempt 8543 at 215.07
+New input attempt 8432 at 215.33
+New input attempt 8447 at 215.47
+New input attempt 9392 at 215.73
+New input attempt 9407 at 215.81
+New input attempt 9424 at 216.13
+New input attempt 9439 at 216.27
+sim=216.47 collected=652 hole=(21.21, 0.00, -6.90) aperture=1.689 active=11 target=589/146/Penguin Blue pivot=(21.46, -2.88, -6.83) fit=0.758 bottom=-2.957 kinematic=False velocity=(-0.29, -14.02, -0.09) angular=(-0.07, 0.00, 0.22) group=0 switch=3 latch=True initial=False activeBoundsCenter=(21.32, -2.00, -6.85) size=(1.26, 1.91, 1.19) enabled=3 detection=True floorRayY=aperture
+New input attempt 9456 at 216.53
+New input attempt 9471 at 216.67
+New input attempt 9488 at 216.93
+New input attempt 9503 at 217.01
+New input attempt 9504 at 217.27
+New input attempt 9519 at 217.41
+New input attempt 9520 at 217.67
+New input attempt 9535 at 217.81
+New input attempt 9536 at 218.07
+New input attempt 9551 at 218.13
+New input attempt 9552 at 218.27
+New input attempt 9567 at 218.41
+New input attempt 9472 at 218.67
+New input attempt 9487 at 218.73
+New input attempt 9440 at 219.01
+New input attempt 9455 at 219.13
+New input attempt 11072 at 219.41
+New input attempt 11087 at 219.53
+New input attempt 9280 at 219.81
+New input attempt 9295 at 219.93
+New input attempt 9296 at 220.21
+New input attempt 9311 at 220.27
+New input attempt 9264 at 220.53
+New input attempt 9279 at 220.67
+New input attempt 9248 at 220.93
+New input attempt 9263 at 221.01
+New input attempt 5664 at 221.27
+New input attempt 5679 at 221.41
+sim=221.47 collected=666 hole=(8.04, 0.00, 3.60) aperture=1.689 active=9 target=354/37/Easter Egg Pink pivot=(8.05, -0.76, 3.60) fit=0.452 bottom=-1.325 kinematic=False velocity=(0.00, -9.10, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=1 latch=False initial=False activeBoundsCenter=(8.04, -0.77, 3.60) size=(0.91, 1.11, 0.91) enabled=2 detection=True floorRayY=aperture
+New input attempt 5696 at 221.67
+New input attempt 5711 at 221.81
+New input attempt 5728 at 222.07
+New input attempt 5743 at 222.21
+New input attempt 5712 at 222.47
+New input attempt 5727 at 222.61
+New input attempt 5727 at 222.87
+New input attempt 10816 at 223.01
+New input attempt 10831 at 223.13
+New input attempt 10800 at 223.41
+New input attempt 10801 at 225.01
+sim=226.47 collected=674 hole=(-1.55, 0.00, 0.24) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-0.99, 1.59, 3.18) fit=1.484 bottom=0.027 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.53, 1.58, 0.30) size=(3.59, 3.11, 5.84) enabled=1 detection=True floorRayY=0.069
+New input attempt 10802 at 227.01
+New input attempt 10803 at 229.01
+New input attempt 10804 at 231.01
+sim=231.47 collected=674 hole=(-1.61, 0.00, 0.44) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-0.97, 1.53, 3.20) fit=1.484 bottom=0.019 kinematic=False velocity=(0.27, 0.00, -0.04) angular=(-0.03, 0.00, -0.18) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.51, 1.58, 0.32) size=(3.59, 3.13, 5.84) enabled=1 detection=True floorRayY=0.069
+New input attempt 10805 at 233.01
+New input attempt 10806 at 235.01
+sim=236.47 collected=674 hole=(-1.55, 0.00, 0.61) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-1.00, 1.40, 3.16) fit=1.484 bottom=-0.059 kinematic=False velocity=(-0.31, 0.00, 0.06) angular=(0.04, 0.00, 0.21) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.55, 1.55, 0.29) size=(3.59, 3.22, 5.83) enabled=1 detection=True floorRayY=0.069
+New input attempt 10807 at 237.01
+New input attempt 10808 at 239.01
+New input attempt 10815 at 239.21
+New input attempt 10809 at 241.01
+sim=241.47 collected=674 hole=(-1.87, 0.00, -1.11) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-1.21, 2.32, 2.50) fit=1.484 bottom=-0.550 kinematic=False velocity=(-0.12, 0.00, 0.02) angular=(0.02, 0.00, 0.09) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.73, 1.43, -0.24) size=(3.56, 3.95, 5.70) enabled=1 detection=True floorRayY=0.069
+New input attempt 10810 at 243.02
+New input attempt 10944 at 245.02
+New input attempt 10959 at 245.14
+New input attempt 10928 at 245.42
+sim=246.48 collected=675 hole=(-1.72, 0.00, -10.18) aperture=1.689 active=4 target=683/255/Robot Red pivot=(-0.92, 1.56, -7.36) fit=1.484 bottom=0.041 kinematic=False velocity=(0.00, -0.01, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.72, 1.59, -10.18) size=(3.85, 3.09, 5.78) enabled=1 detection=True floorRayY=0.069
+New input attempt 10929 at 247.02
+New input attempt 10930 at 249.02
+New input attempt 10931 at 251.02
+sim=251.48 collected=675 hole=(-1.77, 0.00, -10.31) aperture=1.689 active=4 target=683/255/Robot Red pivot=(-0.89, 1.60, -7.40) fit=1.484 bottom=0.015 kinematic=False velocity=(0.15, 0.00, -0.05) angular=(-0.03, 0.00, -0.10) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.69, 1.58, -10.22) size=(3.85, 3.13, 5.78) enabled=1 detection=True floorRayY=0.069
+New input attempt 10932 at 253.02
+New input attempt 10933 at 255.02
+sim=256.48 collected=675 hole=(-1.84, 0.00, -10.52) aperture=1.689 active=4 target=683/255/Robot Red pivot=(-0.86, 1.65, -7.45) fit=1.484 bottom=-0.044 kinematic=False velocity=(-0.30, -0.01, 0.07) angular=(0.05, 0.00, 0.20) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.67, 1.56, -10.27) size=(3.86, 3.20, 5.77) enabled=1 detection=True floorRayY=0.069
+New input attempt 10934 at 257.02
+New input attempt 10935 at 259.02
+New input attempt 10936 at 261.02
+sim=261.53 collected=675 hole=(-1.24, 0.00, -9.70) aperture=1.689 active=4 target=683/255/Robot Red pivot=(-0.43, 1.26, -7.38) fit=1.484 bottom=-0.136 kinematic=False velocity=(-0.29, -0.01, 0.09) angular=(0.06, 0.00, 0.20) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.34, 1.52, -10.16) size=(3.97, 3.31, 5.73) enabled=1 detection=True floorRayY=0.069
+New input attempt 10937 at 263.01
+New input attempt 10938 at 265.01
+New input attempt 10943 at 265.53
+sim=266.61 collected=675 hole=(-0.99, 0.00, -8.73) aperture=1.689 active=4 target=683/255/Robot Red pivot=(-0.44, 0.04, -7.16) fit=1.484 bottom=-0.772 kinematic=False velocity=(0.26, 0.00, -0.08) angular=(-0.06, 0.00, -0.19) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.29, 1.41, -9.60) size=(3.91, 4.37, 5.43) enabled=1 detection=True floorRayY=0.069
+New input attempt 10912 at 267.01
+New input attempt 10927 at 267.13
+New input attempt 10784 at 267.41
+New input attempt 10799 at 267.53
+New input attempt 10768 at 267.81
+New input attempt 10769 at 269.41
+New input attempt 10770 at 271.41
+sim=271.67 collected=677 hole=(-11.98, 0.00, 1.50) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.10, 1.59, 1.56) fit=1.484 bottom=0.028 kinematic=False velocity=(0.00, 0.00, 0.01) angular=(0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.03, 1.58, 1.50) size=(5.88, 3.11, 3.13) enabled=1 detection=True floorRayY=0.069
+New input attempt 10771 at 273.41
+New input attempt 10772 at 275.41
+sim=276.73 collected=677 hole=(-11.92, 0.00, 1.64) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.09, 1.57, 1.63) fit=1.484 bottom=0.018 kinematic=False velocity=(0.01, 0.00, 0.32) angular=(0.21, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.02, 1.58, 1.56) size=(5.88, 3.13, 3.14) enabled=1 detection=True floorRayY=0.069
+New input attempt 10773 at 277.41
+New input attempt 10774 at 279.41
+New input attempt 10775 at 281.40
+sim=281.80 collected=677 hole=(-12.77, 0.00, 1.65) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.32, 1.81, 1.77) fit=1.484 bottom=-0.171 kinematic=False velocity=(0.00, 0.00, 0.03) angular=(0.02, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.24, 1.51, 1.72) size=(5.87, 3.36, 3.12) enabled=1 detection=True floorRayY=0.069
+New input attempt 10776 at 283.40
+New input attempt 10777 at 285.40
+New input attempt 10783 at 285.66
+sim=286.86 collected=677 hole=(-13.45, 0.00, 1.65) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.80, 2.35, 1.77) fit=1.484 bottom=-0.548 kinematic=False velocity=(0.00, 0.00, -0.08) angular=(-0.06, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.58, 1.43, 1.69) size=(5.75, 3.95, 3.14) enabled=1 detection=True floorRayY=0.069
+New input attempt 10778 at 287.40
+New input attempt 10800 at 289.40
+New input attempt 10801 at 291.00
+sim=291.92 collected=677 hole=(-1.76, 0.00, 0.20) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-1.35, 1.59, 3.13) fit=1.484 bottom=0.038 kinematic=False velocity=(-0.20, 0.00, 0.04) angular=(0.02, 0.00, 0.13) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.92, 1.59, 0.26) size=(3.60, 3.10, 5.83) enabled=1 detection=True floorRayY=0.069
+New input attempt 10802 at 293.00
+New input attempt 10803 at 295.00
+New input attempt 10804 at 297.00
+sim=297.00 collected=677 hole=(-1.68, 0.00, 0.34) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-1.11, 1.53, 3.12) fit=1.484 bottom=0.017 kinematic=False velocity=(0.32, -0.12, 0.15) angular=(0.04, -0.01, -0.18) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.68, 1.58, 0.24) size=(3.61, 3.13, 5.83) enabled=1 detection=True floorRayY=0.069
+New input attempt 10805 at 298.99
+New input attempt 10806 at 300.99
+sim=302.05 collected=677 hole=(-1.70, 0.00, 0.53) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-1.04, 1.40, 3.06) fit=1.484 bottom=-0.057 kinematic=False velocity=(-0.18, -0.01, 0.04) angular=(0.03, 0.00, 0.12) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.61, 1.55, 0.18) size=(3.60, 3.22, 5.83) enabled=1 detection=True floorRayY=0.069
+New input attempt 10807 at 302.99
+New input attempt 10808 at 304.99
+New input attempt 10815 at 305.19
+New input attempt 10809 at 306.99
+sim=307.11 collected=677 hole=(-2.14, 0.00, -1.17) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-1.30, 1.81, 2.88) fit=1.484 bottom=-0.078 kinematic=False velocity=(-0.08, -0.46, -1.43) angular=(-0.94, 0.00, 0.06) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.88, 1.58, 0.02) size=(3.62, 3.32, 5.82) enabled=1 detection=True floorRayY=0.069
+New input attempt 10810 at 308.99
+New input attempt 10928 at 310.99
+sim=312.13 collected=677 hole=(-1.49, 0.00, -10.44) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-0.58, 1.55, -7.65) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.49, 1.59, -10.44) size=(3.96, 3.09, 5.74) enabled=1 detection=True floorRayY=0.069
+New input attempt 10929 at 312.59
+New input attempt 10930 at 314.59
+New input attempt 10931 at 316.58
+sim=317.18 collected=677 hole=(-1.50, 0.00, -10.58) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.60, 1.60, -7.66) fit=1.484 bottom=0.012 kinematic=False velocity=(0.27, -0.01, -0.08) angular=(-0.06, 0.00, -0.18) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.51, 1.58, -10.45) size=(3.95, 3.14, 5.74) enabled=1 detection=True floorRayY=0.069
+New input attempt 10932 at 318.58
+New input attempt 10933 at 320.58
+sim=322.24 collected=677 hole=(-1.66, 0.00, -10.74) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.22, 1.64, -7.82) fit=1.484 bottom=-0.023 kinematic=False velocity=(-0.46, -0.03, 0.13) angular=(0.08, 0.00, 0.31) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.17, 1.57, -10.59) size=(4.01, 3.19, 5.73) enabled=1 detection=True floorRayY=0.069
+New input attempt 10934 at 322.58
+New input attempt 10935 at 324.58
+New input attempt 10936 at 326.58
+New input attempt 10943 at 326.78
+sim=327.30 collected=677 hole=(-1.01, 0.00, -10.02) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.36, 1.25, -7.66) fit=1.484 bottom=-0.139 kinematic=False velocity=(0.01, -0.01, 0.00) angular=(0.00, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.25, 1.52, -10.44) size=(3.95, 3.32, 5.74) enabled=1 detection=True floorRayY=0.069
+New input attempt 10937 at 328.58
+New input attempt 10938 at 330.58
+sim=332.38 collected=677 hole=(-0.75, 0.00, -9.07) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.21, 0.12, -7.44) fit=1.484 bottom=-0.732 kinematic=False velocity=(0.19, 0.01, -0.08) angular=(-0.06, 0.00, -0.14) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-0.97, 1.42, -9.96) size=(3.83, 4.30, 5.50) enabled=1 detection=True floorRayY=0.069
+New input attempt 464 at 332.58
+New input attempt 479 at 332.70
+New input attempt 10848 at 332.98
+New input attempt 10849 at 334.57
+New input attempt 10850 at 336.57
+sim=337.43 collected=678 hole=(12.81, 0.00, -13.71) aperture=1.689 active=4 target=678/255/Robot Red pivot=(15.65, 2.29, -13.76) fit=1.484 bottom=0.046 kinematic=False velocity=(0.00, 0.00, -0.05) angular=(-0.10, -0.08, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.75, 1.82, -13.71) size=(5.84, 3.55, 3.11) enabled=1 detection=True floorRayY=0.069
+New input attempt 10851 at 338.57
+New input attempt 10852 at 340.57
+sim=342.49 collected=678 hole=(12.89, 0.00, -13.71) aperture=1.689 active=4 target=678/255/Robot Red pivot=(15.66, 2.29, -13.77) fit=1.484 bottom=0.055 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.77, 1.83, -13.72) size=(5.84, 3.54, 3.11) enabled=1 detection=True floorRayY=0.069
+New input attempt 10853 at 342.57
+New input attempt 10854 at 344.57
+New input attempt 10855 at 346.59
+New input attempt 10863 at 346.73
+sim=347.53 collected=678 hole=(12.07, 0.00, -13.76) aperture=1.689 active=4 target=678/255/Robot Red pivot=(15.52, 2.44, -13.64) fit=1.484 bottom=-0.284 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.70, 1.64, -13.69) size=(5.77, 3.85, 3.17) enabled=1 detection=True floorRayY=0.069
+New input attempt 10856 at 348.59
+New input attempt 10857 at 350.59
+New input attempt 10858 at 352.58
+sim=352.58 collected=678 hole=(13.51, 0.00, -13.61) aperture=1.689 active=6 target=678/255/Robot Red pivot=(14.87, 3.35, -13.70) fit=1.484 bottom=-0.247 kinematic=False velocity=(-0.19, -0.21, 0.45) angular=(0.13, -0.01, -0.46) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.30, 1.96, -13.50) size=(5.54, 4.42, 3.25) enabled=1 detection=True floorRayY=aperture
+New input attempt 8240 at 354.58
+New input attempt 8255 at 354.72
+New input attempt 10896 at 354.98
+New input attempt 10897 at 356.58
+sim=357.64 collected=679 hole=(17.54, 0.00, -15.11) aperture=1.689 active=5 target=681/255/Robot Red pivot=(19.64, 1.61, -12.96) fit=1.484 bottom=0.025 kinematic=False velocity=(-0.01, 0.00, 0.01) angular=(0.01, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.57, 1.58, -15.04) size=(5.08, 3.12, 5.05) enabled=1 detection=True floorRayY=0.069
+New input attempt 10898 at 358.58
+New input attempt 10899 at 360.58
+New input attempt 10900 at 362.58
+sim=362.72 collected=679 hole=(17.65, 0.00, -14.93) aperture=1.689 active=5 target=681/255/Robot Red pivot=(19.63, 1.53, -12.93) fit=1.484 bottom=0.012 kinematic=False velocity=(0.02, 0.00, -0.02) angular=(-0.01, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.57, 1.58, -15.01) size=(5.08, 3.14, 5.05) enabled=1 detection=True floorRayY=0.069
+New input attempt 10901 at 364.58
+New input attempt 10902 at 366.58
+sim=367.78 collected=679 hole=(17.78, 0.00, -14.83) aperture=1.689 active=5 target=681/255/Robot Red pivot=(19.69, 1.45, -12.98) fit=1.484 bottom=-0.039 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.62, 1.56, -15.06) size=(5.08, 3.20, 5.04) enabled=1 detection=True floorRayY=0.069
+New input attempt 10903 at 368.58
+New input attempt 10911 at 368.78
+New input attempt 10904 at 370.57
+New input attempt 10905 at 372.57
+sim=372.83 collected=679 hole=(16.60, 0.00, -16.00) aperture=1.689 active=5 target=681/255/Robot Red pivot=(19.43, 2.09, -13.29) fit=1.484 bottom=-0.304 kinematic=False velocity=(-1.42, -0.72, -1.07) angular=(-0.74, 0.03, 0.96) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.32, 1.52, -15.25) size=(5.11, 3.64, 4.94) enabled=1 detection=True floorRayY=0.069
+New input attempt 10906 at 374.57
+New input attempt 8256 at 376.57
+New input attempt 8271 at 376.71
+New input attempt 8272 at 376.97
+New input attempt 8287 at 377.11
+New input attempt 10848 at 377.37
+sim=377.91 collected=681 hole=(12.83, 0.00, -13.47) aperture=1.689 active=2 target=678/255/Robot Red pivot=(15.65, 1.60, -14.25) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.82, 1.59, -13.47) size=(5.79, 3.09, 3.81) enabled=1 detection=True floorRayY=0.069
+New input attempt 10849 at 378.97
+New input attempt 10850 at 380.97
+New input attempt 10851 at 382.97
+sim=382.97 collected=681 hole=(12.70, 0.00, -13.40) aperture=1.689 active=2 target=678/255/Robot Red pivot=(15.63, 1.64, -14.21) fit=1.484 bottom=0.009 kinematic=False velocity=(-0.62, -0.68, 0.21) angular=(0.13, 0.01, 0.43) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.81, 1.58, -13.43) size=(5.79, 3.14, 3.81) enabled=1 detection=True floorRayY=0.069
+New input attempt 10852 at 384.97
+New input attempt 10853 at 386.97
+sim=388.03 collected=681 hole=(12.47, 0.00, -13.44) aperture=1.689 active=2 target=678/255/Robot Red pivot=(15.57, 1.69, -14.28) fit=1.484 bottom=-0.044 kinematic=False velocity=(-0.03, 0.00, -0.12) angular=(-0.08, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.75, 1.56, -13.50) size=(5.78, 3.20, 3.81) enabled=1 detection=True floorRayY=0.069
+New input attempt 10854 at 388.96
+New input attempt 10855 at 390.96
+New input attempt 10856 at 392.96
+sim=393.10 collected=681 hole=(13.30, 0.00, -13.84) aperture=1.689 active=3 target=678/255/Robot Red pivot=(15.58, 1.56, -14.46) fit=1.484 bottom=0.034 kinematic=False velocity=(0.50, -0.25, 0.47) angular=(0.33, 0.03, -0.33) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.77, 1.60, -13.65) size=(5.78, 3.13, 3.84) enabled=1 detection=True floorRayY=0.069
+New input attempt 10857 at 394.96
+New input attempt 10863 at 395.22
+New input attempt 10858 at 396.96
+sim=398.16 collected=681 hole=(13.63, 0.00, -13.94) aperture=1.689 active=3 target=678/255/Robot Red pivot=(15.67, 0.84, -14.40) fit=1.484 bottom=-0.390 kinematic=False velocity=(-0.04, -0.03, -0.27) angular=(-0.32, -0.15, 0.07) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.88, 1.45, -13.73) size=(5.75, 3.68, 3.70) enabled=1 detection=True floorRayY=0.069
+New input attempt 10896 at 398.96
+New input attempt 10897 at 400.56
+New input attempt 10898 at 402.56
+sim=403.22 collected=681 hole=(17.67, 0.00, -15.21) aperture=1.689 active=3 target=681/255/Robot Red pivot=(20.04, 1.57, -13.58) fit=1.484 bottom=0.028 kinematic=False velocity=(-0.02, 0.00, 0.03) angular=(0.02, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.64, 1.58, -15.26) size=(5.39, 3.11, 4.67) enabled=1 detection=True floorRayY=0.069
+New input attempt 10899 at 404.56
+New input attempt 10900 at 406.56
+sim=408.29 collected=681 hole=(17.60, 0.00, -15.01) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.99, 1.55, -13.47) fit=1.484 bottom=0.019 kinematic=False velocity=(0.12, -0.01, -0.17) angular=(-0.11, 0.00, -0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.59, 1.58, -15.16) size=(5.39, 3.13, 4.67) enabled=1 detection=True floorRayY=0.069
+New input attempt 10901 at 408.55
+New input attempt 10902 at 410.55
+New input attempt 10903 at 412.55
+New input attempt 10911 at 412.75
+sim=413.35 collected=681 hole=(16.94, 0.00, -15.55) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.75, 1.80, -13.55) fit=1.484 bottom=-0.183 kinematic=False velocity=(-0.12, 0.00, 0.17) angular=(0.12, 0.00, 0.09) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.37, 1.50, -15.24) size=(5.37, 3.38, 4.68) enabled=1 detection=True floorRayY=0.069
+New input attempt 10904 at 414.55
+New input attempt 10905 at 416.55
+sim=418.41 collected=681 hole=(16.37, 0.00, -15.90) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.34, 2.33, -13.77) fit=1.484 bottom=-0.548 kinematic=False velocity=(0.10, 0.00, -0.14) angular=(-0.10, 0.00, -0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.09, 1.43, -15.41) size=(5.26, 3.95, 4.63) enabled=1 detection=True floorRayY=0.069
+New input attempt 10906 at 418.55
+New input attempt 10880 at 420.55
+New input attempt 10881 at 422.15
+sim=423.49 collected=681 hole=(17.97, 0.00, -18.78) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.64, 1.60, -17.44) fit=1.484 bottom=0.028 kinematic=False velocity=(-0.03, 0.00, 0.07) angular=(0.05, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(18.03, 1.59, -18.79) size=(5.58, 3.11, 4.35) enabled=1 detection=True floorRayY=0.069
+New input attempt 10882 at 424.15
+New input attempt 10883 at 426.14
+New input attempt 10884 at 428.14
+sim=428.54 collected=681 hole=(18.12, 0.00, -18.67) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.63, 1.53, -17.36) fit=1.484 bottom=0.018 kinematic=False velocity=(-0.06, 0.00, 0.12) angular=(0.08, 0.00, 0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(18.03, 1.58, -18.72) size=(5.58, 3.13, 4.36) enabled=1 detection=True floorRayY=0.069
+New input attempt 10885 at 430.14
+New input attempt 10886 at 432.14
+sim=433.60 collected=681 hole=(18.35, 0.00, -18.72) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.68, 1.43, -17.46) fit=1.484 bottom=-0.043 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(18.09, 1.56, -18.84) size=(5.56, 3.20, 4.38) enabled=1 detection=True floorRayY=0.069
+New input attempt 10887 at 434.14
+New input attempt 10895 at 434.34
+New input attempt 10888 at 436.14
+New input attempt 10889 at 438.14
+sim=438.68 collected=681 hole=(16.84, 0.00, -19.45) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.08, 2.33, -17.73) fit=1.484 bottom=-0.550 kinematic=False velocity=(0.00, 0.00, -0.01) angular=(-0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.62, 1.43, -19.05) size=(5.44, 3.96, 4.32) enabled=1 detection=True floorRayY=0.069
+New input attempt 10890 at 440.14
+New input attempt 10928 at 442.14
+New input attempt 10929 at 443.73
+sim=443.73 collected=681 hole=(-1.19, 0.00, -10.82) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.30, 1.58, -7.96) fit=1.484 bottom=0.028 kinematic=False velocity=(-0.02, -0.04, -0.05) angular=(-0.02, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.18, 1.59, -10.76) size=(3.94, 3.11, 5.75) enabled=1 detection=True floorRayY=0.069
+New input attempt 10930 at 445.73
+New input attempt 10931 at 447.73
+sim=448.79 collected=681 hole=(-1.24, 0.00, -10.87) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.33, 1.60, -7.95) fit=1.484 bottom=0.010 kinematic=False velocity=(-0.01, 0.00, 0.00) angular=(0.00, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.21, 1.58, -10.75) size=(3.94, 3.14, 5.75) enabled=1 detection=True floorRayY=0.069
+New input attempt 10932 at 449.73
+New input attempt 10933 at 451.73
+New input attempt 10934 at 453.73
+sim=453.87 collected=681 hole=(-1.14, 0.00, -10.43) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.32, 1.43, -7.88) fit=1.484 bottom=-0.034 kinematic=False velocity=(0.05, 0.00, -0.02) angular=(-0.01, 0.00, -0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.20, 1.56, -10.68) size=(3.93, 3.19, 5.75) enabled=1 detection=True floorRayY=0.069
+New input attempt 10935 at 455.73
+New input attempt 10936 at 457.73
+New input attempt 10943 at 457.93
+sim=458.93 collected=681 hole=(-0.99, 0.00, -10.19) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.24, 1.25, -7.86) fit=1.484 bottom=-0.139 kinematic=False velocity=(0.04, -0.01, 0.00) angular=(-0.01, 0.00, -0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.11, 1.52, -10.65) size=(3.92, 3.32, 5.75) enabled=1 detection=True floorRayY=0.069
+New input attempt 10937 at 459.73
+New input attempt 10938 at 461.72
+New input attempt 10800 at 463.72
+sim=463.98 collected=681 hole=(-2.18, 0.00, 0.19) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-1.71, 1.58, 3.09) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.18, 1.59, 0.20) size=(3.51, 3.09, 5.85) enabled=1 detection=True floorRayY=0.069
+New input attempt 10801 at 465.32
+New input attempt 10802 at 467.32
+sim=469.06 collected=681 hole=(-2.26, 0.00, 0.27) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-1.89, 1.57, 3.12) fit=1.484 bottom=0.030 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.36, 1.59, 0.23) size=(3.50, 3.11, 5.85) enabled=1 detection=True floorRayY=0.069
+New input attempt 10803 at 469.32
+New input attempt 10804 at 471.32
+New input attempt 10805 at 473.32
+sim=474.12 collected=681 hole=(-2.36, 0.00, -0.12) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-1.81, 1.68, 3.04) fit=1.484 bottom=-0.043 kinematic=False velocity=(0.02, 0.00, 0.00) angular=(0.00, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.27, 1.56, 0.15) size=(3.50, 3.20, 5.85) enabled=1 detection=True floorRayY=0.069
+New input attempt 10806 at 475.32
+New input attempt 10807 at 477.32
+sim=479.18 collected=681 hole=(-2.34, 0.00, -0.51) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-1.82, 1.79, 2.90) fit=1.484 bottom=-0.172 kinematic=False velocity=(-0.16, 0.00, 0.02) angular=(0.02, 0.00, 0.11) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.25, 1.51, 0.02) size=(3.48, 3.36, 5.84) enabled=1 detection=True floorRayY=0.069
+New input attempt 10808 at 479.32
+New input attempt 10815 at 479.52
+New input attempt 10809 at 481.31
+New input attempt 10810 at 483.31
+sim=484.25 collected=681 hole=(-2.14, 0.00, 1.07) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-1.83, 0.92, 3.21) fit=1.484 bottom=-0.339 kinematic=False velocity=(0.06, 0.00, 0.00) angular=(0.00, 0.00, -0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.19, 1.46, 0.35) size=(3.40, 3.60, 5.82) enabled=1 detection=True floorRayY=0.069
+New input attempt 10768 at 485.31
+New input attempt 10769 at 486.91
+New input attempt 10770 at 488.91
+sim=489.31 collected=681 hole=(-12.23, 0.00, 1.67) aperture=1.689 active=2 target=673/255/Robot Red pivot=(-9.36, 1.58, 1.73) fit=1.484 bottom=0.028 kinematic=False velocity=(0.00, 0.00, 0.02) angular=(0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.29, 1.58, 1.67) size=(5.88, 3.11, 3.13) enabled=1 detection=True floorRayY=0.069
+New input attempt 10771 at 490.91
+New input attempt 10772 at 492.91
+sim=494.37 collected=681 hole=(-12.18, 0.00, 1.80) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.35, 1.56, 1.79) fit=1.484 bottom=0.018 kinematic=False velocity=(0.00, -0.01, 0.31) angular=(0.20, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.28, 1.58, 1.73) size=(5.88, 3.13, 3.13) enabled=1 detection=True floorRayY=0.069
+New input attempt 10773 at 494.91
+New input attempt 10774 at 496.91
+New input attempt 10775 at 498.90
+sim=499.44 collected=681 hole=(-13.06, 0.00, 1.92) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.62, 1.80, 2.09) fit=1.484 bottom=-0.165 kinematic=False velocity=(0.00, 0.00, 0.08) angular=(0.06, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.54, 1.51, 2.02) size=(5.87, 3.35, 3.13) enabled=1 detection=True floorRayY=0.069
+New input attempt 10776 at 500.90
+New input attempt 10783 at 501.10
+New input attempt 10777 at 502.90
+sim=504.50 collected=681 hole=(-13.75, 0.00, 1.88) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-10.10, 2.34, 1.95) fit=1.484 bottom=-0.545 kinematic=False velocity=(0.01, 0.00, -0.15) angular=(-0.11, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.88, 1.43, 1.89) size=(5.75, 3.95, 3.12) enabled=1 detection=True floorRayY=0.069
+New input attempt 10778 at 504.90
+New input attempt 10832 at 506.90
+New input attempt 10833 at 508.50
+sim=509.56 collected=681 hole=(-14.71, 0.00, -17.51) aperture=1.689 active=2 target=677/255/Robot Red pivot=(-13.99, 1.59, -14.60) fit=1.484 bottom=0.027 kinematic=False velocity=(0.12, 0.00, -0.03) angular=(-0.02, 0.00, -0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.65, 1.58, -17.46) size=(3.69, 3.11, 5.82) enabled=1 detection=True floorRayY=0.069
+New input attempt 10834 at 510.50
+New input attempt 10835 at 512.50
+New input attempt 10836 at 514.50
+sim=514.58 collected=681 hole=(-14.60, 0.00, -17.34) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-13.99, 1.52, -14.57) fit=1.484 bottom=0.017 kinematic=False velocity=(-0.17, 0.00, 0.04) angular=(0.03, 0.00, 0.11) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.64, 1.58, -17.43) size=(3.70, 3.13, 5.81) enabled=1 detection=True floorRayY=0.069
+New input attempt 10837 at 516.50
+New input attempt 10838 at 518.50
+sim=519.64 collected=681 hole=(-14.58, 0.00, -17.15) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.09, 1.42, -14.56) fit=1.484 bottom=-0.044 kinematic=False velocity=(0.29, -0.01, -0.06) angular=(-0.04, 0.00, -0.19) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.75, 1.56, -17.41) size=(3.70, 3.21, 5.81) enabled=1 detection=True floorRayY=0.069
+New input attempt 10839 at 520.51
+New input attempt 10840 at 522.51
+New input attempt 10847 at 522.71
+New input attempt 10841 at 524.51
+sim=524.65 collected=681 hole=(-14.90, 0.00, -18.83) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.04, 1.80, -14.78) fit=1.484 bottom=-0.079 kinematic=False velocity=(-0.35, -0.46, -1.37) angular=(-0.90, 0.00, 0.23) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.67, 1.58, -17.64) size=(3.67, 3.32, 5.81) enabled=1 detection=True floorRayY=0.069
+New input attempt 10842 at 526.51
+New input attempt 5184 at 528.51
+New input attempt 5199 at 528.65
+New input attempt 10800 at 528.97
+sim=529.65 collected=682 hole=(-2.74, 0.00, 0.12) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.37, 1.59, 3.04) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.74, 1.59, 0.13) size=(3.42, 3.09, 5.86) enabled=1 detection=True floorRayY=0.069
+New input attempt 10801 at 530.58
+New input attempt 10802 at 532.58
+New input attempt 10803 at 534.58
+sim=534.66 collected=682 hole=(-2.80, 0.00, -0.01) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.42, 1.64, 3.02) fit=1.484 bottom=0.013 kinematic=False velocity=(-0.04, 0.00, 0.01) angular=(0.00, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.79, 1.58, 0.11) size=(3.42, 3.14, 5.86) enabled=1 detection=True floorRayY=0.069
+New input attempt 10804 at 536.58
+New input attempt 10805 at 538.58
+sim=539.66 collected=682 hole=(-2.86, 0.00, -0.20) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.51, 1.69, 2.99) fit=1.484 bottom=-0.043 kinematic=False velocity=(0.05, 0.00, -0.01) angular=(0.00, 0.00, -0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.88, 1.56, 0.08) size=(3.41, 3.20, 5.86) enabled=1 detection=True floorRayY=0.069
+New input attempt 10806 at 540.59
+New input attempt 10807 at 542.59
+New input attempt 10808 at 544.59
+sim=544.67 collected=682 hole=(-2.79, 0.00, 0.71) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.51, 1.53, 3.08) fit=1.484 bottom=0.012 kinematic=False velocity=(0.00, -1.06, 1.46) angular=(0.95, -0.01, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.88, 1.59, 0.17) size=(3.42, 3.16, 5.86) enabled=1 detection=True floorRayY=0.069
+New input attempt 10815 at 544.79
+New input attempt 10809 at 546.59
+New input attempt 10810 at 548.59
+sim=549.67 collected=682 hole=(-2.76, 0.00, 1.04) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.50, 0.93, 3.18) fit=1.484 bottom=-0.342 kinematic=False velocity=(-0.11, 0.00, 0.01) angular=(0.01, 0.00, 0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.88, 1.46, 0.32) size=(3.43, 3.61, 5.81) enabled=1 detection=True floorRayY=0.069
+New input attempt 10768 at 550.53
+New input attempt 10769 at 552.14
+New input attempt 10770 at 554.14
+sim=554.68 collected=682 hole=(-12.56, 0.00, 1.64) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.68, 1.59, 1.80) fit=1.484 bottom=0.031 kinematic=False velocity=(0.00, 0.00, 0.25) angular=(0.16, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.62, 1.59, 1.77) size=(5.88, 3.11, 3.10) enabled=1 detection=True floorRayY=0.069
+New input attempt 10771 at 556.14
+New input attempt 10772 at 558.14
+sim=559.68 collected=682 hole=(-12.50, 0.00, 1.62) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.67, 1.56, 1.71) fit=1.484 bottom=0.018 kinematic=False velocity=(0.00, 0.00, -0.27) angular=(-0.18, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.60, 1.58, 1.67) size=(5.88, 3.13, 3.10) enabled=1 detection=True floorRayY=0.069
+New input attempt 10773 at 560.14
+New input attempt 10774 at 562.15
+New input attempt 10775 at 564.15
+sim=564.69 collected=682 hole=(-13.33, 0.00, 1.58) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.88, 1.82, 1.58) fit=1.484 bottom=-0.173 kinematic=False velocity=(0.00, 0.00, 0.10) angular=(0.07, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.80, 1.51, 1.54) size=(5.87, 3.36, 3.11) enabled=1 detection=True floorRayY=0.069
+New input attempt 10776 at 566.15
+New input attempt 10783 at 566.35
+New input attempt 10777 at 568.15
+sim=569.69 collected=682 hole=(-14.01, 0.00, 1.68) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-10.36, 2.36, 1.86) fit=1.484 bottom=-0.551 kinematic=False velocity=(0.00, 0.00, -0.08) angular=(-0.06, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-13.14, 1.43, 1.74) size=(5.74, 3.96, 3.18) enabled=1 detection=True floorRayY=0.069
+New input attempt 10778 at 570.15
+New input attempt 10928 at 572.16
+New input attempt 10929 at 573.76
+sim=574.70 collected=682 hole=(-1.45, 0.00, -10.74) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-0.69, 1.59, -7.81) fit=1.484 bottom=0.019 kinematic=False velocity=(0.06, 0.00, -0.02) angular=(-0.01, 0.00, -0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.46, 1.58, -10.64) size=(3.82, 3.13, 5.78) enabled=1 detection=True floorRayY=0.069
+New input attempt 10930 at 575.76
+New input attempt 10931 at 577.76
+sim=579.70 collected=682 hole=(-1.42, 0.00, -10.77) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.66, 1.60, -7.82) fit=1.484 bottom=0.014 kinematic=False velocity=(-0.17, 0.00, 0.05) angular=(0.03, 0.00, 0.12) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.43, 1.58, -10.65) size=(3.83, 3.14, 5.78) enabled=1 detection=True floorRayY=0.069
+New input attempt 10932 at 579.76
+New input attempt 10933 at 581.77
+New input attempt 10934 at 583.77
+sim=584.71 collected=682 hole=(-1.28, 0.00, -10.36) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.56, 1.43, -7.78) fit=1.484 bottom=-0.032 kinematic=False velocity=(0.19, 0.00, -0.05) angular=(-0.04, 0.00, -0.13) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.33, 1.56, -10.61) size=(3.83, 3.19, 5.78) enabled=1 detection=True floorRayY=0.069
+New input attempt 10935 at 585.77
+New input attempt 10936 at 587.77
+New input attempt 10943 at 587.97
+sim=589.71 collected=682 hole=(-1.13, 0.00, -10.09) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.54, 1.24, -7.73) fit=1.484 bottom=-0.147 kinematic=False velocity=(0.34, 0.01, -0.08) angular=(-0.06, 0.00, -0.23) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.27, 1.52, -10.55) size=(3.79, 3.33, 5.78) enabled=1 detection=True floorRayY=0.069
+New input attempt 10937 at 589.77
+New input attempt 10938 at 591.78
+New input attempt 10848 at 593.78
+sim=594.72 collected=682 hole=(12.57, 0.00, -13.30) aperture=1.689 active=2 target=678/255/Robot Red pivot=(15.44, 1.60, -13.94) fit=1.484 bottom=0.039 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.58, 1.59, -13.30) size=(5.82, 3.09, 3.67) enabled=1 detection=True floorRayY=0.069
+New input attempt 10849 at 595.38
+New input attempt 10850 at 597.38
+New input attempt 10851 at 599.38
+sim=599.72 collected=682 hole=(12.43, 0.00, -13.36) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.41, 1.64, -13.95) fit=1.484 bottom=0.015 kinematic=False velocity=(0.04, 0.00, 0.21) angular=(0.14, 0.00, -0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.55, 1.58, -13.30) size=(5.82, 3.13, 3.67) enabled=1 detection=True floorRayY=0.069
+New input attempt 10852 at 601.38
+New input attempt 10853 at 603.39
+sim=604.73 collected=682 hole=(12.22, 0.00, -13.29) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.38, 1.69, -13.86) fit=1.484 bottom=-0.041 kinematic=False velocity=(-0.06, -0.01, -0.27) angular=(-0.18, 0.00, 0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.52, 1.56, -13.23) size=(5.82, 3.20, 3.67) enabled=1 detection=True floorRayY=0.069
+New input attempt 10854 at 605.39
+New input attempt 10855 at 607.39
+New input attempt 10856 at 609.39
+New input attempt 10863 at 609.59
+sim=609.73 collected=682 hole=(13.01, 0.00, -13.61) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.40, 1.29, -14.13) fit=1.484 bottom=-0.143 kinematic=False velocity=(0.03, -0.01, 0.05) angular=(0.04, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.56, 1.52, -13.45) size=(5.80, 3.32, 3.72) enabled=1 detection=True floorRayY=0.069
+New input attempt 10857 at 611.39
+New input attempt 10858 at 613.40
+sim=614.74 collected=682 hole=(13.35, 0.00, -13.60) aperture=1.689 active=3 target=678/255/Robot Red pivot=(15.50, 1.01, -14.09) fit=1.484 bottom=-0.301 kinematic=False velocity=(0.01, 0.00, 0.07) angular=(0.05, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.69, 1.47, -13.39) size=(5.77, 3.54, 3.73) enabled=1 detection=True floorRayY=0.069
+New input attempt 10896 at 615.40
+New input attempt 10897 at 617.00
+New input attempt 10898 at 619.00
+sim=619.74 collected=682 hole=(17.49, 0.00, -15.10) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.83, 1.56, -13.44) fit=1.484 bottom=0.027 kinematic=False velocity=(-0.03, 0.00, 0.04) angular=(0.03, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.43, 1.58, -15.12) size=(5.39, 3.11, 4.67) enabled=1 detection=True floorRayY=0.069
+New input attempt 10899 at 621.00
+New input attempt 10900 at 623.01
+sim=624.75 collected=682 hole=(17.46, 0.00, -14.96) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.76, 1.54, -13.28) fit=1.484 bottom=0.019 kinematic=False velocity=(-0.01, 0.00, 0.01) angular=(0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.37, 1.58, -14.98) size=(5.38, 3.13, 4.68) enabled=1 detection=True floorRayY=0.069
+New input attempt 10901 at 625.01
+New input attempt 10902 at 627.01
+New input attempt 10903 at 629.01
+New input attempt 10911 at 629.21
+sim=629.75 collected=682 hole=(16.86, 0.00, -15.46) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.68, 1.81, -13.44) fit=1.484 bottom=-0.192 kinematic=False velocity=(-0.07, -0.01, 0.09) angular=(0.06, 0.00, 0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.32, 1.50, -15.15) size=(5.35, 3.39, 4.70) enabled=1 detection=True floorRayY=0.069
+New input attempt 10904 at 631.01
+New input attempt 10905 at 633.02
+sim=634.76 collected=682 hole=(16.34, 0.00, -15.84) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.32, 2.33, -13.71) fit=1.484 bottom=-0.549 kinematic=False velocity=(0.01, 0.00, -0.02) angular=(-0.01, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.06, 1.43, -15.35) size=(5.25, 3.95, 4.63) enabled=1 detection=True floorRayY=0.069
+New input attempt 10906 at 635.02
+New input attempt 10880 at 637.02
+New input attempt 10881 at 638.62
+sim=639.76 collected=682 hole=(17.84, 0.00, -18.96) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.40, 1.58, -17.53) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.01) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.83, 1.59, -18.95) size=(5.55, 3.09, 4.41) enabled=1 detection=True floorRayY=0.069
+New input attempt 10882 at 640.62
+New input attempt 10883 at 642.62
+New input attempt 10884 at 644.63
+sim=644.77 collected=682 hole=(17.94, 0.00, -18.86) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.42, 1.53, -17.50) fit=1.484 bottom=0.017 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.85, 1.58, -18.91) size=(5.55, 3.13, 4.41) enabled=1 detection=True floorRayY=0.069
+New input attempt 10885 at 646.63
+New input attempt 10886 at 648.63
+sim=649.77 collected=682 hole=(18.10, 0.00, -18.78) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.43, 1.44, -17.50) fit=1.484 bottom=-0.041 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.86, 1.56, -18.91) size=(5.55, 3.20, 4.41) enabled=1 detection=True floorRayY=0.069
+New input attempt 10887 at 650.63
+New input attempt 10895 at 650.83
+New input attempt 10888 at 652.63
+New input attempt 10889 at 654.64
+sim=654.78 collected=682 hole=(16.63, 0.00, -19.57) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.26, 1.82, -17.58) fit=1.484 bottom=-0.082 kinematic=False velocity=(-1.26, -0.47, -0.67) angular=(-0.44, 0.00, 0.83) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.70, 1.58, -18.99) size=(5.54, 3.33, 4.41) enabled=1 detection=True floorRayY=0.069
+New input attempt 10890 at 656.64
+New input attempt 10832 at 658.64
+sim=659.78 collected=682 hole=(-14.64, 0.00, -17.36) aperture=1.689 active=2 target=677/255/Robot Red pivot=(-13.94, 1.41, -14.81) fit=1.484 bottom=-0.044 kinematic=False velocity=(0.12, 0.00, -0.03) angular=(-0.02, 0.00, -0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.56, 1.56, -17.68) size=(3.66, 3.21, 5.82) enabled=1 detection=True floorRayY=0.069
+New input attempt 10833 at 660.24
+New input attempt 10834 at 662.24
+New input attempt 10835 at 664.25
+sim=664.79 collected=682 hole=(-14.79, 0.00, -17.82) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-13.97, 1.60, -14.88) fit=1.484 bottom=0.017 kinematic=False velocity=(0.24, 0.00, -0.05) angular=(-0.03, 0.00, -0.16) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.60, 1.58, -17.75) size=(3.67, 3.13, 5.82) enabled=1 detection=True floorRayY=0.069
+New input attempt 10836 at 666.25
+New input attempt 10837 at 668.25
+sim=669.79 collected=682 hole=(-14.80, 0.00, -18.04) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.19, 1.66, -14.89) fit=1.484 bottom=-0.044 kinematic=False velocity=(-0.32, 0.00, 0.07) angular=(0.04, 0.00, 0.22) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.80, 1.56, -17.75) size=(3.65, 3.20, 5.82) enabled=1 detection=True floorRayY=0.069
+New input attempt 10838 at 670.25
+New input attempt 10839 at 672.25
+New input attempt 10840 at 674.26
+New input attempt 10847 at 674.46
+sim=674.80 collected=682 hole=(-14.77, 0.00, -17.12) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.29, 1.26, -14.72) fit=1.484 bottom=-0.142 kinematic=False velocity=(0.15, -0.01, -0.02) angular=(-0.02, 0.00, -0.11) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.87, 1.52, -17.59) size=(3.62, 3.32, 5.82) enabled=1 detection=True floorRayY=0.069
+New input attempt 10841 at 676.26
+New input attempt 10842 at 678.26
+sim=679.80 collected=682 hole=(-14.79, 0.00, -16.78) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.38, 0.89, -14.68) fit=1.484 bottom=-0.349 kinematic=False velocity=(0.02, 0.00, 0.00) angular=(0.00, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.93, 1.46, -17.50) size=(3.60, 3.62, 5.78) enabled=1 detection=True floorRayY=0.069
+sim=684.81 collected=682 hole=(-0.95, 0.00, -10.90) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.40, 1.54, -8.07) fit=1.484 bottom=0.031 kinematic=False velocity=(0.03, 0.00, -0.01) angular=(-0.01, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.10, 1.59, -10.92) size=(3.76, 3.11, 5.80) enabled=1 detection=True floorRayY=0.069
+sim=689.81 collected=682 hole=(-0.94, 0.00, -10.84) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.25, 1.51, -8.10) fit=1.484 bottom=0.017 kinematic=False velocity=(0.23, -0.01, -0.06) angular=(-0.04, 0.00, -0.15) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-0.94, 1.58, -10.94) size=(3.76, 3.13, 5.80) enabled=1 detection=True floorRayY=0.069
+sim=694.82 collected=682 hole=(-1.12, 0.00, -11.65) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.24, 1.77, -8.31) fit=1.484 bottom=-0.174 kinematic=False velocity=(-0.22, -0.01, 0.05) angular=(0.03, 0.00, 0.15) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-0.93, 1.51, -11.15) size=(3.76, 3.36, 5.79) enabled=1 detection=True floorRayY=0.069
+sim=699.82 collected=682 hole=(-0.71, 0.00, -10.45) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.15, 1.25, -8.07) fit=1.484 bottom=-0.143 kinematic=False velocity=(-0.23, -0.01, 0.06) angular=(0.04, 0.00, 0.16) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-0.86, 1.52, -10.90) size=(3.78, 3.32, 5.79) enabled=1 detection=True floorRayY=0.069
+sim=704.83 collected=682 hole=(-2.57, 0.00, -0.08) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-2.22, 1.61, 2.89) fit=1.484 bottom=0.028 kinematic=False velocity=(-0.01, 0.00, 0.00) angular=(0.00, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.57, 1.59, -0.02) size=(3.39, 3.11, 5.87) enabled=1 detection=True floorRayY=0.069
+sim=709.83 collected=682 hole=(-2.58, 0.00, 0.11) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.25, 1.54, 2.92) fit=1.484 bottom=0.017 kinematic=False velocity=(-0.01, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.59, 1.58, 0.01) size=(3.39, 3.13, 5.87) enabled=1 detection=True floorRayY=0.069
+sim=714.84 collected=682 hole=(-2.59, 0.00, 0.29) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.27, 1.46, 2.95) fit=1.484 bottom=-0.033 kinematic=False velocity=(0.02, 0.00, 0.00) angular=(0.00, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.61, 1.56, 0.04) size=(3.38, 3.19, 5.86) enabled=1 detection=True floorRayY=0.069
+sim=719.84 collected=682 hole=(-2.74, 0.00, -1.37) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.32, 2.36, 2.26) fit=1.484 bottom=-0.543 kinematic=False velocity=(-0.04, 0.26, -0.56) angular=(-0.24, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.64, 1.44, -0.50) size=(3.37, 3.96, 5.73) enabled=1 detection=True floorRayY=0.069
+sim=724.84 collected=682 hole=(-12.68, 0.00, 2.00) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.75, 1.60, 2.09) fit=1.484 bottom=0.039 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.68, 1.59, 2.00) size=(5.88, 3.09, 3.15) enabled=1 detection=True floorRayY=0.069
+sim=729.85 collected=682 hole=(-12.83, 0.00, 2.19) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.79, 1.64, 2.31) fit=1.484 bottom=0.013 kinematic=False velocity=(0.00, 0.00, 0.05) angular=(0.03, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.72, 1.58, 2.22) size=(5.88, 3.14, 3.15) enabled=1 detection=True floorRayY=0.069
+sim=734.85 collected=682 hole=(-13.04, 0.00, 2.19) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.83, 1.69, 2.18) fit=1.484 bottom=-0.041 kinematic=False velocity=(0.00, 0.00, 0.04) angular=(0.02, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.76, 1.56, 2.09) size=(5.88, 3.20, 3.15) enabled=1 detection=True floorRayY=0.069
+sim=739.86 collected=682 hole=(-12.15, 0.00, 2.23) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.70, 1.28, 2.31) fit=1.484 bottom=-0.144 kinematic=False velocity=(0.00, 0.00, 0.05) angular=(0.04, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.62, 1.52, 2.19) size=(5.87, 3.33, 3.18) enabled=1 detection=True floorRayY=0.069
+sim=744.86 collected=682 hole=(-11.82, 0.00, 2.25) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.59, 1.04, 2.37) fit=1.484 bottom=-0.284 kinematic=False velocity=(-0.02, 0.00, 0.24) angular=(0.17, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.49, 1.48, 2.21) size=(5.85, 3.52, 3.22) enabled=1 detection=True floorRayY=0.069
+sim=749.87 collected=682 hole=(-14.78, 0.00, -17.80) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.28, 1.54, -14.96) fit=1.484 bottom=0.029 kinematic=False velocity=(-0.07, 0.00, 0.01) angular=(0.01, 0.00, 0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.83, 1.58, -17.84) size=(3.59, 3.11, 5.84) enabled=1 detection=True floorRayY=0.069
+sim=754.87 collected=682 hole=(-15.00, 0.00, -18.18) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.43, 1.66, -15.02) fit=1.484 bottom=-0.044 kinematic=False velocity=(-0.14, 0.00, 0.03) angular=(0.02, 0.00, 0.10) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.98, 1.56, -17.89) size=(3.59, 3.21, 5.83) enabled=1 detection=True floorRayY=0.069
+sim=759.88 collected=682 hole=(-15.11, 0.00, -18.51) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.48, 1.78, -15.12) fit=1.484 bottom=-0.176 kinematic=False velocity=(0.14, 0.00, -0.03) angular=(-0.02, 0.00, -0.10) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.03, 1.51, -17.98) size=(3.60, 3.37, 5.82) enabled=1 detection=True floorRayY=0.069
+sim=764.88 collected=682 hole=(-14.89, 0.00, -16.93) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.53, 2.06, -15.16) fit=1.484 bottom=0.069 kinematic=False velocity=(0.30, -1.67, 1.55) angular=(1.18, 0.01, -0.23) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.09, 1.76, -18.02) size=(3.60, 3.39, 5.82) enabled=1 detection=True floorRayY=0.069
+sim=769.89 collected=682 hole=(12.31, 0.00, -13.48) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.18, 1.61, -14.34) fit=1.484 bottom=0.029 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.34, 1.59, -13.63) size=(5.80, 3.11, 3.75) enabled=1 detection=True floorRayY=0.069
+sim=774.89 collected=682 hole=(12.48, 0.00, -13.59) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.26, 1.55, -14.17) fit=1.484 bottom=0.019 kinematic=False velocity=(0.04, 0.00, 0.15) angular=(0.10, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.41, 1.58, -13.44) size=(5.80, 3.13, 3.75) enabled=1 detection=True floorRayY=0.069
+sim=779.90 collected=682 hole=(12.65, 0.00, -13.68) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.24, 1.45, -14.29) fit=1.484 bottom=-0.039 kinematic=False velocity=(-0.04, -0.01, -0.21) angular=(-0.14, 0.00, 0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.40, 1.56, -13.57) size=(5.80, 3.20, 3.75) enabled=1 detection=True floorRayY=0.069
+sim=784.90 collected=682 hole=(11.01, 0.00, -13.26) aperture=1.689 active=1 target=678/255/Robot Red pivot=(14.56, 2.35, -14.15) fit=1.484 bottom=-0.555 kinematic=False velocity=(-0.03, 0.00, -0.10) angular=(-0.07, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(11.87, 1.43, -13.44) size=(5.66, 3.96, 3.75) enabled=1 detection=True floorRayY=0.069
+sim=789.91 collected=682 hole=(17.32, 0.00, -14.94) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.70, 1.58, -13.22) fit=1.484 bottom=0.040 kinematic=False velocity=(0.01, 0.00, -0.01) angular=(-0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.33, 1.59, -14.95) size=(5.36, 3.09, 4.71) enabled=1 detection=True floorRayY=0.069
+sim=794.91 collected=682 hole=(17.20, 0.00, -15.00) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.76, 1.63, -13.35) fit=1.484 bottom=0.015 kinematic=False velocity=(0.07, 0.00, -0.10) angular=(-0.06, 0.00, -0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.39, 1.58, -15.08) size=(5.36, 3.14, 4.71) enabled=1 detection=True floorRayY=0.069
+sim=799.92 collected=682 hole=(17.12, 0.00, -15.24) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.67, 1.67, -13.30) fit=1.484 bottom=-0.044 kinematic=False velocity=(-0.14, 0.00, 0.20) angular=(0.14, 0.00, 0.10) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.31, 1.56, -15.04) size=(5.35, 3.21, 4.72) enabled=1 detection=True floorRayY=0.069
+sim=804.92 collected=682 hole=(17.79, 0.00, -14.69) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.77, 1.28, -13.24) fit=1.484 bottom=-0.137 kinematic=False velocity=(-0.05, 0.00, 0.07) angular=(0.05, 0.00, 0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.46, 1.52, -15.03) size=(5.31, 3.32, 4.77) enabled=1 detection=True floorRayY=0.069
+sim=809.93 collected=682 hole=(18.12, 0.00, -14.57) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.88, 1.00, -13.23) fit=1.484 bottom=-0.297 kinematic=False velocity=(0.07, 0.00, -0.09) angular=(-0.06, 0.00, -0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.57, 1.47, -14.97) size=(5.31, 3.54, 4.73) enabled=1 detection=True floorRayY=0.069
+sim=814.93 collected=682 hole=(17.80, 0.00, -19.20) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.31, 1.56, -17.79) fit=1.484 bottom=0.028 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.76, 1.59, -19.24) size=(5.53, 3.11, 4.44) enabled=1 detection=True floorRayY=0.069
+sim=819.94 collected=682 hole=(17.43, 0.00, -19.36) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.21, 1.67, -17.74) fit=1.484 bottom=-0.042 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.66, 1.56, -19.20) size=(5.53, 3.20, 4.45) enabled=1 detection=True floorRayY=0.069
+sim=824.94 collected=682 hole=(17.09, 0.00, -19.48) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.14, 1.81, -17.83) fit=1.484 bottom=-0.189 kinematic=False velocity=(0.02, 0.00, -0.05) angular=(-0.03, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.60, 1.50, -19.27) size=(5.52, 3.39, 4.43) enabled=1 detection=True floorRayY=0.069
+sim=829.97 collected=682 hole=(18.47, 0.00, -18.63) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.33, 0.86, -17.55) fit=1.484 bottom=-0.355 kinematic=False velocity=(-0.04, 0.83, 0.10) angular=(0.24, 0.00, -0.28) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.84, 1.48, -18.97) size=(5.47, 3.67, 4.42) enabled=1 detection=True floorRayY=0.069
+sim=834.97 collected=682 hole=(17.40, 0.00, -15.29) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.72, 1.61, -13.40) fit=1.484 bottom=0.028 kinematic=False velocity=(-0.02, 0.00, 0.03) angular=(0.02, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.38, 1.59, -15.17) size=(5.34, 3.11, 4.75) enabled=1 detection=True floorRayY=0.069
+sim=839.98 collected=682 hole=(17.49, 0.00, -15.09) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.81, 1.54, -13.46) fit=1.484 bottom=0.018 kinematic=False velocity=(0.03, 0.00, -0.04) angular=(-0.03, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.47, 1.58, -15.23) size=(5.34, 3.13, 4.75) enabled=1 detection=True floorRayY=0.069
+sim=844.98 collected=682 hole=(17.60, 0.00, -14.94) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.77, 1.45, -13.39) fit=1.484 bottom=-0.038 kinematic=False velocity=(-0.09, -0.01, 0.13) angular=(0.09, 0.00, 0.06) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.44, 1.56, -15.17) size=(5.33, 3.20, 4.76) enabled=1 detection=True floorRayY=0.069
+sim=849.99 collected=682 hole=(16.24, 0.00, -15.88) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.06, 2.38, -13.55) fit=1.484 bottom=-0.575 kinematic=False velocity=(-0.15, 0.02, 0.21) angular=(0.15, 0.00, 0.11) group=0 switch=6 latch=False initial=False activeBoundsCenter=(16.91, 1.43, -15.30) size=(5.15, 4.00, 4.74) enabled=1 detection=True floorRayY=0.069
+sim=854.99 collected=682 hole=(17.53, 0.00, -19.24) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.12, 1.60, -17.76) fit=1.484 bottom=0.028 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.58, 1.59, -19.21) size=(5.53, 3.11, 4.45) enabled=1 detection=True floorRayY=0.069
+sim=860.00 collected=682 hole=(17.49, 0.00, -19.32) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.14, 1.63, -17.79) fit=1.484 bottom=0.010 kinematic=False velocity=(-0.06, 0.00, 0.11) angular=(0.07, 0.00, 0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.59, 1.58, -19.25) size=(5.53, 3.14, 4.45) enabled=1 detection=True floorRayY=0.069
+sim=865.00 collected=682 hole=(17.94, 0.00, -19.20) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.26, 1.45, -17.89) fit=1.484 bottom=-0.038 kinematic=False velocity=(0.03, 0.00, -0.07) angular=(-0.04, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.72, 1.56, -19.35) size=(5.53, 3.20, 4.45) enabled=1 detection=True floorRayY=0.069
+sim=870.01 collected=682 hole=(18.23, 0.00, -19.15) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.27, 1.28, -17.79) fit=1.484 bottom=-0.138 kinematic=False velocity=(0.18, -0.02, -0.29) angular=(-0.20, 0.00, -0.13) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.76, 1.52, -19.29) size=(5.49, 3.32, 4.49) enabled=1 detection=True floorRayY=0.069
+sim=875.01 collected=682 hole=(12.15, 0.00, -13.43) aperture=1.689 active=2 target=678/255/Robot Red pivot=(15.02, 1.59, -14.02) fit=1.484 bottom=0.039 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.15, 1.58, -13.43) size=(5.83, 3.09, 3.62) enabled=1 detection=True floorRayY=0.069
+sim=880.02 collected=682 hole=(12.21, 0.00, -13.45) aperture=1.689 active=2 target=678/255/Robot Red pivot=(15.03, 1.57, -13.94) fit=1.484 bottom=0.027 kinematic=False velocity=(-0.04, -0.01, -0.20) angular=(-0.13, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.16, 1.59, -13.38) size=(5.83, 3.12, 3.60) enabled=1 detection=True floorRayY=0.069
+sim=885.02 collected=682 hole=(11.77, 0.00, -13.50) aperture=1.689 active=1 target=678/255/Robot Red pivot=(14.89, 1.68, -14.26) fit=1.484 bottom=-0.040 kinematic=False velocity=(-0.04, 0.00, -0.20) angular=(-0.14, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.02, 1.56, -13.69) size=(5.83, 3.20, 3.61) enabled=1 detection=True floorRayY=0.069
+sim=890.03 collected=682 hole=(11.40, 0.00, -13.40) aperture=1.689 active=1 target=678/255/Robot Red pivot=(14.79, 1.80, -13.99) fit=1.484 bottom=-0.172 kinematic=False velocity=(0.04, 0.00, 0.20) angular=(0.14, 0.00, -0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(11.93, 1.51, -13.45) size=(5.83, 3.36, 3.58) enabled=1 detection=True floorRayY=0.069
+sim=895.03 collected=682 hole=(13.00, 0.00, -13.56) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.20, 1.04, -13.91) fit=1.484 bottom=-0.281 kinematic=False velocity=(0.01, 0.00, 0.04) angular=(0.03, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.35, 1.48, -13.36) size=(5.80, 3.52, 3.59) enabled=1 detection=True floorRayY=0.069
+sim=900.04 collected=682 hole=(-1.53, 0.00, -10.77) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-1.07, 1.60, -7.76) fit=1.484 bottom=0.013 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.57, 1.58, -10.65) size=(3.56, 3.14, 5.84) enabled=1 detection=True floorRayY=0.069
+sim=905.04 collected=682 hole=(-1.49, 0.00, -10.52) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-1.02, 1.51, -7.73) fit=1.484 bottom=0.017 kinematic=False velocity=(0.02, 0.00, 0.00) angular=(0.00, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.52, 1.58, -10.62) size=(3.56, 3.13, 5.84) enabled=1 detection=True floorRayY=0.069
+sim=910.05 collected=682 hole=(-1.37, 0.00, -10.36) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-1.00, 1.40, -7.75) fit=1.484 bottom=-0.046 kinematic=False velocity=(0.08, 0.00, -0.01) angular=(-0.01, 0.00, -0.06) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.50, 1.56, -10.64) size=(3.56, 3.21, 5.84) enabled=1 detection=True floorRayY=0.069
+sim=915.05 collected=682 hole=(-1.15, 0.00, -9.95) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.78, 1.09, -7.68) fit=1.484 bottom=-0.231 kinematic=False velocity=(-0.08, 0.00, 0.01) angular=(0.01, 0.00, 0.06) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.26, 1.49, -10.55) size=(3.54, 3.44, 5.82) enabled=1 detection=True floorRayY=0.069
+sim=920.06 collected=682 hole=(-2.48, 0.00, -0.29) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-2.15, 1.61, 2.69) fit=1.484 bottom=0.028 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.48, 1.59, -0.23) size=(3.37, 3.11, 5.87) enabled=1 detection=True floorRayY=0.069
+sim=925.06 collected=682 hole=(-2.50, 0.00, -0.35) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.16, 1.63, 2.68) fit=1.484 bottom=0.013 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.49, 1.58, -0.24) size=(3.37, 3.14, 5.87) enabled=1 detection=True floorRayY=0.069
+sim=930.07 collected=682 hole=(-2.47, 0.00, 0.08) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.18, 1.46, 2.74) fit=1.484 bottom=-0.032 kinematic=False velocity=(-0.01, 0.00, 0.00) angular=(0.00, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.50, 1.56, -0.17) size=(3.37, 3.19, 5.87) enabled=1 detection=True floorRayY=0.069
+sim=935.07 collected=682 hole=(-2.46, 0.00, 0.36) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.19, 1.29, 2.79) fit=1.484 bottom=-0.138 kinematic=False velocity=(0.00, -0.01, 0.01) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.51, 1.52, -0.11) size=(3.37, 3.32, 5.86) enabled=1 detection=True floorRayY=0.069
+sim=940.07 collected=682 hole=(-12.74, 0.00, 2.48) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.82, 1.59, 2.63) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.75, 1.59, 2.48) size=(5.88, 3.09, 3.21) enabled=1 detection=True floorRayY=0.069
+sim=945.08 collected=682 hole=(-12.69, 0.00, 2.57) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.82, 1.57, 2.82) fit=1.484 bottom=0.030 kinematic=False velocity=(0.00, 0.00, -0.02) angular=(-0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.75, 1.59, 2.66) size=(5.88, 3.11, 3.21) enabled=1 detection=True floorRayY=0.069
+sim=950.08 collected=682 hole=(-13.11, 0.00, 2.74) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.90, 1.68, 2.86) fit=1.484 bottom=-0.043 kinematic=False velocity=(0.00, 0.00, 0.02) angular=(0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.82, 1.56, 2.70) size=(5.88, 3.20, 3.21) enabled=1 detection=True floorRayY=0.069
+sim=955.09 collected=682 hole=(-13.46, 0.00, 2.78) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-10.02, 1.79, 2.98) fit=1.484 bottom=-0.173 kinematic=False velocity=(0.01, 0.00, -0.14) angular=(-0.10, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.94, 1.51, 2.80) size=(5.86, 3.36, 3.24) enabled=1 detection=True floorRayY=0.069
+sim=960.09 collected=682 hole=(-11.88, 0.00, 2.82) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.68, 0.99, 2.98) fit=1.484 bottom=-0.302 kinematic=False velocity=(0.02, -0.01, -0.20) angular=(-0.14, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.57, 1.47, 2.79) size=(5.84, 3.55, 3.25) enabled=1 detection=True floorRayY=0.069
+sim=965.10 collected=682 hole=(-15.04, 0.00, -17.94) aperture=1.689 active=2 target=677/255/Robot Red pivot=(-14.49, 1.54, -15.11) fit=1.484 bottom=0.028 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.04, 1.58, -17.99) size=(3.60, 3.11, 5.84) enabled=1 detection=True floorRayY=0.069
+sim=970.10 collected=682 hole=(-15.11, 0.00, -17.87) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.43, 1.52, -15.12) fit=1.484 bottom=0.020 kinematic=False velocity=(-0.33, -0.01, 0.06) angular=(0.04, 0.00, 0.22) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.99, 1.58, -18.00) size=(3.59, 3.13, 5.84) enabled=1 detection=True floorRayY=0.069
+sim=975.11 collected=682 hole=(-15.38, 0.00, -18.70) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.75, 1.78, -15.32) fit=1.484 bottom=-0.167 kinematic=False velocity=(-0.17, 0.19, -0.08) angular=(-0.06, -0.02, 0.09) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.32, 1.51, -18.19) size=(3.61, 3.36, 5.82) enabled=1 detection=True floorRayY=0.069
+sim=980.11 collected=682 hole=(-15.45, 0.00, -19.40) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.76, 2.31, -15.79) fit=1.484 bottom=-0.544 kinematic=False velocity=(0.11, 0.00, -0.03) angular=(-0.02, 0.00, -0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.31, 1.43, -18.54) size=(3.58, 3.94, 5.70) enabled=1 detection=True floorRayY=0.069
+sim=985.12 collected=682 hole=(-1.40, 0.00, -11.03) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.94, 1.58, -8.07) fit=1.484 bottom=0.027 kinematic=False velocity=(-0.03, 0.00, 0.00) angular=(0.00, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.40, 1.58, -10.97) size=(3.52, 3.11, 5.85) enabled=1 detection=True floorRayY=0.069
+sim=990.12 collected=682 hole=(-1.31, 0.00, -11.11) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.95, 1.60, -8.08) fit=1.484 bottom=0.014 kinematic=False velocity=(-0.03, 0.00, 0.01) angular=(0.00, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.40, 1.58, -10.98) size=(3.52, 3.14, 5.85) enabled=1 detection=True floorRayY=0.069
+sim=995.13 collected=682 hole=(-1.27, 0.00, -10.67) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.85, 1.38, -8.09) fit=1.484 bottom=-0.059 kinematic=False velocity=(0.07, 0.00, -0.01) angular=(-0.01, 0.00, -0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.28, 1.55, -10.99) size=(3.50, 3.22, 5.85) enabled=1 detection=True floorRayY=0.069
+sim=1000.13 collected=682 hole=(-1.21, 0.00, -10.25) aperture=1.689 active=2 target=683/255/Robot Red pivot=(-0.89, 1.08, -7.99) fit=1.484 bottom=-0.238 kinematic=False velocity=(0.05, 0.00, -0.01) angular=(0.00, 0.00, -0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.33, 1.49, -10.86) size=(3.52, 3.45, 5.83) enabled=1 detection=True floorRayY=0.069
+sim=1005.14 collected=682 hole=(-2.44, 0.00, -0.01) aperture=1.689 active=2 target=675/255/Robot Red pivot=(-2.07, 1.44, 2.61) fit=1.484 bottom=-0.047 kinematic=False velocity=(0.05, 0.00, 0.00) angular=(0.00, 0.00, -0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.45, 1.56, -0.30) size=(3.42, 3.21, 5.86) enabled=1 detection=True floorRayY=0.069
+sim=1010.14 collected=682 hole=(-2.44, 0.00, -0.31) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.02, 1.56, 2.53) fit=1.484 bottom=0.027 kinematic=False velocity=(-0.28, -0.01, 0.03) angular=(0.02, 0.00, 0.18) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.40, 1.58, -0.37) size=(3.42, 3.12, 5.86) enabled=1 detection=True floorRayY=0.069
+sim=1015.15 collected=682 hole=(-2.40, 0.00, -0.73) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-1.99, 1.68, 2.46) fit=1.484 bottom=-0.044 kinematic=False velocity=(0.29, -0.01, -0.04) angular=(-0.03, 0.00, -0.20) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.37, 1.56, -0.45) size=(3.42, 3.20, 5.86) enabled=1 detection=True floorRayY=0.069
+sim=1020.15 collected=682 hole=(-2.41, 0.00, -1.09) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-1.89, 1.79, 2.32) fit=1.484 bottom=-0.173 kinematic=False velocity=(-0.12, 0.00, 0.02) angular=(0.01, 0.00, 0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.28, 1.51, -0.57) size=(3.44, 3.36, 5.85) enabled=1 detection=True floorRayY=0.069
+sim=1025.16 collected=682 hole=(-2.28, 0.00, 0.50) aperture=1.689 active=1 target=675/255/Robot Red pivot=(-2.02, 0.91, 2.63) fit=1.484 bottom=-0.348 kinematic=False velocity=(-0.12, 0.00, 0.01) angular=(0.01, 0.00, 0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-2.39, 1.46, -0.22) size=(3.42, 3.62, 5.81) enabled=1 detection=True floorRayY=0.069
+sim=1030.16 collected=682 hole=(-12.80, 0.00, 3.36) aperture=1.689 active=2 target=673/255/Robot Red pivot=(-9.93, 1.55, 3.54) fit=1.484 bottom=0.029 kinematic=False velocity=(0.00, 0.00, 0.04) angular=(0.03, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.85, 1.58, 3.37) size=(5.88, 3.11, 3.23) enabled=1 detection=True floorRayY=0.069
+sim=1035.17 collected=682 hole=(-12.75, 0.00, 3.45) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-9.92, 1.53, 3.61) fit=1.484 bottom=0.017 kinematic=False velocity=(0.00, 0.00, -0.05) angular=(-0.03, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-12.85, 1.58, 3.43) size=(5.88, 3.13, 3.23) enabled=1 detection=True floorRayY=0.069
+sim=1040.17 collected=682 hole=(-13.57, 0.00, 3.29) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-10.13, 1.78, 3.51) fit=1.484 bottom=-0.173 kinematic=False velocity=(-0.01, 0.00, 0.08) angular=(0.06, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-13.04, 1.51, 3.31) size=(5.86, 3.36, 3.25) enabled=1 detection=True floorRayY=0.069
+sim=1045.18 collected=682 hole=(-14.25, 0.00, 3.25) aperture=1.689 active=1 target=673/255/Robot Red pivot=(-10.60, 2.32, 3.58) fit=1.484 bottom=-0.547 kinematic=False velocity=(0.00, 0.00, 0.03) angular=(0.03, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-13.39, 1.43, 3.36) size=(5.74, 3.95, 3.28) enabled=1 detection=True floorRayY=0.069
+sim=1050.18 collected=682 hole=(-15.15, 0.00, -18.31) aperture=1.689 active=2 target=677/255/Robot Red pivot=(-14.50, 1.56, -15.45) fit=1.484 bottom=0.038 kinematic=False velocity=(0.07, 0.00, -0.01) angular=(-0.01, 0.00, -0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.09, 1.59, -18.33) size=(3.63, 3.09, 5.83) enabled=1 detection=True floorRayY=0.069
+sim=1055.19 collected=682 hole=(-14.95, 0.00, -18.49) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.39, 1.61, -15.50) fit=1.484 bottom=0.014 kinematic=False velocity=(-0.23, 0.00, 0.04) angular=(0.03, 0.00, 0.15) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.97, 1.58, -18.37) size=(3.63, 3.13, 5.83) enabled=1 detection=True floorRayY=0.069
+sim=1060.19 collected=682 hole=(-14.97, 0.00, -18.04) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.63, 1.43, -15.42) fit=1.484 bottom=-0.040 kinematic=False velocity=(0.03, 0.00, 0.00) angular=(0.00, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.21, 1.56, -18.29) size=(3.62, 3.20, 5.83) enabled=1 detection=True floorRayY=0.069
+sim=1065.20 collected=682 hole=(-14.97, 0.00, -17.80) aperture=1.689 active=1 target=677/255/Robot Red pivot=(-14.44, 1.26, -15.41) fit=1.484 bottom=-0.139 kinematic=False velocity=(-0.05, 0.00, 0.01) angular=(0.01, 0.00, 0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-14.95, 1.52, -18.29) size=(3.56, 3.32, 5.83) enabled=1 detection=True floorRayY=0.069
+sim=1070.20 collected=682 hole=(12.06, 0.00, -13.58) aperture=1.689 active=2 target=678/255/Robot Red pivot=(14.94, 1.59, -14.13) fit=1.484 bottom=0.039 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.06, 1.59, -13.58) size=(5.84, 3.09, 3.59) enabled=1 detection=True floorRayY=0.069
+sim=1075.21 collected=682 hole=(11.95, 0.00, -13.41) aperture=1.689 active=1 target=678/255/Robot Red pivot=(14.94, 1.64, -13.94) fit=1.484 bottom=0.013 kinematic=False velocity=(0.03, 0.00, 0.17) angular=(0.11, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.06, 1.58, -13.39) size=(5.84, 3.14, 3.59) enabled=1 detection=True floorRayY=0.069
+sim=1080.21 collected=682 hole=(11.74, 0.00, -13.36) aperture=1.689 active=1 target=678/255/Robot Red pivot=(14.92, 1.69, -13.81) fit=1.484 bottom=-0.040 kinematic=False velocity=(-0.02, 0.00, -0.09) angular=(-0.06, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.05, 1.56, -13.27) size=(5.84, 3.20, 3.58) enabled=1 detection=True floorRayY=0.069
+sim=1085.22 collected=682 hole=(12.63, 0.00, -13.43) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.07, 1.27, -13.90) fit=1.484 bottom=-0.155 kinematic=False velocity=(1.90, -1.64, -0.35) angular=(-0.24, 0.00, -1.29) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.20, 1.51, -13.35) size=(5.83, 3.33, 3.59) enabled=1 detection=True floorRayY=0.069
+sim=1090.22 collected=682 hole=(12.97, 0.00, -13.50) aperture=1.689 active=1 target=678/255/Robot Red pivot=(15.16, 1.03, -13.87) fit=1.484 bottom=-0.286 kinematic=False velocity=(0.01, 0.00, 0.09) angular=(0.06, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(12.31, 1.47, -13.36) size=(5.81, 3.52, 3.55) enabled=1 detection=True floorRayY=0.069
+sim=1095.23 collected=682 hole=(17.48, 0.00, -15.15) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.79, 1.56, -13.43) fit=1.484 bottom=0.029 kinematic=False velocity=(0.03, 0.00, -0.04) angular=(-0.02, 0.00, -0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.48, 1.59, -15.23) size=(5.31, 3.11, 4.79) enabled=1 detection=True floorRayY=0.069
+sim=1100.23 collected=682 hole=(17.51, 0.00, -15.09) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.76, 1.54, -13.37) fit=1.484 bottom=0.018 kinematic=False velocity=(-0.09, 0.00, 0.11) angular=(0.07, 0.00, 0.06) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.45, 1.58, -15.17) size=(5.31, 3.13, 4.79) enabled=1 detection=True floorRayY=0.069
+sim=1105.24 collected=682 hole=(16.84, 0.00, -15.57) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.51, 1.81, -13.35) fit=1.484 bottom=-0.186 kinematic=False velocity=(0.00, -0.01, -0.01) angular=(-0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.22, 1.50, -15.16) size=(5.29, 3.38, 4.79) enabled=1 detection=True floorRayY=0.069
+sim=1110.24 collected=682 hole=(16.37, 0.00, -16.03) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.23, 2.33, -13.75) fit=1.484 bottom=-0.547 kinematic=False velocity=(-0.03, 0.00, 0.04) angular=(0.03, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.06, 1.43, -15.49) size=(5.18, 3.95, 4.73) enabled=1 detection=True floorRayY=0.069
+sim=1115.25 collected=682 hole=(17.52, 0.00, -19.46) aperture=1.689 active=3 target=680/255/Robot Red pivot=(19.98, 1.58, -17.85) fit=1.484 bottom=0.040 kinematic=False velocity=(-0.05, 0.00, 0.08) angular=(0.05, 0.00, 0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.48, 1.59, -19.38) size=(5.49, 3.09, 4.52) enabled=1 detection=True floorRayY=0.069
+sim=1120.25 collected=682 hole=(17.43, 0.00, -19.54) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.07, 1.63, -18.04) fit=1.484 bottom=0.015 kinematic=False velocity=(-0.09, -0.01, 0.15) angular=(0.10, 0.00, 0.06) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.57, 1.58, -19.56) size=(5.49, 3.13, 4.51) enabled=1 detection=True floorRayY=0.069
+sim=1125.26 collected=682 hole=(17.89, 0.00, -19.44) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.11, 1.42, -18.06) fit=1.484 bottom=-0.057 kinematic=False velocity=(0.00, -0.01, 0.02) angular=(0.01, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.60, 1.55, -19.57) size=(5.50, 3.22, 4.50) enabled=1 detection=True floorRayY=0.069
+sim=1130.26 collected=682 hole=(18.07, 0.00, -19.31) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.15, 1.27, -18.03) fit=1.484 bottom=-0.144 kinematic=False velocity=(-0.07, 0.00, 0.12) angular=(0.08, 0.00, 0.05) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.69, 1.52, -19.61) size=(5.45, 3.32, 4.57) enabled=1 detection=True floorRayY=0.069
+sim=1135.27 collected=682 hole=(17.48, 0.00, -15.47) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.72, 1.59, -13.58) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.47, 1.59, -15.47) size=(5.25, 3.09, 4.87) enabled=1 detection=True floorRayY=0.069
+sim=1140.27 collected=682 hole=(17.36, 0.00, -15.57) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.70, 1.64, -13.60) fit=1.484 bottom=0.010 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.46, 1.58, -15.49) size=(5.24, 3.14, 4.87) enabled=1 detection=True floorRayY=0.069
+sim=1145.28 collected=682 hole=(17.20, 0.00, -15.70) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.66, 1.68, -13.64) fit=1.484 bottom=-0.042 kinematic=False velocity=(0.00, 0.00, -0.01) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.42, 1.56, -15.53) size=(5.24, 3.20, 4.86) enabled=1 detection=True floorRayY=0.069
+sim=1150.28 collected=682 hole=(17.94, 0.00, -15.12) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.81, 1.29, -13.53) fit=1.484 bottom=-0.138 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.58, 1.52, -15.42) size=(5.23, 3.32, 4.86) enabled=1 detection=True floorRayY=0.069
+sim=1155.29 collected=682 hole=(18.16, 0.00, -14.87) aperture=1.689 active=3 target=681/255/Robot Red pivot=(19.76, 0.87, -13.48) fit=1.484 bottom=-0.371 kinematic=False velocity=(-0.02, 0.00, 0.02) angular=(0.02, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.56, 1.46, -15.32) size=(5.20, 3.65, 4.83) enabled=1 detection=True floorRayY=0.069
+sim=1160.29 collected=682 hole=(17.71, 0.00, -19.83) aperture=1.689 active=3 target=680/255/Robot Red pivot=(19.98, 1.55, -18.12) fit=1.484 bottom=0.022 kinematic=False velocity=(0.00, 0.00, 0.01) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.54, 1.59, -19.74) size=(5.43, 3.13, 4.61) enabled=1 detection=True floorRayY=0.069
+sim=1165.29 collected=682 hole=(17.77, 0.00, -19.91) aperture=1.689 active=3 target=680/255/Robot Red pivot=(20.08, 1.53, -18.33) fit=1.484 bottom=0.007 kinematic=False velocity=(-0.03, 0.00, 0.05) angular=(0.03, 0.00, 0.02) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.64, 1.58, -19.96) size=(5.43, 3.14, 4.61) enabled=1 detection=True floorRayY=0.069
+sim=1170.30 collected=682 hole=(17.00, 0.00, -20.29) aperture=1.689 active=3 target=680/255/Robot Red pivot=(19.89, 1.81, -18.39) fit=1.484 bottom=-0.189 kinematic=False velocity=(0.05, 0.00, -0.07) angular=(-0.05, 0.00, -0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.47, 1.50, -20.00) size=(5.42, 3.38, 4.61) enabled=1 detection=True floorRayY=0.069
+sim=1175.30 collected=682 hole=(16.49, 0.00, -20.71) aperture=1.689 active=3 target=680/255/Robot Red pivot=(19.47, 2.35, -18.59) fit=1.484 bottom=-0.554 kinematic=False velocity=(-0.04, 0.00, 0.05) angular=(0.04, 0.00, 0.03) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.21, 1.43, -20.21) size=(5.26, 3.96, 4.61) enabled=1 detection=True floorRayY=0.069
+sim=1180.31 collected=682 hole=(11.87, 0.00, -14.04) aperture=1.689 active=2 target=678/255/Robot Red pivot=(14.82, 1.60, -14.51) fit=1.484 bottom=0.027 kinematic=False velocity=(0.01, 0.00, 0.06) angular=(0.04, 0.00, -0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(11.94, 1.58, -14.01) size=(5.85, 3.11, 3.54) enabled=1 detection=True floorRayY=0.069
+sim=1185.31 collected=682 hole=(12.08, 0.00, -13.88) aperture=1.689 active=2 target=678/255/Robot Red pivot=(14.88, 1.54, -14.36) fit=1.484 bottom=0.017 kinematic=False velocity=(0.01, 0.00, 0.03) angular=(0.02, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(11.99, 1.58, -13.86) size=(5.85, 3.13, 3.53) enabled=1 detection=True floorRayY=0.069
+sim=1190.32 collected=682 hole=(12.25, 0.00, -13.99) aperture=1.689 active=2 target=678/255/Robot Red pivot=(14.83, 1.41, -14.35) fit=1.484 bottom=-0.060 kinematic=False velocity=(-0.01, 0.00, -0.05) angular=(-0.04, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(11.94, 1.55, -13.86) size=(5.84, 3.22, 3.53) enabled=1 detection=True floorRayY=0.069
+sim=1195.32 collected=682 hole=(10.50, 0.00, -13.86) aperture=1.689 active=1 target=678/255/Robot Red pivot=(14.57, 1.81, -14.54) fit=1.484 bottom=-0.077 kinematic=False velocity=(-1.41, -0.46, 0.11) angular=(0.07, 0.00, 0.93) group=0 switch=6 latch=False initial=False activeBoundsCenter=(11.69, 1.58, -14.07) size=(5.84, 3.32, 3.51) enabled=1 detection=True floorRayY=0.069

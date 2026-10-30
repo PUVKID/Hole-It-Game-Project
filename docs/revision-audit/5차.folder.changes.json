@@ -1,0 +1,562 @@
+[
+  {
+    "path": "Art/Coton-Art-Prompts.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1734,
+    "before_sha256": null,
+    "after_sha256": "8db61b4446ea45cf3ba9761622e548eadfbb32760c9d9d74a3e3f5016925c4c1"
+  },
+  {
+    "path": "Previews/DesktopFrameTimes.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 180,
+    "before_sha256": null,
+    "after_sha256": "696fb5d922157be8517d956c4840876f82d21e627cf11a4888742a3e9ecf8887"
+  },
+  {
+    "path": "SHA256.json",
+    "status": "수정",
+    "before_bytes": 612668,
+    "after_bytes": 1519459,
+    "before_sha256": "10b958792592bba6361d14fbac8961137244140357d632092224bb49a03151a8",
+    "after_sha256": "6d44eaada1b0949ff774d762fd0ab55609875d43d05bb68fd3386cab74974650"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceBuilder.cs",
+    "status": "수정",
+    "before_bytes": 9189,
+    "after_bytes": 11436,
+    "before_sha256": "2053c606fda3e62ee30f053005054a3862a898abacdd4f5b85e1e5f9db4f5113",
+    "after_sha256": "e2e8d5af2110615dfdbadfa5f52eb0c1087caa1f25b21aa2173ef33a8a353062"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceCollisionBuilder.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1400,
+    "before_sha256": null,
+    "after_sha256": "355e5751a211a5bf8e5a7263a9ae190b55831a33e23a2b14aa047e232c2e51e5"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceCollisionBuilder.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "524734297be46e220f5c68067d3e2a9ade5a2d1a179a5fd2f2eb60e9b7c5624e"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceFifthBuilder.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 2285,
+    "before_sha256": null,
+    "after_sha256": "6a93c416c9d51a2f60ec6aee47bba2c4a757a39a1674c410ec63ef80ab0f9eaa"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceFifthBuilder.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "c370250b70cef04d34bd06e4b75a54120ed578a3a021c3570d97fa4bdee243a0"
+  },
+  {
+    "path": "Source/Assets/Resources/CotonArt.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 172,
+    "before_sha256": null,
+    "after_sha256": "dffd8a24f528ede9ecdf9688f206962d93256060d289aad43c4a5c43c829d6a9"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 172,
+    "before_sha256": null,
+    "after_sha256": "73696d038df0b6fc85e265926990ce30be2e7aa1897fa02656f95477a1094bd1"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/Bomb.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 145964,
+    "before_sha256": null,
+    "after_sha256": "a7264a803880dd46cec84b9cd96d5309ead999ca102e8cc150cde25e896e805e"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/Bomb.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "0c90d325dc11d011a8269c60354e0f70eb6603180c80ee0796feb8c64372c544"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/BoosteCollect.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 230444,
+    "before_sha256": null,
+    "after_sha256": "a24d20270a5f8965ad393ec24799288f9c2878c756e34f40f08e837683f5b78a"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/BoosteCollect.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "6094adad7ec8238936f26f362dd5002e54b246183d837afcff092426d782b367"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/Freeze.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 631340,
+    "before_sha256": null,
+    "after_sha256": "790fa5a1ea51dc1cbad83eef8e7c94c30cc162878ced3e6e11549cfffb237a03"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/Freeze.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "40816d6da3db4e6449119571764d202e810a8deedb6b4b2a7f127c34e36e5a23"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/GameFail.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 548396,
+    "before_sha256": null,
+    "after_sha256": "ad33c55c29dc02d3842e76e8c2a5861aa3ddb9f3e1562208ace01a0b5155f1b3"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/GameFail.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "32f46c2c8e1b7e25cda0cdb371721ec6341bc847d011e6a45f0472753fb6ca40"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/_button_click_new.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 4156,
+    "before_sha256": null,
+    "after_sha256": "51dbe6496d34222116b547698178e7f1425439bb07d1eb8d630ae40a7cf5a120"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/_button_click_new.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "a046132983468bf7f8db0a11fe4743b02ef4aa7401e70ee8742b3cb518034e43"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/_win.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 352844,
+    "before_sha256": null,
+    "after_sha256": "c58b42144f4bf81978271a69f6b2376074ba21b7e469f7080853ca9187af4187"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/_win.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "dde185a155de6a01a9dd6440a432c301175116c058f75ff371434b269c24932d"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/goal-complete.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 202796,
+    "before_sha256": null,
+    "after_sha256": "b3862211dd8989a064225dc9b3d72ac9c44b05fa4e3e980148a37e56e630a42e"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/goal-complete.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "fbcd34c344b94092941014d9f6625f6998d0221814124a7bbca366a40322ae00"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/hole_grow_01.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 152108,
+    "before_sha256": null,
+    "after_sha256": "727bf52fb4dca9749ee7a08cb3208d97ccd8f612c6c2ebf9460256261a0a639a"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/hole_grow_01.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "7c6958b911c660e7b1ca60aef1d8a1969aca55d9824795ff5819bf645598b8ca"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/item-collect-bubble.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 55340,
+    "before_sha256": null,
+    "after_sha256": "f4ebafceb884cb5dca7eb1311767df16e6d5dfc0ca7927274109c10eea5b502a"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/item-collect-bubble.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "020306df9e5f2779e4a87594a50156c62a10de9593df6943ea3a3e24330b5ed7"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/speed_booster.wav",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 138284,
+    "before_sha256": null,
+    "after_sha256": "54ce9538176f8671b1d0f1c848f6873ec6869850b3d6beeb45ce2b4219d13bd8"
+  },
+  {
+    "path": "Source/Assets/Resources/ReferenceAudio/speed_booster.wav.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 485,
+    "before_sha256": null,
+    "after_sha256": "5636fd35acfb572b0db71d70d4a0126fdae7be178a21bc22b0b4b1053658fc33"
+  },
+  {
+    "path": "Source/Assets/Scenes/Main.unity",
+    "status": "수정",
+    "before_bytes": 4859,
+    "after_bytes": 4851,
+    "before_sha256": "da198664f27c559776c313442dc39aeefdac2e045b60ba86eb587f060c625999",
+    "after_sha256": "597aa8a2be879bf7ee4b68deff92c498b46c16d9339e051ac49af1389693dbf4"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceCapture.cs",
+    "status": "수정",
+    "before_bytes": 2862,
+    "after_bytes": 4495,
+    "before_sha256": "eebb0307224d409e91557d7a4f9e8fb4a472275df605ae7dd8e09ec7436af80e",
+    "after_sha256": "194fac840f08f51aadcee2a308e1bff357ed742032fc327e38ecf3277b75425a"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceCatalog.cs",
+    "status": "수정",
+    "before_bytes": 1858,
+    "after_bytes": 2109,
+    "before_sha256": "87ebb9910d2f1da09e8454b8c2deb25de3592531fc796b77a695d0ed16672fa9",
+    "after_sha256": "caaacb8a3e0fbbe0c87b5876c2be7f045d5f4523fd7aa911c32666d42fe08b21"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.Physics.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 11642,
+    "before_sha256": null,
+    "after_sha256": "f21c035141690d577d5a320ee00ccb130256de2d8f7b0e89ca4f34aa8f3244f0"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.Physics.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "485d6bf92dd86783ce6f6bd795892ae97b539a43c62cf9783299f47041b273ca"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.Presentation.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 6793,
+    "before_sha256": null,
+    "after_sha256": "850146253bd36afe651967923ac00b9cbab6e57677c1500ca32faa2c11aabb09"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.Presentation.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "249d9cee0c5b722b202948ca0bb3c25d4d7512992501faced83bc27a44fc6f81"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.Profile.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 6594,
+    "before_sha256": null,
+    "after_sha256": "d4f921b95cfdf88d411f5d2129c447916d7ae047bc1f3033b3bdbbad406ed25d"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.Profile.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "5981c4b2f67385fc460d410e65e123366fe43203f2fd55a0950493ea7de20ff6"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.cs",
+    "status": "수정",
+    "before_bytes": 39974,
+    "after_bytes": 40637,
+    "before_sha256": "ccf6b671612356177299229c2ed49f6e4f54d6da9cbc1739433f90e664277744",
+    "after_sha256": "bbdca92342af1310ff3d79d07d68421ef7b40ebf590a9f6f7fe2b99c8f63d368"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferencePanelMotion.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 331,
+    "before_sha256": null,
+    "after_sha256": "7b95942f051e7cc47fa5f2b562f409d6f2d5025c5631300b96b5cd01a7ee813b"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferencePanelMotion.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "e1ea7017c30c6b2d689b31e975695947f6c1b186152969d5a3222991c7f7dc9d"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceProfile.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1213,
+    "before_sha256": null,
+    "after_sha256": "8574c1349a54fa9da116e68d94aaf68b48714d9825faf00644bba76e695a0af6"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceProfile.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "5477d7dcacea79db0b106c6a31458e2a6e3a54b5b121a7caaf5c649d4ebf0d70"
+  },
+  {
+    "path": "Source/Assets/Shaders/ReferenceSoft.shader",
+    "status": "수정",
+    "before_bytes": 509,
+    "after_bytes": 1150,
+    "before_sha256": "1ac016098b0c52e9e97213957d30831d00c13449b194550ea0e80e64169d7839",
+    "after_sha256": "674e2efef24a4ed0d79d0283f153cdd62156191755e8e4d3c7e939933d34034e"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceFifthTests.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 4878,
+    "before_sha256": null,
+    "after_sha256": "6749aeb06f56a22be4440618cf94a6b4cddd48b4e0e2c81ce3e7b7dfbe4be656"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceFifthTests.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "462f188e084f67006a8d60f53842fcc9943ab4c946329d1a143ba40c53973c6c"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceProfileTests.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1031,
+    "before_sha256": null,
+    "after_sha256": "366e0862a052b26315a1e8dbb39793bacae2bd706d1d18b9e1c8246fd24defef"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceProfileTests.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "38eccdb1945b6f6f98938128ab06f4cc4b0579da6105052a51d8dcbec95fb353"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceTests.cs",
+    "status": "수정",
+    "before_bytes": 7663,
+    "after_bytes": 7782,
+    "before_sha256": "5ec705049c47096b263c2007fcd3d0469d4c394a0339bea0cc0be933d1dd97a0",
+    "after_sha256": "ae12fe4f1633979fdf9325509256e0f6adbaee3072e3d8e3bb32506dcf795dd6"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceTouchTests.cs",
+    "status": "수정",
+    "before_bytes": 5894,
+    "after_bytes": 7120,
+    "before_sha256": "34f378ec9313180be4c40a14cd620d815300a742219cfc3d5dfd75b4945ac924",
+    "after_sha256": "d32239d0ec37a816a23892c098447f793786a0a8d4a389bf0156bfb07b041773"
+  },
+  {
+    "path": "Source/ProjectSettings/DynamicsManager.asset",
+    "status": "수정",
+    "before_bytes": 1518,
+    "after_bytes": 1562,
+    "before_sha256": "3d0ff5d691bdd369472d64bf741e10ea99f2094c2cd62406551c1f1b9b97eb5e",
+    "after_sha256": "b48f57176aa8207f256ed2c9d2688fd54b2a983aa7c6e62ea6293123a3b156a8"
+  },
+  {
+    "path": "Source/ProjectSettings/ProjectSettings.asset",
+    "status": "수정",
+    "before_bytes": 22453,
+    "after_bytes": 22453,
+    "before_sha256": "28fd68e791cca09c767c93b738fc6de6ae7205296bb68caafea932d094e9d1d9",
+    "after_sha256": "1273b3b61e3ff647cc429982f2c4c3ff25663171b33b5d0df149f1749dacc4e2"
+  },
+  {
+    "path": "Source/ProjectSettings/QualitySettings.asset",
+    "status": "수정",
+    "before_bytes": 1824,
+    "after_bytes": 1824,
+    "before_sha256": "442918104ff80b758b7582a4f0a1261963b3412969ea97bae3799e6e16d07aca",
+    "after_sha256": "0c4afeed746e29b610db1a67fbf11eba433b35f53bd664a8bad259aaa8998621"
+  },
+  {
+    "path": "Source/README.txt",
+    "status": "수정",
+    "before_bytes": 1702,
+    "after_bytes": 1422,
+    "before_sha256": "04aca1e764d7ebf6b86c60ccc4c4ae1a854e2e4a7900b0e7ce02a4e04ccda93d",
+    "after_sha256": "3a94c2f836788cb7a23dbf257b92aa1967517e80a050d36b206c161fe64c7605"
+  },
+  {
+    "path": "Verification/AndroidBuild.txt",
+    "status": "수정",
+    "before_bytes": 48,
+    "after_bytes": 48,
+    "before_sha256": "47da678ff7adc4a034dd68b8e2cc0796d8f8796a7b4cb5912c810a39084ea1b2",
+    "after_sha256": "5607d35e12ec90b100c230238848c7c2a5e3cb5575e7ce96609699c339009a33"
+  },
+  {
+    "path": "Verification/Collision-Hulls.json",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 2116,
+    "before_sha256": null,
+    "after_sha256": "74787934d02875222492cefac6f35802234aa642769916e6dc0eb2ca9eaf37a3"
+  },
+  {
+    "path": "Verification/FifthStageAudit.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 23401,
+    "before_sha256": null,
+    "after_sha256": "02adc7fde28a5275ff16de79ca338748afb734056a320dac56b1fef81f9a1255"
+  },
+  {
+    "path": "Verification/Input-Fix.txt",
+    "status": "이전만 존재",
+    "before_bytes": 1041,
+    "after_bytes": null,
+    "before_sha256": "87a5bd1ba629b6ce822586164443317032d44addd1c5f233b28a77633e923182",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/Reference-Comparison.txt",
+    "status": "수정",
+    "before_bytes": 3737,
+    "after_bytes": 4032,
+    "before_sha256": "ca7eeff8e50e1af72b3fe9daa1f3cf793f976e9b5e481727c7c2d26a5cdb9e90",
+    "after_sha256": "de3df8b97f7e49aa16623aeb65047ebfa4675be4682cbcff0ffe45dfd29b6ce7"
+  },
+  {
+    "path": "Verification/ReferenceCampaign.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1507,
+    "before_sha256": null,
+    "after_sha256": "9de1ba93d78c007887962214954d96053b07a6c12102de4f65a0c39a9f00da65"
+  },
+  {
+    "path": "Verification/ReferenceStructures.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1645,
+    "before_sha256": null,
+    "after_sha256": "1e292333d5eedfaaa825988f544ccd4d767c383cdcde2e6930a5d4189ad2d661"
+  },
+  {
+    "path": "Verification/game-settings.json",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 2624,
+    "before_sha256": null,
+    "after_sha256": "e8f34acb355d8921a48153421b694ec7e54c1ca0725cf8869bdb65082ab502d7"
+  },
+  {
+    "path": "Verification/package-size.json",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 5624,
+    "before_sha256": null,
+    "after_sha256": "9a0ce093c6d7ca3b8d4a848e015a7f45c6d2a357d9932e4264bf0d9900272b6e"
+  },
+  {
+    "path": "Verification/reference4-apk-verification.txt",
+    "status": "이전만 존재",
+    "before_bytes": 6100,
+    "after_bytes": null,
+    "before_sha256": "507545dada6fa3c232538388ad79c918564e67234a318762ba1dd7ebb779f9ee",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/reference4-regression-tests.xml",
+    "status": "이전만 존재",
+    "before_bytes": 5001,
+    "after_bytes": null,
+    "before_sha256": "96dd484daee7e9d57d48bde5ef1fe5ee172b5e2abe9882aab2f70f8fffe840a2",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/reference4-touch-tests.xml",
+    "status": "이전만 존재",
+    "before_bytes": 3218,
+    "after_bytes": null,
+    "before_sha256": "cd24c307c7c74e7208675967d957271c10693ae6362c424e4f2bbdf9ca0b1362",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/reference5-apk-verification.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 6100,
+    "before_sha256": null,
+    "after_sha256": "7aa43eac9ae0703790f0f2c67cca8e7e64447b1ee2c7af1f8307462477bb2150"
+  },
+  {
+    "path": "Verification/reference5-final-tests.xml",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 15977,
+    "before_sha256": null,
+    "after_sha256": "a0dd11a17137a233f33a1f89e03788596c433dda289fdce97bff8366c3f00236"
+  },
+  {
+    "path": "읽어주세요.txt",
+    "status": "수정",
+    "before_bytes": 1586,
+    "after_bytes": 2050,
+    "before_sha256": "a885673d4b32e4dcb60d9a0a18725b43f1e0f5317373c54e79cce3735b362aeb",
+    "after_sha256": "2b55e7f51e33c52d4b21fe440c13cc536a53164a7e10d1109dc92af9a7ac6d70"
+  }
+]

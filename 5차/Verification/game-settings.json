@@ -1,0 +1,128 @@
+{
+  "id": "game_settings",
+  "gold_per_level_win": 20,
+  "first_revive_price": 900,
+  "revive_reward_time": 60.0,
+  "heart_refill_price": 900,
+  "initial_booster_amount": 1,
+  "booster_panel_appear_level": 3,
+  "booster_buy_price": 1800,
+  "enable_booster_tutorial": false,
+  "hc_multiplication_level": 6,
+  "bomb_tutorial_level": 21,
+  "pre_game_panel_level": 8,
+  "victory_treat_level": 19,
+  "enable_rv_revive": false,
+  "levels_for_fwr": 10,
+  "enable_rv_booster": true,
+  "enable_rv_pre_booster": true,
+  "life_refill_time": 1800,
+  "enable_haptic_on_launch": true,
+  "skip_home_until_level": 5,
+  "hc_multipliers": [
+    2.0,
+    3.0,
+    5.0,
+    3.0,
+    2.0
+  ],
+  "boosters": [
+    {
+      "isFeatureEnabled": true,
+      "type": 0,
+      "activation_level": 3,
+      "time": 8,
+      "increment_percent": 30,
+      "name": "Potion",
+      "info": "Increases hole size",
+      "price": 1800
+    },
+    {
+      "isFeatureEnabled": true,
+      "type": 2,
+      "activation_level": 5,
+      "time": 8,
+      "increment_percent": 30,
+      "name": "Lightning",
+      "info": "Increases hole speed",
+      "price": 1800
+    },
+    {
+      "isFeatureEnabled": true,
+      "type": 3,
+      "activation_level": 9,
+      "time": 12,
+      "name": "Finder",
+      "info": "Indicates goal items",
+      "price": 1800
+    },
+    {
+      "isFeatureEnabled": true,
+      "type": 1,
+      "activation_level": 12,
+      "time": 8,
+      "name": "Freeze",
+      "info": "Stops the clock",
+      "price": 1800
+    }
+  ],
+  "pre_boosters": [
+    {
+      "type": 0,
+      "activation_level": 13,
+      "name": "Battery",
+      "info": "Increase hole size",
+      "price": 1800
+    },
+    {
+      "type": 1,
+      "activation_level": 15,
+      "time": 10,
+      "name": "Sand Clock",
+      "info": "Adds 10 Seconds",
+      "price": 1800
+    }
+  ],
+  "start_hole_reward": {
+    "enable": false,
+    "activation_level": 8,
+    "enable_attempt": 1,
+    "hole_size": 2
+  },
+  "profile": {
+    "enable": true,
+    "profile_open_level": 10,
+    "profile_indicator_tutorial": true
+  },
+  "revive_price_config": [
+    {
+      "price": 900,
+      "time": 40
+    },
+    {
+      "price": 1800,
+      "time": 50,
+      "offer_boosters": [
+        2
+      ]
+    },
+    {
+      "price": 2700,
+      "time": 60,
+      "offer_boosters": [
+        2,
+        0
+      ]
+    }
+  ],
+  "rate_us_settings": {
+    "enable": false,
+    "trigger_levels": [
+      10,
+      20,
+      30,
+      80
+    ],
+    "repeat_levels": 100
+  }
+}

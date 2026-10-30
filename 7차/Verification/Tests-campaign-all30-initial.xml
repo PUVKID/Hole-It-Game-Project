@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Failed(Child)" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 09:09:10Z" end-time="2026-10-13 09:28:35Z" duration="1165.4145086">
+  <test-suite type="TestSuite" id="1104" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="83" result="Failed" site="Child" start-time="2026-10-13 09:09:10Z" end-time="2026-10-13 09:28:35Z" duration="1165.414509" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1101" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="83" result="Failed" site="Child" start-time="2026-10-13 09:09:10Z" end-time="2026-10-13 09:28:35Z" duration="1165.408433" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="74748" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1073" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-10-13 09:09:10Z" end-time="2026-10-13 09:28:35Z" duration="1165.403892" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1085" name="AllThirtyStagesCompleteThroughMouthAndStackSimulation" fullname="ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation" methodname="AllThirtyStagesCompleteThroughMouthAndStackSimulation" classname="ReferenceTests" runstate="Runnable" seed="994255333" result="Failed" start-time="2026-10-13 09:09:10Z" end-time="2026-10-13 09:28:22Z" duration="1152.566839" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="1800000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Stage 11 45 simulated seconds without collection progress; sim=207.41 collected=357 hole=(18.37, 0.00, 0.29) aperture=1.497 active=1 target=none
+Stage 14 45 simulated seconds without collection progress; sim=287.82 collected=1003 hole=(-8.17, 0.00, -11.89) aperture=1.881 active=1 target=583/113/Arcade Machine pivot=(-8.83, 1.11, -11.91) fit=1.790 bottom=-0.903 kinematic=False velocity=(2.59, -1.60, 0.97) angular=(0.49, 0.45, -0.62) group=0 switch=10 latch=False initial=False activeBoundsCenter=(-9.00, 1.35, -11.83) size=(4.40, 4.50, 4.42) enabled=1 detection=True floorRayY=aperture
+Stage 19 45 simulated seconds without collection progress; sim=226.71 collected=846 hole=(19.23, 0.00, -29.03) aperture=1.881 active=0 target=none
+Stage 25 45 simulated seconds without collection progress; sim=224.09 collected=1193 hole=(4.89, 0.00, -26.04) aperture=2.073 active=0 target=none
+Stage 26 45 simulated seconds without collection progress; sim=269.59 collected=678 hole=(-3.22, 0.00, -17.35) aperture=1.689 active=3 target=685/255/Robot Red pivot=(-4.35, 1.58, -20.27) fit=1.484 bottom=0.067 kinematic=False velocity=(0.12, 0.00, -0.01) angular=(0.00, 0.00, -0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-4.15, 1.61, -17.35) size=(3.29, 3.09, 5.87) enabled=1 detection=True floorRayY=0.069
+Stage 28 45 simulated seconds without collection progress; sim=164.14 collected=339 hole=(-15.22, 0.00, -25.31) aperture=1.305 active=7 target=613/125/Cake Big Chocolate pivot=(-15.08, -0.07, -25.47) fit=1.464 bottom=-0.192 kinematic=False velocity=(-0.07, 0.01, 0.13) angular=(0.08, 0.00, 0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.15, 2.07, -25.39) size=(2.95, 4.52, 2.98) enabled=6 detection=True floorRayY=aperture
+  Expected: <empty>
+  But was:  < "Stage 11 45 simulated seconds without collection progress; sim=207.41 collected=357 hole=(18.37, 0.00, 0.29) aperture=1.497 active=1 target=none", "Stage 14 45 simulated seconds without collection progress; sim=287.82 collected=1003 hole=(-8.17, 0.00, -11.89) aperture=1.881 active=1 target=583/113/Arcade Machine pivot=(-8.83, 1.11, -11.91) fit=1.790 bottom=-0.903 kinematic=False velocity=(2.59, -1.60, 0.97) angular=(0.49, 0.45, -0.62) group=0 switch=10 latch=False initial=False activeBoundsCenter=(-9.00, 1.35, -11.83) size=(4.40, 4.50, 4.42) enabled=1 detection=True floorRayY=aperture", "Stage 19 45 simulated seconds without collection progress; sim=226.71 collected=846 hole=(19.23, 0.00, -29.03) aperture=1.881 active=0 target=none", "Stage 25 45 simulated seconds without collection progress; sim=224.09 collected=1193 hole=(4.89, 0.00, -26.04) aperture=2.073 active=0 target=none", "Stage 26 45 simulated seconds without collection progress; sim=269.59 collected=678 hole=(-3.22, 0.00, -17.35) aperture=1.689 active=3 target=685/255/Robot Red pivot=(-4.35, 1.58, -20.27) fit=1.484 bottom=0.067 kinematic=False velocity=(0.12, 0.00, -0.01) angular=(0.00, 0.00, -0.08) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-4.15, 1.61, -17.35) size=(3.29, 3.09, 5.87) enabled=1 detection=True floorRayY=0.069", "Stage 28 45 simulated seconds without collection progress; sim=164.14 collected=339 hole=(-15.22, 0.00, -25.31) aperture=1.305 active=7 target=613/125/Cake Big Chocolate pivot=(-15.08, -0.07, -25.47) fit=1.464 bottom=-0.192 kinematic=False velocity=(-0.07, 0.01, 0.13) angular=(0.08, 0.00, 0.04) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-15.15, 2.07, -25.39) size=(2.95, 4.52, 2.98) enabled=6 detection=True floorRayY=aperture" >
+]]></message>
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__17.MoveNext () [0x004f2] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:64
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1083" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="967316701" result="Passed" start-time="2026-10-13 09:28:22Z" end-time="2026-10-13 09:28:33Z" duration="10.998020" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1080" name="StageNineLongBasketProbeExposesSupportUsingOnlyReachableHolePositions" fullname="ReferenceTests.StageNineLongBasketProbeExposesSupportUsingOnlyReachableHolePositions" methodname="StageNineLongBasketProbeExposesSupportUsingOnlyReachableHolePositions" classname="ReferenceTests" runstate="Runnable" seed="234684316" result="Passed" start-time="2026-10-13 09:28:33Z" end-time="2026-10-13 09:28:34Z" duration="0.921337" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1078" name="StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" fullname="ReferenceTests.StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" methodname="StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" classname="ReferenceTests" runstate="Runnable" seed="1401749330" result="Passed" start-time="2026-10-13 09:28:34Z" end-time="2026-10-13 09:28:35Z" duration="0.907954" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Tests-campaign.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

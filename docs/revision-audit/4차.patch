@@ -1,0 +1,244 @@
+--- 3차/Assets/Editor/ReferenceBuilder.cs
++++ 4차/Assets/Editor/ReferenceBuilder.cs
+@@ -53,7 +53,7 @@
+         cat.models=models.Take(exp.models.Length).ToArray();cat.environments=models.Skip(exp.models.Length).ToArray();foreach(var m in cat.environments)foreach(var p in m.parts){p.material.shader=Shader.Find(p.material.name.ToLowerInvariant().Contains("transparent")?"PocketPit/ReferenceEnvironmentTransparent":"PocketPit/ReferenceEnvironment");EditorUtility.SetDirty(p.material);}cat.levels=JsonUtility.FromJson<ReferenceLevels>(File.ReadAllText(Folder+"/Levels.json")).levels;cat.holeVisual=holePrefab;cat.groundMaterial=ground;cat.font=Resources.Load<Font>("Fonts/NanumGothic-Bold");EditorUtility.SetDirty(cat);
+         var scene=EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);new GameObject("GaeunGame").AddComponent<ReferenceGame>();
+         EditorSceneManager.SaveScene(scene,"Assets/Scenes/Main.unity");EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene("Assets/Scenes/Main.unity",true)};
+-        PlayerSettings.productName="Gaeun's Hole";PlayerSettings.bundleVersion="4.0.0";PlayerSettings.Android.bundleVersionCode=5;
++        PlayerSettings.productName="Gaeun's Hole";PlayerSettings.bundleVersion="4.1.0";PlayerSettings.Android.bundleVersionCode=6;
+         PlayerSettings.gpuSkinning=false;PlayerSettings.SplashScreen.show=false;PlayerSettings.Android.optimizedFramePacing=true;
+         QualitySettings.antiAliasing=2;QualitySettings.shadowCascades=1;QualitySettings.shadowResolution=ShadowResolution.Medium;QualitySettings.shadowDistance=24;QualitySettings.pixelLightCount=1;
+         AssetDatabase.SaveAssets();Validate();Debug.Log("REFERENCE EDITION READY");
+--- 3차/Assets/Editor/ReferenceInputBuildGuard.cs
++++ 4차/Assets/Editor/ReferenceInputBuildGuard.cs
+@@ -0,0 +1,14 @@
++using UnityEditor;
++using UnityEditor.Build;
++using UnityEditor.Build.Reporting;
++
++// Reject a build whose controls would be compiled out, including builds from the GUI.
++public sealed class ReferenceInputBuildGuard : IPreprocessBuildWithReport {
++    public int callbackOrder=>-1000;
++    public void OnPreprocessBuild(BuildReport report){
++        var settings=new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/ProjectSettings.asset")[0]);
++        var handler=settings.FindProperty("activeInputHandler");
++        if(handler==null||handler.intValue!=1||!ReferenceGame.NativeInputEnabled)
++            throw new BuildFailedException("ReferenceGame requires Active Input Handling = Input System Package (New). Set it in Player Settings, restart Unity, and rebuild.");
++    }
++}
+--- 3차/Assets/Editor/ReferenceInputBuildGuard.cs.meta
++++ 4차/Assets/Editor/ReferenceInputBuildGuard.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: fa519a1190fcfca47a0d0a19442cbede--- 3차/Assets/Scripts/ReferenceGame.cs
++++ 4차/Assets/Scripts/ReferenceGame.cs
+@@ -109,9 +109,21 @@
+     public void Pause(){if(State!=ScreenState.Playing)return;State=ScreenState.Paused;Stick.Release();Velocity=Vector2.zero;pause.SetActive(true);}
+     public void Resume(){if(State!=ScreenState.Paused)return;State=ScreenState.Playing;pause.SetActive(false);}
+     public void SetCountdownForTest(float value){Remaining=value;}
+-    public void BeginStick(Vector2 p){Stick.Radius=Mathf.Clamp(Screen.width*.11f,42,120);Stick.Begin(p);}
++    public static bool NativeInputEnabled {
++        get {
++#if ENABLE_INPUT_SYSTEM
++            return true;
++#else
++            return false;
++#endif
++        }
++    }
++    float JoystickRadius=>Mathf.Clamp(Screen.width*.11f,42,120);
++    public Vector2 IdleJoystickPosition=>new Vector2(Screen.safeArea.x+Screen.safeArea.width*.18f,Screen.safeArea.y+Mathf.Max(420*canvas.scaleFactor,Screen.safeArea.height*.22f));
++    public bool JoystickVisible=>stickBase.gameObject.activeInHierarchy;
++    public void BeginStick(Vector2 p){Stick.Radius=JoystickRadius;var idle=IdleJoystickPosition;Stick.Begin(Vector2.Distance(p,idle)<=Stick.Radius?idle:p);Stick.Move(p);}
+     public void MoveStick(Vector2 p){Stick.Move(p);}
+-    public void ReleaseStick(){Stick.Release();Velocity=Vector2.zero;}
++    public void ReleaseStick(){Stick.Release();finger=-1;Velocity=Vector2.zero;}
+     bool CanTouch(Vector2 p){if(EventSystem.current==null)return true;if(pointer==null)pointer=new PointerEventData(EventSystem.current);pointer.position=p;hits.Clear();EventSystem.current.RaycastAll(pointer,hits);return hits.Count==0;}
+     void ReadInput(){
+ #if ENABLE_INPUT_SYSTEM
+@@ -201,8 +213,8 @@
+         Btn("Continue",result.transform,"CONTINUE",new Vector2(.5f,.36f),new Vector2(640,120),Vector2.zero,Green,()=>{if(State==ScreenState.Won){LoadLevel(Mathf.Min(29,LevelIndex+1));StartPlay();}else Retry();});
+         Btn("Home",result.transform,"HOME",new Vector2(.5f,.27f),new Vector2(520,90),Vector2.zero,Blue,()=>{LoadLevel(LevelIndex);ShowHome();});
+         CreateModal(pause,"Pause");Label("Title",pause.transform,"PAUSED",64,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Btn("Resume",pause.transform,"RESUME",new Vector2(.5f,.52f),new Vector2(640,120),Vector2.zero,Green,Resume);Btn("Retry",pause.transform,"RESTART",new Vector2(.5f,.42f),new Vector2(540,100),Vector2.zero,Blue,Retry);Btn("Home",pause.transform,"HOME",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Blue,()=>{LoadLevel(LevelIndex);ShowHome();});
+-        CreateModal(settings,"Settings");Label("Title",settings.transform,"SETTINGS",60,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Label("Controls",settings.transform,"FLOATING JOYSTICK\n\nHold to move. Release to stop.\nPull farther for speed, up to the limit.",30,Ink,new Vector2(.5f,.5f),new Vector2(770,300),Vector2.zero);Btn("Done",settings.transform,"DONE",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Green,()=>settings.SetActive(false));
+-        var pad=Panel("Joystick",canvas.transform,new Vector2(.5f,.5f),new Vector2(200,200),new Color(1,1,1,.24f),Vector2.zero);pad.sprite=Style("JoystickOutline")??circle;pad.type=Image.Type.Simple;stickBase=pad.rectTransform;var knob=Panel("Knob",pad.transform,new Vector2(.5f,.5f),new Vector2(82,82),new Color(1,1,1,.65f),Vector2.zero);knob.sprite=Style("JoystickMarker")??circle;knob.type=Image.Type.Simple;stickKnob=knob.rectTransform;stickBase.gameObject.SetActive(false);
++        CreateModal(settings,"Settings");Label("Title",settings.transform,"SETTINGS",60,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Label("Controls",settings.transform,"JOYSTICK\n\nDrag the stick to move. Release to stop.\nYou can also drag on an empty area.",30,Ink,new Vector2(.5f,.5f),new Vector2(770,300),Vector2.zero);Btn("Done",settings.transform,"DONE",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Green,()=>settings.SetActive(false));
++        var pad=Panel("Joystick",canvas.transform,new Vector2(.5f,.5f),new Vector2(200,200),new Color(1,1,1,.65f),Vector2.zero);pad.sprite=Style("JoystickOutline")??circle;pad.type=Image.Type.Simple;stickBase=pad.rectTransform;var knob=Panel("Knob",pad.transform,new Vector2(.5f,.5f),new Vector2(82,82),new Color(1,1,1,.9f),Vector2.zero);knob.sprite=Style("JoystickMarker")??circle;knob.type=Image.Type.Simple;stickKnob=knob.rectTransform;stickBase.gameObject.SetActive(false);
+     }
+     void CreateModal(GameObject panel,string name){var shade=Panel("Shade",panel.transform,new Vector2(.5f,.5f),new Vector2(4000,4000),new Color(.12f,.17f,.25f,.55f),Vector2.zero);shade.raycastTarget=true;Panel("Card",panel.transform,new Vector2(.5f,.5f),new Vector2(940,1070),new Color(.97f,.97f,.95f),Vector2.zero);}
+     void BuildGoals(){if(goalLabels!=null)foreach(var t in goalLabels)if(t!=null)Destroy(t.transform.parent.gameObject);int count=Mathf.Max(1,level.goals.Length);goalLabels=new Text[count];goalIcons=new Image[count];float width=Mathf.Min(164,990f/count-14);
+@@ -220,7 +232,16 @@
+     bool Needed(int id){if(id==-1)return false;if(level.goals.Length==0)return true;for(int i=0;i<goalCounts.Length;i++)if(level.goals[i].id==id&&goalCounts[i]<level.goals[i].amount)return true;return false;}
+     void RefreshBoosters(){int[] activation={3,5,9,12};string[] names={"SIZE","SPEED","FIND","FREEZE"};for(int i=0;i<4;i++){boostButtons[i].interactable=LevelIndex+1>=activation[i]&&!boostUsed[i];boostLabels[i].text=LevelIndex+1<activation[i]?names[i]+"\nLV "+activation[i]:boostUsed[i]?"USED":names[i];}}
+     void UpdateHoleLabels(){if(holeSize==null)return;Vector3 screen=cam.WorldToScreenPoint(HolePosition+Vector3.back*(VisualRadius+1));RectTransformUtility.ScreenPointToLocalPointInRectangle((RectTransform)hud.transform,screen,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera,out var point);holeSize.rectTransform.anchoredPosition=point;holeSize.text="Size "+(GrowthTier(GrowthPoints)+1);growthToast.gameObject.SetActive(State==ScreenState.Playing&&Time.unscaledTime<growthFlash);growthToast.rectTransform.anchoredPosition=point+new Vector2(0,240+(growthFlash-Time.unscaledTime)*30);}
+-    void UpdateStickVisual(){stickBase.gameObject.SetActive(State==ScreenState.Playing&&Stick.Held);if(!Stick.Held)return;RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect,Stick.Origin,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera,out var local);stickBase.anchoredPosition=local;float diameter=Stick.Radius*2/canvas.scaleFactor;stickBase.sizeDelta=Vector2.one*diameter;stickKnob.sizeDelta=Vector2.one*diameter*.4f;stickKnob.anchoredPosition=Stick.Value*diameter*.32f;}
++    void UpdateStickVisual(){
++        stickBase.gameObject.SetActive(State==ScreenState.Playing);
++        if(State!=ScreenState.Playing)return;
++        Vector2 origin=Stick.Held?Stick.Origin:IdleJoystickPosition;
++        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect,origin,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera,out var local);
++        stickBase.anchoredPosition=local;
++        float diameter=(Stick.Held?Stick.Radius:JoystickRadius)*2/canvas.scaleFactor;
++        stickBase.sizeDelta=Vector2.one*diameter;stickKnob.sizeDelta=Vector2.one*diameter*.4f;
++        stickKnob.anchoredPosition=(Stick.Held?Stick.Value:Vector2.zero)*diameter*.32f;
++    }
+     void ShowResult(bool won,string title){hud.SetActive(false);result.SetActive(true);resultTitle.text=title;string detail="";for(int i=0;i<goalCounts.Length;i++)detail+=models[level.goals[i].id].label+"  "+goalCounts[i]+" / "+level.goals[i].amount+"\n";if(goalCounts.Length==0)detail="COLLECTED  "+Collected+" / "+level.points.Length;resultDetail.text=detail;result.transform.Find("Continue/Label").GetComponent<Text>().text=won?"NEXT LEVEL":"TRY AGAIN";}
+     // Bounded hooks for desktop verification: still use the real mouth/collection path.
+     public Vector3 NearestCollectible(){testBombs.Clear();foreach(var a in actors)if(a.model.id==-1&&a.state==0)testBombs.Add(a);Vector3 best=HolePosition;float score=float.MaxValue;foreach(var a in actors){if(a.state!=0||a.model.id==-1||a.radius>Radius*1.02f)continue;Vector3 aim=new Vector3(a.pos.x,0,a.pos.z);
+--- 3차/Assets/Tests/Reference/Reference.Tests.asmdef
++++ 4차/Assets/Tests/Reference/Reference.Tests.asmdef
+@@ -1 +1,23 @@
+-{"name":"Reference.Tests","references":["HoleIt.Runtime","Unity.ugui","UnityEngine.TestRunner","UnityEditor.TestRunner"],"includePlatforms":[],"excludePlatforms":[],"allowUnsafeCode":false,"overrideReferences":true,"precompiledReferences":["nunit.framework.dll"],"autoReferenced":false,"defineConstraints":["UNITY_INCLUDE_TESTS"],"versionDefines":[],"noEngineReferences":false}
++{
++  "name": "Reference.Tests",
++  "references": [
++    "HoleIt.Runtime",
++    "Unity.ugui",
++    "UnityEngine.TestRunner",
++    "UnityEditor.TestRunner",
++    "Unity.InputSystem"
++  ],
++  "includePlatforms": [],
++  "excludePlatforms": [],
++  "allowUnsafeCode": false,
++  "overrideReferences": true,
++  "precompiledReferences": [
++    "nunit.framework.dll"
++  ],
++  "autoReferenced": false,
++  "defineConstraints": [
++    "UNITY_INCLUDE_TESTS"
++  ],
++  "versionDefines": [],
++  "noEngineReferences": false
++}--- 3차/Assets/Tests/Reference/ReferenceTouchTests.cs
++++ 4차/Assets/Tests/Reference/ReferenceTouchTests.cs
+@@ -0,0 +1,78 @@
++using System.Collections;
++using NUnit.Framework;
++using UnityEngine;
++using UnityEngine.EventSystems;
++using UnityEngine.InputSystem;
++using UnityEngine.InputSystem.LowLevel;
++using UnityEngine.InputSystem.UI;
++using UnityEngine.SceneManagement;
++using UnityEngine.TestTools;
++using UnityEngine.UI;
++
++public class ReferenceTouchTests {
++    Touchscreen screen;
++    InputSettings.BackgroundBehavior oldBackground;
++    InputSettings.EditorInputBehaviorInPlayMode oldEditorInput;
++    int unlocked,selected;bool hadUnlocked,hadSelected;
++    void Touch(int id,UnityEngine.InputSystem.TouchPhase phase,Vector2 p){
++        InputSystem.QueueStateEvent(screen,new TouchState{touchId=id,phase=phase,position=p,pressure=phase==UnityEngine.InputSystem.TouchPhase.Ended?0:1});
++    }
++    Vector2 ButtonPosition(string name){
++        foreach(var b in Object.FindObjectsByType<Button>(FindObjectsSortMode.None))
++            if(b.name==name)return RectTransformUtility.WorldToScreenPoint(null,b.transform.position);
++        Assert.Fail("Visible button missing: "+name);return Vector2.zero;
++    }
++    IEnumerator Tap(string name,int id){var p=ButtonPosition(name);Touch(id,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;Touch(id,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;}
++    [UnitySetUp]public IEnumerator Setup(){
++        // Batchmode has no focused Game View; route injected devices as a player would.
++        oldBackground=InputSystem.settings.backgroundBehavior;oldEditorInput=InputSystem.settings.editorInputBehaviorInPlayMode;
++        InputSystem.settings.backgroundBehavior=InputSettings.BackgroundBehavior.IgnoreFocus;
++        InputSystem.settings.editorInputBehaviorInPlayMode=InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
++        hadUnlocked=PlayerPrefs.HasKey("Gaeun.Ref.Unlocked");unlocked=PlayerPrefs.GetInt("Gaeun.Ref.Unlocked");hadSelected=PlayerPrefs.HasKey("Gaeun.Ref.Selected");selected=PlayerPrefs.GetInt("Gaeun.Ref.Selected");
++        yield return SceneManager.LoadSceneAsync("Main");yield return null;
++        ReferenceGame.Instance.TestInput=false;ReferenceGame.Instance.LoadLevel(0);ReferenceGame.Instance.ShowHome();
++        screen=InputSystem.AddDevice<Touchscreen>();yield return null;
++    }
++    [UnityTearDown]public IEnumerator Cleanup(){
++        if(screen!=null)InputSystem.RemoveDevice(screen);
++        InputSystem.settings.backgroundBehavior=oldBackground;InputSystem.settings.editorInputBehaviorInPlayMode=oldEditorInput;
++        var scene=SceneManager.GetSceneByName("Main");SceneManager.SetActiveScene(SceneManager.CreateScene("TouchCleanup"));yield return SceneManager.UnloadSceneAsync(scene);
++        if(hadUnlocked)PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",unlocked);else PlayerPrefs.DeleteKey("Gaeun.Ref.Unlocked");
++        if(hadSelected)PlayerPrefs.SetInt("Gaeun.Ref.Selected",selected);else PlayerPrefs.DeleteKey("Gaeun.Ref.Selected");
++    }
++    [UnityTest]public IEnumerator TouchPlaysDragsStopsAndResumes(){
++        var g=ReferenceGame.Instance;
++        Assert.IsTrue(ReferenceGame.NativeInputEnabled,"Production input must not compile out");
++        Assert.IsInstanceOf<InputSystemUIInputModule>(EventSystem.current.currentInputModule);
++        Assert.IsFalse(g.JoystickVisible);
++        yield return Tap("Play",1);
++        Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State,"Native touch must operate PLAY");
++        Assert.IsTrue(g.JoystickVisible,"Joystick must be visible before a finger touches it");
++        var p=g.IdleJoystickPosition;var before=g.HolePosition;
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
++        Assert.IsTrue(g.Stick.Held,"Real input path must acquire the touch");
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.right*Screen.width*.6f);yield return new WaitForSeconds(.4f);
++        Assert.Greater(g.HolePosition.x-before.x,.5f);Assert.Less(g.HolePosition.x-before.x,g.MaximumSpeed*.55f);
++        Assert.AreEqual(1,g.Stick.Value.magnitude,.01f);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);before=g.HolePosition;
++        yield return new WaitForSeconds(.15f);Assert.AreEqual(before,g.HolePosition);Assert.IsTrue(g.JoystickVisible);
++        yield return Tap("Pause",3);Assert.AreEqual(ReferenceGame.ScreenState.Paused,g.State);Assert.IsFalse(g.JoystickVisible);
++        yield return Tap("Resume",4);Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State);Assert.IsTrue(g.JoystickVisible);
++        // The UI touch must not leak into movement when the menu closes.
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(before,g.HolePosition);
++    }
++    [UnityTest]public IEnumerator FloatingTouchKeepsOwnerAndCancelStops(){
++        var g=ReferenceGame.Instance;yield return Tap("Play",1);
++        var p=new Vector2(Screen.width*.55f,Screen.height*.42f);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
++        Assert.IsTrue(g.Stick.Held);Assert.AreEqual(p,g.Stick.Origin);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.up*Screen.width*.2f);yield return null;yield return null;
++        Assert.Greater(g.Stick.Value.y,.9f);
++        Touch(3,UnityEngine.InputSystem.TouchPhase.Began,p+Vector2.left*100);yield return null;yield return null;
++        Assert.AreEqual(p,g.Stick.Origin,"A second finger must not move the origin");
++        Touch(3,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;Assert.IsTrue(g.Stick.Held);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Canceled,p);yield return null;yield return null;
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);Assert.IsTrue(g.JoystickVisible);
++    }
++}
+--- 3차/Assets/Tests/Reference/ReferenceTouchTests.cs.meta
++++ 4차/Assets/Tests/Reference/ReferenceTouchTests.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: fe02efb75d32598468c01af97c02da4d--- 3차/ProjectSettings/ProjectSettings.asset
++++ 4차/ProjectSettings/ProjectSettings.asset
+@@ -143,7 +143,7 @@
+   loadStoreDebugModeEnabled: 0
+   visionOSBundleVersion: 1.0
+   tvOSBundleVersion: 1.0
+-  bundleVersion: 4.0.0
++  bundleVersion: 4.1.0
+   preloadedAssets: []
+   metroInputSource: 0
+   wsaTransparentSwapchain: 0
+@@ -173,7 +173,7 @@
+     iPhone: 0
+     tvOS: 0
+   overrideDefaultApplicationIdentifier: 1
+-  AndroidBundleVersionCode: 5
++  AndroidBundleVersionCode: 6
+   AndroidMinSdkVersion: 26
+   AndroidTargetSdkVersion: 0
+   AndroidPreferredInstallLocation: 1
+@@ -783,7 +783,7 @@
+   qnxGraphicConfPath: 
+   apiCompatibilityLevel: 6
+   captureStartupLogs: {}
+-  activeInputHandler: 0
++  activeInputHandler: 1
+   windowsGamepadBackendHint: 0
+   cloudProjectId: 
+   framebufferDepthMemorylessMode: 0
+--- 3차/README.txt
++++ 4차/README.txt
+@@ -1,4 +1,4 @@
+-Gaeun's Hole · edition 3 · Unity 6000.3.6f1
++Gaeun's Hole · edition 4 · Unity 6000.3.6f1
+ 
+ Open this Source folder in Unity with Android Build Support, SDK/NDK/OpenJDK.
+ Main scene: Assets/Scenes/Main.unity. Runtime: Assets/Scripts/ReferenceGame.cs.
+@@ -20,3 +20,8 @@
+ 
+ The provided assets retain their original ownership. Nanum Gothic Bold and its
+ OFL license are bundled under Assets/Resources/Fonts.
++
++Edition 4 fixes the disabled input backend and displays the joystick at idle.
++Input tests inject TouchState into an actual Input System Touchscreen device,
++including PLAY/PAUSE/RESUME UI clicks, drag movement, release, cancellation and
++second-finger ownership. Tests do not replace the movement input with TestDirection.

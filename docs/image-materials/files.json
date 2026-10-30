@@ -1,0 +1,4411 @@
+[
+  {
+    "sha256": "76d39a7f3c497bb59836bc27ccfed03f3db16b0b3c20f50f496c6f9ed47a1ce9",
+    "bytes": 491077,
+    "public_path": "자료/화면과검증/76d39a7f3c49_Asset_Contact_Sheet.png",
+    "source_paths": [
+      "1차/HoleIt_Source/Documentation/Asset_Contact_Sheet.png",
+      "9차/work/original/HoleIt_Source/Documentation/Asset_Contact_Sheet.png",
+      "9차/work/PocketPit/Documentation/Asset_Contact_Sheet.png"
+    ],
+    "width": 1204,
+    "height": 1400,
+    "new_file": true
+  },
+  {
+    "sha256": "9c10165bd482aa3a7d680a466b962cc52d9d8ae2e4d93a154dba1b81fe9085f7",
+    "bytes": 202701,
+    "public_path": "자료/화면과검증/9c10165bd482_01-menu.png",
+    "source_paths": [
+      "2차/Previews/01-menu.png",
+      "9차/work/english-previews/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "06aed21a798018f3877fd7296b1a802d6223bcf773341d5f233965fd37eb6a3d",
+    "bytes": 198602,
+    "public_path": "자료/화면과검증/06aed21a7980_02-play.png",
+    "source_paths": [
+      "2차/Previews/02-play.png",
+      "9차/work/english-previews/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "77f471bd20d14c04f09dce4307eafa3f53a4fd2195b731efd79e9f96044182fa",
+    "bytes": 113760,
+    "public_path": "자료/화면과검증/77f471bd20d1_03-pause.png",
+    "source_paths": [
+      "2차/Previews/03-pause.png",
+      "9차/work/english-previews/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "6f1d66cdb1df1e62b5c6c856ec25ac28dcebb5ede13753ccc97a089dc573573a",
+    "bytes": 101015,
+    "public_path": "자료/화면과검증/6f1d66cdb1df_04-settings.png",
+    "source_paths": [
+      "2차/Previews/04-settings.png",
+      "9차/work/english-previews/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a42e69cc981e078dfc417890b5a7d99a3b6e943d9119cf908f4a33c7c9ca149a",
+    "bytes": 195301,
+    "public_path": "자료/화면과검증/a42e69cc981e_05-city.png",
+    "source_paths": [
+      "2차/Previews/05-city.png",
+      "9차/work/english-previews/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "257c5c8fa19a4a0cf81191d7c14580bf847bdb064109c804043ad4ead0c9eca2",
+    "bytes": 108410,
+    "public_path": "자료/화면과검증/257c5c8fa19a_06-levels.png",
+    "source_paths": [
+      "2차/Previews/06-levels.png",
+      "9차/work/english-previews/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d3737af9f95ff63c158d4b60ac995b8959d715f1f35802673bf58ff221b623b2",
+    "bytes": 82578,
+    "public_path": "자료/화면과검증/d3737af9f95f_07-bomb-failure.png",
+    "source_paths": [
+      "2차/Previews/07-bomb-failure.png",
+      "9차/work/english-previews/07-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "45c1925c04d1ffbf59dbca5db9c4733d223982107fd4c7ed5b8eeeeb9afa4d00",
+    "bytes": 193761,
+    "public_path": "자료/화면과검증/45c1925c04d1_08-steps.png",
+    "source_paths": [
+      "2차/Previews/08-steps.png",
+      "9차/work/english-previews/08-steps.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "88100fabd662507bbadf2393a41d6173265a169a5c0b744104961993d457ad97",
+    "bytes": 173946,
+    "public_path": "자료/화면과검증/88100fabd662_09-rings.png",
+    "source_paths": [
+      "2차/Previews/09-rings.png",
+      "9차/work/english-previews/09-rings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "274f37e23e71d6585f2d0c95a17b0e59c0f9596f6e32b54cf634e3866dc48fa0",
+    "bytes": 132771,
+    "public_path": "자료/화면과검증/274f37e23e71_10-castle.png",
+    "source_paths": [
+      "2차/Previews/10-castle.png",
+      "9차/work/english-previews/10-castle.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "89422f1ff6126254c634c04471b623a3bcdd2dfaecef3735dca0c91b6d34d85b",
+    "bytes": 250084,
+    "public_path": "자료/화면과검증/89422f1ff612_01-home.png",
+    "source_paths": [
+      "3차/Previews/01-home.png",
+      "9차/work/reference-previews-final/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "133766cb20aad1ada364c7ce835d8180deeca6492d69309e73486559e5b98741",
+    "bytes": 253637,
+    "public_path": "자료/화면과검증/133766cb20aa_02-first-level.png",
+    "source_paths": [
+      "3차/Previews/02-first-level.png",
+      "9차/work/reference-previews-final/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f3ced2ef6503be5dafc91d61675e09e89746f3277f1a980591195efdd42b290e",
+    "bytes": 217801,
+    "public_path": "자료/화면과검증/f3ced2ef6503_03-bomb-failure.png",
+    "source_paths": [
+      "3차/Previews/03-bomb-failure.png",
+      "9차/work/reference-previews-final/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3d114cd9108e0dba501688004869a3deb4909806e7dee47f370176fc2246b773",
+    "bytes": 280220,
+    "public_path": "자료/화면과검증/3d114cd9108e_04-joystick.png",
+    "source_paths": [
+      "3차/Previews/04-joystick.png",
+      "9차/work/reference-previews-final/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ccdc9d0f9774aa7ba7699ba311b22f02e5a404b2e882417bae6f04498ebece85",
+    "bytes": 130853,
+    "public_path": "자료/화면과검증/ccdc9d0f9774_05-level-complete.png",
+    "source_paths": [
+      "3차/Previews/05-level-complete.png",
+      "9차/work/reference-previews-final/05-growth.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "72eefbd90d30fda9350dac9b17b7455b52a865c4a1e27676acc6038e6381816d",
+    "bytes": 478062,
+    "public_path": "자료/화면과검증/72eefbd90d30_level-12.png",
+    "source_paths": [
+      "3차/Previews/level-12.png",
+      "9차/work/reference-previews-final/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b0d728424885674b15efd4ea5895b0c5ad085d170fd4dbff9199c9be353d13aa",
+    "bytes": 460186,
+    "public_path": "자료/화면과검증/b0d728424885_level-16.png",
+    "source_paths": [
+      "3차/Previews/level-16.png",
+      "9차/work/reference-previews-final/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "fe85c9a6f820924de72aedee9b5e8013f63876460890909d4976204243fa4111",
+    "bytes": 639767,
+    "public_path": "자료/화면과검증/fe85c9a6f820_level-23.png",
+    "source_paths": [
+      "3차/Previews/level-23.png",
+      "9차/work/reference-previews-final/level-23.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1e1d144de531d44fdfbb267ed54bed448c12c4cc3b26e7a8dbfd548ae5d0ea0b",
+    "bytes": 490785,
+    "public_path": "자료/화면과검증/1e1d144de531_level-24.png",
+    "source_paths": [
+      "3차/Previews/level-24.png",
+      "9차/work/reference-previews-final/level-24.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3ae1a43d5691e48aec0532d72b106bf1f13f4f02f2e62c4997562c64011a5ad6",
+    "bytes": 410100,
+    "public_path": "자료/화면과검증/3ae1a43d5691_level-26.png",
+    "source_paths": [
+      "3차/Previews/level-26.png",
+      "9차/work/reference-previews-final/level-26.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c36177efc2092f3ff841543e2582abfddf6148e28e65eb2a930008ed9dbc6017",
+    "bytes": 656402,
+    "public_path": "자료/화면과검증/c36177efc209_level-29.png",
+    "source_paths": [
+      "3차/Previews/level-29.png",
+      "9차/work/reference-previews-final/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c00cf3e6b78865bea5ef6b56554f154803b9f8336491745564cd28a10c201fd7",
+    "bytes": 577831,
+    "public_path": "자료/화면과검증/c00cf3e6b788_level-3.png",
+    "source_paths": [
+      "3차/Previews/level-3.png",
+      "9차/work/reference-previews-final/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "736f88764f9e58cf32ff305659fe32b48531eb0f1852f6d11368c877697817f2",
+    "bytes": 463271,
+    "public_path": "자료/화면과검증/736f88764f9e_level-30.png",
+    "source_paths": [
+      "3차/Previews/level-30.png",
+      "9차/work/reference-previews-final/level-30.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "828fde739075824371b8292ef127344d84ce621f259f3f4bd7863a920b05f92a",
+    "bytes": 464975,
+    "public_path": "자료/화면과검증/828fde739075_level-4.png",
+    "source_paths": [
+      "3차/Previews/level-4.png",
+      "9차/work/reference-previews-final/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c7b3e6b5d888d5b4c354b08cac9b1edec08d8b3b6e31a4b1e101e20285cae267",
+    "bytes": 428651,
+    "public_path": "자료/화면과검증/c7b3e6b5d888_level-8.png",
+    "source_paths": [
+      "3차/Previews/level-8.png",
+      "9차/work/reference-previews-final/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8af8439059058443e81ce4cad65261ef9bf7fb50e1a97a954ddaee4ac6c8bcd9",
+    "bytes": 250180,
+    "public_path": "자료/화면과검증/8af843905905_01-home.png",
+    "source_paths": [
+      "4차/Previews/01-home.png",
+      "9차/work/reference4-previews/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e6a3d7e4d9e8a822eeaaee88ef77c13846f25d942cf8c0c06184226e50bbfea7",
+    "bytes": 261366,
+    "public_path": "자료/화면과검증/e6a3d7e4d9e8_02-first-level.png",
+    "source_paths": [
+      "4차/Previews/02-first-level.png",
+      "9차/work/reference4-previews/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f1cf565aad211fc13799b8df66a764798de89d6812368205222fb1b4cfd2e6ab",
+    "bytes": 282177,
+    "public_path": "자료/화면과검증/f1cf565aad21_04-joystick.png",
+    "source_paths": [
+      "4차/Previews/04-joystick.png",
+      "9차/work/reference4-previews/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a3980dfaa8f026fddcfdb165a1d35cec8e12a7618b534fa37616d781b36845b3",
+    "bytes": 1909219,
+    "public_path": "자료/화면과검증/a3980dfaa8f0_Home.png",
+    "source_paths": [
+      "5차/Art/Home.png"
+    ],
+    "width": 941,
+    "height": 1672,
+    "new_file": true
+  },
+  {
+    "sha256": "a3e6b69204dfd370be3686199790cae03b71e1a3175d43b9c0e3ae0b466a68c5",
+    "bytes": 1897275,
+    "public_path": "자료/화면과검증/a3e6b69204df_Loading.png",
+    "source_paths": [
+      "5차/Art/Loading.png"
+    ],
+    "width": 941,
+    "height": 1672,
+    "new_file": true
+  },
+  {
+    "sha256": "471f2fc5cccd26f2007af7fee6de36378b7e34456a67c8fac36e63d51f08e5cc",
+    "bytes": 738759,
+    "public_path": "자료/화면과검증/471f2fc5cccd_00-loading.png",
+    "source_paths": [
+      "5차/Previews/00-loading.png",
+      "9차/work/reference5-final-previews/00-loading.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0a54517439855da6d90bc10989ee31b3a9668554e4f901c4970e992ddead365f",
+    "bytes": 767014,
+    "public_path": "자료/화면과검증/0a5451743985_01-home.png",
+    "source_paths": [
+      "5차/Previews/01-home.png",
+      "9차/work/reference5-final-previews/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "4a47ca7ffd127510e2fd1a9cb0e1adbdd285bdb5e44961a2f48d0147fddf8b55",
+    "bytes": 321600,
+    "public_path": "자료/화면과검증/4a47ca7ffd12_02-first-level.png",
+    "source_paths": [
+      "5차/Previews/02-first-level.png",
+      "9차/work/reference5-final-previews/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c48cd11e71c9b48c32725de48214549eb6d06c02fa29e37c1a5e504b769fe13c",
+    "bytes": 292746,
+    "public_path": "자료/화면과검증/c48cd11e71c9_03-bomb-failure.png",
+    "source_paths": [
+      "5차/Previews/03-bomb-failure.png",
+      "9차/work/reference5-final-previews/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f08f984bb1cfb2f26ff08ac8d1bbb14fcb65eab9a739f70e033e7c5f85b7a09d",
+    "bytes": 345552,
+    "public_path": "자료/화면과검증/f08f984bb1cf_04-joystick.png",
+    "source_paths": [
+      "5차/Previews/04-joystick.png",
+      "9차/work/reference5-final-previews/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "dec3c53887df21e04d421a005258a8aa0d98736bb25d1b1de3c336691f7bfb61",
+    "bytes": 270317,
+    "public_path": "자료/화면과검증/dec3c53887df_05-growth.png",
+    "source_paths": [
+      "5차/Previews/05-growth.png",
+      "9차/work/reference5-final-previews/05-growth.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d62b53811e003b03791065504f8d305d547493d837cd5e74e1375b721a9be7a6",
+    "bytes": 391614,
+    "public_path": "자료/화면과검증/d62b53811e00_06-settings.png",
+    "source_paths": [
+      "5차/Previews/06-settings.png",
+      "9차/work/reference5-final-previews/06-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "67d63981d53eddc2acdfc97db726592cafd3bf5fcd29aa94569b3324a1833c46",
+    "bytes": 388503,
+    "public_path": "자료/화면과검증/67d63981d53e_07-levels.png",
+    "source_paths": [
+      "5차/Previews/07-levels.png",
+      "9차/work/reference5-final-previews/07-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7352ce0117976b38604fab0a7c500f555ef4311c36e38409db831976a884f6e6",
+    "bytes": 403323,
+    "public_path": "자료/화면과검증/7352ce011797_08-boosters.png",
+    "source_paths": [
+      "5차/Previews/08-boosters.png",
+      "9차/work/reference5-final-previews/08-boosters.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1e655edecc1c96e57f4f336eee3416575d471f72fa9ec70c9b80589d08106609",
+    "bytes": 445475,
+    "public_path": "자료/화면과검증/1e655edecc1c_level-12.png",
+    "source_paths": [
+      "5차/Previews/level-12.png",
+      "9차/work/reference5-final-previews/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "5301b050e79719209da225441b3040137b7541a026e57fe5123292d9120b0271",
+    "bytes": 571699,
+    "public_path": "자료/화면과검증/5301b050e797_level-151.png",
+    "source_paths": [
+      "5차/Previews/level-151.png",
+      "9차/work/reference5-final-previews/level-151.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "6ee32fd25882f579a6b4c6b041bcb2e86d475a08bd2488706a315c08a165aedf",
+    "bytes": 506807,
+    "public_path": "자료/화면과검증/6ee32fd25882_level-16.png",
+    "source_paths": [
+      "5차/Previews/level-16.png",
+      "9차/work/reference5-final-previews/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c5947f1bfd49adcf4752b181f6f22fd63b96e25d5c60bc1ca79117829fac4ce6",
+    "bytes": 685561,
+    "public_path": "자료/화면과검증/c5947f1bfd49_level-23.png",
+    "source_paths": [
+      "5차/Previews/level-23.png",
+      "9차/work/reference5-final-previews/level-23.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "58eafd9dd9b2856f2a548c47ee50938c83a9815454bc5ad86b1f5182723abd15",
+    "bytes": 685747,
+    "public_path": "자료/화면과검증/58eafd9dd9b2_level-29.png",
+    "source_paths": [
+      "5차/Previews/level-29.png",
+      "9차/work/reference5-final-previews/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "84b1205b270f7df907f943409ed94d7fcb165c5f7da6e11bce157514dbd94e92",
+    "bytes": 623600,
+    "public_path": "자료/화면과검증/84b1205b270f_level-3.png",
+    "source_paths": [
+      "5차/Previews/level-3.png",
+      "9차/work/reference5-final-previews/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "08b1c46321b6b02a6fad21c51602b2c141a016e58efc76438a3a4aae1bf66c7c",
+    "bytes": 566843,
+    "public_path": "자료/화면과검증/08b1c46321b6_level-301.png",
+    "source_paths": [
+      "5차/Previews/level-301.png",
+      "9차/work/reference5-final-previews/level-301.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "589af04ce9c0ff135d26d87d9e901e6115d67167075e136fff95a91b5407fd6e",
+    "bytes": 349925,
+    "public_path": "자료/화면과검증/589af04ce9c0_level-39.png",
+    "source_paths": [
+      "5차/Previews/level-39.png",
+      "9차/work/reference5-final-previews/level-39.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "67e12876f090f2480b5499db0d7ea9931358c7d5ffd656f321b7f0ddf8b0ee2a",
+    "bytes": 513354,
+    "public_path": "자료/화면과검증/67e12876f090_level-4.png",
+    "source_paths": [
+      "5차/Previews/level-4.png",
+      "9차/work/reference5-final-previews/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "040d9b7285872a7067321e9fcbe3a642e7309e593b96e883bdba68fd2a986570",
+    "bytes": 744619,
+    "public_path": "자료/화면과검증/040d9b728587_level-462.png",
+    "source_paths": [
+      "5차/Previews/level-462.png",
+      "9차/work/reference5-final-previews/level-462.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "722bec56ea5ad8eb6d2917048a959ff3de913e72dcce79d711b27d30925507ed",
+    "bytes": 640835,
+    "public_path": "자료/화면과검증/722bec56ea5a_level-465.png",
+    "source_paths": [
+      "5차/Previews/level-465.png",
+      "9차/work/reference5-final-previews/level-465.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0221da3dbb1145414069bc2b3e0fc9b3d37211638e238d8a9a6c58f6143fc8e7",
+    "bytes": 506171,
+    "public_path": "자료/화면과검증/0221da3dbb11_level-8.png",
+    "source_paths": [
+      "5차/Previews/level-8.png",
+      "9차/work/reference5-final-previews/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d440cf84bac23595f8434cd496775ca5fc6f58e89b548c94b6ab1a2390074149",
+    "bytes": 500275,
+    "public_path": "자료/화면과검증/d440cf84bac2_level-91.png",
+    "source_paths": [
+      "5차/Previews/level-91.png",
+      "9차/work/reference5-final-previews/level-91.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "5e016630396fc1a17ab01111b4c29275c5783d0ab198d0c73d80511bebc82683",
+    "bytes": 734232,
+    "public_path": "자료/화면과검증/5e016630396f_00-loading.png",
+    "source_paths": [
+      "6차/Previews/00-loading.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c8cb0ccb0f68ba19b5cbd15ec6ad455a0e36108ad8c8d7050c9defec9e407dc5",
+    "bytes": 740879,
+    "public_path": "자료/화면과검증/c8cb0ccb0f68_01-home.png",
+    "source_paths": [
+      "6차/Previews/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "378ccc915df03453f477c4d740b8a4c78a772ba97cedc96f9c70d11b2dc796fc",
+    "bytes": 321931,
+    "public_path": "자료/화면과검증/378ccc915df0_02-first-level.png",
+    "source_paths": [
+      "6차/Previews/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a848a72690e96fcc994d8d4b83b4c537262aee1c96d35b188f50663093433467",
+    "bytes": 286549,
+    "public_path": "자료/화면과검증/a848a72690e9_03-bomb-failure.png",
+    "source_paths": [
+      "6차/Previews/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "08bdc9aace8ec63778111d0f065620f57f9325571f24d538b1a834d281dba236",
+    "bytes": 344783,
+    "public_path": "자료/화면과검증/08bdc9aace8e_04-joystick.png",
+    "source_paths": [
+      "6차/Previews/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8258db29e220f778ea5e40f3cffa55be2a4212c4f20ecdef99fa9fb96fc3f143",
+    "bytes": 270925,
+    "public_path": "자료/화면과검증/8258db29e220_05-growth.png",
+    "source_paths": [
+      "6차/Previews/05-growth.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8ccafeb017501158502e11913c7c964527a2b29d03400c99c91f617aaa9b5ee7",
+    "bytes": 396107,
+    "public_path": "자료/화면과검증/8ccafeb01750_06-settings.png",
+    "source_paths": [
+      "6차/Previews/06-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c090ef65d35dee9da5363db2da0fbcb08b01a1e576dc761c540c7afcc405a17a",
+    "bytes": 399800,
+    "public_path": "자료/화면과검증/c090ef65d35d_07-levels.png",
+    "source_paths": [
+      "6차/Previews/07-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d25988a713dadd0637196afda208fcc149c6c907eeddc80d5b72d522c79ad83c",
+    "bytes": 413129,
+    "public_path": "자료/화면과검증/d25988a713da_08-boosters.png",
+    "source_paths": [
+      "6차/Previews/08-boosters.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "4438716e412b68f63637c86ef8e8ecfd6d432daf990bb30a24102230c7090295",
+    "bytes": 393152,
+    "public_path": "자료/화면과검증/4438716e412b_09-attendance-ready.png",
+    "source_paths": [
+      "6차/Previews/09-attendance-ready.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "795deec2ebd043b738c3903e26a83ff4aa1def67aa20c347935475d6f2b51845",
+    "bytes": 392488,
+    "public_path": "자료/화면과검증/795deec2ebd0_10-attendance-claimed.png",
+    "source_paths": [
+      "6차/Previews/10-attendance-claimed.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a9db4cb0debee7b79a5b8084241ff4f725978388af671d9b1ce54579c42464aa",
+    "bytes": 403169,
+    "public_path": "자료/화면과검증/a9db4cb0debe_11-challenges.png",
+    "source_paths": [
+      "6차/Previews/11-challenges.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "fc03f386d636dc88c1c5f333084a7624ec5d13fea695a5eb93bf2a038f5732f8",
+    "bytes": 393073,
+    "public_path": "자료/화면과검증/fc03f386d636_12-collection.png",
+    "source_paths": [
+      "6차/Previews/12-collection.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f83122129b60ef590028f661f1e76cdc6effa2aaa6fbce7602cdbf900fda698a",
+    "bytes": 387363,
+    "public_path": "자료/화면과검증/f83122129b60_13-collection-next.png",
+    "source_paths": [
+      "6차/Previews/13-collection-next.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0fe59bd8f7c24442266a82c0095ac878441e0a3d6bd092cc66cb986c54950524",
+    "bytes": 394231,
+    "public_path": "자료/화면과검증/0fe59bd8f7c2_level-12.png",
+    "source_paths": [
+      "6차/Previews/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "20d44075730716bf83f4d5a556808c445c98fe52b750d87297fdc8373c3a932a",
+    "bytes": 570387,
+    "public_path": "자료/화면과검증/20d440757307_level-151.png",
+    "source_paths": [
+      "6차/Previews/level-151.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "60c531dbd2f68a84fbe7e310117c1118a9b49d2e4d93524b9fd6ca2ad9021fd9",
+    "bytes": 505829,
+    "public_path": "자료/화면과검증/60c531dbd2f6_level-16.png",
+    "source_paths": [
+      "6차/Previews/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8b72f95b2eb4713706fdf03822bf357b28e888f381e9975d80c365ff300a9d66",
+    "bytes": 613668,
+    "public_path": "자료/화면과검증/8b72f95b2eb4_level-23.png",
+    "source_paths": [
+      "6차/Previews/level-23.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e053c76d6426f7fae1519cbd5ad7a96a3f4476eb98375108c254e3567a8830f6",
+    "bytes": 613760,
+    "public_path": "자료/화면과검증/e053c76d6426_level-29.png",
+    "source_paths": [
+      "6차/Previews/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7f1c1ffea361613ba4245d3e0b1e8e8ca4d450db48c70ef23b9696cddf51a4c9",
+    "bytes": 542118,
+    "public_path": "자료/화면과검증/7f1c1ffea361_level-3.png",
+    "source_paths": [
+      "6차/Previews/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "648bc6bb7aa0e4d1aa048d7a5af509f3e57123861bb219f0aaac6ae0f6d9ad9e",
+    "bytes": 565894,
+    "public_path": "자료/화면과검증/648bc6bb7aa0_level-301.png",
+    "source_paths": [
+      "6차/Previews/level-301.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "be21fb255664b28ec09955b02bf4cfbc7c0b5245d0b504097c7e2037fcf2edfc",
+    "bytes": 436018,
+    "public_path": "자료/화면과검증/be21fb255664_level-39.png",
+    "source_paths": [
+      "6차/Previews/level-39.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1d9b6bbe1fa13d864d248b0004d11ae65986f765e015c2b7898aaa99ab0b4fb9",
+    "bytes": 490445,
+    "public_path": "자료/화면과검증/1d9b6bbe1fa1_level-4.png",
+    "source_paths": [
+      "6차/Previews/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ca11790e8d58211d1ed8a74d3f81fdc410eac11676dec913c4313273c4eed115",
+    "bytes": 897355,
+    "public_path": "자료/화면과검증/ca11790e8d58_level-412.png",
+    "source_paths": [
+      "6차/Previews/level-412.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "65d803f026dac610c6904fed4649c3601b64ed1ffc86c226b43d9601b0915c9c",
+    "bytes": 712921,
+    "public_path": "자료/화면과검증/65d803f026da_level-462.png",
+    "source_paths": [
+      "6차/Previews/level-462.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7d542b80e69c923681192f86db4ff22523f1a251bc427335e9f83acee0a87e3e",
+    "bytes": 567372,
+    "public_path": "자료/화면과검증/7d542b80e69c_level-465.png",
+    "source_paths": [
+      "6차/Previews/level-465.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ab53bde78ec291e6d66f87e64a3f78e2527ff467b794d1ce5a5bf9ddcc73ce03",
+    "bytes": 427726,
+    "public_path": "자료/화면과검증/ab53bde78ec2_level-8.png",
+    "source_paths": [
+      "6차/Previews/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b45a3ed35614d7fc82316b571b7ee84cbeab0bbc23bf30f1691c81fb8b0bdda3",
+    "bytes": 500416,
+    "public_path": "자료/화면과검증/b45a3ed35614_level-91.png",
+    "source_paths": [
+      "6차/Previews/level-91.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "65587008069f038715bd13245223784eeec3943a77649d4c649f5c4ca20beda6",
+    "bytes": 887840,
+    "public_path": "자료/화면과검증/65587008069f_00-loading.png",
+    "source_paths": [
+      "6차/Previews/Tall/00-loading.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "1f0e3fd9f8d9b7772c8e1270c005cca69e991ada8856f0084813bac3a18fb0df",
+    "bytes": 870320,
+    "public_path": "자료/화면과검증/1f0e3fd9f8d9_01-home.png",
+    "source_paths": [
+      "6차/Previews/Tall/01-home.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "4d67f5bf28bb138798443298a62e0bbe7536b9fc31342482bbcd8d444958301c",
+    "bytes": 370096,
+    "public_path": "자료/화면과검증/4d67f5bf28bb_02-first-level.png",
+    "source_paths": [
+      "6차/Previews/Tall/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "524d267dd38393b2767c6415968789fb4fa4cac957acead7c4816dc206bac0cf",
+    "bytes": 499378,
+    "public_path": "자료/화면과검증/524d267dd383_06-settings.png",
+    "source_paths": [
+      "6차/Previews/Tall/06-settings.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "b0b387fff71d1795e42650b5761e0f05d70687d36ee756cc7fcb1ba74bf5805f",
+    "bytes": 494371,
+    "public_path": "자료/화면과검증/b0b387fff71d_07-levels.png",
+    "source_paths": [
+      "6차/Previews/Tall/07-levels.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "e42558e8d7ea66ab75d1d64509afd3436c21cf145d671b5a9c4d9a5afe2116c3",
+    "bytes": 507318,
+    "public_path": "자료/화면과검증/e42558e8d7ea_08-boosters.png",
+    "source_paths": [
+      "6차/Previews/Tall/08-boosters.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "775b64c946ed3f709cb174e9fce94dfafd30f3aee130230dda19b1f19ba3a1a9",
+    "bytes": 482997,
+    "public_path": "자료/화면과검증/775b64c946ed_09-attendance-ready.png",
+    "source_paths": [
+      "6차/Previews/Tall/09-attendance-ready.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "99ae1c997a628d676bd17cdcb651a4e3e6ea85c13eee790ac0b58ce8b4ab318c",
+    "bytes": 484417,
+    "public_path": "자료/화면과검증/99ae1c997a62_10-attendance-claimed.png",
+    "source_paths": [
+      "6차/Previews/Tall/10-attendance-claimed.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "58bd1ad67d227781980a3f418fc38332db0c7b831ad4bb96cb88d931fe0617f0",
+    "bytes": 498045,
+    "public_path": "자료/화면과검증/58bd1ad67d22_11-challenges.png",
+    "source_paths": [
+      "6차/Previews/Tall/11-challenges.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "13c7c7e0e1c63d4a054a460d33426c725e23556fef462de72970021824faa0d6",
+    "bytes": 488750,
+    "public_path": "자료/화면과검증/13c7c7e0e1c6_12-collection.png",
+    "source_paths": [
+      "6차/Previews/Tall/12-collection.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "f7d8516be33d2ebaaa19c7aa88ed4f39ae2defbf4f68e4ddb5eae15896334b00",
+    "bytes": 483496,
+    "public_path": "자료/화면과검증/f7d8516be33d_13-collection-next.png",
+    "source_paths": [
+      "6차/Previews/Tall/13-collection-next.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "3b980e56bf1430b8848425b26b00b4b30c24c4af9bb8664ca0def6a19f4ef206",
+    "bytes": 118102,
+    "public_path": "자료/화면과검증/3b980e56bf14_LinikSansBlackAtlas.png",
+    "source_paths": [
+      "6차/Source/Assets/Resources/ReferenceTypography/LinikSansBlackAtlas.png",
+      "7차/Source/Assets/Resources/ReferenceTypography/LinikSansBlackAtlas.png",
+      "8차/Source/Assets/Resources/ReferenceTypography/LinikSansBlackAtlas.png"
+    ],
+    "width": 512,
+    "height": 512,
+    "new_file": true
+  },
+  {
+    "sha256": "ef2673c38fe8732630143c7ece72bab5b9e844ff41d5e9ae771dc02ad525a373",
+    "bytes": 726910,
+    "public_path": "자료/화면과검증/ef2673c38fe8_00-loading.png",
+    "source_paths": [
+      "7차/Previews/00-loading.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "30b0630fa00c4187d386e3d3a508d6f10c86b7fde0e57872d1b93819098b5911",
+    "bytes": 712483,
+    "public_path": "자료/화면과검증/30b0630fa00c_01-home.png",
+    "source_paths": [
+      "7차/Previews/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "129a9bae827f66387c8c5a898f8cf65a3e66169fab3f3f2be4bdba658c574585",
+    "bytes": 320303,
+    "public_path": "자료/화면과검증/129a9bae827f_02-first-level.png",
+    "source_paths": [
+      "7차/Previews/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "af4a542f8166a08496a2ddc7c99b8f0191b52be5d9ef94841a506662dc64195c",
+    "bytes": 351627,
+    "public_path": "자료/화면과검증/af4a542f8166_03-bomb-failure.png",
+    "source_paths": [
+      "7차/Previews/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1e71fb096f0dc4ed6080409fab47b1bce2961fb74736ac326fd2feceb53700d6",
+    "bytes": 340408,
+    "public_path": "자료/화면과검증/1e71fb096f0d_04-joystick.png",
+    "source_paths": [
+      "7차/Previews/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0cc96cb9ea0bfd262a6faca99b85db5bdf255c3f78b44bbe5ce72d9b5d3a1aea",
+    "bytes": 342791,
+    "public_path": "자료/화면과검증/0cc96cb9ea0b_05-growth.png",
+    "source_paths": [
+      "7차/Previews/05-growth.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ab1a793d8cd26e469b7b6cedcd1e312e8bf695c5935915915733a0e308a0bdef",
+    "bytes": 394415,
+    "public_path": "자료/화면과검증/ab1a793d8cd2_06-settings.png",
+    "source_paths": [
+      "7차/Previews/06-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b7f333a2dec5223bd4979556e80f0e997629ee6c8ad20e8bc51d0cc519300c1a",
+    "bytes": 390338,
+    "public_path": "자료/화면과검증/b7f333a2dec5_07-levels.png",
+    "source_paths": [
+      "7차/Previews/07-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b20e142502b194e3d0160f3821471ed994b8b41ff1ef0284641f8bbdaa6f629f",
+    "bytes": 406729,
+    "public_path": "자료/화면과검증/b20e142502b1_08-boosters.png",
+    "source_paths": [
+      "7차/Previews/08-boosters.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "83194cb2c5f08e6b08f252d48bd6a236e48708bef0dadd05e5db5a5af8d96bd7",
+    "bytes": 381325,
+    "public_path": "자료/화면과검증/83194cb2c5f0_09-attendance-ready.png",
+    "source_paths": [
+      "7차/Previews/09-attendance-ready.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0f5c7384802f2249ea0b7f8c963c7cf348311ee4d0ff342e17dde83467ebd25c",
+    "bytes": 380501,
+    "public_path": "자료/화면과검증/0f5c7384802f_10-attendance-claimed.png",
+    "source_paths": [
+      "7차/Previews/10-attendance-claimed.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7516dfbcc90d09f814be52350d4578f102b8ccfa28742c20015b83ef7c67f66d",
+    "bytes": 394091,
+    "public_path": "자료/화면과검증/7516dfbcc90d_11-challenges.png",
+    "source_paths": [
+      "7차/Previews/11-challenges.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "495196039d7f6e0b55e9f4ba1f10c97c46f94b5f53c368ddc3c18e423f1daf31",
+    "bytes": 382348,
+    "public_path": "자료/화면과검증/495196039d7f_12-collection.png",
+    "source_paths": [
+      "7차/Previews/12-collection.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0e4e8eda5bea48f37fda61bf1cdfcba285b0121897ca17be0f70d6ed2e6fc3a9",
+    "bytes": 377278,
+    "public_path": "자료/화면과검증/0e4e8eda5bea_13-collection-next.png",
+    "source_paths": [
+      "7차/Previews/13-collection-next.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "96b5d8151ea50f0b0a6150ef351c0f280dfa4f72a12c41c53e56d3590e0b1fc2",
+    "bytes": 542107,
+    "public_path": "자료/화면과검증/96b5d8151ea5_14-finder.png",
+    "source_paths": [
+      "7차/Previews/14-finder.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0bc08443f1e4b43442de6c4034e685823dd1c0df8e9cccbfae74f3c524d04a3f",
+    "bytes": 381591,
+    "public_path": "자료/화면과검증/0bc08443f1e4_15-pause.png",
+    "source_paths": [
+      "7차/Previews/15-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f35f8931df95827dc7f35a93e9cf3dc11c452c5d19272953ce2bda1ca31c66e4",
+    "bytes": 364354,
+    "public_path": "자료/화면과검증/f35f8931df95_16-time-failure.png",
+    "source_paths": [
+      "7차/Previews/16-time-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d25832d17b2769fea984f724ce7c6977390157cc2cd6047486938b31fdb381da",
+    "bytes": 387768,
+    "public_path": "자료/화면과검증/d25832d17b27_level-12.png",
+    "source_paths": [
+      "7차/Previews/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "be3cab5b00d71a409b8c449fb1fbb110c83d08286faea6df6a2bd53851cb8ad8",
+    "bytes": 575125,
+    "public_path": "자료/화면과검증/be3cab5b00d7_level-151.png",
+    "source_paths": [
+      "7차/Previews/level-151.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "edaf697aad8e158dca2e3f592a1d692131a63e081b7821da1deaf08363437474",
+    "bytes": 505395,
+    "public_path": "자료/화면과검증/edaf697aad8e_level-16.png",
+    "source_paths": [
+      "7차/Previews/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "10953da2a275752d0300432f95f0bda1de1fda82b50ece0e12c348782c3a3c21",
+    "bytes": 607166,
+    "public_path": "자료/화면과검증/10953da2a275_level-23.png",
+    "source_paths": [
+      "7차/Previews/level-23.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1c1f81e7bb45b66905b66918a1aeb3e6ad04f456a7a1275eeda12e84f5f7f4de",
+    "bytes": 608534,
+    "public_path": "자료/화면과검증/1c1f81e7bb45_level-28.png",
+    "source_paths": [
+      "7차/Previews/level-28.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "5353122abec0d2f6523f69fbe161d8a927d7e8fd379ae6831934907c8d1bea4c",
+    "bytes": 613447,
+    "public_path": "자료/화면과검증/5353122abec0_level-29.png",
+    "source_paths": [
+      "7차/Previews/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "5de60cd5096d811e5f3b30347d2a574388e74acfad2c8ebddaf563f2160865a4",
+    "bytes": 532889,
+    "public_path": "자료/화면과검증/5de60cd5096d_level-3.png",
+    "source_paths": [
+      "7차/Previews/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "59e355ae1bb94f5a52e3874444c5b4eaac2c4da599bf69047ce75efbae55d84f",
+    "bytes": 558952,
+    "public_path": "자료/화면과검증/59e355ae1bb9_level-301.png",
+    "source_paths": [
+      "7차/Previews/level-301.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3057e4fae0ec249e36cca406b3c4a0411088dd5f8de04151fc5211f0a4b86df9",
+    "bytes": 435916,
+    "public_path": "자료/화면과검증/3057e4fae0ec_level-39.png",
+    "source_paths": [
+      "7차/Previews/level-39.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "bd30f9a83e73187b896a587474a48bd1c8e432da2b7ee842d9d8e71691b05a4e",
+    "bytes": 485592,
+    "public_path": "자료/화면과검증/bd30f9a83e73_level-4.png",
+    "source_paths": [
+      "7차/Previews/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e7127b0de473031f68777aa542a6dd68c618efd1da04ff5adeb49a65f89de906",
+    "bytes": 888885,
+    "public_path": "자료/화면과검증/e7127b0de473_level-412.png",
+    "source_paths": [
+      "7차/Previews/level-412.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "36259bb71332e09e928049eaedf923bfe7e39c5efff63b7726b7d7b8b6c546a4",
+    "bytes": 712695,
+    "public_path": "자료/화면과검증/36259bb71332_level-462.png",
+    "source_paths": [
+      "7차/Previews/level-462.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "12a13c2d14fa873446c6eec5f237d5eeab87a861470045a52f0a5a14f3cb01a1",
+    "bytes": 557392,
+    "public_path": "자료/화면과검증/12a13c2d14fa_level-465.png",
+    "source_paths": [
+      "7차/Previews/level-465.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c7668c2a2066591b3c8d5ade86822525df98063159d08d1a77babf9888421b63",
+    "bytes": 413976,
+    "public_path": "자료/화면과검증/c7668c2a2066_level-8.png",
+    "source_paths": [
+      "7차/Previews/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "2731df6bdfefad9e4ded646e911ba78a3003d1e18373ff3231c7e4762c3bff6f",
+    "bytes": 490817,
+    "public_path": "자료/화면과검증/2731df6bdfef_level-91.png",
+    "source_paths": [
+      "7차/Previews/level-91.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b89f4b30e605cb6524e746b473fd0b92f1bdc3a9d1fb61f9de3e102eed2750a8",
+    "bytes": 879321,
+    "public_path": "자료/화면과검증/b89f4b30e605_00-loading.png",
+    "source_paths": [
+      "7차/Previews/Tall/00-loading.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "1947cd7b3aea230a33f6c22c3ca28bff57bbf8ed76afc108e8ad61fe2a41152f",
+    "bytes": 838629,
+    "public_path": "자료/화면과검증/1947cd7b3aea_01-home.png",
+    "source_paths": [
+      "7차/Previews/Tall/01-home.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "124fb6209669fe550a4c041f9485a1ea16a19db38a72f11dc3f3101485fc406a",
+    "bytes": 369617,
+    "public_path": "자료/화면과검증/124fb6209669_02-first-level.png",
+    "source_paths": [
+      "7차/Previews/Tall/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "e72628a3e5f4b593c7008daca64d8a18efb241daf29933a021b4ea47f94f46a0",
+    "bytes": 495940,
+    "public_path": "자료/화면과검증/e72628a3e5f4_06-settings.png",
+    "source_paths": [
+      "7차/Previews/Tall/06-settings.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "61a578c713b4fc2bdb822118c61a5dce7f62e4af4f934f75c1d2e41c46de5a31",
+    "bytes": 488486,
+    "public_path": "자료/화면과검증/61a578c713b4_07-levels.png",
+    "source_paths": [
+      "7차/Previews/Tall/07-levels.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "9a31044fbf852b113bcebddc0b289526ac2988b585b0d38b1020004a3e22fd57",
+    "bytes": 505410,
+    "public_path": "자료/화면과검증/9a31044fbf85_08-boosters.png",
+    "source_paths": [
+      "7차/Previews/Tall/08-boosters.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "2ba6b8904101c42f2f2119bb8609febd2ff01ebac3b5f0d7417e807279ce8faf",
+    "bytes": 484977,
+    "public_path": "자료/화면과검증/2ba6b8904101_09-attendance-ready.png",
+    "source_paths": [
+      "7차/Previews/Tall/09-attendance-ready.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "aa33d2fe2e23dea151945ed1eb93f71bb17d6040684d898b05c991403b0ede78",
+    "bytes": 484153,
+    "public_path": "자료/화면과검증/aa33d2fe2e23_10-attendance-claimed.png",
+    "source_paths": [
+      "7차/Previews/Tall/10-attendance-claimed.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "e404cd3994971d99c8dd2713fd857c4efe60eca9a2843841083c3d325e6d69f4",
+    "bytes": 491762,
+    "public_path": "자료/화면과검증/e404cd399497_11-challenges.png",
+    "source_paths": [
+      "7차/Previews/Tall/11-challenges.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "a2686ba04df368417647ea5f2ff5580431722373fb6350d2217a8da8bb239d51",
+    "bytes": 481244,
+    "public_path": "자료/화면과검증/a2686ba04df3_12-collection.png",
+    "source_paths": [
+      "7차/Previews/Tall/12-collection.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "9e9dab7880d96775ec7964c2bd6b3a32c363e915bb857ba4a51c704298e71163",
+    "bytes": 476249,
+    "public_path": "자료/화면과검증/9e9dab7880d9_13-collection-next.png",
+    "source_paths": [
+      "7차/Previews/Tall/13-collection-next.png"
+    ],
+    "width": 540,
+    "height": 1200,
+    "new_file": true
+  },
+  {
+    "sha256": "02957ab32ce7004c413ddaa6e79317b977ea1d9d891c525ccc035719d296a150",
+    "bytes": 18445,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/AppIcon.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/AppIcon.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/AppIcon.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/AppIcon.png"
+    ],
+    "width": 512,
+    "height": 512,
+    "new_file": false
+  },
+  {
+    "sha256": "c1242d3e2f3b3b0761c40e39b8aedaecaac153ce5e4cb7aa956d06ccbc301705",
+    "bytes": 572,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Panel.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/ButtonMint.png",
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Panel.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/ButtonMint.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Panel.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/ButtonMint.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/Panel.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/ButtonMint.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Panel.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "078714b2567b82ba11a6e156c61727efef9d7075d8685ccd3182f613e165f802",
+    "bytes": 3264,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Circle.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Circle.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/Circle.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Circle.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "59917ebe20988e6c2d8041903a749edc27e4ae12adedbd0ba236f6892441b1a3",
+    "bytes": 1555,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/CoralGradientUI.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/CoralGradientUI.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/CoralGradientUI.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/CoralGradientUI.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "5e2b16287e8c884dcd39b72bd23d33f397f764f2d88f033aeaa06ea9e5190140",
+    "bytes": 1461,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/GoldGradientUI.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/GoldGradientUI.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/GoldGradientUI.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/GoldGradientUI.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "7453bc60530996261b0289c9db77d962ecec676bd1466b4e2093cd4027fc4eb1",
+    "bytes": 13815,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BallM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BallM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BallM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "521ed2e04f8bc8cba5b0b02aa80a832ea8c79bfbd66638af22dc8e0af979ba3e",
+    "bytes": 13244,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BallS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BallS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BallS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "536649930131f8e6f21c9d789460aef645db8c905873bf5ae53ef73d29d1a609",
+    "bytes": 7229,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BananaS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BananaS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BananaS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "10402067d3ce33de35d759d3735db98dc56827e1db408b25dbeb9c2a86bfaa81",
+    "bytes": 12709,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_Bench.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_Bench.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_Bench.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "27c248609f92079ec064403c937d2987dec0dba54f4587aa14b90026135466a5",
+    "bytes": 10289,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BlockS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BlockS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BlockS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "64ee367b2f4b043c3cf2d733c8fa68e2236bfcc72d318f68a26440f83d014c41",
+    "bytes": 10918,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BoxL.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BoxL.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BoxL.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "cada91c6da3c3d3318323c34b6685b61644bfa3b0de2a8a4eea5da974c9b8b84",
+    "bytes": 10723,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BoxM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BoxM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BoxM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "01a96eb9e391e1b215ae94491a3b9c3d1bb60acd007bc6d3d34e2f0dc61ca0e0",
+    "bytes": 11149,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BoxS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BoxS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BoxS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "7babd1ce6b02d8b358e1655d04183ba37a4c0a6942bbcf977c82111b4593a32d",
+    "bytes": 9293,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BuildL.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BuildL.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BuildL.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "9a4ded82c9bd7baf6a8c29831383dee02d87bdc27ce76c269d47bc340fcae771",
+    "bytes": 10164,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BuildS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BuildS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BuildS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "53c0c0b92bfd1a9f6e6da16604f246e0279467289f3759f7582fb2028ff9dd50",
+    "bytes": 16213,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_BurgerS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_BurgerS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_BurgerS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f39e76f59ff673794d3a44ba5e76be9e241e0bdf93f337dca86ddff8d64ed10d",
+    "bytes": 12069,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_Bus.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_Bus.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_Bus.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "b317204b3c799182a3e9708f7a9eda834dad7910a058d8ec1a8bd16c6d7d2823",
+    "bytes": 15623,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CakeM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CakeM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CakeM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "797efde52926ad2262c99ac9ceb9c7ebbe689edbd125360f64f9c0c94be000fd",
+    "bytes": 15342,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CakeS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CakeS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CakeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "04d0e29cd331021d95b6a99421fa74f4550cdf650f7d395f698b4f43fd2a70b1",
+    "bytes": 7430,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CandyS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CandyS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CandyS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "46c018e1f3e8ea52d01076372f4fc52ba4d3f3de7fdc72b72b1d11c9d01a426e",
+    "bytes": 12869,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarBlue.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CarBlue.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarBlue.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "6f6e1c699ebd220efd85e9fc0b07702fe3adaaa71d967bb6f7f1d0efe32b67e5",
+    "bytes": 13266,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CarM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "96941021ab42de346225db2bc2700efc84dcc7493ad129bd87d991c5a8a1fcb8",
+    "bytes": 12956,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CarS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "1299b9f70d0779dbdc25c6665fee9e8f9437a4df10e8a4a6485752520261472e",
+    "bytes": 13427,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarYellow.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CarYellow.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CarYellow.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "4b1a565fa4b0c18e08eb7cb0b19b9bb0017413ff9e67dd1bcda8c375ec8c3923",
+    "bytes": 7526,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CheeseS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CheeseS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CheeseS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "94405b01a1912a54b4bbb71460c34c88d485eae4a056250e001ca25666d7b9ef",
+    "bytes": 10615,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CoffeeS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CoffeeS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CoffeeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "4d8af045764a97a90ff945b7c9281022f7acfd86ca17971745a057f272fc35ba",
+    "bytes": 10216,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CookieS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CookieS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CookieS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "6adce2ed4da8418b00f5e2ee07ddd8c85ba0b4dff1619c791b207a6ef48c09e9",
+    "bytes": 12086,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CupcakeM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CupcakeM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CupcakeM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "3695ef7f81cfd78b83115cb94f5d1240fc5b59af0f8aeb66ce8a9aa8ed3c5659",
+    "bytes": 11986,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_CupcakeS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_CupcakeS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_CupcakeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "89ab50dbcb78fb44b0704b33d5bbd907506009c54dec3a5c26e32094247c01f2",
+    "bytes": 12392,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_DonutS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_DonutS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_DonutS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "61dec3f8042fa3e980d5868b49b5f2f430fb5ebd2a3c4fa420c91a98a76885f6",
+    "bytes": 11632,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_DuckS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_DuckS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_DuckS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "78b5fe4d7957f08ef8e0b7aab9413002963cd207fd420fad7b6337f142a8055b",
+    "bytes": 10320,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_Flower.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_Flower.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_Flower.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "6ed8d52d6857197d5d7c6a501e26b1f72f9bdba4b8b477254231c6936586d84c",
+    "bytes": 8066,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_FridgeL.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_FridgeL.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_FridgeL.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "ee8aa1f827ef2cea36f3b29710b1e409f27368e5be8e8592f3846007c44268a3",
+    "bytes": 9802,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_FriesS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_FriesS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_FriesS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f3550ea6ac75d125b88c066aba8615ace4c59a05f890ef31465cd3836e23d1ed",
+    "bytes": 10668,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_Hydrant.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_Hydrant.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_Hydrant.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "e53148161c33fdc8f0154f5d964b2e7b8788d86a36c6b07eef68e16155012e13",
+    "bytes": 8985,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_IceCreamS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_IceCreamS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_IceCreamS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "49cd138e22930edad033f4b58dd132e20c37caef191ec06e56e280fbf899be11",
+    "bytes": 9656,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_MilkCartonS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_MilkCartonS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_MilkCartonS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "b37e192f39851b2d1f6c7a542be4a7946b0f94eefb758aa02623a82e34691688",
+    "bytes": 6228,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_PanM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_PanM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_PanM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "ff57021a246343796707575841f6dadff68d83566c511d218032eab22e4c2a9d",
+    "bytes": 11849,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_PianoM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_PianoM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_PianoM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "1a252685e6b1c17bc2ed0bdf34d4ad2e57de508d98205c6307562f29ff771843",
+    "bytes": 6629,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_Pillar.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_Pillar.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_Pillar.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "6211199a81861f59dce28060df131497e99bf9bb8e3fe137a99497cdfd33b4c5",
+    "bytes": 11160,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_PizzaS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_PizzaS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_PizzaS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f65bb76dc19d15e23de1e669be4e50bc6cd00cc218dfd9c160f963f775db2f83",
+    "bytes": 8454,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_PlantPot.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_PlantPot.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_PlantPot.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "19d76a605dd5f3040bb68e11de53a5171fcffb92df01af42560fa6805bac67ca",
+    "bytes": 7704,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_PopsicleS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_PopsicleS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_PopsicleS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "9f723b0e293f4253e3340360d8e6322b7188b972a0552cca6fa658508e58aa3c",
+    "bytes": 10883,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_ScissorsS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_ScissorsS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_ScissorsS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "0845c64879d0e49c3d174b1fd33d44a16efa454bf9ae291376189c2afde2d05e",
+    "bytes": 8446,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_SodaS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_SodaS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_SodaS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "2d17c55f59da82bebfde27ca2ed3b4ff7e746858921c4a52b1f6dd1404ebbf84",
+    "bytes": 4509,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_StreetLamp.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_StreetLamp.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_StreetLamp.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "cf6027afee30e3aa15bf7bea3a29ffd854c3dfd3a5f49c3e876daf05a9f5c4cf",
+    "bytes": 11167,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_TimeBoost.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_TimeBoost.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_TimeBoost.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "b90e4c16b2370803b04b73f693463004e1de82100e304bcbae3bf3fc0c400f49",
+    "bytes": 13451,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_ToyCar.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_ToyCar.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_ToyCar.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "e23f131bbb8c9437471c11dc2784f9deb29cf270a13576ab30bf151586c90735",
+    "bytes": 7470,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_TrafficCone.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_TrafficCone.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_TrafficCone.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "90d2fc8672c0a43a140911961291418d62060456eb75253bdd51d7211d1cffdb",
+    "bytes": 4292,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_TrafficLight.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_TrafficLight.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_TrafficLight.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "4804d4d1b0e84c6a2a473b8c642e2da165d93c7c4d9eaf719215d4aa2889bae3",
+    "bytes": 7994,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_TreeS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_TreeL.png",
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_TreeM.png",
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_TreeS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_TreeL.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_TreeM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_TreeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f3dfc8c5e6a2100993e7af6e12d6b8b28d8af4245ca3a5f328b46b056c2037ed",
+    "bytes": 14470,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_WaffleM.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_WaffleM.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_WaffleM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "5a9569a90542992b89d9dc890a1cc19c666e313d45068840afd7c8231d38a5bd",
+    "bytes": 14571,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_WaffleS.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_WaffleS.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_WaffleS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "b61621f21a5845a0011e47c5e2f971620d122ca1ae5411b1a8ab5927a038d3c0",
+    "bytes": 10300,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Icon_Wall.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Icon_Wall.png",
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Icon_Wall.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "848ad284463c9140b48604bcfbf03812da0b1fb5e1bf21e0f8f486ad80a91cd2",
+    "bytes": 1580,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/PlayGradientUI.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/PlayGradientUI.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/PlayGradientUI.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/PlayGradientUI.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "dc2157646e2382c7a937e2c9f2f678b3dc2cbb6447a0550f43a5838c97e53754",
+    "bytes": 1541,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/PurpleGradientUI.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/PurpleGradientUI.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/PurpleGradientUI.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/PurpleGradientUI.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "6b771cb9d6243834bbead96a363574f355a8c18ecfaac8d76461c2bae8e3b5f0",
+    "bytes": 4463,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Ring.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Ring.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/Ring.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Ring.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "dd9b9b24ed2d651402a47262d9094378484eb3796a40ced33ad5f20810b2627b",
+    "bytes": 1294,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/RoundedUI.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/RoundedUI.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/RoundedUI.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/RoundedUI.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "74fb526a77ffae2eb23767aeb0ec5c5c240ede6927fd27d73722764f1bfa6e8a",
+    "bytes": 2384,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Soft.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Soft.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/Soft.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Soft.png"
+    ],
+    "width": 64,
+    "height": 64,
+    "new_file": false
+  },
+  {
+    "sha256": "82e8394a3122deb48992b7c6df384cba4b04bc389b776f3d26100c390815e091",
+    "bytes": 78,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Square.png",
+    "source_paths": [
+      "9차/work/AndroidBuild/Assets/HoleIt/Textures/Square.png",
+      "9차/work/package/Source/Assets/HoleIt/Textures/Square.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Square.png"
+    ],
+    "width": 4,
+    "height": 4,
+    "new_file": false
+  },
+  {
+    "sha256": "18a976493326b9f3895e14d251ecbde22cb28295064b4d556dad7568e300d272",
+    "bytes": 168835,
+    "public_path": "자료/화면과검증/18a976493326_01-menu.png",
+    "source_paths": [
+      "9차/work/AndroidFinal/TestResults/Screenshots/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c3a700a9e27f4a281221fa5b0083997245328593bb0d6d77c686a0b3d30e787a",
+    "bytes": 169494,
+    "public_path": "자료/화면과검증/c3a700a9e27f_02-play.png",
+    "source_paths": [
+      "9차/work/AndroidFinal/TestResults/Screenshots/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8f8774d085b96f978779df250889667249e3fc4eb9df3766795728b1f52f67d1",
+    "bytes": 134039,
+    "public_path": "자료/화면과검증/8f8774d085b9_03-pause.png",
+    "source_paths": [
+      "9차/work/AndroidFinal/TestResults/Screenshots/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "290eb666bfa51e53ec9f171328bd06e9a77e4822c84d691ab57d938df54504f1",
+    "bytes": 102031,
+    "public_path": "자료/화면과검증/290eb666bfa5_04-settings.png",
+    "source_paths": [
+      "9차/work/AndroidFinal/TestResults/Screenshots/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8fe8e1be01e82b8cc6129a55a8dac609eee63ebb8183be641422a77e89edfdda",
+    "bytes": 165202,
+    "public_path": "자료/화면과검증/8fe8e1be01e8_05-city.png",
+    "source_paths": [
+      "9차/work/AndroidFinal/TestResults/Screenshots/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "9e54ef535bfa097c623a35bf5f9a4080bec9c45e2ffb14bb12fd3847cb5b2b40",
+    "bytes": 71401,
+    "public_path": "자료/화면과검증/9e54ef535bfa_06-clear.png",
+    "source_paths": [
+      "9차/work/AndroidFinal/TestResults/Screenshots/06-clear.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "944223dd40456b58e01741e47058b7c37360657949f128574363be4f18c0bdd3",
+    "bytes": 103244,
+    "public_path": "자료/화면과검증/944223dd4045_failure-level-27.png",
+    "source_paths": [
+      "9차/work/AndroidFinal/TestResults/Screenshots/failure-level-27.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e90a120099ae1dd04ba6b74fea55dfc49b3179924de0027be868a435f691df76",
+    "bytes": 312464,
+    "public_path": "자료/화면과검증/e90a120099ae_01-menu.png",
+    "source_paths": [
+      "9차/work/final-previews/01-menu.png",
+      "9차/work/package/미리보기/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1489d13553741b97acac67839b85c9b7dc5444335f9034a01d2884cfc0b0719c",
+    "bytes": 298368,
+    "public_path": "자료/화면과검증/1489d1355374_02-play.png",
+    "source_paths": [
+      "9차/work/final-previews/02-play.png",
+      "9차/work/package/미리보기/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d84bdc3451dc5739c03d9d9b65f6ecd305c210ca9bfa29f708dffee487daeeb9",
+    "bytes": 186669,
+    "public_path": "자료/화면과검증/d84bdc3451dc_03-pause.png",
+    "source_paths": [
+      "9차/work/final-previews/03-pause.png",
+      "9차/work/package/미리보기/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "cb2fbba943110617c04abf61f43d5d44e2461371cf87c5eb5d58e15eb5a5e6ec",
+    "bytes": 147985,
+    "public_path": "자료/화면과검증/cb2fbba94311_04-settings.png",
+    "source_paths": [
+      "9차/work/final-previews/04-settings.png",
+      "9차/work/package/미리보기/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f84e0215d46c5a5487af56d5452f95f932af978376ca1b80de460aa73f938800",
+    "bytes": 173242,
+    "public_path": "자료/화면과검증/f84e0215d46c_05-city.png",
+    "source_paths": [
+      "9차/work/final-previews/05-city.png",
+      "9차/work/package/미리보기/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b291fed1d23da86ca5ff452c62e1b6e008a3ecd1314dcae844e250ad375fb1c9",
+    "bytes": 108074,
+    "public_path": "자료/화면과검증/b291fed1d23d_06-levels.png",
+    "source_paths": [
+      "9차/work/final-previews/06-levels.png",
+      "9차/work/package/미리보기/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f9e0d59d6c2329ddd72f3aa4f6d5e61ed132e1fddfb8ba291b25cd4cae3a83bb",
+    "bytes": 201048,
+    "public_path": "자료/화면과검증/f9e0d59d6c23_01-menu.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1528d813148bc452e2939f2d014a58aa041436e3085068482e6d6c84309d35b9",
+    "bytes": 199404,
+    "public_path": "자료/화면과검증/1528d813148b_02-play.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0eccd14347add86e9c90992a2557e77fb5aaedd43a5a2ea09734c18d76f085cd",
+    "bytes": 114421,
+    "public_path": "자료/화면과검증/0eccd14347ad_03-pause.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ed1f00c1419d50c08894b03821ed65e4e76ff54fe89e756393f7d9638d48b17d",
+    "bytes": 98808,
+    "public_path": "자료/화면과검증/ed1f00c1419d_04-settings.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d4beffdcabe73a286c9bff871c7cc9384b8dbdd852929d55e98ddcf27731c7ce",
+    "bytes": 196040,
+    "public_path": "자료/화면과검증/d4beffdcabe7_05-city.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "2f927f10caf2a083d31c77c5479f36a73e306a268c2fdf3b49492b66faf93508",
+    "bytes": 108428,
+    "public_path": "자료/화면과검증/2f927f10caf2_06-levels.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "60cb6017c14abe713fe8f1abf67cb81ab625c17194989835b8c9030864e79086",
+    "bytes": 79002,
+    "public_path": "자료/화면과검증/60cb6017c14a_07-bomb-failure.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/07-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "cd8dbbbdbfe0272f15b4cb23e61060e789b34ca2512cd21eaa605349b2f8ad2c",
+    "bytes": 194629,
+    "public_path": "자료/화면과검증/cd8dbbbdbfe0_08-steps.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/08-steps.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "171c7f5858ba85f0dca2f43b5e1943e40f3a85fd16b07ca12dfaf70b4306ce79",
+    "bytes": 174931,
+    "public_path": "자료/화면과검증/171c7f5858ba_09-rings.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/09-rings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a9e046fe4bb9d2e8fe540bcae2eeb62f31b5cc10b2cdca5df362cbda4337faa1",
+    "bytes": 132852,
+    "public_path": "자료/화면과검증/a9e046fe4bb9_10-castle.png",
+    "source_paths": [
+      "9차/work/gameplay-previews/10-castle.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "189f48006042f1037d49bebe11e5145f6a9a96b2da9157401be0ac5b041cdec0",
+    "bytes": 857,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Circle.png",
+    "source_paths": [
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Circle.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f56fce88b88ac3cfbe98efe1d7283477085f57a79fb725af38b2be126ea4961e",
+    "bytes": 1075,
+    "public_path": "1차/HoleIt_Source/Assets/HoleIt/Textures/Ring.png",
+    "source_paths": [
+      "9차/work/original/HoleIt_Source/Assets/HoleIt/Textures/Ring.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "7427f6dfd5552a901ace4165f16b3948bf1d90c5267e6be591258afb3c5fcb8d",
+    "bytes": 5918,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BallM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BallM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BallM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "395eba84ffe7f4b1b59de03e8412d4d3851b4309c3ec9de2323414d5abf012c3",
+    "bytes": 5863,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BallS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BallS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BallS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "231eb778cf57035df5d08f2a93faf73d30eccdc58ed054702f382d114dd8afaa",
+    "bytes": 5485,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BananaS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BananaS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BananaS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "9f976fd97600563154b8742eac36e1acb1a57074d5a1b66b1be32525c47fa936",
+    "bytes": 7255,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_Bench.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Bench.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Bench.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "006ef78b4f131949f27531aab32970a4fa3ff7081aa89cef1559a0b455cfbe5e",
+    "bytes": 8131,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BlockS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BlockS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BlockS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "0f6870d603338d93a5b832811edfb1987186dd3244b610b8a98184d50b6dd80b",
+    "bytes": 7104,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BoxL.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BoxL.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BoxL.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "dcc418f0dea974dbc85527f546770b9f8c9ca5c1ae5d6802936739525091bf8b",
+    "bytes": 6973,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BoxM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BoxM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BoxM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "21e1a3437104721f7aeac562e2708b3f8f5108bf8db5486fadf556d45d92c21d",
+    "bytes": 6679,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BoxS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BoxS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BoxS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "28fca28e504c3f853efc81496580c502cecac3e36c92abf149cad8677b7248f5",
+    "bytes": 6303,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BuildL.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BuildL.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BuildL.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "8339390f0d16c9b2b5a6ddd7132c804d382fa9a096b032e2b4a8a6b9bc808416",
+    "bytes": 8457,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BuildS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BuildS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BuildS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "dddd1960c2ba7a60bf314239ab3789b97bb92fd3e81982b24a39cfa224c7a5a5",
+    "bytes": 8607,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_BurgerS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_BurgerS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_BurgerS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "ae860b4f27e1b9a31df09348a00aef5683335f590e5e0d4b9eb57a79ca255b8e",
+    "bytes": 10360,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_Bus.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Bus.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Bus.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "8034268dc6c08dceebddb74dd0d1151f41c468aa1e2014e8273b20dca83f08a2",
+    "bytes": 9877,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CakeM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CakeM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CakeM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "28ed6ee421e581bf32b37514e8904ade1197b848f2d36b8e037bc392229df995",
+    "bytes": 9967,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CakeS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CakeS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CakeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "45d6d23e0ec755aa60ac4b7a91d8e574f3d4679e3767c747f19b118520578cf7",
+    "bytes": 4600,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CandyS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CandyS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CandyS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "afd63ff2f8a2eaf4ea861dbf3555489a86ce1056ce40542d87f3bb0c2636a357",
+    "bytes": 10263,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CarBlue.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CarBlue.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CarBlue.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "0ebfd59f6e536e3b7591fa150a02dfcf0aed4b3ff2c12e7bb351abda6b9d6ee6",
+    "bytes": 10255,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CarM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CarM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CarM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "7756c787bf1008466a97f6bd51a850ae0a230512e46e7a8576d70e6c6ad55d8b",
+    "bytes": 10240,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CarS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CarS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CarS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "bfea862b28abec619726ea692f93aecaa5baafcc5e7fb10f8fa1bed16debe166",
+    "bytes": 10429,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CarYellow.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CarYellow.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CarYellow.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "b4127acea00b30eb24429e7a79bbb4498bcdcff7a2beff2b949f80cffdae0eb1",
+    "bytes": 6240,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CheeseS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CheeseS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CheeseS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "08152c74dd38e31cae1409d143ce201951eded60a56a0f28e9e7a63fa8b269b7",
+    "bytes": 6374,
+    "public_path": "자료/화면과검증/08152c74dd38_Icon_Chocolate.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Chocolate.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Chocolate.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "dfb53bd1365d34e359a28529366e9616e6573813dc1a913626a4aef6b4929305",
+    "bytes": 8267,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CoffeeS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CoffeeS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CoffeeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "27fe9476584d2bea34a83859c03504dfdb1512d16fa85bed2a7a6de22127596d",
+    "bytes": 7870,
+    "public_path": "자료/화면과검증/27fe9476584d_Icon_Compact.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Compact.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Compact.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "33eaa30e21c1d95c7eac20daeb3d2877738d7f55d5abc5cc2b38d31c4c382962",
+    "bytes": 6887,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CookieS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CookieS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CookieS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "5940763427bc046983ee854f94fc4029eb6018a8cbda7b9d9202ee26191b9b76",
+    "bytes": 7406,
+    "public_path": "자료/화면과검증/5940763427bc_Icon_CreamJar.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CreamJar.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CreamJar.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "802f2b4cf461c13b8e9ba8239980a6ce5fdeff40b5a6c76a9a4112f59577b74a",
+    "bytes": 6513,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CupcakeM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CupcakeM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CupcakeM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "63d8ba039ee0c2231fe9c9dc87a992db99eacb3a11cc89c523d336db1323580e",
+    "bytes": 6531,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_CupcakeS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_CupcakeS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_CupcakeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "b671285945ca8658d7e93fc1965ac42d552ebcf99cbe58c34e7dd49a3dc4f7b2",
+    "bytes": 7835,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_DonutS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_DonutS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_DonutS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "a870f7f0877a39fa4d74118fef5b9ff2b98ed9c79daa65174760752daebb7677",
+    "bytes": 7316,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_DuckS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_DuckS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_DuckS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f3a6d15b2a7e5cd480538fa334902f03c315b911eac6707b1cb89f48bf808937",
+    "bytes": 4522,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_Flower.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Flower.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Flower.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "ee86179648ae355658b720fc70eb6433db3368f4a69ea17a52c4a093b9e15503",
+    "bytes": 5369,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_FridgeL.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_FridgeL.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_FridgeL.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "d862a5432a0b442c16f3915577e8f2f0514c94b323ef16d03bc505f9f36e6fcd",
+    "bytes": 6618,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_FriesS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_FriesS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_FriesS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f6541a0a00cf5821f9a6c17c444c446a7fc350e3cf4c690a72b7e2a698df5537",
+    "bytes": 7758,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_Hydrant.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Hydrant.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Hydrant.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "81375ae15fdc65a6764b6c73b3649a9806f7d50a7fee3f63eb9f2af155a936e0",
+    "bytes": 5813,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_IceCreamS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_IceCreamS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_IceCreamS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "f10b62e885d3cf12deb93dfc363dacaa33a328424c8c9a754663c4c7b5b800f3",
+    "bytes": 6302,
+    "public_path": "자료/화면과검증/f10b62e885d3_Icon_JuiceBottle.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_JuiceBottle.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_JuiceBottle.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "ad566ad819ccff356140e0ead5d45f48b4452867b46b0019ff6ad142ce7724e9",
+    "bytes": 5707,
+    "public_path": "자료/화면과검증/ad566ad819cc_Icon_Lipstick.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Lipstick.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Lipstick.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "4c077b83b4a884bf17fa490acba90afe740ebbdc3e9750cea807bf4029f7d1fa",
+    "bytes": 5631,
+    "public_path": "자료/화면과검증/4c077b83b4a8_Icon_Lotion.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Lotion.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Lotion.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "addc7adab460a3b9db9f230360c5ad169ac039498b28f8fb5bbccc769324d0a7",
+    "bytes": 8177,
+    "public_path": "자료/화면과검증/addc7adab460_Icon_Macaron.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Macaron.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Macaron.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "dadcb979fdb03c89a8adb82c1d4068ee1e824d808392eb065e3fe6915640ef0c",
+    "bytes": 3848,
+    "public_path": "자료/화면과검증/dadcb979fdb0_Icon_MakeupBrush.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_MakeupBrush.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_MakeupBrush.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "7f30f600d2bdf303e4c23affe04aa11296bfbe51ce17320cc9543f3570cbab10",
+    "bytes": 7528,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_MilkCartonS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_MilkCartonS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_MilkCartonS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "3e3da9761d49761a604f795e7087df2ba5e75d556d4c8fdbce57fb1a6efd6f8a",
+    "bytes": 5769,
+    "public_path": "자료/화면과검증/3e3da9761d49_Icon_NailPolish.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_NailPolish.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_NailPolish.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "6a309bc1d450c0716d46136f0c1a07f04e330f795fab58113c7fbd3cbd7b8151",
+    "bytes": 5644,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_PanM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_PanM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_PanM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "cb8697625c5fb00f738f317a2b064b6c434bf3c8900c0ad4347aefd1e626f1a0",
+    "bytes": 6804,
+    "public_path": "자료/화면과검증/cb8697625c5f_Icon_Perfume.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Perfume.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Perfume.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "60bf9c6e07b41183de33a7ee4bfa3d750a1c28c7b9e5b1336ad5ce6ca99f4ffc",
+    "bytes": 7523,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_PianoM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_PianoM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_PianoM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "6f414a794975a4828cfbfc201be2f1ac809894ab0f73e9fa04cf819ce9061fe7",
+    "bytes": 5754,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_Pillar.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Pillar.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Pillar.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "c8df1ef989557c7f7910abfca629e00f78caea79e0c8d12874b059d2574d2bce",
+    "bytes": 7284,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_PizzaS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_PizzaS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_PizzaS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "47f8d20d196141e00154bc1c41db08fad2abf0b5ea87a8edca0e5bc450eb70c0",
+    "bytes": 6898,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_PlantPot.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_PlantPot.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_PlantPot.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "66b51ce6ac57fa724e7773801b98ede13aab359628f94fb92aabbebf0f92646b",
+    "bytes": 3690,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_PopsicleS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_PopsicleS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_PopsicleS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "ba6f7412826e714f0bfe3fb1d969b64fbe7b31280be90e5af281a246d4d530ca",
+    "bytes": 4543,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_ScissorsS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_ScissorsS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_ScissorsS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "dc4b719944cc6bd7ba24284b8485a3a0e8b917211c1cb0fc821770d8737288e5",
+    "bytes": 5048,
+    "public_path": "자료/화면과검증/dc4b719944cc_Icon_Serum.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Serum.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Serum.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "01338038ddffe3fae690832409bc8234ec1685a14343cfa94a63103e0ee0189a",
+    "bytes": 7317,
+    "public_path": "자료/화면과검증/01338038ddff_Icon_Soap.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Soap.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Soap.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": true
+  },
+  {
+    "sha256": "758df6fd8c0e0108f5bcd11f46b65528f4372fa7e92a395d58d69854afd3f8f8",
+    "bytes": 5204,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_SodaS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_SodaS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_SodaS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "7fbce1504054f0b1a2a0dad5e2c4c4ed7de197a1bb7e97a3841a66bafc1e6bc2",
+    "bytes": 2326,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_StreetLamp.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_StreetLamp.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_StreetLamp.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "53f2598610bf657fe80fca372bd44ac37090a5390d22581cd130f02bc58ff50e",
+    "bytes": 7311,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_TimeBoost.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_TimeBoost.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_TimeBoost.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "2fae894bc55e849ba4225d5e6a2bc0f1260cf1ade8febcfffc70c60416dee03d",
+    "bytes": 10336,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_ToyCar.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_ToyCar.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_ToyCar.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "48f027e00154e8b09e8be49ff0c35d18f9b13ac1d140eb50e6817d83b4694450",
+    "bytes": 7123,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_TrafficCone.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_TrafficCone.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_TrafficCone.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "a5217d08bc1e86eb49cb0635d764d8fd7cf68c9c672fef87ef2832fdaa07bb2d",
+    "bytes": 4293,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_TrafficLight.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_TrafficLight.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_TrafficLight.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "1d54b279f68ea1c83aa31b7a971ba9dbdc8dc817187752c8fc20eb16d5d9b785",
+    "bytes": 4617,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_TreeL.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_TreeL.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_TreeL.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "d557c866975ff229b0e232107371799ac2f0dfdf74fac517c17f06385fbc1f87",
+    "bytes": 4585,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_TreeM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_TreeM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_TreeM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "99ad775fc8245481d24a43b9cee2fce59898c565fefa1af884c5a7c76db9ad1f",
+    "bytes": 4696,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_TreeS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_TreeS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_TreeS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "046ad13543731bc1a9f62b22b2664b80e848d639ae9831458d9027382e7e9ae1",
+    "bytes": 9588,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_WaffleM.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_WaffleM.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_WaffleM.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "39a138b4cb564d41bf73c7c786bd7f598eab1c1b69119bf5eb8e408ecf430758",
+    "bytes": 9422,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_WaffleS.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_WaffleS.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_WaffleS.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "5c983e49a5bb64ed4d251ffe3575370a58215536fef46062f03eebc83665e5f9",
+    "bytes": 5783,
+    "public_path": "8차/Source/Assets/HoleIt/Textures/Icon_Wall.png",
+    "source_paths": [
+      "9차/work/package/Source/Assets/HoleIt/Textures/Icon_Wall.png",
+      "9차/work/PocketPit/Assets/HoleIt/Textures/Icon_Wall.png"
+    ],
+    "width": 128,
+    "height": 128,
+    "new_file": false
+  },
+  {
+    "sha256": "fbd94399b165c4cbe0b66e981c4c95f151b534693754eb131b5fdfa6ce613c49",
+    "bytes": 291794,
+    "public_path": "자료/화면과검증/fbd94399b165_01-menu.png",
+    "source_paths": [
+      "9차/work/package21/미리보기/01-menu.png",
+      "9차/work/soft-final-previews/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "cd56ee9fdf25ee0d4ef7ccfb0ddbb2e1e84e364fe11bf836bc6daac567b77266",
+    "bytes": 291779,
+    "public_path": "자료/화면과검증/cd56ee9fdf25_02-play.png",
+    "source_paths": [
+      "9차/work/package21/미리보기/02-play.png",
+      "9차/work/soft-final-previews/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "29646c6b093133b72e03f7a3502e5e07507f75b40c8fde95cbad19c512318fe4",
+    "bytes": 150578,
+    "public_path": "자료/화면과검증/29646c6b0931_03-pause.png",
+    "source_paths": [
+      "9차/work/package21/미리보기/03-pause.png",
+      "9차/work/soft-final-previews/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ba333de624b287b513da1078c3703f89886b0bfd685b4261a07a9a82d2068740",
+    "bytes": 129846,
+    "public_path": "자료/화면과검증/ba333de624b2_04-settings.png",
+    "source_paths": [
+      "9차/work/package21/미리보기/04-settings.png",
+      "9차/work/soft-final-previews/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "9d1dca1fa2378624342078bccf9636a68b8ddc54032d6f1f7d6689322298a43b",
+    "bytes": 163968,
+    "public_path": "자료/화면과검증/9d1dca1fa237_05-city.png",
+    "source_paths": [
+      "9차/work/package21/미리보기/05-city.png",
+      "9차/work/soft-final-previews/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c3a2c6f4c589c6fccd2ae1f8112c6d7114afef254f1f3c9e1b2889a67796ff51",
+    "bytes": 108160,
+    "public_path": "자료/화면과검증/c3a2c6f4c589_06-levels.png",
+    "source_paths": [
+      "9차/work/package21/미리보기/06-levels.png",
+      "9차/work/soft-final-previews/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "6d0bd68cc9d09ca67db67c55ab7db898d1f9868dd8c287d41b91e9051871a3b6",
+    "bytes": 79945,
+    "public_path": "자료/화면과검증/6d0bd68cc9d0_07-bomb-failure.png",
+    "source_paths": [
+      "9차/work/package21/미리보기/07-bomb-failure.png",
+      "9차/work/soft-final-previews/07-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a11d515b843d673a0a797c68788ee3ba3dd086a400eb638551bbc31c495e18ed",
+    "bytes": 300432,
+    "public_path": "자료/화면과검증/a11d515b843d_01-menu.png",
+    "source_paths": [
+      "9차/work/PocketPit/TestResults/Screenshots/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a2d76e5db8fcbb27117522aa06003d58082033001ebbbec9ca48f9629e13f260",
+    "bytes": 297249,
+    "public_path": "자료/화면과검증/a2d76e5db8fc_02-play.png",
+    "source_paths": [
+      "9차/work/PocketPit/TestResults/Screenshots/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "2790e7c7abd52b133f8d1d18e0f1b4c50ae18a8d155dc9889836aa1a07b6452e",
+    "bytes": 248036,
+    "public_path": "자료/화면과검증/2790e7c7abd5_03-pause.png",
+    "source_paths": [
+      "9차/work/PocketPit/TestResults/Screenshots/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "5eee6fcd3265e403aa78306cc429bed9be03e66938487976afe4a76a58f1aba2",
+    "bytes": 201036,
+    "public_path": "자료/화면과검증/5eee6fcd3265_04-settings.png",
+    "source_paths": [
+      "9차/work/PocketPit/TestResults/Screenshots/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c6b8fb5b985ebe5927e27c00e19b5086934644baf532c66b6ef0502b886dffb3",
+    "bytes": 161222,
+    "public_path": "자료/화면과검증/c6b8fb5b985e_05-city.png",
+    "source_paths": [
+      "9차/work/PocketPit/TestResults/Screenshots/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "6ea925476dddc2c74ce27dbdfccc5b8b9d717cf1ccf444d8dac55296d37fb772",
+    "bytes": 104314,
+    "public_path": "자료/화면과검증/6ea925476ddd_06-clear.png",
+    "source_paths": [
+      "9차/work/PocketPit/TestResults/Screenshots/06-clear.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3816d4dd3e339a95db4a0361df237eb1b96f67145f3abcbc12059580233f4ce8",
+    "bytes": 205004,
+    "public_path": "자료/화면과검증/3816d4dd3e33_failure-level-1.png",
+    "source_paths": [
+      "9차/work/PocketPit/TestResults/Screenshots/failure-level-1.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c56fc1b4275e4164c1e905aea1dd942c944d96e57e6a7e4cc22fe7e9217ce380",
+    "bytes": 6866,
+    "public_path": "자료/화면과검증/c56fc1b4275e_01-menu.png",
+    "source_paths": [
+      "9차/work/previews/01-menu.png",
+      "9차/work/previews/02-play.png",
+      "9차/work/previews/03-pause.png",
+      "9차/work/previews/04-settings.png",
+      "9차/work/previews/05-city.png",
+      "9차/work/previews/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ecec58652f5da73cb5cd4826d32fe65bbb18120517af54b3a18aebd277df45cd",
+    "bytes": 48377,
+    "public_path": "자료/화면과검증/ecec58652f5d_01-home.png",
+    "source_paths": [
+      "9차/work/reference-previews/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "323ca986e49476004030b07deca0721113511c5492c1628d8190ee4548db5c21",
+    "bytes": 59015,
+    "public_path": "자료/화면과검증/323ca986e494_02-first-level.png",
+    "source_paths": [
+      "9차/work/reference-previews/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "f01eeaf5bcd2155f0fa0944b2dd3a39090f14306aa1e077c07092d0710f0c41f",
+    "bytes": 28939,
+    "public_path": "자료/화면과검증/f01eeaf5bcd2_03-bomb-failure.png",
+    "source_paths": [
+      "9차/work/reference-previews/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "498fd7c50b1a3b1afe60c81f069b852d38ca6b6306b9f2c09519702a6a29d07b",
+    "bytes": 59376,
+    "public_path": "자료/화면과검증/498fd7c50b1a_04-joystick.png",
+    "source_paths": [
+      "9차/work/reference-previews/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "2978af18b0a4405596d830a97c7f9ab4ff6978b08a3e47c1ca62d34062330697",
+    "bytes": 61677,
+    "public_path": "자료/화면과검증/2978af18b0a4_level-12.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c01d6bbe43b49998d4da090e8aad3fe7f745f459f544d8a663f1abd96f6af16e",
+    "bytes": 65977,
+    "public_path": "자료/화면과검증/c01d6bbe43b4_level-16.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7a85b9ef163befc2a0be6c0590120c5e66b845170b69dbe686bcf78de4cf0064",
+    "bytes": 63967,
+    "public_path": "자료/화면과검증/7a85b9ef163b_level-24.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-24.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "9720d12806b9fa1dc4ac4c948a2bc81f3af54615a20b2440aa18fd14dc426e5a",
+    "bytes": 67096,
+    "public_path": "자료/화면과검증/9720d12806b9_level-29.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d4bc632e50965cc5774d8b25d26ad97ab3d56440ca4179d0204c2993fa340adf",
+    "bytes": 60527,
+    "public_path": "자료/화면과검증/d4bc632e5096_level-3.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "28b78d650f2d49e2a37f55655a785cb6f2e28a6881047821720f67811d083bae",
+    "bytes": 69586,
+    "public_path": "자료/화면과검증/28b78d650f2d_level-30.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-30.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "9c4871b4b7c8868413ae32d243c4fb8adf4cb8bd995bd6e9fad5507514b43491",
+    "bytes": 67027,
+    "public_path": "자료/화면과검증/9c4871b4b7c8_level-4.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "68674717a3821a055501d66662a7981b8894cf478e5ef347043360ffbf3fb6d9",
+    "bytes": 71130,
+    "public_path": "자료/화면과검증/68674717a382_level-8.png",
+    "source_paths": [
+      "9차/work/reference-previews/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e5e8c44bcb84ca6eaf8b10f824b5736d98b3f293f2b7a1e70145a2df075a5991",
+    "bytes": 98287,
+    "public_path": "자료/화면과검증/e5e8c44bcb84_01-home.png",
+    "source_paths": [
+      "9차/work/reference-previews2/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b9318dcd17246df4d4d7de9ac607d719c56a15d0e08d993d62833fba72914bc2",
+    "bytes": 111328,
+    "public_path": "자료/화면과검증/b9318dcd1724_02-first-level.png",
+    "source_paths": [
+      "9차/work/reference-previews2/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3733f570af430780c938ba63a40869b59b67b510336beaa3e1d91a341651d65b",
+    "bytes": 141326,
+    "public_path": "자료/화면과검증/3733f570af43_03-bomb-failure.png",
+    "source_paths": [
+      "9차/work/reference-previews2/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "857eeab69cac3d78b251173c089163fe0e10946d9cdbd5579f20ff1ef3cf1f9f",
+    "bytes": 111990,
+    "public_path": "자료/화면과검증/857eeab69cac_04-joystick.png",
+    "source_paths": [
+      "9차/work/reference-previews2/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1d817a6889c544bc5443708f5a3203e3413c9d0024315f9852c89fc74aedbca9",
+    "bytes": 263813,
+    "public_path": "자료/화면과검증/1d817a6889c5_level-12.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "d636320649fc6195fcc649ff3c6271a2aac89f87c997a3907cb450a1b70736bd",
+    "bytes": 517534,
+    "public_path": "자료/화면과검증/d636320649fc_level-16.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a92349c29bfe80441621816f1a27dad2f78c1a4a738580ff472b664dd71165d0",
+    "bytes": 286688,
+    "public_path": "자료/화면과검증/a92349c29bfe_level-24.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-24.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "bed6208b1d62941c1c3fe9067e0d49f1aed5263d4c097167c1fd7abf710cbdc8",
+    "bytes": 403789,
+    "public_path": "자료/화면과검증/bed6208b1d62_level-29.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0a10acc989cad1e3a401ae6ac11fd03131cd20beeff4c1c2abd46473647d3f08",
+    "bytes": 348555,
+    "public_path": "자료/화면과검증/0a10acc989ca_level-3.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "fe7a81b4c57a7f71c38264cb6277b7e48e75b15953cdb84b9ade356b965d8a3c",
+    "bytes": 292918,
+    "public_path": "자료/화면과검증/fe7a81b4c57a_level-30.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-30.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0353f762045e12cbfeec3986fa9149d888d9b3d359256b2c854727213edd8559",
+    "bytes": 371635,
+    "public_path": "자료/화면과검증/0353f762045e_level-4.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3c79fa68948a4db93f1fc81e750e5c4c0bbb2ff2093a151dd4d83b61abeb5ad2",
+    "bytes": 318811,
+    "public_path": "자료/화면과검증/3c79fa68948a_level-8.png",
+    "source_paths": [
+      "9차/work/reference-previews2/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "961e7065823b846a7e79b0c2bb6c3cff84b3c2cc912a57ebd468dcd7ed027383",
+    "bytes": 122982,
+    "public_path": "자료/화면과검증/961e7065823b_01-home.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "64ad659e57b19eb4f500d187779b610f24634b153bacfda2b3c4f5b29128741d",
+    "bytes": 126109,
+    "public_path": "자료/화면과검증/64ad659e57b1_02-first-level.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "6699eeb962aee5291377f78c6a6e42ba9b2017ac347a67d2994412818edead19",
+    "bytes": 169172,
+    "public_path": "자료/화면과검증/6699eeb962ae_03-bomb-failure.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a8eb4f0c0a2e7ac2bcbc517a88cba15306e780c96269835378e457165c4610d0",
+    "bytes": 147176,
+    "public_path": "자료/화면과검증/a8eb4f0c0a2e_04-joystick.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c9b0f92131027f59d90dfdf8b4e1c5a05aa1ca3e54e84b49d5ed280e582f1816",
+    "bytes": 196478,
+    "public_path": "자료/화면과검증/c9b0f9213102_level-12.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "bc932932b937c8168404b90578711e68748210929ba81065a4fdd76774978b2d",
+    "bytes": 424915,
+    "public_path": "자료/화면과검증/bc932932b937_level-16.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7df16a095539c39db12173292bdd684f89187bb196d84f7c79948bb7c94d70a7",
+    "bytes": 254789,
+    "public_path": "자료/화면과검증/7df16a095539_level-24.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-24.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "0ecfe5a81c889f8b62f714a0f17caeb5723756ea07718523cb08342d98f64e09",
+    "bytes": 307977,
+    "public_path": "자료/화면과검증/0ecfe5a81c88_level-29.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "03d3cee48dff57c74c7eacc4f4069cdb424d1c175901b321277de98c469b94ac",
+    "bytes": 222940,
+    "public_path": "자료/화면과검증/03d3cee48dff_level-3.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7a66b16f9805b7dc5801a4236ba9a7f2e6d03eaceee6722de61980b847417976",
+    "bytes": 225171,
+    "public_path": "자료/화면과검증/7a66b16f9805_level-30.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-30.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "45528394f9b7e6e35f58e2a04a4ec6989bfdd32c87f804b4a1f6d6300b64ef70",
+    "bytes": 251301,
+    "public_path": "자료/화면과검증/45528394f9b7_level-4.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3be0b20e9c9353ea52249f555492604904c9845cf7a64fcf48d1abf7cec866cd",
+    "bytes": 220364,
+    "public_path": "자료/화면과검증/3be0b20e9c93_level-8.png",
+    "source_paths": [
+      "9차/work/reference-style-previews/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7ca6f88b9346e947b363a3b584c114303d65eec63d419693d199aa3b25f9a398",
+    "bytes": 218040,
+    "public_path": "자료/화면과검증/7ca6f88b9346_03-bomb-failure.png",
+    "source_paths": [
+      "9차/work/reference4-previews/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "bb2e31e1cbed85a3fd81cf29f3814a6149afefa7dac985ca75bc912b6d1ed14e",
+    "bytes": 131026,
+    "public_path": "자료/화면과검증/bb2e31e1cbed_05-growth.png",
+    "source_paths": [
+      "9차/work/reference4-previews/05-growth.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "6855b19a74c68ac20db8fd875a7ee284c8038e176684eab644b7bfb6eeb4e649",
+    "bytes": 482798,
+    "public_path": "자료/화면과검증/6855b19a74c6_level-12.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "aaffdd392c01ac445d62830e7e4728c6fcd207f12c82760dc2752f1ca66477ee",
+    "bytes": 462248,
+    "public_path": "자료/화면과검증/aaffdd392c01_level-16.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "b8e7b379789413a297ec82ccb93f3bf758909f63b4d8a5caad92af2f43d18d5b",
+    "bytes": 640757,
+    "public_path": "자료/화면과검증/b8e7b3797894_level-23.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-23.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ee9e27161a7dc379dc5f77000cdef66c65a779e6dfbbda1ddc6e5859f5e47e70",
+    "bytes": 495480,
+    "public_path": "자료/화면과검증/ee9e27161a7d_level-24.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-24.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "72045f7149a8b51a79ceb2394e2a8784a2ac81604a61142845703ffcbcffb4fd",
+    "bytes": 417929,
+    "public_path": "자료/화면과검증/72045f7149a8_level-26.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-26.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "bc832a034e84169993faa81d48bc5f85f0276935f3fa365b849677c14ea8aecf",
+    "bytes": 658699,
+    "public_path": "자료/화면과검증/bc832a034e84_level-29.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3370167b608b8c43253ab32c3c24cf7e725b09d87959053749b8b101deea7ca7",
+    "bytes": 578320,
+    "public_path": "자료/화면과검증/3370167b608b_level-3.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "152d4e744df170cb81c7154ffb2ec18a166966dcb509632870cada868cfe8973",
+    "bytes": 469599,
+    "public_path": "자료/화면과검증/152d4e744df1_level-30.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-30.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "24431ca87d4d1d3b2d2f0003d08dda812e9410509f878cc98be67d10c8fdf9b3",
+    "bytes": 470797,
+    "public_path": "자료/화면과검증/24431ca87d4d_level-4.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "4e21fc0ea11f53b75df012e6b07e478a58aa6a54695aaec36c9706d84c4adadd",
+    "bytes": 435383,
+    "public_path": "자료/화면과검증/4e21fc0ea11f_level-8.png",
+    "source_paths": [
+      "9차/work/reference4-previews/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "c0e0011d5c932b10bc22a26f6ad8d17a272f2eccc1dca963362b42cc445e09e4",
+    "bytes": 9137,
+    "public_path": "자료/화면과검증/c0e0011d5c93_00-loading.png",
+    "source_paths": [
+      "9차/work/reference5-previews/00-loading.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "680663d91b7c75189c2dcb3b5cec5d368c0495d6a9bf096addde7b425d19301e",
+    "bytes": 764068,
+    "public_path": "자료/화면과검증/680663d91b7c_01-home.png",
+    "source_paths": [
+      "9차/work/reference5-previews/01-home.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "9e24998831cbbb75d23163510c3ea7498e6af2b9acae63188ebe994efd658daa",
+    "bytes": 328283,
+    "public_path": "자료/화면과검증/9e24998831cb_02-first-level.png",
+    "source_paths": [
+      "9차/work/reference5-previews/02-first-level.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e3545d8a8cf787060618fe1114fa268be57f90147ec7d75ed39598c356b973b1",
+    "bytes": 290163,
+    "public_path": "자료/화면과검증/e3545d8a8cf7_03-bomb-failure.png",
+    "source_paths": [
+      "9차/work/reference5-previews/03-bomb-failure.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "dfa71b03f64bd67068af4a16ba1949f52125bfd8743496d6106d407ec2ec0bb1",
+    "bytes": 348404,
+    "public_path": "자료/화면과검증/dfa71b03f64b_04-joystick.png",
+    "source_paths": [
+      "9차/work/reference5-previews/04-joystick.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "cf5556ab7b9bf3fd34dfddbb3b8cbf2bd06dfd3fb2dfccce238860fe8e47845f",
+    "bytes": 270292,
+    "public_path": "자료/화면과검증/cf5556ab7b9b_05-growth.png",
+    "source_paths": [
+      "9차/work/reference5-previews/05-growth.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "56ab83aa2e7bbbbc01f45329f8f88472ff47bb67b2c70b8a632902bf2e4d1363",
+    "bytes": 445537,
+    "public_path": "자료/화면과검증/56ab83aa2e7b_level-12.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-12.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "2f43309683bc9632526c39ca0c539293bee93ac64d8ba07502259d620e05b30e",
+    "bytes": 571909,
+    "public_path": "자료/화면과검증/2f43309683bc_level-151.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-151.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "50683852fa603085f620c50f1536e3b1787515a8923717b045e7ea08f28fa8c9",
+    "bytes": 506734,
+    "public_path": "자료/화면과검증/50683852fa60_level-16.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-16.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8d750575d980d24a5cbfad1d7d5962b9c66a0599a4944e06393e6e8c13eda429",
+    "bytes": 685434,
+    "public_path": "자료/화면과검증/8d750575d980_level-23.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-23.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "28cfd4dad81bc1c57eafc5b02d187d2c34ef1d1475a62243b072cd46544699eb",
+    "bytes": 685596,
+    "public_path": "자료/화면과검증/28cfd4dad81b_level-29.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-29.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "46a80f7ef8a63a473e2c59115baa544a18dacf6871f674b935897cef61459f7d",
+    "bytes": 624667,
+    "public_path": "자료/화면과검증/46a80f7ef8a6_level-3.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-3.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ba1751f68b3afc01452b48baf36e3b9f145afc70f36187e09e4561c7a533e1df",
+    "bytes": 566678,
+    "public_path": "자료/화면과검증/ba1751f68b3a_level-301.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-301.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ae84e886fc3db429b9bc1455ace69421ad35d2f492ed4511b597c24731168115",
+    "bytes": 350803,
+    "public_path": "자료/화면과검증/ae84e886fc3d_level-39.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-39.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "4462b8a13ded10b24ea23fea25a893e92cc2fd836d8cc78756a8f197c5dfc4d8",
+    "bytes": 516356,
+    "public_path": "자료/화면과검증/4462b8a13ded_level-4.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-4.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "fd5ca67b5f78a0d8dd4b4dcaa57dd931cb5154f3bfccad4c7df9d20d4bb507a1",
+    "bytes": 744126,
+    "public_path": "자료/화면과검증/fd5ca67b5f78_level-462.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-462.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "89da3a63bf12dc809377cd54b1ba5ad57c9500fdf93dbd6d8e0718a327e2037e",
+    "bytes": 640517,
+    "public_path": "자료/화면과검증/89da3a63bf12_level-465.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-465.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "dbe3ae3f02aba87cbeb3c2e31c5ce1cd804f963a16f3592ce243b52d223f1e5f",
+    "bytes": 507810,
+    "public_path": "자료/화면과검증/dbe3ae3f02ab_level-8.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-8.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e92fd4eaab1718514dd77fc9f60a2880b100c0dfcd4d6fa6223c3c9cefb69ab2",
+    "bytes": 500451,
+    "public_path": "자료/화면과검증/e92fd4eaab17_level-91.png",
+    "source_paths": [
+      "9차/work/reference5-previews/level-91.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "af577a79a1b658cf2fc7652cd818c644c38d0ee8d1dd8aef6aecc7bd6d6f6fd7",
+    "bytes": 8861,
+    "public_path": "자료/화면과검증/af577a79a1b6_01-menu.png",
+    "source_paths": [
+      "9차/work/smooth-previews/01-menu.png",
+      "9차/work/smooth-previews/03-pause.png",
+      "9차/work/smooth-previews/04-settings.png",
+      "9차/work/smooth-previews/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "6e6267ef78b24c56f1111b924f2521b1e5426216a36159bf39e6e74351c414f3",
+    "bytes": 173642,
+    "public_path": "자료/화면과검증/6e6267ef78b2_02-play.png",
+    "source_paths": [
+      "9차/work/smooth-previews/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "00306a1543ad031b0e2e062679d295e10a55a8bce39b3a779db46d6c6a25dbab",
+    "bytes": 137924,
+    "public_path": "자료/화면과검증/00306a1543ad_05-city.png",
+    "source_paths": [
+      "9차/work/smooth-previews/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a19dd65ce7ef73b1970049c25097a7f7028ee439daa60ab64a9776b2a8ca1325",
+    "bytes": 232266,
+    "public_path": "자료/화면과검증/a19dd65ce7ef_01-menu.png",
+    "source_paths": [
+      "9차/work/smooth-previews2/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "8672fdcf6c82ad531ec12526b2f6417299cfadb6d95e550b60ece4270a635cac",
+    "bytes": 219281,
+    "public_path": "자료/화면과검증/8672fdcf6c82_02-play.png",
+    "source_paths": [
+      "9차/work/smooth-previews2/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "ae185c044a76e6ece505f2d8ae4644c13c9041827562fdd1a02a532a63a3cc2b",
+    "bytes": 126333,
+    "public_path": "자료/화면과검증/ae185c044a76_03-pause.png",
+    "source_paths": [
+      "9차/work/smooth-previews2/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "e465123d0b1a79204a60dfbb8fc8435b94d7c9386d163aa8acef4e866045ff83",
+    "bytes": 110868,
+    "public_path": "자료/화면과검증/e465123d0b1a_04-settings.png",
+    "source_paths": [
+      "9차/work/smooth-previews2/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7901ec5583c5561d1d97ae98f551553fbed317fc2f7d983f261fa34f7cc80d19",
+    "bytes": 172883,
+    "public_path": "자료/화면과검증/7901ec5583c5_05-city.png",
+    "source_paths": [
+      "9차/work/smooth-previews2/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1d7ff683cbdc6888473163ed7da189cdbc03d73b722d5e671dc6cd3ad04798c8",
+    "bytes": 108597,
+    "public_path": "자료/화면과검증/1d7ff683cbdc_06-levels.png",
+    "source_paths": [
+      "9차/work/smooth-previews2/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "1c9ad135dae01829b05a9cd7d70744e08df3e7353bdbd2f467ba89e1820ddee7",
+    "bytes": 310999,
+    "public_path": "자료/화면과검증/1c9ad135dae0_01-menu.png",
+    "source_paths": [
+      "9차/work/soft-previews/01-menu.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "a4b7dbb53e33bbf568d51f19b170c0e7aae242aa1f5e75b71d868a36453f78dd",
+    "bytes": 291860,
+    "public_path": "자료/화면과검증/a4b7dbb53e33_02-play.png",
+    "source_paths": [
+      "9차/work/soft-previews/02-play.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "3969388bd331f17ec2db68cffcb8c61508084aa99da72d93344c3f01f354e25b",
+    "bytes": 181750,
+    "public_path": "자료/화면과검증/3969388bd331_03-pause.png",
+    "source_paths": [
+      "9차/work/soft-previews/03-pause.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "048d3cec112966a78ee1c0b098909d996e035c22d6e8ecfc1cb74c624a6e793d",
+    "bytes": 142127,
+    "public_path": "자료/화면과검증/048d3cec1129_04-settings.png",
+    "source_paths": [
+      "9차/work/soft-previews/04-settings.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "816a8c6e1d0580a3d71375fca0bc0e811424005cf0d28c34b3da4b46ecbc4b8e",
+    "bytes": 155143,
+    "public_path": "자료/화면과검증/816a8c6e1d05_05-city.png",
+    "source_paths": [
+      "9차/work/soft-previews/05-city.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  },
+  {
+    "sha256": "7f4923f6f84e14e6e474f20a554baf5ae58030383f19b79311f852f687faa9f4",
+    "bytes": 106341,
+    "public_path": "자료/화면과검증/7f4923f6f84e_06-levels.png",
+    "source_paths": [
+      "9차/work/soft-previews/06-levels.png"
+    ],
+    "width": 540,
+    "height": 960,
+    "new_file": true
+  }
+]

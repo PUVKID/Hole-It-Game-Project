@@ -1,0 +1,12 @@
+Physical reachability audit. Test teleports between targets at timeScale4 with the original0.02s physics step; this is NOT a human timing benchmark. Source timers are informational. Watchdogs:45 simulated seconds without collection progress,1200 simulated seconds/stage,30 real minutes overall.
+Level 1: Won; collected=30; radius=1.066; simulated=6.32; realElapsed=1.58; sourceBudget=300; goals=6,15,9; stop=state
+Level 2: Won; collected=222; radius=1.289; simulated=42.08; realElapsed=10.50; sourceBudget=240; goals=1,18; stop=state
+Level 3: Won; collected=328; radius=1.512; simulated=64.08; realElapsed=15.97; sourceBudget=240; goals=1,2,2; stop=state
+Level 4: Won; collected=519; radius=1.735; simulated=68.52; realElapsed=17.09; sourceBudget=210; goals=200,88,228,3; stop=state
+Level 5: Won; collected=803; radius=1.958; simulated=96.04; realElapsed=23.95; sourceBudget=150; goals=4; stop=state
+Level 6: Won; collected=398; radius=1.958; simulated=134.13; realElapsed=33.46; sourceBudget=110; goals=2,2,7; stop=state
+Level 7: Won; collected=750; radius=1.958; simulated=191.68; realElapsed=47.87; sourceBudget=120; goals=66,3,4,3,4; stop=state
+Level 8: Won; collected=1025; radius=2.404; simulated=155.80; realElapsed=38.77; sourceBudget=120; goals=23,28,10,4,2; stop=state
+Level 9: Won; collected=806; radius=2.181; simulated=106.57; realElapsed=26.56; sourceBudget=160; goals=2,3,9; stop=state
+Level 10: Won; collected=990; radius=1.958; simulated=176.68; realElapsed=44.09; sourceBudget=130; goals=138,6,6; stop=state
+Level 11: Playing; collected=354; radius=1.735; simulated=203.09; realElapsed=50.70; sourceBudget=135; goals=24,43,9,6,4; stop=45 simulated seconds without collection progress; diagnostic=sim=203.09 collected=354 hole=(-11.42, 0.00, -35.56) aperture=1.497 active=0 target=none; remaining=118:Trumpet radius=1.299992 bottom=0.04361844 position=(-20.92, 0.57, -4.33); 118:Trumpet radius=1.299992 bottom=-0.03819728 position=(-20.93, 0.49, -2.31); 118:Trumpet radius=1.299992 bottom=0.04377353 position=(-18.89, 0.58, -4.34); 118:Trumpet radius=1.299992 bottom=-0.03819728 position=(-18.93, 0.49, -2.31); 

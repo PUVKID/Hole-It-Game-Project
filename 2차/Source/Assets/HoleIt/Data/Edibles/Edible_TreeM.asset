@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_TreeM
+  m_EditorClassIdentifier: 
+  displayName: LARGE TREE
+  objectId: TreeM
+  colorVariant: 0
+  footprintRadius: 1.185834
+  prefab: {fileID: 1000, guid: daf9b92fc77717ecea2a7b1fbea4d7a5, type: 3}
+  icon: {fileID: 21300000, guid: b7f67c981c154686010fe10031e28a2d, type: 3}
+  uiColor: {r: 0.12, g: 0.54, b: 0.22, a: 1}
+  stackHeight: 2.5062158
+  objectType: 3
+  sizeTier: 3
+  score: 70
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

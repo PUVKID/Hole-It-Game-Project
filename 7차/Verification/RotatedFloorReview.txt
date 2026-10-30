@@ -1,0 +1,66 @@
+Independent rotated-floor review
+Written UTC: 2026-10-13T09:52:36.992759+00:00
+Scope: read-only inspection of authored data, source code and regression logic.
+No gameplay/source edits or Unity launch. This file is the only written artifact.
+
+Result
+No actionable defect found in the reviewed rotated-floor membership change.
+The independent calculations below assess geometry and regression sensitivity;
+they are not a claim that Unity tests or the full campaign passed.
+
+Source geometry and coordinate space
+- Source/Assets/ReferenceContent/Built/G5114404702379327928.asset has exactly
+  four mesh vertices: (-2.5,0,-2.5), (-2.5,0,2.5), (2.5,0,-2.5), (2.5,0,2.5).
+- Source/Assets/ReferenceContent/Models.json environment ids15,25,35,85,95
+  all reference this floor mesh on their root node. The builder intentionally
+  treats prefab root coordinates as model-local identity; the authored placement
+  supplies its world transform. These five models have no child MeshRoot transform
+  requiring a further offset. Their catalog bounds are center(0,0,0),
+  extents(2.5,0,2.5).
+- ReferenceBuilder.cs combines child local transforms into model.bounds.
+  Thus ReferenceGame.Levels.cs AddAuthoredPlayground correctly uses model.bounds
+  as its local rectangle and applies the same placement Matrix4x4.TRS that
+  ReferenceGame.cs BuildEnvironment uses for rendering.
+- Audited all103,812 kind5 floor placements in Levels.json (465 campaign maps)
+  and Challenges.json (111 maps). Every rotation is yaw-only; none has a zero
+  scale component. There are no singular scales or tilted floor planes in the
+  inspected authored data. Consequently testing an XZ point at worldY equal to
+  the placement translation before applying inverseTRS is valid for this data.
+
+State reset and candidate filtering
+- BuildEnvironment clears authoredPlayground alongside playground before any
+  early return. Changing/retrying levels therefore does not retain previous
+  oriented tiles, including when a level lacks environment entries.
+- AuthoredPlaygroundContains is the definitive membership test.
+  CanStandAt tests the center and12 character-radius perimeter samples against
+  the union of these oriented rectangles.
+- The existing playground list now stores transformed world AABBs. These are
+  coarse search/clamp bounds, not the final membership decision. Spawn and bomb
+  candidates still pass OnPlayground/CanStandAt checks. The verification helper
+  projects candidates through each oriented tile's local space and checks the
+  resulting world point with CanStandAt.
+
+Independent regression sensitivity check
+- ReferenceTests.RotatedSourceFloorPreservesWalkableInteriorAtGrownRadius
+  loads level index27 (displayed stage28), source00062, and sets Radius1.735.
+- Source stage28 has82 floor tiles, all with serialized quaternion
+  (0,0.3826834,0,0.9238796).
+- Independently evaluated the prior translation/scale-only rectangle test and
+  the new inverseTRS membership using the serialized positions/scales/quaternions,
+  checking the center and the same12 perimeter samples. Results (worldX,Z):
+  (3.76,-30.79): oldFalse, newTrue
+  (2.52,-30.54): oldFalse, newTrue
+  (10.10,-9.79): oldFalse, newTrue
+  (12.23,-11.91): oldFalse, newTrue
+  (2.99,-16.44): oldFalse, newTrue
+- Therefore each of the five regression points detects the actual prior false
+  rejection. The test is meaningful rather than merely repeating an unchanged
+  successful path. The test restores its temporary Radius value in finally.
+
+Limits
+This review covers the present authored rectangular, horizontal floor data.
+It does not generalize the implementation to arbitrary tilted or irregular
+future floor meshes. The12-point character perimeter check is existing behavior;
+this change corrects the floor transform and does not claim a new continuous
+circle-versus-polygon solver. Actual PlayMode outcomes remain in their separate
+Unity test records.

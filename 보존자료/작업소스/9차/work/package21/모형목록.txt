@@ -1,0 +1,68 @@
+모형 목록 — 총 63종
+기존 모형 51종을 매끈한 메시로 다시 생성하고, 새 모형 12종을 추가했습니다.
+
+BallM — 농구공
+BallS — 공
+BananaS — 바나나
+Bench — 벤치
+BlockS — 블록
+BoxL — 큰 상자
+BoxM — 나무 상자
+BoxS — 상자
+BuildL — 빌딩
+BuildS — 작은 집
+BurgerS — 햄버거
+Bus — 버스
+CakeM — 파티 케이크
+CakeS — 케이크
+CandyS — 사탕
+CarBlue — 파란 자동차
+CarM — 스포츠카
+CarS — 빨간 자동차
+CarYellow — 노란 자동차
+CheeseS — 치즈
+Chocolate — 초콜릿
+CoffeeS — 커피
+Compact — 코랄 팩트
+CookieS — 쿠키
+CreamJar — 라벤더 크림
+CupcakeM — 큰 컵케이크
+CupcakeS — 컵케이크
+DonutS — 도넛
+DuckS — 오리 장난감
+Flower — 꽃
+FridgeL — 냉장고
+FriesS — 감자튀김
+Hydrant — 소화전
+IceCreamS — 아이스크림
+JuiceBottle — 과일 주스
+Lipstick — 로즈 립스틱
+Lotion — 하늘빛 로션
+Macaron — 민트 마카롱
+MakeupBrush — 메이크업 브러시
+MilkCartonS — 우유
+NailPolish — 민트 매니큐어
+PanM — 프라이팬
+Perfume — 복숭아 향수
+PianoM — 장난감 피아노
+Pillar — 말뚝
+PizzaS — 피자
+PlantPot — 화분
+PopsicleS — 아이스바
+ScissorsS — 가위
+Serum — 골드 세럼
+Soap — 딸기 비누
+SodaS — 음료 캔
+StreetLamp — 가로등
+TimeBoost — 시간 보너스
+ToyCar — 장난감 자동차
+TrafficCone — 안전 고깔
+TrafficLight — 신호등
+TreeL — 참나무
+TreeM — 큰 나무
+TreeS — 나무
+WaffleM — 큰 와플
+WaffleS — 와플
+Wall — 울타리
+
+추가 위험물: Bomb — 폭탄 · 삼키면 실패 (수집 모형 63종과 별도)

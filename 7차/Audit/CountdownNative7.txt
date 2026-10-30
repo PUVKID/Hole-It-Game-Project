@@ -1,0 +1,158 @@
+0x1975508 push {r4, r5, r6, r7, fp, lr}
+0x197550c vpush {d8, d9}
+0x1975510 mov r6, r0
+0x1975514 ldr r0, [r0, #8]
+0x1975518 ldr r5, [r6, #0x10]
+0x197551c mov r4, #0
+0x1975520 cmp r0, #1
+0x1975524 beq #0x197556c
+0x1975528 cmp r0, #0
+0x197552c bne #0x1975770
+0x1975530 mvn r0, #0
+0x1975534 cmp r5, #0
+0x1975538 str r0, [r6, #8]
+0x197553c bne #0x1975544
+0x1975540 bl #0x161f890 
+0x1975544 ldrb r0, [r5, #0xa8]
+0x1975548 cmp r0, #0
+0x197554c bne #0x1975718
+0x1975550 mov r0, #0
+0x1975554 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x1975558 mov r1, #1
+0x197555c str r0, [r5, #0xa0]
+0x1975560 strb r1, [r5, #0xa8]
+0x1975564 str r0, [r5, #0xa4]
+0x1975568 b #0x1975718 
+0x197556c mvn r0, #0
+0x1975570 cmp r5, #0
+0x1975574 str r0, [r6, #8]
+0x1975578 bne #0x1975580
+0x197557c bl #0x161f890 
+0x1975580 ldr r7, [r5, #0x78]
+0x1975584 cmp r7, #0
+0x1975588 bne #0x1975590
+0x197558c bl #0x161f890 
+0x1975590 ldr r7, [r7, #0x4c]
+0x1975594 cmp r7, #0
+0x1975598 bne #0x19755a0
+0x197559c bl #0x161f890 
+0x19755a0 ldr r7, [r7, #0x18]
+0x19755a4 cmp r7, #0
+0x19755a8 bne #0x19755b0
+0x19755ac bl #0x161f890 
+0x19755b0 ldrb r0, [r7, #0x18]
+0x19755b4 cmp r0, #0
+0x19755b8 ldrbeq r0, [r5, #0x98]
+0x19755bc cmpeq r0, #0
+0x19755c0 beq #0x1975644
+0x19755c4 mov r0, #0
+0x19755c8 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x19755cc ldr r7, [r5, #0x78]
+0x19755d0 str r0, [r5, #0xa0]
+0x19755d4 cmp r7, #0
+0x19755d8 bne #0x19755e0
+0x19755dc bl #0x161f890 
+0x19755e0 ldr r7, [r7, #0x4c]
+0x19755e4 cmp r7, #0
+0x19755e8 bne #0x19755f0
+0x19755ec bl #0x161f890 
+0x19755f0 ldr r7, [r7, #0x18]
+0x19755f4 cmp r7, #0
+0x19755f8 bne #0x1975600
+0x19755fc bl #0x161f890 
+0x1975600 mov r0, #0
+0x1975604 ldrb r7, [r7, #0x18]
+0x1975608 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x197560c vmov s0, r0
+0x1975610 cmp r7, #0
+0x1975614 beq #0x197563c
+0x1975618 vldr s2, [r5, #0xa4]
+0x197561c mov r0, #0
+0x1975620 vsub.f32 s16, s0, s2
+0x1975624 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x1975628 vldr s0, [r5, #0x94]
+0x197562c str r0, [r5, #0xa4]
+0x1975630 vadd.f32 s0, s16, s0
+0x1975634 vstr s0, [r5, #0x94]
+0x1975638 b #0x1975718 
+0x197563c vstr s0, [r5, #0xa4]
+0x1975640 b #0x1975718 
+0x1975644 mov r0, #0
+0x1975648 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x197564c mov r7, r0
+0x1975650 mov r0, #0
+0x1975654 vldr s16, [r5, #0xa0]
+0x1975658 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x197565c str r0, [r5, #0xa0]
+0x1975660 mov r0, #0
+0x1975664 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x1975668 vmov s2, r0
+0x197566c vldr s0, [r5, #0xa4]
+0x1975670 mov r0, #0
+0x1975674 vsub.f32 s18, s2, s0
+0x1975678 bl #0x170aa74 public static float get_realtimeSinceStartup() { }
+0x197567c vldr s2, [r5, #0x94]
+0x1975680 vldr s0, [r5, #0x7c]
+0x1975684 vadd.f32 s4, s18, s2
+0x1975688 str r0, [r5, #0xa4]
+0x197568c vmov s2, r7
+0x1975690 vcmp.f32 s0, #0
+0x1975694 vsub.f32 s2, s2, s16
+0x1975698 vmrs apsr_nzcv, fpscr
+0x197569c vstr s4, [r5, #0x94]
+0x19756a0 ble #0x19756c4
+0x19756a4 vsub.f32 s0, s0, s2
+0x19756a8 add r0, r5, #0x7c
+0x19756ac vcmp.f32 s0, #0
+0x19756b0 vstr s0, [r0]
+0x19756b4 vmrs apsr_nzcv, fpscr
+0x19756b8 bpl #0x19756e8
+0x19756bc vldr s0, [pc, #0xb8]
+0x19756c0 b #0x19756e0 
+0x19756c4 vldr s4, [r5, #0x8c]
+0x19756c8 vsub.f32 s2, s4, s2
+0x19756cc vcmp.f32 s2, #0
+0x19756d0 vstr s2, [r5, #0x8c]
+0x19756d4 vmrs apsr_nzcv, fpscr
+0x19756d8 bpl #0x19756e8
+0x19756dc add r0, r5, #0x8c
+0x19756e0 mov r1, #0
+0x19756e4 str r1, [r0]
+0x19756e8 vldr s4, [r5, #0x90]
+0x19756ec mov r0, r5
+0x19756f0 vldr s2, [r5, #0x8c]
+0x19756f4 vmla.f32 s2, s0, s4
+0x19756f8 vmov r1, s2
+0x19756fc vstr s2, [r5, #0x80]
+0x1975700 bl #0x1972f78 private void UpdateTimeText(float targetValue) { }
+0x1975704 mov r0, r5
+0x1975708 bl #0x19740fc private void UpdateTimerProgress() { }
+0x197570c ldr r1, [r5, #0x80]
+0x1975710 mov r0, r5
+0x1975714 bl #0x19737d0 private void PlayTickSound(float time) { }
+0x1975718 vldr s0, [r5, #0x7c]
+0x197571c vcmp.f32 s0, #0
+0x1975720 vmrs apsr_nzcv, fpscr
+0x1975724 bgt #0x1975738
+0x1975728 vldr s0, [r5, #0x8c]
+0x197572c vcmp.f32 s0, #0
+0x1975730 vmrs apsr_nzcv, fpscr
+0x1975734 ble #0x1975754
+0x1975738 ldr r1, [r5, #0x9c]
+0x197573c str r1, [r6, #0xc]!
+0x1975740 mov r0, r6
+0x1975744 bl #0x161f57c 
+0x1975748 mov r4, #1
+0x197574c str r4, [r6, #-4]
+0x1975750 b #0x1975770 
+0x1975754 ldr r1, [r5, #0x80]
+0x1975758 mov r0, r5
+0x197575c bl #0x1972f78 private void UpdateTimeText(float targetValue) { }
+0x1975760 mov r0, r5
+0x1975764 bl #0x19740fc private void UpdateTimerProgress() { }
+0x1975768 mov r0, r5
+0x197576c bl #0x19747f4 private void StopTimer() { }
+0x1975770 mov r0, r4
+0x1975774 vpop {d8, d9}
+0x1975778 pop {r4, r5, r6, r7, fp, pc}
+0x197577c andeq r0, r0, r0

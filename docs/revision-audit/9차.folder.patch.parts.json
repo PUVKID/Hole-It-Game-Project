@@ -1,0 +1,45 @@
+{
+  "original_generated_bytes": 99382984,
+  "original_generated_sha256": "5ed8cc03e2814fb9c64f8f9bd63ee782155bea79e7b1e9a75cd122727dc1fe73",
+  "rejoined_bytes": 99382984,
+  "rejoined_sha256": "5ed8cc03e2814fb9c64f8f9bd63ee782155bea79e7b1e9a75cd122727dc1fe73",
+  "byte_identical": true,
+  "strict_utf8_parts": true,
+  "parts": [
+    {
+      "path": "9차.folder.part001.patch",
+      "bytes": 15681024,
+      "sha256": "ae08c1013b69ece25a02d040b223d8fbc2d35c2e90599e24a8815efe4c4bb094"
+    },
+    {
+      "path": "9차.folder.part002.patch",
+      "bytes": 15353808,
+      "sha256": "b55fa226c04c77a2e8aee2abafaeefdc05f180c024e52be073bdaa8202ef1f7a"
+    },
+    {
+      "path": "9차.folder.part003.patch",
+      "bytes": 15268190,
+      "sha256": "b9f0376b347207456556a220ab413f41f5aaf1f895801f67572b1214e474c9df"
+    },
+    {
+      "path": "9차.folder.part004.patch",
+      "bytes": 14898356,
+      "sha256": "def2509aafc0cb16564a05067b23c50069d66ce7a3afa5ed2a9934f9b8cc536b"
+    },
+    {
+      "path": "9차.folder.part005.patch",
+      "bytes": 15681870,
+      "sha256": "8fb9b5f8d618926d9df0894f95973dc4eed475117ce146cef6f747d22133d27f"
+    },
+    {
+      "path": "9차.folder.part006.patch",
+      "bytes": 15728629,
+      "sha256": "08136f1c97a9bc1f0126e4d0ba32afb736f2ffcacf61767600a87d9e063b5a69"
+    },
+    {
+      "path": "9차.folder.part007.patch",
+      "bytes": 6771107,
+      "sha256": "39bf2e1a8a6ebc65808253b74dd21196ce632879650a7b86fc3b745081933a85"
+    }
+  ]
+}

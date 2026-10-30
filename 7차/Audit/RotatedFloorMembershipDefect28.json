@@ -1,0 +1,208 @@
+{
+  "stage": 28,
+  "source": "00062",
+  "rotatedFloorTiles": 82,
+  "floorMesh": "G5114404702379327928",
+  "floorBoundsMin": [
+    -2.5,
+    0.0,
+    -2.5
+  ],
+  "floorBoundsMax": [
+    2.5,
+    0.0,
+    2.5
+  ],
+  "characterRadius": 1.735,
+  "cases": [
+    {
+      "point": [
+        3.76,
+        -30.79
+      ],
+      "oldAxisAlignedFloor": false,
+      "authoredFloor": true,
+      "oldCanStand": false,
+      "authoredCanStand": true
+    },
+    {
+      "point": [
+        2.52,
+        -30.54
+      ],
+      "oldAxisAlignedFloor": false,
+      "authoredFloor": true,
+      "oldCanStand": false,
+      "authoredCanStand": true
+    },
+    {
+      "point": [
+        10.1,
+        -9.79
+      ],
+      "oldAxisAlignedFloor": false,
+      "authoredFloor": true,
+      "oldCanStand": false,
+      "authoredCanStand": true
+    },
+    {
+      "point": [
+        12.23,
+        -11.91
+      ],
+      "oldAxisAlignedFloor": true,
+      "authoredFloor": true,
+      "oldCanStand": false,
+      "authoredCanStand": true
+    },
+    {
+      "point": [
+        2.99,
+        -16.44
+      ],
+      "oldAxisAlignedFloor": false,
+      "authoredFloor": true,
+      "oldCanStand": false,
+      "authoredCanStand": true
+    }
+  ],
+  "campaignStagesWithNonAxisAlignedFloors": [
+    {
+      "stage": 28,
+      "source": "00062",
+      "themeIndex": 0
+    },
+    {
+      "stage": 40,
+      "source": "00127",
+      "themeIndex": 0
+    },
+    {
+      "stage": 52,
+      "source": "00068",
+      "themeIndex": 0
+    },
+    {
+      "stage": 53,
+      "source": "00089_v2",
+      "themeIndex": 0
+    },
+    {
+      "stage": 59,
+      "source": "00087",
+      "themeIndex": 0
+    },
+    {
+      "stage": 66,
+      "source": "00081",
+      "themeIndex": 0
+    },
+    {
+      "stage": 77,
+      "source": "00643",
+      "themeIndex": 0
+    },
+    {
+      "stage": 116,
+      "source": "00099",
+      "themeIndex": 0
+    },
+    {
+      "stage": 148,
+      "source": "00659",
+      "themeIndex": 0
+    },
+    {
+      "stage": 150,
+      "source": "00134_v2",
+      "themeIndex": 0
+    },
+    {
+      "stage": 169,
+      "source": "00137",
+      "themeIndex": 0
+    },
+    {
+      "stage": 178,
+      "source": "00155",
+      "themeIndex": 0
+    },
+    {
+      "stage": 217,
+      "source": "00170",
+      "themeIndex": 0
+    },
+    {
+      "stage": 245,
+      "source": "00173",
+      "themeIndex": 0
+    },
+    {
+      "stage": 248,
+      "source": "00191",
+      "themeIndex": 0
+    },
+    {
+      "stage": 319,
+      "source": "00725",
+      "themeIndex": 0
+    },
+    {
+      "stage": 351,
+      "source": "00824",
+      "themeIndex": 0
+    },
+    {
+      "stage": 383,
+      "source": "00354",
+      "themeIndex": 0
+    },
+    {
+      "stage": 397,
+      "source": "00513",
+      "themeIndex": 0
+    },
+    {
+      "stage": 404,
+      "source": "00501_v2",
+      "themeIndex": 0
+    },
+    {
+      "stage": 413,
+      "source": "00504_v2",
+      "themeIndex": 0
+    },
+    {
+      "stage": 415,
+      "source": "00506",
+      "themeIndex": 0
+    },
+    {
+      "stage": 429,
+      "source": "00840",
+      "themeIndex": 0
+    },
+    {
+      "stage": 434,
+      "source": "00514_v2",
+      "themeIndex": 0
+    },
+    {
+      "stage": 458,
+      "source": "001013_v2",
+      "themeIndex": 0
+    },
+    {
+      "stage": 459,
+      "source": "001017_v2",
+      "themeIndex": 0
+    },
+    {
+      "stage": 463,
+      "source": "00841",
+      "themeIndex": 0
+    }
+  ],
+  "runtimeFix": "Floor membership uses inverse authored TRS with local mesh bounds. World AABBs serve only coarse bounds/search; rendering and physical border transforms remain authored.",
+  "regression": "ReferenceTests.RotatedSourceFloorPreservesWalkableInteriorAtGrownRadius"
+}

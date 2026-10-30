@@ -1,0 +1,67 @@
+Final independent source review - Edition7
+UTC: 2026-10-13T10:33:03.880283+00:00
+Read-only source/asset inspection while regression runs. No C# edits or Unity
+launch. This review does not certify a completed APK or a passing final suite.
+
+Active path, personal-name removal and save compatibility
+- ProjectSettings/EditorBuildSettings.asset enables only Assets/Scenes/Main.unity.
+  Main's active behaviour is ReferenceGame (script GUID93f1a5488b96fa640ba756cdb3123693).
+- Case-insensitive Gaeun/GAEUN and Korean personal-name scan across active
+  Scripts, Scenes, Resources, Editor code and ProjectSettings found no displayed
+  personal-name strings. Remaining hits are seven source lines referring only to
+  compatibility PlayerPrefs keys: ReferenceGame.cs:55,95;
+  ReferenceGame.Profile.cs:11,12,23; ReferenceGame.Presentation.cs:69;
+  ReferenceCapture.cs:7. These keys preserve profile, unlocked/selected levels
+  and mute state; the capture reset is restricted to the QA company name.
+- Directly viewed Resources/CotonArt/Home.png and Loading.png: both contain the
+  requested white dog illustrations without embedded names or text. Presentation
+  uses these exact resources and displays HOLE IT! / Loading... through UI labels.
+  Prior full-screen layout review remains in FinalUIReview.txt and FinalBrandScan.json.
+
+Active typography
+- ReferenceGame.Typography.cs:17-21 loads the bundled TMP asset
+  Resources/ReferenceTypography/LinikSansBlack and fails if it is absent.
+  That asset declares family Linik Sans, style Black, with a512x512 atlas.
+- ReferenceGame.Presentation.cs:26-36 loads this font before creating boot labels.
+  ReferenceGame.InitializeGame loads the same asset; Label at ReferenceGame.cs:183
+  assigns it to every shared UI label/button, including added attendance,
+  challenges and collection panels. World hole label explicitly assigns it at
+  ReferenceGame.Typography.cs:94. No active Reference UI alternate-font assignment
+  was found. The catalog's older fallback font is not the active UI font path.
+- TextPresets.json and ReferenceTypography/Materials supply inspected source
+  sizes/spacing/material values. Added screens and custom title art are authored
+  extensions, so this is not a claim that every screen matches the original.
+
+Physics review and concrete limits
+- ReferencePhysicsSettings.cs:8-21 and ReferenceGame.Physics.cs:147-166 preserve
+  release gravity35, fixed step.02, max timestep.33333334, per-body sleepThreshold0,
+  contactOffset.01, solver6/1, initial discrete/None interpolation and active
+  Interpolate. Global sleep threshold.005 and per-body0 are intentionally distinct.
+  Source prefab useGravity is retained; ordinary mass/damping follow the recovered
+  runtime settings. BuildConfigSource7.json confirms original release debugUIfalse.
+- ResetPhysicalWorld applies globals. Pool retirement uses explicit near-zero
+  linear/angular velocity in addition to IsSleeping, so source sleepThreshold0
+  does not by itself prevent all retirement. Latched collectors are excluded from
+  retirement; overlap is latched each physics tick before the24-item credit queue.
+- Source floor mesh, material paths and collection-latch review show no newly
+  established gameplay regression. Rotated membership findings are already in
+  RotatedFloorReview.txt; they were not re-run here. RobotRedColliderDiagnostic.txt
+  separately rules out the suspected collider-group off-by-one.
+- Newly recorded fidelity limit: ReferenceGame.cs applies the transient growth
+  X punch to the visible hole using growthAnimation.Scale.x/VisualRadius, but
+  ReferenceGame.Physics.cs UpdateHoleContactGeometry scales both physical floor
+  meshes uniformly from VisualRadius (the Z component). Thus recreation geometry
+  does not reproduce that visual X stretch in its contact aperture. Original
+  HoleHierarchySource7.json places both floor meshes under HolePhysics->HoleParent;
+  MotionCameraFidelity.txt records the native X target1.125x, then uniform settle.
+  Exact physical growth-animation equivalence is not established. Parent accepted
+  documentation of this difference; no late frozen-source change is made.
+- Other material limits remain: local384-body pool, approximated support graph and
+  activation/material-volume checks, simplified source convex hulls, custom renderer,
+  and cross-version/architecture PhysX differences. No claim of bit-identical
+  trajectories or exact online/server-controlled behavior is supported.
+- A teleport-based physical reachability audit is not a human timer/balance test.
+  A prior bounded stage26 bot run did not complete tipped capsules; that is not proof
+  of an original collider-level bug or a reason to relax physics. Final test results
+  and any Android install/device checks must be assessed separately. This review
+  supplies no new runtime, physical-phone performance, or universal completion proof.

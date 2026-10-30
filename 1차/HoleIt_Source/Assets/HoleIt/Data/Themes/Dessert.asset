@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220d0cb087345b580e2bc37b3b19f836, type: 3}
+  m_Name: Dessert
+  m_EditorClassIdentifier: ''
+  themeId: Dessert
+  displayName: Dessert Plaza
+  background: {r: 0.21, g: 0.14, b: 0.35, a: 1.0}
+  floorA: {r: 0.77, g: 0.6, b: 0.9, a: 1.0}
+  floorB: {r: 0.69, g: 0.5, b: 0.83, a: 1.0}
+  rimColor: {r: 0.99, g: 0.61, b: 0.81, a: 1.0}
+  accent: {r: 0.95, g: 0.43, b: 0.66, a: 1.0}
+  lightColor: {r: 1.0, g: 0.97, b: 0.91, a: 1.0}
+  music: {fileID: 8300000, guid: ec5452fc7803b1894cfc55ff36de96aa, type: 3}

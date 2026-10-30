@@ -1,0 +1,22 @@
+{
+  "Utc": "2026-10-13T10:53:18.3364429Z",
+  "RemovedGeneratedPaths": [
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Artifacts",
+      "LogicalBytes": 974749558.0
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\artifacts",
+      "LogicalBytes": 3938162741.0
+    }
+  ],
+  "PreservedGradleRoot": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle",
+  "PreservedSourceInputs": 5126,
+  "InputsManifest": "FreshPlayerCacheCleanup.json",
+  "InputsManifestSHA256": "95bd9d909ddd34a3552ca6fdaee239b2d07007fd26e17612be9833258c07ec25",
+  "AllPreservedInputHashesMatch": true,
+  "SourceFilesModified": false,
+  "Reason": "Unity native build completed; its subsequent Gradle asset merge failed for lack of disk space. Retire import/native intermediates while preserving the entire self-contained fresh Gradle project and all5126 input hashes.",
+  "FreeBytesBefore": 698298368,
+  "FreeBytesAfter": 7193063424
+}

@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a76abab04e5c880607646dcf7d3dd, type: 3}
+  m_Name: Level_17
+  m_EditorClassIdentifier: 
+  schemaVersion: 20
+  levelId: 17
+  levelTitle: "17. Beauty Gifts \xB7 Castle"
+  difficulty: 3
+  timeLimit: 25
+  theme: {fileID: 11400000, guid: be35c3d1d86797758d7c2ff6ddb6e135, type: 2}
+  mapSize: 20.6
+  arenaSize: {x: 16, y: 20.6}
+  gridSize: {x: 16, y: 20}
+  startClearRadius: 2
+  initialSizeTier: 1
+  growthMultiplier: 1
+  movementSpeed: 3.8
+  holeStart: {x: 0, y: -7.8}
+  cameraZoomMultiplier: 1
+  missions:
+  - missionId: L17_M0
+    kind: 0
+    target: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    category: 0
+    color: 0
+    tier: 0
+    requiredCount: 8
+    icon: {fileID: 21300000, guid: 33a1b35bccf943f46bdb44da1deace80, type: 3}
+    description: Serum
+  - missionId: L17_M1
+    kind: 0
+    target: {fileID: 11400000, guid: 5805556f30070294ab5241383e517178, type: 2}
+    category: 0
+    color: 0
+    tier: 0
+    requiredCount: 5
+    icon: {fileID: 21300000, guid: 28562fc8e0e02a440a7eaea0cc0ac292, type: 3}
+    description: Lotion
+  - missionId: L17_M2
+    kind: 0
+    target: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    category: 0
+    color: 0
+    tier: 0
+    requiredCount: 8
+    icon: {fileID: 21300000, guid: 1900f851fc496e544abf728e3efbbd06, type: 3}
+    description: Perfume
+  defaultWrongBehavior: 0
+  penaltySeconds: 2
+  penaltyScore: 5
+  randomSeed: 178424
+  spawnGroups:
+  - edible: {fileID: 11400000, guid: 5805556f30070294ab5241383e517178, type: 2}
+    count: 5
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    count: 9
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    count: 9
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    count: 9
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    count: 4
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  placements:
+  - edible: {fileID: 11400000, guid: 5805556f30070294ab5241383e517178, type: 2}
+    position: {x: -4, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: -2.4, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: -2.4, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 1.2616901
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: -0.8, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: -0.8, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 1.4236025
+    stacked: 1
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: 0.8, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 5805556f30070294ab5241383e517178, type: 2}
+    position: {x: 2.4, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: 4, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: 4, y: -3.2}
+    yaw: 0
+    decorative: 0
+    height: 1.2616901
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: -4, y: -1.6}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: -4, y: -1.6}
+    yaw: 0
+    decorative: 0
+    height: 1.4236025
+    stacked: 1
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: 4, y: -1.6}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 5805556f30070294ab5241383e517178, type: 2}
+    position: {x: -4, y: 0}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: -0.8, y: 0}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: 0.8, y: 0}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: 4, y: 0}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 5805556f30070294ab5241383e517178, type: 2}
+    position: {x: -4, y: 1.6}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: 4, y: 1.6}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: 4, y: 1.6}
+    yaw: 0
+    decorative: 0
+    height: 1.2616901
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: -4, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: -4, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 1.4236025
+    stacked: 1
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: -2.4, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 5805556f30070294ab5241383e517178, type: 2}
+    position: {x: -0.8, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: 0.8, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 997dade3cf9b1c841ab1079bb4cdd8e8, type: 2}
+    position: {x: 0.8, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 1.2616901
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: 2.4, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2e0569f110376c449df63f694b9e8a2, type: 2}
+    position: {x: 2.4, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 1.4236025
+    stacked: 1
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: 4, y: 3.2}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: -2.4, y: -4.8}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: -0.8, y: -4.8}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: 0.8, y: -4.8}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: da77e5c34ad7abf42bd56a32277bb863, type: 2}
+    position: {x: 2.4, y: -4.8}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    position: {x: -3, y: -6.4}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    position: {x: 3, y: -6.4}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    position: {x: -6.72, y: -7.4160004}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    position: {x: 6.72, y: -7.4160004}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  missionBonus: 100
+  clearBonus: 200
+  timeBonusPerSecond: 5
+  nextLevelId: 18

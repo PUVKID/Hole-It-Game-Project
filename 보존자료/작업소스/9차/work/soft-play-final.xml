@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="11" result="Failed(Child)" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 17:52:34Z" end-time="2026-10-12 17:59:26Z" duration="411.6517913">
+  <test-suite type="TestSuite" id="1018" name="포켓 홀" fullname="포켓 홀" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-10-12 17:52:34Z" end-time="2026-10-12 17:59:26Z" duration="411.651791" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1015" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-10-12 17:52:34Z" end-time="2026-10-12 17:59:26Z" duration="411.643830" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="74864" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="BombPlayTests" fullname="BombPlayTests" classname="BombPlayTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-12 17:52:34Z" end-time="2026-10-12 17:52:42Z" duration="7.441785" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="BombFailsInRelaxedModeAndRetryRestoresLevel" fullname="BombPlayTests.BombFailsInRelaxedModeAndRetryRestoresLevel" methodname="BombFailsInRelaxedModeAndRetryRestoresLevel" classname="BombPlayTests" runstate="Runnable" seed="1567197028" result="Passed" start-time="2026-10-12 17:52:34Z" end-time="2026-10-12 17:52:38Z" duration="3.666682" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="FinalMissionCannotHideAnAlreadySwallowedBomb" fullname="BombPlayTests.FinalMissionCannotHideAnAlreadySwallowedBomb" methodname="FinalMissionCannotHideAnAlreadySwallowedBomb" classname="BombPlayTests" runstate="Runnable" seed="455285884" result="Passed" start-time="2026-10-12 17:52:38Z" end-time="2026-10-12 17:52:40Z" duration="1.731417" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="StrictMissionCannotBlockBombAndPauseFreezesSwallow" fullname="BombPlayTests.StrictMissionCannotBlockBombAndPauseFreezesSwallow" methodname="StrictMissionCannotBlockBombAndPauseFreezesSwallow" classname="BombPlayTests" runstate="Runnable" seed="89937473" result="Passed" start-time="2026-10-12 17:52:40Z" end-time="2026-10-12 17:52:42Z" duration="2.033436" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1005" name="CampaignPlayModeTests" fullname="CampaignPlayModeTests" classname="CampaignPlayModeTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-10-12 17:52:42Z" end-time="2026-10-12 17:52:53Z" duration="11.697622" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1006" name="EveryLevelLoadsWithSavedPlacements" fullname="CampaignPlayModeTests.EveryLevelLoadsWithSavedPlacements" methodname="EveryLevelLoadsWithSavedPlacements" classname="CampaignPlayModeTests" runstate="Runnable" seed="573325231" result="Passed" start-time="2026-10-12 17:52:42Z" end-time="2026-10-12 17:52:42Z" duration="0.638584" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="PauseFreezesTimerAndInputThenResumes" fullname="CampaignPlayModeTests.PauseFreezesTimerAndInputThenResumes" methodname="PauseFreezesTimerAndInputThenResumes" classname="CampaignPlayModeTests" runstate="Runnable" seed="529193754" result="Passed" start-time="2026-10-12 17:52:42Z" end-time="2026-10-12 17:52:44Z" duration="1.540385" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1010" name="RepeatedRestartAndHomeRetainSingleManagers" fullname="CampaignPlayModeTests.RepeatedRestartAndHomeRetainSingleManagers" methodname="RepeatedRestartAndHomeRetainSingleManagers" classname="CampaignPlayModeTests" runstate="Runnable" seed="1494921122" result="Passed" start-time="2026-10-12 17:52:44Z" end-time="2026-10-12 17:52:52Z" duration="8.003109" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1009" name="StrictModeBlocksFodderAndCompletedTargets" fullname="CampaignPlayModeTests.StrictModeBlocksFodderAndCompletedTargets" methodname="StrictModeBlocksFodderAndCompletedTargets" classname="CampaignPlayModeTests" runstate="Runnable" seed="993697956" result="Passed" start-time="2026-10-12 17:52:52Z" end-time="2026-10-12 17:52:52Z" duration="0.133136" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="SwallowCompletionRewardsExactlyOnce" fullname="CampaignPlayModeTests.SwallowCompletionRewardsExactlyOnce" methodname="SwallowCompletionRewardsExactlyOnce" classname="CampaignPlayModeTests" runstate="Runnable" seed="1633243747" result="Passed" start-time="2026-10-12 17:52:52Z" end-time="2026-10-12 17:52:53Z" duration="1.368674" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1011" name="ReleasePlayTests" fullname="ReleasePlayTests" classname="ReleasePlayTests" runstate="Runnable" testcasecount="3" result="Failed" site="Child" start-time="2026-10-12 17:52:53Z" end-time="2026-10-12 17:59:26Z" duration="392.501878" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1014" name="AllThirtyLevelsCompleteThroughPhysicalSwallowing" fullname="ReleasePlayTests.AllThirtyLevelsCompleteThroughPhysicalSwallowing" methodname="AllThirtyLevelsCompleteThroughPhysicalSwallowing" classname="ReleasePlayTests" runstate="Runnable" seed="652943293" result="Failed" start-time="2026-10-12 17:52:53Z" end-time="2026-10-12 17:59:21Z" duration="387.928572" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="900000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Level 27 could not complete; tier=5
+  Expected: LevelClear
+  But was:  Playing
+]]></message>
+            <stack-trace><![CDATA[at ReleasePlayTests+<AllThirtyLevelsCompleteThroughPhysicalSwallowing>d__10.MoveNext () [0x005ca] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\PlayMode\ReleasePlayTests.cs:74
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1012" name="CaptureScreensAndCheckFonts" fullname="ReleasePlayTests.CaptureScreensAndCheckFonts" methodname="CaptureScreensAndCheckFonts" classname="ReleasePlayTests" runstate="Runnable" seed="1153510787" result="Passed" start-time="2026-10-12 17:59:21Z" end-time="2026-10-12 17:59:24Z" duration="3.057856" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1013" name="RelaxedModeDoesNotCountDown" fullname="ReleasePlayTests.RelaxedModeDoesNotCountDown" methodname="RelaxedModeDoesNotCountDown" classname="ReleasePlayTests" runstate="Runnable" seed="251252840" result="Passed" start-time="2026-10-12 17:59:24Z" end-time="2026-10-12 17:59:26Z" duration="1.499168" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\soft-play-final.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

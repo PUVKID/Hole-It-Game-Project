@@ -1,0 +1,609 @@
+0x196d794 push {r4, r5, r6, r7, r8, sb, fp, lr}
+0x196d798 vpush {d8, d9, d10, d11, d12}
+0x196d79c sub sp, sp, #0x18
+0x196d7a0 ldr r5, [pc, #0x760]
+0x196d7a4 mov r4, r0
+0x196d7a8 add r5, pc, r5
+0x196d7ac ldrb r0, [r5]
+0x196d7b0 cmp r0, #0
+0x196d7b4 bne #0x196d7cc
+0x196d7b8 ldr r0, [pc, #0x74c]
+0x196d7bc ldr r0, [pc, r0]
+0x196d7c0 bl #0x161f5e0 
+0x196d7c4 mov r0, #1
+0x196d7c8 strb r0, [r5]
+0x196d7cc mov r0, r4
+0x196d7d0 mov r1, #0
+0x196d7d4 bl #0x26d5f0c public Transform get_transform() { }
+0x196d7d8 mov r5, r0
+0x196d7dc cmp r0, #0
+0x196d7e0 bne #0x196d7e8
+0x196d7e4 bl #0x161f890 
+0x196d7e8 add r0, sp, #8
+0x196d7ec mov r1, r5
+0x196d7f0 mov r2, #0
+0x196d7f4 mov sb, #0
+0x196d7f8 bl #0x26d5ffc public Vector3 get_position() { }
+0x196d7fc vldr s0, [sp, #8]
+0x196d800 vldr s6, [r4, #0x70]
+0x196d804 vldr s2, [sp, #0xc]
+0x196d808 vldr s8, [r4, #0x74]
+0x196d80c vadd.f32 s0, s0, s6
+0x196d810 vldr s4, [sp, #0x10]
+0x196d814 vldr s10, [r4, #0x78]
+0x196d818 vadd.f32 s2, s2, s8
+0x196d81c ldr r7, [r4, #0x14]
+0x196d820 vadd.f32 s4, s4, s10
+0x196d824 cmp r7, #0
+0x196d828 vmov r6, s0
+0x196d82c vmov r5, s2
+0x196d830 vmov r8, s4
+0x196d834 bne #0x196d83c
+0x196d838 bl #0x161f890 
+0x196d83c add r0, sp, #8
+0x196d840 mov r1, r7
+0x196d844 mov r2, r6
+0x196d848 mov r3, r5
+0x196d84c strd r8, sb, [sp]
+0x196d850 bl #0x26d9120 public Vector3 WorldToViewportPoint(Vector3 position) { }
+0x196d854 vmov.f32 s6, #1.000000e+00
+0x196d858 vldr s0, [sp, #0xc]
+0x196d85c vldr s2, [sp, #8]
+0x196d860 mov r0, #0
+0x196d864 mov r1, #0
+0x196d868 vldr s4, [sp, #0x10]
+0x196d86c vcmp.f32 s0, s6
+0x196d870 vmrs apsr_nzcv, fpscr
+0x196d874 vcmp.f32 s2, s6
+0x196d878 movwgt r0, #1
+0x196d87c vmrs apsr_nzcv, fpscr
+0x196d880 vcmp.f32 s2, #0
+0x196d884 movwgt r1, #1
+0x196d888 vmrs apsr_nzcv, fpscr
+0x196d88c orr r0, r1, r0
+0x196d890 mov r1, #0
+0x196d894 vcmp.f32 s0, #0
+0x196d898 movwmi r1, #1
+0x196d89c vmrs apsr_nzcv, fpscr
+0x196d8a0 vcmp.f32 s4, #0
+0x196d8a4 orr r0, r1, r0
+0x196d8a8 movwmi sb, #1
+0x196d8ac vmrs apsr_nzcv, fpscr
+0x196d8b0 orr r0, r0, sb
+0x196d8b4 strb r0, [r4, #0x69]
+0x196d8b8 bpl #0x196d8fc
+0x196d8bc vsub.f32 s2, s6, s2
+0x196d8c0 vldr s4, [pc, #0x3f8]
+0x196d8c4 vsub.f32 s0, s6, s0
+0x196d8c8 vmov.f32 s6, s4
+0x196d8cc vcmp.f32 s2, #0
+0x196d8d0 vmrs apsr_nzcv, fpscr
+0x196d8d4 vmovgt.f32 s6, s2
+0x196d8d8 vcmp.f32 s6, s0
+0x196d8dc vmrs apsr_nzcv, fpscr
+0x196d8e0 vmovmi.f32 s6, s0
+0x196d8e4 vcmp.f32 s6, #0
+0x196d8e8 vmrs apsr_nzcv, fpscr
+0x196d8ec vmovmi.f32 s6, s4
+0x196d8f0 vdiv.f32 s4, s4, s6
+0x196d8f4 vdiv.f32 s0, s0, s6
+0x196d8f8 vdiv.f32 s2, s2, s6
+0x196d8fc vmov r8, s4
+0x196d900 ldr r7, [r4, #0x14]
+0x196d904 vmov r5, s0
+0x196d908 vmov r6, s2
+0x196d90c cmp r7, #0
+0x196d910 bne #0x196d918
+0x196d914 bl #0x161f890 
+0x196d918 add r0, sp, #8
+0x196d91c mov sb, #0
+0x196d920 mov r1, r7
+0x196d924 mov r2, r6
+0x196d928 mov r3, r5
+0x196d92c strd r8, sb, [sp]
+0x196d930 bl #0x26d7dec public Vector3 ViewportToScreenPoint(Vector3 position) { }
+0x196d934 mov r0, #0
+0x196d938 vldr s20, [sp, #8]
+0x196d93c vldr s22, [sp, #0xc]
+0x196d940 bl #0x26d6aec public static int get_height() { }
+0x196d944 vmov s0, r0
+0x196d948 mov r0, #0
+0x196d94c vldr s16, [r4, #0x50]
+0x196d950 vldr s18, [r4, #0x9c]
+0x196d954 vcvt.f32.s32 s24, s0
+0x196d958 bl #0x26d6adc public static int get_width() { }
+0x196d95c vmls.f32 s24, s16, s18
+0x196d960 vldr s4, [r4, #0x58]
+0x196d964 vmov s0, r0
+0x196d968 vldr s2, [r4, #0x54]
+0x196d96c vmov.f32 s16, s22
+0x196d970 vldr s6, [r4, #0x9c]
+0x196d974 vcvt.f32.s32 s0, s0
+0x196d978 ldr r5, [r4, #0x80]
+0x196d97c vmul.f32 s2, s2, s6
+0x196d980 ldrb r0, [r4, #0x69]
+0x196d984 vmov.f32 s18, s20
+0x196d988 vcmp.f32 s22, s24
+0x196d98c vmrs apsr_nzcv, fpscr
+0x196d990 vsub.f32 s0, s0, s4
+0x196d994 vcmp.f32 s20, s0
+0x196d998 vmovgt.f32 s16, s24
+0x196d99c vmrs apsr_nzcv, fpscr
+0x196d9a0 vcmp.f32 s22, s2
+0x196d9a4 vmovgt.f32 s18, s0
+0x196d9a8 vmrs apsr_nzcv, fpscr
+0x196d9ac vcmp.f32 s20, s4
+0x196d9b0 vmovmi.f32 s16, s2
+0x196d9b4 vmrs apsr_nzcv, fpscr
+0x196d9b8 vmovmi.f32 s18, s4
+0x196d9bc cmp r0, #0
+0x196d9c0 beq #0x196dcc4
+0x196d9c4 cmp r5, #0
+0x196d9c8 bne #0x196d9d0
+0x196d9cc bl #0x161f890 
+0x196d9d0 mov r0, r5
+0x196d9d4 mov r1, #0
+0x196d9d8 mov r8, #0
+0x196d9dc bl #0x26d5f0c public Transform get_transform() { }
+0x196d9e0 vmov r5, s16
+0x196d9e4 mov r6, r0
+0x196d9e8 vmov r7, s18
+0x196d9ec cmp r0, #0
+0x196d9f0 bne #0x196d9f8
+0x196d9f4 bl #0x161f890 
+0x196d9f8 mov r0, r6
+0x196d9fc mov r1, r7
+0x196da00 mov r2, r5
+0x196da04 mov r3, #0
+0x196da08 str r8, [sp]
+0x196da0c bl #0x26d6b6c public void set_position(Vector3 value) { }
+0x196da10 ldr r6, [r4, #0x80]
+0x196da14 cmp r6, #0
+0x196da18 bne #0x196da20
+0x196da1c bl #0x161f890 
+0x196da20 ldr r6, [r6, #0x1c]
+0x196da24 ldr r5, [r4, #0x48]
+0x196da28 cmp r6, #0
+0x196da2c bne #0x196da34
+0x196da30 bl #0x161f890 
+0x196da34 mov r0, r6
+0x196da38 mov r1, r5
+0x196da3c mov r2, #0
+0x196da40 bl #0x26d68c4 public void set_sprite(Sprite value) { }
+0x196da44 ldrb r0, [r4, #0x86]
+0x196da48 cmp r0, #0
+0x196da4c beq #0x196daa4
+0x196da50 ldr r5, [r4, #0x80]
+0x196da54 cmp r5, #0
+0x196da58 bne #0x196da60
+0x196da5c bl #0x161f890 
+0x196da60 ldr r5, [r5, #0x10]
+0x196da64 cmp r5, #0
+0x196da68 bne #0x196da70
+0x196da6c bl #0x161f890 
+0x196da70 mov r0, r5
+0x196da74 mov r1, #0
+0x196da78 bl #0x26d6968 public GameObject get_gameObject() { }
+0x196da7c mov r5, r0
+0x196da80 cmp r0, #0
+0x196da84 bne #0x196da8c
+0x196da88 bl #0x161f890 
+0x196da8c mov r0, r5
+0x196da90 mov r1, #0
+0x196da94 bl #0x26d671c public bool get_activeSelf() { }
+0x196da98 cmp r0, #0
+0x196da9c moveq r0, r4
+0x196daa0 bleq #0x196e080
+0x196daa4 ldr r5, [r4, #0x80]
+0x196daa8 cmp r5, #0
+0x196daac bne #0x196dab4
+0x196dab0 bl #0x161f890 
+0x196dab4 ldr r5, [r5, #0x18]
+0x196dab8 cmp r5, #0
+0x196dabc bne #0x196dac4
+0x196dac0 bl #0x161f890 
+0x196dac4 mov r0, r5
+0x196dac8 mov r1, #0
+0x196dacc bl #0x26d6968 public GameObject get_gameObject() { }
+0x196dad0 mov r5, r0
+0x196dad4 cmp r0, #0
+0x196dad8 bne #0x196dae0
+0x196dadc bl #0x161f890 
+0x196dae0 mov r0, r5
+0x196dae4 mov r1, #0
+0x196dae8 bl #0x26d671c public bool get_activeSelf() { }
+0x196daec cmp r0, #0
+0x196daf0 beq #0x196db40
+0x196daf4 ldr r5, [r4, #0x80]
+0x196daf8 cmp r5, #0
+0x196dafc bne #0x196db04
+0x196db00 bl #0x161f890 
+0x196db04 ldr r5, [r5, #0x18]
+0x196db08 cmp r5, #0
+0x196db0c bne #0x196db14
+0x196db10 bl #0x161f890 
+0x196db14 mov r0, r5
+0x196db18 mov r1, #0
+0x196db1c bl #0x26d6968 public GameObject get_gameObject() { }
+0x196db20 mov r5, r0
+0x196db24 cmp r0, #0
+0x196db28 bne #0x196db30
+0x196db2c bl #0x161f890 
+0x196db30 mov r0, r5
+0x196db34 mov r1, #0
+0x196db38 mov r2, #0
+0x196db3c bl #0x26d64b4 public void SetActive(bool value) { }
+0x196db40 ldrb r0, [r4, #0x94]
+0x196db44 cmp r0, #0
+0x196db48 beq #0x196def0
+0x196db4c ldr r6, [r4, #0x98]
+0x196db50 ldr r5, [r4, #0x14]
+0x196db54 cmp r6, #0
+0x196db58 bne #0x196db60
+0x196db5c bl #0x161f890 
+0x196db60 mov r0, r6
+0x196db64 mov r1, #0
+0x196db68 bl #0x26d5f0c public Transform get_transform() { }
+0x196db6c mov r6, r0
+0x196db70 cmp r0, #0
+0x196db74 bne #0x196db7c
+0x196db78 bl #0x161f890 
+0x196db7c add r0, sp, #8
+0x196db80 mov r1, r6
+0x196db84 mov r2, #0
+0x196db88 mov sb, #0
+0x196db8c bl #0x26d5ffc public Vector3 get_position() { }
+0x196db90 add r8, sp, #8
+0x196db94 cmp r5, #0
+0x196db98 ldm r8, {r6, r7, r8}
+0x196db9c bne #0x196dba4
+0x196dba0 bl #0x161f890 
+0x196dba4 add r0, sp, #8
+0x196dba8 mov r1, r5
+0x196dbac mov r2, r6
+0x196dbb0 mov r3, r7
+0x196dbb4 strd r8, sb, [sp]
+0x196dbb8 bl #0x26d7354 public Vector3 WorldToScreenPoint(Vector3 position) { }
+0x196dbbc ldr r5, [r4, #0x80]
+0x196dbc0 vldr s16, [sp, #8]
+0x196dbc4 vldr s18, [sp, #0xc]
+0x196dbc8 cmp r5, #0
+0x196dbcc bne #0x196dbd4
+0x196dbd0 bl #0x161f890 
+0x196dbd4 ldr r5, [r5, #0x14]
+0x196dbd8 cmp r5, #0
+0x196dbdc bne #0x196dbe4
+0x196dbe0 bl #0x161f890 
+0x196dbe4 mov r0, r5
+0x196dbe8 mov r1, #0
+0x196dbec bl #0x26d656c public Transform get_transform() { }
+0x196dbf0 mov r5, r0
+0x196dbf4 cmp r0, #0
+0x196dbf8 bne #0x196dc00
+0x196dbfc bl #0x161f890 
+0x196dc00 add r0, sp, #8
+0x196dc04 mov r1, r5
+0x196dc08 mov r2, #0
+0x196dc0c bl #0x26d5ffc public Vector3 get_position() { }
+0x196dc10 vldr s0, [sp, #8]
+0x196dc14 vldr s2, [sp, #0xc]
+0x196dc18 vsub.f32 s0, s16, s0
+0x196dc1c vsub.f32 s2, s18, s2
+0x196dc20 vmov r0, s0
+0x196dc24 vmov r1, s2
+0x196dc28 bl #0x26d6d70 
+0x196dc2c ldr r4, [r4, #0x80]
+0x196dc30 vmov s20, r0
+0x196dc34 vldr s18, [pc, #0x2c0]
+0x196dc38 vldr s16, [pc, #0x2c0]
+0x196dc3c cmp r4, #0
+0x196dc40 bne #0x196dc48
+0x196dc44 bl #0x161f890 
+0x196dc48 vmla.f32 s16, s20, s18
+0x196dc4c ldr r4, [r4, #0x14]
+0x196dc50 cmp r4, #0
+0x196dc54 bne #0x196dc5c
+0x196dc58 bl #0x161f890 
+0x196dc5c mov r0, r4
+0x196dc60 mov r1, #0
+0x196dc64 mov sb, #0
+0x196dc68 bl #0x26d656c public Transform get_transform() { }
+0x196dc6c vldr s0, [pc, #0x290]
+0x196dc70 mov r4, r0
+0x196dc74 add r0, sp, #8
+0x196dc78 mov r1, #0
+0x196dc7c vmul.f32 s0, s16, s0
+0x196dc80 mov r2, #0
+0x196dc84 str sb, [sp]
+0x196dc88 vmov r3, s0
+0x196dc8c bl #0x1714944 private static Quaternion Internal_FromEulerRad(Vector3 euler) { }
+0x196dc90 add r8, sp, #8
+0x196dc94 cmp r4, #0
+0x196dc98 ldm r8, {r5, r6, r7, r8}
+0x196dc9c bne #0x196dca4
+0x196dca0 bl #0x161f890 
+0x196dca4 mov r0, r4
+0x196dca8 mov r1, r5
+0x196dcac mov r2, r6
+0x196dcb0 mov r3, r7
+0x196dcb4 strd r8, sb, [sp]
+0x196dcb8 bl #0x26d6220 public void set_rotation(Quaternion value) { }
+0x196dcbc b #0x196def0 
+0x196dcc0 andeq r0, r0, r0
+0x196dcc4 cmp r5, #0
+0x196dcc8 bne #0x196dcd0
+0x196dccc bl #0x161f890 
+0x196dcd0 ldr r5, [r5, #0x10]
+0x196dcd4 cmp r5, #0
+0x196dcd8 bne #0x196dce0
+0x196dcdc bl #0x161f890 
+0x196dce0 mov r0, r5
+0x196dce4 mov r1, #0
+0x196dce8 bl #0x26d6968 public GameObject get_gameObject() { }
+0x196dcec mov r5, r0
+0x196dcf0 cmp r0, #0
+0x196dcf4 bne #0x196dcfc
+0x196dcf8 bl #0x161f890 
+0x196dcfc mov r0, r5
+0x196dd00 mov r1, #0
+0x196dd04 bl #0x26d671c public bool get_activeSelf() { }
+0x196dd08 cmp r0, #0
+0x196dd0c beq #0x196dd5c
+0x196dd10 ldr r5, [r4, #0x80]
+0x196dd14 cmp r5, #0
+0x196dd18 bne #0x196dd20
+0x196dd1c bl #0x161f890 
+0x196dd20 ldr r5, [r5, #0x10]
+0x196dd24 cmp r5, #0
+0x196dd28 bne #0x196dd30
+0x196dd2c bl #0x161f890 
+0x196dd30 mov r0, r5
+0x196dd34 mov r1, #0
+0x196dd38 bl #0x26d6968 public GameObject get_gameObject() { }
+0x196dd3c mov r5, r0
+0x196dd40 cmp r0, #0
+0x196dd44 bne #0x196dd4c
+0x196dd48 bl #0x161f890 
+0x196dd4c mov r0, r5
+0x196dd50 mov r1, #0
+0x196dd54 mov r2, #0
+0x196dd58 bl #0x26d64b4 public void SetActive(bool value) { }
+0x196dd5c ldr r5, [r4, #0x98]
+0x196dd60 cmp r5, #0
+0x196dd64 bne #0x196dd6c
+0x196dd68 bl #0x161f890 
+0x196dd6c mov r0, r5
+0x196dd70 mov r1, #0
+0x196dd74 bl #0x26d5f0c public Transform get_transform() { }
+0x196dd78 mov r5, r0
+0x196dd7c cmp r0, #0
+0x196dd80 bne #0x196dd88
+0x196dd84 bl #0x161f890 
+0x196dd88 add r0, sp, #8
+0x196dd8c mov r1, r5
+0x196dd90 mov r2, #0
+0x196dd94 bl #0x26d5ffc public Vector3 get_position() { }
+0x196dd98 add r8, sp, #8
+0x196dd9c ldr r7, [r4, #0x98]
+0x196dda0 ldm r8, {r5, r6, r8}
+0x196dda4 cmp r7, #0
+0x196dda8 bne #0x196ddb0
+0x196ddac bl #0x161f890 
+0x196ddb0 ldr r0, [pc, #0x158]
+0x196ddb4 ldr r0, [pc, r0]
+0x196ddb8 ldr r7, [r7, #0x4c]
+0x196ddbc ldr r0, [r0]
+0x196ddc0 ldr r1, [r0, #0x74]
+0x196ddc4 cmp r1, #0
+0x196ddc8 bne #0x196ddd0
+0x196ddcc bl #0x161f754 
+0x196ddd0 mov r0, r7
+0x196ddd4 mov r1, #0
+0x196ddd8 bl #0x26d5d38 public static bool op_Implicit(Object exists) { }
+0x196dddc cmp r0, #0
+0x196dde0 beq #0x196de1c
+0x196dde4 ldr r5, [r4, #0x98]
+0x196dde8 cmp r5, #0
+0x196ddec bne #0x196ddf4
+0x196ddf0 bl #0x161f890 
+0x196ddf4 ldr r5, [r5, #0x4c]
+0x196ddf8 cmp r5, #0
+0x196ddfc bne #0x196de04
+0x196de00 bl #0x161f890 
+0x196de04 add r0, sp, #8
+0x196de08 mov r1, r5
+0x196de0c mov r2, #0
+0x196de10 bl #0x26d5ffc public Vector3 get_position() { }
+0x196de14 add r8, sp, #8
+0x196de18 ldm r8, {r5, r6, r8}
+0x196de1c ldr r7, [r4, #0x14]
+0x196de20 cmp r7, #0
+0x196de24 bne #0x196de2c
+0x196de28 bl #0x161f890 
+0x196de2c add r0, sp, #8
+0x196de30 mov sb, #0
+0x196de34 mov r1, r7
+0x196de38 mov r2, r5
+0x196de3c mov r3, r6
+0x196de40 strd r8, sb, [sp]
+0x196de44 bl #0x26d7354 public Vector3 WorldToScreenPoint(Vector3 position) { }
+0x196de48 ldr r5, [r4, #0x80]
+0x196de4c ldr r8, [sp, #8]
+0x196de50 ldr r6, [sp, #0xc]
+0x196de54 cmp r5, #0
+0x196de58 ldr r7, [sp, #0x10]
+0x196de5c bne #0x196de64
+0x196de60 bl #0x161f890 
+0x196de64 mov r0, r5
+0x196de68 mov r1, #0
+0x196de6c mov sb, #0
+0x196de70 bl #0x26d5f0c public Transform get_transform() { }
+0x196de74 mov r5, r0
+0x196de78 cmp r0, #0
+0x196de7c bne #0x196de84
+0x196de80 bl #0x161f890 
+0x196de84 mov r0, r5
+0x196de88 mov r1, r8
+0x196de8c mov r2, r6
+0x196de90 mov r3, r7
+0x196de94 str sb, [sp]
+0x196de98 bl #0x26d6b6c public void set_position(Vector3 value) { }
+0x196de9c ldr r5, [r4, #0x80]
+0x196dea0 cmp r5, #0
+0x196dea4 bne #0x196deac
+0x196dea8 bl #0x161f890 
+0x196deac ldr r5, [r5, #0x18]
+0x196deb0 cmp r5, #0
+0x196deb4 bne #0x196debc
+0x196deb8 bl #0x161f890 
+0x196debc mov r0, r5
+0x196dec0 mov r1, #0
+0x196dec4 bl #0x26d6968 public GameObject get_gameObject() { }
+0x196dec8 mov r5, r0
+0x196decc cmp r0, #0
+0x196ded0 bne #0x196ded8
+0x196ded4 bl #0x161f890 
+0x196ded8 mov r0, r5
+0x196dedc mov r1, #0
+0x196dee0 bl #0x26d671c public bool get_activeSelf() { }
+0x196dee4 cmp r0, #0
+0x196dee8 moveq r0, r4
+0x196deec bleq #0x196e2a4
+0x196def0 add sp, sp, #0x18
+0x196def4 vpop {d8, d9, d10, d11, d12}
+0x196def8 pop {r4, r5, r6, r7, r8, sb, fp, pc}
+0x196defc rsbgt r2, r5, #0xe10
+0x196df00 adcsgt r0, r4, #0
+0x196df04 vstmialo lr, {s30, s31}
+0x196df08 ldreq r6, [r5], #-0x3be
+0x196e080 push {r4, r5, r6, r7, r8, sb, sl, lr}
+0x196e084 sub sp, sp, #8
+0x196e088 ldr r4, [pc, #0x1f8]
+0x196e08c mov r8, r0
+0x196e090 add r4, pc, r4
+0x196e094 ldrb r0, [r4]
+0x196e098 cmp r0, #0
+0x196e09c bne #0x196e0b4
+0x196e0a0 ldr r0, [pc, #0x1e4]
+0x196e0a4 ldr r0, [pc, r0]
+0x196e0a8 bl #0x161f5e0 
+0x196e0ac mov r0, #1
+0x196e0b0 strb r0, [r4]
+0x196e0b4 ldr r4, [r8, #0x80]
+0x196e0b8 cmp r4, #0
+0x196e0bc bne #0x196e0c4
+0x196e0c0 bl #0x161f890 
+0x196e0c4 ldr r4, [r4, #0x10]
+0x196e0c8 cmp r4, #0
+0x196e0cc bne #0x196e0d4
+0x196e0d0 bl #0x161f890 
+0x196e0d4 mov r0, r4
+0x196e0d8 mov r1, #0
+0x196e0dc bl #0x26d6968 public GameObject get_gameObject() { }
+0x196e0e0 mov r4, r0
+0x196e0e4 cmp r0, #0
+0x196e0e8 bne #0x196e0f0
+0x196e0ec bl #0x161f890 
+0x196e0f0 mov r0, r4
+0x196e0f4 mov r1, #0
+0x196e0f8 bl #0x26d656c public Transform get_transform() { }
+0x196e0fc ldr sb, [pc, #0x18c]
+0x196e100 mov r5, r0
+0x196e104 add sb, pc, sb
+0x196e108 ldrb r0, [sb]
+0x196e10c cmp r0, #0
+0x196e110 bne #0x196e128
+0x196e114 ldr r0, [pc, #0x178]
+0x196e118 ldr r0, [pc, r0]
+0x196e11c bl #0x161f5e0 
+0x196e120 mov r0, #1
+0x196e124 strb r0, [sb]
+0x196e128 ldr sl, [pc, #0x168]
+0x196e12c cmp r5, #0
+0x196e130 ldr sl, [pc, sl]
+0x196e134 ldr r0, [sl]
+0x196e138 ldr r0, [r0, #0x5c]
+0x196e13c ldr r6, [r0, #0xc]
+0x196e140 ldr r7, [r0, #0x10]
+0x196e144 ldr r4, [r0, #0x14]
+0x196e148 bne #0x196e150
+0x196e14c bl #0x161f890 
+0x196e150 mov r0, #0
+0x196e154 mov r1, r6
+0x196e158 str r0, [sp]
+0x196e15c mov r0, r5
+0x196e160 mov r2, r7
+0x196e164 mov r3, r4
+0x196e168 bl #0x26d662c public void set_localScale(Vector3 value) { }
+0x196e16c ldr r4, [r8, #0x80]
+0x196e170 cmp r4, #0
+0x196e174 bne #0x196e17c
+0x196e178 bl #0x161f890 
+0x196e17c ldr r4, [r4, #0x10]
+0x196e180 cmp r4, #0
+0x196e184 bne #0x196e18c
+0x196e188 bl #0x161f890 
+0x196e18c mov r0, r4
+0x196e190 mov r1, #0
+0x196e194 bl #0x26d6968 public GameObject get_gameObject() { }
+0x196e198 mov r4, r0
+0x196e19c cmp r0, #0
+0x196e1a0 bne #0x196e1a8
+0x196e1a4 bl #0x161f890 
+0x196e1a8 mov r0, r4
+0x196e1ac mov r1, #0
+0x196e1b0 mov r7, #0
+0x196e1b4 bl #0x26d656c public Transform get_transform() { }
+0x196e1b8 mov r5, r0
+0x196e1bc ldrb r0, [sb]
+0x196e1c0 cmp r0, #0
+0x196e1c4 bne #0x196e1dc
+0x196e1c8 ldr r0, [pc, #0xcc]
+0x196e1cc ldr r0, [pc, r0]
+0x196e1d0 bl #0x161f5e0 
+0x196e1d4 mov r0, #1
+0x196e1d8 strb r0, [sb]
+0x196e1dc ldr r0, [sl]
+0x196e1e0 movw r6, #0x999a
+0x196e1e4 vldr s0, [r8, #0x8c]
+0x196e1e8 movt r6, #0x3e99
+0x196e1ec ldr r0, [r0, #0x5c]
+0x196e1f0 vldr s2, [r0, #0xc]
+0x196e1f4 vldr s4, [r0, #0x10]
+0x196e1f8 vldr s6, [r0, #0x14]
+0x196e1fc vmul.f32 s2, s2, s0
+0x196e200 vmul.f32 s4, s4, s0
+0x196e204 mov r0, r5
+0x196e208 vmul.f32 s0, s6, s0
+0x196e20c strd r6, r7, [sp]
+0x196e210 vmov r1, s2
+0x196e214 vmov r2, s4
+0x196e218 vmov r3, s0
+0x196e21c bl #0x19b0944 public static TweenerCore<Vector3, Vector3, VectorOptions> DOScale(Transform target, Vector3 endValue, float duration) { }
+0x196e220 ldr r1, [pc, #0x78]
+0x196e224 ldr r1, [pc, r1]
+0x196e228 ldr r2, [r1]
+0x196e22c mov r1, #0x1b
+0x196e230 bl #0x20ec140 
+0x196e234 ldr r4, [r8, #0x80]
+0x196e238 cmp r4, #0
+0x196e23c bne #0x196e244
+0x196e240 bl #0x161f890 
+0x196e244 ldr r4, [r4, #0x10]
+0x196e248 cmp r4, #0
+0x196e24c bne #0x196e254
+0x196e250 bl #0x161f890 
+0x196e254 mov r0, r4
+0x196e258 mov r1, #0
+0x196e25c bl #0x26d6968 public GameObject get_gameObject() { }
+0x196e260 mov r4, r0
+0x196e264 cmp r0, #0
+0x196e268 bne #0x196e270
+0x196e26c bl #0x161f890 
+0x196e270 mov r0, r4
+0x196e274 mov r1, #1
+0x196e278 mov r2, #0
+0x196e27c add sp, sp, #8
+0x196e280 pop {r4, r5, r6, r7, r8, sb, sl, lr}
+0x196e284 b #0x26d64b4 public void SetActive(bool value) { }
+0x196e288 ldreq r5, [r5], #-0xad8

@@ -1,0 +1,131 @@
+{
+  "source": "User-supplied Hole+it! 1.31.17 XAPK",
+  "sprites": [
+    {
+      "name": "clock-dial",
+      "asset": "sharedassets1.assets",
+      "id": 164
+    },
+    {
+      "name": "btn-small-yellow",
+      "asset": "sharedassets1.assets",
+      "id": 213
+    },
+    {
+      "name": "blue-info-card",
+      "asset": "sharedassets1.assets",
+      "id": 229
+    },
+    {
+      "name": "clock-body",
+      "asset": "sharedassets1.assets",
+      "id": 248
+    },
+    {
+      "name": "clock-white",
+      "asset": "sharedassets2.assets",
+      "id": 177
+    },
+    {
+      "name": "a",
+      "asset": "sharedassets2.assets",
+      "id": 184
+    },
+    {
+      "name": "b-BG",
+      "asset": "sharedassets2.assets",
+      "id": 187
+    },
+    {
+      "name": "v",
+      "asset": "sharedassets2.assets",
+      "id": 188
+    },
+    {
+      "name": "!",
+      "asset": "sharedassets2.assets",
+      "id": 191
+    },
+    {
+      "name": "o",
+      "asset": "sharedassets2.assets",
+      "id": 201
+    },
+    {
+      "name": "o-BG",
+      "asset": "sharedassets2.assets",
+      "id": 203
+    },
+    {
+      "name": "a-BG",
+      "asset": "sharedassets2.assets",
+      "id": 207
+    },
+    {
+      "name": "v-BG",
+      "asset": "sharedassets2.assets",
+      "id": 212
+    },
+    {
+      "name": "r",
+      "asset": "sharedassets2.assets",
+      "id": 240
+    },
+    {
+      "name": "!-BG",
+      "asset": "sharedassets2.assets",
+      "id": 250
+    },
+    {
+      "name": "OK",
+      "asset": "sharedassets2.assets",
+      "id": 253
+    },
+    {
+      "name": "b",
+      "asset": "sharedassets2.assets",
+      "id": 262
+    },
+    {
+      "name": "r-BG",
+      "asset": "sharedassets2.assets",
+      "id": 269
+    },
+    {
+      "name": "btn-small-green",
+      "asset": "resources.assets",
+      "id": 881
+    },
+    {
+      "name": "cross",
+      "asset": "resources.assets",
+      "id": 896
+    },
+    {
+      "name": "sound-icon",
+      "asset": "resources.assets",
+      "id": 900
+    },
+    {
+      "name": "SpScreen-progress",
+      "asset": "sharedassets0.assets",
+      "id": 190
+    },
+    {
+      "name": "point-panel",
+      "asset": "sharedassets0.assets",
+      "id": 193
+    },
+    {
+      "name": "heart-loop",
+      "asset": "sharedassets0.assets",
+      "id": 260
+    },
+    {
+      "name": "Heart",
+      "asset": "sharedassets0.assets",
+      "id": 261
+    }
+  ],
+  "textAudit": "C:\\Users\\PUVKID\\Desktop\\Hole It\\6\ucc28\\Audit\\OriginalTypographyUI.json"
+}

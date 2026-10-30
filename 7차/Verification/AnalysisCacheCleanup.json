@@ -1,0 +1,9 @@
+{
+  "Reason": "Completed, regenerable original-game extraction/analysis caches only. Original supplied XAPK archive passed ZIP CRC check; all source, dump and audit evidence retained. Active test agent confirmed caches unused.",
+  "OriginalArchive": "C:\\Users\\PUVKID\\Desktop\\Hole+it!_1.31.17_APKPure.xapk",
+  "Targets": [
+    "C:\\Users\\PUVKID\\Documents\\Codex\\2026-10-13\\new-chat\\work\\reference",
+    "C:\\Users\\PUVKID\\Documents\\Codex\\2026-10-13\\new-chat\\work\\ref-python",
+    "C:\\Users\\PUVKID\\Documents\\Codex\\2026-10-13\\new-chat\\work\\il2cpp-analysis\\libil2cpp.so"
+  ]
+}

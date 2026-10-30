@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a76abab04e5c880607646dcf7d3dd, type: 3}
+  m_Name: Level_02
+  m_EditorClassIdentifier: ''
+  schemaVersion: 8
+  levelId: 2
+  levelTitle: 02  Dessert Plaza
+  difficulty: 1
+  timeLimit: 0
+  theme: {fileID: 11400000, guid: be35c3d1d86797758d7c2ff6ddb6e135, type: 2}
+  mapSize: 17.2
+  arenaSize: {x: 17.2, y: 15.05}
+  gridSize: {x: 8, y: 7}
+  startClearRadius: 2.1
+  initialSizeTier: 1
+  growthMultiplier: 1.0
+  movementSpeed: 8.0
+  holeStart: {x: 0.0, y: 0.0}
+  cameraZoomMultiplier: 1.0
+  missions:
+  - missionId: L02_M1
+    kind: 0
+    target: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    category: 2
+    color: 0
+    tier: 1
+    requiredCount: 8
+    icon: {fileID: 21300000, guid: 33c101bba62703d96e2fab2532cb3b92, type: 3}
+    description: COOKIE
+  defaultWrongBehavior: 0
+  penaltySeconds: 2.0
+  penaltyScore: 8
+  randomSeed: 59639
+  spawnGroups:
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    count: 9
+    center: {x: 3.1421, y: 3.1935}
+    radius: 4.2
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 940be2c52ee3aaa7095e01516edd205a, type: 2}
+    count: 2
+    center: {x: -4.7823, y: -0.4976}
+    radius: 4.2
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: d809c5d4738edd45c18045d806ab719b, type: 2}
+    count: 2
+    center: {x: 3.9105, y: -2.4596}
+    radius: 4.2
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0c05a95eb683e1570913c7275070a619, type: 2}
+    count: 2
+    center: {x: -0.9847, y: 4.125}
+    radius: 4.2
+    ring: 0
+    decorative: 0
+  placements:
+  - edible: {fileID: 11400000, guid: 0c05a95eb683e1570913c7275070a619, type: 2}
+    position: {x: -1.075, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0c05a95eb683e1570913c7275070a619, type: 2}
+    position: {x: 1.075, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 940be2c52ee3aaa7095e01516edd205a, type: 2}
+    position: {x: -5.375, y: 0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 940be2c52ee3aaa7095e01516edd205a, type: 2}
+    position: {x: -3.225, y: 0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 3.225, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 3.225, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 5.375, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 5.375, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 3.225, y: 0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 3.225, y: 6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 5.375, y: 6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 1.075, y: 6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 6d5d29ef436805261b4fc43f8e679a74, type: 2}
+    position: {x: 5.375, y: 0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: d809c5d4738edd45c18045d806ab719b, type: 2}
+    position: {x: 3.225, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: d809c5d4738edd45c18045d806ab719b, type: 2}
+    position: {x: 5.375, y: -2.15}
+    yaw: 180
+    decorative: 0
+  missionBonus: 100
+  clearBonus: 200
+  timeBonusPerSecond: 5
+  nextLevelId: 3

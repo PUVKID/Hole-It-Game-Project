@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="1" result="Failed(Child)" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 09:33:01Z" end-time="2026-10-13 09:40:00Z" duration="418.9025799">
+  <test-suite type="TestSuite" id="1105" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="84" result="Failed" site="Child" start-time="2026-10-13 09:33:01Z" end-time="2026-10-13 09:40:00Z" duration="418.902580" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1102" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="84" result="Failed" site="Child" start-time="2026-10-13 09:33:01Z" end-time="2026-10-13 09:40:00Z" duration="418.896562" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="84176" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1063" name="ReferenceSeventhStageProbeTests" fullname="ReferenceSeventhStageProbeTests" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-13 09:33:01Z" end-time="2026-10-13 09:40:00Z" duration="418.894112" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1064" name="UnresolvedStagesSupportFootprintsTrace" fullname="ReferenceSeventhStageProbeTests.UnresolvedStagesSupportFootprintsTrace" methodname="UnresolvedStagesSupportFootprintsTrace" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" seed="1165836202" result="Failed" start-time="2026-10-13 09:33:01Z" end-time="2026-10-13 09:40:00Z" duration="418.886989" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="720000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Stage 19: Playing; goals=1,25,8,36,2; sim=275.49 collected=846 hole=(11.30, 0.00, 3.76) aperture=1.881 active=1 target=none
+Stage 26: Playing; goals=7,10,7; sim=347.21 collected=685 hole=(-18.28, 0.00, -3.78) aperture=1.689 active=1 target=674/255/Robot Red pivot=(-16.60, 0.13, -3.48) fit=1.484 bottom=-0.759 kinematic=False velocity=(-0.01, 0.00, 0.07) angular=(0.05, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-19.19, 1.41, -3.97) size=(5.54, 4.34, 3.55) enabled=1 detection=True floorRayY=0.069
+Stage 28: Playing; goals=8,1,1,3; sim=373.83 collected=412 hole=(14.86, 0.00, -17.73) aperture=1.497 active=22 target=none
+  Expected: <empty>
+  But was:  < "Stage 19: Playing; goals=1,25,8,36,2; sim=275.49 collected=846 hole=(11.30, 0.00, 3.76) aperture=1.881 active=1 target=none", "Stage 26: Playing; goals=7,10,7; sim=347.21 collected=685 hole=(-18.28, 0.00, -3.78) aperture=1.689 active=1 target=674/255/Robot Red pivot=(-16.60, 0.13, -3.48) fit=1.484 bottom=-0.759 kinematic=False velocity=(-0.01, 0.00, 0.07) angular=(0.05, 0.00, 0.01) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-19.19, 1.41, -3.97) size=(5.54, 4.34, 3.55) enabled=1 detection=True floorRayY=0.069", "Stage 28: Playing; goals=8,1,1,3; sim=373.83 collected=412 hole=(14.86, 0.00, -17.73) aperture=1.497 active=22 target=none" >
+]]></message>
+            <stack-trace><![CDATA[at ReferenceSeventhStageProbeTests+<UnresolvedStagesSupportFootprintsTrace>d__0.MoveNext () [0x004a2] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhStageProbeTests.cs:23
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\TraceFocusedSix.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

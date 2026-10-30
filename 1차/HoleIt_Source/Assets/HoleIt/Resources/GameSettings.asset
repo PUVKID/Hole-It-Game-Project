@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f08642ebcbd995b5bd3bf0ae149ee2a, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: ''
+  joystickRadius: 110
+  joystickDeadZone: 0.08
+  baseSpeed: 8.0
+  dragSensitivity: 1.0
+  maxSpeed: 11.0
+  acceleration: 60.0
+  deceleration: 38.0
+  speedByRadius:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.12
+      outSlope: 0.12
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.333333
+      outWeight: 0.333333
+    - serializedVersion: 3
+      time: 2
+      value: 1.18
+      inSlope: 0.12
+      outSlope: 0.12
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.333333
+      outWeight: 0.333333
+    - serializedVersion: 3
+      time: 4
+      value: 1.35
+      inSlope: 0.12
+      outSlope: 0.12
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.333333
+      outWeight: 0.333333
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  radiusFollowSpeed: 9
+  growthPunch: 0.05
+  growthPunchDuration: 0.25
+  attractRadiusFactor: 1.0
+  attractSpeed: 5.0
+  attractSpin: 540.0
+  swallowDuration: 0.45
+  swallowStagger: 0.06
+  fallGravity: 22.0
+  swallowEdgeFactor: 0.5
+  maxObjectToHoleRatio: 1.0
+  cameraSmooth: 7.0
+  cameraZoomSmooth: 3.5
+  cameraPitch: 58.0
+  cameraYaw: 0.0
+  cameraDistance: 40.0
+  readyDelay: 1.2
+  clearDelay: 0.6
+  lowTimeWarning: 10.0
+  topScoreCount: 3

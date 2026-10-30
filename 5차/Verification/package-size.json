@@ -1,0 +1,294 @@
+{
+  "com.rocket.holeit.apk": {
+    "packageBytes": 98077603,
+    "compressedContents": {
+      "resources/metadata": 4290057,
+      "assets": 10319161,
+      "dex": 83108148
+    },
+    "largestFiles": [
+      [
+        "classes8.dex",
+        8903004,
+        8903004
+      ],
+      [
+        "classes7.dex",
+        8597432,
+        8597432
+      ],
+      [
+        "classes4.dex",
+        8433292,
+        8433292
+      ],
+      [
+        "classes9.dex",
+        8426724,
+        8426724
+      ],
+      [
+        "classes11.dex",
+        8410292,
+        8410292
+      ],
+      [
+        "classes2.dex",
+        8403232,
+        8403232
+      ],
+      [
+        "classes10.dex",
+        8366936,
+        8366936
+      ],
+      [
+        "classes6.dex",
+        7886168,
+        7886168
+      ]
+    ]
+  },
+  "config.armeabi_v7a.apk": {
+    "packageBytes": 42781104,
+    "compressedContents": {
+      "resources/metadata": 4481,
+      "native libraries": 42758535
+    },
+    "largestFiles": [
+      [
+        "lib/armeabi-v7a/libil2cpp.so",
+        95138820,
+        29034699
+      ],
+      [
+        "lib/armeabi-v7a/libunity.so",
+        20086704,
+        10784184
+      ],
+      [
+        "lib/armeabi-v7a/libFirebaseCppApp-12_10_0.so",
+        3381248,
+        1040997
+      ],
+      [
+        "lib/armeabi-v7a/libc++_shared.so",
+        872872,
+        349046
+      ],
+      [
+        "lib/armeabi-v7a/liblofelt_sdk.so",
+        519348,
+        305102
+      ],
+      [
+        "lib/armeabi-v7a/lib_burst_generated.so",
+        697364,
+        270366
+      ],
+      [
+        "lib/armeabi-v7a/libcrashlytics-common.so",
+        435732,
+        229473
+      ],
+      [
+        "lib/armeabi-v7a/libapplovin-native-crash-reporter.so",
+        507228,
+        194624
+      ]
+    ]
+  },
+  "UnityDataAssetPack.apk": {
+    "packageBytes": 16733,
+    "compressedContents": {
+      "resources/metadata": 2889
+    },
+    "largestFiles": [
+      [
+        "META-INF/BNDLTOOL.RSA",
+        2172,
+        1897
+      ],
+      [
+        "AndroidManifest.xml",
+        1620,
+        605
+      ],
+      [
+        "META-INF/BNDLTOOL.SF",
+        275,
+        214
+      ],
+      [
+        "META-INF/MANIFEST.MF",
+        167,
+        138
+      ],
+      [
+        "stamp-cert-sha256",
+        32,
+        35
+      ]
+    ]
+  },
+  "UnityDataAssetPack.config.astc.apk": {
+    "packageBytes": 23097771,
+    "compressedContents": {
+      "resources/metadata": 2735,
+      "assets": 23080545
+    },
+    "largestFiles": [
+      [
+        "assets/bin/Data/datapack.unity3d",
+        23080545,
+        23080545
+      ],
+      [
+        "META-INF/BNDLTOOL.RSA",
+        2172,
+        1897
+      ],
+      [
+        "AndroidManifest.xml",
+        772,
+        348
+      ],
+      [
+        "META-INF/BNDLTOOL.SF",
+        360,
+        263
+      ],
+      [
+        "META-INF/MANIFEST.MF",
+        252,
+        192
+      ],
+      [
+        "stamp-cert-sha256",
+        32,
+        35
+      ]
+    ]
+  },
+  "UnityStreamingAssetsPack.apk": {
+    "packageBytes": 204598499,
+    "compressedContents": {
+      "resources/metadata": 7369,
+      "assets": 204561953
+    },
+    "largestFiles": [
+      [
+        "assets/aa/Android/defaultlocalgroup_assets_all_274387915d913e616cbde2dba5647fcf.bundle",
+        191562070,
+        191562070
+      ],
+      [
+        "assets/aa/Android/events_assets_all_278019224ef672371ff63f8e22181928.bundle",
+        11483346,
+        11483346
+      ],
+      [
+        "assets/aa/catalog.bin",
+        744227,
+        744227
+      ],
+      [
+        "assets/SupersonicWisdom/LoaderGif/animated_loader.gif",
+        345208,
+        345208
+      ],
+      [
+        "assets/aa/Android/99979495137a4a0a64dc26226400a0c1_unitybuiltinassets_40afde350aa49f5587d5d654d0d11943.bundle",
+        47536,
+        47536
+      ],
+      [
+        "assets/aa/AddressablesLink/link.xml",
+        14232,
+        14232
+      ],
+      [
+        "assets/SupersonicWisdom/LoaderFrames/frame_34.gif",
+        10846,
+        10846
+      ],
+      [
+        "assets/SupersonicWisdom/LoaderFrames/frame_32.gif",
+        9796,
+        9796
+      ]
+    ]
+  },
+  "UnityTextureCompressionsAssetPack.apk": {
+    "packageBytes": 16733,
+    "compressedContents": {
+      "resources/metadata": 2896
+    },
+    "largestFiles": [
+      [
+        "META-INF/BNDLTOOL.RSA",
+        2172,
+        1894
+      ],
+      [
+        "AndroidManifest.xml",
+        1648,
+        613
+      ],
+      [
+        "META-INF/BNDLTOOL.SF",
+        275,
+        215
+      ],
+      [
+        "META-INF/MANIFEST.MF",
+        167,
+        139
+      ],
+      [
+        "stamp-cert-sha256",
+        32,
+        35
+      ]
+    ]
+  },
+  "UnityTextureCompressionsAssetPack.config.astc.apk": {
+    "packageBytes": 9777575,
+    "compressedContents": {
+      "resources/metadata": 2741,
+      "assets": 9760097
+    },
+    "largestFiles": [
+      [
+        "assets/bin/Data/data.unity3d",
+        9760097,
+        9760097
+      ],
+      [
+        "META-INF/BNDLTOOL.RSA",
+        2172,
+        1895
+      ],
+      [
+        "AndroidManifest.xml",
+        832,
+        361
+      ],
+      [
+        "META-INF/BNDLTOOL.SF",
+        356,
+        261
+      ],
+      [
+        "META-INF/MANIFEST.MF",
+        248,
+        189
+      ],
+      [
+        "stamp-cert-sha256",
+        32,
+        35
+      ]
+    ]
+  }
+}

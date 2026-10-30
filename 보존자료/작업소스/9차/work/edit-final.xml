@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="13" result="Passed" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 17:35:45Z" end-time="2026-10-12 17:35:47Z" duration="1.1116042">
+  <test-suite type="TestSuite" id="1000" name="포켓 홀" fullname="포켓 홀" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-12 17:35:45Z" end-time="2026-10-12 17:35:47Z" duration="1.111604" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1016" name="HoleIt.EditModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/PocketPit/Library/ScriptAssemblies/HoleIt.EditModeTests.dll" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-12 17:35:45Z" end-time="2026-10-12 17:35:47Z" duration="1.104890" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="74428" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestFixture" id="1001" name="CampaignEditModeTests" fullname="CampaignEditModeTests" classname="CampaignEditModeTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-12 17:35:45Z" end-time="2026-10-12 17:35:47Z" duration="1.103621" total="13" passed="13" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1002" name="AllThirtyAuthoredLevelsPassDataAndGrowthValidation" fullname="CampaignEditModeTests.AllThirtyAuthoredLevelsPassDataAndGrowthValidation" methodname="AllThirtyAuthoredLevelsPassDataAndGrowthValidation" classname="CampaignEditModeTests" runstate="Runnable" seed="1014239031" result="Passed" start-time="2026-10-12 17:35:45Z" end-time="2026-10-12 17:35:46Z" duration="0.411015" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1005" name="ColourMatchingUsesMetadataAndCategory" fullname="CampaignEditModeTests.ColourMatchingUsesMetadataAndCategory" methodname="ColourMatchingUsesMetadataAndCategory" classname="CampaignEditModeTests" runstate="Runnable" seed="549580763" result="Passed" start-time="2026-10-12 17:35:46Z" end-time="2026-10-12 17:35:46Z" duration="0.000507" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1013" name="GrowthThresholdsAreMonotonic" fullname="CampaignEditModeTests.GrowthThresholdsAreMonotonic" methodname="GrowthThresholdsAreMonotonic" classname="CampaignEditModeTests" runstate="Runnable" seed="160900619" result="Passed" start-time="2026-10-12 17:35:46Z" end-time="2026-10-12 17:35:46Z" duration="0.000228" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="ImportedMeshesHaveFiniteData" fullname="CampaignEditModeTests.ImportedMeshesHaveFiniteData" methodname="ImportedMeshesHaveFiniteData" classname="CampaignEditModeTests" runstate="Runnable" seed="502620120" result="Passed" start-time="2026-10-12 17:35:46Z" end-time="2026-10-12 17:35:47Z" duration="0.658489" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1008" name="MissingAndUnreachableLevelDataAreRejected" fullname="CampaignEditModeTests.MissingAndUnreachableLevelDataAreRejected" methodname="MissingAndUnreachableLevelDataAreRejected" classname="CampaignEditModeTests" runstate="Runnable" seed="351403028" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.000671" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1006" name="MissionCompletionIsBoundedAndAnnouncedOnce" fullname="CampaignEditModeTests.MissionCompletionIsBoundedAndAnnouncedOnce" methodname="MissionCompletionIsBoundedAndAnnouncedOnce" classname="CampaignEditModeTests" runstate="Runnable" seed="2140147477" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.001404" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1014" name="PerLevelTopThreeSortAndPersistWithoutResettingUserData" fullname="CampaignEditModeTests.PerLevelTopThreeSortAndPersistWithoutResettingUserData" methodname="PerLevelTopThreeSortAndPersistWithoutResettingUserData" classname="CampaignEditModeTests" runstate="Runnable" seed="1874954224" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.002559" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1015" name="PoolReturnIsIdempotent" fullname="CampaignEditModeTests.PoolReturnIsIdempotent" methodname="PoolReturnIsIdempotent" classname="CampaignEditModeTests" runstate="Runnable" seed="75918208" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.003567" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1003" name="RebuiltGridIsDeterministic" fullname="CampaignEditModeTests.RebuiltGridIsDeterministic" methodname="RebuiltGridIsDeterministic" classname="CampaignEditModeTests" runstate="Runnable" seed="1211056577" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.012028" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1007" name="ReservationsPreventBlockedQueueOverbooking" fullname="CampaignEditModeTests.ReservationsPreventBlockedQueueOverbooking" methodname="ReservationsPreventBlockedQueueOverbooking" classname="CampaignEditModeTests" runstate="Runnable" seed="696733846" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.000601" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-suite type="ParameterizedMethod" id="1012" name="ScoresAreSaturated" fullname="CampaignEditModeTests.ScoresAreSaturated" classname="CampaignEditModeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.002582" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1009" name="ScoresAreSaturated(-5L,0)" fullname="CampaignEditModeTests.ScoresAreSaturated(-5L,0)" methodname="ScoresAreSaturated" classname="CampaignEditModeTests" runstate="Runnable" seed="1694106200" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.000219" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1010" name="ScoresAreSaturated(2147483648L,int.MaxValue)" fullname="CampaignEditModeTests.ScoresAreSaturated(2147483648L,int.MaxValue)" methodname="ScoresAreSaturated" classname="CampaignEditModeTests" runstate="Runnable" seed="17894001" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.000060" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1011" name="ScoresAreSaturated(42L,42)" fullname="CampaignEditModeTests.ScoresAreSaturated(42L,42)" methodname="ScoresAreSaturated" classname="CampaignEditModeTests" runstate="Runnable" seed="616317041" result="Passed" start-time="2026-10-12 17:35:47Z" end-time="2026-10-12 17:35:47Z" duration="0.000023" asserts="0">
+            <properties>
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\edit-final.xml
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

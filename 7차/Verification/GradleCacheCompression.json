@@ -1,0 +1,99 @@
+{
+  "target": "C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378",
+  "operation": "Lossless NTFS compact /C on this single project transform cache only",
+  "startedAt": "2026-10-13T17:48:26+0900",
+  "projectAssetComparison": {
+    "source": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\assets",
+    "matchedFiles": 5079,
+    "manifestSHA256": "ca2240e6a7d929309417f25c7446b12cdcf674c1a9121df0a62ea9dd4c47a116"
+  },
+  "preservedNativeInputs": [
+    {
+      "relativePath": "arm64-v8a/libil2cpp.so",
+      "bytes": 39590464,
+      "sha256": "e90fcb8462e002a4c671e3377130528e96a7481c6be9fa4bcc7a27caff746692"
+    },
+    {
+      "relativePath": "arm64-v8a/libmain.so",
+      "bytes": 6696,
+      "sha256": "d1472b24e12cf04d86af157637ee84e93d17a267561e8005a4626be35b2a0c8e"
+    },
+    {
+      "relativePath": "arm64-v8a/libunity.so",
+      "bytes": 18885840,
+      "sha256": "0622d9c1a2c23f1748649771c31f5bbbf3a2160036d708b31d2aa2ba1c3d8976"
+    },
+    {
+      "relativePath": "armeabi-v7a/libil2cpp.so",
+      "bytes": 33009960,
+      "sha256": "089d5da59ad3f1e1a94a741014a926825b41df6165d2ef3db7cd055b43438052"
+    },
+    {
+      "relativePath": "armeabi-v7a/libmain.so",
+      "bytes": 8260,
+      "sha256": "3cfda0534d4c9e1bbcc65dbf68de568fa04541ffe897e9b80181c5e61bd4b717"
+    },
+    {
+      "relativePath": "armeabi-v7a/libunity.so",
+      "bytes": 14262156,
+      "sha256": "692b3b8f888bf33a1aa9c2ea6594e6dd9f8e5d4301b4a8c077a752c67a823616"
+    },
+    {
+      "relativePath": "x86_64/libil2cpp.so",
+      "bytes": 38937536,
+      "sha256": "87053368c2a7114a0aba9763303024fe635e152fff3fca60b1b54b6236141738"
+    },
+    {
+      "relativePath": "x86_64/libmain.so",
+      "bytes": 8920,
+      "sha256": "afe19b3a20f47bdee3dd53f1762d4abd9a24cb15e02cfe81e72e2d2069e79031"
+    },
+    {
+      "relativePath": "x86_64/libunity.so",
+      "bytes": 20961888,
+      "sha256": "4b402f1e97848e398f6031d97e6ad1aee95d12909f512049565b1c6adab6fbba"
+    }
+  ],
+  "before": {
+    "logicalBytes": 677903614,
+    "win32StorageBytes": 677903614,
+    "fileCount": 5110,
+    "compressedFileCount": 0
+  },
+  "beforeFreeBytes": 596385792,
+  "representativeSHA256Before": {
+    "transformed/out/assets/bin/Data/264d21d68670df547bd11db1691edbc3": "1fd424068628c108d66c9414ddb560dc5a1ae7ef0ddcbd8e338042301efa55cd",
+    "transformed/out/jni/arm64-v8a/libil2cpp.so": "e90fcb8462e002a4c671e3377130528e96a7481c6be9fa4bcc7a27caff746692",
+    "transformed/out/jni/x86_64/libil2cpp.so": "87053368c2a7114a0aba9763303024fe635e152fff3fca60b1b54b6236141738",
+    "transformed/out/jni/armeabi-v7a/libil2cpp.so": "089d5da59ad3f1e1a94a741014a926825b41df6165d2ef3db7cd055b43438052",
+    "transformed/out/jni/x86_64/libunity.so": "4b402f1e97848e398f6031d97e6ad1aee95d12909f512049565b1c6adab6fbba",
+    "transformed/out/jni/arm64-v8a/libunity.so": "0622d9c1a2c23f1748649771c31f5bbbf3a2160036d708b31d2aa2ba1c3d8976",
+    "transformed/out/jni/armeabi-v7a/libunity.so": "692b3b8f888bf33a1aa9c2ea6594e6dd9f8e5d4301b4a8c077a752c67a823616",
+    "transformed/out/assets/bin/Data/1936e6ab316651d45890e6e9eab746ea": "14e105f844f976b1a84ac9e2f5cd34cdd175c64e991844cb88c81880a77aa728"
+  },
+  "allFilesManifestSHA256Before": "688226758e49fd08720f502c49ced193af4c30358151b23e162dbdd20803ddb0",
+  "completed": true,
+  "compactExitCode": 0,
+  "compactOutput": "\r\n Setting the directory C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\ to compress new files \r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\assets\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\assets\\bin\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\assets\\bin\\Data\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\assets\\bin\\Data\\Managed\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\assets\\bin\\Data\\Managed\\Metadata\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\assets\\bin\\Data\\Managed\\Resources\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\assets\\bin\\Data\\Resources\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\jars\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\jars\\libs\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\jni\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\jni\\arm64-v8a\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\jni\\armeabi-v7a\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\jni\\x86_64\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\META-INF\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\META-INF\\com\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\META-INF\\com\\android\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\META-INF\\com\\android\\build\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\META-INF\\com\\android\\build\\gradle\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\res\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\res\\values\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\res\\values-v21\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\res\\values-v30\\\r\n\r\n\r\n Compressing files in C:\\Users\\PUVKID\\.gradle\\caches\\8.13\\transforms\\602975b30a7ddcf88bb7fe9d357e1378\\transformed\\out\\res\\values-v31\\\r\n\r\n\r\n5136 files within 27 directories were compressed.\r\n677,903,614 total bytes of data are stored in 395,318,347 bytes.\r\nThe compression ratio is 1.7 to 1.\r\n",
+  "after": {
+    "logicalBytes": 677903614,
+    "win32StorageBytes": 395318347,
+    "fileCount": 5110,
+    "compressedFileCount": 5110
+  },
+  "afterFreeBytes": 891764736,
+  "allFilesManifestSHA256After": "688226758e49fd08720f502c49ced193af4c30358151b23e162dbdd20803ddb0",
+  "representativeSHA256After": {
+    "transformed/out/assets/bin/Data/264d21d68670df547bd11db1691edbc3": "1fd424068628c108d66c9414ddb560dc5a1ae7ef0ddcbd8e338042301efa55cd",
+    "transformed/out/jni/arm64-v8a/libil2cpp.so": "e90fcb8462e002a4c671e3377130528e96a7481c6be9fa4bcc7a27caff746692",
+    "transformed/out/jni/x86_64/libil2cpp.so": "87053368c2a7114a0aba9763303024fe635e152fff3fca60b1b54b6236141738",
+    "transformed/out/jni/armeabi-v7a/libil2cpp.so": "089d5da59ad3f1e1a94a741014a926825b41df6165d2ef3db7cd055b43438052",
+    "transformed/out/jni/x86_64/libunity.so": "4b402f1e97848e398f6031d97e6ad1aee95d12909f512049565b1c6adab6fbba",
+    "transformed/out/jni/arm64-v8a/libunity.so": "0622d9c1a2c23f1748649771c31f5bbbf3a2160036d708b31d2aa2ba1c3d8976",
+    "transformed/out/jni/armeabi-v7a/libunity.so": "692b3b8f888bf33a1aa9c2ea6594e6dd9f8e5d4301b4a8c077a752c67a823616",
+    "transformed/out/assets/bin/Data/1936e6ab316651d45890e6e9eab746ea": "14e105f844f976b1a84ac9e2f5cd34cdd175c64e991844cb88c81880a77aa728"
+  },
+  "allFileBytesUnchanged": true,
+  "storageBytesSaved": 282585267,
+  "finishedAt": "2026-10-13T17:48:46+0900"
+}

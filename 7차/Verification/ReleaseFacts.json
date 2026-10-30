@@ -1,0 +1,192 @@
+{
+  "apkBytes": 624400385,
+  "apkSHA256": "bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a",
+  "androidBuild": {
+    "route": "gradle-recovery",
+    "apkSHA256": "bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a",
+    "records": [
+      {
+        "path": "Verification/AndroidBuild.txt",
+        "sha256": "150d17f89d9c5b0371718b988e3a4207828bffbbd7871e7037d20518f6df80c5"
+      },
+      {
+        "path": "Verification/AndroidGradleBuild.txt",
+        "sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7"
+      },
+      {
+        "path": "Verification/AndroidGradleBuild.log",
+        "sha256": "1365178706223274c36c65313b553eb0a2be0d5754b11872df8f379425ab8a04"
+      }
+    ],
+    "sourceManifest": {
+      "path": "Verification/SourceBuildManifest.json",
+      "sha256": "34c39c87bc813b785eaccfa0574430313038e4d922d6e239748d477feff1d9a1",
+      "sourceCsDigest": "1254fa5f07d7e5fdd111b83b3e5527a88d669672f39270c7d2e408b15fb693ef"
+    },
+    "scope": "Build completion and pre-build/current C# source hash agreement only; signing, alignment, assets and Android runtime QA are separate records."
+  },
+  "apkMinimumBytes": 500000000,
+  "expectedAndroidABIs": [
+    "armeabi-v7a",
+    "arm64-v8a"
+  ],
+  "actualAndroidABIs": [
+    "arm64-v8a",
+    "armeabi-v7a"
+  ],
+  "entryUncompressedBytes": 623377817,
+  "storedEntryBytes": 623377817,
+  "passedTests": 80,
+  "failedTests": 1,
+  "validation": {
+    "status": "known-validation-limitation",
+    "testsXmlSHA256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "total": 81,
+    "passed": 80,
+    "failed": 1,
+    "allTestsPassed": false,
+    "knownValidationLimitations": {
+      "schemaVersion": 1,
+      "createdUtc": "2026-10-13T10:41:07.035893+00:00",
+      "status": "known-validation-limitation",
+      "testsXmlFile": "Tests-final.xml",
+      "publishedTestsXmlFile": "Tests.xml",
+      "testsXmlSHA256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+      "finalVerificationSummarySHA256": "cb60dfe70dd2339182a01dd7fa522761a7671209162e932bbacefe95dbf18c45",
+      "totalCaseCount": 81,
+      "passedCaseCount": 80,
+      "failedCaseCount": 1,
+      "allTestsPassed": false,
+      "failedCases": [
+        {
+          "id": "1089",
+          "fullname": "ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation",
+          "count": 1,
+          "result": "Failed",
+          "durationSeconds": 1603.298265,
+          "reason": "The bounded test-only automated input planner did not complete stages 13, 14 and 26 in the final full run. Stages 13 and 14 stopped after 45 simulated seconds without collection, a new input attempt, or active downward progress; stage 26 reached the 1200 simulated-second stage limit. These results do not establish whether the remaining difficulty is a planner limitation or a gameplay/physics defect. The failure is retained, not reclassified as a pass, and manual completion of these stages is not verified.",
+          "unresolvedStages": [
+            13,
+            14,
+            26
+          ],
+          "failureMessage": "  Stage 13 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=313.11 collected=708 hole=(15.46, 0.00, -13.39) aperture=1.881 active=3 target=185/111/Radio Green pivot=(16.23, 0.91, -13.12) fit=1.920 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=7 latch=False initial=False activeBoundsCenter=(16.49, 0.80, -13.39) size=(4.64, 1.44, 4.63) enabled=1 detection=True floorRayY=aperture\nStage 14 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=371.63 collected=1003 hole=(-10.24, 0.00, -5.87) aperture=1.881 active=1 target=583/113/Arcade Machine pivot=(-11.13, 1.36, -4.53) fit=1.790 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=10 latch=False initial=False activeBoundsCenter=(-11.37, 1.36, -4.74) size=(3.81, 2.55, 3.92) enabled=1 detection=True floorRayY=aperture\nStage 26 1200 simulated seconds stage limit; sim=1200.05 collected=682 hole=(-1.14, 0.00, -11.31) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-0.71, 1.55, -8.41) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.14, 1.59, -11.32) size=(3.50, 3.09, 5.85) enabled=1 detection=True floorRayY=0.069\n  Expected: <empty>\n  But was:  < \"Stage 13 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=313.11 collected=708 hole=(15.46, 0.00, -13.39) aperture=1.881 active=3 target=185/111/Radio Green pivot=(16.23, 0.91, -13.12) fit=1.920 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=7 latch=False initial=False activeBoundsCenter=(16.49, 0.80, -13.39) size=(4.64, 1.44, 4.63) enabled=1 detection=True floorRayY=aperture\", \"Stage 14 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=371.63 collected=1003 hole=(-10.24, 0.00, -5.87) aperture=1.881 active=1 target=583/113/Arcade Machine pivot=(-11.13, 1.36, -4.53) fit=1.790 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=10 latch=False initial=False activeBoundsCenter=(-11.37, 1.36, -4.74) size=(3.81, 2.55, 3.92) enabled=1 detection=True floorRayY=aperture\", \"Stage 26 1200 simulated seconds stage limit; sim=1200.05 collected=682 hole=(-1.14, 0.00, -11.31) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-0.71, 1.55, -8.41) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.14, 1.59, -11.32) size=(3.50, 3.09, 5.85) enabled=1 detection=True floorRayY=0.069\" >\n"
+        }
+      ],
+      "reason": "The bounded test-only automated input planner did not complete stages 13, 14 and 26 in the final full run. Stages 13 and 14 stopped after 45 simulated seconds without collection, a new input attempt, or active downward progress; stage 26 reached the 1200 simulated-second stage limit. These results do not establish whether the remaining difficulty is a planner limitation or a gameplay/physics defect. The failure is retained, not reclassified as a pass, and manual completion of these stages is not verified.",
+      "unresolvedStages": [
+        13,
+        14,
+        26
+      ],
+      "unresolvedStageDetails": [
+        {
+          "stage": 13,
+          "state": "Playing",
+          "collected": 708,
+          "radius": 2.181,
+          "simulatedSeconds": 313.11,
+          "realSeconds": 78.24,
+          "sourceBudgetInformational": 110.0,
+          "goals": [],
+          "stop": "45 simulated seconds without collection, a new input attempt, or active downward progress"
+        },
+        {
+          "stage": 14,
+          "state": "Playing",
+          "collected": 1003,
+          "radius": 2.181,
+          "simulatedSeconds": 371.63,
+          "realSeconds": 92.73,
+          "sourceBudgetInformational": 115.0,
+          "goals": [
+            120,
+            75,
+            4,
+            26,
+            1
+          ],
+          "stop": "45 simulated seconds without collection, a new input attempt, or active downward progress"
+        },
+        {
+          "stage": 26,
+          "state": "Playing",
+          "collected": 682,
+          "radius": 1.958,
+          "simulatedSeconds": 1200.05,
+          "realSeconds": 299.76,
+          "sourceBudgetInformational": 120.0,
+          "goals": [
+            7,
+            7,
+            7
+          ],
+          "stop": "1200 simulated seconds stage limit"
+        }
+      ],
+      "campaignStagesAttempted": 30,
+      "campaignStagesCompleted": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "sourceSnapshotUnchangedAtFinalRun": true,
+      "scope": {
+        "allOther80CasesPassed": true,
+        "runtimeOrSetupErrorsAllowed": false,
+        "nunitResultsModified": false,
+        "humanTimingBenchmark": false,
+        "androidRuntimeValidationClaimed": false,
+        "buildSuccessClaimed": false
+      },
+      "packagingDecision": "Only the exact recorded exploratory campaign assertion may be accepted for packaging with the failure and unresolved stages displayed prominently. Any other failure or missing/mismatched completion evidence blocks packaging."
+    }
+  },
+  "campaignEntries": 465,
+  "extraChallenges": 111,
+  "collectibles": 1010,
+  "authoredPoisonBombs": 153,
+  "authoredPillars": 24,
+  "dailyCoins": 1000,
+  "attendanceCycleDays": 31,
+  "androidQARecords": [
+    "AndroidQAUnavailable.json"
+  ],
+  "androidRuntimeQARecords": [],
+  "sourceBuildManifest": {
+    "path": "Verification/SourceBuildManifest.json",
+    "sha256": "34c39c87bc813b785eaccfa0574430313038e4d922d6e239748d477feff1d9a1",
+    "sourceCsDigest": "1254fa5f07d7e5fdd111b83b3e5527a88d669672f39270c7d2e408b15fb693ef"
+  },
+  "discardedBuildInputHistory": [
+    "Verification/VerificationAtNativeCompile.cs.txt",
+    "Verification/VerificationSnapshotDifference.json",
+    "Verification/VerificationSnapshotDifference.patch"
+  ],
+  "androidQAScope": "Android runtime QA not run; availability inventory is not an execution pass.",
+  "sizeMethod": "Usable game assets and native libraries stored without ZIP compression; no filler."
+}

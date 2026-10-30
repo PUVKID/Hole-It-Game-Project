@@ -21,7 +21,9 @@
 <a name="latest-changes"></a>
 ## ✨ 최신차수에서 달라진 점
 
-**8차 · 최신보관본** — 실제 수집 트리거·지연 성장과 열린 원형 게이지
+**8차 · 최신 Reference 구현 보관본** — 실제 수집 트리거·지연 성장과 열린 원형 게이지
+
+별도 [9차 자료](docs/versions/9차.md)는 8개 제품 스크립트의 부분 보관본입니다. 완전한 후속 Unity 프로젝트로 표시하지 않습니다.
 
 - 모든 배치 물체의 강체·충돌체를 유지하고 ReferencePhysicsTrigger의 진입·이탈 이벤트를 전달합니다. 활성화 작업은 프레임당 25개씩 진행하며, 전체 강체 수는 이 값으로 제한하지 않습니다.
 - ReferenceGrowthProgress는 목표·적용 성장 단계를 구분하고 0.3초 뒤 성장시키며 ReferenceGrowthRing은 열린 원형 게이지를 그립니다. 수집 뒤 강체 렌더 유지·승리 후 물리 갱신·전체 bounds 시야 검사가 7차와 다릅니다.
@@ -228,3 +230,26 @@ Windows 캡처·시험 도구에는 버튼 호출, 폭탄 배치, QA 저장 상�
 **움직이고, 흡수하고, 성장하는 플레이를 만듭니다.**
 
 </div>
+
+<!-- apps-revision-audit -->
+## 🧭 모든 차수·보관본과 전체 차이
+
+각 차수의 소스·설정·리소스·사용법·설계를 함께 보관합니다. 부분 자료와 실제 제품 버전을 각 설명에서 구분합니다.
+
+| 차수·보관본 | 파일·폴더 | 설명 | 공개 파일 전체 비교 |
+|---|---|---|---|
+| 1차 | [📁 781개](1%EC%B0%A8) | [기능·검증 설명](docs/versions/1%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/1%EC%B0%A8.md) |
+| 2차 | [📁 2144개](2%EC%B0%A8) | [기능·검증 설명](docs/versions/2%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/2%EC%B0%A8.md) |
+| 3차 | [📁 2170개](3%EC%B0%A8) | [기능·검증 설명](docs/versions/3%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/3%EC%B0%A8.md) |
+| 4차 | [📁 2174개](4%EC%B0%A8) | [기능·검증 설명](docs/versions/4%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/4%EC%B0%A8.md) |
+| 5차 | [📁 2214개](5%EC%B0%A8) | [기능·검증 설명](docs/versions/5%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/5%EC%B0%A8.md) |
+| 6차 | [📁 2334개](6%EC%B0%A8) | [기능·검증 설명](docs/versions/6%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/6%EC%B0%A8.md) |
+| 7차 | [📁 2409개](7%EC%B0%A8) | [기능·검증 설명](docs/versions/7%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/7%EC%B0%A8.md) |
+| 8차 | [📁 2366개](8%EC%B0%A8) | [기능·검증 설명](docs/versions/8%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/8%EC%B0%A8.md) |
+| 9차 | [📁 8개](9%EC%B0%A8) | [기능·검증 설명](docs/versions/9%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/9%EC%B0%A8.md) |
+| 고유 작업 코드·문서 | [📁 95개](보존자료/작업소스/) | [원본 제품자료 목록](docs/SOURCE_MATERIALS.md) | 원래 차수·경로와 파일별 SHA-256 유지 |
+
+
+### 🖼️ 차수별 화면과 검증 이미지
+
+[원문 이미지·차수별 출처·파일 해시](docs/IMAGE_MATERIALS.md)에서 화면과 합성 테스트 입력을 확인할 수 있습니다.

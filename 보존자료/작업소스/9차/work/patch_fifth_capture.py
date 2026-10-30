@@ -1,0 +1,4 @@
+from pathlib import Path
+p=Path(__file__).parent/'AndroidFinal/Assets/Scripts/ReferenceCapture.cs';s=p.read_text();s=s.replace('yield return Shot("01-home");g.StartPlay();', 'yield return Shot("01-home");Click("Settings");yield return Shot("06-settings");Click("Mode");Click("Done");Click("Levels");yield return Shot("07-levels");Click("Done");Click("Shop");yield return Shot("08-boosters");Click("Done");Click("Settings");Click("Mode");Click("Done");g.StartPlay();')
+s=s.replace('    IEnumerator Shot(string name)', '    void Click(string name){foreach(var b in Object.FindObjectsByType<UnityEngine.UI.Button>(FindObjectsSortMode.None))if(b.name==name){b.onClick.Invoke();return;}throw new System.Exception("Capture button missing "+name);}\n    IEnumerator Shot(string name)')
+p.write_text(s,encoding='utf-8')

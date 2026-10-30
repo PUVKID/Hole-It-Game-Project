@@ -1,0 +1,26 @@
+{
+  "Utc": "2026-10-13T11:07:15.6670750Z",
+  "RemovedGeneratedOnly": [
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library",
+      "Files": 28025,
+      "LogicalBytes": 4157481577.0
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Logs",
+      "Files": 1,
+      "LogicalBytes": 211.0
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\.utmp",
+      "Files": 270,
+      "LogicalBytes": 10278794.0
+    }
+  ],
+  "RetainedApkSHA256": "bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a",
+  "RetainedSource": true,
+  "VerificationEvidencePreserved": true,
+  "PreviousEditionsPreserved": true,
+  "FreeBefore": 854237184,
+  "FreeAfter": 7970639872
+}

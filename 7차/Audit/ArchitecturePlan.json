@@ -1,0 +1,22 @@
+{
+  "Status": "applied_after_final_regression_exit",
+  "OriginalInput": "C:\\Users\\PUVKID\\Desktop\\Hole+it!_1.31.17_APKPure.xapk",
+  "OriginalManifestArchitectureSplit": "config.armeabi_v7a",
+  "PreviousTargets": [
+    "armeabi-v7a",
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "FinalPhoneTargets": [
+    "armeabi-v7a",
+    "arm64-v8a"
+  ],
+  "Reason": "Keep 32-bit and 64-bit ARM Android phone support; omit the extra x86_64 target previously included for unavailable emulator QA. Reduce native build cache and packaged library duplication without changing gameplay or content.",
+  "MinimumApkBytes": 500000000,
+  "BuildSuccessClaimed": false,
+  "SourceChangeTiming": "Applied after Unity PID66864 exited; only Editor ReferenceSeventhBuilder.cs architecture mask changed among107 C# files. Runtime and test C# hashes still match the final regression snapshot.",
+  "AppliedUtc": "2026-10-13T10:35:48.5733034Z",
+  "ChangedCsFilesAfterRegression": [
+    "Assets/Editor/ReferenceSeventhBuilder.cs"
+  ]
+}

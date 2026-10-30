@@ -1,0 +1,58 @@
+[
+  {
+    "mesh": "G-4494295972605348666",
+    "models": [
+      14
+    ],
+    "sourceHullVertices": 542,
+    "sourceHullTriangles": 1080,
+    "vertices": 120,
+    "triangles": 236,
+    "boundsPreserved": true,
+    "maxOutsidePlaneDistance": 0.01597388183001336,
+    "volumeRetainedFraction": 0.9776092156185385,
+    "method": "Greedy maximum supporting-plane violation; original vertices only, with all axis extrema preserved."
+  },
+  {
+    "mesh": "G-4952678351463023605",
+    "models": [
+      34
+    ],
+    "sourceHullVertices": 662,
+    "sourceHullTriangles": 1320,
+    "vertices": 120,
+    "triangles": 236,
+    "boundsPreserved": true,
+    "maxOutsidePlaneDistance": 0.020428150462716177,
+    "volumeRetainedFraction": 0.9720649894289756,
+    "method": "Greedy maximum supporting-plane violation; original vertices only, with all axis extrema preserved."
+  },
+  {
+    "mesh": "G4136433066467917765",
+    "models": [
+      116
+    ],
+    "sourceHullVertices": 229,
+    "sourceHullTriangles": 454,
+    "vertices": 120,
+    "triangles": 236,
+    "boundsPreserved": true,
+    "maxOutsidePlaneDistance": 0.007231144460300376,
+    "volumeRetainedFraction": 0.9930321876274443,
+    "method": "Greedy maximum supporting-plane violation; original vertices only, with all axis extrema preserved."
+  },
+  {
+    "mesh": "G8186878611941021423",
+    "models": [
+      115
+    ],
+    "sourceHullVertices": 214,
+    "sourceHullTriangles": 424,
+    "vertices": 120,
+    "triangles": 236,
+    "boundsPreserved": true,
+    "maxOutsidePlaneDistance": 0.00534213657902205,
+    "volumeRetainedFraction": 0.9943147493794525,
+    "method": "Greedy maximum supporting-plane violation; original vertices only, with all axis extrema preserved."
+  }
+]

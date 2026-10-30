@@ -1,0 +1,1475 @@
+--- 4차/Assets/Editor/ReferenceBuilder.cs
++++ 5차/Assets/Editor/ReferenceBuilder.cs
+@@ -8,11 +8,13 @@
+ using UnityEngine.Rendering;
+ using UnityEditor.Build.Reporting;
+ public static class ReferenceBuilder {
++    public static bool SkipTextureImport; public static void RefreshCatalog(){SkipTextureImport=true;Prepare();QualitySettings.antiAliasing=4;AssetDatabase.SaveAssets();}
+     const string Folder="Assets/ReferenceContent";
+     [Serializable] class Export {public Model[] models,environments;public Mat[] materials;}
+-    [Serializable] class Model {public int id;public string name,icon;public Node[] nodes;}
+-    [Serializable] class Node {public int parent;public string name,mesh;public string[] materials;public float[] position,rotation,scale;}
+-    [Serializable] class Mat {public string key,name,texture;public float[] color;public float smoothness;}
++    [Serializable] class Model {public int id;public string name,icon;public Node[] nodes;public float mass=1,linearDamping,angularDamping=1;}
++    [Serializable] class ColliderInfo {public string kind,mesh;public float[] center,size;public float radius,height;public int direction;}
++    [Serializable] class Node {public ColliderInfo[] colliders;public int parent;public string name,mesh;public string[] materials;public float[] position,rotation,scale;}
++    [Serializable] class Mat {public string key,name,texture;public float[] color;public float smoothness,edgeStart,edgeEnd,gloss;public float[] shadow;}
+     static Vector3 V(float[] a){return new Vector3(a[0],a[1],a[2]);}
+     static Quaternion Q(float[] a){return new Quaternion(a[0],a[1],a[2],a[3]);}
+     public static void Prepare(){
+@@ -24,9 +26,9 @@
+         var clone=UnityEngine.Object.Instantiate(old);clone.name="SimpleHole";clone.transform.position=Vector3.zero;
+         var holePrefab=PrefabUtility.SaveAsPrefabAsset(clone,Folder+"/Built/SimpleHole.prefab");UnityEngine.Object.DestroyImmediate(clone);
+         var ground=GameObject.Find("Ground").GetComponent<Renderer>().sharedMaterial;
+-        foreach(var path in Directory.GetFiles(Folder,"*.png")){
++        if(!SkipTextureImport)foreach(var path in Directory.GetFiles(Folder,"*.png")){
+             var ti=(TextureImporter)AssetImporter.GetAtPath(path.Replace('\\','/'));if(ti==null)continue;
+-            ti.maxTextureSize=512;ti.mipmapEnabled=!Path.GetFileName(path).StartsWith("Icon");ti.textureCompression=TextureImporterCompression.Compressed;
++            ti.maxTextureSize=2048;ti.filterMode=FilterMode.Trilinear;ti.mipmapEnabled=!Path.GetFileName(path).StartsWith("Icon");ti.textureCompression=TextureImporterCompression.Compressed;
+             if(Path.GetFileName(path).StartsWith("Icon")){ti.textureType=TextureImporterType.Sprite;ti.spriteImportMode=SpriteImportMode.Single;ti.alphaIsTransparency=true;}
+             ti.SaveAndReimport();
+         }
+@@ -34,31 +36,37 @@
+         foreach(var a in exp.materials){
+             string path=Folder+"/Built/"+a.key+".mat";var mat=AssetDatabase.LoadAssetAtPath<Material>(path);
+             if(mat==null){mat=new Material(Shader.Find("PocketPit/ReferenceSoft"));AssetDatabase.CreateAsset(mat,path);}
+-            mat.shader=Shader.Find("PocketPit/ReferenceSoft");mat.name=a.name;mat.color=new Color(a.color[0],a.color[1],a.color[2],a.color[3]);mat.enableInstancing=true;
++            mat.shader=Shader.Find("PocketPit/ReferenceSoft");mat.name=a.name;mat.color=new Color(a.color[0],a.color[1],a.color[2],a.color[3]);mat.enableInstancing=true;mat.SetFloat("_Glossiness",a.gloss);mat.SetFloat("_EdgeStart",a.edgeStart);mat.SetFloat("_EdgeEnd",a.edgeEnd);if(a.shadow!=null)mat.SetColor("_ShadowColor",new Color(a.shadow[0],a.shadow[1],a.shadow[2],1));
+             if(!string.IsNullOrEmpty(a.texture))mat.mainTexture=AssetDatabase.LoadAssetAtPath<Texture2D>(Folder+"/"+a.texture+".png");mats[a.key]=mat;EditorUtility.SetDirty(mat);
+         }
+         Mesh GetMesh(string key){if(meshes.TryGetValue(key,out var m))return m;string path=Folder+"/Built/"+key+".asset";m=AssetDatabase.LoadAssetAtPath<Mesh>(path);if(m!=null){meshes[key]=m;return m;}
+             using(var r=new BinaryReader(File.OpenRead(Folder+"/"+key+".bytes"))){int n=r.ReadInt32(),subs=r.ReadInt32();var vs=new Vector3[n];var ns=new Vector3[n];var uv=new Vector2[n];for(int i=0;i<n;i++){vs[i]=new Vector3(r.ReadSingle(),r.ReadSingle(),r.ReadSingle());ns[i]=new Vector3(r.ReadSingle(),r.ReadSingle(),r.ReadSingle());uv[i]=new Vector2(r.ReadSingle(),r.ReadSingle());}m=new Mesh{name=key,indexFormat=n>65535?IndexFormat.UInt32:IndexFormat.UInt16};m.vertices=vs;m.normals=ns;m.uv=uv;m.subMeshCount=subs;for(int i=0;i<subs;i++){int len=r.ReadInt32();var ts=new int[len];for(int j=0;j<len;j++)ts[j]=r.ReadInt32();m.SetTriangles(ts,i);}m.RecalculateBounds();AssetDatabase.CreateAsset(m,path);meshes[key]=m;return m;}}
+         var models=new List<ReferenceModel>();
+-        foreach(var a in exp.models.Concat(exp.environments)){var matrices=new Matrix4x4[a.nodes.Length];var parts=new List<ReferencePart>();Bounds bounds=new Bounds();bool any=false;
+-            for(int i=0;i<a.nodes.Length;i++){var n=a.nodes[i];matrices[i]=n.parent<0?Matrix4x4.identity:matrices[n.parent]*Matrix4x4.TRS(V(n.position),Q(n.rotation),V(n.scale));if(string.IsNullOrEmpty(n.mesh))continue;var m=GetMesh(n.mesh);
++        foreach(var a in exp.models.Concat(exp.environments)){var matrices=new Matrix4x4[a.nodes.Length];var parts=new List<ReferencePart>();var collision=new List<CombineInstance>();Bounds bounds=new Bounds();bool any=false;
++            for(int i=0;i<a.nodes.Length;i++){var n=a.nodes[i];matrices[i]=n.parent<0?Matrix4x4.identity:matrices[n.parent]*Matrix4x4.TRS(V(n.position),Q(n.rotation),V(n.scale));if(n.colliders!=null)foreach(var col in n.colliders){
++                    if(!string.IsNullOrEmpty(col.mesh))collision.Add(new CombineInstance{mesh=GetMesh(col.mesh),transform=matrices[i]});
++                    else {var primitive=GameObject.CreatePrimitive(col.kind=="SphereCollider"?PrimitiveType.Sphere:col.kind=="CapsuleCollider"?PrimitiveType.Capsule:PrimitiveType.Cube);var mesh=primitive.GetComponent<MeshFilter>().sharedMesh;Vector3 size=col.kind=="BoxCollider"?V(col.size):col.kind=="SphereCollider"?Vector3.one*col.radius*2:new Vector3(col.radius*2,col.height/2,col.radius*2);Quaternion orientation=col.kind=="CapsuleCollider"&&col.direction!=1?Quaternion.Euler(col.direction==2?90:0,0,col.direction==0?90:0):Quaternion.identity;collision.Add(new CombineInstance{mesh=mesh,transform=matrices[i]*Matrix4x4.TRS(V(col.center),orientation,size)});UnityEngine.Object.DestroyImmediate(primitive);}
++                }if(string.IsNullOrEmpty(n.mesh))continue;var m=GetMesh(n.mesh);
+                 for(int sub=0;sub<m.subMeshCount;sub++)parts.Add(new ReferencePart{mesh=m,material=mats[n.materials[Mathf.Min(sub,n.materials.Length-1)]],submesh=sub,local=matrices[i]});
+                 for(int c=0;c<8;c++){var v=m.bounds.center+Vector3.Scale(m.bounds.extents,new Vector3((c&1)==0?-1:1,(c&2)==0?-1:1,(c&4)==0?-1:1));v=matrices[i].MultiplyPoint3x4(v);if(!any){bounds=new Bounds(v,Vector3.zero);any=true;}else bounds.Encapsulate(v);}
+             }
+             if(parts.Count==0)throw new Exception("Empty model "+a.name);
+-            models.Add(new ReferenceModel{id=a.id,label=System.Text.RegularExpressions.Regex.Replace(a.name,"([a-z])([A-Z])","$1 $2"),icon=AssetDatabase.LoadAssetAtPath<Sprite>(Folder+"/"+a.icon+".png"),bounds=bounds,parts=parts.ToArray()});
++            Mesh collisionMesh=null;if(collision.Count>0){string path=Folder+"/Built/Collision_"+a.id+".asset";collisionMesh=AssetDatabase.LoadAssetAtPath<Mesh>(path);if(collisionMesh==null){collisionMesh=new Mesh{name="Collision "+a.name,indexFormat=IndexFormat.UInt32};collisionMesh.CombineMeshes(collision.ToArray());AssetDatabase.CreateAsset(collisionMesh,path);}}
++            models.Add(new ReferenceModel{collisionParts=collision.Select(c=>new ReferenceCollision{mesh=c.mesh,local=c.transform}).ToArray(),collisionMesh=collisionMesh,mass=a.mass,linearDamping=a.linearDamping,angularDamping=a.angularDamping,id=a.id,label=System.Text.RegularExpressions.Regex.Replace(a.name,"([a-z])([A-Z])","$1 $2"),icon=AssetDatabase.LoadAssetAtPath<Sprite>(Folder+"/"+a.icon+".png"),bounds=bounds,parts=parts.ToArray()});
+         }
+         var cat=AssetDatabase.LoadAssetAtPath<ReferenceCatalog>("Assets/Resources/ReferenceCatalog.asset");if(cat==null){cat=ScriptableObject.CreateInstance<ReferenceCatalog>();AssetDatabase.CreateAsset(cat,"Assets/Resources/ReferenceCatalog.asset");}
+         var bombData=AssetDatabase.LoadAssetAtPath<EdibleData>(AssetDatabase.GUIDToAssetPath(AssetDatabase.FindAssets("Edible_Bomb t:EdibleData")[0]));var bm=bombData.prefab.GetComponentInChildren<MeshFilter>();var br=bombData.prefab.GetComponentInChildren<MeshRenderer>();br.sharedMaterial.enableInstancing=true;EditorUtility.SetDirty(br.sharedMaterial);cat.bomb=new ReferenceModel{id=-1,label="Bomb",bounds=bm.sharedMesh.bounds,parts=new[]{new ReferencePart{mesh=bm.sharedMesh,material=br.sharedMaterial,submesh=0}}};
+         cat.models=models.Take(exp.models.Length).ToArray();cat.environments=models.Skip(exp.models.Length).ToArray();foreach(var m in cat.environments)foreach(var p in m.parts){p.material.shader=Shader.Find(p.material.name.ToLowerInvariant().Contains("transparent")?"PocketPit/ReferenceEnvironmentTransparent":"PocketPit/ReferenceEnvironment");EditorUtility.SetDirty(p.material);}cat.levels=JsonUtility.FromJson<ReferenceLevels>(File.ReadAllText(Folder+"/Levels.json")).levels;cat.holeVisual=holePrefab;cat.groundMaterial=ground;cat.font=Resources.Load<Font>("Fonts/NanumGothic-Bold");EditorUtility.SetDirty(cat);
+         var scene=EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);new GameObject("GaeunGame").AddComponent<ReferenceGame>();
+         EditorSceneManager.SaveScene(scene,"Assets/Scenes/Main.unity");EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene("Assets/Scenes/Main.unity",true)};
+-        PlayerSettings.productName="Gaeun's Hole";PlayerSettings.bundleVersion="4.1.0";PlayerSettings.Android.bundleVersionCode=6;
++        PlayerSettings.productName="Gaeun's Hole";PlayerSettings.bundleVersion="5.0.0";PlayerSettings.Android.bundleVersionCode=7;
+         PlayerSettings.gpuSkinning=false;PlayerSettings.SplashScreen.show=false;PlayerSettings.Android.optimizedFramePacing=true;
+         QualitySettings.antiAliasing=2;QualitySettings.shadowCascades=1;QualitySettings.shadowResolution=ShadowResolution.Medium;QualitySettings.shadowDistance=24;QualitySettings.pixelLightCount=1;
+         AssetDatabase.SaveAssets();Validate();Debug.Log("REFERENCE EDITION READY");
+     }
+-    public static void Validate(){var c=Resources.Load<ReferenceCatalog>("ReferenceCatalog");if(c==null||c.levels.Length!=30||c.models.Length!=259||c.font==null||c.holeVisual==null)throw new Exception("Reference content incomplete");var ids=new HashSet<int>(c.models.Select(m=>m.id));foreach(var l in c.levels){if(l.time<60||l.points.Length<1)throw new Exception("Level data incomplete");foreach(var p in l.points)if(!ids.Contains(p.id))throw new Exception("Missing model "+p.id);} }
++    public static void Validate(){var c=Resources.Load<ReferenceCatalog>("ReferenceCatalog");if(c==null||c.levels.Length!=465||c.models.Length!=869||c.font==null||c.holeVisual==null)throw new Exception("Reference content incomplete");var ids=new HashSet<int>(c.models.Select(m=>m.id));foreach(var l in c.levels){if(l.time<60||l.points.Length<1)throw new Exception("Level data incomplete");foreach(var p in l.points)if(!ids.Contains(p.id))throw new Exception("Missing model "+p.id);} }
+     public static void FinalizeAndPreview(){var c=Resources.Load<ReferenceCatalog>("ReferenceCatalog");c.sounds=new[]{"Swallow","Growth","Fail","Clear","Booster"}.Select(n=>AssetDatabase.LoadAssetAtPath<AudioClip>("Assets/HoleIt/Audio/"+n+".wav")).ToArray();EditorUtility.SetDirty(c);AssetDatabase.SaveAssets();Validate();ReleasePreparation.BuildWindows();}
+     public static void BuildAndroid(){try{Validate();PlayerSettings.SetUseDefaultGraphicsAPIs(BuildTarget.Android,false);PlayerSettings.SetGraphicsAPIs(BuildTarget.Android,new[]{GraphicsDeviceType.OpenGLES3});Directory.CreateDirectory("Builds/Android");var r=BuildPipeline.BuildPlayer(new[]{"Assets/Scenes/Main.unity"},"Builds/Android/HoleIt.apk",BuildTarget.Android,BuildOptions.None);Directory.CreateDirectory("TestResults");File.WriteAllText("TestResults/AndroidBuild.txt",DateTime.UtcNow.ToString("O")+"\n"+r.summary.result+"\nErrors: "+r.summary.totalErrors);EditorApplication.Exit(r.summary.result==BuildResult.Succeeded?0:1);}catch(Exception e){Debug.LogException(e);EditorApplication.Exit(1);}}
+ }
++
++
+--- 4차/Assets/Editor/ReferenceCollisionBuilder.cs
++++ 5차/Assets/Editor/ReferenceCollisionBuilder.cs
+@@ -0,0 +1,13 @@
++using System;using System.IO;using System.Linq;using UnityEngine;using UnityEditor;
++public static class ReferenceCollisionBuilder {
++ public static void Apply(){
++  var c=Resources.Load<ReferenceCatalog>("ReferenceCatalog");int count=0;
++  foreach(var path in Directory.GetFiles("Assets/ReferenceContent/CollisionHulls","*.bytes")){
++   string key=Path.GetFileNameWithoutExtension(path),asset=Path.ChangeExtension(path,".asset");var mesh=AssetDatabase.LoadAssetAtPath<Mesh>(asset);
++   if(mesh==null){using(var r=new BinaryReader(File.OpenRead(path))){int n=r.ReadInt32();r.ReadInt32();var vertices=new Vector3[n];for(int i=0;i<n;i++){vertices[i]=new Vector3(r.ReadSingle(),r.ReadSingle(),r.ReadSingle());for(int k=0;k<5;k++)r.ReadSingle();}int len=r.ReadInt32();var triangles=new int[len];for(int i=0;i<len;i++)triangles[i]=r.ReadInt32();mesh=new Mesh{name=key+"_BoundedHull",vertices=vertices,triangles=triangles};mesh.RecalculateNormals();mesh.RecalculateBounds();AssetDatabase.CreateAsset(mesh,asset);}}
++   if(mesh.vertexCount>120||mesh.triangles.Length/3>240)throw new Exception("Physics hull exceeds budget: "+key);
++   foreach(var model in c.models)foreach(var shape in model.collisionParts)if(shape.mesh.name==key||shape.mesh.name==mesh.name){shape.mesh=mesh;count++;}
++  }
++  EditorUtility.SetDirty(c);AssetDatabase.SaveAssets();Debug.Log("Bounded source collision hull assignments: "+count);
++ }
++}
+--- 4차/Assets/Editor/ReferenceCollisionBuilder.cs.meta
++++ 5차/Assets/Editor/ReferenceCollisionBuilder.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 9175ee4810022b045a39f2f8ac145db3--- 4차/Assets/Editor/ReferenceFifthBuilder.cs
++++ 5차/Assets/Editor/ReferenceFifthBuilder.cs
+@@ -0,0 +1,24 @@
++using System.IO;
++using UnityEditor;
++using UnityEngine;
++public static class ReferenceFifthBuilder {
++    public static void RefreshAudio(){
++        foreach(var path in Directory.GetFiles("Assets/Resources/ReferenceStyle","Booster*.png")){var t=(TextureImporter)AssetImporter.GetAtPath(path.Replace('\\','/'));t.textureType=TextureImporterType.Sprite;t.spriteImportMode=SpriteImportMode.Single;t.mipmapEnabled=false;t.alphaIsTransparency=true;t.SaveAndReimport();}
++        foreach(var path in Directory.GetFiles("Assets/Resources/CotonArt","*.png")){var t=(TextureImporter)AssetImporter.GetAtPath(path.Replace('\\','/'));t.npotScale=TextureImporterNPOTScale.None;t.SaveAndReimport();}
++        var c=Resources.Load<ReferenceCatalog>("ReferenceCatalog");
++        string[] names={"item-collect-bubble","hole_grow_01","GameFail","_win","BoosteCollect","Bomb","_button_click_new","goal-complete","Freeze","speed_booster"};
++        c.sounds=new AudioClip[names.Length];for(int i=0;i<names.Length;i++){c.sounds[i]=Resources.Load<AudioClip>("ReferenceAudio/"+names[i]);if(c.sounds[i]==null)throw new System.Exception("Missing original audio "+names[i]);}
++        EditorUtility.SetDirty(c);AssetDatabase.SaveAssets();ReferenceCollisionBuilder.Apply();
++    }
++    public static void Prepare(){
++        foreach(var folder in new[]{"Assets/Resources/CotonArt","Assets/Resources/ReferenceStyle"})foreach(var path in Directory.GetFiles(folder,"*.png")){
++            var t=(TextureImporter)AssetImporter.GetAtPath(path.Replace('\\','/'));
++            t.maxTextureSize=2048;t.npotScale=TextureImporterNPOTScale.None;t.mipmapEnabled=false;t.filterMode=FilterMode.Bilinear;t.textureCompression=TextureImporterCompression.CompressedHQ;
++            t.textureType=folder.Contains("CotonArt")||path.EndsWith("OriginalHole.png")?TextureImporterType.Default:TextureImporterType.Sprite;
++            t.spriteImportMode=SpriteImportMode.Single;t.alphaIsTransparency=t.textureType==TextureImporterType.Sprite;t.SaveAndReimport();
++        }
++        ReferenceBuilder.Prepare();
++        QualitySettings.antiAliasing=4;QualitySettings.shadowResolution=ShadowResolution.High;QualitySettings.shadowDistance=32;
++        AssetDatabase.SaveAssets();Debug.Log("FIFTH EDITION CONTENT PREPARED");
++    }
++}
+--- 4차/Assets/Editor/ReferenceFifthBuilder.cs.meta
++++ 5차/Assets/Editor/ReferenceFifthBuilder.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 9bbd57aedf9d2a3468ca35cfb153e36c--- 4차/Assets/Resources/CotonArt.meta
++++ 5차/Assets/Resources/CotonArt.meta
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: ed80a402471b02940a86e88040c00984
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio.meta
++++ 5차/Assets/Resources/ReferenceAudio.meta
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: 44f4404b635a80b44b3705bf983abe86
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/Bomb.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/Bomb.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: 3f00a41fa66c8394bbb15af85fc3ab61
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/BoosteCollect.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/BoosteCollect.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: beeeb170b1cd9f148b41cb8e55268dfe
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/Freeze.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/Freeze.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: fb39722242dd0f345b256478ce7fc814
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/GameFail.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/GameFail.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: 5a3fcea8c6f8f9248a706f0f40c141a4
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/_button_click_new.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/_button_click_new.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: 331eb6ae4698cf64981fdfdf6a4b194b
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/_win.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/_win.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: c98fbb112c7f36542af7183e3a4bdc79
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/goal-complete.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/goal-complete.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: 728f4b106098e99418f184d8b9381ce8
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/hole_grow_01.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/hole_grow_01.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: 335c6b70733b6cb49ac1d5ba73eb8746
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/item-collect-bubble.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/item-collect-bubble.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: 4325922c4ed59e743acd1d3e513a7777
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Resources/ReferenceAudio/speed_booster.wav.meta
++++ 5차/Assets/Resources/ReferenceAudio/speed_booster.wav.meta
+@@ -0,0 +1,23 @@
++fileFormatVersion: 2
++guid: 1f4d7c7b79b56df4f84d1bfa475ec3f2
++AudioImporter:
++  externalObjects: {}
++  serializedVersion: 8
++  defaultSettings:
++    serializedVersion: 2
++    loadType: 0
++    sampleRateSetting: 0
++    sampleRateOverride: 44100
++    compressionFormat: 1
++    quality: 1
++    conversionMode: 0
++    preloadAudioData: 0
++  platformSettingOverrides: {}
++  forceToMono: 0
++  normalize: 1
++  loadInBackground: 0
++  ambisonic: 0
++  3D: 1
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+--- 4차/Assets/Scenes/Main.unity
++++ 5차/Assets/Scenes/Main.unity
+@@ -119,7 +119,7 @@
+     debug:
+       m_Flags: 0
+   m_NavMeshData: {fileID: 0}
+---- !u!1 &1345598692
++--- !u!1 &504660886
+ GameObject:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+@@ -127,8 +127,8 @@
+   m_PrefabAsset: {fileID: 0}
+   serializedVersion: 6
+   m_Component:
+-  - component: {fileID: 1345598694}
+-  - component: {fileID: 1345598693}
++  - component: {fileID: 504660888}
++  - component: {fileID: 504660887}
+   m_Layer: 0
+   m_Name: GaeunGame
+   m_TagString: Untagged
+@@ -136,13 +136,13 @@
+   m_NavMeshLayer: 0
+   m_StaticEditorFlags: 0
+   m_IsActive: 1
+---- !u!114 &1345598693
++--- !u!114 &504660887
+ MonoBehaviour:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+   m_PrefabInstance: {fileID: 0}
+   m_PrefabAsset: {fileID: 0}
+-  m_GameObject: {fileID: 1345598692}
++  m_GameObject: {fileID: 504660886}
+   m_Enabled: 1
+   m_EditorHideFlags: 0
+   m_Script: {fileID: 11500000, guid: 93f1a5488b96fa640ba756cdb3123693, type: 3}
+@@ -150,13 +150,13 @@
+   m_EditorClassIdentifier: HoleIt.Runtime::ReferenceGame
+   TestInput: 0
+   TestDirection: {x: 0, y: 0}
+---- !u!4 &1345598694
++--- !u!4 &504660888
+ Transform:
+   m_ObjectHideFlags: 0
+   m_CorrespondingSourceObject: {fileID: 0}
+   m_PrefabInstance: {fileID: 0}
+   m_PrefabAsset: {fileID: 0}
+-  m_GameObject: {fileID: 1345598692}
++  m_GameObject: {fileID: 504660886}
+   serializedVersion: 2
+   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+   m_LocalPosition: {x: 0, y: 0, z: 0}
+@@ -169,4 +169,4 @@
+ SceneRoots:
+   m_ObjectHideFlags: 0
+   m_Roots:
+-  - {fileID: 1345598694}
++  - {fileID: 504660888}
+--- 4차/Assets/Scripts/ReferenceCapture.cs
++++ 5차/Assets/Scripts/ReferenceCapture.cs
+@@ -5,10 +5,17 @@
+ public class ReferenceCapture:MonoBehaviour {
+     string folder;
+     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]static void Init(){var a=System.Environment.GetCommandLineArgs();for(int i=0;i<a.Length-1;i++)if(a[i]=="--reference-capture"){var go=new GameObject("ReferenceCapture");go.AddComponent<ReferenceCapture>().folder=a[i+1];}}
+-    IEnumerator Start(){Directory.CreateDirectory(folder);yield return new WaitForSecondsRealtime(2);var g=ReferenceGame.Instance;g.LoadLevel(0);g.ShowHome();yield return Shot("01-home");g.StartPlay();yield return Shot("02-first-level");
+-        foreach(int index in new[]{2,3,7,11,15,22,23,25,28,29}){g.LoadLevel(index);g.StartPlay();yield return new WaitForSecondsRealtime(.1f);yield return Shot("level-"+(index+1));}
+-        g.LoadLevel(20);g.StartPlay();g.TriggerBombForTest();yield return new WaitForSecondsRealtime(.6f);yield return Shot("03-bomb-failure");
++    IEnumerator Start(){Directory.CreateDirectory(folder);yield return null;yield return new WaitForEndOfFrame();yield return ShotLoading();yield return new WaitForSecondsRealtime(2);yield return new WaitUntil(()=>ReferenceGame.Instance!=null&&ReferenceGame.Instance.Ready);yield return new WaitForSecondsRealtime(.7f);var g=ReferenceGame.Instance;g.LoadLevel(0);g.ShowHome();yield return Shot("01-home");Click("Settings");yield return Shot("06-settings");Click("Mode");Click("Done");Click("Levels");yield return Shot("07-levels");Click("Done");Click("Shop");yield return Shot("08-boosters");Click("Done");Click("Settings");Click("Mode");Click("Done");g.StartPlay();yield return Shot("02-first-level");
++        foreach(int index in new[]{2,3,7,11,15,22,28,38,90,150,300,461,464}){g.LoadLevel(index);g.StartPlay();yield return new WaitForSecondsRealtime(.1f);yield return Shot("level-"+(index+1));}
++        g.LoadLevel(20);g.StartPlay();g.TriggerBombForTest();yield return new WaitForSecondsRealtime(1.5f);yield return Shot("03-bomb-failure");
+         g.LoadLevel(0);g.StartPlay();g.TestInput=true;g.BeginStick(new Vector2(270,200));g.MoveStick(new Vector2(310,245));g.TestDirection=g.Stick.Value;yield return new WaitForSecondsRealtime(.3f);yield return Shot("04-joystick");g.TestDirection=Vector2.zero;g.LoadLevel(0);g.StartPlay();for(int frame=0;frame<1000&&g.GrowthPoints<10;frame++){g.MoveHoleForTest(g.NearestCollectible());yield return null;}yield return Shot("05-growth");g.LoadLevel(15);g.StartPlay();yield return new WaitForSecondsRealtime(1);var times=new System.Collections.Generic.List<float>();for(int i=0;i<180;i++){yield return null;times.Add(Time.unscaledDeltaTime*1000);}times.Sort();File.WriteAllText(Path.Combine(folder,"DesktopFrameTimes.txt"),"Windows standalone, D3D11, 540x960, stage 16, stationary, 180 frame samples. Not an Android performance test.\nActors: "+g.ActorCount+"; visible at end: "+g.RenderedActors+"\nMedian ms: "+times[90]+"\np95 ms: "+times[171]+"\n");Application.Quit();}
++    IEnumerator ShotLoading(){
++        var overlay=GameObject.Find("Coton Loading").GetComponent<Canvas>();var camera=GameObject.Find("Loading Camera").GetComponent<Camera>();
++        var rt=new RenderTexture(540,960,24){antiAliasing=2};camera.targetTexture=rt;camera.aspect=540f/960;camera.cullingMask=~0;overlay.renderMode=RenderMode.ScreenSpaceCamera;overlay.worldCamera=camera;overlay.planeDistance=1;
++        Canvas.ForceUpdateCanvases();yield return null;Canvas.ForceUpdateCanvases();camera.Render();var previous=RenderTexture.active;RenderTexture.active=rt;var img=new Texture2D(540,960,TextureFormat.RGB24,false);img.ReadPixels(new Rect(0,0,540,960),0,0);img.Apply();File.WriteAllBytes(Path.Combine(folder,"00-loading.png"),img.EncodeToPNG());RenderTexture.active=previous;camera.targetTexture=null;camera.cullingMask=0;overlay.renderMode=RenderMode.ScreenSpaceOverlay;Destroy(img);rt.Release();Destroy(rt);
++    }
++    void Click(string name){foreach(var b in Object.FindObjectsByType<UnityEngine.UI.Button>(FindObjectsSortMode.None))if(b.name==name){b.onClick.Invoke();return;}throw new System.Exception("Capture button missing "+name);}
+     IEnumerator Shot(string name){yield return new WaitForSecondsRealtime(.2f);var cam=Camera.main;var canvas=Object.FindFirstObjectByType<Canvas>();var rt=new RenderTexture(540,960,24){antiAliasing=2};cam.targetTexture=rt;cam.aspect=540f/960;canvas.renderMode=RenderMode.ScreenSpaceCamera;canvas.worldCamera=cam;canvas.planeDistance=1;Canvas.ForceUpdateCanvases();yield return null;yield return null;ReferenceGame.Instance.RenderForCapture();cam.Render();var previous=RenderTexture.active;RenderTexture.active=rt;var img=new Texture2D(540,960,TextureFormat.RGB24,false);img.ReadPixels(new Rect(0,0,540,960),0,0);img.Apply();File.WriteAllBytes(Path.Combine(folder,name+".png"),img.EncodeToPNG());RenderTexture.active=previous;cam.targetTexture=null;canvas.renderMode=RenderMode.ScreenSpaceOverlay;Destroy(img);rt.Release();Destroy(rt);}
+ }
+ #endif
++
+--- 4차/Assets/Scripts/ReferenceCatalog.cs
++++ 5차/Assets/Scripts/ReferenceCatalog.cs
+@@ -1,19 +1,20 @@
+-using System;
+-using UnityEngine;
+-[Serializable] public class ReferencePart { public Mesh mesh; public Material material; public int submesh; public Matrix4x4 local=Matrix4x4.identity; }
+-[Serializable] public class ReferenceModel { public int id; public string label; public Sprite icon; public Bounds bounds; public ReferencePart[] parts; }
+-[Serializable] public class ReferencePoint { public int id; public float[] position,rotation; public float scale,points=1; }
+-[Serializable] public class ReferenceEnvironment { public int kind; public float[] position,rotation,scale; }
+-[Serializable] public class ReferenceGoal { public int id,amount; }
+-[Serializable] public class ReferenceLevel { public int index,time,bombs,difficulty,goalType; public string source; public ReferenceGoal[] goals; public ReferencePoint[] points; public ReferenceEnvironment[] environment; }
+-[Serializable] public class ReferenceLevels { public ReferenceLevel[] levels; }
+-public class ReferenceCatalog:ScriptableObject { public ReferenceModel[] models,environments; public ReferenceModel bomb; public ReferenceLevel[] levels; public GameObject holeVisual; public Material groundMaterial; public Font font; public AudioClip[] sounds; }
+-
+-/// <summary>A floating joystick: displacement chooses velocity, never a destination.</summary>
+-public class FloatingStick {
+-    public Vector2 Origin {get;private set;} public Vector2 Value {get;private set;} public bool Held {get;private set;}
+-    public float Radius=56,DeadZone=.06f;
+-    public void Begin(Vector2 screen){Origin=screen;Held=true;Value=Vector2.zero;}
+-    public void Move(Vector2 screen){if(!Held)return;Vector2 d=(screen-Origin)/Mathf.Max(1,Radius);float length=d.magnitude;Value=length<DeadZone?Vector2.zero:d/length*Mathf.Clamp01((length-DeadZone)/(1-DeadZone));}
+-    public void Release(){Held=false;Value=Vector2.zero;}
+-}
++using System;
++using UnityEngine;
++[Serializable] public class ReferencePart { public Mesh mesh; public Material material; public int submesh; public Matrix4x4 local=Matrix4x4.identity; }
++[Serializable] public class ReferenceCollision {public Mesh mesh;public Matrix4x4 local=Matrix4x4.identity;}
++[Serializable] public class ReferenceModel { public int id; public string label; public Sprite icon; public Bounds bounds; public ReferencePart[] parts; public ReferenceCollision[] collisionParts;public Mesh collisionMesh; public float mass=1,linearDamping,angularDamping=1; }
++[Serializable] public class ReferencePoint { public int id; public float[] position,rotation; public float scale,points=1; }
++[Serializable] public class ReferenceEnvironment { public int kind; public float[] position,rotation,scale; }
++[Serializable] public class ReferenceGoal { public int id,amount; }
++[Serializable] public class ReferenceLevel { public int index,time,bombs,difficulty,goalType; public string source; public ReferenceGoal[] goals; public ReferencePoint[] points; public ReferenceEnvironment[] environment; }
++[Serializable] public class ReferenceLevels { public ReferenceLevel[] levels; }
++public class ReferenceCatalog:ScriptableObject { public ReferenceModel[] models,environments; public ReferenceModel bomb; public ReferenceLevel[] levels; public GameObject holeVisual; public Material groundMaterial; public Font font; public AudioClip[] sounds; }
++
++/// <summary>A floating joystick: displacement chooses velocity, never a destination.</summary>
++public class FloatingStick {
++    public Vector2 Origin {get;private set;} public Vector2 Value {get;private set;} public bool Held {get;private set;}
++    public float Radius=56,DeadZone=.06f;
++    public void Begin(Vector2 screen){Origin=screen;Held=true;Value=Vector2.zero;}
++    public void Move(Vector2 screen){if(!Held)return;Vector2 d=(screen-Origin)/Mathf.Max(1,Radius);float length=d.magnitude;Value=length<DeadZone?Vector2.zero:d/length*Mathf.Clamp01((length-DeadZone)/(1-DeadZone));}
++    public void Release(){Held=false;Value=Vector2.zero;}
++}
+--- 4차/Assets/Scripts/ReferenceGame.Physics.cs
++++ 5차/Assets/Scripts/ReferenceGame.Physics.cs
+@@ -0,0 +1,150 @@
++using System.Collections.Generic;
++using UnityEngine;
++using UnityEngine.SceneManagement;
++
++public partial class ReferenceGame {
++    // Only the local contact region needs PhysX bodies. Distant authored stacks stay asleep.
++    // The supplied game's gravity and common collectable rigidbody settings are retained.
++    const int BodyBudget=384;
++    const float PhysicsStep=1f/60f;
++    class PhysicalBody {
++        public GameObject root;public Rigidbody rigid;public readonly List<Collider> colliders=new List<Collider>();
++        public Actor actor;public Vector3 previous,current;public Quaternion previousRotation,currentRotation;
++    }
++    Scene physicalScene;PhysicsScene physicsScene;BoxCollider physicalFloor;
++    PhysicsMaterial friction;float physicsAccumulator,activationClock;
++    readonly List<PhysicalBody> physicalBodies=new List<PhysicalBody>();
++    readonly Stack<PhysicalBody> spareBodies=new Stack<PhysicalBody>();
++    readonly List<int> physicalCandidates=new List<int>();
++    readonly List<GameObject> physicalBorders=new List<GameObject>();
++    public int ActivePhysicsBodies=>physicalBodies.Count-spareBodies.Count;
++    public float ReferenceGravity=>-5.81f;
++    void ResetPhysicalWorld(){
++        foreach(var border in physicalBorders){border.SetActive(false);Destroy(border);}physicalBorders.Clear();
++        if(!physicalScene.IsValid()){
++            physicalScene=SceneManager.CreateScene("Reference Contact World",new CreateSceneParameters(LocalPhysicsMode.Physics3D));physicsScene=physicalScene.GetPhysicsScene();
++            Physics.gravity=new Vector3(0,-5.81f,0);
++            friction=new PhysicsMaterial("Reference No Friction"){dynamicFriction=0,staticFriction=0,bounciness=0,frictionCombine=PhysicsMaterialCombine.Minimum,bounceCombine=PhysicsMaterialCombine.Minimum};
++            var floorObject=new GameObject("Contact Floor");SceneManager.MoveGameObjectToScene(floorObject,physicalScene);physicalFloor=floorObject.AddComponent<BoxCollider>();physicalFloor.center=new Vector3(0,-1,0);physicalFloor.size=new Vector3(2000,2,2000);physicalFloor.sharedMaterial=friction;
++        }
++        foreach(var a in actors)ReleasePhysicalBody(a);
++        physicsAccumulator=activationClock=0;
++    }
++    void BuildPhysicalBorders(){
++        foreach(var draw in environmentDraws){if(draw.model.id%10>=4||draw.model.collisionParts==null)continue;
++            foreach(var shape in draw.model.collisionParts){var matrix=draw.matrix*shape.local;var root=new GameObject("Authored Arena Contact");SceneManager.MoveGameObjectToScene(root,physicalScene);root.transform.SetPositionAndRotation(matrix.GetColumn(3),matrix.rotation);root.transform.localScale=matrix.lossyScale;var col=root.AddComponent<MeshCollider>();col.sharedMesh=shape.mesh;col.sharedMaterial=friction;physicalBorders.Add(root);}
++        }
++    }
++    public bool PhysicsTransformsFinite(){foreach(var a in actors)if(float.IsNaN(a.pos.sqrMagnitude)||float.IsInfinity(a.pos.sqrMagnitude)||a.pos.sqrMagnitude>100000000)return false;return true;}
++    public int StartIsolatedFallForTest(){
++        int i=0;while(i<actors.Count&&(actors[i].model.id<0||actors[i].model.collisionParts==null))i++;
++        var a=actors[i];ReleasePhysicalBody(a);a.pos=new Vector3(500,10,500);a.state=1;a.fallSpeed=0;var b=EnsurePhysicalBody(i);b.rigid.isKinematic=false;IgnoreFloor(b,true);return i;
++    }
++    public Vector3 ActorPositionForTest(int index)=>actors[index].pos;
++    void EnsurePlayableStart(){
++        if(CanStandAt(HolePosition))return;
++        Vector3 best=HolePosition;float bestScore=float.MaxValue;
++        foreach(var tile in playground)for(int z=0;z<3;z++)for(int x=0;x<3;x++){
++            var candidate=new Vector3(Mathf.Lerp(tile.xMin+Radius,tile.xMax-Radius,x*.5f),0,Mathf.Lerp(tile.yMin+Radius,tile.yMax-Radius,z*.5f));
++            if(!CanStandAt(candidate))continue;
++            float score=(candidate-HolePosition).sqrMagnitude;Query(candidate,Radius+1,physicalCandidates);
++            foreach(int i in physicalCandidates){var a=actors[i];var delta=a.pos-candidate;delta.y=0;if(delta.sqrMagnitude<Mathf.Pow(a.radius+Radius+.3f,2))score+=100;}
++            if(score<bestScore){bestScore=score;best=candidate;}
++        }
++        if(bestScore==float.MaxValue)throw new System.InvalidOperationException("No playable spawn in authored stage "+(LevelIndex+1));
++        HolePosition=best;min=Vector2.Min(min,new Vector2(best.x-Radius,best.z-Radius));max=Vector2.Max(max,new Vector2(best.x+Radius,best.z+Radius));
++    }
++    void DisposePhysicalWorld(){
++        foreach(var b in physicalBodies)if(b.root!=null)b.root.SetActive(false);
++        physicalBodies.Clear();spareBodies.Clear();
++        if(physicalScene.IsValid()&&physicalScene.isLoaded)SceneManager.UnloadSceneAsync(physicalScene);
++        if(friction!=null)Destroy(friction);
++    }
++    PhysicalBody EnsurePhysicalBody(int index){
++        var a=actors[index];if(a.body!=null)return a.body;
++        if(a.model.collisionParts==null||a.model.collisionParts.Length==0)return null;
++        PhysicalBody b;
++        if(spareBodies.Count>0)b=spareBodies.Pop();
++        else {
++            if(physicalBodies.Count>=BodyBudget)return null;
++            var root=new GameObject("Pooled Contact Body");SceneManager.MoveGameObjectToScene(root,physicalScene);
++            b=new PhysicalBody{root=root};b.rigid=root.AddComponent<Rigidbody>();b.rigid.isKinematic=true;
++            
++            b.rigid.solverIterations=6;b.rigid.solverVelocityIterations=1;b.rigid.maxAngularVelocity=7;b.rigid.sleepThreshold=.005f;
++            physicalBodies.Add(b);
++        }
++        b.actor=a;a.body=b;b.root.SetActive(false);b.rigid.isKinematic=true;
++        b.root.transform.SetPositionAndRotation(a.pos,a.rotation);b.root.transform.localScale=Vector3.one*a.scale;
++        for(int c=0;c<a.model.collisionParts.Length;c++){
++            var shape=a.model.collisionParts[c];System.Type type=shape.mesh.name=="Cube"?typeof(BoxCollider):shape.mesh.name=="Sphere"?typeof(SphereCollider):shape.mesh.name=="Capsule"?typeof(CapsuleCollider):typeof(MeshCollider);
++            if(c==b.colliders.Count){var child=new GameObject("Authored Contact Shape");child.transform.SetParent(b.root.transform,false);b.colliders.Add((Collider)child.AddComponent(type));}
++            var col=b.colliders[c];if(col.GetType()!=type){var owner=col.gameObject;col.enabled=false;Destroy(col);col=(Collider)owner.AddComponent(type);b.colliders[c]=col;}
++            col.enabled=true;col.sharedMaterial=friction;col.contactOffset=.01f;col.gameObject.SetActive(true);col.transform.localPosition=shape.local.GetColumn(3);col.transform.localRotation=shape.local.rotation;col.transform.localScale=shape.local.lossyScale;
++            if(col is MeshCollider meshCollider){meshCollider.convex=true;meshCollider.sharedMesh=shape.mesh;}
++            else if(col is BoxCollider box){box.center=shape.mesh.bounds.center;box.size=shape.mesh.bounds.size;}
++            else if(col is SphereCollider sphere)sphere.radius=.5f;
++            else if(col is CapsuleCollider capsule){capsule.radius=.5f;capsule.height=2;capsule.direction=1;}
++        }
++        for(int c=a.model.collisionParts.Length;c<b.colliders.Count;c++)b.colliders[c].gameObject.SetActive(false);
++        b.rigid.mass=Mathf.Max(.01f,a.model.mass);b.rigid.linearDamping=a.model.linearDamping;b.rigid.angularDamping=a.model.angularDamping;
++        b.previous=b.current=a.pos;b.previousRotation=b.currentRotation=a.rotation;
++        b.root.SetActive(true);IgnoreFloor(b,a.state==1);
++        return b;
++    }
++    void IgnoreFloor(PhysicalBody b,bool ignore){foreach(var col in b.colliders)if(col.gameObject.activeInHierarchy)Physics.IgnoreCollision(col,physicalFloor,ignore);}
++    void ReleasePhysicalBody(Actor a){
++        var b=a.body;if(b==null)return;
++        b.rigid.isKinematic=true;b.root.SetActive(false);b.actor=null;a.body=null;spareBodies.Push(b);
++    }
++    void BeginPhysicalDrop(int index){
++        var b=EnsurePhysicalBody(index);if(b==null)return;
++        b.rigid.isKinematic=false;IgnoreFloor(b,true);b.rigid.WakeUp();
++        // Off-centre support loss tips the object; there is no horizontal suction force.
++        Vector3 offset=actors[index].pos-HolePosition;offset.y=0;
++        b.rigid.AddTorque(Vector3.Cross(Vector3.up,offset)*.3f,ForceMode.VelocityChange);
++    }
++    void StepPhysicalWorld(float dt){
++        activationClock-=dt;
++        if(activationClock<=0){
++            activationClock=.10f;
++            foreach(var b in physicalBodies){if(b.actor==null)continue;var a=b.actor;
++                var d=a.pos-HolePosition;d.y=0;
++                if(a.state==0&&!a.falling&&d.sqrMagnitude>Mathf.Pow(Radius+6,2)&&b.rigid.IsSleeping())ReleasePhysicalBody(a);
++            }
++            Query(HolePosition,Radius+3,physicalCandidates);
++            physicalCandidates.Sort((x,y)=>actors[x].Bottom.CompareTo(actors[y].Bottom));
++            foreach(int i in physicalCandidates){var a=actors[i];if(a.state==2)continue;Vector3 d=a.pos-HolePosition;d.y=0;
++                if(d.sqrMagnitude>Mathf.Pow(Radius+2.5f+a.radius,2))continue;
++                var b=EnsurePhysicalBody(i);if(b==null)continue;
++                if(a.falling||a.state==1||d.sqrMagnitude<Mathf.Pow(Radius+.8f+a.radius,2)){
++                    b.rigid.isKinematic=false;if(a.state==1)IgnoreFloor(b,true);
++                }
++            }
++        }
++        for(int k=falling.Count-1;k>=0;k--){int i=falling[k];var a=actors[i];
++            if(a.state!=0||!a.falling){a.falling=false;falling.RemoveAt(k);continue;}
++            var b=EnsurePhysicalBody(i);
++            if(b!=null){b.rigid.isKinematic=false;continue;}
++            // Bounded fallback for remote unsupported pieces, using the same gravity.
++            float surface=a.support>=0&&actors[a.support].state==0?Mathf.Max(0,actors[a.support].Top):0;
++            a.fallSpeed+=5.81f*dt;a.pos.y=Mathf.Max(surface-a.bottomOffset,a.pos.y-a.fallSpeed*dt);
++            if(a.Bottom<=surface+.005f){a.falling=false;falling.RemoveAt(k);}else foreach(int child in a.above)Wake(child);
++        }
++        physicsAccumulator+=dt;
++        while(physicsAccumulator>=PhysicsStep){
++            foreach(var b in physicalBodies){if(b.actor==null)continue;b.previous=b.current;b.previousRotation=b.currentRotation;}
++            physicsScene.Simulate(PhysicsStep);physicsAccumulator-=PhysicsStep;
++            foreach(var b in physicalBodies){var a=b.actor;if(a==null)continue;
++                b.current=b.rigid.position;b.currentRotation=b.rigid.rotation;
++                float oldY=a.pos.y;a.pos=b.current;a.rotation=b.currentRotation;
++                var bounds=b.colliders[0].bounds;foreach(var col in b.colliders)if(col.gameObject.activeInHierarchy)bounds.Encapsulate(col.bounds);a.bottomOffset=bounds.min.y-a.pos.y;a.topOffset=bounds.max.y-a.pos.y;
++                long key=Key(Mathf.FloorToInt(a.pos.x/CellSize),Mathf.FloorToInt(a.pos.z/CellSize));
++                if(key!=a.cellKey){int id=actors.IndexOf(a);if(cells.TryGetValue(a.cellKey,out var old))old.Remove(id);AddCell(id);}
++                if(a.pos.y<oldY-.003f)foreach(int child in a.above)Wake(child);
++                if(a.falling&&a.state==0&&b.rigid.IsSleeping())a.falling=false;
++            }
++        }
++    }
++    Vector3 RenderPosition(Actor a)=>a.body==null?a.pos:Vector3.Lerp(a.body.previous,a.body.current,physicsAccumulator/PhysicsStep);
++    Quaternion RenderRotation(Actor a)=>a.body==null?a.rotation:Quaternion.Slerp(a.body.previousRotation,a.body.currentRotation,physicsAccumulator/PhysicsStep);
++}
+--- 4차/Assets/Scripts/ReferenceGame.Physics.cs.meta
++++ 5차/Assets/Scripts/ReferenceGame.Physics.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 6a41ad95eed20cc4b95f5401e6717690--- 4차/Assets/Scripts/ReferenceGame.Presentation.cs
++++ 5차/Assets/Scripts/ReferenceGame.Presentation.cs
+@@ -0,0 +1,60 @@
++using System.Collections;
++using UnityEngine;
++using UnityEngine.UI;
++
++public partial class ReferenceGame {
++    public bool Ready {get;private set;}
++    Camera bootCamera;Canvas bootCanvas;Image bootProgress;Text bootStatus;
++    void Awake(){Instance=this;CreateBootScreen();}
++    IEnumerator Start(){
++        yield return null;
++        var request=Resources.LoadAsync<ReferenceCatalog>("ReferenceCatalog");
++        while(!request.isDone){bootProgress.fillAmount=request.progress*.85f;yield return null;}
++        bootProgress.fillAmount=.85f;bootStatus.text="PREPARING YOUR ADVENTURE";yield return null;
++        InitializeGame();EnhancePresentation();BuildProfileUI();Destroy(bootCamera.gameObject);Ready=true;bootProgress.fillAmount=1;bootStatus.text="READY!";
++        yield return new WaitForSecondsRealtime(.25f);
++        var group=bootCanvas.gameObject.AddComponent<CanvasGroup>();
++        for(float t=0;t<.2f;t+=Time.unscaledDeltaTime){group.alpha=1-t/.2f;yield return null;}
++        Destroy(bootCanvas.gameObject);
++    }
++    RawImage FullBleed(Transform parent,string resource){
++        var image=new GameObject("Artwork",typeof(RectTransform),typeof(RawImage),typeof(AspectRatioFitter)).GetComponent<RawImage>();image.transform.SetParent(parent,false);image.texture=Resources.Load<Texture2D>(resource);image.raycastTarget=false;
++        var rect=image.rectTransform;rect.anchorMin=Vector2.zero;rect.anchorMax=Vector2.one;rect.offsetMin=rect.offsetMax=Vector2.zero;
++        var fit=image.GetComponent<AspectRatioFitter>();fit.aspectMode=AspectRatioFitter.AspectMode.EnvelopeParent;fit.aspectRatio=(float)image.texture.width/image.texture.height;image.transform.SetAsFirstSibling();return image;
++    }
++    void CreateBootScreen(){
++        bootCamera=new GameObject("Loading Camera",typeof(Camera)).GetComponent<Camera>();bootCamera.cullingMask=0;bootCamera.clearFlags=CameraClearFlags.SolidColor;bootCamera.backgroundColor=new Color(.94f,.75f,.40f);
++        font=Resources.Load<Font>("Fonts/NanumGothic-Bold");
++        bootCanvas=new GameObject("Coton Loading",typeof(Canvas),typeof(CanvasScaler),typeof(GraphicRaycaster)).GetComponent<Canvas>();bootCanvas.renderMode=RenderMode.ScreenSpaceOverlay;bootCanvas.sortingOrder=1000;
++        var scaler=bootCanvas.GetComponent<CanvasScaler>();scaler.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=new Vector2(1080,1920);scaler.matchWidthOrHeight=0;
++        FullBleed(bootCanvas.transform,"CotonArt/Loading");
++        var shield=new GameObject("Loading Input Shield",typeof(RectTransform),typeof(Image)).GetComponent<Image>();shield.transform.SetParent(bootCanvas.transform,false);shield.color=Color.clear;shield.rectTransform.anchorMin=Vector2.zero;shield.rectTransform.anchorMax=Vector2.one;shield.rectTransform.offsetMin=shield.rectTransform.offsetMax=Vector2.zero;
++        var title=Label("Title",bootCanvas.transform,"HOLE IT!",108,new Color(1,.8f,.18f),new Vector2(.5f,.88f),new Vector2(900,180),Vector2.zero);var outline=title.gameObject.AddComponent<Outline>();outline.effectColor=new Color(.25f,.09f,.02f);outline.effectDistance=new Vector2(5,-7);
++        Label("Dedication",bootCanvas.transform,"FOR GAEUN",30,Color.white,new Vector2(.5f,.82f),new Vector2(800,60),Vector2.zero);
++        var bg=Panel("Loading Progress",bootCanvas.transform,new Vector2(.5f,.085f),new Vector2(760,38),new Color(.18f,.1f,.04f,.9f),Vector2.zero);bg.sprite=Resources.Load<Sprite>("ReferenceStyle/spScreen-loading_BG");
++        bootProgress=Panel("Fill",bg.transform,new Vector2(.5f,.5f),new Vector2(740,24),Color.white,Vector2.zero);bootProgress.sprite=Resources.Load<Sprite>("ReferenceStyle/progress-green");bootProgress.type=Image.Type.Filled;bootProgress.fillMethod=Image.FillMethod.Horizontal;bootProgress.fillAmount=0;
++        bootStatus=Label("Status",bootCanvas.transform,"LOADING YOUR ADVENTURE",25,Color.white,new Vector2(.5f,.12f),new Vector2(880,60),Vector2.zero);
++    }
++    void EnhancePresentation(){
++        FullBleed(home.transform,"CotonArt/Home");
++        homeTitle.text="HOLE IT!";homeTitle.color=new Color(1,.85f,.25f);homeTitle.fontSize=100;homeTitle.resizeTextMaxSize=100;
++        homeTitle.rectTransform.anchoredPosition=new Vector2(0,10);
++        home.transform.Find("Play").GetComponent<Image>().sprite=Style("btn-mid-green-play");
++        foreach(var panel in new[]{result,pause,settings}){
++            panel.AddComponent<ReferencePanelMotion>();
++            var titleRect=panel.transform.Find("Title").GetComponent<RectTransform>();titleRect.anchorMin=titleRect.anchorMax=new Vector2(.5f,.725f);
++            var card=panel.transform.Find("Card").GetComponent<Image>();card.sprite=Style("info-win-v3");card.type=Image.Type.Simple;card.color=Color.white;
++            foreach(var text in panel.GetComponentsInChildren<Text>(true)){text.color=Color.white;if(text.GetComponent<Outline>()==null)WhiteOutline(text);}
++        }
++        var pauseButton=hud.transform.Find("Pause");pauseButton.GetComponent<Image>().sprite=Style("btn-blue-settings");pauseButton.Find("Label").GetComponent<Text>().text="";var pauseIcon=Panel("Icon",pauseButton,new Vector2(.5f,.5f),new Vector2(50,50),Color.white,Vector2.zero);pauseIcon.sprite=Style("pause-Icn");pauseIcon.type=Image.Type.Simple;pauseIcon.preserveAspect=true;
++        for(int i=0;i<4;i++){
++            var rect=(RectTransform)boostButtons[i].transform;rect.sizeDelta=new Vector2(160,150);rect.anchoredPosition=new Vector2((i-1.5f)*218,104);
++            var icon=Panel("Booster Icon",rect,new Vector2(.5f,.63f),new Vector2(94,90),Color.white,Vector2.zero);icon.sprite=Style("Booster"+new[]{0,2,3,1}[i]);icon.type=Image.Type.Simple;icon.preserveAspect=true;
++            boostLabels[i].rectTransform.anchorMin=boostLabels[i].rectTransform.anchorMax=new Vector2(.5f,.17f);boostLabels[i].rectTransform.sizeDelta=new Vector2(155,45);boostLabels[i].fontSize=23;boostLabels[i].resizeTextMaxSize=23;boostLabels[i].resizeTextMinSize=18;
++        }
++        var controls=settings.transform.Find("Controls").GetComponent<Text>();controls.text="JOYSTICK\nDrag to move. Release to stop.\n\n465 LEVELS · 869 COLLECTABLES";controls.rectTransform.anchoredPosition=new Vector2(0,60);
++        var soundButton=Btn("Sound",settings.transform,mute?"SOUND: OFF":"SOUND: ON",new Vector2(.5f,.42f),new Vector2(560,90),Vector2.zero,Blue,()=>{});
++        soundButton.onClick.AddListener(()=>{mute=!mute;PlayerPrefs.SetInt("Gaeun.Ref.Mute",mute?1:0);PlayerPrefs.Save();soundButton.GetComponentInChildren<Text>().text=mute?"SOUND: OFF":"SOUND: ON";});
++        var hint=Label("Level Count",home.transform,"465 LEVELS TO EXPLORE",24,Color.white,new Vector2(.5f,.225f),new Vector2(800,45),Vector2.zero);WhiteOutline(hint);
++    }
++}
+--- 4차/Assets/Scripts/ReferenceGame.Presentation.cs.meta
++++ 5차/Assets/Scripts/ReferenceGame.Presentation.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 629a7e63f037b414d929a31f34c169d4--- 4차/Assets/Scripts/ReferenceGame.Profile.cs
++++ 5차/Assets/Scripts/ReferenceGame.Profile.cs
+@@ -0,0 +1,43 @@
++using System;
++using UnityEngine;
++using UnityEngine.UI;
++
++public partial class ReferenceGame {
++    ReferenceProfile profile;GameObject storePanel,levelsPanel;Text wallet,storeMessage,modeLabel,levelPageLabel;Button[] stageButtons;Text[] purchaseLabels;int levelPage;float walletClock;
++    static long Now=>DateTimeOffset.UtcNow.ToUnixTimeSeconds();
++    public bool FreePlay=>profile!=null&&profile.freePlay;
++    bool PersistProfile=>!Application.isEditor&&!TestInput;
++    void LoadProfile(){try{profile=JsonUtility.FromJson<ReferenceProfile>(PlayerPrefs.GetString("Gaeun.Ref.Profile5",""));}catch{}if(profile==null)profile=new ReferenceProfile();profile.Refresh(Now);}
++    void SaveProfile(){if(PersistProfile){PlayerPrefs.SetString("Gaeun.Ref.Profile5",JsonUtility.ToJson(profile));PlayerPrefs.Save();}}
++    void RefreshWallet(){if(profile==null)return;profile.Refresh(Now);if(wallet!=null)wallet.text=profile.coins+" COINS     "+(FreePlay?"FREE PLAY":profile.hearts+" / 5 LIVES");if(modeLabel!=null)modeLabel.text=FreePlay?"MODE: FREE PLAY":"MODE: CLASSIC";}
++    void ProfileTick(){if(Time.unscaledTime<walletClock)return;walletClock=Time.unscaledTime+1;RefreshWallet();}
++    void RecordFailure(){if(TestInput||Application.isEditor)return;profile.Lose(Now);SaveProfile();RefreshWallet();}
++    void RecordWin(){if(!FreePlay){profile.coins+=ReferenceProfile.WinReward;unlocked=Mathf.Max(unlocked,Mathf.Min(Catalog.levels.Length,LevelIndex+2));if(PersistProfile)PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",unlocked);SaveProfile();}RefreshWallet();}
++    void StyleCard(GameObject panel){panel.AddComponent<ReferencePanelMotion>();var card=panel.transform.Find("Card").GetComponent<Image>();card.sprite=Style("info-win-v3");card.type=Image.Type.Simple;card.color=Color.white;}
++    void BuildProfileUI(){
++        wallet=Label("Wallet",home.transform,"",29,Color.white,new Vector2(.5f,.965f),new Vector2(900,60),Vector2.zero);WhiteOutline(wallet);
++        home.transform.Find("Settings").GetComponent<RectTransform>().anchorMin=home.transform.Find("Settings").GetComponent<RectTransform>().anchorMax=new Vector2(.18f,.065f);home.transform.Find("Settings").GetComponent<RectTransform>().sizeDelta=new Vector2(280,85);
++        Btn("Shop",home.transform,"BOOSTERS",new Vector2(.5f,.065f),new Vector2(280,85),Vector2.zero,Blue,OpenStore);
++        Btn("Levels",home.transform,"LEVELS",new Vector2(.82f,.065f),new Vector2(280,85),Vector2.zero,Blue,()=>{levelPage=LevelIndex/20;RefreshLevelPage();levelsPanel.SetActive(true);});
++        var mode=Btn("Mode",settings.transform,"",new Vector2(.5f,.365f),new Vector2(560,80),Vector2.zero,Blue,()=>{profile.freePlay=!profile.freePlay;if(!FreePlay&&LevelIndex>=unlocked){LoadLevel(unlocked-1);ShowHome();settings.SetActive(true);}SaveProfile();RefreshWallet();RefreshBoosters();});modeLabel=mode.GetComponentInChildren<Text>();
++        var controls=settings.transform.Find("Controls").GetComponent<Text>();controls.text="JOYSTICK\nDrag to move. Release to stop.\n\nFREE PLAY\nAll levels. No lives or booster costs.";controls.rectTransform.sizeDelta=new Vector2(770,270);controls.rectTransform.anchoredPosition=new Vector2(0,70);controls.fontSize=27;controls.resizeTextMaxSize=27;
++        var done=(RectTransform)settings.transform.Find("Done");done.anchorMin=done.anchorMax=new Vector2(.5f,.295f);
++        storePanel=Layer("Booster Store");CreateModal(storePanel,"Store");StyleCard(storePanel);
++        Label("Title",storePanel.transform,"BOOSTERS",60,Color.white,new Vector2(.5f,.725f),new Vector2(800,100),Vector2.zero);
++        storeMessage=Label("Balance",storePanel.transform,"",27,Color.white,new Vector2(.5f,.625f),new Vector2(790,75),Vector2.zero);
++        string[] names={"SIZE","SPEED","FIND","FREEZE"};purchaseLabels=new Text[4];
++        for(int i=0;i<4;i++){int index=i;var b=Btn("Buy"+i,storePanel.transform,"",new Vector2(.5f,.565f-i*.056f),new Vector2(760,86),Vector2.zero,Blue,()=>{bool bought=profile.BuyBooster(index);SaveProfile();RefreshStore(bought?"BOOSTER ADDED":"NOT ENOUGH COINS");});purchaseLabels[i]=b.GetComponentInChildren<Text>();purchaseLabels[i].fontSize=26;purchaseLabels[i].resizeTextMaxSize=26;}
++        Btn("Refill",storePanel.transform,"REFILL LIVES · 900",new Vector2(.5f,.337f),new Vector2(760,80),Vector2.zero,Blue,()=>{bool ok=profile.RefillHearts();SaveProfile();RefreshStore(ok?"LIVES REFILLED":profile.hearts==5?"LIVES ARE FULL":"NOT ENOUGH COINS");});
++        Btn("Done",storePanel.transform,"DONE",new Vector2(.5f,.265f),new Vector2(500,90),Vector2.zero,Green,()=>storePanel.SetActive(false));storePanel.SetActive(false);
++        levelsPanel=Layer("Level Select");CreateModal(levelsPanel,"Levels");StyleCard(levelsPanel);
++        levelPageLabel=Label("Title",levelsPanel.transform,"LEVELS",45,Color.white,new Vector2(.5f,.725f),new Vector2(800,100),Vector2.zero);stageButtons=new Button[20];
++        for(int i=0;i<20;i++){int slot=i;stageButtons[i]=Btn("Stage"+i,levelsPanel.transform,"",new Vector2(.5f,.61f),new Vector2(140,95),new Vector2((i%5-2)*157,-(i/5)*112),Blue,()=>{LoadLevel(levelPage*20+slot);ShowHome();});}
++        Btn("BackPage",levelsPanel.transform,"<",new Vector2(.25f,.335f),new Vector2(160,85),Vector2.zero,Blue,()=>{levelPage=Mathf.Max(0,levelPage-1);RefreshLevelPage();});
++        Btn("NextPage",levelsPanel.transform,">",new Vector2(.75f,.335f),new Vector2(160,85),Vector2.zero,Blue,()=>{levelPage=Mathf.Min((Catalog.levels.Length-1)/20,levelPage+1);RefreshLevelPage();});
++        Btn("Done",levelsPanel.transform,"DONE",new Vector2(.5f,.26f),new Vector2(500,90),Vector2.zero,Green,()=>levelsPanel.SetActive(false));levelsPanel.SetActive(false);RefreshWallet();
++    }
++    void CloseProfilePanels(){if(storePanel!=null)storePanel.SetActive(false);if(levelsPanel!=null)levelsPanel.SetActive(false);}
++    void OpenStore(){RefreshStore("");storePanel.SetActive(true);}
++    void RefreshStore(string message){RefreshWallet();storeMessage.text=message.Length>0?message:profile.coins+" COINS · WIN A LEVEL TO EARN 20";string[] names={"SIZE","SPEED","FIND","FREEZE"};for(int i=0;i<4;i++)purchaseLabels[i].text=names[i]+"  × "+profile.boosters[i]+"      BUY · 1800";RefreshBoosters();}
++    void RefreshLevelPage(){levelPageLabel.text="LEVELS "+(levelPage*20+1)+"–"+Mathf.Min(Catalog.levels.Length,levelPage*20+20);for(int i=0;i<20;i++){int stage=levelPage*20+i;stageButtons[i].gameObject.SetActive(stage<Catalog.levels.Length);stageButtons[i].interactable=FreePlay||stage<unlocked;stageButtons[i].GetComponentInChildren<Text>().text=(stage+1).ToString();}}
++}
+--- 4차/Assets/Scripts/ReferenceGame.Profile.cs.meta
++++ 5차/Assets/Scripts/ReferenceGame.Profile.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 41f097cc1baaa2d4a8a1edc659d310ca--- 4차/Assets/Scripts/ReferenceGame.cs
++++ 5차/Assets/Scripts/ReferenceGame.cs
+@@ -13,7 +13,7 @@
+ /// <summary>Standalone recreation using the supplied application's authored content.
+ /// Actors are data, not thousands of rigidbodies. Only unsupported stacks and swallowed items animate.
+ /// Every visible mesh uses bounded, reused instancing batches; gameplay has no per-item Update calls.</summary>
+-public class ReferenceGame:MonoBehaviour {
++public partial class ReferenceGame:MonoBehaviour {
+     public enum ScreenState {Home,Playing,Paused,Won,Lost}
+     static readonly int[] GrowthSteps={10,20,100,150,200,300,400,500,600,700};
+     public ScreenState State {get;private set;}
+@@ -25,7 +25,7 @@
+     public ReferenceCatalog Catalog {get;private set;}
+     public string FailureReason {get;private set;} public int[] GoalCounts=>goalCounts;
+     public float MaximumSpeed=>4.8f*(speedUntil>playTime?1.3f:1);
+-    class Actor {public ReferenceModel model;public Vector3 pos;public Quaternion rotation;public float points,scale,radius,bottomOffset,topOffset,fallSpeed,dropTime,dropY;public int state,support=-1;public bool falling;public List<int> above=new List<int>();public float Bottom=>pos.y+bottomOffset;public float Top=>pos.y+topOffset;}
++    class Actor {public PhysicalBody body;public long cellKey;public ReferenceModel model;public Vector3 pos;public Quaternion rotation;public float points,scale,radius,bottomOffset,topOffset,fallSpeed,dropTime,dropY;public int state,support=-1;public bool falling;public List<int> above=new List<int>();public float Bottom=>pos.y+bottomOffset;public float Top=>pos.y+topOffset;}
+     class Batch {public ReferencePart part;public Matrix4x4[] matrices=new Matrix4x4[1023];public int count;}
+     class EnvironmentDraw {public ReferenceModel model;public Matrix4x4 matrix;}
+     readonly List<Rect> playground=new List<Rect>();
+@@ -41,17 +41,17 @@
+     int[] goalCounts;int finger=-1;bool mute;bool[] boostUsed=new bool[4];int unlocked;AudioSource[] sounds;int soundIndex;float lastPop=-1;
+     Canvas canvas;RectTransform canvasRect,safe,stickBase,stickKnob;GameObject hud,home,result,pause,settings;Text timer,sizeLabel,levelLabel,resultTitle,resultDetail,homeLevel,homeTitle;Text[] goalLabels;Image[] goalIcons;Button[] boostButtons;Text[] boostLabels;Sprite circle,rounded;Font font;
+     public static ReferenceGame Instance {get;private set;}
+-    void Awake(){Instance=this;Catalog=Resources.Load<ReferenceCatalog>("ReferenceCatalog");if(Catalog==null)throw new InvalidOperationException("ReferenceCatalog missing");font=Catalog.font;foreach(var m in Catalog.models){models[m.id]=m;var points=new List<Vector3>();foreach(var part in m.parts)foreach(var v in part.mesh.vertices)points.Add(part.local.MultiplyPoint3x4(v));modelVertices[m.id]=points.ToArray();}
++    void InitializeGame(){Instance=this;Catalog=Resources.Load<ReferenceCatalog>("ReferenceCatalog");if(Catalog==null)throw new InvalidOperationException("ReferenceCatalog missing");font=Catalog.font;foreach(var m in Catalog.models){models[m.id]=m;var points=new List<Vector3>();foreach(var part in m.parts)foreach(var v in part.mesh.vertices)points.Add(part.local.MultiplyPoint3x4(v));modelVertices[m.id]=points.ToArray();}
+         Application.targetFrameRate=60;Application.runInBackground=true;QualitySettings.vSyncCount=0;Screen.sleepTimeout=SleepTimeout.NeverSleep;
+ #if UNITY_ANDROID && !UNITY_EDITOR
+-        if(Screen.width>900){int width=900;Screen.SetResolution(width,Mathf.RoundToInt(width*(float)Screen.height/Screen.width),true);}
++        if(Screen.width>1080){int width=1080;Screen.SetResolution(width,Mathf.RoundToInt(width*(float)Screen.height/Screen.width),true);}
+ #endif
+ #if ENABLE_INPUT_SYSTEM
+         EnhancedTouchSupport.Enable();
+ #endif
+-        mute=PlayerPrefs.GetInt("Gaeun.Ref.Mute",0)==1;sounds=new AudioSource[4];for(int i=0;i<sounds.Length;i++){sounds[i]=gameObject.AddComponent<AudioSource>();sounds[i].playOnAwake=false;sounds[i].volume=.35f;}unlocked=Mathf.Clamp(PlayerPrefs.GetInt("Gaeun.Ref.Unlocked",1),1,30);CreateWorld();CreateUI();LoadLevel(Mathf.Clamp(PlayerPrefs.GetInt("Gaeun.Ref.Selected",0),0,unlocked-1));ShowHome();
+-    }
+-    void OnDestroy(){if(Instance==this)Instance=null;if(floor!=null)Destroy(floor);
++        LoadProfile();mute=PlayerPrefs.GetInt("Gaeun.Ref.Mute",0)==1;sounds=new AudioSource[4];for(int i=0;i<sounds.Length;i++){sounds[i]=gameObject.AddComponent<AudioSource>();sounds[i].playOnAwake=false;sounds[i].volume=.35f;}unlocked=Mathf.Clamp(PlayerPrefs.GetInt("Gaeun.Ref.Unlocked",1),1,Catalog.levels.Length);CreateWorld();CreateUI();LoadLevel(Mathf.Clamp(PlayerPrefs.GetInt("Gaeun.Ref.Selected",0),0,unlocked-1));ShowHome();
++    }
++    void OnDestroy(){DisposePhysicalWorld();if(Instance==this)Instance=null;if(floor!=null)Destroy(floor);
+ #if ENABLE_INPUT_SYSTEM
+         EnhancedTouchSupport.Disable();
+ #endif
+@@ -59,15 +59,15 @@
+     void CreateWorld(){
+         cam=new GameObject("Main Camera").AddComponent<Camera>();cam.tag="MainCamera";cam.fieldOfView=46;cam.nearClipPlane=.1f;cam.farClipPlane=130;cam.allowHDR=false;cam.allowMSAA=true;cam.backgroundColor=new Color(.77f,.77f,.80f);
+         cam.gameObject.AddComponent<AudioListener>();sun=new GameObject("Soft Key Light").AddComponent<Light>();sun.type=LightType.Directional;sun.transform.rotation=Quaternion.Euler(55,-35,0);sun.intensity=.8f;sun.shadows=LightShadows.Soft;sun.shadowStrength=.26f;
+-        sun.intensity=.65f;RenderSettings.ambientMode=AmbientMode.Trilight;RenderSettings.ambientSkyColor=new Color(.60f,.62f,.65f);RenderSettings.ambientEquatorColor=new Color(.40f,.41f,.44f);RenderSettings.ambientGroundColor=new Color(.25f,.24f,.27f);
++        sun.intensity=1f;sun.shadowStrength=.6f;sun.transform.rotation=new Quaternion(-.52133405f,.47771421f,-.52133363f,-.47771457f);RenderSettings.ambientMode=AmbientMode.Trilight;RenderSettings.ambientSkyColor=new Color(.60f,.62f,.65f);RenderSettings.ambientEquatorColor=new Color(.40f,.41f,.44f);RenderSettings.ambientGroundColor=new Color(.25f,.24f,.27f);
+         var g=GameObject.CreatePrimitive(PrimitiveType.Plane);g.name="Arena";Destroy(g.GetComponent<Collider>());ground=g.transform;floor=new Material(Catalog.groundMaterial);g.GetComponent<Renderer>().sharedMaterial=floor;
+         hole=Instantiate(Catalog.holeVisual).transform;hole.name="Hole";var mesh=Resources.Load<Mesh>("ReferenceStyle/OriginalHole");if(mesh!=null){foreach(var t in hole.GetComponentsInChildren<Transform>())if(t.name=="Rim"||t.name=="SculptedRim")t.gameObject.SetActive(false);originalHole=new GameObject("Original Hole Geometry",typeof(MeshFilter),typeof(MeshRenderer)).transform;originalHole.SetParent(hole,false);originalHole.localPosition=new Vector3(0,.025f,0);originalHole.GetComponent<MeshFilter>().sharedMesh=mesh;var renderer=originalHole.GetComponent<MeshRenderer>();renderer.sharedMaterial=Resources.Load<Material>("ReferenceStyle/OriginalHole");renderer.shadowCastingMode=ShadowCastingMode.Off;}holeVisual=hole.GetComponent<HoleVisualController>();if(holeVisual==null)holeVisual=hole.gameObject.AddComponent<HoleVisualController>();
+     }
+     static long Key(int x,int z)=>((long)x<<32)^(uint)z;
+-    void AddCell(int i){var p=actors[i].pos;long key=Key(Mathf.FloorToInt(p.x/CellSize),Mathf.FloorToInt(p.z/CellSize));if(!cells.TryGetValue(key,out var list)){list=new List<int>(20);cells[key]=list;}list.Add(i);}
++    void AddCell(int i){var p=actors[i].pos;long key=Key(Mathf.FloorToInt(p.x/CellSize),Mathf.FloorToInt(p.z/CellSize));if(!cells.TryGetValue(key,out var list)){list=new List<int>(20);cells[key]=list;}list.Add(i);actors[i].cellKey=key;}
+     void Query(Vector3 p,float radius,List<int> list){list.Clear();for(int z=Mathf.FloorToInt((p.z-radius)/CellSize);z<=Mathf.FloorToInt((p.z+radius)/CellSize);z++)for(int x=Mathf.FloorToInt((p.x-radius)/CellSize);x<=Mathf.FloorToInt((p.x+radius)/CellSize);x++)if(cells.TryGetValue(Key(x,z),out var cell))list.AddRange(cell);}
+     public void LoadLevel(int index){
+-        LevelIndex=Mathf.Clamp(index,0,Catalog.levels.Length-1);level=Catalog.levels[LevelIndex];actors.Clear();cells.Clear();falling.Clear();dropping.Clear();batches.Clear();Collected=0;GrowthPoints=0;Radius=VisualRadius=.7f;growthFlash=0;Remaining=level.time;FailureReason="";playTime=0;freezeUntil=sizeUntil=speedUntil=finderUntil=0;boostUsed=new bool[4];Stick.Release();Velocity=Vector2.zero;
++        ResetPhysicalWorld();LevelIndex=Mathf.Clamp(index,0,Catalog.levels.Length-1);level=Catalog.levels[LevelIndex];actors.Clear();cells.Clear();falling.Clear();dropping.Clear();batches.Clear();Collected=0;GrowthPoints=0;Radius=VisualRadius=.7f;growthFlash=0;Remaining=level.time;FailureReason="";playTime=0;freezeUntil=sizeUntil=speedUntil=finderUntil=0;boostUsed=new bool[4];Stick.Release();Velocity=Vector2.zero;
+         min=new Vector2(-8,-29);max=new Vector2(8,-12);
+         foreach(var p in level.points){var m=models[p.id];var q=new Quaternion(p.rotation[0],p.rotation[1],p.rotation[2],p.rotation[3]);if(Quaternion.Dot(q,q)<.01f)q=Quaternion.identity;else q=Quaternion.Normalize(q);
+             var a=new Actor{model=m,pos=new Vector3(p.position[0],p.position[1],p.position[2]),rotation=q,scale=p.scale,points=p.points};Bounds bounds=ExactBounds(m,q,p.scale);
+@@ -85,7 +85,7 @@
+             foreach(int j in nearby){if(i==j)continue;var b=actors[j];if(b.Bottom>=a.Bottom-.1f||b.Top>a.Bottom+.35f)continue;float dx=a.pos.x-b.pos.x,dz=a.pos.z-b.pos.z;if(dx*dx+dz*dz>Mathf.Pow(a.radius+b.radius*.75f,2))continue;if(b.Top>highest){highest=b.Top;a.support=j;}}
+             if(a.support>=0)actors[a.support].above.Add(i);else Wake(i);
+         }
+-        BuildEnvironment();BuildBombs();
++        BuildEnvironment();foreach(var tile in playground){min=Vector2.Min(min,tile.min);max=Vector2.Max(max,tile.max);}EnsurePlayableStart();BuildPhysicalBorders();BuildBombs();
+         foreach(var a in actors)if(!batches.ContainsKey(a.model.id)){var list=new List<Batch>();foreach(var part in a.model.parts)list.Add(new Batch{part=part});batches[a.model.id]=list;}
+         var mid=(min+max)*.5f;ground.position=new Vector3(mid.x,-.02f,mid.y);ground.localScale=new Vector3((max.x-min.x+35)/10,1,(max.y-min.y+35)/10);
+         Color[] palette={new Color(.86f,.74f,.79f),new Color(.72f,.81f,.77f),new Color(.77f,.75f,.87f),new Color(.79f,.81f,.69f)};Color color=palette[LevelIndex%palette.Length];floor.SetColor("_ColorA",color);floor.SetColor("_ColorB",color*.98f);floor.SetFloat("_Tiles",Mathf.Max(max.x-min.x,max.y-min.y)/1.2f);
+@@ -103,8 +103,8 @@
+     bool OnPlayground(Vector2 p){if(playground.Count==0)return true;foreach(var tile in playground)if(tile.Contains(p))return true;return false;}
+     public bool CanStandAt(Vector3 p){if(!OnPlayground(new Vector2(p.x,p.z)))return false;for(int i=0;i<12;i++){float a=i*Mathf.PI/6;if(!OnPlayground(new Vector2(p.x+Mathf.Cos(a)*Radius,p.z+Mathf.Sin(a)*Radius)))return false;}return true;}
+     public Vector3 ConstrainMovement(Vector3 from,Vector3 target){if(CanStandAt(target))return target;if(!CanStandAt(from))return OnPlayground(new Vector2(target.x,target.z))?target:from;var alongX=new Vector3(target.x,0,from.z);if(CanStandAt(alongX))return alongX;var alongZ=new Vector3(from.x,0,target.z);return CanStandAt(alongZ)?alongZ:from;}
+-    public void StartPlay(){State=ScreenState.Playing;home.SetActive(false);result.SetActive(false);pause.SetActive(false);settings.SetActive(false);hud.SetActive(true);Stick.Release();RefreshBoosters();}
+-    public void ShowHome(){State=ScreenState.Home;Stick.Release();Velocity=Vector2.zero;home.SetActive(true);hud.SetActive(false);result.SetActive(false);pause.SetActive(false);settings.SetActive(false);homeLevel.text="LEVEL "+(LevelIndex+1);}
++    public void StartPlay(){profile.Refresh(Now);if(!TestInput&&!Application.isEditor&&!FreePlay&&profile.hearts<=0){ShowHome();OpenStore();storeMessage.text="NO LIVES · USE FREE PLAY IN SETTINGS";return;}CloseProfilePanels();State=ScreenState.Playing;home.SetActive(false);result.SetActive(false);pause.SetActive(false);settings.SetActive(false);hud.SetActive(true);Stick.Release();RefreshBoosters();}
++    public void ShowHome(){State=ScreenState.Home;Stick.Release();Velocity=Vector2.zero;home.SetActive(true);hud.SetActive(false);result.SetActive(false);pause.SetActive(false);settings.SetActive(false);homeLevel.text="LEVEL "+(LevelIndex+1);CloseProfilePanels();RefreshWallet();}
+     public void Retry(){LoadLevel(LevelIndex);StartPlay();}
+     public void Pause(){if(State!=ScreenState.Playing)return;State=ScreenState.Paused;Stick.Release();Velocity=Vector2.zero;pause.SetActive(true);}
+     public void Resume(){if(State!=ScreenState.Paused)return;State=ScreenState.Playing;pause.SetActive(false);}
+@@ -134,7 +134,7 @@
+ #endif
+     }
+     public bool TestInput;public Vector2 TestDirection;
+-    void Update(){float dt=Mathf.Min(Time.deltaTime,.05f);
++    void Update(){if(!Ready)return;ProfileTick();float dt=Mathf.Min(Time.deltaTime,.05f);
+         if(State==ScreenState.Playing){if(!TestInput)ReadInput();Vector2 input=TestInput?Vector2.ClampMagnitude(TestDirection,1):Stick.Value;
+             Vector2 desired=input*MaximumSpeed;Velocity=input.sqrMagnitude<.0001f?Vector2.zero:Vector2.Lerp(Velocity,desired,1-Mathf.Exp(-25*dt));
+             HolePosition=ConstrainMovement(HolePosition,HolePosition+new Vector3(Velocity.x,0,Velocity.y)*dt);HolePosition=new Vector3(Mathf.Clamp(HolePosition.x,min.x+Radius,max.x-Radius),0,Mathf.Clamp(HolePosition.z,min.y+Radius,max.y-Radius));
+@@ -151,34 +151,35 @@
+     public static float GrowthRemainder(float points){int tier=0;while(points>=GrowthCost(tier)&&tier<10000){points-=GrowthCost(tier);tier++;}return points;}
+     public static float GrowthRadius(float points)=>.7f+Mathf.Min(10,GrowthTier(points))*.223f;
+     public static float GrowthVisualRadius(float points)=>.7f+Mathf.Min(10,GrowthTier(points))*.25f;
+-    void UpdateFalls(float dt){for(int k=falling.Count-1;k>=0;k--){int i=falling[k];var a=actors[i];if(a.state!=0){a.falling=false;falling.RemoveAt(k);continue;}float floorY=0;if(a.support>=0&&actors[a.support].state==0)floorY=Mathf.Max(0,actors[a.support].Top);a.fallSpeed+=16*dt;a.pos.y=Mathf.Max(floorY-a.bottomOffset,a.pos.y-a.fallSpeed*dt);if(a.Bottom<=floorY+.005f){a.falling=false;falling.RemoveAt(k);}else foreach(int child in a.above)Wake(child);}}
++    void UpdateFalls(float dt){StepPhysicalWorld(dt);}
++
+     void UpdateMouth(float dt){
+-        for(int k=dropping.Count-1;k>=0;k--){var a=actors[dropping[k]];a.dropTime+=dt;float t=a.dropTime/.28f;a.pos.y=a.dropY-4*t*t;a.rotation=Quaternion.AngleAxis(dt*35,Vector3.right)*a.rotation;if(t<1)continue;a.state=2;dropping.RemoveAt(k);if(a.model.id==-1){Fail("BOOM! TRY AGAIN");return;}float before=GrowthRadius(GrowthPoints);Collected++;GrowthPoints+=Mathf.Max(0,a.points);bool grew=GrowthRadius(GrowthPoints)>before;if(grew)growthFlash=Time.unscaledTime+.9f;Sound(grew?1:0);for(int g=0;g<level.goals.Length;g++)if(level.goals[g].id==a.model.id)goalCounts[g]=Mathf.Min(goalCounts[g]+1,level.goals[g].amount);}
++        for(int k=dropping.Count-1;k>=0;k--){var a=actors[dropping[k]];a.dropTime+=dt;if(a.body==null){a.fallSpeed+=5.81f*dt;a.pos.y-=a.fallSpeed*dt;}if(a.Top>-.25f)continue;ReleasePhysicalBody(a);a.state=2;dropping.RemoveAt(k);if(a.model.id==-1){Fail("BOOM! TRY AGAIN");return;}float before=GrowthRadius(GrowthPoints);Collected++;GrowthPoints+=Mathf.Max(0,a.points);bool grew=GrowthRadius(GrowthPoints)>before;if(grew)growthFlash=Time.unscaledTime+.9f;Sound(grew?1:0);for(int g=0;g<level.goals.Length;g++)if(level.goals[g].id==a.model.id)goalCounts[g]=Mathf.Min(goalCounts[g]+1,level.goals[g].amount);}
+         Query(HolePosition,Radius+1,nearby);int begun=0;
+         foreach(int i in nearby){var a=actors[i];if(a.state!=0||a.Bottom>.20f||a.radius>Radius*1.02f)continue;float dx=a.pos.x-HolePosition.x,dz=a.pos.z-HolePosition.z;float reach=Mathf.Max(.12f,Radius-a.radius*.45f);if(dx*dx+dz*dz>reach*reach)continue;
+-            a.state=1;a.dropTime=0;a.dropY=a.pos.y;dropping.Add(i);foreach(int child in a.above)Wake(child);if(++begun>=24)break;
++            a.state=1;a.dropTime=0;a.dropY=a.pos.y;BeginPhysicalDrop(i);dropping.Add(i);foreach(int child in a.above)Wake(child);if(++begun>=24)break;
+         }
+         bool done=true;if(level.goals.Length==0){foreach(var a in actors)if(a.model.id!=-1&&a.state!=2){done=false;break;}}else for(int g=0;g<goalCounts.Length;g++)if(goalCounts[g]<level.goals[g].amount)done=false;
+         if(done&&dropping.Count==0)Win();
+     }
+     void Sound(int id){if(mute||Catalog.sounds==null||id>=Catalog.sounds.Length||Catalog.sounds[id]==null)return;if(id==0&&Time.unscaledTime-lastPop<.055f)return;lastPop=Time.unscaledTime;var s=sounds[soundIndex++%sounds.Length];s.pitch=id==0?1+(Collected%8)*.025f:1;s.PlayOneShot(Catalog.sounds[id]);}
+-    void Fail(string reason){State=ScreenState.Lost;FailureReason=reason;Stick.Release();Velocity=Vector2.zero;Sound(2);ShowResult(false,reason);}
+-    void Win(){State=ScreenState.Won;Stick.Release();Velocity=Vector2.zero;Sound(3);unlocked=Mathf.Max(unlocked,Mathf.Min(30,LevelIndex+2));PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",unlocked);PlayerPrefs.Save();ShowResult(true,"LEVEL COMPLETE!");}
+-    void LateUpdate(){cameraFocus=Vector3.Lerp(cameraFocus,HolePosition,1-Mathf.Exp(-12*Mathf.Min(Time.deltaTime,.05f)));cameraDistance=Mathf.Lerp(cameraDistance,14.3f+(VisualRadius-1)*2,1-Mathf.Exp(-2*Time.deltaTime));PlaceCamera();RenderActors();}
++    void Fail(string reason){RecordFailure();State=ScreenState.Lost;FailureReason=reason;Stick.Release();Velocity=Vector2.zero;Sound(reason.StartsWith("BOOM")?5:2);ShowResult(false,reason);}
++    void Win(){State=ScreenState.Won;Stick.Release();Velocity=Vector2.zero;Sound(3);RecordWin();ShowResult(true,"LEVEL COMPLETE!");}
++    void LateUpdate(){if(!Ready)return;cameraFocus=Vector3.Lerp(cameraFocus,HolePosition,1-Mathf.Exp(-12*Mathf.Min(Time.deltaTime,.05f)));cameraDistance=Mathf.Lerp(cameraDistance,14.3f+(VisualRadius-1)*2,1-Mathf.Exp(-2*Time.deltaTime));PlaceCamera();RenderActors();}
+     void PlaceCamera(){cam.transform.rotation=Quaternion.Euler(60,0,0);cam.transform.position=cameraFocus-cam.transform.forward*cameraDistance;}
+     void RenderActors(){foreach(var b in environmentBatches)Graphics.DrawMeshInstanced(b.part.mesh,b.part.submesh,b.part.material,b.matrices,b.count,null,ShadowCastingMode.Off,true,0,cam,LightProbeUsage.Off);RenderedActors=0;foreach(var pair in batches)foreach(var b in pair.Value)b.count=0;float range=cameraDistance*.85f;
+-        foreach(var a in actors){if(a.state==2)continue;Vector3 delta=a.pos-cameraFocus;if(Mathf.Abs(delta.x)>range*.75f||Mathf.Abs(delta.z)>range||a.pos.y<-6)continue;RenderedActors++;var matrix=Matrix4x4.TRS(a.pos,a.rotation,Vector3.one*a.scale);foreach(var b in batches[a.model.id]){b.matrices[b.count++]=matrix*b.part.local;if(b.count==1023)Flush(b);}}
++        foreach(var a in actors){if(a.state==2)continue;Vector3 delta=a.pos-cameraFocus;if(Mathf.Abs(delta.x)>range*.75f||Mathf.Abs(delta.z)>range||a.pos.y<-6)continue;RenderedActors++;var matrix=Matrix4x4.TRS(RenderPosition(a),RenderRotation(a),Vector3.one*a.scale);foreach(var b in batches[a.model.id]){b.matrices[b.count++]=matrix*b.part.local;if(b.count==1023)Flush(b);}}
+         foreach(var pair in batches)foreach(var b in pair.Value)Flush(b);
+     }
+     public void RenderForCapture(){RenderActors();}
+     void Flush(Batch b){if(b.count==0)return;Graphics.DrawMeshInstanced(b.part.mesh,b.part.submesh,b.part.material,b.matrices,b.count,null,ShadowCastingMode.On,true,0,cam,LightProbeUsage.Off);b.count=0;}
+     void OnApplicationPause(bool p){if(p)Pause();}void OnApplicationFocus(bool f){if(!f)Pause();}
+-    void Boost(int index){int[] activation={3,5,9,12};if(State!=ScreenState.Playing||LevelIndex+1<activation[index]||boostUsed[index])return;boostUsed[index]=true;if(index==0)sizeUntil=playTime+8;if(index==1)speedUntil=playTime+8;if(index==2)finderUntil=playTime+12;if(index==3)freezeUntil=playTime+8;Sound(4);RefreshBoosters();}
++    void Boost(int index){int[] activation={3,5,9,12};if(State!=ScreenState.Playing||(!FreePlay&&LevelIndex+1<activation[index])||boostUsed[index])return;if(!profile.Consume(index))return;SaveProfile();boostUsed[index]=true;if(index==0)sizeUntil=playTime+8;if(index==1)speedUntil=playTime+8;if(index==2)finderUntil=playTime+12;if(index==3)freezeUntil=playTime+8;Sound(index==3?8:index==1?9:4);RefreshBoosters();}
+     // UI is built once, then only values change. Textures/fonts are bundled; no network is used.
+     Sprite Style(string key){if(!styleSprites.TryGetValue(key,out var sprite)){sprite=Resources.Load<Sprite>("ReferenceStyle/"+key);styleSprites[key]=sprite;}return sprite;}
+     Image Panel(string name,Transform parent,Vector2 anchor,Vector2 size,Color color,Vector2 offset){var go=new GameObject(name,typeof(RectTransform),typeof(Image));go.transform.SetParent(parent,false);var r=(RectTransform)go.transform;r.anchorMin=r.anchorMax=anchor;r.sizeDelta=size;r.anchoredPosition=offset;var im=go.GetComponent<Image>();im.sprite=rounded;im.type=Image.Type.Sliced;im.color=color;im.raycastTarget=false;string key=name.StartsWith("Goal")?"goal-card":name=="TimerBadge"?"timer-bg":name.StartsWith("Booster")?"booster-Btn-blue":name=="Play"||name=="Continue"||name=="Resume"?"btn-big-green":name=="Pause"?"btn-big-Blue":null;if(key!=null&&Style(key)!=null){im.sprite=Style(key);im.type=Image.Type.Simple;im.color=Color.white;}return im;}
+     Text Label(string name,Transform parent,string value,int size,Color color,Vector2 anchor,Vector2 dimensions,Vector2 offset){var go=new GameObject(name,typeof(RectTransform),typeof(Text));go.transform.SetParent(parent,false);var r=(RectTransform)go.transform;r.anchorMin=r.anchorMax=anchor;r.sizeDelta=dimensions;r.anchoredPosition=offset;var t=go.GetComponent<Text>();t.font=font;t.fontSize=size;t.fontStyle=FontStyle.Normal;t.color=color;t.alignment=TextAnchor.MiddleCenter;t.text=value;t.raycastTarget=false;t.resizeTextForBestFit=true;t.resizeTextMinSize=Mathf.Max(18,size-6);t.resizeTextMaxSize=size;return t;}
+-    Button Btn(string name,Transform parent,string text,Vector2 anchor,Vector2 size,Vector2 offset,Color color,UnityEngine.Events.UnityAction action){var im=Panel(name,parent,anchor,size,color,offset);im.raycastTarget=true;var b=im.gameObject.AddComponent<Button>();b.targetGraphic=im;b.onClick.AddListener(action);Label("Label",im.transform,text,34,Color.white,new Vector2(.5f,.5f),size-Vector2.one*12,Vector2.zero);return b;}
++    Button Btn(string name,Transform parent,string text,Vector2 anchor,Vector2 size,Vector2 offset,Color color,UnityEngine.Events.UnityAction action){var im=Panel(name,parent,anchor,size,color,offset);im.raycastTarget=true;var b=im.gameObject.AddComponent<Button>();b.targetGraphic=im;b.onClick.AddListener(()=>Sound(6));b.onClick.AddListener(action);if(!name.StartsWith("Booster")){im.sprite=Style(color==Green?"btn-big-green":"btn-big-Blue")??im.sprite;im.type=Image.Type.Simple;im.color=Color.white;}Label("Label",im.transform,text,34,Color.white,new Vector2(.5f,.5f),size-Vector2.one*12,Vector2.zero);return b;}
+     GameObject Layer(string name){var go=new GameObject(name,typeof(RectTransform));go.transform.SetParent(safe,false);var r=(RectTransform)go.transform;r.anchorMin=Vector2.zero;r.anchorMax=Vector2.one;r.sizeDelta=Vector2.zero;return go;}
+     Color Ink=>new Color(.21f,.24f,.32f);Color Blue=>new Color(.16f,.55f,.85f);Color Green=>new Color(.20f,.69f,.46f);
+     void WhiteOutline(Text t){t.color=Color.white;var outline=t.gameObject.AddComponent<Outline>();outline.effectColor=new Color(0,0,0,.65f);outline.effectDistance=new Vector2(2,-2);}
+@@ -206,11 +207,11 @@
+         homeLevel=Label("Level",home.transform,"LEVEL 1",42,Ink,new Vector2(.5f,.27f),new Vector2(500,70),Vector2.zero);
+         WhiteOutline(homeTitle);WhiteOutline(homeLevel);WhiteOutline(home.transform.Find("ForGaeun").GetComponent<Text>());
+         Btn("Previous",home.transform,"<",new Vector2(.2f,.27f),new Vector2(105,90),Vector2.zero,Blue,()=>{LoadLevel(Mathf.Max(0,LevelIndex-1));ShowHome();});
+-        Btn("Next",home.transform,">",new Vector2(.8f,.27f),new Vector2(105,90),Vector2.zero,Blue,()=>{LoadLevel(Mathf.Min(unlocked-1,LevelIndex+1));ShowHome();});
++        Btn("Next",home.transform,">",new Vector2(.8f,.27f),new Vector2(105,90),Vector2.zero,Blue,()=>{LoadLevel(Mathf.Min(FreePlay?Catalog.levels.Length-1:unlocked-1,LevelIndex+1));ShowHome();});
+         Btn("Play",home.transform,"PLAY",new Vector2(.5f,.17f),new Vector2(680,150),Vector2.zero,Green,StartPlay);
+         Btn("Settings",home.transform,"SETTINGS",new Vector2(.5f,.065f),new Vector2(410,82),Vector2.zero,Blue,()=>settings.SetActive(true));
+         CreateModal(result,"Result");resultTitle=Label("Title",result.transform,"",64,Ink,new Vector2(.5f,.66f),new Vector2(800,120),Vector2.zero);resultDetail=Label("Detail",result.transform,"",32,Ink,new Vector2(.5f,.52f),new Vector2(780,260),Vector2.zero);
+-        Btn("Continue",result.transform,"CONTINUE",new Vector2(.5f,.36f),new Vector2(640,120),Vector2.zero,Green,()=>{if(State==ScreenState.Won){LoadLevel(Mathf.Min(29,LevelIndex+1));StartPlay();}else Retry();});
++        Btn("Continue",result.transform,"CONTINUE",new Vector2(.5f,.36f),new Vector2(640,120),Vector2.zero,Green,()=>{if(State==ScreenState.Won){LoadLevel(Mathf.Min(Catalog.levels.Length-1,LevelIndex+1));StartPlay();}else Retry();});
+         Btn("Home",result.transform,"HOME",new Vector2(.5f,.27f),new Vector2(520,90),Vector2.zero,Blue,()=>{LoadLevel(LevelIndex);ShowHome();});
+         CreateModal(pause,"Pause");Label("Title",pause.transform,"PAUSED",64,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Btn("Resume",pause.transform,"RESUME",new Vector2(.5f,.52f),new Vector2(640,120),Vector2.zero,Green,Resume);Btn("Retry",pause.transform,"RESTART",new Vector2(.5f,.42f),new Vector2(540,100),Vector2.zero,Blue,Retry);Btn("Home",pause.transform,"HOME",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Blue,()=>{LoadLevel(LevelIndex);ShowHome();});
+         CreateModal(settings,"Settings");Label("Title",settings.transform,"SETTINGS",60,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Label("Controls",settings.transform,"JOYSTICK\n\nDrag the stick to move. Release to stop.\nYou can also drag on an empty area.",30,Ink,new Vector2(.5f,.5f),new Vector2(770,300),Vector2.zero);Btn("Done",settings.transform,"DONE",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Green,()=>settings.SetActive(false));
+@@ -230,7 +231,7 @@
+         if(playTime<finderUntil){Actor best=null;float distance=float.MaxValue;foreach(var a in actors){if(a.state!=0||!Needed(a.model.id))continue;float d=(a.pos-HolePosition).sqrMagnitude;if(d<distance){best=a;distance=d;}}if(best!=null){Vector3 d=best.pos-HolePosition;sizeLabel.text="TARGET "+(Mathf.Abs(d.x)>Mathf.Abs(d.z)?d.x>0?"RIGHT":"LEFT":d.z>0?"AHEAD":"BEHIND");}}
+     }
+     bool Needed(int id){if(id==-1)return false;if(level.goals.Length==0)return true;for(int i=0;i<goalCounts.Length;i++)if(level.goals[i].id==id&&goalCounts[i]<level.goals[i].amount)return true;return false;}
+-    void RefreshBoosters(){int[] activation={3,5,9,12};string[] names={"SIZE","SPEED","FIND","FREEZE"};for(int i=0;i<4;i++){boostButtons[i].interactable=LevelIndex+1>=activation[i]&&!boostUsed[i];boostLabels[i].text=LevelIndex+1<activation[i]?names[i]+"\nLV "+activation[i]:boostUsed[i]?"USED":names[i];}}
++    void RefreshBoosters(){int[] activation={3,5,9,12};string[] names={"SIZE","SPEED","FIND","FREEZE"};for(int i=0;i<4;i++){bool available=FreePlay||LevelIndex+1>=activation[i];boostButtons[i].interactable=available&&!boostUsed[i]&&(FreePlay||profile.boosters[i]>0);boostLabels[i].text=!available?"LV "+activation[i]:boostUsed[i]?"USED":names[i]+(FreePlay?"":" × "+profile.boosters[i]);}}
+     void UpdateHoleLabels(){if(holeSize==null)return;Vector3 screen=cam.WorldToScreenPoint(HolePosition+Vector3.back*(VisualRadius+1));RectTransformUtility.ScreenPointToLocalPointInRectangle((RectTransform)hud.transform,screen,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera,out var point);holeSize.rectTransform.anchoredPosition=point;holeSize.text="Size "+(GrowthTier(GrowthPoints)+1);growthToast.gameObject.SetActive(State==ScreenState.Playing&&Time.unscaledTime<growthFlash);growthToast.rectTransform.anchoredPosition=point+new Vector2(0,240+(growthFlash-Time.unscaledTime)*30);}
+     void UpdateStickVisual(){
+         stickBase.gameObject.SetActive(State==ScreenState.Playing);
+@@ -248,8 +249,10 @@
+         foreach(var bomb in testBombs){Vector3 away=aim-bomb.pos;away.y=0;float safe=Radius-bomb.radius*.45f+.3f;if(away.magnitude<safe)aim+=away.normalized*(safe-away.magnitude);}
+         aim.x=Mathf.Clamp(aim.x,min.x+Radius,max.x-Radius);aim.z=Mathf.Clamp(aim.z,min.y+Radius,max.y-Radius);
+         Vector3 offset=aim-a.pos;offset.y=0;if(offset.magnitude>Mathf.Max(.12f,Radius-a.radius*.45f)-.01f)continue;
+-        float d=(aim-HolePosition).sqrMagnitude*(Needed(a.model.id)?1:1.3f);if(a.Bottom>.3f)d+=100;if(d<score){score=d;best=aim;}}return best;}
++        float d=(aim-HolePosition).sqrMagnitude*(Needed(a.model.id)?1:1.3f);if(a.Bottom>.20f)d+=10000;if(d<score){score=d;best=aim;}}return best;}
+     public string RemainingDiagnostic(){var b=new System.Text.StringBuilder();foreach(var a in actors)if(a.state!=2&&a.model.id!=-1)b.Append(a.model.id+":"+a.model.label+" radius="+a.radius+" bottom="+a.Bottom+" position="+a.pos+"; ");return b.ToString();}
+     public void MoveHoleForTest(Vector3 p){HolePosition=p;}
+     public void TriggerBombForTest(){foreach(var a in actors)if(a.model.id==-1){a.pos=HolePosition;a.state=1;a.dropY=0;dropping.Add(actors.IndexOf(a));return;}throw new InvalidOperationException("No bombs on this level");}
+ }
++
++
+--- 4차/Assets/Scripts/ReferencePanelMotion.cs
++++ 5차/Assets/Scripts/ReferencePanelMotion.cs
+@@ -0,0 +1,6 @@
++using UnityEngine;
++public class ReferencePanelMotion:MonoBehaviour {
++    CanvasGroup group;float start;
++    void OnEnable(){if(group==null)group=gameObject.AddComponent<CanvasGroup>();start=Time.unscaledTime;group.alpha=0;}
++    void Update(){float t=Mathf.Clamp01((Time.unscaledTime-start)/.18f);group.alpha=1-Mathf.Pow(1-t,3);}
++}
+--- 4차/Assets/Scripts/ReferencePanelMotion.cs.meta
++++ 5차/Assets/Scripts/ReferencePanelMotion.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: b66ae51bbf37aae41bb9c987cd23b1ea--- 4차/Assets/Scripts/ReferenceProfile.cs
++++ 5차/Assets/Scripts/ReferenceProfile.cs
+@@ -0,0 +1,17 @@
++using System;
++using UnityEngine;
++
++[Serializable] public sealed class ReferenceProfile {
++    public int coins,hearts=5;public long refillAt;public int[] boosters={1,1,1,1};public bool freePlay;
++    public const int WinReward=20,BoosterPrice=1800,HeartPrice=900,RefillSeconds=1800;
++    public void Refresh(long now){
++        hearts=Mathf.Clamp(hearts,0,5);coins=Mathf.Max(0,coins);
++        if(boosters==null||boosters.Length!=4)boosters=new[]{1,1,1,1};
++        if(hearts==5){refillAt=0;return;}if(refillAt<=0){refillAt=now+RefillSeconds;return;}
++        if(now>=refillAt){long added=(now-refillAt)/RefillSeconds+1;hearts=(int)Math.Min(5,hearts+added);refillAt=hearts==5?0:refillAt+added*RefillSeconds;}
++    }
++    public void Lose(long now){Refresh(now);if(freePlay)return;if(hearts==5)refillAt=now+RefillSeconds;hearts=Mathf.Max(0,hearts-1);}
++    public bool BuyBooster(int i){if(i<0||i>=4||coins<BoosterPrice)return false;coins-=BoosterPrice;boosters[i]++;return true;}
++    public bool RefillHearts(){if(hearts>=5||coins<HeartPrice)return false;coins-=HeartPrice;hearts=5;refillAt=0;return true;}
++    public bool Consume(int i){if(freePlay)return true;if(boosters[i]<=0)return false;boosters[i]--;return true;}
++}
+--- 4차/Assets/Scripts/ReferenceProfile.cs.meta
++++ 5차/Assets/Scripts/ReferenceProfile.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 2848d9428ff37a4449a25f8d7b8f7320--- 4차/Assets/Shaders/ReferenceSoft.shader
++++ 5차/Assets/Shaders/ReferenceSoft.shader
+@@ -1,13 +1,25 @@
+ Shader "PocketPit/ReferenceSoft" {
+-Properties { _MainTex("Color",2D)="white"{} _Color("Tint",Color)=(1,1,1,1) }
+-SubShader { Tags {"RenderType"="Opaque"} LOD 120
++Properties {
++ _MainTex("Color",2D)="white"{} _Color("Tint",Color)=(1,1,1,1)
++ _ShadowColor("Shadow Tint",Color)=(.566,.566,.566,1)
++ _EdgeStart("Shadow Start",Float)=-1 _EdgeEnd("Shadow End",Float)=2
++ _Glossiness("Gloss Exponent",Float)=32
++}
++SubShader { Tags {"RenderType"="Opaque"} LOD 200
+ CGPROGRAM
+-#pragma surface surf Lambert addshadow noforwardadd
++#pragma surface surf Reference fullforwardshadows addshadow noambient noforwardadd
+ #pragma target 3.0
+ #pragma multi_compile_instancing
+-sampler2D _MainTex;fixed4 _Color;
++sampler2D _MainTex;fixed4 _Color,_ShadowColor;half _EdgeStart,_EdgeEnd,_Glossiness;
+ struct Input {float2 uv_MainTex;};
+-void surf(Input IN,inout SurfaceOutput o){fixed3 c=tex2D(_MainTex,IN.uv_MainTex).rgb*_Color.rgb;o.Albedo=c;o.Emission=c*.12;o.Alpha=1;}
++half4 LightingReference(SurfaceOutput s,half3 lightDir,half3 viewDir,half atten){
++ half shade=smoothstep(_EdgeStart,max(_EdgeStart+.01,_EdgeEnd),dot(s.Normal,lightDir));
++ half3 diffuse=lerp(_ShadowColor.rgb,half3(1,1,1),shade);
++ half3 h=normalize(lightDir+viewDir);
++ half highlight=pow(saturate(dot(s.Normal,h)),max(4,_Glossiness))*0.10;
++ return half4((s.Albedo*diffuse+highlight)*_LightColor0.rgb*lerp(.65h,1.h,atten),1);
++}
++void surf(Input IN,inout SurfaceOutput o){o.Albedo=tex2D(_MainTex,IN.uv_MainTex).rgb*_Color.rgb;o.Alpha=1;}
+ ENDCG
+ } FallBack "Diffuse"
+ }
+--- 4차/Assets/Tests/Reference/ReferenceFifthTests.cs
++++ 5차/Assets/Tests/Reference/ReferenceFifthTests.cs
+@@ -0,0 +1,46 @@
++using System.Collections;
++using System.Collections.Generic;
++using System.IO;
++using System.Linq;
++using NUnit.Framework;
++using UnityEngine;
++using UnityEngine.SceneManagement;
++using UnityEngine.TestTools;
++public class ReferenceFifthTests {
++    int oldUnlocked,oldSelected;bool hadUnlocked,hadSelected;
++    [UnitySetUp]public IEnumerator Setup(){hadUnlocked=PlayerPrefs.HasKey("Gaeun.Ref.Unlocked");oldUnlocked=PlayerPrefs.GetInt("Gaeun.Ref.Unlocked");hadSelected=PlayerPrefs.HasKey("Gaeun.Ref.Selected");oldSelected=PlayerPrefs.GetInt("Gaeun.Ref.Selected");yield return SceneManager.LoadSceneAsync("Main");yield return new WaitUntil(()=>ReferenceGame.Instance!=null&&ReferenceGame.Instance.Ready);yield return new WaitForSecondsRealtime(.6f);ReferenceGame.Instance.TestInput=true;}
++    [UnityTearDown]public IEnumerator Cleanup(){var scene=SceneManager.GetSceneByName("Main");SceneManager.SetActiveScene(SceneManager.CreateScene("FifthCleanup"));yield return SceneManager.UnloadSceneAsync(scene);if(hadUnlocked)PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",oldUnlocked);else PlayerPrefs.DeleteKey("Gaeun.Ref.Unlocked");if(hadSelected)PlayerPrefs.SetInt("Gaeun.Ref.Selected",oldSelected);else PlayerPrefs.DeleteKey("Gaeun.Ref.Selected");}
++    [UnityTest,Timeout(600000)]public IEnumerator EveryAuthoredStageLoadsWithGoalsAndReachableStart(){
++        var g=ReferenceGame.Instance;Assert.AreEqual(465,g.Catalog.levels.Length);Assert.AreEqual(869,g.Catalog.models.Length);
++        var errors=new List<string>();var report=new System.Text.StringBuilder();var ids=g.Catalog.models.ToDictionary(m=>m.id);
++        foreach(var m in g.Catalog.models){Assert.IsNotEmpty(m.parts,m.label);Assert.IsNotEmpty(m.collisionParts,m.label);foreach(var shape in m.collisionParts)Assert.IsNotNull(shape.mesh,m.label);}
++        for(int i=0;i<g.Catalog.levels.Length;i++){
++            g.LoadLevel(i);yield return null;var l=g.Catalog.levels[i];
++            if(!g.CanStandAt(g.HolePosition))errors.Add("Level "+(i+1)+" unreachable start "+g.HolePosition);
++            Assert.AreEqual(l.points.Length+l.bombs,g.ActorCount);Assert.AreEqual(l.time,g.Remaining);
++            var counts=l.points.GroupBy(p=>p.id).ToDictionary(x=>x.Key,x=>x.Count());foreach(var goal in l.goals){Assert.IsTrue(ids.ContainsKey(goal.id));Assert.GreaterOrEqual(counts[goal.id],goal.amount);}
++            Assert.IsTrue(g.PhysicsTransformsFinite());report.AppendLine("Level "+(i+1)+": "+g.ActorCount+" actors; "+l.time+" sec; start valid="+g.CanStandAt(g.HolePosition));
++        }
++        Directory.CreateDirectory("TestResults");File.WriteAllText("TestResults/FifthStageAudit.txt",report.ToString());Assert.IsEmpty(errors,string.Join("\n",errors));
++    }
++    [UnityTest]public IEnumerator FreeFallUsesReferenceGravityAndPauseFreezesPhysics(){
++        var g=ReferenceGame.Instance;g.LoadLevel(0);g.StartPlay();int index=g.StartIsolatedFallForTest();float start=Time.time;
++        yield return new WaitForSeconds(.4f);float elapsed=Time.time-start;var p=g.ActorPositionForTest(index);
++        Assert.AreEqual(500,p.x,.001f);Assert.AreEqual(500,p.z,.001f);Assert.AreEqual(10-.5f*5.81f*elapsed*elapsed,p.y,.13f);Assert.AreEqual(-5.81f,Physics.gravity.y,.001f);
++        g.Pause();p=g.ActorPositionForTest(index);yield return new WaitForSeconds(.2f);Assert.AreEqual(p,g.ActorPositionForTest(index));
++    }
++    [UnityTest,Timeout(300000)]public IEnumerator DenseAndLateStagesUseBoundedStableContacts(){
++        var g=ReferenceGame.Instance;
++        foreach(int level in new[]{3,15,28,90,199,300,461,464}){
++            g.LoadLevel(level);g.StartPlay();for(int i=0;i<150;i++){if(i%25==0)g.MoveHoleForTest(g.NearestCollectible());yield return null;Assert.IsTrue(g.PhysicsTransformsFinite(),"Level "+(level+1));Assert.LessOrEqual(g.ActivePhysicsBodies,384);}
++            Assert.Greater(g.Collected,0,"Stage "+(level+1)+" must actually collect items");
++        }
++    }
++    [UnityTest]public IEnumerator CotonArtAndOriginalSoundsAreBundled(){
++        foreach(string n in new[]{"Loading","Home"}){var t=Resources.Load<Texture2D>("CotonArt/"+n);Assert.IsNotNull(t);Assert.GreaterOrEqual(t.height,1600);Assert.GreaterOrEqual(t.width,900);}
++        Assert.AreEqual(10,ReferenceGame.Instance.Catalog.sounds.Length);foreach(var clip in ReferenceGame.Instance.Catalog.sounds)Assert.IsNotNull(clip);yield return null;
++    }
++    [UnityTest]public IEnumerator MovementReachesAuthoredFloorBeyondInitialItemBounds(){
++        var g=ReferenceGame.Instance;g.LoadLevel(17);g.StartPlay();g.MoveHoleForTest(new Vector3(21,0,-10));Assert.IsTrue(g.CanStandAt(g.HolePosition));g.TestDirection=Vector2.right;yield return new WaitForSeconds(.5f);g.TestDirection=Vector2.zero;Assert.Greater(g.HolePosition.x,22.5f,"Arena floor, not initial item extents, must bound movement");Assert.IsTrue(g.CanStandAt(g.HolePosition));
++    }
++}
+--- 4차/Assets/Tests/Reference/ReferenceFifthTests.cs.meta
++++ 5차/Assets/Tests/Reference/ReferenceFifthTests.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 1060e6e14ad7edc468251a62f0a97ed0--- 4차/Assets/Tests/Reference/ReferenceProfileTests.cs
++++ 5차/Assets/Tests/Reference/ReferenceProfileTests.cs
+@@ -0,0 +1,5 @@
++using NUnit.Framework;
++public class ReferenceProfileTests {
++ [Test]public void LifeRefillPreservesPartialTimeAndCapsAtFive(){var p=new ReferenceProfile();p.Lose(100);Assert.AreEqual(4,p.hearts);Assert.AreEqual(1900,p.refillAt);p.Lose(200);p.Refresh(1899);Assert.AreEqual(3,p.hearts);p.Refresh(1900);Assert.AreEqual(4,p.hearts);Assert.AreEqual(3700,p.refillAt);p.Refresh(100000);Assert.AreEqual(5,p.hearts);Assert.AreEqual(0,p.refillAt);}
++ [Test]public void CurrencyTransactionsAreAtomicAndFreePlayDoesNotConsume(){var p=new ReferenceProfile();Assert.IsFalse(p.BuyBooster(0));Assert.AreEqual(1,p.boosters[0]);p.coins=1800;Assert.IsTrue(p.BuyBooster(0));Assert.AreEqual(0,p.coins);Assert.AreEqual(2,p.boosters[0]);Assert.IsTrue(p.Consume(1));Assert.IsFalse(p.Consume(1));p.freePlay=true;Assert.IsTrue(p.Consume(1));p.Lose(100);Assert.AreEqual(5,p.hearts);p.freePlay=false;p.Lose(100);p.coins=899;Assert.IsFalse(p.RefillHearts());p.coins=900;Assert.IsTrue(p.RefillHearts());Assert.AreEqual(0,p.coins);Assert.AreEqual(5,p.hearts);}
++}
+--- 4차/Assets/Tests/Reference/ReferenceProfileTests.cs.meta
++++ 5차/Assets/Tests/Reference/ReferenceProfileTests.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: 2efb3a0bc92307f4b92d61b4bce7aa4e--- 4차/Assets/Tests/Reference/ReferenceTests.cs
++++ 5차/Assets/Tests/Reference/ReferenceTests.cs
+@@ -9,7 +9,7 @@
+ using UnityEngine.UI;
+ public class ReferenceTests {
+     int oldUnlocked,oldSelected;bool hadUnlocked,hadSelected;
+-    [UnitySetUp]public IEnumerator Setup(){hadUnlocked=PlayerPrefs.HasKey("Gaeun.Ref.Unlocked");oldUnlocked=PlayerPrefs.GetInt("Gaeun.Ref.Unlocked");hadSelected=PlayerPrefs.HasKey("Gaeun.Ref.Selected");oldSelected=PlayerPrefs.GetInt("Gaeun.Ref.Selected");Time.timeScale=1;yield return SceneManager.LoadSceneAsync("Main");yield return null;ReferenceGame.Instance.TestInput=true;ReferenceGame.Instance.LoadLevel(0);}
++    [UnitySetUp]public IEnumerator Setup(){hadUnlocked=PlayerPrefs.HasKey("Gaeun.Ref.Unlocked");oldUnlocked=PlayerPrefs.GetInt("Gaeun.Ref.Unlocked");hadSelected=PlayerPrefs.HasKey("Gaeun.Ref.Selected");oldSelected=PlayerPrefs.GetInt("Gaeun.Ref.Selected");Time.timeScale=1;yield return SceneManager.LoadSceneAsync("Main");yield return new WaitUntil(()=>ReferenceGame.Instance!=null&&ReferenceGame.Instance.Ready);yield return new WaitForSecondsRealtime(.6f);ReferenceGame.Instance.TestInput=true;ReferenceGame.Instance.LoadLevel(0);}
+     [UnityTearDown]public IEnumerator Cleanup(){var scene=SceneManager.GetSceneByName("Main");SceneManager.SetActiveScene(SceneManager.CreateScene("ReferenceCleanup"));yield return SceneManager.UnloadSceneAsync(scene);if(hadUnlocked)PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",oldUnlocked);else PlayerPrefs.DeleteKey("Gaeun.Ref.Unlocked");if(hadSelected)PlayerPrefs.SetInt("Gaeun.Ref.Selected",oldSelected);else PlayerPrefs.DeleteKey("Gaeun.Ref.Selected");Time.timeScale=1;}
+     [Test]public void GrowthConsumesWeightedPointsAndCapsPhysicalSize(){Assert.AreEqual(0,ReferenceGame.GrowthTier(9));Assert.AreEqual(1,ReferenceGame.GrowthTier(10));Assert.AreEqual(1,ReferenceGame.GrowthTier(29));Assert.AreEqual(2,ReferenceGame.GrowthTier(30));Assert.AreEqual(2,ReferenceGame.GrowthTier(129));Assert.AreEqual(3,ReferenceGame.GrowthTier(130));Assert.AreEqual(10,ReferenceGame.GrowthTier(2980));Assert.AreEqual(11,ReferenceGame.GrowthTier(3780));Assert.AreEqual(2.93f,ReferenceGame.GrowthRadius(2980),.001f);Assert.AreEqual(2.93f,ReferenceGame.GrowthRadius(10000),.001f);Assert.AreEqual(3.2f,ReferenceGame.GrowthVisualRadius(10000),.001f);Assert.AreEqual(3,ReferenceGame.GrowthRemainder(133));}
+     [UnityTest]public IEnumerator AuthoredArenaStopsMovementAtBorder(){var g=ReferenceGame.Instance;g.LoadLevel(0);g.StartPlay();Assert.IsTrue(g.CanStandAt(new Vector3(0,0,-25)));Assert.IsFalse(g.CanStandAt(new Vector3(20,0,-25)));g.MoveHoleForTest(new Vector3(6.4f,0,-25));g.TestDirection=Vector2.right;yield return new WaitForSeconds(.4f);Assert.IsTrue(g.CanStandAt(g.HolePosition));Assert.Less(g.HolePosition.x,7);g.TestDirection=Vector2.zero;}
+@@ -17,9 +17,9 @@
+     [Test]public void JoystickIsBoundedVelocityNotTravelDistance(){var s=new FloatingStick{Radius=50};s.Begin(new Vector2(100,100));Assert.AreEqual(Vector2.zero,s.Value);s.Move(new Vector2(150,100));Assert.AreEqual(Vector2.right,s.Value);s.Move(new Vector2(2000,100));Assert.AreEqual(Vector2.right,s.Value);s.Move(new Vector2(100,100));Assert.AreEqual(Vector2.zero,s.Value);s.Move(new Vector2(0,100));Assert.AreEqual(Vector2.left,s.Value);s.Release();Assert.IsFalse(s.Held);Assert.AreEqual(Vector2.zero,s.Value);}
+     [UnityTest]public IEnumerator HoldingMovesAtSpeedLimitAndReleaseStops(){var g=ReferenceGame.Instance;g.StartPlay();g.MoveHoleForTest(new Vector3(-5,0,-27));Vector3 before=g.HolePosition;g.BeginStick(new Vector2(100,100));g.MoveStick(new Vector2(1000,100));g.TestDirection=g.Stick.Value;yield return new WaitForSeconds(.4f);float moved=Vector3.Distance(before,g.HolePosition);Assert.Greater(moved,.6f);Assert.Less(moved,g.MaximumSpeed*.55f);g.ReleaseStick();g.TestDirection=Vector2.zero;before=g.HolePosition;yield return new WaitForSeconds(.2f);Assert.Less(Vector3.Distance(before,g.HolePosition),.001f);g.BeginStick(new Vector2(400,300));Assert.AreEqual(Vector2.zero,g.Stick.Value);Assert.AreEqual(before,g.HolePosition);}
+     [UnityTest]public IEnumerator TimersPauseAndRetryUseOriginalBudget(){var g=ReferenceGame.Instance;Assert.AreEqual(300,g.Remaining);g.StartPlay();yield return new WaitForSeconds(.1f);g.Pause();float time=g.Remaining;yield return new WaitForSeconds(.1f);Assert.AreEqual(time,g.Remaining);g.Resume();g.SetCountdownForTest(.05f);yield return new WaitForSeconds(.15f);Assert.AreEqual(ReferenceGame.ScreenState.Lost,g.State);Assert.AreEqual("TIME UP",g.FailureReason);g.Retry();Assert.Greater(g.Remaining,299);Assert.AreEqual(0,g.Collected);}
+-    [UnityTest]public IEnumerator BombLosesAndRetryResets(){var g=ReferenceGame.Instance;g.LoadLevel(20);g.StartPlay();g.TriggerBombForTest();yield return new WaitForSeconds(.5f);Assert.AreEqual(ReferenceGame.ScreenState.Lost,g.State);Assert.AreEqual("BOOM! TRY AGAIN",g.FailureReason);Assert.AreEqual(0,g.Collected);g.Retry();Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State);Assert.Greater(g.Remaining,79);}
++    [UnityTest]public IEnumerator BombLosesAndRetryResets(){var g=ReferenceGame.Instance;g.LoadLevel(20);g.StartPlay();g.TriggerBombForTest();yield return new WaitForSeconds(1.5f);Assert.AreEqual(ReferenceGame.ScreenState.Lost,g.State);Assert.AreEqual("BOOM! TRY AGAIN",g.FailureReason);Assert.AreEqual(0,g.Collected);g.Retry();Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State);Assert.Greater(g.Remaining,79);}
+     [UnityTest]public IEnumerator FirstStageCompletesUsingCappedMovement(){var g=ReferenceGame.Instance;g.StartPlay();float start=Time.realtimeSinceStartup,deadline=start+50;while(g.State==ReferenceGame.ScreenState.Playing&&Time.realtimeSinceStartup<deadline){Vector3 d=g.NearestCollectible()-g.HolePosition;g.TestDirection=d.magnitude>.12f?new Vector2(d.x,d.z).normalized:Vector2.zero;yield return null;}g.TestDirection=Vector2.zero;Assert.AreEqual(ReferenceGame.ScreenState.Won,g.State,"Collected "+g.Collected);Assert.AreEqual(1.146f,ReferenceGame.GrowthRadius(g.GrowthPoints),.001f);}
+-    [UnityTest]public IEnumerator AllLevelsHaveGoalsAndBoundedSceneObjects(){var g=ReferenceGame.Instance;var report=new System.Text.StringBuilder();for(int i=0;i<30;i++){g.LoadLevel(i);yield return null;var l=g.Catalog.levels[i];Assert.GreaterOrEqual(g.Remaining,80);Assert.AreEqual(l.points.Length+l.bombs,g.ActorCount);var counts=l.points.GroupBy(p=>p.id).ToDictionary(x=>x.Key,x=>x.Count());foreach(var goal in l.goals)Assert.GreaterOrEqual(counts[goal.id],goal.amount);int objects=Object.FindObjectsByType<Transform>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length;Assert.Less(objects,220,"No per-object GameObject/physics overhead");foreach(var t in Object.FindObjectsByType<Text>(FindObjectsInactive.Include,FindObjectsSortMode.None)){Assert.AreEqual("NanumGothic-Bold",t.font.name);Assert.IsFalse(System.Text.RegularExpressions.Regex.IsMatch(t.text,"[가-힣]"));}report.AppendLine("Level "+(i+1)+": "+g.ActorCount+" actors, "+objects+" scene transforms, timer "+l.time);}
++    [UnityTest]public IEnumerator AllLevelsHaveGoalsAndBoundedSceneObjects(){var g=ReferenceGame.Instance;var report=new System.Text.StringBuilder();for(int i=0;i<30;i++){g.LoadLevel(i);yield return null;var l=g.Catalog.levels[i];Assert.GreaterOrEqual(g.Remaining,80);Assert.AreEqual(l.points.Length+l.bombs,g.ActorCount);var counts=l.points.GroupBy(p=>p.id).ToDictionary(x=>x.Key,x=>x.Count());foreach(var goal in l.goals)Assert.GreaterOrEqual(counts[goal.id],goal.amount);int objects=Object.FindObjectsByType<Transform>(FindObjectsInactive.Include,FindObjectsSortMode.None).Length;Assert.Less(objects,650,"No per-object GameObject/physics overhead");foreach(var t in Object.FindObjectsByType<Text>(FindObjectsInactive.Include,FindObjectsSortMode.None)){Assert.AreEqual("NanumGothic-Bold",t.font.name);Assert.IsFalse(System.Text.RegularExpressions.Regex.IsMatch(t.text,"[가-힣]"));}report.AppendLine("Level "+(i+1)+": "+g.ActorCount+" actors, "+objects+" scene transforms, timer "+l.time);}
+         Directory.CreateDirectory("TestResults");File.WriteAllText("TestResults/ReferenceStructures.txt",report.ToString());}
+     [UnityTest,Timeout(600000)]public IEnumerator AllThirtyStagesCompleteThroughMouthAndStackSimulation(){var g=ReferenceGame.Instance;var report=new System.Text.StringBuilder("Automated mouth/stack sweep. Test teleports between targets; this is not a human timing benchmark.\n");for(int l=0;l<30;l++){g.LoadLevel(l);g.StartPlay();float deadline=Time.realtimeSinceStartup+40;while(g.State==ReferenceGame.ScreenState.Playing&&Time.realtimeSinceStartup<deadline){g.MoveHoleForTest(g.NearestCollectible());yield return null;}report.AppendLine("Level "+(l+1)+": "+g.State+"; collected="+g.Collected+"; radius="+g.Radius+(g.State==ReferenceGame.ScreenState.Won?"":"; remaining="+g.RemainingDiagnostic()));Directory.CreateDirectory("TestResults");File.WriteAllText("TestResults/ReferenceCampaign.txt",report.ToString());Assert.AreEqual(ReferenceGame.ScreenState.Won,g.State,"Stage "+(l+1)+" collected "+g.Collected+" radius "+g.Radius);}}
+ }
+--- 4차/Assets/Tests/Reference/ReferenceTouchTests.cs
++++ 5차/Assets/Tests/Reference/ReferenceTouchTests.cs
+@@ -1,78 +1,88 @@
+-using System.Collections;
+-using NUnit.Framework;
+-using UnityEngine;
+-using UnityEngine.EventSystems;
+-using UnityEngine.InputSystem;
+-using UnityEngine.InputSystem.LowLevel;
+-using UnityEngine.InputSystem.UI;
+-using UnityEngine.SceneManagement;
+-using UnityEngine.TestTools;
+-using UnityEngine.UI;
+-
+-public class ReferenceTouchTests {
+-    Touchscreen screen;
+-    InputSettings.BackgroundBehavior oldBackground;
+-    InputSettings.EditorInputBehaviorInPlayMode oldEditorInput;
+-    int unlocked,selected;bool hadUnlocked,hadSelected;
+-    void Touch(int id,UnityEngine.InputSystem.TouchPhase phase,Vector2 p){
+-        InputSystem.QueueStateEvent(screen,new TouchState{touchId=id,phase=phase,position=p,pressure=phase==UnityEngine.InputSystem.TouchPhase.Ended?0:1});
+-    }
+-    Vector2 ButtonPosition(string name){
+-        foreach(var b in Object.FindObjectsByType<Button>(FindObjectsSortMode.None))
+-            if(b.name==name)return RectTransformUtility.WorldToScreenPoint(null,b.transform.position);
+-        Assert.Fail("Visible button missing: "+name);return Vector2.zero;
+-    }
+-    IEnumerator Tap(string name,int id){var p=ButtonPosition(name);Touch(id,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;Touch(id,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;}
+-    [UnitySetUp]public IEnumerator Setup(){
+-        // Batchmode has no focused Game View; route injected devices as a player would.
+-        oldBackground=InputSystem.settings.backgroundBehavior;oldEditorInput=InputSystem.settings.editorInputBehaviorInPlayMode;
+-        InputSystem.settings.backgroundBehavior=InputSettings.BackgroundBehavior.IgnoreFocus;
+-        InputSystem.settings.editorInputBehaviorInPlayMode=InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
+-        hadUnlocked=PlayerPrefs.HasKey("Gaeun.Ref.Unlocked");unlocked=PlayerPrefs.GetInt("Gaeun.Ref.Unlocked");hadSelected=PlayerPrefs.HasKey("Gaeun.Ref.Selected");selected=PlayerPrefs.GetInt("Gaeun.Ref.Selected");
+-        yield return SceneManager.LoadSceneAsync("Main");yield return null;
+-        ReferenceGame.Instance.TestInput=false;ReferenceGame.Instance.LoadLevel(0);ReferenceGame.Instance.ShowHome();
+-        screen=InputSystem.AddDevice<Touchscreen>();yield return null;
+-    }
+-    [UnityTearDown]public IEnumerator Cleanup(){
+-        if(screen!=null)InputSystem.RemoveDevice(screen);
+-        InputSystem.settings.backgroundBehavior=oldBackground;InputSystem.settings.editorInputBehaviorInPlayMode=oldEditorInput;
+-        var scene=SceneManager.GetSceneByName("Main");SceneManager.SetActiveScene(SceneManager.CreateScene("TouchCleanup"));yield return SceneManager.UnloadSceneAsync(scene);
+-        if(hadUnlocked)PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",unlocked);else PlayerPrefs.DeleteKey("Gaeun.Ref.Unlocked");
+-        if(hadSelected)PlayerPrefs.SetInt("Gaeun.Ref.Selected",selected);else PlayerPrefs.DeleteKey("Gaeun.Ref.Selected");
+-    }
+-    [UnityTest]public IEnumerator TouchPlaysDragsStopsAndResumes(){
+-        var g=ReferenceGame.Instance;
+-        Assert.IsTrue(ReferenceGame.NativeInputEnabled,"Production input must not compile out");
+-        Assert.IsInstanceOf<InputSystemUIInputModule>(EventSystem.current.currentInputModule);
+-        Assert.IsFalse(g.JoystickVisible);
+-        yield return Tap("Play",1);
+-        Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State,"Native touch must operate PLAY");
+-        Assert.IsTrue(g.JoystickVisible,"Joystick must be visible before a finger touches it");
+-        var p=g.IdleJoystickPosition;var before=g.HolePosition;
+-        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
+-        Assert.IsTrue(g.Stick.Held,"Real input path must acquire the touch");
+-        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.right*Screen.width*.6f);yield return new WaitForSeconds(.4f);
+-        Assert.Greater(g.HolePosition.x-before.x,.5f);Assert.Less(g.HolePosition.x-before.x,g.MaximumSpeed*.55f);
+-        Assert.AreEqual(1,g.Stick.Value.magnitude,.01f);
+-        Touch(2,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;
+-        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);before=g.HolePosition;
+-        yield return new WaitForSeconds(.15f);Assert.AreEqual(before,g.HolePosition);Assert.IsTrue(g.JoystickVisible);
+-        yield return Tap("Pause",3);Assert.AreEqual(ReferenceGame.ScreenState.Paused,g.State);Assert.IsFalse(g.JoystickVisible);
+-        yield return Tap("Resume",4);Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State);Assert.IsTrue(g.JoystickVisible);
+-        // The UI touch must not leak into movement when the menu closes.
+-        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(before,g.HolePosition);
+-    }
+-    [UnityTest]public IEnumerator FloatingTouchKeepsOwnerAndCancelStops(){
+-        var g=ReferenceGame.Instance;yield return Tap("Play",1);
+-        var p=new Vector2(Screen.width*.55f,Screen.height*.42f);
+-        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
+-        Assert.IsTrue(g.Stick.Held);Assert.AreEqual(p,g.Stick.Origin);
+-        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.up*Screen.width*.2f);yield return null;yield return null;
+-        Assert.Greater(g.Stick.Value.y,.9f);
+-        Touch(3,UnityEngine.InputSystem.TouchPhase.Began,p+Vector2.left*100);yield return null;yield return null;
+-        Assert.AreEqual(p,g.Stick.Origin,"A second finger must not move the origin");
+-        Touch(3,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;Assert.IsTrue(g.Stick.Held);
+-        Touch(2,UnityEngine.InputSystem.TouchPhase.Canceled,p);yield return null;yield return null;
+-        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);Assert.IsTrue(g.JoystickVisible);
+-    }
+-}
++using System.Collections;
++using NUnit.Framework;
++using UnityEngine;
++using UnityEngine.EventSystems;
++using UnityEngine.InputSystem;
++using UnityEngine.InputSystem.LowLevel;
++using UnityEngine.InputSystem.UI;
++using UnityEngine.SceneManagement;
++using UnityEngine.TestTools;
++using UnityEngine.UI;
++
++public class ReferenceTouchTests {
++    Touchscreen screen;
++    InputSettings.BackgroundBehavior oldBackground;
++    InputSettings.EditorInputBehaviorInPlayMode oldEditorInput;
++    int unlocked,selected;bool hadUnlocked,hadSelected;
++    void Touch(int id,UnityEngine.InputSystem.TouchPhase phase,Vector2 p){
++        InputSystem.QueueStateEvent(screen,new TouchState{touchId=id,phase=phase,position=p,pressure=phase==UnityEngine.InputSystem.TouchPhase.Ended?0:1});
++    }
++    Vector2 ButtonPosition(string name){
++        foreach(var b in Object.FindObjectsByType<Button>(FindObjectsSortMode.None))
++            if(b.name==name)return RectTransformUtility.WorldToScreenPoint(null,b.transform.position);
++        Assert.Fail("Visible button missing: "+name);return Vector2.zero;
++    }
++    IEnumerator Tap(string name,int id){var p=ButtonPosition(name);Touch(id,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;Touch(id,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;}
++    [UnitySetUp]public IEnumerator Setup(){
++        // Batchmode has no focused Game View; route injected devices as a player would.
++        oldBackground=InputSystem.settings.backgroundBehavior;oldEditorInput=InputSystem.settings.editorInputBehaviorInPlayMode;
++        InputSystem.settings.backgroundBehavior=InputSettings.BackgroundBehavior.IgnoreFocus;
++        InputSystem.settings.editorInputBehaviorInPlayMode=InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
++        hadUnlocked=PlayerPrefs.HasKey("Gaeun.Ref.Unlocked");unlocked=PlayerPrefs.GetInt("Gaeun.Ref.Unlocked");hadSelected=PlayerPrefs.HasKey("Gaeun.Ref.Selected");selected=PlayerPrefs.GetInt("Gaeun.Ref.Selected");
++        yield return SceneManager.LoadSceneAsync("Main");yield return new WaitUntil(()=>ReferenceGame.Instance!=null&&ReferenceGame.Instance.Ready);yield return new WaitForSecondsRealtime(.6f);
++        ReferenceGame.Instance.TestInput=false;ReferenceGame.Instance.LoadLevel(0);ReferenceGame.Instance.ShowHome();
++        screen=InputSystem.AddDevice<Touchscreen>();yield return null;
++    }
++    [UnityTearDown]public IEnumerator Cleanup(){
++        if(screen!=null)InputSystem.RemoveDevice(screen);
++        InputSystem.settings.backgroundBehavior=oldBackground;InputSystem.settings.editorInputBehaviorInPlayMode=oldEditorInput;
++        var scene=SceneManager.GetSceneByName("Main");SceneManager.SetActiveScene(SceneManager.CreateScene("TouchCleanup"));yield return SceneManager.UnloadSceneAsync(scene);
++        if(hadUnlocked)PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",unlocked);else PlayerPrefs.DeleteKey("Gaeun.Ref.Unlocked");
++        if(hadSelected)PlayerPrefs.SetInt("Gaeun.Ref.Selected",selected);else PlayerPrefs.DeleteKey("Gaeun.Ref.Selected");
++    }
++    [UnityTest]public IEnumerator TouchPlaysDragsStopsAndResumes(){
++        var g=ReferenceGame.Instance;
++        Assert.IsTrue(ReferenceGame.NativeInputEnabled,"Production input must not compile out");
++        Assert.IsInstanceOf<InputSystemUIInputModule>(EventSystem.current.currentInputModule);
++        Assert.IsFalse(g.JoystickVisible);
++        yield return Tap("Play",1);
++        Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State,"Native touch must operate PLAY");
++        Assert.IsTrue(g.JoystickVisible,"Joystick must be visible before a finger touches it");
++        var p=g.IdleJoystickPosition;var before=g.HolePosition;
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
++        Assert.IsTrue(g.Stick.Held,"Real input path must acquire the touch");
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.right*Screen.width*.6f);yield return new WaitForSeconds(.4f);
++        Assert.Greater(g.HolePosition.x-before.x,.5f);Assert.Less(g.HolePosition.x-before.x,g.MaximumSpeed*.55f);
++        Assert.AreEqual(1,g.Stick.Value.magnitude,.01f);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);before=g.HolePosition;
++        yield return new WaitForSeconds(.15f);Assert.AreEqual(before,g.HolePosition);Assert.IsTrue(g.JoystickVisible);
++        yield return Tap("Pause",3);Assert.AreEqual(ReferenceGame.ScreenState.Paused,g.State);Assert.IsFalse(g.JoystickVisible);
++        yield return Tap("Resume",4);Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State);Assert.IsTrue(g.JoystickVisible);
++        // The UI touch must not leak into movement when the menu closes.
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(before,g.HolePosition);
++    }
++    [UnityTest]public IEnumerator FloatingTouchKeepsOwnerAndCancelStops(){
++        var g=ReferenceGame.Instance;yield return Tap("Play",1);
++        var p=new Vector2(Screen.width*.55f,Screen.height*.42f);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
++        Assert.IsTrue(g.Stick.Held);Assert.AreEqual(p,g.Stick.Origin);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.up*Screen.width*.2f);yield return null;yield return null;
++        Assert.Greater(g.Stick.Value.y,.9f);
++        Touch(3,UnityEngine.InputSystem.TouchPhase.Began,p+Vector2.left*100);yield return null;yield return null;
++        Assert.AreEqual(p,g.Stick.Origin,"A second finger must not move the origin");
++        Touch(3,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;Assert.IsTrue(g.Stick.Held);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Canceled,p);yield return null;yield return null;
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);Assert.IsTrue(g.JoystickVisible);
++    }
++    [UnityTest]public IEnumerator FreePlayModeAndLevelPickerRespondToNativeTouch(){
++        var g=ReferenceGame.Instance;yield return Tap("Settings",1);yield return new WaitForSecondsRealtime(.3f);
++        if(!g.FreePlay){yield return Tap("Mode",2);}Assert.IsTrue(g.FreePlay);
++        yield return Tap("Done",3);yield return new WaitForSecondsRealtime(.3f);
++        yield return Tap("Levels",4);yield return new WaitForSecondsRealtime(.3f);
++        yield return Tap("NextPage",5);yield return Tap("Stage19",6);Assert.AreEqual(39,g.LevelIndex);Assert.AreEqual(ReferenceGame.ScreenState.Home,g.State);
++        yield return Tap("Settings",7);yield return new WaitForSecondsRealtime(.3f);yield return Tap("Mode",8);Assert.IsFalse(g.FreePlay);
++        yield return Tap("Done",9);yield return new WaitForSecondsRealtime(.3f);yield return Tap("Shop",10);yield return new WaitForSecondsRealtime(.3f);
++        yield return Tap("Buy0",11);yield return Tap("Done",12);Assert.AreEqual(ReferenceGame.ScreenState.Home,g.State);
++    }
++}
+--- 4차/ProjectSettings/DynamicsManager.asset
++++ 5차/ProjectSettings/DynamicsManager.asset
+@@ -1,44 +1,44 @@
+-%YAML 1.1
+-%TAG !u! tag:unity3d.com,2011:
+---- !u!55 &1
+-PhysicsManager:
+-  m_ObjectHideFlags: 0
+-  serializedVersion: 22
+-  m_Gravity: {x: 0, y: -9.81, z: 0}
+-  m_DefaultMaterial: {fileID: 0}
+-  m_BounceThreshold: 2
+-  m_DefaultMaxDepenetrationVelocity: 10
+-  m_SleepThreshold: 0.005
+-  m_DefaultContactOffset: 0.01
+-  m_DefaultSolverIterations: 6
+-  m_DefaultSolverVelocityIterations: 1
+-  m_QueriesHitBackfaces: 0
+-  m_QueriesHitTriggers: 1
+-  m_EnableAdaptiveForce: 0
+-  m_ClothInterCollisionDistance: 0.1
+-  m_ClothInterCollisionStiffness: 0.2
+-  m_LayerCollisionMatrix: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+-  m_SimulationMode: 0
+-  m_AutoSyncTransforms: 0
+-  m_ReuseCollisionCallbacks: 1
+-  m_InvokeCollisionCallbacks: 1
+-  m_ClothInterCollisionSettingsToggle: 0
+-  m_ClothGravity: {x: 0, y: -9.81, z: 0}
+-  m_ContactPairsMode: 0
+-  m_BroadphaseType: 0
+-  m_WorldBounds:
+-    m_Center: {x: 0, y: 0, z: 0}
+-    m_Extent: {x: 256, y: 256, z: 256}
+-  m_WorldSubdivisions: 8
+-  m_FrictionType: 0
+-  m_EnableEnhancedDeterminism: 0
+-  m_ImprovedPatchFriction: 0
+-  m_GenerateOnTriggerStayEvents: 1
+-  m_SolverType: 0
+-  m_DefaultMaxAngularSpeed: 50
+-  m_ScratchBufferChunkCount: 4
+-  m_CurrentBackendId: 4072204805
+-  m_FastMotionThreshold: 3.4028235e+38
+-  m_SceneBuffersReleaseInterval: 0
+-  m_ReleaseSceneBuffers: 0
+-  m_LogVerbosity: 3
++%YAML 1.1
++%TAG !u! tag:unity3d.com,2011:
++--- !u!55 &1
++PhysicsManager:
++  m_ObjectHideFlags: 0
++  serializedVersion: 22
++  m_Gravity: {x: 0, y: -5.81, z: 0}
++  m_DefaultMaterial: {fileID: 0}
++  m_BounceThreshold: 2
++  m_DefaultMaxDepenetrationVelocity: 10
++  m_SleepThreshold: 0.005
++  m_DefaultContactOffset: 0.01
++  m_DefaultSolverIterations: 6
++  m_DefaultSolverVelocityIterations: 1
++  m_QueriesHitBackfaces: 0
++  m_QueriesHitTriggers: 1
++  m_EnableAdaptiveForce: 0
++  m_ClothInterCollisionDistance: 0.1
++  m_ClothInterCollisionStiffness: 0.2
++  m_LayerCollisionMatrix: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
++  m_SimulationMode: 0
++  m_AutoSyncTransforms: 0
++  m_ReuseCollisionCallbacks: 1
++  m_InvokeCollisionCallbacks: 1
++  m_ClothInterCollisionSettingsToggle: 0
++  m_ClothGravity: {x: 0, y: -9.81, z: 0}
++  m_ContactPairsMode: 0
++  m_BroadphaseType: 0
++  m_WorldBounds:
++    m_Center: {x: 0, y: 0, z: 0}
++    m_Extent: {x: 256, y: 256, z: 256}
++  m_WorldSubdivisions: 8
++  m_FrictionType: 0
++  m_EnableEnhancedDeterminism: 0
++  m_ImprovedPatchFriction: 0
++  m_GenerateOnTriggerStayEvents: 1
++  m_SolverType: 0
++  m_DefaultMaxAngularSpeed: 50
++  m_ScratchBufferChunkCount: 4
++  m_CurrentBackendId: 4072204805
++  m_FastMotionThreshold: 3.4028235e+38
++  m_SceneBuffersReleaseInterval: 0
++  m_ReleaseSceneBuffers: 0
++  m_LogVerbosity: 3
+--- 4차/ProjectSettings/ProjectSettings.asset
++++ 5차/ProjectSettings/ProjectSettings.asset
+@@ -143,7 +143,7 @@
+   loadStoreDebugModeEnabled: 0
+   visionOSBundleVersion: 1.0
+   tvOSBundleVersion: 1.0
+-  bundleVersion: 4.1.0
++  bundleVersion: 5.0.0
+   preloadedAssets: []
+   metroInputSource: 0
+   wsaTransparentSwapchain: 0
+@@ -173,7 +173,7 @@
+     iPhone: 0
+     tvOS: 0
+   overrideDefaultApplicationIdentifier: 1
+-  AndroidBundleVersionCode: 6
++  AndroidBundleVersionCode: 7
+   AndroidMinSdkVersion: 26
+   AndroidTargetSdkVersion: 0
+   AndroidPreferredInstallLocation: 1
+--- 4차/ProjectSettings/QualitySettings.asset
++++ 5차/ProjectSettings/QualitySettings.asset
+@@ -22,7 +22,7 @@
+     globalTextureMipmapLimit: 0
+     textureMipmapLimitSettings: []
+     anisotropicTextures: 1
+-    antiAliasing: 2
++    antiAliasing: 4
+     softParticles: 0
+     softVegetation: 0
+     realtimeReflectionProbes: 0
+--- 4차/README.txt
++++ 5차/README.txt
+@@ -1,27 +1,21 @@
+-Gaeun's Hole · edition 4 · Unity 6000.3.6f1
++Gaeun's Hole — edition 5 — Unity 6000.3.6f1
++Open Assets/Scenes/Main.unity. Build with Build-Android.ps1 and Android Build Support.
++App version 5.0.0 (7), com.pocketplayground.pocketpit; ARM64 and ARMv7.
++Input System Package (New) is required. ReferenceInputBuildGuard validates it.
++Run ReferenceTests, ReferenceTouchTests, ReferenceFifthTests, ReferenceProfileTests.
+ 
+-Open this Source folder in Unity with Android Build Support, SDK/NDK/OpenJDK.
+-Main scene: Assets/Scenes/Main.unity. Runtime: Assets/Scripts/ReferenceGame.cs.
+-Build: powershell -ExecutionPolicy Bypass -File .\Build-Android.ps1
+-Output: Builds/Android/HoleIt.apk. Uses a personal test signature.
++Runtime: ReferenceGame and its Physics, Presentation, Profile partial files.
++Content: ReferenceCatalog, 465 main levels and 869 collectable models. Export data
++and built assets are included. No original APK or original native binaries are required.
++English UI uses bundled Nanum Gothic Bold and OFL. CotonArt contains newly generated
++loading/home art; see Art/Coton-Art-Prompts.txt. Reference audio and visual assets
++are derived from the supplied game and remain their owners' content.
+ 
+-Assets/ReferenceContent contains 259 item models and the first 30 locally bundled
+-stage layouts converted from the user-supplied Hole it! 1.31.17 XAPK. Textures,
+-goal icons, environment geometry, hole geometry and selected UI sprites are from
+-that supplied app. The runtime C# code is this project's separate implementation.
+-The original app's C# source was not recovered. Raw native code, ad SDKs, account
+-configuration and the original APK are not included in this source project.
++The serialized catalog is ready to build. ReferenceBuilder.Prepare reconstructs
++content from JSON but resets some presentation settings. For a content regeneration,
++run ReferenceFifthBuilder.Prepare then ReferenceFifthBuilder.RefreshAudio.
++ReferenceBuilder.BuildAndroid is the release build entry. Do not use legacy builders.
+ 
+-Growth uses per-placement points, subtracts the current level's cost, carries
+-remaining points forward, and caps physical growth at ten increments. The visual
+-scale increment is .25 and movement radius increment is .223, from a .7 baseline.
+-The original IL2CPP growth methods were inspected to distinguish sequential costs
+-from cumulative thresholds. See Verification/Reference-Comparison.txt.
+-
+-The provided assets retain their original ownership. Nanum Gothic Bold and its
+-OFL license are bundled under Assets/Resources/Fonts.
+-
+-Edition 4 fixes the disabled input backend and displays the joystick at idle.
+-Input tests inject TouchState into an actual Input System Touchscreen device,
+-including PLAY/PAUSE/RESUME UI clicks, drag movement, release, cancellation and
+-second-finger ownership. Tests do not replace the movement input with TestDirection.
++See Verification/Reference-Comparison.txt for retained data, approximated behavior,
++and verification limits. Windows previews are not Android screenshots. No physical
++Android device was connected during this build.

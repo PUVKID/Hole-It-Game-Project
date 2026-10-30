@@ -1,0 +1,24 @@
+{
+  "route": "gradle-recovery",
+  "apkSHA256": "bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a",
+  "records": [
+    {
+      "path": "Verification/AndroidBuild.txt",
+      "sha256": "150d17f89d9c5b0371718b988e3a4207828bffbbd7871e7037d20518f6df80c5"
+    },
+    {
+      "path": "Verification/AndroidGradleBuild.txt",
+      "sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7"
+    },
+    {
+      "path": "Verification/AndroidGradleBuild.log",
+      "sha256": "1365178706223274c36c65313b553eb0a2be0d5754b11872df8f379425ab8a04"
+    }
+  ],
+  "sourceManifest": {
+    "path": "Verification/SourceBuildManifest.json",
+    "sha256": "34c39c87bc813b785eaccfa0574430313038e4d922d6e239748d477feff1d9a1",
+    "sourceCsDigest": "1254fa5f07d7e5fdd111b83b3e5527a88d669672f39270c7d2e408b15fb693ef"
+  },
+  "scope": "Build completion and pre-build/current C# source hash agreement only; signing, alignment, assets and Android runtime QA are separate records."
+}

@@ -1,0 +1,14 @@
+{
+  "CompletedUtc": "2026-10-13T11:06:19.2150943Z",
+  "Status": "Completed and APK signature/manifest/alignment verified",
+  "Route": "gradle-recovery",
+  "UnityFailurePreserved": "Source/TestResults/AndroidBuild.txt",
+  "GradleSuccessReport": "Source/TestResults/AndroidGradleBuild.txt",
+  "PreparedManifestArchive": "Audit/SourceBuildManifest-prepared.json",
+  "PreparedManifestSHA256": "3b14e5cf6f5e3097484a99c1120d7937a8bac6d235c94fd6608aa7d2d575f065",
+  "CompletedManifest": "Audit/SourceBuildManifest.json",
+  "CompletedManifestSHA256": "34c39c87bc813b785eaccfa0574430313038e4d922d6e239748d477feff1d9a1",
+  "ApkBytes": 624400385,
+  "ApkSHA256": "bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a",
+  "PhoneRuntimeTested": false
+}

@@ -1,0 +1,2098 @@
+[
+  {
+    "name": "HoleContainer",
+    "gameObject": 694,
+    "transform": 832,
+    "depth": 0,
+    "parent": 0,
+    "position": {
+      "x": 0.0,
+      "y": 1.5800000429153442,
+      "z": -23.5
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "Cube-CollectionTrigger",
+    "gameObject": 56,
+    "transform": 779,
+    "depth": 1,
+    "parent": 832,
+    "position": {
+      "x": 0.007400000002235174,
+      "y": -4.349999904632568,
+      "z": -0.14060020446777344
+    },
+    "scale": {
+      "x": 14.800000190734863,
+      "y": 0.19232600927352905,
+      "z": 14.800000190734863
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "BoxCollider",
+        "id": 980,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 56
+          },
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_IsTrigger": true,
+          "m_ProvidesContacts": false,
+          "m_Enabled": true,
+          "m_Size": {
+            "x": 2.0960381031036377,
+            "y": 15.403414726257324,
+            "z": 1.9815747737884521
+          },
+          "m_Center": {
+            "x": -0.02081323228776455,
+            "y": -7.2017083168029785,
+            "z": 0.039886169135570526
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "HoleParent",
+    "gameObject": 578,
+    "transform": 888,
+    "depth": 1,
+    "parent": 832,
+    "position": {
+      "x": 0.0,
+      "y": -1.621000051498413,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 0.699999988079071,
+      "y": 0.699999988079071,
+      "z": 0.699999988079071
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleGraphics",
+    "gameObject": 487,
+    "transform": 872,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.05000000074505806,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleDisplay",
+    "gameObject": 510,
+    "transform": 854,
+    "depth": 3,
+    "parent": 872,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleGeo",
+    "gameObject": 506,
+    "transform": 846,
+    "depth": 4,
+    "parent": 854,
+    "position": {
+      "x": 0.0,
+      "y": -0.007999945431947708,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 948,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 506
+          },
+          "m_Mesh": {
+            "m_FileID": 2,
+            "m_PathID": 158
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "HoleGrowNew",
+    "gameObject": 663,
+    "transform": 844,
+    "depth": 3,
+    "parent": 872,
+    "position": {
+      "x": 0.0,
+      "y": -0.009999999776482582,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 20.714282989501953,
+      "y": 20.71428680419922,
+      "z": 20.71428680419922
+    },
+    "rotation": {
+      "x": 0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 949,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 663
+          },
+          "m_Mesh": {
+            "m_FileID": 6,
+            "m_PathID": 10210
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "HoleGlow",
+    "gameObject": 628,
+    "transform": 815,
+    "depth": 3,
+    "parent": 872,
+    "position": {
+      "x": 0.0,
+      "y": 0.009999999776482582,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 0.800000011920929,
+      "y": 0.800000011920929,
+      "z": 0.800000011920929
+    },
+    "rotation": {
+      "x": 0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "HoleMask",
+    "gameObject": 273,
+    "transform": 797,
+    "depth": 3,
+    "parent": 872,
+    "position": {
+      "x": 0.0,
+      "y": -0.05000000074505806,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.7000001668930054,
+      "y": 0.009999999776482582,
+      "z": 1.7000001668930054
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 941,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 273
+          },
+          "m_Mesh": {
+            "m_FileID": 6,
+            "m_PathID": 10206
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "ProgressBarVector",
+    "gameObject": 564,
+    "transform": 802,
+    "depth": 3,
+    "parent": 872,
+    "position": {
+      "x": 0.0,
+      "y": 0.009999999776482582,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "InsideGraphics",
+    "gameObject": 521,
+    "transform": 809,
+    "depth": 4,
+    "parent": 802,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 925,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 521
+          },
+          "m_Mesh": {
+            "m_FileID": 2,
+            "m_PathID": 127
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "OutlineGraphics",
+    "gameObject": 102,
+    "transform": 870,
+    "depth": 4,
+    "parent": 802,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.009999999776482582
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 939,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 102
+          },
+          "m_Mesh": {
+            "m_FileID": 2,
+            "m_PathID": 127
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "HolePhysics",
+    "gameObject": 543,
+    "transform": 889,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleCollider-Outer",
+    "gameObject": 307,
+    "transform": 789,
+    "depth": 3,
+    "parent": 889,
+    "position": {
+      "x": 0.0,
+      "y": 0.05000000074505806,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 0.9199999570846558,
+      "y": 0.9199999570846558,
+      "z": 0.9199999570846558
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 956,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 307
+          },
+          "m_Mesh": {
+            "m_FileID": 3,
+            "m_PathID": 160
+          }
+        }
+      },
+      {
+        "type": "MeshCollider",
+        "id": 960,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 307
+          },
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_IsTrigger": false,
+          "m_ProvidesContacts": true,
+          "m_Enabled": true,
+          "m_Convex": false,
+          "m_CookingOptions": 30,
+          "m_Mesh": {
+            "m_FileID": 3,
+            "m_PathID": 160
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "HoleCollider-Inner",
+    "gameObject": 466,
+    "transform": 877,
+    "depth": 3,
+    "parent": 889,
+    "position": {
+      "x": 0.0,
+      "y": 0.02500000037252903,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 0.9150000214576721,
+      "y": 0.9150000214576721,
+      "z": 0.9150000214576721
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 955,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 466
+          },
+          "m_Mesh": {
+            "m_FileID": 3,
+            "m_PathID": 160
+          }
+        }
+      },
+      {
+        "type": "MeshCollider",
+        "id": 973,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 466
+          },
+          "m_Material": {
+            "m_FileID": 3,
+            "m_PathID": 176
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_IsTrigger": false,
+          "m_ProvidesContacts": false,
+          "m_Enabled": true,
+          "m_Convex": false,
+          "m_CookingOptions": 30,
+          "m_Mesh": {
+            "m_FileID": 3,
+            "m_PathID": 160
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "ObjectPhysicsDetection",
+    "gameObject": 111,
+    "transform": 845,
+    "depth": 3,
+    "parent": 889,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.5499999523162842,
+      "y": 100.0,
+      "z": 1.5499999523162842
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "CapsuleCollider",
+        "id": 992,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 111
+          },
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_IsTrigger": true,
+          "m_ProvidesContacts": false,
+          "m_Enabled": true,
+          "m_Radius": 0.4999999701976776,
+          "m_Height": 1.9999998807907104,
+          "m_Direction": 1,
+          "m_Center": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "SmoothObjectDetection",
+    "gameObject": 410,
+    "transform": 828,
+    "depth": 3,
+    "parent": 889,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 100.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "MeshFilter",
+        "id": 953,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 410
+          },
+          "m_Mesh": {
+            "m_FileID": 6,
+            "m_PathID": 10208
+          }
+        }
+      },
+      {
+        "type": "BoxCollider",
+        "id": 984,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 410
+          },
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_IsTrigger": true,
+          "m_ProvidesContacts": false,
+          "m_Enabled": true,
+          "m_Size": {
+            "x": 1.2935724258422852,
+            "y": 0.40494775772094727,
+            "z": 1.3469123840332031
+          },
+          "m_Center": {
+            "x": 0.029951121658086777,
+            "y": -0.20329029858112335,
+            "z": -0.009540830738842487
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "HoleAttactractionPostion",
+    "gameObject": 572,
+    "transform": 808,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": -2.940000057220459,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleCenter",
+    "gameObject": 686,
+    "transform": 879,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": -4.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "Rings-Increase-Ring-Effect",
+    "gameObject": 79,
+    "transform": 882,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.07000003755092621,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "HoleBigParticle",
+    "gameObject": 101,
+    "transform": 827,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 2.3157143592834473,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.4285714626312256,
+      "y": 1.4285714626312256,
+      "z": 1.4285714626312256
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "Stretched Sparks",
+    "gameObject": 552,
+    "transform": 833,
+    "depth": 3,
+    "parent": 827,
+    "position": {
+      "x": 0.0,
+      "y": -1.590999960899353,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Sparks",
+    "gameObject": 644,
+    "transform": 878,
+    "depth": 3,
+    "parent": 827,
+    "position": {
+      "x": 0.0,
+      "y": -1.590999960899353,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.7071065902709961,
+      "y": -0.0,
+      "z": -0.0,
+      "w": -0.7071069478988647
+    },
+    "components": []
+  },
+  {
+    "name": "MagicGlow",
+    "gameObject": 294,
+    "transform": 776,
+    "depth": 3,
+    "parent": 827,
+    "position": {
+      "x": 0.0,
+      "y": -1.6230000257492065,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.149999976158142,
+      "y": 1.149999976158142,
+      "z": 1.149999976158142
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "SizeBoosterActivateParticle",
+    "gameObject": 105,
+    "transform": 803,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.10000000149011612,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Vertical",
+    "gameObject": 508,
+    "transform": 837,
+    "depth": 3,
+    "parent": 803,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "ConeSpikes",
+    "gameObject": 454,
+    "transform": 887,
+    "depth": 3,
+    "parent": 803,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "CenterGlow",
+    "gameObject": 646,
+    "transform": 850,
+    "depth": 3,
+    "parent": 803,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "MagnetBoosterparticle",
+    "gameObject": 599,
+    "transform": 830,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.10000000149011612,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Vertical",
+    "gameObject": 343,
+    "transform": 817,
+    "depth": 3,
+    "parent": 830,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "ConeSpikes",
+    "gameObject": 302,
+    "transform": 801,
+    "depth": 3,
+    "parent": 830,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "CenterGlow",
+    "gameObject": 154,
+    "transform": 821,
+    "depth": 3,
+    "parent": 830,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "SizeBoosterRunningParticle",
+    "gameObject": 329,
+    "transform": 818,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": -0.0028572764713317156,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.6428571939468384,
+      "y": 1.642857313156128,
+      "z": 1.642857313156128
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Sparks",
+    "gameObject": 414,
+    "transform": 858,
+    "depth": 3,
+    "parent": 818,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.02782614156603813
+    },
+    "scale": {
+      "x": 0.8695651888847351,
+      "y": 0.869564950466156,
+      "z": 0.869564950466156
+    },
+    "rotation": {
+      "x": -2.682208730675484e-07,
+      "y": -0.0,
+      "z": -0.0,
+      "w": -1.0
+    },
+    "components": []
+  },
+  {
+    "name": "SpeedBoosterActivateParticle",
+    "gameObject": 432,
+    "transform": 790,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.10000000149011612,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.4285714626312256,
+      "y": 1.4285717010498047,
+      "z": 1.4285717010498047
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "ImpactLightning",
+    "gameObject": 373,
+    "transform": 805,
+    "depth": 3,
+    "parent": 790,
+    "position": {
+      "x": 0.0,
+      "y": -0.0,
+      "z": 0.014999999664723873
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "Glow",
+    "gameObject": 130,
+    "transform": 780,
+    "depth": 3,
+    "parent": 790,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "Ring",
+    "gameObject": 190,
+    "transform": 853,
+    "depth": 3,
+    "parent": 790,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "VerticalStrike",
+    "gameObject": 368,
+    "transform": 847,
+    "depth": 3,
+    "parent": 790,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -0.800000011920929
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": -7.450580596923828e-08
+    },
+    "components": []
+  },
+  {
+    "name": "ConeSpikes",
+    "gameObject": 276,
+    "transform": 781,
+    "depth": 3,
+    "parent": 790,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.13930006325244904
+    },
+    "scale": {
+      "x": 0.699999988079071,
+      "y": 0.6999998688697815,
+      "z": 0.6999998688697815
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "SpeedBoosterRunningParticle",
+    "gameObject": 275,
+    "transform": 838,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.05857144296169281,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 3.0,
+      "y": 3.0,
+      "z": 3.0
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "LightningBlue",
+    "gameObject": 712,
+    "transform": 869,
+    "depth": 3,
+    "parent": 838,
+    "position": {
+      "x": 0.0,
+      "y": 0.05000000074505806,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "LightningWhite",
+    "gameObject": 158,
+    "transform": 873,
+    "depth": 3,
+    "parent": 838,
+    "position": {
+      "x": 0.0,
+      "y": 0.05000000074505806,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "RingParticle",
+    "gameObject": 447,
+    "transform": 792,
+    "depth": 3,
+    "parent": 838,
+    "position": {
+      "x": 0.0,
+      "y": -0.009999999776482582,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 0.5476190447807312,
+      "y": 0.5476191639900208,
+      "z": 0.5476191639900208
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "ArrowContainer",
+    "gameObject": 647,
+    "transform": 881,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.05857143551111221,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.428571343421936,
+      "y": 1.428571343421936,
+      "z": 1.428571343421936
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "RoundedTriangleFull@512px",
+    "gameObject": 363,
+    "transform": 841,
+    "depth": 3,
+    "parent": 881,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -0.9330000281333923
+    },
+    "scale": {
+      "x": 0.029999997466802597,
+      "y": 0.029999997466802597,
+      "z": 0.029999997466802597
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.7071068286895752,
+      "z": -0.7071068286895752,
+      "w": 0.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleSizeText",
+    "gameObject": 571,
+    "transform": 2063,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -1.121000051498413
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "MagnetPreBooster-Blue",
+    "gameObject": 132,
+    "transform": 840,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.10000000149011612,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Vertical",
+    "gameObject": 168,
+    "transform": 791,
+    "depth": 3,
+    "parent": 840,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "ConeSpikes",
+    "gameObject": 522,
+    "transform": 819,
+    "depth": 3,
+    "parent": 840,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "CenterGlow",
+    "gameObject": 584,
+    "transform": 867,
+    "depth": 3,
+    "parent": 840,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "SandClockPreBooster-Purple",
+    "gameObject": 227,
+    "transform": 874,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.10000000149011612,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Vertical",
+    "gameObject": 113,
+    "transform": 886,
+    "depth": 3,
+    "parent": 874,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "ConeSpikes",
+    "gameObject": 139,
+    "transform": 785,
+    "depth": 3,
+    "parent": 874,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "CenterGlow",
+    "gameObject": 662,
+    "transform": 868,
+    "depth": 3,
+    "parent": 874,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "NukeExplosionFire",
+    "gameObject": 244,
+    "transform": 806,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.21400000154972076,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "Sparks",
+    "gameObject": 299,
+    "transform": 859,
+    "depth": 3,
+    "parent": 806,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.7071065902709961,
+      "y": 0.0,
+      "z": 0.0,
+      "w": -0.7071069478988647
+    },
+    "components": []
+  },
+  {
+    "name": "FireBall",
+    "gameObject": 664,
+    "transform": 865,
+    "depth": 3,
+    "parent": 806,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.7071065902709961,
+      "y": 0.0,
+      "z": 0.0,
+      "w": -0.7071069478988647
+    },
+    "components": []
+  },
+  {
+    "name": "Sphere",
+    "gameObject": 357,
+    "transform": 885,
+    "depth": 3,
+    "parent": 806,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.7071065902709961,
+      "y": 0.0,
+      "z": 0.0,
+      "w": -0.7071069478988647
+    },
+    "components": []
+  },
+  {
+    "name": "SkullParticle",
+    "gameObject": 245,
+    "transform": 826,
+    "depth": 3,
+    "parent": 806,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": 0.0,
+      "z": -0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "MagnetPreBooster-Blue",
+    "gameObject": 422,
+    "transform": 787,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.10000000149011612,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Vertical",
+    "gameObject": 379,
+    "transform": 842,
+    "depth": 3,
+    "parent": 787,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "ConeSpikes",
+    "gameObject": 338,
+    "transform": 861,
+    "depth": 3,
+    "parent": 787,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "CenterGlow",
+    "gameObject": 284,
+    "transform": 820,
+    "depth": 3,
+    "parent": 787,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "SandClockPreBooster-Purple",
+    "gameObject": 464,
+    "transform": 799,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.10000000149011612,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": -0.7071068286895752,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0.7071068286895752
+    },
+    "components": []
+  },
+  {
+    "name": "Vertical",
+    "gameObject": 691,
+    "transform": 775,
+    "depth": 3,
+    "parent": 799,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "ConeSpikes",
+    "gameObject": 554,
+    "transform": 890,
+    "depth": 3,
+    "parent": 799,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "CenterGlow",
+    "gameObject": 65,
+    "transform": 793,
+    "depth": 3,
+    "parent": 799,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleMagnet",
+    "gameObject": 682,
+    "transform": 856,
+    "depth": 2,
+    "parent": 888,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 5.0,
+      "y": 5.0,
+      "z": 5.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "Rigidbody",
+        "id": 957,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 682
+          },
+          "m_Mass": 1.0,
+          "m_LinearDamping": 0.0,
+          "m_AngularDamping": 0.05000000074505806,
+          "m_CenterOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "m_InertiaTensor": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "m_InertiaRotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ImplicitCom": true,
+          "m_ImplicitTensor": false,
+          "m_UseGravity": true,
+          "m_IsKinematic": true,
+          "m_Interpolate": 0,
+          "m_Constraints": 0,
+          "m_CollisionDetection": 0
+        }
+      },
+      {
+        "type": "CapsuleCollider",
+        "id": 991,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 682
+          },
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_IsTrigger": true,
+          "m_ProvidesContacts": false,
+          "m_Enabled": true,
+          "m_Radius": 0.5,
+          "m_Height": 5.0,
+          "m_Direction": 1,
+          "m_Center": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "MagnetEffect",
+    "gameObject": 638,
+    "transform": 880,
+    "depth": 3,
+    "parent": 856,
+    "position": {
+      "x": 0.0,
+      "y": 0.05000000074505806,
+      "z": -0.052999772131443024
+    },
+    "scale": {
+      "x": 0.1428571343421936,
+      "y": 0.1428571492433548,
+      "z": 0.1428571492433548
+    },
+    "rotation": {
+      "x": -0.0,
+      "y": -0.0,
+      "z": -0.0,
+      "w": 1.0
+    },
+    "components": []
+  },
+  {
+    "name": "HoleCharacterController",
+    "gameObject": 36,
+    "transform": 758,
+    "depth": 0,
+    "parent": 0,
+    "position": {
+      "x": 0.0,
+      "y": 1.5800000429153442,
+      "z": -23.5
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "components": [
+      {
+        "type": "CharacterController",
+        "id": 993,
+        "tree": {
+          "m_GameObject": {
+            "m_FileID": 0,
+            "m_PathID": 36
+          },
+          "m_Material": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "m_IncludeLayers": {
+            "m_Bits": 0
+          },
+          "m_ExcludeLayers": {
+            "m_Bits": 0
+          },
+          "m_LayerOverridePriority": 0,
+          "m_ProvidesContacts": false,
+          "m_Enabled": false,
+          "m_Height": 1.0,
+          "m_Radius": 0.699999988079071,
+          "m_SlopeLimit": 45.0,
+          "m_StepOffset": 0.10000000149011612,
+          "m_SkinWidth": 0.07999999821186066,
+          "m_MinMoveDistance": 0.0010000000474974513,
+          "m_Center": {
+            "x": 0.0,
+            "y": 5.900000095367432,
+            "z": 0.0
+          }
+        }
+      }
+    ]
+  }
+]

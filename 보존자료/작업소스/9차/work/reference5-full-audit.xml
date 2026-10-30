@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Failed(Child)" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 20:23:23Z" end-time="2026-10-12 20:25:33Z" duration="129.7374345">
+  <test-suite type="TestSuite" id="1023" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-10-12 20:23:23Z" end-time="2026-10-12 20:25:33Z" duration="129.737435" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1020" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-10-12 20:23:23Z" end-time="2026-10-12 20:25:33Z" duration="129.732111" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="41128" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1001" name="ReferenceFifthTests" fullname="ReferenceFifthTests" classname="ReferenceFifthTests" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2026-10-12 20:23:23Z" end-time="2026-10-12 20:25:33Z" duration="129.730766" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1005" name="CotonArtAndOriginalSoundsAreBundled" fullname="ReferenceFifthTests.CotonArtAndOriginalSoundsAreBundled" methodname="CotonArtAndOriginalSoundsAreBundled" classname="ReferenceFifthTests" runstate="Runnable" seed="1297186335" result="Passed" start-time="2026-10-12 20:23:23Z" end-time="2026-10-12 20:23:29Z" duration="5.628194" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1004" name="DenseAndLateStagesUseBoundedStableContacts" fullname="ReferenceFifthTests.DenseAndLateStagesUseBoundedStableContacts" methodname="DenseAndLateStagesUseBoundedStableContacts" classname="ReferenceFifthTests" runstate="Runnable" seed="1889402112" result="Passed" start-time="2026-10-12 20:23:29Z" end-time="2026-10-12 20:23:56Z" duration="26.967653" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="300000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Couldn't create a Convex Mesh from source mesh, within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. Source mesh name: Sphere
+Couldn't create a Convex Mesh from source mesh, within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. Source mesh name: Capsule
+]]></output>
+        </test-case>
+        <test-case id="1002" name="EveryAuthoredStageLoadsWithGoalsAndReachableStart" fullname="ReferenceFifthTests.EveryAuthoredStageLoadsWithGoalsAndReachableStart" methodname="EveryAuthoredStageLoadsWithGoalsAndReachableStart" classname="ReferenceFifthTests" runstate="Runnable" seed="1445152804" result="Failed" start-time="2026-10-12 20:23:56Z" end-time="2026-10-12 20:25:31Z" duration="95.665792" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="600000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Level 39 unreachable start (0.00, 0.00, -23.50)
+Level 40 unreachable start (0.00, 0.00, -23.50)
+Level 52 unreachable start (0.00, 0.00, -23.50)
+Level 53 unreachable start (0.00, 0.00, -23.50)
+Level 77 unreachable start (0.00, 0.00, -23.50)
+Level 116 unreachable start (0.00, 0.00, -23.50)
+Level 148 unreachable start (0.00, 0.00, -23.50)
+Level 150 unreachable start (0.00, 0.00, -23.50)
+Level 169 unreachable start (0.00, 0.00, -23.50)
+Level 178 unreachable start (0.00, 0.00, -23.50)
+Level 217 unreachable start (0.00, 0.00, -23.50)
+Level 245 unreachable start (0.00, 0.00, -23.50)
+Level 248 unreachable start (0.00, 0.00, -23.50)
+Level 397 unreachable start (0.00, 0.00, -23.50)
+Level 404 unreachable start (0.00, 0.00, -23.50)
+Level 415 unreachable start (0.00, 0.00, -23.50)
+Level 416 unreachable start (0.00, 0.00, -70.89)
+Level 429 unreachable start (0.00, 0.00, -23.50)
+Level 441 unreachable start (0.00, 0.00, -27.92)
+Level 452 unreachable start (0.00, 0.00, -55.23)
+Level 458 unreachable start (0.00, 0.00, -23.50)
+Level 459 unreachable start (0.00, 0.00, -57.97)
+  Expected: <empty>
+  But was:  < "Level 39 unreachable start (0.00, 0.00, -23.50)", "Level 40 unreachable start (0.00, 0.00, -23.50)", "Level 52 unreachable start (0.00, 0.00, -23.50)", "Level 53 unreachable start (0.00, 0.00, -23.50)", "Level 77 unreachable start (0.00, 0.00, -23.50)", "Level 116 unreachable start (0.00, 0.00, -23.50)", "Level 148 unreachable start (0.00, 0.00, -23.50)", "Level 150 unreachable start (0.00, 0.00, -23.50)", "Level 169 unreachable start (0.00, 0.00, -23.50)", "Level 178 unreachable start (0.00, 0.00, -23.50)"... >
+]]></message>
+            <stack-trace><![CDATA[at ReferenceFifthTests+<EveryAuthoredStageLoadsWithGoalsAndReachableStart>d__6.MoveNext () [0x003e7] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceFifthTests.cs:24
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1003" name="FreeFallUsesReferenceGravityAndPauseFreezesPhysics" fullname="ReferenceFifthTests.FreeFallUsesReferenceGravityAndPauseFreezesPhysics" methodname="FreeFallUsesReferenceGravityAndPauseFreezesPhysics" classname="ReferenceFifthTests" runstate="Runnable" seed="396575445" result="Passed" start-time="2026-10-12 20:25:31Z" end-time="2026-10-12 20:25:33Z" duration="1.459992" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference5-full-audit.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

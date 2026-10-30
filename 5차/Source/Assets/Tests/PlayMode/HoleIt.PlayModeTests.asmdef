@@ -1,0 +1,24 @@
+{
+  "name": "HoleIt.PlayModeTests",
+  "rootNamespace": "",
+  "references": [
+    "HoleIt.Runtime",
+    "Unity.ugui",
+    "UnityEngine.TestRunner",
+    "UnityEditor.TestRunner"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "nunit.framework.dll"
+  ],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS",
+    "POCKETPIT_LEGACY_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

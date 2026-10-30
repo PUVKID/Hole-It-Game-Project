@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a76abab04e5c880607646dcf7d3dd, type: 3}
+  m_Name: Level_09
+  m_EditorClassIdentifier: 
+  schemaVersion: 20
+  levelId: 9
+  levelTitle: "9. Car Street \xB7 Circle"
+  difficulty: 2
+  timeLimit: 40
+  theme: {fileID: 11400000, guid: be35c3d1d86797758d7c2ff6ddb6e135, type: 2}
+  mapSize: 30.798786
+  arenaSize: {x: 20.192316, y: 30.798786}
+  gridSize: {x: 16, y: 20}
+  startClearRadius: 2
+  initialSizeTier: 1
+  growthMultiplier: 1
+  movementSpeed: 3.8
+  holeStart: {x: 0, y: -12.899393}
+  cameraZoomMultiplier: 1
+  missions:
+  - missionId: L9_M0
+    kind: 0
+    target: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    category: 0
+    color: 0
+    tier: 0
+    requiredCount: 12
+    icon: {fileID: 21300000, guid: 466367c6faf0f4fb7567e3bdd2dcdb17, type: 3}
+    description: CRATE
+  - missionId: L9_M1
+    kind: 0
+    target: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    category: 0
+    color: 0
+    tier: 0
+    requiredCount: 11
+    icon: {fileID: 21300000, guid: 7f1f89a3cdf545599ceb454f964fc700, type: 3}
+    description: TRAFFIC CONE
+  - missionId: L9_M2
+    kind: 0
+    target: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    category: 0
+    color: 0
+    tier: 0
+    requiredCount: 11
+    icon: {fileID: 21300000, guid: f0b1637644af7daf8151fe78d4df985c, type: 3}
+    description: RED CAR
+  defaultWrongBehavior: 0
+  penaltySeconds: 2
+  penaltyScore: 5
+  randomSeed: 115072
+  spawnGroups:
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    count: 15
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    count: 13
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    count: 13
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    count: 11
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    count: 3
+    center: {x: 0, y: 0}
+    radius: 0
+    ring: 0
+    decorative: 0
+  placements:
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 4.332, y: 0}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 4.332, y: 0}
+    yaw: 0
+    decorative: 0
+    height: 0.7108726
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 4.332, y: 0}
+    yaw: 0
+    decorative: 0
+    height: 1.4217452
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 3.5046616, y: 2.5462856}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 1.3386614, y: 4.1199765}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -1.3386617, y: 4.1199765}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -1.3386617, y: 4.1199765}
+    yaw: 0
+    decorative: 0
+    height: 0.9953588
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -1.3386617, y: 4.1199765}
+    yaw: 0
+    decorative: 0
+    height: 1.9907176
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: -3.5046618, y: 2.5462854}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -4.332, y: -0.00000037871544}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.5046613, y: -2.546286}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.5046613, y: -2.546286}
+    yaw: 0
+    decorative: 0
+    height: 0.9953588
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.5046613, y: -2.546286}
+    yaw: 0
+    decorative: 0
+    height: 1.9907176
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -1.338662, y: -4.1199765}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 1.3386621, y: -4.1199765}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 3.5046625, y: -2.5462842}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 3.5046625, y: -2.5462842}
+    yaw: 0
+    decorative: 0
+    height: 0.5195126
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 3.5046625, y: -2.5462842}
+    yaw: 0
+    decorative: 0
+    height: 1.0390252
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 7.596158, y: 0.7983884}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 7.596158, y: 0.7983884}
+    yaw: 0
+    decorative: 0
+    height: 0.9953588
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 7.596158, y: 0.7983884}
+    yaw: 0
+    decorative: 0
+    height: 1.9907176
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: 6.864989, y: 3.348279}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 5.3058, y: 5.4943175}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 3.1066542, y: 6.97766}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 3.1066542, y: 6.97766}
+    yaw: 0
+    decorative: 0
+    height: 0.5195126
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 3.1066542, y: 6.97766}
+    yaw: 0
+    decorative: 0
+    height: 1.0390252
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 0.5327993, y: 7.619394}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -2.105318, y: 7.3421164}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: -4.489505, y: 6.1792707}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: -4.489505, y: 6.1792707}
+    yaw: 0
+    decorative: 0
+    height: 0.7108726
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: -4.489505, y: 6.1792707}
+    yaw: 0
+    decorative: 0
+    height: 1.4217452
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -6.332189, y: 4.271115}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -7.4111185, y: 1.8477991}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -7.5961576, y: -0.79839}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -7.5961576, y: -0.79839}
+    yaw: 0
+    decorative: 0
+    height: 0.9953588
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -7.5961576, y: -0.79839}
+    yaw: 0
+    decorative: 0
+    height: 1.9907176
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: -6.8649883, y: -3.3482795}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -5.3058, y: -5.4943175}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.1066542, y: -6.9776597}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.1066542, y: -6.9776597}
+    yaw: 0
+    decorative: 0
+    height: 0.9953588
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.1066542, y: -6.9776597}
+    yaw: 0
+    decorative: 0
+    height: 1.9907176
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -0.53280044, y: -7.6193933}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 2.1053205, y: -7.342116}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 4.4895053, y: -6.1792703}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 4.4895053, y: -6.1792703}
+    yaw: 0
+    decorative: 0
+    height: 0.5195126
+    stacked: 1
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 4.4895053, y: -6.1792703}
+    yaw: 0
+    decorative: 0
+    height: 1.0390252
+    stacked: 1
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 6.332189, y: -4.271114}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: 7.411119, y: -1.8477983}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: -2.4, y: -9.899393}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: -0.8, y: -9.899393}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 0.8, y: -9.899393}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: 8a01b775c2c5024363c3c9e5b57385c7, type: 2}
+    position: {x: 2.4, y: -9.899393}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    position: {x: -3, y: -11.499393}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    position: {x: 3, y: -11.499393}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  - edible: {fileID: 11400000, guid: c936986722e32fe4caffb86b54e90ff2, type: 2}
+    position: {x: -8.480772, y: -11.0875635}
+    yaw: 0
+    decorative: 0
+    height: 0
+    stacked: 0
+  missionBonus: 100
+  clearBonus: 200
+  timeBonusPerSecond: 5
+  nextLevelId: 10

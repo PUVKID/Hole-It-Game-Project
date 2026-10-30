@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_BananaS
+  m_EditorClassIdentifier: 
+  displayName: BANANA
+  objectId: BananaS
+  colorVariant: 0
+  footprintRadius: 0.430886
+  prefab: {fileID: 1000, guid: 4d0d211635922bc79a4a62faf32721d9, type: 3}
+  icon: {fileID: 21300000, guid: 205ca04e23080b17f04d4bcccd375222, type: 3}
+  uiColor: {r: 1, g: 0.78, b: 0.08, a: 1}
+  stackHeight: 0.5355363
+  objectType: 2
+  sizeTier: 1
+  score: 10
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

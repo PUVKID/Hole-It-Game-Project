@@ -1,0 +1,11 @@
+{
+  "Status": "Gradle packaging succeeded; Unity failure report preserved",
+  "BuildId": "e4aee4b55b01409eaea73f79a47d6ebb",
+  "APK": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Builds\\Android\\HoleIt.apk",
+  "Bytes": 624400385,
+  "SHA256": "bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a",
+  "GradleExitCode": 0,
+  "FreshEvidence": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Audit\\Fresh2AbiRecoveryEvidence.json",
+  "StartedUtc": "2026-10-13T11:02:20.9638586+00:00",
+  "CompletedUtc": "2026-10-13T11:04:56.6520499+00:00"
+}

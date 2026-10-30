@@ -1,0 +1,90 @@
+Robot Red (id 255), stage 26: collider-switch diagnostic
+Written UTC: 2026-10-13T09:42:04.809064+00:00
+Scope: read-only source/native-record review. No gameplay change or Unity launch.
+
+Finding
+No off-by-one error is proven. The diagnostic tuple group=0, switch=6,
+enabled=1, aperture approximately 1.689 is expected for this source model.
+The switch threshold is metadata only for Robot Red: it has no conditional
+complex, simple, or special collider arrays. Its ungrouped capsule stays enabled.
+Do not change growth thresholds, collider dimensions, or collection physics to
+make a test bot succeed on the basis of this tuple.
+
+Original serialized evidence
+- Audit/CollectableMetadata.json: modelId/id 255, GameObject path ID
+  -1232821164249908849; complexColliders=[], simpleColliders=[],
+  specialColliders=[], complexColliderCount=0, simpleColliderCount=0,
+  useSpecialCollider=0. isHoleColliderActivated=0;
+  holeLevelToActivateSC=1 is the prefab default, not an active geometry group.
+- Source/Assets/ReferenceContent/Models.json: id255 RobotRed, source prefab
+  Assets/_Project/Prefabs/Items/_Objects_Sprint02/Robot/RobotVariations/RobotRed_Prefab.prefab.
+  One root CapsuleCollider, local Y axis, center (0, 0.6360764503, 0.0068250000),
+  radius 0.3353099823, height 1.2758729458, group0, sourceEnabled=true.
+  Root holeSizeMesh/render key G468251317598833280.
+- Source/Assets/Resources/ReferenceCatalog.asset: model255 contains one
+  collisionPart group0, sourceEnabled1, built-in Capsule mesh fileID10208.
+  Its local matrix preserves the above capsule center and dimensions.
+  Stage26's 14 placements (actor indices672-685) have scale4.61, authored
+  identity rotation, holeColliderActive0, holeColliderLevel0, specialCollision0.
+
+Native conditional-group comparison
+- Audit/PhysicsNativeMethods.txt, HoleVsColliderActivity RVA0x1975DE8.
+- 0x1975DF0 reads useSpecialCollider at +0x70; the special array (+0x74)
+  is selected only when enabled and nonempty.
+- 0x1975E20 loads complexColliderCount at +0x64. 0x1975E24 compares it
+  with1; 0x1975E28 branches away when there are no complex colliders.
+- When complex colliders exist, 0x1975E2C loads holeLevelToActivateSC
+  (+0x58), 0x1975E30 defaults to simpleColliders (+0x60),
+  0x1975E34 compares threshold with the supplied current level, and
+  0x1975E38 uses addgt to choose complexColliders (+0x5C) only when
+  threshold > current level. Equality selects simple colliders.
+- 0x1975E40-0x1975E48 check simpleColliderCount (+0x68) if there are no
+  complex colliders. With both counts zero, no grouped array is selected.
+- 0x1975E54-0x1975E8C disable the three conditional arrays and enable the
+  selected array if present. They do not disable an ungrouped capsule.
+- The corresponding field names/offsets are retained in
+  work/il2cpp-analysis/dump/dump.cs, CollectableManager TypeDefIndex5709.
+
+Native size estimate versus physical aperture
+- Audit/HoleFitNative.txt, HoleSizeToGetInside RVA0x197BC38.
+- 0x197BC70 supplies the long-object ratio threshold1.5, choosing
+  GetEffectiveRadiusForLongObject (0x197D608) or GetRadius (0x197D204).
+- Robot Red's render bounds size is approximately [0.67061996, 1.275873, 0.509592]; its long-object
+  ratio exceeds1.5. At placement scale4.61 and maxRadiusReductionRate0,
+  the port's source formula gives fit approximately 1.483765362; the live
+  diagnostic rounds this to1.484.
+- The tier loop explicitly uses tier-1 at0x197BD50, visual base0.7,
+  increment0.25, multiplier1.55, and half factor0.5. Tier0 instead uses0.325.
+  0x197BD74 compares opening with fit; 0x197BD7C bgt accepts only opening>fit.
+  Thus tier5 opening=1.3175 is insufficient and tier6 opening=1.51125 fits.
+  The subtraction is present in the original native record, not an accidental
+  reconstruction offset.
+- The current physical hole at growth tier6 has VisualRadius=0.7+6*0.25=2.2.
+  Source floor geometry uses .83923*.915*2.2=1.689369990 aperture radius.
+  That physical geometry is distinct from the native collider-mode estimate.
+  Comparing these two values as if they were one numbered group is incorrect.
+
+Current implementation correspondence
+- Source/Assets/Scripts/ReferencePhysicsSettings.cs:
+  FitTier reproduces the strict comparison and tier-1 formula;
+  ColliderSwitchTier computes the threshold unless an explicit authored
+  override applies; ColliderGroup selects special, complex, or simple only
+  when the model actually contains those groups, otherwise returns0;
+  ColliderEnabled returns sourceEnabled for group0 shapes.
+- Source/Assets/Scripts/ReferenceGame.Physics.cs:
+  EnsurePhysicalBody stores switchTier; RefreshBodyColliders supplies actual
+  clamped growth tier to ColliderGroup. For Robot Red this remains group0
+  regardless of the computed threshold. Trace enabled=1 confirms the capsule
+  is active, so it is not waiting for an extra level or a nonexistent group6.
+- Source/TestResults/ReferenceStage_26.trace.txt contains the observed
+  group=0/switch=6/enabled=1/aperture=1.689 tuples. This trace is mutable and
+  may be replaced by subsequent verification runs; no full-stage pass is
+  inferred from the inspected tuples.
+
+Limits
+The retained native records prove the described comparison and array selection.
+This review does not establish identical PhysX trajectories or show that every
+bot-selected pose can collect the capsule. Robot Red can tip horizontally;
+its collider center then lies away from the prefab root. Test aiming is a
+separate issue from whether the collider is enabled. No gameplay relaxation
+is justified by this diagnostic.

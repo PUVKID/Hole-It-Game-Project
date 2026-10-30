@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="12" result="Failed(Child)" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:16:49Z" duration="514.5365969">
+  <test-suite type="TestSuite" id="1099" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:16:49Z" duration="514.536597" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1096" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:16:49Z" duration="514.529847" total="12" passed="11" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="29456" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1036" name="ReferenceIndicatorTests" fullname="ReferenceIndicatorTests" classname="ReferenceIndicatorTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:08:15Z" duration="0.018918" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1038" name="BehindCameraTargetsRemainFiniteAndVisibleAfterClamping" fullname="ReferenceIndicatorTests.BehindCameraTargetsRemainFiniteAndVisibleAfterClamping" methodname="BehindCameraTargetsRemainFiniteAndVisibleAfterClamping" classname="ReferenceIndicatorTests" runstate="Runnable" seed="929780692" result="Passed" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:08:15Z" duration="0.007718" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1037" name="OffscreenMarkersKeepOriginalAsymmetricBuffersAndNeverCrossScreenEdges" fullname="ReferenceIndicatorTests.OffscreenMarkersKeepOriginalAsymmetricBuffersAndNeverCrossScreenEdges" methodname="OffscreenMarkersKeepOriginalAsymmetricBuffersAndNeverCrossScreenEdges" classname="ReferenceIndicatorTests" runstate="Runnable" seed="1937035887" result="Passed" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:08:15Z" duration="0.003132" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1039" name="RestoredLeftFacingArrowRotatesTowardTargetFromItsClampedPosition" fullname="ReferenceIndicatorTests.RestoredLeftFacingArrowRotatesTowardTargetFromItsClampedPosition" methodname="RestoredLeftFacingArrowRotatesTowardTargetFromItsClampedPosition" classname="ReferenceIndicatorTests" runstate="Runnable" seed="947509210" result="Passed" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:08:15Z" duration="0.000651" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1051" name="ReferenceSeventhPhysicsTests" fullname="ReferenceSeventhPhysicsTests" classname="ReferenceSeventhPhysicsTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:08:21Z" duration="6.264523" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1057" name="RecoveredComplexContactsStayWithinNativeConvexCookingLimit" fullname="ReferenceSeventhPhysicsTests.RecoveredComplexContactsStayWithinNativeConvexCookingLimit" methodname="RecoveredComplexContactsStayWithinNativeConvexCookingLimit" classname="ReferenceSeventhPhysicsTests" runstate="Runnable" seed="96485722" result="Passed" start-time="2026-10-13 07:08:15Z" end-time="2026-10-13 07:08:21Z" duration="6.262724" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1070" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="10" result="Failed" site="Child" start-time="2026-10-13 07:08:21Z" end-time="2026-10-13 07:16:29Z" duration="488.437218" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1080" name="AllThirtyStagesCompleteThroughMouthAndStackSimulation" fullname="ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation" methodname="AllThirtyStagesCompleteThroughMouthAndStackSimulation" classname="ReferenceTests" runstate="Runnable" seed="2084292034" result="Failed" start-time="2026-10-13 07:08:21Z" end-time="2026-10-13 07:16:29Z" duration="488.434455" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="1800000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Stage 7 collected 245 radius 1.289 failure=
+  Expected: Won
+  But was:  Playing
+]]></message>
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__15.MoveNext () [0x00232] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:25
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1085" name="ReferenceTouchTests" fullname="ReferenceTouchTests" classname="ReferenceTouchTests" runstate="Runnable" testcasecount="7" result="Passed" start-time="2026-10-13 07:16:29Z" end-time="2026-10-13 07:16:49Z" duration="19.804597" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1089" name="FinderMarkersStayVisibleInOverlayAndCameraCanvasAndExpireCleanly" fullname="ReferenceTouchTests.FinderMarkersStayVisibleInOverlayAndCameraCanvasAndExpireCleanly" methodname="FinderMarkersStayVisibleInOverlayAndCameraCanvasAndExpireCleanly" classname="ReferenceTouchTests" runstate="Runnable" seed="1271277291" result="Passed" start-time="2026-10-13 07:16:29Z" end-time="2026-10-13 07:16:31Z" duration="1.608829" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1091" name="FloatingTouchKeepsOwnerAndCancelStops" fullname="ReferenceTouchTests.FloatingTouchKeepsOwnerAndCancelStops" methodname="FloatingTouchKeepsOwnerAndCancelStops" classname="ReferenceTouchTests" runstate="Runnable" seed="1674236681" result="Passed" start-time="2026-10-13 07:16:31Z" end-time="2026-10-13 07:16:32Z" duration="1.155140" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1092" name="FreePlayModeAndLevelPickerRespondToNativeTouch" fullname="ReferenceTouchTests.FreePlayModeAndLevelPickerRespondToNativeTouch" methodname="FreePlayModeAndLevelPickerRespondToNativeTouch" classname="ReferenceTouchTests" runstate="Runnable" seed="1282178815" result="Passed" start-time="2026-10-13 07:16:32Z" end-time="2026-10-13 07:16:36Z" duration="3.642196" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1088" name="OriginalBombMessageRetainsItsLightSourcePanelAndDarkSourceText" fullname="ReferenceTouchTests.OriginalBombMessageRetainsItsLightSourcePanelAndDarkSourceText" methodname="OriginalBombMessageRetainsItsLightSourcePanelAndDarkSourceText" classname="ReferenceTouchTests" runstate="Runnable" seed="525903107" result="Passed" start-time="2026-10-13 07:16:36Z" end-time="2026-10-13 07:16:37Z" duration="1.023915" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1087" name="OriginalSettingsToggleAndFailureTypographyRemainUsable" fullname="ReferenceTouchTests.OriginalSettingsToggleAndFailureTypographyRemainUsable" methodname="OriginalSettingsToggleAndFailureTypographyRemainUsable" classname="ReferenceTouchTests" runstate="Runnable" seed="2081715541" result="Passed" start-time="2026-10-13 07:16:37Z" end-time="2026-10-13 07:16:39Z" duration="1.889321" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1086" name="OriginalTypographyAndCanvasScalingSurviveScreenTransitions" fullname="ReferenceTouchTests.OriginalTypographyAndCanvasScalingSurviveScreenTransitions" methodname="OriginalTypographyAndCanvasScalingSurviveScreenTransitions" classname="ReferenceTouchTests" runstate="Runnable" seed="2003495834" result="Passed" start-time="2026-10-13 07:16:39Z" end-time="2026-10-13 07:16:40Z" duration="1.012502" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1090" name="TouchPlaysDragsStopsAndResumes" fullname="ReferenceTouchTests.TouchPlaysDragsStopsAndResumes" methodname="TouchPlaysDragsStopsAndResumes" classname="ReferenceTouchTests" runstate="Runnable" seed="2070178561" result="Passed" start-time="2026-10-13 07:16:40Z" end-time="2026-10-13 07:16:49Z" duration="9.461162" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Tests-remaining.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

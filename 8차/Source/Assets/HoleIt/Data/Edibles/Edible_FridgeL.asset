@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_FridgeL
+  m_EditorClassIdentifier: 
+  displayName: REFRIGERATOR
+  objectId: FridgeL
+  colorVariant: 0
+  footprintRadius: 1.631204
+  prefab: {fileID: 1000, guid: b0d96432ca8188c502c029dacd97351b, type: 3}
+  icon: {fileID: 21300000, guid: db5548797a3e5a9ef143943606abc2cd, type: 3}
+  uiColor: {r: 0.28, g: 0.75, b: 0.47, a: 1}
+  stackHeight: 4.8719783
+  objectType: 9
+  sizeTier: 4
+  score: 180
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

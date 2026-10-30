@@ -1,0 +1,7 @@
+Build route: unchanged fresh Unity-generated two-ABI Gradle project after documented packaging disk-space failure
+Gradle assembleRelease: Succeeded
+Gradle exit code: 0
+Build ID: e4aee4b55b01409eaea73f79a47d6ebb
+APK bytes: 624400385
+APK SHA256: bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a
+Fresh input evidence: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Fresh2AbiRecoveryEvidence.json

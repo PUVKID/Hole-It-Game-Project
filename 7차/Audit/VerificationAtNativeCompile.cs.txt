@@ -1,0 +1,86 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public partial class ReferenceGame {
+    Actor verificationTarget;float verificationArrival=-1;
+    readonly Dictionary<Actor,float> verificationRevisit=new Dictionary<Actor,float>();
+    readonly Dictionary<Actor,int> verificationFailedAtCount=new Dictionary<Actor,int>();
+    void ResetVerificationTarget(){verificationTarget=null;verificationArrival=-1;verificationRevisit.Clear();verificationFailedAtCount.Clear();}
+
+    // This only chooses test input positions. It never changes an actor, gravity,
+    // contacts or collection. Human input continues through the ordinary joystick.
+    Vector3 FindVerificationTarget(){
+        testBombs.Clear();foreach(var a in actors)if(a.model.id==-1&&a.state!=2)testBombs.Add(a);
+        if(verificationTarget!=null){
+            var a=verificationTarget;
+            if(a.state!=0||(a.body!=null&&a.body.collectorEntered)){verificationTarget=null;verificationArrival=-1;}
+            else if(TryVerificationAim(a,0,out var center)){
+                float distance=Vector2.Distance(new Vector2(center.x,center.z),new Vector2(HolePosition.x,HolePosition.z));
+                if(verificationArrival<0&&distance<.2f)verificationArrival=simulatedPhysicsTime;
+                float elapsed=verificationArrival<0?0:simulatedPhysicsTime-verificationArrival;
+                bool wide=NeedsWideVerificationProbe(a);float hold=wide?1f:.175f;int probes=wide?8:4;
+                if(elapsed<.6f+probes*hold){int probe=elapsed<.6f?0:1+Mathf.Min(probes-1,Mathf.FloorToInt((elapsed-.6f)/hold));if(TryVerificationAim(a,probe,out var aim))return aim;return center;}
+                // A supported or wedged item needs surrounding pieces removed first.
+                verificationRevisit[a]=simulatedPhysicsTime+2;verificationFailedAtCount[a]=Collected;verificationTarget=null;verificationArrival=-1;
+            }else {verificationTarget=null;verificationArrival=-1;}
+        }
+        Actor best=null;Vector3 bestAim=HolePosition;float score=float.MaxValue;
+        foreach(var a in actors){
+            if(a.state!=0||a.model.id<0||(a.body!=null&&a.body.collectorEntered))continue;
+            if(verificationRevisit.TryGetValue(a,out float retryAt)&&retryAt>simulatedPhysicsTime)continue;
+            if(verificationFailedAtCount.TryGetValue(a,out int failedAt)&&failedAt==Collected)continue;
+            if(!TryVerificationAim(a,0,out var aim))continue;
+            float candidate=(aim-HolePosition).sqrMagnitude*(Needed(a.model.id)?1:1.3f);
+            if(a.Bottom>.20f)candidate+=10000;
+            if(candidate<score){score=candidate;best=a;bestAim=aim;}
+        }
+        verificationTarget=best;verificationArrival=-1;return bestAim;
+    }
+    Bounds VerificationBounds(Actor actor){
+        Bounds bounds=default;bool has=false;
+        if(actor.body!=null)foreach(var col in actor.body.colliders){if(!col.enabled||!col.gameObject.activeInHierarchy)continue;if(!has){bounds=col.bounds;has=true;}else bounds.Encapsulate(col.bounds);}
+        if(!has){bounds=WorldBounds(actor.model.bounds,actor.rotation,actor.scale);bounds.center+=actor.pos;}
+        return bounds;
+    }
+    bool NeedsWideVerificationProbe(Actor actor){var bounds=VerificationBounds(actor);return Mathf.Max(bounds.extents.x,bounds.extents.z)>SourceApertureRadius||SourceFitRadius(actor)>SourceApertureRadius;}
+    public Vector3 VerificationCenterForTest(int actorIndex){var center=VerificationBounds(actors[actorIndex]).center;center.y=0;return center;}
+    bool TryVerificationAim(Actor actor,int probe,out Vector3 aim){
+        var center=VerificationBounds(actor).center;center.y=0;aim=center;float fit=SourceFitRadius(actor);
+        // Native EffectiveFitRadius selects collider modes; it is not a swallow gate.
+        // A rectangular near-fit body can tip through despite its circumscribed circle.
+        // The test planner may attempt it when its narrower horizontal span fits;
+        // actual floor contacts and gravity alone determine whether it falls.
+        var bounds=VerificationBounds(actor);
+        if(fit>SourceApertureRadius&&Mathf.Min(bounds.extents.x,bounds.extents.z)>SourceApertureRadius)return false;
+        bool wide=NeedsWideVerificationProbe(actor);
+        float probeFraction=probe>4?.85f:.55f;
+        float maximumOffset=probe>0&&wide?Mathf.Max(SourceApertureRadius*probeFraction,SourceApertureRadius-fit-.01f):Mathf.Max(.05f,SourceApertureRadius-fit)-.01f;
+        // Long authored objects need one supported edge exposed before gravity can tip them.
+        // These are hole positions only, with no actor force or forced collection.
+        if(probe>0){float nudge=wide?SourceApertureRadius*probeFraction:Mathf.Min(SourceApertureRadius*.23f,Mathf.Max(0,SourceApertureRadius-fit-.04f));float angle=(probe>4?(probe-5)*.5f+.25f:(probe-1)*.5f)*Mathf.PI;aim+=new Vector3(Mathf.Cos(angle),0,Mathf.Sin(angle))*nudge;}
+        foreach(var bomb in testBombs){var away=aim-bomb.pos;away.y=0;float safe=SourceApertureRadius+SourceFitRadius(bomb)+.1f;if(away.magnitude<safe)aim+=(away.sqrMagnitude>.0001f?away.normalized:Vector3.right)*(safe-away.magnitude);}
+        aim.x=Mathf.Clamp(aim.x,min.x+Radius,max.x-Radius);aim.z=Mathf.Clamp(aim.z,min.y+Radius,max.y-Radius);
+        if(!CanStandAt(aim)&&!ProjectVerificationAim(center,aim,maximumOffset,out aim))return false;
+        foreach(var bomb in testBombs){var separation=aim-bomb.pos;separation.y=0;float safe=SourceApertureRadius+SourceFitRadius(bomb)+.1f;if(separation.magnitude<safe-.001f)return false;}
+        return (aim-center).magnitude<=maximumOffset+.0001f;
+    }
+    public bool TryProbeAimForTest(int actorIndex,int probe,out Vector3 aim)=>TryVerificationAim(actors[actorIndex],probe,out aim);
+    public bool TryBoundaryAimForTest(Vector3 desired,float objectRadius,out Vector3 aim)=>ProjectVerificationAim(desired,desired,SourceApertureRadius-objectRadius-.01f,out aim);
+    bool ProjectVerificationAim(Vector3 itemCenter,Vector3 preferred,float maximumOffset,out Vector3 result){
+        result=preferred;if(CanStandAt(preferred))return true;
+        float best=float.PositiveInfinity,reachSquared=maximumOffset*maximumOffset;bool found=false;
+        foreach(var tile in playground){
+            float lowX=tile.xMin+Radius+.005f,highX=tile.xMax-Radius-.005f,lowZ=tile.yMin+Radius+.005f,highZ=tile.yMax-Radius-.005f;
+            float x=lowX<=highX?Mathf.Clamp(preferred.x,lowX,highX):preferred.x>=tile.center.x?highX:lowX;
+            float z=lowZ<=highZ?Mathf.Clamp(preferred.z,lowZ,highZ):preferred.z>=tile.center.y?highZ:lowZ;
+            // Preserve the other coordinate across adjacent tiles; a tile seam is not a wall.
+            for(int option=0;option<3;option++){
+                var candidate=new Vector3(option==1?preferred.x:x,0,option==0?preferred.z:z);
+                if((candidate-itemCenter).sqrMagnitude>reachSquared)continue;
+                float distance=(candidate-preferred).sqrMagnitude;if(distance>=best||!CanStandAt(candidate))continue;
+                result=candidate;best=distance;found=true;
+            }
+        }
+        return found;
+    }
+}

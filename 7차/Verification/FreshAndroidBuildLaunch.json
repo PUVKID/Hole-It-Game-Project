@@ -1,0 +1,23 @@
+{
+  "Utc": "2026-10-13T10:39:29.8946299Z",
+  "Pid": 81424,
+  "BeeBuildThreads": 4,
+  "JobWorkers": 4,
+  "Architectures": [
+    "armeabi-v7a",
+    "arm64-v8a"
+  ],
+  "FreeBytesAtStart": 8665812992,
+  "Completed": false,
+  "DiscardedOldGradleProject": true,
+  "NativeIncrementalCacheScope": "Prior Library/Bee/Android Gradle project and obsolete transform were removed. Unity dependency-tracked Library/Bee/artifacts/Android objects may be reused when unchanged; changed generated C++ is being rebuilt through BuildPipeline.BuildPlayer. Final output must have new completion evidence and match the pre-build C# snapshot.",
+  "IncrementalRetry": {
+    "Utc": "2026-10-13T10:49:22.9387186Z",
+    "Pid": 83004,
+    "BeeBuildThreads": 1,
+    "JobWorkers": 2,
+    "FreeBytes": 1822146560,
+    "SourceChanges": false,
+    "Reason": "Retry unchanged dependency-tracked build after first attempt failed only copying ARMv7 debug intermediates due to disk space. Compiler processes and their peak temporary usage have exited."
+  }
+}

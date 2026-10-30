@@ -1,0 +1,3 @@
+APK bytes: 616275027
+Minimum bytes: 500000000
+Actual game assets and native libraries stored without ZIP compression; no filler files.

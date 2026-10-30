@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_WaffleM
+  m_EditorClassIdentifier: 
+  displayName: LARGE WAFFLE
+  objectId: WaffleM
+  colorVariant: 0
+  footprintRadius: 0.698622
+  prefab: {fileID: 1000, guid: 50243ca68a17d195bd92f2fc6377cbda, type: 3}
+  icon: {fileID: 21300000, guid: 900b0d095f84585d3d589bca8639aba4, type: 3}
+  uiColor: {r: 1, g: 0.62, b: 0.15, a: 1}
+  stackHeight: 0.36768025
+  objectType: 2
+  sizeTier: 2
+  score: 25
+  growthValue: 1
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

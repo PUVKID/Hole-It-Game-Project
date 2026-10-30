@@ -1,0 +1,55 @@
+Reference comparison and implementation limits — edition 5
+
+Source: user-supplied Hole+it! 1.31.17 XAPK, com.rocket.holeit.
+This is a separately implemented Unity game, not the original executable.
+
+Retained / inspected source data
+- All 465 locally available authored main stages; 869 collectable models used by them.
+- Placement IDs, positions, rotations, scales, growth point values, goal counts and timers.
+- Model render geometry, material colors/textures, collision shapes, mass and damping.
+- Directional light rotation/intensity, soft toon material properties.
+- Gravity -5.81 m/s² and no-friction material data.
+- Growth costs 10,20,100,150,200,300,400,500,600,700 with carry; capped physical size.
+- Size and speed boost 30 percent for 8 seconds; finder 12 seconds; freeze 8 seconds.
+- Booster unlock stages 3,5,9,12; win reward 20; purchase 1800; heart refill 900;
+  one life recharge per 1800 seconds. Source JSON is included for audit.
+- Ten original sound effects, goal/joystick/booster/modal artwork.
+
+Custom requested additions
+- New Coton de Tulear loading and home artwork, generated through built-in image_gen.
+- English UI with bundled Nanum Gothic Bold and its OFL license.
+- Visible idle joystick, fixed-speed floating input, strict release/cancel/second-finger ownership.
+- Movement bounds include the full authored floor, including empty side areas that objects
+  can roll into; the original item extents no longer truncate the accessible arena.
+- Optional Free Play with all stages and no life/booster consumption. Classic progression
+  is not advanced by Free Play; coins are awarded only in Classic.
+- Local offline coin/booster/life profile, sound toggle and paged stage selection.
+
+Material differences / limits
+- Full original shaders and native gameplay code are not reused. Soft shading, camera,
+  input response and intake logic are reconstructed; pixel-identical output is not claimed.
+- Original authored floor geometry is retained; environment palettes use five exported
+  themes. Original runtime theme-selection, events and every decoration are not restored.
+- Physics runs at 60 Hz with up to 384 pooled contact bodies near the hole. Distant stacks
+  sleep as data; distant unsupported pieces use vertical gravity. This is a performance
+  strategy, not an exact reproduction of the original solver and all its edge cases.
+- Sixteen high-polygon source collision meshes use sampled convex hulls (140–228 faces)
+  within PhysX limits. Visible geometry is unchanged; collision geometry is approximate.
+- Bomb placement/intake, five-life cap, once-per-attempt boosters and UI flow are our
+  implementations. The source's network economy, pre-game battery/time boosters,
+  multi-tier paid revives, ads, IAP, events and online account systems are not implemented.
+- The first 30 stages have an automated target-sweep completion test. It teleports the hole
+  between available targets, so it does not establish human difficulty or reachability
+  by continuous joystick movement. The first-stage completion test does use capped speed.
+- The 465-stage audit checks content, goal availability and floor-valid spawn positions;
+  it is not a full completion test of all 465 stages.
+- Actual Input System Touchscreen events test UI/joystick ownership and movement in Editor.
+  No physical Android device was connected. Android FPS, thermal behavior and touchscreen
+  behavior on the user's phone remain unverified.
+- Windows screenshots and desktop frame samples are separate from Android APK verification.
+- File size reflects models, textures, audio, native runtime and compression. The original
+  XAPK includes split asset packs and substantial third-party code. Padding was not added.
+
+See the included test XML for actual pass/fail results and individual test names,
+AndroidBuild.txt for build outcome, and APK verification for metadata and signing certificate.
+No claim is made that the game has zero bugs or matches every original system.

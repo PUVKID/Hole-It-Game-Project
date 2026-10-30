@@ -1,0 +1,391 @@
+
+RANGE0x197bc38
+197bc38: push {r4, r5, r6, r7, fp, lr} 
+197bc3c: vpush {d8} 
+197bc40: ldr r4, [pc, #0x1a0]  literal@197bde8=9b7f1404 / float 1.74559e-36
+197bc44: mov r5, r0 
+197bc48: add r4, pc, r4 
+197bc4c: ldrb r0, [r4] 
+197bc50: cmp r0, #0 
+197bc54: bne #0x197bc6c 
+197bc58: ldr r0, [pc, #0x18c]  literal@197bdec=98ecf103 / float 1.4219e-36
+197bc5c: ldr r0, [pc, r0] 
+197bc60: bl #0x161f5e0 
+197bc64: mov r0, #1 
+197bc68: strb r0, [r4] 
+197bc6c: mov r0, r5 
+197bc70: mov r1, #0x3fc00000 
+197bc74: bl #0x197cfb0 public bool IsLongObjectDynamic(float ratioThreshold = 1.5) { }
+197bc78: cmp r0, #0 
+197bc7c: beq #0x197bc8c 
+197bc80: mov r0, r5 
+197bc84: bl #0x197d608 private float GetEffectiveRadiusForLongObject() { }
+197bc88: b #0x197bc94 
+197bc8c: mov r0, r5 
+197bc90: bl #0x197d204 public float GetRadius() { }
+197bc94: ldr r7, [pc, #0x154]  literal@197bdf0=54ecf103 / float 1.4219e-36
+197bc98: vmov s16, r0 
+197bc9c: mov r4, r5 
+197bca0: ldr r7, [pc, r7] 
+197bca4: ldr r6, [r4, #0x10]! 
+197bca8: ldr r0, [r7] 
+197bcac: ldr r1, [r0, #0x74] 
+197bcb0: cmp r1, #0 
+197bcb4: bne #0x197bcbc 
+197bcb8: bl #0x161f754 
+197bcbc: mov r0, r6 
+197bcc0: mov r1, #0 
+197bcc4: mov r2, #0 
+197bcc8: bl #0x26d5dfc 
+197bccc: cmp r0, #0 
+197bcd0: ldrne r0, [r5, #0x18] 
+197bcd4: cmpne r0, #0 
+197bcd8: bne #0x197bd9c 
+197bcdc: ldr r0, [r7] 
+197bce0: ldr r6, [r4] 
+197bce4: ldr r1, [r0, #0x74] 
+197bce8: cmp r1, #0 
+197bcec: bne #0x197bcf4 
+197bcf0: bl #0x161f754 
+197bcf4: mov r0, r6 
+197bcf8: mov r1, #0 
+197bcfc: mov r5, #0 
+197bd00: bl #0x26d5d38 
+197bd04: cmp r0, #0 
+197bd08: beq #0x197bd3c 
+197bd0c: ldr r4, [r4] 
+197bd10: cmp r4, #0 
+197bd14: bne #0x197bd1c 
+197bd18: bl #0x161f890 
+197bd1c: ldr r4, [r4, #0x1c] 
+197bd20: cmp r4, #0 
+197bd24: bne #0x197bd2c 
+197bd28: bl #0x161f890 
+197bd2c: vmov.f32 s0, #1.000000e+00 
+197bd30: vldr s2, [r4, #0xc] 
+197bd34: vsub.f32 s0, s0, s2 
+197bd38: vmul.f32 s16, s16, s0 
+197bd3c: vmov.f32 s0, #2.500000e-01 
+197bd40: vldr s2, [pc, #0x94]  literal@197bddc=3333333f / float 0.7
+197bd44: vmov.f32 s6, #5.000000e-01 
+197bd48: vldr s4, [pc, #0x90]  literal@197bde0=6666c63f / float 1.55
+197bd4c: vldr s8, [pc, #0x90]  literal@197bde4=6666a63e / float 0.325
+197bd50: sub r0, r5, #1 
+197bd54: vmov.f32 s12, s2 
+197bd58: cmp r5, #0 
+197bd5c: vmov s10, r0 
+197bd60: vcvt.f32.s32 s10, s10 
+197bd64: vmla.f32 s12, s10, s0 
+197bd68: vmul.f32 s10, s12, s4 
+197bd6c: vmul.f32 s10, s10, s6 
+197bd70: vmoveq.f32 s10, s8 
+197bd74: vcmp.f32 s10, s16 
+197bd78: vmrs apsr_nzcv, fpscr 
+197bd7c: bgt #0x197bd90 
+197bd80: add r5, r5, #1 
+197bd84: cmp r5, #0x15 
+197bd88: bne #0x197bd50 
+197bd8c: mvn r5, #0 
+197bd90: mov r0, r5 
+197bd94: vpop {d8} 
+197bd98: pop {r4, r5, r6, r7, fp, pc} 
+197bd9c: mov r0, #0 
+197bda0: bl #0x17c4344 public static ItemDatabase get_Instance() { }
+197bda4: ldr r5, [r5, #0x18] 
+197bda8: mov r6, r0 
+197bdac: cmp r0, #0 
+197bdb0: bne #0x197bdb8 
+197bdb4: bl #0x161f890 
+197bdb8: mov r0, r6 
+197bdbc: mov r1, r5 
+197bdc0: mov r2, #0 
+197bdc4: bl #0x17c4568 public ItemInfo GetItemInfoFromId(int id) { }
+197bdc8: mov r1, r0 
+197bdcc: str r0, [r4] 
+197bdd0: mov r0, r4 
+197bdd4: bl #0x161f57c 
+197bdd8: b #0x197bcdc 
+197bddc: svclo #0x333333 
+197bde0: svclo #0xc66666 
+197bde4: cdplo p6, #0xa, c6, c6, c6, #3 
+197bde8: ldreq r7, [r4], #-0xf9b 
+197bdec: .byte 0x98, 0xec, 0xf1, 0x03 
+197bdf0: .byte 0x54, 0xec, 0xf1, 0x03 
+
+RANGE0x197d204
+197d204: push {r4, r5, r6, r7, r8, sb, sl, fp, lr} 
+197d208: sub sp, sp, #4 
+197d20c: vpush {d8, d9, d10, d11, d12} 
+197d210: sub sp, sp, #0x18 
+197d214: str r0, [sp, #8] 
+197d218: ldr r4, [pc, #0x218]  literal@197d438=c5691404 / float 1.74459e-36
+197d21c: add r4, pc, r4 
+197d220: ldrb r0, [r4] 
+197d224: cmp r0, #0 
+197d228: bne #0x197d24c 
+197d22c: ldr r0, [pc, #0x208]  literal@197d43c=1820f203 / float 1.42309e-36
+197d230: ldr r0, [pc, r0] 
+197d234: bl #0x161f5e0 
+197d238: ldr r0, [pc, #0x200]  literal@197d440=b8d6f103 / float 1.4214e-36
+197d23c: ldr r0, [pc, r0] 
+197d240: bl #0x161f5e0 
+197d244: mov r0, #1 
+197d248: strb r0, [r4] 
+197d24c: ldr r0, [pc, #0x1f0]  literal@197d444=f81ff203 / float 1.42308e-36
+197d250: ldr r0, [pc, r0] 
+197d254: ldr r1, [r0] 
+197d258: ldr r0, [sp, #8] 
+197d25c: bl #0x1de1678 
+197d260: ldr r6, [pc, #0x1e0]  literal@197d448=8cd6f103 / float 1.4214e-36
+197d264: mov r5, r0 
+197d268: ldr r6, [pc, r6] 
+197d26c: ldr r0, [r6] 
+197d270: ldr r1, [r0, #0x74] 
+197d274: cmp r1, #0 
+197d278: bne #0x197d280 
+197d27c: bl #0x161f754 
+197d280: mov r0, r5 
+197d284: mov r1, #0 
+197d288: mov r2, #0 
+197d28c: bl #0x26d5dfc 
+197d290: vmov.f32 s16, #-1.000000e+00 
+197d294: cmp r0, #0 
+197d298: bne #0x197d2e4 
+197d29c: cmp r5, #0 
+197d2a0: bne #0x197d2a8 
+197d2a4: bl #0x161f890 
+197d2a8: mov r0, r5 
+197d2ac: mov r1, #0 
+197d2b0: bl #0x26d9040 
+197d2b4: mov r4, r0 
+197d2b8: ldr r0, [r6] 
+197d2bc: ldr r1, [r0, #0x74] 
+197d2c0: cmp r1, #0 
+197d2c4: bne #0x197d2cc 
+197d2c8: bl #0x161f754 
+197d2cc: mov r0, r4 
+197d2d0: mov r1, #0 
+197d2d4: mov r2, #0 
+197d2d8: bl #0x26d5dfc 
+197d2dc: cmp r0, #0 
+197d2e0: beq #0x197d2f8 
+197d2e4: vmov r0, s16 
+197d2e8: add sp, sp, #0x18 
+197d2ec: vpop {d8, d9, d10, d11, d12} 
+197d2f0: add sp, sp, #4 
+197d2f4: pop {r4, r5, r6, r7, r8, sb, sl, fp, pc} 
+197d2f8: cmp r5, #0 
+197d2fc: bne #0x197d304 
+197d300: bl #0x161f890 
+197d304: mov r0, r5 
+197d308: mov r1, #0 
+197d30c: bl #0x26d9040 
+197d310: mov r4, r0 
+197d314: cmp r0, #0 
+197d318: bne #0x197d320 
+197d31c: bl #0x161f890 
+197d320: mov r0, r4 
+197d324: mov r1, #0 
+197d328: bl #0x26d8b78 
+197d32c: ldr r1, [sp, #8] 
+197d330: mov r5, r0 
+197d334: add r0, sp, #0xc 
+197d338: bl #0x197d458 public Vector3 GetMeshWorldCenter() { }
+197d33c: vldr s18, [sp, #0xc] 
+197d340: add fp, r5, #0x10 
+197d344: vldr s20, [sp, #0x14] 
+197d348: mov sb, #0 
+197d34c: ldr sl, [pc, #0xf8]  literal@197d44c=f4fff103 / float 1.42235e-36
+197d350: vldr s16, [pc, #0xdc]  literal@197d434=00000000 / float 0
+197d354: ldr sl, [pc, sl] 
+197d358: cmp r5, #0 
+197d35c: bne #0x197d364 
+197d360: bl #0x161f890 
+197d364: ldr r0, [r5, #0xc] 
+197d368: cmp sb, r0 
+197d36c: bge #0x197d2e4 
+197d370: cmp r0, sb 
+197d374: bhi #0x197d37c 
+197d378: bl #0x161f894 
+197d37c: ldr r0, [sp, #8] 
+197d380: mov r1, #0 
+197d384: ldm fp, {r6, r8} 
+197d388: ldr r4, [fp, #8] 
+197d38c: bl #0x26d5f0c 
+197d390: mov r7, r0 
+197d394: cmp r0, #0 
+197d398: bne #0x197d3a0 
+197d39c: bl #0x161f890 
+197d3a0: mov r0, #0 
+197d3a4: str r4, [sp] 
+197d3a8: str r0, [sp, #4] 
+197d3ac: add r0, sp, #0xc 
+197d3b0: mov r1, r7 
+197d3b4: mov r2, r6 
+197d3b8: mov r3, r8 
+197d3bc: bl #0x26d5f4c 
+197d3c0: vldr s22, [sp, #0xc] 
+197d3c4: vldr s24, [sp, #0x14] 
+197d3c8: ldr r0, [pc, #0x80]  literal@197d450=195c1404 / float 1.74396e-36
+197d3cc: add r0, pc, r0 
+197d3d0: ldrb r0, [r0] 
+197d3d4: cmp r0, #0 
+197d3d8: bne #0x197d3f4 
+197d3dc: mov r0, sl 
+197d3e0: bl #0x161f5e0 
+197d3e4: ldr r0, [pc, #0x68]  literal@197d454=f95b1404 / float 1.74395e-36
+197d3e8: mov r1, #1 
+197d3ec: add r0, pc, r0 
+197d3f0: strb r1, [r0] 
+197d3f4: ldr r0, [sl] 
+197d3f8: ldr r1, [r0, #0x74] 
+197d3fc: cmp r1, #0 
+197d400: bne #0x197d408 
+197d404: bl #0x161f754 
+197d408: vsub.f32 s0, s24, s20 
+197d40c: add fp, fp, #0xc 
+197d410: vsub.f32 s2, s22, s18 
+197d414: add sb, sb, #1 
+197d418: vmul.f32 s0, s0, s0 
+197d41c: vmla.f32 s0, s2, s2 
+197d420: vsqrt.f32 s0, s0 
+197d424: vcmp.f32 s0, s16 
+197d428: vmrs apsr_nzcv, fpscr 
+197d42c: vmovgt.f32 s16, s0 
+197d430: b #0x197d358 
+197d434: andeq r0, r0, r0 
+197d438: ldreq r6, [r4], #-0x9c5 
+197d43c: .byte 0x18, 0x20, 0xf2, 0x03 
+197d440: .byte 0xb8, 0xd6, 0xf1, 0x03 
+197d444: .byte 0xf8, 0x1f, 0xf2, 0x03 
+197d448: .byte 0x8c, 0xd6, 0xf1, 0x03 
+197d44c: .byte 0xf4, 0xff, 0xf1, 0x03 
+197d450: ldreq r5, [r4], #-0xc19 
+197d454: ldreq r5, [r4], #-0xbf9 
+
+RANGE0x197d608
+197d608: push {r4, r5, r6, r7, fp, lr} 
+197d60c: vpush {d8, d9, d10} 
+197d610: sub sp, sp, #0x18 
+197d614: ldr r5, [pc, #0x1b8]  literal@197d7d4=c8651404 / float 1.74441e-36
+197d618: mov r4, r0 
+197d61c: add r5, pc, r5 
+197d620: ldrb r0, [r5] 
+197d624: cmp r0, #0 
+197d628: bne #0x197d64c 
+197d62c: ldr r0, [pc, #0x1a4]  literal@197d7d8=181cf203 / float 1.42299e-36
+197d630: ldr r0, [pc, r0] 
+197d634: bl #0x161f5e0 
+197d638: ldr r0, [pc, #0x19c]  literal@197d7dc=b8d2f103 / float 1.42131e-36
+197d63c: ldr r0, [pc, r0] 
+197d640: bl #0x161f5e0 
+197d644: mov r0, #1 
+197d648: strb r0, [r5] 
+197d64c: ldr r0, [pc, #0x18c]  literal@197d7e0=f81bf203 / float 1.42299e-36
+197d650: ldr r0, [pc, r0] 
+197d654: ldr r1, [r0] 
+197d658: mov r0, r4 
+197d65c: bl #0x1de1678 
+197d660: ldr r7, [pc, #0x17c]  literal@197d7e4=8cd2f103 / float 1.4213e-36
+197d664: mov r5, r0 
+197d668: ldr r7, [pc, r7] 
+197d66c: ldr r0, [r7] 
+197d670: ldr r1, [r0, #0x74] 
+197d674: cmp r1, #0 
+197d678: bne #0x197d680 
+197d67c: bl #0x161f754 
+197d680: mov r0, r5 
+197d684: mov r1, #0 
+197d688: mov r2, #0 
+197d68c: bl #0x26d5dfc 
+197d690: vmov.f32 s16, #-1.000000e+00 
+197d694: cmp r0, #0 
+197d698: bne #0x197d7c0 
+197d69c: cmp r5, #0 
+197d6a0: bne #0x197d6a8 
+197d6a4: bl #0x161f890 
+197d6a8: mov r0, r5 
+197d6ac: mov r1, #0 
+197d6b0: bl #0x26d9040 
+197d6b4: mov r6, r0 
+197d6b8: ldr r0, [r7] 
+197d6bc: ldr r1, [r0, #0x74] 
+197d6c0: cmp r1, #0 
+197d6c4: bne #0x197d6cc 
+197d6c8: bl #0x161f754 
+197d6cc: mov r0, r6 
+197d6d0: mov r1, #0 
+197d6d4: mov r2, #0 
+197d6d8: bl #0x26d5dfc 
+197d6dc: cmp r0, #0 
+197d6e0: bne #0x197d7c0 
+197d6e4: cmp r5, #0 
+197d6e8: bne #0x197d6f0 
+197d6ec: bl #0x161f890 
+197d6f0: mov r0, r5 
+197d6f4: mov r1, #0 
+197d6f8: bl #0x26d9040 
+197d6fc: mov r5, r0 
+197d700: cmp r0, #0 
+197d704: bne #0x197d70c 
+197d708: bl #0x161f890 
+197d70c: mov r0, sp 
+197d710: mov r1, r5 
+197d714: mov r2, #0 
+197d718: bl #0x26d8b58 
+197d71c: vldr s0, [sp, #0xc] 
+197d720: mov r0, r4 
+197d724: vldr s2, [sp, #0x14] 
+197d728: mov r1, #0 
+197d72c: vadd.f32 s0, s0, s0 
+197d730: vadd.f32 s16, s2, s2 
+197d734: vcmp.f32 s0, s16 
+197d738: vmrs apsr_nzcv, fpscr 
+197d73c: vmov.f32 s18, s16 
+197d740: vmovgt.f32 s18, s0 
+197d744: vmovmi.f32 s16, s0 
+197d748: bl #0x26d5f0c 
+197d74c: mov r5, r0 
+197d750: cmp r0, #0 
+197d754: bne #0x197d75c 
+197d758: bl #0x161f890 
+197d75c: mov r0, sp 
+197d760: mov r1, r5 
+197d764: mov r2, #0 
+197d768: bl #0x26d7e2c 
+197d76c: mov r0, r4 
+197d770: mov r1, #0 
+197d774: vldr s20, [sp] 
+197d778: bl #0x26d5f0c 
+197d77c: mov r4, r0 
+197d780: cmp r0, #0 
+197d784: bne #0x197d78c 
+197d788: bl #0x161f890 
+197d78c: mov r0, sp 
+197d790: mov r1, r4 
+197d794: mov r2, #0 
+197d798: bl #0x26d7e2c 
+197d79c: vldr s0, [pc, #0x2c]  literal@197d7d0=cdcc4c3e / float 0.2
+197d7a0: vmov.f32 s2, #5.000000e-01 
+197d7a4: vmla.f32 s16, s18, s0 
+197d7a8: vldr s0, [sp, #8] 
+197d7ac: vcmp.f32 s20, s0 
+197d7b0: vmrs apsr_nzcv, fpscr 
+197d7b4: vmul.f32 s2, s16, s2 
+197d7b8: vmovgt.f32 s0, s20 
+197d7bc: vmul.f32 s16, s2, s0 
+197d7c0: vmov r0, s16 
+197d7c4: add sp, sp, #0x18 
+197d7c8: vpop {d8, d9, d10} 
+197d7cc: pop {r4, r5, r6, r7, fp, pc} 
+197d7d0: cdplo p12, #4, c12, c12, c13, #6 
+197d7d4: ldreq r6, [r4], #-0x5c8 
+197d7d8: .byte 0x18, 0x1c, 0xf2, 0x03 
+197d7dc: .byte 0xb8, 0xd2, 0xf1, 0x03 
+197d7e0: .byte 0xf8, 0x1b, 0xf2, 0x03 
+197d7e4: .byte 0x8c, 0xd2, 0xf1, 0x03 
+197d7e8: vmov.f32 s0, #1.000000e+00 
+197d7ec: vldr s2, [r0, #0xc] 
+197d7f0: vsub.f32 s0, s0, s2 
+197d7f4: vmov r0, s0 
+197d7f8: bx lr 

@@ -1,0 +1,14 @@
+{
+  "status": "not_run",
+  "checkedUtc": "2026-10-13T11:07:46.6922292Z",
+  "adbDevicesAtValidation": [],
+  "apkInstallRun": "not_run",
+  "runtimeSmokeRun": "not_run",
+  "physicalPhonePerformance": "not_measured",
+  "reason": "No attached Android device or complete installed emulator plus AVD was available at validation time. An earlier emulator connection was no longer present.",
+  "availableTool": "Unity Android SDK platform-tools adb",
+  "emulatorInventory": "Only legacy SDK/tools/emulator.exe stub and avdmanager were found; no complete emulator package, system image or AVD was found in the inspected existing SDK, task workspace or app/runtime directories.",
+  "previewsPlatform": "Windows standalone player",
+  "noRuntimePassClaim": true,
+  "finalApkSHA256": "bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a"
+}

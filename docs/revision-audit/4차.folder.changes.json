@@ -1,0 +1,186 @@
+[
+  {
+    "path": "Previews/DesktopFrameTimes.txt",
+    "status": "이전만 존재",
+    "before_bytes": 180,
+    "after_bytes": null,
+    "before_sha256": "dd3e92618580191cbe5f1ab5eb919c331c160f9575d64a14c14090b40d8d2e75",
+    "after_sha256": null
+  },
+  {
+    "path": "SHA256.json",
+    "status": "수정",
+    "before_bytes": 613633,
+    "after_bytes": 612668,
+    "before_sha256": "f93195e45d8bfc76cbb0d516fd012df54382263c17168a323666eb21c58d7d0d",
+    "after_sha256": "10b958792592bba6361d14fbac8961137244140357d632092224bb49a03151a8"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceBuilder.cs",
+    "status": "수정",
+    "before_bytes": 9189,
+    "after_bytes": 9189,
+    "before_sha256": "89dba427014808066968a68c429d70f86485c2c754be0c54e712ff167864f4b3",
+    "after_sha256": "2053c606fda3e62ee30f053005054a3862a898abacdd4f5b85e1e5f9db4f5113"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceInputBuildGuard.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 789,
+    "before_sha256": null,
+    "after_sha256": "7c529d25b85e1da3f969e1906d45b0ad8fa1771b4d9dff908f2a10d731efa9e2"
+  },
+  {
+    "path": "Source/Assets/Editor/ReferenceInputBuildGuard.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "2ef84ac85d4fa20bee7bbb3d6a54954a9e7456c9f01e1b338c96fcafe3fcf6d6"
+  },
+  {
+    "path": "Source/Assets/Scripts/ReferenceGame.cs",
+    "status": "수정",
+    "before_bytes": 39215,
+    "after_bytes": 39974,
+    "before_sha256": "253671080bc7bea1983c659210d65b412bb89fc9d756bedee61bad54bb94b78a",
+    "after_sha256": "ccf6b671612356177299229c2ed49f6e4f54d6da9cbc1739433f90e664277744"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/Reference.Tests.asmdef",
+    "status": "수정",
+    "before_bytes": 378,
+    "after_bytes": 508,
+    "before_sha256": "d62de6e7d1c14299f6b19ee3b64838456aa2cc0b26c3303446ce8e457bbccbeb",
+    "after_sha256": "1b77ba2631b5901e33e6d2b31a19997673ea7300f9d121d08b67c9bac7554fba"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceTouchTests.cs",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 5894,
+    "before_sha256": null,
+    "after_sha256": "34f378ec9313180be4c40a14cd620d815300a742219cfc3d5dfd75b4945ac924"
+  },
+  {
+    "path": "Source/Assets/Tests/Reference/ReferenceTouchTests.cs.meta",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 59,
+    "before_sha256": null,
+    "after_sha256": "e5902fd7361af0eb4bb3a79a36abf010499d141e731c43370069bf7785ac9301"
+  },
+  {
+    "path": "Source/ProjectSettings/ProjectSettings.asset",
+    "status": "수정",
+    "before_bytes": 22453,
+    "after_bytes": 22453,
+    "before_sha256": "b97c8891e4bcdc99a3cb22c43cc8aa3f07c63fe72f7fd570486cf1e421119d0c",
+    "after_sha256": "28fd68e791cca09c767c93b738fc6de6ae7205296bb68caafea932d094e9d1d9"
+  },
+  {
+    "path": "Source/README.txt",
+    "status": "수정",
+    "before_bytes": 1375,
+    "after_bytes": 1702,
+    "before_sha256": "bd3b8967568e63e218df3d2dc7ef180d5ef9515521351aa84817f35f039a7118",
+    "after_sha256": "04aca1e764d7ebf6b86c60ccc4c4ae1a854e2e4a7900b0e7ce02a4e04ccda93d"
+  },
+  {
+    "path": "Verification/APK-Verification.txt",
+    "status": "이전만 존재",
+    "before_bytes": 6450,
+    "after_bytes": null,
+    "before_sha256": "4d67175d0e7b1474185a8e2374c32835d8b99a32fb4e01c14d84d0be2847cfee",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/AndroidBuild.txt",
+    "status": "수정",
+    "before_bytes": 48,
+    "after_bytes": 48,
+    "before_sha256": "8c1d10f906f00a24011405e3654a471f5611f464d02670d0bbb314f166765889",
+    "after_sha256": "47da678ff7adc4a034dd68b8e2cc0796d8f8796a7b4cb5912c810a39084ea1b2"
+  },
+  {
+    "path": "Verification/BorderRecoveryTest.xml",
+    "status": "이전만 존재",
+    "before_bytes": 2581,
+    "after_bytes": null,
+    "before_sha256": "c6d2354cf26582172f076d4a203abd348c4b657f962f41ebd68d417a3f52e7ea",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/FinalStartPositionTest.xml",
+    "status": "이전만 존재",
+    "before_bytes": 2580,
+    "after_bytes": null,
+    "before_sha256": "42dd32e7efdb31539b1888bef0f5fb56c8b61ae2a338175749b8bbf218607582",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/Input-Fix.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 1041,
+    "before_sha256": null,
+    "after_sha256": "87a5bd1ba629b6ce822586164443317032d44addd1c5f233b28a77633e923182"
+  },
+  {
+    "path": "Verification/ReferenceCampaign.txt",
+    "status": "이전만 존재",
+    "before_bytes": 1499,
+    "after_bytes": null,
+    "before_sha256": "edbb2c08831d99a60b9ef728f074e64b74fce2060113b3100af7f47d69fb50dc",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/ReferenceStructures.txt",
+    "status": "이전만 존재",
+    "before_bytes": 1615,
+    "after_bytes": null,
+    "before_sha256": "4ecd14ddc0058bc24d21b86735c8ec315ea250cde382576ebe12c4ecdbd35741",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/ReferenceTests.xml",
+    "status": "이전만 존재",
+    "before_bytes": 7578,
+    "after_bytes": null,
+    "before_sha256": "e3684a0afc2fe39a5e4eb05ceefb70d5414f00148950e83885d9340b12395ddd",
+    "after_sha256": null
+  },
+  {
+    "path": "Verification/reference4-apk-verification.txt",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 6100,
+    "before_sha256": null,
+    "after_sha256": "507545dada6fa3c232538388ad79c918564e67234a318762ba1dd7ebb779f9ee"
+  },
+  {
+    "path": "Verification/reference4-regression-tests.xml",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 5001,
+    "before_sha256": null,
+    "after_sha256": "96dd484daee7e9d57d48bde5ef1fe5ee172b5e2abe9882aab2f70f8fffe840a2"
+  },
+  {
+    "path": "Verification/reference4-touch-tests.xml",
+    "status": "추가",
+    "before_bytes": null,
+    "after_bytes": 3218,
+    "before_sha256": null,
+    "after_sha256": "cd24c307c7c74e7208675967d957271c10693ae6362c424e4f2bbdf9ca0b1362"
+  },
+  {
+    "path": "읽어주세요.txt",
+    "status": "수정",
+    "before_bytes": 2654,
+    "after_bytes": 1586,
+    "before_sha256": "7ff554d7c21b8483bbdcf0e1e1debaeaca2767b5f2dbc511b658453de539438b",
+    "after_sha256": "a885673d4b32e4dcb60d9a0a18725b43f1e0f5317373c54e79cce3735b362aeb"
+  }
+]

@@ -1,0 +1,1600 @@
+
+METHOD SpawnItemsLoadedData 0x17db6ac
+17db6ac push     {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+17db6b0 sub      sp, sp, #4
+17db6b4 vpush    {d8, d9, d10, d11, d12, d13}
+17db6b8 sub      sp, sp, #0x40
+17db6bc str      r1, [sp, #0x18]
+17db6c0 str      r0, [sp, #0x1c]
+17db6c4 ldr      r4, [pc, #0x978]
+17db6c8 add      r4, pc, r4
+17db6cc ldrb     r0, [r4]
+17db6d0 cmp      r0, #0
+17db6d4 bne      #0x17db788
+17db6d8 ldr      r0, [pc, #0x968]
+17db6dc ldr      r0, [pc, r0]
+17db6e0 bl       #0x161f5e0
+17db6e4 ldr      r0, [pc, #0x960]
+17db6e8 ldr      r0, [pc, r0]
+17db6ec bl       #0x161f5e0
+17db6f0 ldr      r0, [pc, #0x958]
+17db6f4 ldr      r0, [pc, r0]
+17db6f8 bl       #0x161f5e0
+17db6fc ldr      r0, [pc, #0x950]
+17db700 ldr      r0, [pc, r0]
+17db704 bl       #0x161f5e0
+17db708 ldr      r0, [pc, #0x948]
+17db70c ldr      r0, [pc, r0]
+17db710 bl       #0x161f5e0
+17db714 ldr      r0, [pc, #0x940]
+17db718 ldr      r0, [pc, r0]
+17db71c bl       #0x161f5e0
+17db720 ldr      r0, [pc, #0x938]
+17db724 ldr      r0, [pc, r0]
+17db728 bl       #0x161f5e0
+17db72c ldr      r0, [pc, #0x930]
+17db730 ldr      r0, [pc, r0]
+17db734 bl       #0x161f5e0
+17db738 ldr      r0, [pc, #0x928]
+17db73c ldr      r0, [pc, r0]
+17db740 bl       #0x161f5e0
+17db744 ldr      r0, [pc, #0x920]
+17db748 ldr      r0, [pc, r0]
+17db74c bl       #0x161f5e0
+17db750 ldr      r0, [pc, #0x918]
+17db754 ldr      r0, [pc, r0]
+17db758 bl       #0x161f5e0
+17db75c ldr      r0, [pc, #0x910]
+17db760 ldr      r0, [pc, r0]
+17db764 bl       #0x161f5e0
+17db768 ldr      r0, [pc, #0x908]
+17db76c ldr      r0, [pc, r0]
+17db770 bl       #0x161f5e0
+17db774 ldr      r0, [pc, #0x900]
+17db778 ldr      r0, [pc, r0]
+17db77c bl       #0x161f5e0
+17db780 mov      r0, #1
+17db784 strb     r0, [r4]
+17db788 ldr      r0, [pc, #0x8f0]
+17db78c vmov.i32 q8, #0
+17db790 add      r1, sp, #0x30
+17db794 ldr      r0, [pc, r0]
+17db798 vst1.64  {d16, d17}, [r1]
+17db79c mov      r1, #0
+17db7a0 ldr      r0, [r0]
+17db7a4 bl       #0x26d6bbc
+17db7a8 mov      r1, #0
+17db7ac bl       #0x170f544
+17db7b0 str      r0, [sp, #0xc]
+17db7b4 ldr      r0, [pc, #0x8c8]
+17db7b8 ldr      r0, [pc, r0]
+17db7bc ldr      r0, [r0]
+17db7c0 ldr      r1, [r0, #0x74]
+17db7c4 cmp      r1, #0
+17db7c8 bne      #0x17db7d0
+17db7cc bl       #0x161f754
+17db7d0 mov      r0, #0
+17db7d4 bl       #0x18afa18 // public static float GetLinearDrag() { }
+17db7d8 str      r0, [sp, #0x14]
+17db7dc mov      r0, #0
+17db7e0 bl       #0x18afa8c // public static float GetAngularDrag() { }
+17db7e4 str      r0, [sp, #0x10]
+17db7e8 mov      r0, #0
+17db7ec bl       #0x18afb74 // public static float GetItemMass() { }
+17db7f0 ldr      r5, [sp, #0x18]
+17db7f4 mov      r4, r0
+17db7f8 cmp      r5, #0
+17db7fc bne      #0x17db804
+17db800 bl       #0x161f890
+17db804 ldr      r5, [r5, #0x14]
+17db808 cmp      r5, #0
+17db80c bne      #0x17db814
+17db810 bl       #0x161f890
+17db814 ldr      r0, [pc, #0x86c]
+17db818 vmov     s16, r4
+17db81c add      r4, sp, #0x20
+17db820 mov      r1, r5
+17db824 ldr      r0, [pc, r0]
+17db828 ldr      r2, [r0]
+17db82c mov      r0, r4
+17db830 bl       #0x236ba08
+17db834 vld1.64  {d16, d17}, [r4]
+17db838 add      r0, sp, #0x30
+17db83c vst1.64  {d16, d17}, [r0]
+17db840 str      r0, [sp, #0x24]
+17db844 mov      r0, #0
+17db848 str      r0, [sp, #0x20]
+17db84c vldr     s18, [pc, #0x320]
+17db850 ldr      r0, [pc, #0x864]
+17db854 ldr      r0, [pc, r0]
+17db858 ldr      r1, [r0]
+17db85c add      r0, sp, #0x30
+17db860 bl       #0x339244c
+17db864 cmp      r0, #0
+17db868 beq      #0x17dbf00
+17db86c ldr      r0, [pc, #0x818]
+17db870 ldr      r0, [pc, r0]
+17db874 ldr      r0, [r0]
+17db878 bl       #0x161f884
+17db87c mov      r1, #0
+17db880 mov      fp, r0
+17db884 bl       #0x26d5ca8
+17db888 ldr      r4, [sp, #0x3c]
+17db88c cmp      fp, #0
+17db890 bne      #0x17db898
+17db894 bl       #0x161f890
+17db898 mov      sl, fp
+17db89c str      r4, [sl, #8]!
+17db8a0 mov      r0, sl
+17db8a4 mov      r1, r4
+17db8a8 bl       #0x161f57c
+17db8ac ldr      r0, [sp, #0x1c]
+17db8b0 ldr      r4, [r0, #0x4c]
+17db8b4 cmp      r4, #0
+17db8b8 bne      #0x17db8c0
+17db8bc bl       #0x161f890
+17db8c0 ldr      r5, [sl]
+17db8c4 ldr      r7, [r4, #0x20]
+17db8c8 cmp      r5, #0
+17db8cc bne      #0x17db8d4
+17db8d0 bl       #0x161f890
+17db8d4 ldr      r4, [r5, #8]
+17db8d8 cmp      r7, #0
+17db8dc bne      #0x17db8e4
+17db8e0 bl       #0x161f890
+17db8e4 ldr      r0, [pc, #0x7a4]
+17db8e8 ldr      r0, [pc, r0]
+17db8ec ldr      r2, [r0]
+17db8f0 mov      r0, r7
+17db8f4 mov      r1, r4
+17db8f8 bl       #0x3147794
+17db8fc mov      r4, r0
+17db900 cmp      r0, #0
+17db904 bne      #0x17db90c
+17db908 bl       #0x161f890
+17db90c ldr      r7, [r4, #0xc]
+17db910 ldr      r4, [sp, #0x18]
+17db914 cmp      r4, #0
+17db918 bne      #0x17db920
+17db91c bl       #0x161f890
+17db920 mov      r0, r4
+17db924 mov      r1, #0
+17db928 bl       #0x26d5f0c
+17db92c mov      r4, r0
+17db930 ldr      r0, [pc, #0x75c]
+17db934 ldr      r0, [pc, r0]
+17db938 ldr      r0, [r0]
+17db93c ldr      r1, [r0, #0x74]
+17db940 cmp      r1, #0
+17db944 bne      #0x17db94c
+17db948 bl       #0x161f754
+17db94c ldr      r0, [pc, #0x744]
+17db950 ldr      r0, [pc, r0]
+17db954 ldr      r2, [r0]
+17db958 mov      r0, r7
+17db95c mov      r1, r4
+17db960 bl       #0x1f81d78
+17db964 mov      r8, r0
+17db968 cmp      r0, #0
+17db96c bne      #0x17db974
+17db970 bl       #0x161f890
+17db974 mov      r0, r8
+17db978 mov      r1, #0
+17db97c bl       #0x26d5f0c
+17db980 ldr      r6, [sl]
+17db984 mov      r7, r0
+17db988 cmp      r6, #0
+17db98c bne      #0x17db994
+17db990 bl       #0x161f890
+17db994 add      r6, r6, #0xc
+17db998 cmp      r7, #0
+17db99c ldm      r6, {r4, r5, r6}
+17db9a0 bne      #0x17db9a8
+17db9a4 bl       #0x161f890
+17db9a8 mov      r0, #0
+17db9ac mov      r1, r4
+17db9b0 str      r0, [sp]
+17db9b4 mov      r0, r7
+17db9b8 mov      r2, r5
+17db9bc mov      r3, r6
+17db9c0 bl       #0x26d6b6c
+17db9c4 cmp      r8, #0
+17db9c8 bne      #0x17db9d0
+17db9cc bl       #0x161f890
+17db9d0 mov      r0, r8
+17db9d4 mov      r1, #0
+17db9d8 bl       #0x26d5f0c
+17db9dc ldr      r4, [sl]
+17db9e0 mov      r7, r0
+17db9e4 cmp      r4, #0
+17db9e8 bne      #0x17db9f0
+17db9ec bl       #0x161f890
+17db9f0 ldr      sb, [r4, #0x18]
+17db9f4 cmp      r7, #0
+17db9f8 ldr      r5, [r4, #0x1c]
+17db9fc ldr      r6, [r4, #0x20]
+17dba00 ldr      r4, [r4, #0x24]
+17dba04 bne      #0x17dba0c
+17dba08 bl       #0x161f890
+17dba0c mov      r0, #0
+17dba10 str      r4, [sp]
+17dba14 str      r0, [sp, #4]
+17dba18 mov      r0, r7
+17dba1c mov      r1, sb
+17dba20 mov      r2, r5
+17dba24 mov      r3, r6
+17dba28 bl       #0x26d6220
+17dba2c cmp      r8, #0
+17dba30 bne      #0x17dba38
+17dba34 bl       #0x161f890
+17dba38 mov      r0, r8
+17dba3c mov      r1, #0
+17dba40 bl       #0x26d5f0c
+17dba44 ldr      r4, [sl]
+17dba48 mov      sb, r0
+17dba4c cmp      r4, #0
+17dba50 bne      #0x17dba58
+17dba54 bl       #0x161f890
+17dba58 vldr     s20, [r4, #0x2c]
+17dba5c ldr      r0, [pc, #0x638]
+17dba60 add      r0, pc, r0
+17dba64 ldrb     r0, [r0]
+17dba68 cmp      r0, #0
+17dba6c bne      #0x17dba8c
+17dba70 ldr      r0, [pc, #0x628]
+17dba74 ldr      r0, [pc, r0]
+17dba78 bl       #0x161f5e0
+17dba7c ldr      r0, [pc, #0x620]
+17dba80 mov      r1, #1
+17dba84 add      r0, pc, r0
+17dba88 strb     r1, [r0]
+17dba8c ldr      r0, [pc, #0x614]
+17dba90 cmp      sb, #0
+17dba94 ldr      r0, [pc, r0]
+17dba98 ldr      r0, [r0]
+17dba9c ldr      r0, [r0, #0x5c]
+17dbaa0 vldr     s22, [r0, #0xc]
+17dbaa4 vldr     s24, [r0, #0x10]
+17dbaa8 vldr     s26, [r0, #0x14]
+17dbaac bne      #0x17dbab4
+17dbab0 bl       #0x161f890
+17dbab4 vmul.f32 s0, s20, s26
+17dbab8 mov      r0, #0
+17dbabc vmul.f32 s2, s20, s24
+17dbac0 str      r0, [sp]
+17dbac4 vmul.f32 s4, s20, s22
+17dbac8 mov      r0, sb
+17dbacc vmov     r3, s0
+17dbad0 vmov     r2, s2
+17dbad4 vmov     r1, s4
+17dbad8 bl       #0x26d662c
+17dbadc ldr      r0, [sp, #0x1c]
+17dbae0 cmp      r8, #0
+17dbae4 ldr      r4, [r0, #0x34]
+17dbae8 bne      #0x17dbaf0
+17dbaec bl       #0x161f890
+17dbaf0 mov      r0, r8
+17dbaf4 str      r4, [r0, #0x20]!
+17dbaf8 mov      r1, r4
+17dbafc bl       #0x161f57c
+17dbb00 ldr      r0, [sp, #0x1c]
+17dbb04 ldr      r1, [r0, #0x38]
+17dbb08 mov      r0, r8
+17dbb0c str      r1, [r0, #0x24]!
+17dbb10 bl       #0x161f57c
+17dbb14 ldr      r4, [sl]
+17dbb18 cmp      r4, #0
+17dbb1c bne      #0x17dbb24
+17dbb20 bl       #0x161f890
+17dbb24 ldr      r0, [r4, #0x28]
+17dbb28 cmp      r0, #1
+17dbb2c bne      #0x17dbb78
+17dbb30 ldr      r0, [r8, #0x18]
+17dbb34 mov      r1, #1
+17dbb38 strb     r1, [r8, #0x3c]
+17dbb3c cmp      r0, #0x3b
+17dbb40 beq      #0x17dbb64
+17dbb44 ldr      r4, [r8, #0x28]
+17dbb48 cmp      r4, #0
+17dbb4c bne      #0x17dbb54
+17dbb50 bl       #0x161f890
+17dbb54 mov      r0, r4
+17dbb58 mov      r1, #0
+17dbb5c mov      r2, #0
+17dbb60 bl       #0x26d6bac
+17dbb64 mov      r0, r8
+17dbb68 mov      r1, #0
+17dbb6c bl       #0x197ad68 // public void PutObjectAtRest() { }
+17dbb70 b        #0x17dbb98
+17dbb74 andeq    r0, r0, r0
+17dbb78 ldr      r4, [r8, #0x28]
+17dbb7c cmp      r4, #0
+17dbb80 bne      #0x17dbb88
+17dbb84 bl       #0x161f890
+17dbb88 mov      r0, r4
+17dbb8c mov      r1, #1
+17dbb90 mov      r2, #0
+17dbb94 bl       #0x26d6bac
+17dbb98 ldr      r4, [r8, #0x28]
+17dbb9c cmp      r4, #0
+17dbba0 bne      #0x17dbba8
+17dbba4 bl       #0x161f890
+17dbba8 ldr      r1, [sp, #0x14]
+17dbbac mov      r0, r4
+17dbbb0 mov      r2, #0
+17dbbb4 bl       #0x26d6bcc
+17dbbb8 ldr      r4, [r8, #0x28]
+17dbbbc cmp      r4, #0
+17dbbc0 bne      #0x17dbbc8
+17dbbc4 bl       #0x161f890
+17dbbc8 ldr      r1, [sp, #0x10]
+17dbbcc mov      r0, r4
+17dbbd0 mov      r2, #0
+17dbbd4 bl       #0x26d6bdc
+17dbbd8 ldr      r4, [sl]
+17dbbdc ldr      r7, [r8, #0x28]
+17dbbe0 cmp      r4, #0
+17dbbe4 bne      #0x17dbbec
+17dbbe8 bl       #0x161f890
+17dbbec vmov.f32 s20, s16
+17dbbf0 vldr     s0, [r4, #0x34]
+17dbbf4 vcmp.f32 s0, #0
+17dbbf8 vmrs     apsr_nzcv, fpscr
+17dbbfc ble      #0x17dbc14
+17dbc00 ldr      r4, [sl]
+17dbc04 cmp      r4, #0
+17dbc08 bne      #0x17dbc10
+17dbc0c bl       #0x161f890
+17dbc10 vldr     s20, [r4, #0x34]
+17dbc14 cmp      r7, #0
+17dbc18 bne      #0x17dbc20
+17dbc1c bl       #0x161f890
+17dbc20 vmov     r1, s20
+17dbc24 mov      r0, r7
+17dbc28 mov      r2, #0
+17dbc2c bl       #0x26d6bec
+17dbc30 mov      r0, r8
+17dbc34 mov      r1, #0
+17dbc38 bl       #0x26d5e2c
+17dbc3c mov      r7, r0
+17dbc40 ldr      r0, [sp, #0xc]
+17dbc44 mov      r1, #0
+17dbc48 bl       #0x26d6bfc
+17dbc4c mov      r4, r0
+17dbc50 cmp      r7, #0
+17dbc54 bne      #0x17dbc5c
+17dbc58 bl       #0x161f890
+17dbc5c mov      r0, r7
+17dbc60 mov      r1, r4
+17dbc64 mov      r2, #0
+17dbc68 bl       #0x26d6c0c
+17dbc6c ldr      r4, [sl]
+17dbc70 cmp      r4, #0
+17dbc74 beq      #0x17dbc84
+17dbc78 ldr      r0, [r4, #8]
+17dbc7c str      r0, [r8, #0x18]
+17dbc80 b        #0x17dbca8
+17dbc84 bl       #0x161f890
+17dbc88 ldr      r4, [sl]
+17dbc8c mov      r0, #8
+17dbc90 ldr      r0, [r0]
+17dbc94 cmp      r4, #0
+17dbc98 str      r0, [r8, #0x18]
+17dbc9c bne      #0x17dbca8
+17dbca0 mov      r4, #0
+17dbca4 bl       #0x161f890
+17dbca8 vldr     s0, [r4, #0x30]
+17dbcac vcmp.f32 s0, #0
+17dbcb0 vmov.f32 s0, s18
+17dbcb4 vmrs     apsr_nzcv, fpscr
+17dbcb8 bmi      #0x17dbcf0
+17dbcbc ldr      r4, [sl]
+17dbcc0 cmp      r4, #0
+17dbcc4 bne      #0x17dbccc
+17dbcc8 bl       #0x161f890
+17dbccc vldr     s0, [r4, #0x30]
+17dbcd0 vcmp.f32 s0, #0
+17dbcd4 vmrs     apsr_nzcv, fpscr
+17dbcd8 beq      #0x17dbcf4
+17dbcdc ldr      r4, [sl]
+17dbce0 cmp      r4, #0
+17dbce4 bne      #0x17dbcec
+17dbce8 bl       #0x161f890
+17dbcec vldr     s0, [r4, #0x30]
+17dbcf0 vstr     s0, [r8, #0x1c]
+17dbcf4 ldr      r4, [sl]
+17dbcf8 cmp      r4, #0
+17dbcfc beq      #0x17dbd18
+17dbd00 ldr      r0, [r4, #0x38]
+17dbd04 sub      r0, r0, #1
+17dbd08 clz      r0, r0
+17dbd0c lsr      r0, r0, #5
+17dbd10 strb     r0, [r8, #0x54]
+17dbd14 b        #0x17dbd40
+17dbd18 bl       #0x161f890
+17dbd1c mov      r0, #0x38
+17dbd20 ldr      r4, [sl]
+17dbd24 ldr      r0, [r0]
+17dbd28 cmp      r4, #0
+17dbd2c sub      r0, r0, #1
+17dbd30 clz      r0, r0
+17dbd34 lsr      r0, r0, #5
+17dbd38 strb     r0, [r8, #0x54]
+17dbd3c beq      #0x17dbea8
+17dbd40 ldr      r0, [r4, #0x3c]
+17dbd44 str      r0, [r8, #0x58]
+17dbd48 ldr      r0, [r4, #0x40]
+17dbd4c ldr      r1, [sp, #0x1c]
+17dbd50 sub      r0, r0, #1
+17dbd54 clz      r0, r0
+17dbd58 ldr      r1, [r1, #0x30]
+17dbd5c lsr      r0, r0, #5
+17dbd60 strb     r0, [r8, #0x70]
+17dbd64 mov      r0, r8
+17dbd68 mov      r2, #0
+17dbd6c bl       #0x197be1c // public void AssignReferenceManager(GameReferenceManager referenceManager) { }
+17dbd70 ldr      r4, [sp, #0x18]
+17dbd74 cmp      r4, #0
+17dbd78 bne      #0x17dbd80
+17dbd7c bl       #0x161f890
+17dbd80 mov      r0, r4
+17dbd84 mov      r1, r8
+17dbd88 mov      r2, #0
+17dbd8c bl       #0x1975e9c // public void AddToCollectables(CollectableManager collectableManager) { }
+17dbd90 ldr      r0, [sp, #0x1c]
+17dbd94 ldr      r4, [r0, #0x20]
+17dbd98 cmp      r4, #0
+17dbd9c bne      #0x17dbda4
+17dbda0 bl       #0x161f890
+17dbda4 ldr      r4, [r4, #0x10]
+17dbda8 cmp      r4, #0
+17dbdac bne      #0x17dbdb4
+17dbdb0 bl       #0x161f890
+17dbdb4 ldr      r0, [r4, #0x14]
+17dbdb8 mov      r6, #0
+17dbdbc cmp      r0, #0
+17dbdc0 bne      #0x17dbeec
+17dbdc4 ldr      r0, [sp, #0x1c]
+17dbdc8 ldr      r4, [r0, #0x20]
+17dbdcc cmp      r4, #0
+17dbdd0 bne      #0x17dbdd8
+17dbdd4 bl       #0x161f890
+17dbdd8 ldr      r4, [r4, #0x10]
+17dbddc cmp      r4, #0
+17dbde0 bne      #0x17dbde8
+17dbde4 bl       #0x161f890
+17dbde8 ldr      r7, [r4, #0x18]
+17dbdec ldr      r0, [pc, #0x2b8]
+17dbdf0 ldr      r0, [pc, r0]
+17dbdf4 ldr      r0, [r0]
+17dbdf8 bl       #0x161f884
+17dbdfc mov      r4, r0
+17dbe00 ldr      r0, [pc, #0x2a8]
+17dbe04 ldr      r0, [pc, r0]
+17dbe08 ldr      r2, [r0]
+17dbe0c mov      r0, r4
+17dbe10 mov      r1, fp
+17dbe14 mov      r3, #0
+17dbe18 bl       #0x3696f00
+17dbe1c ldr      r0, [pc, #0x290]
+17dbe20 ldr      r0, [pc, r0]
+17dbe24 ldr      r2, [r0]
+17dbe28 mov      r0, r7
+17dbe2c mov      r1, r4
+17dbe30 bl       #0x1e2b798
+17dbe34 cmp      r0, #0
+17dbe38 beq      #0x17dbeec
+17dbe3c ldr      r0, [sp, #0x1c]
+17dbe40 ldr      r7, [r0, #0x70]
+17dbe44 cmp      r7, #0
+17dbe48 bne      #0x17dbe50
+17dbe4c bl       #0x161f890
+17dbe50 ldr      r0, [r7, #0x10]
+17dbe54 ldr      r4, [r7, #8]
+17dbe58 ldr      r5, [r7, #0xc]
+17dbe5c add      r0, r0, #1
+17dbe60 ldr      r1, [pc, #0x250]
+17dbe64 cmp      r4, #0
+17dbe68 ldr      r1, [pc, r1]
+17dbe6c str      r0, [r7, #0x10]
+17dbe70 ldr      r6, [r1]
+17dbe74 bne      #0x17dbe7c
+17dbe78 bl       #0x161f890
+17dbe7c ldr      r0, [r4, #0xc]
+17dbe80 cmp      r5, r0
+17dbe84 bhs      #0x17dbed0
+17dbe88 add      r0, r5, #1
+17dbe8c str      r0, [r7, #0xc]
+17dbe90 add      r0, r4, r5, lsl #2
+17dbe94 mov      r6, #1
+17dbe98 str      r8, [r0, #0x10]!
+17dbe9c mov      r1, r8
+17dbea0 bl       #0x161f57c
+17dbea4 b        #0x17dbeec
+17dbea8 bl       #0x161f890
+17dbeac ldr      r4, [sl]
+17dbeb0 mov      r0, #0x3c
+17dbeb4 ldr      r0, [r0]
+17dbeb8 cmp      r4, #0
+17dbebc str      r0, [r8, #0x58]
+17dbec0 bne      #0x17dbd48
+17dbec4 mov      r4, #0
+17dbec8 bl       #0x161f890
+17dbecc b        #0x17dbd48
+17dbed0 ldr      r0, [r6, #0x10]
+17dbed4 mov      r6, #1
+17dbed8 ldr      r0, [r0, #0x60]
+17dbedc ldr      r2, [r0, #0x38]
+17dbee0 mov      r0, r7
+17dbee4 mov      r1, r8
+17dbee8 bl       #0x236ad40
+17dbeec mov      r0, r8
+17dbef0 mov      r1, r6
+17dbef4 mov      r2, #0
+17dbef8 bl       #0x197bb30 // public void AssignHoleSize(bool isGoalItem = False) { }
+17dbefc b        #0x17db850
+17dbf00 ldr      r0, [pc, #0x1b8]
+17dbf04 ldr      r0, [pc, r0]
+17dbf08 ldr      r1, [r0]
+17dbf0c add      r0, sp, #0x30
+17dbf10 bl       #0x3392448
+17dbf14 add      sp, sp, #0x40
+17dbf18 vpop     {d8, d9, d10, d11, d12, d13}
+17dbf1c add      sp, sp, #4
+17dbf20 pop      {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+17dbf24 b        #0x17dbff4
+17dbf28 b        #0x17dbff4
+17dbf2c b        #0x17dbff4
+17dbf30 b        #0x17dbff4
+17dbf34 b        #0x17dbff4
+17dbf38 b        #0x17dbff4
+17dbf3c b        #0x17dbff4
+17dbf40 b        #0x17dbff4
+17dbf44 b        #0x17dbff4
+17dbf48 b        #0x17dbff4
+17dbf4c b        #0x17dbff4
+17dbf50 b        #0x17dbff4
+17dbf54 b        #0x17dbff4
+17dbf58 b        #0x17dbff4
+17dbf5c b        #0x17dbff4
+17dbf60 b        #0x17dbff4
+17dbf64 b        #0x17dbff4
+17dbf68 b        #0x17dbff4
+17dbf6c b        #0x17dbff4
+17dbf70 b        #0x17dbff4
+17dbf74 b        #0x17dbff4
+17dbf78 b        #0x17dbff4
+17dbf7c b        #0x17dbff4
+17dbf80 b        #0x17dbff4
+17dbf84 b        #0x17dbff4
+17dbf88 b        #0x17dbff4
+17dbf8c b        #0x17dbff4
+17dbf90 b        #0x17dbff4
+17dbf94 b        #0x17dbff4
+17dbf98 b        #0x17dbff4
+17dbf9c b        #0x17dbff4
+17dbfa0 b        #0x17dbff4
+17dbfa4 b        #0x17dbff4
+17dbfa8 b        #0x17dbff4
+17dbfac b        #0x17dbff4
+17dbfb0 b        #0x17dbff4
+17dbfb4 b        #0x17dbff4
+17dbfb8 b        #0x17dbff4
+17dbfbc b        #0x17dbff4
+17dbfc0 b        #0x17dbff4
+17dbfc4 b        #0x17dbff4
+17dbfc8 b        #0x17dbff4
+17dbfcc b        #0x17dbff4
+17dbfd0 b        #0x17dbff4
+17dbfd4 b        #0x17dbff4
+17dbfd8 b        #0x17dbff4
+17dbfdc b        #0x17dbff4
+17dbfe0 b        #0x17dbff4
+17dbfe4 b        #0x17dbff4
+17dbfe8 b        #0x17dbff4
+17dbfec b        #0x17dbff4
+17dbff0 b        #0x17dbff4
+17dbff4 cmp      r1, #1
+17dbff8 bne      #0x17dc034
+17dbffc bl       #0x16e7f28
+17dc000 ldr      r4, [r0]
+17dc004 str      r4, [sp, #0x20]
+17dc008 bl       #0x16ff644
+17dc00c ldr      r0, [pc, #0xb0]
+17dc010 ldr      r0, [pc, r0]
+17dc014 ldr      r1, [r0]
+17dc018 ldr      r0, [sp, #0x24]
+17dc01c bl       #0x3392448
+17dc020 cmp      r4, #0
+17dc024 beq      #0x17dbf14
+17dc028 mov      r0, r4
+17dc02c bl       #0x161f88c
+17dc030 b        #0x17dbf14
+17dc034 add      r0, sp, #0x20
+17dc038 bl       #0x10c9974
+17dc03c bl       #0x16e7ff4
+17dc040 bl       #0x10c873c
+17dc044 strteq   r7, [lr], #-0x95a
+17dc048 streq    r2, [ip], #-0x6ec
+17dc04c streq    r2, [ip], #-0x6e4
+17dc050 streq    r2, [ip], #-0x62c
+17dc054 streq    r2, [ip], #-0x624
+17dc058 streq    r2, [ip], #-0x61c
+17dc05c streq    r2, [ip], #-0x6b8
+17dc060 streq    r2, [ip], #-0x65c
+17dc064 streq    r2, [ip], #-0x600
+17dc068 streq    r2, [ip], #-0x698
+17dc06c streq    pc, [fp], #-0x1ac
+17dc070 streq    r2, [ip], #-0x588
+17dc074 streq    r2, [ip], #-0x678
+17dc078 streq    r2, [ip], #-0x670
+17dc07c streq    r2, [ip], #-0x668
+17dc080 streq    r2, [ip], #-0x64c
+17dc084 streq    r2, [ip], #-0x524
+17dc088 streq    r2, [ip], #-0x50c
+17dc08c streq    r2, [ip], #-0x56c
+17dc090 streq    r2, [ip], #-0x4e0
+17dc094 streq    lr, [fp], #-0xfc0
+17dc098 streq    r2, [ip], #-0x484
+17dc09c strteq   r7, [lr], #-0x57e
+17dc0a0 streq    r0, [ip], #-0xccc
+17dc0a4 strteq   r7, [lr], #-0x55a
+17dc0a8 streq    r0, [ip], #-0xcac
+17dc0ac streq    r1, [ip], #-0xfe0
+17dc0b0 streq    r1, [ip], #-0xfd4
+17dc0b4 streq    r1, [ip], #-0xfac
+17dc0b8 streq    r1, [ip], #-0xf18
+17dc0bc streq    r2, [ip], #-0x4d0
+17dc0c0 streq    r1, [ip], #-0xe1c
+17dc0c4 streq    r1, [ip], #-0xd10
+17dc0c8 push     {r4, lr}
+17dc0cc ldr      r4, [pc, #0x50]
+17dc0d0 add      r4, pc, r4
+17dc0d4 ldrb     r0, [r4]
+17dc0d8 cmp      r0, #0
+17dc0dc bne      #0x17dc0f4
+17dc0e0 ldr      r0, [pc, #0x40]
+17dc0e4 ldr      r0, [pc, r0]
+17dc0e8 bl       #0x161f5e0
+17dc0ec mov      r0, #1
+17dc0f0 strb     r0, [r4]
+17dc0f4 ldr      r0, [pc, #0x30]
+17dc0f8 ldr      r0, [pc, r0]
+17dc0fc ldr      r0, [r0]
+17dc100 ldr      r0, [r0, #0x5c]
+17dc104 ldr      r0, [r0]
+17dc108 cmp      r0, #0
+17dc10c popeq    {r4, pc}
+17dc110 ldr      r2, [r0, #0xc]
+17dc114 ldr      r1, [r0, #0x14]
+17dc118 ldr      r0, [r0, #0x20]
+17dc11c pop      {r4, lr}
+17dc120 bx       r2
+17dc124 strteq   r6, [lr], #-0xf5c
+17dc128 streq    r0, [ip], #-0xa5c
+17dc12c streq    r0, [ip], #-0xa48
+17dc130 push     {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+17dc134 sub      sp, sp, #0x14
+17dc138 ldr      r4, [pc, #0x1f0]
+17dc13c mov      fp, r0
+17dc140 add      r4, pc, r4
+17dc144 ldrb     r0, [r4]
+17dc148 cmp      r0, #0
+17dc14c bne      #0x17dc188
+17dc150 ldr      r0, [pc, #0x1dc]
+17dc154 ldr      r0, [pc, r0]
+17dc158 bl       #0x161f5e0
+17dc15c ldr      r0, [pc, #0x1d4]
+17dc160 ldr      r0, [pc, r0]
+17dc164 bl       #0x161f5e0
+17dc168 ldr      r0, [pc, #0x1cc]
+17dc16c ldr      r0, [pc, r0]
+17dc170 bl       #0x161f5e0
+17dc174 ldr      r0, [pc, #0x1c4]
+17dc178 ldr      r0, [pc, r0]
+17dc17c bl       #0x161f5e0
+17dc180 mov      r0, #1
+17dc184 strb     r0, [r4]
+17dc188 ldr      r4, [fp, #0x20]
+17dc18c cmp      r4, #0
+17dc190 bne      #0x17dc198
+17dc194 bl       #0x161f890
+17dc198 ldr      r4, [r4, #0x10]
+17dc19c cmp      r4, #0
+17dc1a0 bne      #0x17dc1a8
+17dc1a4 bl       #0x161f890
+17dc1a8 ldr      r4, [r4, #0x2c]
+17dc1ac cmp      r4, #0
+17dc1b0 bne      #0x17dc1b8
+17dc1b4 bl       #0x161f890
+17dc1b8 ldr      r5, [fp, #0x20]
+17dc1bc ldr      sb, [r4, #0xc]
+17dc1c0 cmp      r5, #0
+17dc1c4 bne      #0x17dc1cc
+17dc1c8 bl       #0x161f890
+17dc1cc ldr      r4, [r5, #0x10]
+17dc1d0 cmp      r4, #0
+17dc1d4 bne      #0x17dc1dc
+17dc1d8 bl       #0x161f890
+17dc1dc ldr      r0, [pc, #0x160]
+17dc1e0 ldr      r0, [pc, r0]
+17dc1e4 ldr      r6, [r4, #0x30]
+17dc1e8 ldr      r0, [r0]
+17dc1ec ldr      r1, [r0, #0x74]
+17dc1f0 cmp      r1, #0
+17dc1f4 bne      #0x17dc1fc
+17dc1f8 bl       #0x161f754
+17dc1fc mov      r0, #0
+17dc200 bl       #0x1924e38 // public static int GetFailBombCount() { }
+17dc204 mov      r8, r0
+17dc208 bl       #0x17dc354 // private bool ShouldApplyBombEase() { }
+17dc20c cmp      r0, #0
+17dc210 beq      #0x17dc24c
+17dc214 add      r0, r6, sb
+17dc218 sub      r1, r0, r8
+17dc21c add      r2, r0, r0, lsr #31
+17dc220 cmp      r1, r2, asr #1
+17dc224 asrle    r1, r2, #1
+17dc228 sub      r0, r0, r1
+17dc22c cmp      r6, r0
+17dc230 mov      r1, r0
+17dc234 movlt    r1, r6
+17dc238 sub      r0, r0, r1
+17dc23c cmp      sb, r0
+17dc240 sub      r6, r6, r1
+17dc244 movlt    r0, sb
+17dc248 sub      sb, sb, r0
+17dc24c mov      r0, fp
+17dc250 mov      r1, sb
+17dc254 bl       #0x17dc3d0 // private bool SpawnFixedBombs(int bombCount) { }
+17dc258 ldr      r4, [fp, #0x40]
+17dc25c mov      sl, r0
+17dc260 ldr      r5, [fp, #0x30]
+17dc264 ldr      r7, [fp, #0x58]
+17dc268 cmp      r4, #0
+17dc26c bne      #0x17dc274
+17dc270 bl       #0x161f890
+17dc274 mov      r0, #0
+17dc278 mov      r1, r5
+17dc27c str      r0, [sp]
+17dc280 mov      r0, r4
+17dc284 mov      r2, r7
+17dc288 mov      r3, r6
+17dc28c bl       #0x1925bac // public bool SpawnRandomBombs(GameReferenceManager reference, GeneratedLevel level, int bombAmount) { }
+17dc290 orr      r0, sl, r0
+17dc294 strb     r0, [fp, #0x44]
+17dc298 ldr      r7, [pc, #0xa8]
+17dc29c add      r1, sp, #0x10
+17dc2a0 ldr      r7, [pc, r7]
+17dc2a4 str      r8, [sp, #0x10]
+17dc2a8 ldr      r0, [r7, #0x24]
+17dc2ac bl       #0x161f75c
+17dc2b0 mov      r4, r0
+17dc2b4 ldr      r0, [r7, #0x24]
+17dc2b8 add      r1, sp, #0xc
+17dc2bc str      sb, [sp, #0xc]
+17dc2c0 bl       #0x161f75c
+17dc2c4 mov      r5, r0
+17dc2c8 ldr      r0, [r7, #0x24]
+17dc2cc add      r1, sp, #8
+17dc2d0 str      r6, [sp, #8]
+17dc2d4 bl       #0x161f75c
+17dc2d8 mov      r3, r0
+17dc2dc ldr      r0, [pc, #0x68]
+17dc2e0 mov      r1, #0
+17dc2e4 mov      r2, r5
+17dc2e8 ldr      r0, [pc, r0]
+17dc2ec str      r1, [sp]
+17dc2f0 mov      r1, r4
+17dc2f4 ldr      r0, [r0]
+17dc2f8 bl       #0x170e5b4
+17dc2fc mov      r4, r0
+17dc300 ldr      r0, [pc, #0x48]
+17dc304 ldr      r0, [pc, r0]
+17dc308 ldr      r0, [r0]
+17dc30c ldr      r1, [r0, #0x74]
+17dc310 cmp      r1, #0
+17dc314 bne      #0x17dc31c
+17dc318 bl       #0x161f754
+17dc31c mov      r0, r4
+17dc320 mov      r1, #0
+17dc324 bl       #0x26d5ccc
+17dc328 add      sp, sp, #0x14
+17dc32c pop      {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+17dc330 strteq   r6, [lr], #-0xedf
+17dc334 streq    r1, [ip], #-0xbf4
+17dc338 streq    lr, [fp], #-0x79c
+17dc33c streq    r0, [ip], #-0xacc
+17dc340 streq    r1, [ip], #-0xc6c
+17dc344 streq    r1, [ip], #-0xb68
+17dc348 streq    lr, [fp], #-0x680
+17dc34c streq    r1, [ip], #-0xafc
+17dc350 streq    lr, [fp], #-0x5f8
+17dc354 push     {r4, lr}
+17dc358 ldr      r4, [pc, #0x64]
+17dc35c add      r4, pc, r4
+17dc360 ldrb     r0, [r4]
+17dc364 cmp      r0, #0
+17dc368 bne      #0x17dc380
+17dc36c ldr      r0, [pc, #0x54]
+17dc370 ldr      r0, [pc, r0]
+17dc374 bl       #0x161f5e0
+17dc378 mov      r0, #1
+17dc37c strb     r0, [r4]
+17dc380 ldr      r0, [pc, #0x44]
+17dc384 ldr      r0, [pc, r0]
+17dc388 ldr      r0, [r0]
+17dc38c ldr      r0, [r0, #0x5c]
+17dc390 ldr      r4, [r0]
+17dc394 cmp      r4, #0
+17dc398 bne      #0x17dc3a0
+17dc39c bl       #0x161f890
+17dc3a0 ldr      r0, [r4, #0x24]
+17dc3a4 cmp      r0, #0
+17dc3a8 beq      #0x17dc3bc
+17dc3ac ldrb     r0, [r0, #0x14]
+17dc3b0 cmp      r0, #0
+17dc3b4 movwne   r0, #1
+17dc3b8 pop      {r4, pc}
+17dc3bc mov      r0, #0
+17dc3c0 pop      {r4, pc}
+17dc3c4 strteq   r6, [lr], #-0xcc4
+17dc3c8 streq    r0, [ip], #-0x8d0
+17dc3cc streq    r0, [ip], #-0x8bc
+17dc3d0 push     {r4, r5, r6, r7, r8, sb, sl, fp, lr}
+17dc3d4 sub      sp, sp, #4
+17dc3d8 vpush    {d8, d9, d10, d11}
+17dc3dc sub      sp, sp, #0x18
+17dc3e0 ldr      r5, [pc, #0x3e0]
+17dc3e4 mov      r7, r0
+17dc3e8 mov      r4, r1
+17dc3ec add      r5, pc, r5
+17dc3f0 ldrb     r0, [r5]
+17dc3f4 cmp      r0, #0
+17dc3f8 bne      #0x17dc464
+17dc3fc ldr      r0, [pc, #0x3c8]
+17dc400 ldr      r0, [pc, r0]
+17dc404 bl       #0x161f5e0
+17dc408 ldr      r0, [pc, #0x3c0]
+17dc40c ldr      r0, [pc, r0]
+17dc410 bl       #0x161f5e0
+17dc414 ldr      r0, [pc, #0x3b8]
+17dc418 ldr      r0, [pc, r0]
+17dc41c bl       #0x161f5e0
+17dc420 ldr      r0, [pc, #0x3b0]
+17dc424 ldr      r0, [pc, r0]
+17dc428 bl       #0x161f5e0
+17dc42c ldr      r0, [pc, #0x3a8]
+17dc430 ldr      r0, [pc, r0]
+17dc434 bl       #0x161f5e0
+17dc438 ldr      r0, [pc, #0x3a0]
+17dc43c ldr      r0, [pc, r0]
+17dc440 bl       #0x161f5e0
+17dc444 ldr      r0, [pc, #0x398]
+17dc448 ldr      r0, [pc, r0]
+17dc44c bl       #0x161f5e0
+17dc450 ldr      r0, [pc, #0x390]
+17dc454 ldr      r0, [pc, r0]
+17dc458 bl       #0x161f5e0
+17dc45c mov      r0, #1
+17dc460 strb     r0, [r5]
+17dc464 mov      r5, #0
+17dc468 cmp      r4, #0
+17dc46c beq      #0x17dc7b4
+17dc470 ldr      r6, [r7, #0x20]
+17dc474 cmp      r6, #0
+17dc478 bne      #0x17dc480
+17dc47c bl       #0x161f890
+17dc480 ldr      r6, [r6, #0x10]
+17dc484 cmp      r6, #0
+17dc488 bne      #0x17dc490
+17dc48c bl       #0x161f890
+17dc490 ldr      r6, [r6, #0x2c]
+17dc494 cmp      r6, #0
+17dc498 ldrne    r0, [r6, #0xc]
+17dc49c cmpne    r0, #0
+17dc4a0 beq      #0x17dc7b4
+17dc4a4 ldr      r0, [pc, #0x340]
+17dc4a8 ldr      r0, [pc, r0]
+17dc4ac ldr      r0, [r0]
+17dc4b0 bl       #0x161f884
+17dc4b4 mov      r5, r0
+17dc4b8 ldr      r0, [pc, #0x330]
+17dc4bc mov      r1, r6
+17dc4c0 ldr      r0, [pc, r0]
+17dc4c4 ldr      r2, [r0]
+17dc4c8 mov      r0, r5
+17dc4cc bl       #0x236a610
+17dc4d0 ldr      r0, [pc, #0x31c]
+17dc4d4 mov      r1, r5
+17dc4d8 ldr      r0, [pc, r0]
+17dc4dc ldr      r2, [r0]
+17dc4e0 mov      r0, r7
+17dc4e4 bl       #0x1ea0c40
+17dc4e8 cmp      r5, #0
+17dc4ec bne      #0x17dc4f4
+17dc4f0 bl       #0x161f890
+17dc4f4 ldr      r0, [r5, #0xc]
+17dc4f8 cmp      r4, r0
+17dc4fc movlt    r0, r4
+17dc500 cmp      r0, #1
+17dc504 str      r0, [sp, #0x14]
+17dc508 blt      #0x17dc7b0
+17dc50c mov      fp, #0
+17dc510 str      r7, [sp, #0x10]
+17dc514 str      r5, [sp, #0xc]
+17dc518 cmp      r5, #0
+17dc51c bne      #0x17dc524
+17dc520 bl       #0x161f890
+17dc524 ldr      r0, [pc, #0x2cc]
+17dc528 mov      r1, fp
+17dc52c ldr      r0, [pc, r0]
+17dc530 ldr      r2, [r0]
+17dc534 mov      r0, r5
+17dc538 bl       #0x236aa74
+17dc53c ldr      r4, [r7, #0x4c]
+17dc540 mov      r6, r0
+17dc544 cmp      r4, #0
+17dc548 bne      #0x17dc550
+17dc54c bl       #0x161f890
+17dc550 ldr      r4, [r4, #0x24]
+17dc554 cmp      r6, #0
+17dc558 bne      #0x17dc560
+17dc55c bl       #0x161f890
+17dc560 ldr      r5, [r6, #8]
+17dc564 cmp      r4, #0
+17dc568 bne      #0x17dc570
+17dc56c bl       #0x161f890
+17dc570 ldr      r0, [pc, #0x284]
+17dc574 mov      r1, r5
+17dc578 ldr      r0, [pc, r0]
+17dc57c ldr      r2, [r0]
+17dc580 mov      r0, r4
+17dc584 bl       #0x318f230
+17dc588 ldr      r5, [r7, #0x20]
+17dc58c mov      r4, r0
+17dc590 cmp      r5, #0
+17dc594 bne      #0x17dc59c
+17dc598 bl       #0x161f890
+17dc59c mov      r0, r5
+17dc5a0 mov      r1, #0
+17dc5a4 bl       #0x26d5f0c
+17dc5a8 mov      r5, r0
+17dc5ac ldr      r0, [pc, #0x24c]
+17dc5b0 ldr      r0, [pc, r0]
+17dc5b4 ldr      r0, [r0]
+17dc5b8 ldr      r1, [r0, #0x74]
+17dc5bc cmp      r1, #0
+17dc5c0 bne      #0x17dc5c8
+17dc5c4 bl       #0x161f754
+17dc5c8 ldr      r0, [pc, #0x234]
+17dc5cc mov      r1, r5
+17dc5d0 ldr      r0, [pc, r0]
+17dc5d4 ldr      r2, [r0]
+17dc5d8 mov      r0, r4
+17dc5dc bl       #0x1f81d78
+17dc5e0 mov      sl, r0
+17dc5e4 cmp      r0, #0
+17dc5e8 bne      #0x17dc5f0
+17dc5ec bl       #0x161f890
+17dc5f0 mov      r0, sl
+17dc5f4 mov      r1, #0
+17dc5f8 bl       #0x26d5f0c
+17dc5fc ldr      r7, [r6, #0x10]
+17dc600 mov      r5, r0
+17dc604 ldr      r4, [r6, #0x14]
+17dc608 cmp      r0, #0
+17dc60c ldr      r8, [r6, #0x18]
+17dc610 bne      #0x17dc618
+17dc614 bl       #0x161f890
+17dc618 mov      r0, #0
+17dc61c mov      r1, r7
+17dc620 str      r0, [sp]
+17dc624 mov      r0, r5
+17dc628 mov      r2, r4
+17dc62c mov      r3, r8
+17dc630 bl       #0x26d6b6c
+17dc634 cmp      sl, #0
+17dc638 bne      #0x17dc640
+17dc63c bl       #0x161f890
+17dc640 mov      r0, sl
+17dc644 mov      r1, #0
+17dc648 bl       #0x26d5f0c
+17dc64c add      sb, r6, #0x1c
+17dc650 ldr      r4, [r6, #0x28]
+17dc654 mov      r5, r0
+17dc658 cmp      r0, #0
+17dc65c ldm      sb, {r7, r8, sb}
+17dc660 bne      #0x17dc668
+17dc664 bl       #0x161f890
+17dc668 mov      r0, #0
+17dc66c str      r4, [sp]
+17dc670 str      r0, [sp, #4]
+17dc674 mov      r0, r5
+17dc678 mov      r1, r7
+17dc67c mov      r2, r8
+17dc680 mov      r3, sb
+17dc684 bl       #0x26d6220
+17dc688 cmp      sl, #0
+17dc68c bne      #0x17dc694
+17dc690 bl       #0x161f890
+17dc694 mov      r0, sl
+17dc698 mov      r1, #0
+17dc69c bl       #0x26d5f0c
+17dc6a0 mov      r5, r0
+17dc6a4 vldr     s16, [r6, #0xc]
+17dc6a8 ldr      r0, [pc, #0x158]
+17dc6ac ldr      r7, [sp, #0x10]
+17dc6b0 add      r0, pc, r0
+17dc6b4 ldrb     r0, [r0]
+17dc6b8 cmp      r0, #0
+17dc6bc bne      #0x17dc6dc
+17dc6c0 ldr      r0, [pc, #0x144]
+17dc6c4 ldr      r0, [pc, r0]
+17dc6c8 bl       #0x161f5e0
+17dc6cc ldr      r0, [pc, #0x13c]
+17dc6d0 mov      r1, #1
+17dc6d4 add      r0, pc, r0
+17dc6d8 strb     r1, [r0]
+17dc6dc ldr      r0, [pc, #0x130]
+17dc6e0 cmp      r5, #0
+17dc6e4 ldr      r0, [pc, r0]
+17dc6e8 ldr      r0, [r0]
+17dc6ec ldr      r0, [r0, #0x5c]
+17dc6f0 vldr     s18, [r0, #0xc]
+17dc6f4 vldr     s20, [r0, #0x10]
+17dc6f8 vldr     s22, [r0, #0x14]
+17dc6fc bne      #0x17dc704
+17dc700 bl       #0x161f890
+17dc704 vmul.f32 s0, s16, s22
+17dc708 mov      r0, #0
+17dc70c vmul.f32 s2, s16, s20
+17dc710 str      r0, [sp]
+17dc714 vmul.f32 s4, s16, s18
+17dc718 mov      r0, r5
+17dc71c vmov     r3, s0
+17dc720 vmov     r2, s2
+17dc724 vmov     r1, s4
+17dc728 bl       #0x26d662c
+17dc72c ldrb     r0, [r6, #0x2c]
+17dc730 cmp      r0, #0
+17dc734 beq      #0x17dc758
+17dc738 ldr      r5, [sp, #0xc]
+17dc73c cmp      sl, #0
+17dc740 beq      #0x17dc77c
+17dc744 mov      r0, sl
+17dc748 mov      r1, #1
+17dc74c mov      r2, #0
+17dc750 bl       #0x1925338 // public void SetRigidBody(bool isActive) { }
+17dc754 b        #0x17dc794
+17dc758 ldr      r5, [sp, #0xc]
+17dc75c cmp      sl, #0
+17dc760 bne      #0x17dc768
+17dc764 bl       #0x161f890
+17dc768 mov      r0, sl
+17dc76c mov      r1, #0
+17dc770 mov      r2, #0
+17dc774 bl       #0x1925338 // public void SetRigidBody(bool isActive) { }
+17dc778 b        #0x17dc7a0
+17dc77c bl       #0x161f890
+17dc780 mov      r0, #0
+17dc784 mov      r1, #1
+17dc788 mov      r2, #0
+17dc78c bl       #0x1925338 // public void SetRigidBody(bool isActive) { }
+17dc790 bl       #0x161f890
+17dc794 mov      r0, sl
+17dc798 mov      r1, #0
+17dc79c bl       #0x19251d8 // public void PutObjectAtRest() { }
+17dc7a0 ldr      r0, [sp, #0x14]
+17dc7a4 add      fp, fp, #1
+17dc7a8 cmp      r0, fp
+17dc7ac bne      #0x17dc518
+17dc7b0 mov      r5, #1
+17dc7b4 mov      r0, r5
+17dc7b8 add      sp, sp, #0x18
+17dc7bc vpop     {d8, d9, d10, d11}
+17dc7c0 add      sp, sp, #4
+17dc7c4 pop      {r4, r5, r6, r7, r8, sb, sl, fp, pc}
+17dc7c8 strteq   r6, [lr], #-0xc35
+17dc7cc streq    r1, [ip], #-0x9e8
+17dc7d0 streq    r1, [ip], #-0x9e0
+17dc7d4 streq    r1, [ip], #-0x9d8
+17dc7d8 streq    r0, [ip], #-0x814
+17dc7dc streq    r1, [ip], #-0x9c4
+17dc7e0 streq    r1, [ip], #-0x8e0
+17dc7e4 streq    r1, [ip], #-0x9b0
+17dc7e8 streq    lr, [fp], #-0x4a0
+17dc7ec streq    r1, [ip], #-0x874
+17dc7f0 streq    r1, [ip], #-0x930
+17dc7f4 streq    r1, [ip], #-0x914
+17dc7f8 streq    r1, [ip], #-0x8c8
+17dc7fc streq    r1, [ip], #-0x870
+17dc800 streq    lr, [fp], #-0x344
+17dc804 streq    r1, [ip], #-0x828
+17dc808 strteq   r6, [lr], #-0x92e
+17dc80c streq    r0, [ip], #-0x7c
+17dc810 strteq   r6, [lr], #-0x90a
+17dc814 streq    r0, [ip], #-0x5c
+
+METHOD CollectableAwake 0x197b988
+197b988 push     {r4, r5, r6, lr}
+197b98c ldr      r5, [pc, #0x170]
+197b990 mov      r4, r0
+197b994 add      r5, pc, r5
+197b998 ldrb     r0, [r5]
+197b99c cmp      r0, #0
+197b9a0 bne      #0x197b9e8
+197b9a4 ldr      r0, [pc, #0x15c]
+197b9a8 ldr      r0, [pc, r0]
+197b9ac bl       #0x161f5e0
+197b9b0 ldr      r0, [pc, #0x154]
+197b9b4 ldr      r0, [pc, r0]
+197b9b8 bl       #0x161f5e0
+197b9bc ldr      r0, [pc, #0x14c]
+197b9c0 ldr      r0, [pc, r0]
+197b9c4 bl       #0x161f5e0
+197b9c8 ldr      r0, [pc, #0x144]
+197b9cc ldr      r0, [pc, r0]
+197b9d0 bl       #0x161f5e0
+197b9d4 ldr      r0, [pc, #0x13c]
+197b9d8 ldr      r0, [pc, r0]
+197b9dc bl       #0x161f5e0
+197b9e0 mov      r0, #1
+197b9e4 strb     r0, [r5]
+197b9e8 ldr      r0, [pc, #0x12c]
+197b9ec ldr      r0, [pc, r0]
+197b9f0 ldr      r1, [r0]
+197b9f4 mov      r0, r4
+197b9f8 bl       #0x1de1678
+197b9fc mov      r5, r4
+197ba00 mov      r1, r0
+197ba04 str      r0, [r5, #0x28]!
+197ba08 mov      r0, r5
+197ba0c bl       #0x161f57c
+197ba10 ldr      r0, [pc, #0x108]
+197ba14 ldr      r0, [pc, r0]
+197ba18 ldr      r6, [r5]
+197ba1c ldr      r0, [r0]
+197ba20 ldr      r1, [r0, #0x74]
+197ba24 cmp      r1, #0
+197ba28 bne      #0x197ba30
+197ba2c bl       #0x161f754
+197ba30 mov      r0, r6
+197ba34 mov      r1, #0
+197ba38 mov      r2, #0
+197ba3c bl       #0x26d5dfc
+197ba40 cmp      r0, #0
+197ba44 beq      #0x197ba7c
+197ba48 ldr      r0, [pc, #0xd4]
+197ba4c ldr      r0, [pc, r0]
+197ba50 ldr      r0, [r0]
+197ba54 ldr      r1, [r0, #0x74]
+197ba58 cmp      r1, #0
+197ba5c bne      #0x197ba64
+197ba60 bl       #0x161f754
+197ba64 ldr      r0, [pc, #0xbc]
+197ba68 mov      r1, #0
+197ba6c ldr      r0, [pc, r0]
+197ba70 ldr      r0, [r0]
+197ba74 bl       #0x26d5de8
+197ba78 b        #0x197badc
+197ba7c ldr      r6, [r5]
+197ba80 cmp      r6, #0
+197ba84 bne      #0x197ba8c
+197ba88 bl       #0x161f890
+197ba8c mov      r0, r6
+197ba90 mov      r1, #0
+197ba94 mov      r2, #0
+197ba98 bl       #0x26d8e60
+197ba9c ldr      r6, [r5]
+197baa0 cmp      r6, #0
+197baa4 bne      #0x197baac
+197baa8 bl       #0x161f890
+197baac mov      r0, r6
+197bab0 mov      r1, #0
+197bab4 mov      r2, #0
+197bab8 bl       #0x26d8e70
+197babc ldr      r5, [r5]
+197bac0 cmp      r5, #0
+197bac4 bne      #0x197bacc
+197bac8 bl       #0x161f890
+197bacc mov      r0, r5
+197bad0 mov      r1, #0
+197bad4 mov      r2, #0
+197bad8 bl       #0x26d8e80
+197badc ldr      r0, [pc, #0x48]
+197bae0 ldr      r0, [pc, r0]
+197bae4 ldr      r1, [r0]
+197bae8 mov      r0, r4
+197baec bl       #0x1de2168
+197baf0 str      r0, [r4, #0x2c]!
+197baf4 mov      r1, r0
+197baf8 mov      r0, r4
+197bafc pop      {r4, r5, r6, lr}
+197bb00 b        #0x161f57c
+197bb04 ldreq    r8, [r4], #-0x247
+
+METHOD HoleVsColliderActivity 0x1975de8
+1975de8 push     {r4, r5, r6, r7, fp, lr}
+1975dec mov      r4, r0
+1975df0 ldrb     r0, [r0, #0x70]
+1975df4 mov      r5, r1
+1975df8 cmp      r0, #0
+1975dfc beq      #0x1975e20
+1975e00 mov      r6, r4
+1975e04 ldr      r7, [r6, #0x74]!
+1975e08 cmp      r7, #0
+1975e0c bne      #0x1975e14
+1975e10 bl       #0x161f890
+1975e14 ldr      r0, [r7, #0xc]
+1975e18 cmp      r0, #0
+1975e1c bne      #0x1975e50
+1975e20 ldr      r0, [r4, #0x64]
+1975e24 cmp      r0, #1
+1975e28 blt      #0x1975e40
+1975e2c ldr      r0, [r4, #0x58]
+1975e30 add      r6, r4, #0x60
+1975e34 cmp      r0, r5
+1975e38 addgt    r6, r4, #0x5c
+1975e3c b        #0x1975e50
+1975e40 ldr      r0, [r4, #0x68]
+1975e44 cmp      r0, #1
+1975e48 blt      #0x1975e94
+1975e4c add      r6, r4, #0x60
+1975e50 ldr      r5, [r6]
+1975e54 ldr      r1, [r4, #0x74]
+1975e58 mov      r2, #0
+1975e5c bl       #0x197aa18 // private void SetColliders(IEnumerable<Collider> colliders, bool state) { }
+1975e60 ldr      r1, [r4, #0x60]
+1975e64 mov      r2, #0
+1975e68 bl       #0x197aa18 // private void SetColliders(IEnumerable<Collider> colliders, bool state) { }
+1975e6c ldr      r1, [r4, #0x5c]
+1975e70 mov      r2, #0
+1975e74 bl       #0x197aa18 // private void SetColliders(IEnumerable<Collider> colliders, bool state) { }
+1975e78 cmp      r5, #0
+1975e7c beq      #0x1975e90
+1975e80 mov      r1, r5
+1975e84 mov      r2, #1
+1975e88 pop      {r4, r5, r6, r7, fp, lr}
+1975e8c b        #0x197aa18 // private void SetColliders(IEnumerable<Collider> colliders, bool state) { }
+1975e90 pop      {r4, r5, r6, r7, fp, pc}
+1975e94 mov      r5, #0
+1975e98 b        #0x1975e54
+
+METHOD MakeItemPhysics 0x197b674
+197b674 push     {r4, r5, r6, lr}
+197b678 ldr      r5, [pc, #0x100]
+197b67c mov      r4, r0
+197b680 add      r5, pc, r5
+197b684 ldrb     r0, [r5]
+197b688 cmp      r0, #0
+197b68c bne      #0x197b6b0
+197b690 ldr      r0, [pc, #0xec]
+197b694 ldr      r0, [pc, r0]
+197b698 bl       #0x161f5e0
+197b69c ldr      r0, [pc, #0xe4]
+197b6a0 ldr      r0, [pc, r0]
+197b6a4 bl       #0x161f5e0
+197b6a8 mov      r0, #1
+197b6ac strb     r0, [r5]
+197b6b0 ldr      r0, [pc, #0xd4]
+197b6b4 mov      r5, r4
+197b6b8 ldr      r0, [pc, r0]
+197b6bc ldr      r6, [r5, #0x28]!
+197b6c0 ldr      r0, [r0]
+197b6c4 ldr      r1, [r0, #0x74]
+197b6c8 cmp      r1, #0
+197b6cc bne      #0x197b6d4
+197b6d0 bl       #0x161f754
+197b6d4 mov      r0, r6
+197b6d8 mov      r1, #0
+197b6dc mov      r2, #0
+197b6e0 bl       #0x26d5dfc
+197b6e4 cmp      r0, #0
+197b6e8 beq      #0x197b710
+197b6ec ldr      r0, [pc, #0x9c]
+197b6f0 ldr      r0, [pc, r0]
+197b6f4 ldr      r1, [r0]
+197b6f8 mov      r0, r4
+197b6fc bl       #0x1de1678
+197b700 mov      r1, r0
+197b704 str      r0, [r4, #0x28]
+197b708 mov      r0, r5
+197b70c bl       #0x161f57c
+197b710 ldr      r6, [r5]
+197b714 cmp      r6, #0
+197b718 bne      #0x197b720
+197b71c bl       #0x161f890
+197b720 mov      r0, r6
+197b724 mov      r1, #0
+197b728 bl       #0x26d6b9c
+197b72c cmp      r0, #0
+197b730 popeq    {r4, r5, r6, pc}
+197b734 ldr      r6, [r5]
+197b738 cmp      r6, #0
+197b73c bne      #0x197b744
+197b740 bl       #0x161f890
+197b744 mov      r0, r6
+197b748 mov      r1, #1
+197b74c mov      r2, #0
+197b750 bl       #0x26d8e70
+197b754 ldr      r5, [r5]
+197b758 cmp      r5, #0
+197b75c bne      #0x197b764
+197b760 bl       #0x161f890
+197b764 mov      r0, r5
+197b768 mov      r1, #0
+197b76c mov      r2, #0
+197b770 bl       #0x26d6bac
+197b774 mov      r0, r4
+197b778 pop      {r4, r5, r6, lr}
+197b77c b        #0x197b794 // public void MakeAboveItemPhysics() { }
+197b780 ldreq    r8, [r4], #-0x559
+
+METHOD MakeAboveItemPhysics 0x197b794
+197b794 push     {r4, r5, r6, r7, fp, lr}
+197b798 sub      sp, sp, #0x18
+197b79c ldr      r4, [pc, #0x1bc]
+197b7a0 mov      r5, r0
+197b7a4 add      r4, pc, r4
+197b7a8 ldrb     r0, [r4]
+197b7ac cmp      r0, #0
+197b7b0 bne      #0x197b7f8
+197b7b4 ldr      r0, [pc, #0x1a8]
+197b7b8 ldr      r0, [pc, r0]
+197b7bc bl       #0x161f5e0
+197b7c0 ldr      r0, [pc, #0x1a0]
+197b7c4 ldr      r0, [pc, r0]
+197b7c8 bl       #0x161f5e0
+197b7cc ldr      r0, [pc, #0x198]
+197b7d0 ldr      r0, [pc, r0]
+197b7d4 bl       #0x161f5e0
+197b7d8 ldr      r0, [pc, #0x190]
+197b7dc ldr      r0, [pc, r0]
+197b7e0 bl       #0x161f5e0
+197b7e4 ldr      r0, [pc, #0x188]
+197b7e8 ldr      r0, [pc, r0]
+197b7ec bl       #0x161f5e0
+197b7f0 mov      r0, #1
+197b7f4 strb     r0, [r4]
+197b7f8 ldrb     r0, [r5, #0x88]
+197b7fc vmov.i32 q8, #0
+197b800 add      r4, sp, #8
+197b804 cmp      r0, #0
+197b808 vst1.64  {d16, d17}, [r4]
+197b80c bne      #0x197b8f8
+197b810 ldr      r6, [r5, #0x84]
+197b814 mov      r0, #1
+197b818 strb     r0, [r5, #0x88]
+197b81c cmp      r6, #0
+197b820 bne      #0x197b828
+197b824 bl       #0x161f890
+197b828 ldr      r0, [r6, #0xc]
+197b82c cmp      r0, #1
+197b830 blt      #0x197b8f8
+197b834 ldr      r5, [r5, #0x84]
+197b838 cmp      r5, #0
+197b83c bne      #0x197b844
+197b840 bl       #0x161f890
+197b844 ldr      r0, [pc, #0x12c]
+197b848 mov      r1, r5
+197b84c ldr      r0, [pc, r0]
+197b850 ldr      r2, [r0]
+197b854 mov      r0, r4
+197b858 bl       #0x236ba08
+197b85c mov      r0, #0
+197b860 str      r4, [sp, #4]
+197b864 str      r0, [sp]
+197b868 ldr      r7, [pc, #0x10c]
+197b86c ldr      r7, [pc, r7]
+197b870 ldr      r1, [r7]
+197b874 mov      r0, r4
+197b878 bl       #0x339244c
+197b87c cmp      r0, #0
+197b880 beq      #0x197b8e4
+197b884 ldr      r5, [sp, #0x14]
+197b888 cmp      r5, #0
+197b88c bne      #0x197b894
+197b890 bl       #0x161f890
+197b894 mov      r0, r5
+197b898 mov      r1, #0
+197b89c bl       #0x26d5e2c
+197b8a0 mov      r6, r0
+197b8a4 cmp      r0, #0
+197b8a8 bne      #0x197b8b0
+197b8ac bl       #0x161f890
+197b8b0 mov      r0, r6
+197b8b4 mov      r1, #0
+197b8b8 bl       #0x26d671c
+197b8bc cmp      r0, #0
+197b8c0 beq      #0x197b870
+197b8c4 cmp      r5, #0
+197b8c8 bne      #0x197b8d0
+197b8cc bl       #0x161f890
+197b8d0 mov      r0, r5
+197b8d4 mov      r1, #0
+197b8d8 mov      r2, #0
+197b8dc bl       #0x26d6bac
+197b8e0 b        #0x197b870
+197b8e4 ldr      r0, [pc, #0x94]
+197b8e8 ldr      r0, [pc, r0]
+197b8ec ldr      r1, [r0]
+197b8f0 add      r0, sp, #8
+197b8f4 bl       #0x3392448
+197b8f8 add      sp, sp, #0x18
+197b8fc pop      {r4, r5, r6, r7, fp, pc}
+197b900 b        #0x197b910
+197b904 b        #0x197b910
+197b908 b        #0x197b910
+197b90c b        #0x197b910
+197b910 cmp      r1, #1
+197b914 bne      #0x197b950
+197b918 bl       #0x16e7f28
+197b91c ldr      r4, [r0]
+197b920 str      r4, [sp]
+197b924 bl       #0x16ff644
+197b928 ldr      r0, [pc, #0x54]
+197b92c ldr      r0, [pc, r0]
+197b930 ldr      r1, [r0]
+197b934 ldr      r0, [sp, #4]
+197b938 bl       #0x3392448
+197b93c cmp      r4, #0
+197b940 beq      #0x197b8f8
+197b944 mov      r0, r4
+197b948 bl       #0x161f88c
+197b94c b        #0x197b8f8
+197b950 mov      r0, sp
+197b954 bl       #0x10cb7c0
+197b958 bl       #0x16e7ff4
+197b95c bl       #0x10c873c
+197b960 ldreq    r8, [r4], #-0x436
+
+METHOD AssignLessFriction 0x1972694
+1972694 push     {r4, r5, r6, r7, r8, sb, fp, lr}
+1972698 ldr      r7, [r0, #0x2c]
+197269c mov      sb, r0
+19726a0 mov      r4, #0
+19726a4 add      r8, r7, #0x10
+19726a8 cmp      r7, #0
+19726ac bne      #0x19726b4
+19726b0 bl       #0x161f890
+19726b4 ldr      r0, [r7, #0xc]
+19726b8 cmp      r4, r0
+19726bc bge      #0x19726f8
+19726c0 cmp      r0, r4
+19726c4 bhi      #0x19726cc
+19726c8 bl       #0x161f894
+19726cc ldr      r5, [r8, r4, lsl #2]
+19726d0 ldr      r6, [sb, #0x24]
+19726d4 cmp      r5, #0
+19726d8 bne      #0x19726e0
+19726dc bl       #0x161f890
+19726e0 mov      r0, r5
+19726e4 mov      r1, r6
+19726e8 mov      r2, #0
+19726ec bl       #0x26d9170
+19726f0 add      r4, r4, #1
+19726f4 b        #0x19726a8
+19726f8 pop      {r4, r5, r6, r7, r8, sb, fp, pc}
+
+METHOD AssignNoPhysics 0x19726fc
+19726fc push     {r4, r5, r6, r7, fp, lr}
+1972700 ldr      r5, [r0, #0x2c]
+1972704 mov      r7, #0
+1972708 add      r6, r5, #0x10
+197270c cmp      r5, #0
+1972710 bne      #0x1972718
+1972714 bl       #0x161f890
+1972718 ldr      r0, [r5, #0xc]
+197271c cmp      r7, r0
+1972720 bge      #0x1972758
+1972724 cmp      r0, r7
+1972728 bhi      #0x1972730
+197272c bl       #0x161f894
+1972730 ldr      r4, [r6, r7, lsl #2]
+1972734 cmp      r4, #0
+1972738 bne      #0x1972740
+197273c bl       #0x161f890
+1972740 mov      r0, r4
+1972744 mov      r1, #0
+1972748 mov      r2, #0
+197274c bl       #0x26d9170
+1972750 add      r7, r7, #1
+1972754 b        #0x197270c
+1972758 pop      {r4, r5, r6, r7, fp, pc}
+197275c mov      r2, #1
+1972760 b        #0x1972590 // private void HandleCollectable(Collider other, bool entering) { }
+
+METHOD AssignNoFriction 0x197bea8
+197bea8 push     {r4, r5, r6, r7, r8, sb, fp, lr}
+197beac ldr      r7, [r0, #0x2c]
+197beb0 mov      sb, r0
+197beb4 mov      r4, #0
+197beb8 add      r8, r7, #0x10
+197bebc cmp      r7, #0
+197bec0 bne      #0x197bec8
+197bec4 bl       #0x161f890
+197bec8 ldr      r0, [r7, #0xc]
+197becc cmp      r4, r0
+197bed0 bge      #0x197bf0c
+197bed4 cmp      r0, r4
+197bed8 bhi      #0x197bee0
+197bedc bl       #0x161f894
+197bee0 ldr      r5, [r8, r4, lsl #2]
+197bee4 ldr      r6, [sb, #0x20]
+197bee8 cmp      r5, #0
+197beec bne      #0x197bef4
+197bef0 bl       #0x161f890
+197bef4 mov      r0, r5
+197bef8 mov      r1, r6
+197befc mov      r2, #0
+197bf00 bl       #0x26d9170
+197bf04 add      r4, r4, #1
+197bf08 b        #0x197bebc
+197bf0c pop      {r4, r5, r6, r7, r8, sb, fp, pc}
+
+METHOD PutObjectAtRest 0x197ad68
+197ad68 push     {r4, r5, fp, lr}
+197ad6c ldr      r5, [pc, #0x60]
+197ad70 mov      r4, r0
+197ad74 add      r5, pc, r5
+197ad78 ldrb     r0, [r5]
+197ad7c cmp      r0, #0
+197ad80 bne      #0x197ad98
+197ad84 ldr      r0, [pc, #0x4c]
+197ad88 ldr      r0, [pc, r0]
+197ad8c bl       #0x161f5e0
+197ad90 mov      r0, #1
+197ad94 strb     r0, [r5]
+197ad98 ldr      r0, [pc, #0x3c]
+197ad9c movw     r2, #0xcccd
+197ada0 movt     r2, #0x3dcc
+197ada4 mov      r3, #0
+197ada8 ldr      r0, [pc, r0]
+197adac ldr      r1, [r0]
+197adb0 mov      r0, r4
+197adb4 bl       #0x26d679c
+197adb8 mov      r0, r4
+197adbc bl       #0x197ade0 // private IEnumerator DelayedRest() { }
+197adc0 mov      r1, r0
+197adc4 mov      r0, r4
+197adc8 mov      r2, #0
+197adcc pop      {r4, r5, fp, lr}
+197add0 b        #0x26d6460
+197add4 ldreq    r8, [r4], #-0xe61
+
+METHOD CollectableConstructor 0x197d7fc
+197d7fc push     {r4, r5, fp, lr}
+197d800 ldr      r5, [pc, #0x78]
+197d804 mov      r4, r0
+197d808 add      r5, pc, r5
+197d80c ldrb     r0, [r5]
+197d810 cmp      r0, #0
+197d814 bne      #0x197d82c
+197d818 ldr      r0, [pc, #0x64]
+197d81c ldr      r0, [pc, r0]
+197d820 bl       #0x161f5e0
+197d824 mov      r0, #1
+197d828 strb     r0, [r5]
+197d82c ldr      r0, [pc, #0x54]
+197d830 mov      r1, #1
+197d834 ldr      r0, [pc, r0]
+197d838 str      r1, [r4, #0x58]
+197d83c movw     r1, #0
+197d840 movt     r1, #0xbf80
+197d844 ldr      r0, [r0]
+197d848 str      r1, [r4, #0x44]
+197d84c bl       #0x161f884
+197d850 mov      r1, #0x3fc00000
+197d854 mov      r2, #0
+197d858 mov      r5, r0
+197d85c bl       #0x26d668c
+197d860 mov      r0, r4
+197d864 mov      r1, r5
+197d868 str      r5, [r0, #0x80]!
+197d86c bl       #0x161f57c
+197d870 mov      r0, r4
+197d874 mov      r1, #0
+197d878 pop      {r4, r5, fp, lr}
+197d87c b        #0x26d5cdc
+197d880 ldreq    r6, [r4], #-0x3dd

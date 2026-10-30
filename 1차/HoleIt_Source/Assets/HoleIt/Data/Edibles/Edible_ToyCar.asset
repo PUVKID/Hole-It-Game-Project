@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5956a5e08349b3dd32e1d6b12d4aedcd, type: 3}
+  m_Name: Edible_ToyCar
+  m_EditorClassIdentifier: ''
+  displayName: TOY CAR
+  objectId: ToyCar
+  colorVariant: 0
+  footprintRadius: 1.017954
+  prefab: {fileID: 1000, guid: faf4ba3717976756c77d92e138223276, type: 3}
+  icon: {fileID: 21300000, guid: 4d305847644a37243c72b1d2cc1fc86d, type: 3}
+  uiColor: {r: 0.53, g: 0.25, b: 0.9, a: 1.0}
+  objectType: 8
+  sizeTier: 2
+  score: 35
+  growthValue: 2.4
+  specialTimeBonus: 0
+  canBeSwallowed: 1
+  swallowPriority: 0
+  overrideWrongBehavior: 0
+  wrongBehavior: 0

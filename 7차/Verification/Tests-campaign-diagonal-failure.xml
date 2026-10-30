@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="4" result="Failed(Child)" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 08:18:24Z" end-time="2026-10-13 08:23:18Z" duration="294.6238606">
+  <test-suite type="TestSuite" id="1102" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="81" result="Failed" site="Child" start-time="2026-10-13 08:18:24Z" end-time="2026-10-13 08:23:18Z" duration="294.623861" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1099" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="81" result="Failed" site="Child" start-time="2026-10-13 08:18:24Z" end-time="2026-10-13 08:23:18Z" duration="294.617599" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="29200" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1071" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="12" result="Failed" site="Child" start-time="2026-10-13 08:18:24Z" end-time="2026-10-13 08:23:18Z" duration="294.612147" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1083" name="AllThirtyStagesCompleteThroughMouthAndStackSimulation" fullname="ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation" methodname="AllThirtyStagesCompleteThroughMouthAndStackSimulation" classname="ReferenceTests" runstate="Runnable" seed="981265154" result="Failed" start-time="2026-10-13 08:18:24Z" end-time="2026-10-13 08:23:06Z" duration="281.816148" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="1800000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Stage 11 45 simulated seconds without collection progress; sim=159.72 collected=341 hole=(14.97, 0.00, -38.29) aperture=1.497 active=1 target=none
+  Expected: Won
+  But was:  Playing
+]]></message>
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__17.MoveNext () [0x003f4] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:61
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+        <test-case id="1081" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="1468633851" result="Passed" start-time="2026-10-13 08:23:06Z" end-time="2026-10-13 08:23:17Z" duration="10.920957" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1078" name="StageNineLongBasketProbeExposesSupportUsingOnlyReachableHolePositions" fullname="ReferenceTests.StageNineLongBasketProbeExposesSupportUsingOnlyReachableHolePositions" methodname="StageNineLongBasketProbeExposesSupportUsingOnlyReachableHolePositions" classname="ReferenceTests" runstate="Runnable" seed="1951475635" result="Passed" start-time="2026-10-13 08:23:17Z" end-time="2026-10-13 08:23:17Z" duration="0.945820" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1076" name="StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" fullname="ReferenceTests.StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" methodname="StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" classname="ReferenceTests" runstate="Runnable" seed="296587498" result="Passed" start-time="2026-10-13 08:23:17Z" end-time="2026-10-13 08:23:18Z" duration="0.917911" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Tests-campaign.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

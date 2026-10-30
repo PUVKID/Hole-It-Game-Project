@@ -1,0 +1,23 @@
+Physics fidelity - edition 7
+
+Recovered source behavior
+The supplied Hole it 1.31.17 native ARM code and serialized assets support release gravity -35, a 0.02-second fixed timestep, maximum delta 0.33333334, mass 1 unless positively overridden, linear damping 0, and angular damping 1. BuildConfig.showDebugUI is false, so the debug gravity preset does not govern the recovered release path. Collectables override sleep threshold to 0. Authored Ph=1 items simulate initially and rest after 1.5 seconds except for the source item 59 exception; bombs use a separate 2-second initial rest.
+
+Source collider groups, disabled shapes, materials, authored mass/growth overrides, and actual primitive shapes are restored. The original concave floor mesh supplies the hole opening and support. Objects fall through physical loss of support; there is no imposed downward animation, added tipping torque, or outside-hole suction. The original below-floor collection volume governs collection, with entry latched every simulation tick so a dense presentation queue cannot lose an event. Character movement radius, visual size, native fit estimate, and the physical opening remain separate dimensions.
+
+A real movement defect was found on rotated maps: floor-membership checks previously ignored authored yaw. They now transform world positions into each tile's original local bounds. The map's rendered geometry and physics settings are unchanged. Stage 28 completed in the focused run after this correction, and the regression validates five formerly blocked positions with all character-radius samples. The source campaign contains 27 stages with non-axis-aligned floor tiles. See RotatedFloorMembershipDefect28.json.
+
+Verification scope
+Native-data fixtures, discrete freefall, small/oversized/missed aperture cases, and source content checks validate the reconstruction. Automated campaign checks use test-only hole positions and accelerated time, while retaining source contacts, gravity, collection and bomb behavior. They do not establish human completion times or difficulty balance. The planner was corrected for offset pivots, conservative rotated bounds, legal adjacent catches, support removal, stable probe holds and waiting for falling items to enter the collection volume. These input-selection changes do not run during ordinary joystick play.
+
+The last focused six-stage run completed stages 11, 14, 19, 25, 28 and left stage 26 unresolved at the 1200-simulated-second cap. A final bounded capsule-axis probe also did not complete stage 26: five tipped Robot Red capsules remained, with the 9/14 robot goal. The actual-axis geometry regression passed; this does not prove stage 26 is impossible or fully playable. It remains a specific verification limitation, not grounds to weaken its source colliders or physics. Earlier failures and raw traces are preserved.
+
+Final verification: 80/81 NUnit cases passed in the fresh 14-fixture run (Tests-final.xml/log). The campaign completed 27/30 attempted stages. Unresolved automated stages: 13, 14, 26. These failures are preserved; no all-stage or error-free claim is made. FinalVerificationSummary.json records exact outcomes. All 107 C# files matched FinalRegressionSourceHashes.json after the run.
+
+Remaining implementation differences
+A 384-body local physics pool, staged initialization on three dense maps, a bounded support graph, and twenty simplified convex contact hulls remain. Four additional hulls required by restored complex groups preserve source axis bounds and 97.21-99.43 percent of convex volume; visual meshes remain unchanged. Remote configuration, existing original-device preferences, and exact cross-platform PhysX trajectories cannot be recovered from packaged assets. These differences prevent a bit-for-bit or error-free equivalence claim. All 465 main stages and all 111 optional layouts have content validation, but gameplay completion is not exhaustively proven for every map.
+
+Evidence: PhysicsFidelityAudit7.json; OriginalPhysicsManager.json; RuntimePhysicsNative.txt; HoleFitNative.txt; HoleHierarchySource7.json; HoleContactMeshSource7.json; BuildConfigSource7.json; CollisionHullAudit7.json; TrumpetPlannerBounds7.json; RotatedFloorMembershipDefect28.json; raw NUnit XML/log files and Source/TestResults traces.
+
+Build provenance
+The earlier native compilation was discarded after the real rotated-floor correction. VerificationAtNativeCompile.cs.txt and VerificationSnapshotDifference.json are historical comparison evidence only, not a delivered APK/source mismatch. The fresh build manifest must describe the final delivered binary.

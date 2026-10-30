@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a76abab04e5c880607646dcf7d3dd, type: 3}
+  m_Name: Level_10
+  m_EditorClassIdentifier: ''
+  schemaVersion: 8
+  levelId: 10
+  levelTitle: 10  Toy Town
+  difficulty: 2
+  timeLimit: 75
+  theme: {fileID: 11400000, guid: 090d5dd5b5b2a612489b434d80a29ffe, type: 2}
+  mapSize: 23.65
+  arenaSize: {x: 23.65, y: 21.5}
+  gridSize: {x: 11, y: 10}
+  startClearRadius: 2.1
+  initialSizeTier: 1
+  growthMultiplier: 1.0
+  movementSpeed: 8.0
+  holeStart: {x: 0.0, y: 0.0}
+  cameraZoomMultiplier: 1.0
+  missions:
+  - missionId: L10_M1
+    kind: 0
+    target: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    category: 4
+    color: 1
+    tier: 2
+    requiredCount: 6
+    icon: {fileID: 21300000, guid: f0b1637644af7daf8151fe78d4df985c, type: 3}
+    description: RED CAR
+  - missionId: L10_M2
+    kind: 4
+    target: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    category: 7
+    color: 0
+    tier: 1
+    requiredCount: 2
+    icon: {fileID: 21300000, guid: ff3e79dec8f344ecf87d09b395f948a5, type: 3}
+    description: TIME BOOST
+  defaultWrongBehavior: 0
+  penaltySeconds: 2.0
+  penaltyScore: 8
+  randomSeed: 122991
+  spawnGroups:
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    count: 7
+    center: {x: -2.6541, y: -5.5153}
+    radius: 5.0
+    ring: 1
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    count: 3
+    center: {x: 6.0551, y: 2.437}
+    radius: 5.0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    count: 14
+    center: {x: -6.2757, y: 1.9214}
+    radius: 5.0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    count: 3
+    center: {x: 3.1998, y: -5.2705}
+    radius: 5.0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    count: 3
+    center: {x: 1.5568, y: 5.8513}
+    radius: 5.0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    count: 3
+    center: {x: -5.4957, y: -3.3586}
+    radius: 5.0
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    count: 3
+    center: {x: 6.5479, y: -0.8983}
+    radius: 5.0
+    ring: 0
+    decorative: 0
+  placements:
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 2.15, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -4.3, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -6.45, y: -7.525}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -6.45, y: -3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -8.6, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 0.0, y: -3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: 0.0, y: -7.525}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -4.3, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -8.6, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: -6.45, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: 6.45, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: 8.6, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: 4.3, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 2.15, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 0.0, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: 2.15, y: 7.525}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 4.3, y: -5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 4.3, y: -3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 2.15, y: -3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    position: {x: 6.45, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    position: {x: 6.45, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    position: {x: 4.3, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -6.45, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -4.3, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -4.3, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -8.6, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -8.6, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -6.45, y: -1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -6.45, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -4.3, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -8.6, y: 5.375}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -2.15, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -2.15, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -10.75, y: 1.075}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -10.75, y: 3.225}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -2.15, y: -1.075}
+    yaw: 180
+    decorative: 0
+  missionBonus: 100
+  clearBonus: 200
+  timeBonusPerSecond: 5
+  nextLevelId: 11

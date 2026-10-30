@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Failed(Child)" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-13 09:46:09Z" end-time="2026-10-13 09:55:19Z" duration="550.2939313">
+  <test-suite type="TestSuite" id="1106" name="Hole It!" fullname="Hole It!" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-10-13 09:46:09Z" end-time="2026-10-13 09:55:19Z" duration="550.293931" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="Assembly" id="1103" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="85" result="Failed" site="Child" start-time="2026-10-13 09:46:09Z" end-time="2026-10-13 09:55:19Z" duration="550.287809" total="3" passed="2" failed="1" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="83636" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="1063" name="ReferenceSeventhStageProbeTests" fullname="ReferenceSeventhStageProbeTests" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2026-10-13 09:46:09Z" end-time="2026-10-13 09:55:17Z" duration="548.423041" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-case id="1064" name="UnresolvedStagesSupportFootprintsTrace" fullname="ReferenceSeventhStageProbeTests.UnresolvedStagesSupportFootprintsTrace" methodname="UnresolvedStagesSupportFootprintsTrace" classname="ReferenceSeventhStageProbeTests" runstate="Runnable" seed="335903242" result="Failed" start-time="2026-10-13 09:46:09Z" end-time="2026-10-13 09:55:17Z" duration="548.415849" asserts="0">
+          <properties>
+            <property name="_JOINTYPE" value="UnityCombinatorial" />
+            <property name="Timeout" value="720000" />
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <failure>
+            <message><![CDATA[  Stage 26: Playing; goals=7,10,7; sim=1200.05 collected=685 hole=(14.58, 0.00, -14.95) aperture=1.689 active=2 target=681/255/Robot Red pivot=(14.62, 1.41, -13.16) fit=1.484 bottom=0.070 kinematic=False velocity=(2.34, -1.47, 0.17) angular=(0.11, 0.02, -1.36) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.12, 1.78, -14.64) size=(5.49, 3.41, 4.49) enabled=1 detection=True floorRayY=0.069
+  Expected: <empty>
+  But was:  < "Stage 26: Playing; goals=7,10,7; sim=1200.05 collected=685 hole=(14.58, 0.00, -14.95) aperture=1.689 active=2 target=681/255/Robot Red pivot=(14.62, 1.41, -13.16) fit=1.484 bottom=0.070 kinematic=False velocity=(2.34, -1.47, 0.17) angular=(0.11, 0.02, -1.36) group=0 switch=6 latch=False initial=False activeBoundsCenter=(17.12, 1.78, -14.64) size=(5.49, 3.41, 4.49) enabled=1 detection=True floorRayY=0.069" >
+]]></message>
+            <stack-trace><![CDATA[at ReferenceSeventhStageProbeTests+<UnresolvedStagesSupportFootprintsTrace>d__0.MoveNext () [0x004c0] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhStageProbeTests.cs:23
+at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
+]]></stack-trace>
+          </failure>
+        </test-case>
+      </test-suite>
+      <test-suite type="TestFixture" id="1074" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="13" result="Passed" start-time="2026-10-13 09:55:17Z" end-time="2026-10-13 09:55:19Z" duration="1.860648" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-case id="1082" name="RotatedSourceFloorPreservesWalkableInteriorAtGrownRadius" fullname="ReferenceTests.RotatedSourceFloorPreservesWalkableInteriorAtGrownRadius" methodname="RotatedSourceFloorPreservesWalkableInteriorAtGrownRadius" classname="ReferenceTests" runstate="Runnable" seed="791250011" result="Passed" start-time="2026-10-13 09:55:17Z" end-time="2026-10-13 09:55:18Z" duration="0.956574" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+        </test-case>
+        <test-case id="1079" name="StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" fullname="ReferenceTests.StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" methodname="StageSevenEdgeBallsHavePlayableCatchPositionsWithoutRelaxingFit" classname="ReferenceTests" runstate="Runnable" seed="1048384314" result="Passed" start-time="2026-10-13 09:55:18Z" end-time="2026-10-13 09:55:19Z" duration="0.898484" asserts="0">
+          <properties>
+            <property name="retryIteration" value="0" />
+            <property name="repeatIteration" value="0" />
+          </properties>
+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\TraceFocusedSix.xml
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

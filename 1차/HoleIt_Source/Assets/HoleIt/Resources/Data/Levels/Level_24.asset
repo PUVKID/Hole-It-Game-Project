@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c05a76abab04e5c880607646dcf7d3dd, type: 3}
+  m_Name: Level_24
+  m_EditorClassIdentifier: ''
+  schemaVersion: 8
+  levelId: 24
+  levelTitle: 24  Toy Town
+  difficulty: 4
+  timeLimit: 85
+  theme: {fileID: 11400000, guid: 090d5dd5b5b2a612489b434d80a29ffe, type: 2}
+  mapSize: 34.4
+  arenaSize: {x: 34.4, y: 27.95}
+  gridSize: {x: 16, y: 13}
+  startClearRadius: 2.1
+  initialSizeTier: 1
+  growthMultiplier: 1.5
+  movementSpeed: 8.0
+  holeStart: {x: 0.0, y: 0.0}
+  cameraZoomMultiplier: 1.0
+  missions:
+  - missionId: L24_M1
+    kind: 0
+    target: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    category: 4
+    color: 1
+    tier: 2
+    requiredCount: 8
+    icon: {fileID: 21300000, guid: f0b1637644af7daf8151fe78d4df985c, type: 3}
+    description: RED CAR
+  - missionId: L24_M2
+    kind: 0
+    target: {fileID: 11400000, guid: bf901fb6a5f8459112d713bb44bbd223, type: 2}
+    category: 2
+    color: 0
+    tier: 3
+    requiredCount: 4
+    icon: {fileID: 21300000, guid: 1ddf0c83849e637778a00ff7c9ff7fdc, type: 3}
+    description: TRAFFIC LIGHT
+  - missionId: L24_M3
+    kind: 0
+    target: {fileID: 11400000, guid: ee8bf272ae3a8f73bc9626435841f199, type: 2}
+    category: 2
+    color: 0
+    tier: 2
+    requiredCount: 2
+    icon: {fileID: 21300000, guid: 5992af51c23c3e6eb4f440db6e42e56d, type: 3}
+    description: FIRE HYDRANT
+  defaultWrongBehavior: 2
+  penaltySeconds: 2.0
+  penaltyScore: 8
+  randomSeed: 233857
+  spawnGroups:
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    count: 9
+    center: {x: -6.0233, y: -6.107}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: bf901fb6a5f8459112d713bb44bbd223, type: 2}
+    count: 5
+    center: {x: 9.5186, y: 1.1973}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: ee8bf272ae3a8f73bc9626435841f199, type: 2}
+    count: 3
+    center: {x: -8.0141, y: 4.3413}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    count: 14
+    center: {x: 2.3001, y: -7.5996}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    count: 5
+    center: {x: 4.622, y: 6.8661}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    count: 5
+    center: {x: -9.1164, y: -2.5261}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    count: 5
+    center: {x: 8.8223, y: -3.1408}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    count: 5
+    center: {x: -3.8941, y: 7.1579}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    count: 2
+    center: {x: -3.0795, y: -7.4153}
+    radius: 6.4
+    ring: 0
+    decorative: 0
+  placements:
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -5.375, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -7.525, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -7.525, y: -8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.225, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -9.675, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -3.225, y: -8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -5.375, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -5.375, y: -10.75}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 3dbf140d950d11dbd76e03225ae90753, type: 2}
+    position: {x: -1.075, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: 9.675, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: 7.525, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: 11.825, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: 7.525, y: -0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 462550486b3e3ccd7bcc0a8bcc8260fc, type: 2}
+    position: {x: 9.675, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: -3.225, y: 6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: -5.375, y: 8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: -5.375, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: -1.075, y: 8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: f943a9b0fa4ce4ab9a6a6bc3dd638631, type: 2}
+    position: {x: -3.225, y: 10.75}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -9.675, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -7.525, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -9.675, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -9.675, y: -0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: c2d0f24f3d43ec57760968306d25ae8b, type: 2}
+    position: {x: -11.825, y: -2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 5.375, y: 6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 3.225, y: 6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 5.375, y: 8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 3.225, y: 8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 755b1d28df2fbb35df44d57ebc7da0b2, type: 2}
+    position: {x: 5.375, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: ee8bf272ae3a8f73bc9626435841f199, type: 2}
+    position: {x: -7.525, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: ee8bf272ae3a8f73bc9626435841f199, type: 2}
+    position: {x: -9.675, y: 4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: ee8bf272ae3a8f73bc9626435841f199, type: 2}
+    position: {x: -7.525, y: 6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    position: {x: -3.225, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 0424e08c07f6c09e515178e08ac4dca8, type: 2}
+    position: {x: -1.075, y: -8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: bf901fb6a5f8459112d713bb44bbd223, type: 2}
+    position: {x: 9.675, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: bf901fb6a5f8459112d713bb44bbd223, type: 2}
+    position: {x: 9.675, y: -0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: bf901fb6a5f8459112d713bb44bbd223, type: 2}
+    position: {x: 7.525, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: bf901fb6a5f8459112d713bb44bbd223, type: 2}
+    position: {x: 11.825, y: 2.15}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: bf901fb6a5f8459112d713bb44bbd223, type: 2}
+    position: {x: 11.825, y: -0.0}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 3.225, y: -8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 3.225, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 1.075, y: -8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 1.075, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 3.225, y: -10.75}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 5.375, y: -8.6}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 5.375, y: -6.45}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 1.075, y: -10.75}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 1.075, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 3.225, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 5.375, y: -10.75}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: 5.375, y: -4.3}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -1.075, y: -10.75}
+    yaw: 180
+    decorative: 0
+  - edible: {fileID: 11400000, guid: 12a1a9d52815bf00bd7f674dd14ed297, type: 2}
+    position: {x: -1.075, y: -4.3}
+    yaw: 180
+    decorative: 0
+  missionBonus: 100
+  clearBonus: 200
+  timeBonusPerSecond: 5
+  nextLevelId: 25

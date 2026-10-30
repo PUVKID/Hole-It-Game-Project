@@ -1,0 +1,1001 @@
+--- 3차/Previews/DesktopFrameTimes.txt
++++ 4차/Previews/DesktopFrameTimes.txt
+@@ -1,4 +0,0 @@
+-Windows standalone, D3D11, 540x960, stage 16, stationary, 180 frame samples. Not an Android performance test.
+-Actors: 2973; visible at end: 1053
+-Median ms: 16.6669
+-p95 ms: 16.6749
+--- 3차/SHA256.json
++++ 4차/SHA256.json
+@@ -1,34 +1,19 @@
+ {
+-  "Gaeun_Hole_3.apk": "31410045276e73f72a3e7b2cbfa4e3d82fde9aca3a53a77bd32f1a02056e711c",
+-  "읽어주세요.txt": "7ff554d7c21b8483bbdcf0e1e1debaeaca2767b5f2dbc511b658453de539438b",
+-  "Previews/01-home.png": "89422f1ff6126254c634c04471b623a3bcdd2dfaecef3735dca0c91b6d34d85b",
+-  "Previews/02-first-level.png": "133766cb20aad1ada364c7ce835d8180deeca6492d69309e73486559e5b98741",
+-  "Previews/03-bomb-failure.png": "f3ced2ef6503be5dafc91d61675e09e89746f3277f1a980591195efdd42b290e",
+-  "Previews/04-joystick.png": "3d114cd9108e0dba501688004869a3deb4909806e7dee47f370176fc2246b773",
+-  "Previews/05-level-complete.png": "ccdc9d0f9774aa7ba7699ba311b22f02e5a404b2e882417bae6f04498ebece85",
+-  "Previews/DesktopFrameTimes.txt": "dd3e92618580191cbe5f1ab5eb919c331c160f9575d64a14c14090b40d8d2e75",
+-  "Previews/level-12.png": "72eefbd90d30fda9350dac9b17b7455b52a865c4a1e27676acc6038e6381816d",
+-  "Previews/level-16.png": "b0d728424885674b15efd4ea5895b0c5ad085d170fd4dbff9199c9be353d13aa",
+-  "Previews/level-23.png": "fe85c9a6f820924de72aedee9b5e8013f63876460890909d4976204243fa4111",
+-  "Previews/level-24.png": "1e1d144de531d44fdfbb267ed54bed448c12c4cc3b26e7a8dbfd548ae5d0ea0b",
+-  "Previews/level-26.png": "3ae1a43d5691e48aec0532d72b106bf1f13f4f02f2e62c4997562c64011a5ad6",
+-  "Previews/level-29.png": "c36177efc2092f3ff841543e2582abfddf6148e28e65eb2a930008ed9dbc6017",
+-  "Previews/level-3.png": "c00cf3e6b78865bea5ef6b56554f154803b9f8336491745564cd28a10c201fd7",
+-  "Previews/level-30.png": "736f88764f9e58cf32ff305659fe32b48531eb0f1852f6d11368c877697817f2",
+-  "Previews/level-4.png": "828fde739075824371b8292ef127344d84ce621f259f3f4bd7863a920b05f92a",
+-  "Previews/level-8.png": "c7b3e6b5d888d5b4c354b08cac9b1edec08d8b3b6e31a4b1e101e20285cae267",
++  "Gaeun_Hole_4.apk": "a29d47a08e99c0e6091fa1c0794660c689b1c5320e8c39f8149f20eeb30525f7",
++  "읽어주세요.txt": "a885673d4b32e4dcb60d9a0a18725b43f1e0f5317373c54e79cce3735b362aeb",
++  "Previews/01-home.png": "8af8439059058443e81ce4cad65261ef9bf7fb50e1a97a954ddaee4ac6c8bcd9",
++  "Previews/02-first-level.png": "e6a3d7e4d9e8a822eeaaee88ef77c13846f25d942cf8c0c06184226e50bbfea7",
++  "Previews/04-joystick.png": "f1cf565aad211fc13799b8df66a764798de89d6812368205222fb1b4cfd2e6ab",
+   "Source/.gitignore": "f786ab8be4c7d83506de628b8dc0115debb1ca449cf131cf4e3ed17dbd863fb9",
+-  "Source/AGENTS.md": "85ebc123388a71efeff3ac1ac25b32956425ed89d12930cbd800aa41ae1e9f13",
++  "Source/AGENTS.md": "1f6efbce0493ac9e1cd2b916800a6c586dbd948746c9d8f9730333c5300514a9",
+   "Source/Build-Android.ps1": "7dad7e2e739e4dcdf2e62ede5df2e9ebbc4131729e0e36c8a593217b29c0b953",
+-  "Source/README.txt": "bd3b8967568e63e218df3d2dc7ef180d5ef9515521351aa84817f35f039a7118",
+-  "Verification/AndroidBuild.txt": "8c1d10f906f00a24011405e3654a471f5611f464d02670d0bbb314f166765889",
+-  "Verification/APK-Verification.txt": "4d67175d0e7b1474185a8e2374c32835d8b99a32fb4e01c14d84d0be2847cfee",
+-  "Verification/BorderRecoveryTest.xml": "c6d2354cf26582172f076d4a203abd348c4b657f962f41ebd68d417a3f52e7ea",
+-  "Verification/FinalStartPositionTest.xml": "42dd32e7efdb31539b1888bef0f5fb56c8b61ae2a338175749b8bbf218607582",
++  "Source/README.txt": "04aca1e764d7ebf6b86c60ccc4c4ae1a854e2e4a7900b0e7ce02a4e04ccda93d",
++  "Verification/AndroidBuild.txt": "47da678ff7adc4a034dd68b8e2cc0796d8f8796a7b4cb5912c810a39084ea1b2",
++  "Verification/Input-Fix.txt": "87a5bd1ba629b6ce822586164443317032d44addd1c5f233b28a77633e923182",
+   "Verification/Reference-Comparison.txt": "ca7eeff8e50e1af72b3fe9daa1f3cf793f976e9b5e481727c7c2d26a5cdb9e90",
+-  "Verification/ReferenceCampaign.txt": "edbb2c08831d99a60b9ef728f074e64b74fce2060113b3100af7f47d69fb50dc",
+-  "Verification/ReferenceStructures.txt": "4ecd14ddc0058bc24d21b86735c8ec315ea250cde382576ebe12c4ecdbd35741",
+-  "Verification/ReferenceTests.xml": "e3684a0afc2fe39a5e4eb05ceefb70d5414f00148950e83885d9340b12395ddd",
++  "Verification/reference4-apk-verification.txt": "507545dada6fa3c232538388ad79c918564e67234a318762ba1dd7ebb779f9ee",
++  "Verification/reference4-regression-tests.xml": "96dd484daee7e9d57d48bde5ef1fe5ee172b5e2abe9882aab2f70f8fffe840a2",
++  "Verification/reference4-touch-tests.xml": "cd24c307c7c74e7208675967d957271c10693ae6362c424e4f2bbdf9ca0b1362",
+   "Source/Assets/Editor.meta": "00bdf860084f943488604b50784f7d73c84927d2a52b46f3276db493e61ae42a",
+   "Source/Assets/HoleIt.meta": "09d9c378f9fedac8eb9de1f456899110ed7529d97e2c8db73401e4f733a8948f",
+   "Source/Assets/ReferenceContent.meta": "84284a1c278e4f5259531e22b1e0234aec747ff9d86001192f6a235330dfbe89",
+@@ -51,7 +36,7 @@
+   "Source/ProjectSettings/NavMeshAreas.asset": "7ebbf8f53b8033104e1878b95ca07a28d0954092d81c220f14196a42f651e658",
+   "Source/ProjectSettings/Physics2DSettings.asset": "1cfc0c8fbceec604fd7cd2a06c04ff05dddee6335b75c92b0f5715ad80ba9490",
+   "Source/ProjectSettings/PresetManager.asset": "29c125923fe6e29f90190d4fce1c82d660e7051546e2c9d02908d18c9cf2436c",
+-  "Source/ProjectSettings/ProjectSettings.asset": "b97c8891e4bcdc99a3cb22c43cc8aa3f07c63fe72f7fd570486cf1e421119d0c",
++  "Source/ProjectSettings/ProjectSettings.asset": "28fd68e791cca09c767c93b738fc6de6ae7205296bb68caafea932d094e9d1d9",
+   "Source/ProjectSettings/ProjectVersion.txt": "591d7239c0288ad3ed6c5631840a838f99726c79d92f2fa840f77db8490d448d",
+   "Source/ProjectSettings/QualitySettings.asset": "442918104ff80b758b7582a4f0a1261963b3412969ea97bae3799e6e16d07aca",
+   "Source/ProjectSettings/SceneTemplateSettings.json": "bb9098b3bfcde78d93e264b96f7b77b5430e64e8c57a7aad7f5a5d9c3945e16a",
+@@ -90,8 +75,10 @@
+   "Source/Assets/Editor/HoleItFirstOpenSetup.cs.meta": "5062da5c19aa600f85420e4f8388b0994c6c57d64eaab27affa09d46889e49cb",
+   "Source/Assets/Editor/HoleItProjectValidation.cs": "2f37e51011afa153cad985046de42e7d674ab686b3600b98750db317eca8314b",
+   "Source/Assets/Editor/HoleItProjectValidation.cs.meta": "c9a73d76b1849f3045742d0458f7b03a72b1dbbafcc9b4ed61d426b83562805d",
+-  "Source/Assets/Editor/ReferenceBuilder.cs": "89dba427014808066968a68c429d70f86485c2c754be0c54e712ff167864f4b3",
++  "Source/Assets/Editor/ReferenceBuilder.cs": "2053c606fda3e62ee30f053005054a3862a898abacdd4f5b85e1e5f9db4f5113",
+   "Source/Assets/Editor/ReferenceBuilder.cs.meta": "9474933495ea1aaa1a6207acb3f69424df85f35e7314c02a9181d5b3e9f47536",
++  "Source/Assets/Editor/ReferenceInputBuildGuard.cs": "7c529d25b85e1da3f969e1906d45b0ad8fa1771b4d9dff908f2a10d731efa9e2",
++  "Source/Assets/Editor/ReferenceInputBuildGuard.cs.meta": "2ef84ac85d4fa20bee7bbb3d6a54954a9e7456c9f01e1b338c96fcafe3fcf6d6",
+   "Source/Assets/Editor/ReferenceStyleBuilder.cs": "9a189568fbfd6e86c5c99c8e3b6d1760227de33146357f9072c411c8c05d6cae",
+   "Source/Assets/Editor/ReferenceStyleBuilder.cs.meta": "f824d2d8b2f0fb8febfa54f2b2876fcda44ece48da792814744b621be58195ec",
+   "Source/Assets/Editor/ReleasePreparation.cs": "c7146d710b4831154634db7fafef0ee0ed947b517fdaeb6722891af251c33151",
+@@ -1560,7 +1547,7 @@
+   "Source/Assets/Scripts/ReferenceCapture.cs.meta": "39e5ee0c3f0b8e26a1cfb176eb91b3c561d55da8ebd78d6a49d5c2dac71d6cbe",
+   "Source/Assets/Scripts/ReferenceCatalog.cs": "87ebb9910d2f1da09e8454b8c2deb25de3592531fc796b77a695d0ed16672fa9",
+   "Source/Assets/Scripts/ReferenceCatalog.cs.meta": "bd7d39bccd8fffabdb9c060fda53ad51d6e17ebbead4bc99a9961ccf3c2655b9",
+-  "Source/Assets/Scripts/ReferenceGame.cs": "253671080bc7bea1983c659210d65b412bb89fc9d756bedee61bad54bb94b78a",
++  "Source/Assets/Scripts/ReferenceGame.cs": "ccf6b671612356177299229c2ed49f6e4f54d6da9cbc1739433f90e664277744",
+   "Source/Assets/Scripts/ReferenceGame.cs.meta": "63f1f2380c217e19c5d41f15271b7a6d0fc04ebdb20de71bd8737d59951bc598",
+   "Source/Assets/Scripts/UI.meta": "99398f51b6f73c990dd591fc93c636d54920ea60aef185864024d69513fc9eb3",
+   "Source/Assets/Scripts/Util.meta": "fd49fe30c36e99df0031456d2fa34b55a713ea3a19225e98ee6fcb6cff592641",
+@@ -4637,9 +4624,11 @@
+   "Source/Assets/Tests/PlayMode/PrecisionPlayTests.cs.meta": "89a2681d1310bfa323815b0913ee458d7dcb37f6a06e574c7f9d6dc4b9022968",
+   "Source/Assets/Tests/PlayMode/ReleasePlayTests.cs": "95cab44593930e2107af5bd906ad439faa72aa839506fdcd00ae0e1d826154fb",
+   "Source/Assets/Tests/PlayMode/ReleasePlayTests.cs.meta": "6b3033320a64a30a489500699c1f441cdc18ff956136f65577887ef06d6fb163",
+-  "Source/Assets/Tests/Reference/Reference.Tests.asmdef": "d62de6e7d1c14299f6b19ee3b64838456aa2cc0b26c3303446ce8e457bbccbeb",
++  "Source/Assets/Tests/Reference/Reference.Tests.asmdef": "1b77ba2631b5901e33e6d2b31a19997673ea7300f9d121d08b67c9bac7554fba",
+   "Source/Assets/Tests/Reference/Reference.Tests.asmdef.meta": "742ea0a051ed9431384bb8ef965e2761737270a630f9495e46ecb6231e5bef9f",
+   "Source/Assets/Tests/Reference/ReferenceTests.cs": "5ec705049c47096b263c2007fcd3d0469d4c394a0339bea0cc0be933d1dd97a0",
+   "Source/Assets/Tests/Reference/ReferenceTests.cs.meta": "8341f7f38623a792ec02865d84f9c103c385a913b62281174da913dec588e198",
++  "Source/Assets/Tests/Reference/ReferenceTouchTests.cs": "34f378ec9313180be4c40a14cd620d815300a742219cfc3d5dfd75b4945ac924",
++  "Source/Assets/Tests/Reference/ReferenceTouchTests.cs.meta": "e5902fd7361af0eb4bb3a79a36abf010499d141e731c43370069bf7785ac9301",
+   "Source/ProjectSettings/Packages/com.unity.dedicated-server/MultiplayerRolesSettings.asset": "66f5310616983159b47ac6b1dfa249b1ea29385b1cecf077e5d596132fc5f0d8"
+ }--- 3차/Source/Assets/Editor/ReferenceBuilder.cs
++++ 4차/Source/Assets/Editor/ReferenceBuilder.cs
+@@ -53,7 +53,7 @@
+         cat.models=models.Take(exp.models.Length).ToArray();cat.environments=models.Skip(exp.models.Length).ToArray();foreach(var m in cat.environments)foreach(var p in m.parts){p.material.shader=Shader.Find(p.material.name.ToLowerInvariant().Contains("transparent")?"PocketPit/ReferenceEnvironmentTransparent":"PocketPit/ReferenceEnvironment");EditorUtility.SetDirty(p.material);}cat.levels=JsonUtility.FromJson<ReferenceLevels>(File.ReadAllText(Folder+"/Levels.json")).levels;cat.holeVisual=holePrefab;cat.groundMaterial=ground;cat.font=Resources.Load<Font>("Fonts/NanumGothic-Bold");EditorUtility.SetDirty(cat);
+         var scene=EditorSceneManager.NewScene(NewSceneSetup.EmptyScene,NewSceneMode.Single);new GameObject("GaeunGame").AddComponent<ReferenceGame>();
+         EditorSceneManager.SaveScene(scene,"Assets/Scenes/Main.unity");EditorBuildSettings.scenes=new[]{new EditorBuildSettingsScene("Assets/Scenes/Main.unity",true)};
+-        PlayerSettings.productName="Gaeun's Hole";PlayerSettings.bundleVersion="4.0.0";PlayerSettings.Android.bundleVersionCode=5;
++        PlayerSettings.productName="Gaeun's Hole";PlayerSettings.bundleVersion="4.1.0";PlayerSettings.Android.bundleVersionCode=6;
+         PlayerSettings.gpuSkinning=false;PlayerSettings.SplashScreen.show=false;PlayerSettings.Android.optimizedFramePacing=true;
+         QualitySettings.antiAliasing=2;QualitySettings.shadowCascades=1;QualitySettings.shadowResolution=ShadowResolution.Medium;QualitySettings.shadowDistance=24;QualitySettings.pixelLightCount=1;
+         AssetDatabase.SaveAssets();Validate();Debug.Log("REFERENCE EDITION READY");
+--- 3차/Source/Assets/Editor/ReferenceInputBuildGuard.cs
++++ 4차/Source/Assets/Editor/ReferenceInputBuildGuard.cs
+@@ -0,0 +1,14 @@
++using UnityEditor;
++using UnityEditor.Build;
++using UnityEditor.Build.Reporting;
++
++// Reject a build whose controls would be compiled out, including builds from the GUI.
++public sealed class ReferenceInputBuildGuard : IPreprocessBuildWithReport {
++    public int callbackOrder=>-1000;
++    public void OnPreprocessBuild(BuildReport report){
++        var settings=new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/ProjectSettings.asset")[0]);
++        var handler=settings.FindProperty("activeInputHandler");
++        if(handler==null||handler.intValue!=1||!ReferenceGame.NativeInputEnabled)
++            throw new BuildFailedException("ReferenceGame requires Active Input Handling = Input System Package (New). Set it in Player Settings, restart Unity, and rebuild.");
++    }
++}
+--- 3차/Source/Assets/Editor/ReferenceInputBuildGuard.cs.meta
++++ 4차/Source/Assets/Editor/ReferenceInputBuildGuard.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: fa519a1190fcfca47a0d0a19442cbede--- 3차/Source/Assets/Scripts/ReferenceGame.cs
++++ 4차/Source/Assets/Scripts/ReferenceGame.cs
+@@ -109,9 +109,21 @@
+     public void Pause(){if(State!=ScreenState.Playing)return;State=ScreenState.Paused;Stick.Release();Velocity=Vector2.zero;pause.SetActive(true);}
+     public void Resume(){if(State!=ScreenState.Paused)return;State=ScreenState.Playing;pause.SetActive(false);}
+     public void SetCountdownForTest(float value){Remaining=value;}
+-    public void BeginStick(Vector2 p){Stick.Radius=Mathf.Clamp(Screen.width*.11f,42,120);Stick.Begin(p);}
++    public static bool NativeInputEnabled {
++        get {
++#if ENABLE_INPUT_SYSTEM
++            return true;
++#else
++            return false;
++#endif
++        }
++    }
++    float JoystickRadius=>Mathf.Clamp(Screen.width*.11f,42,120);
++    public Vector2 IdleJoystickPosition=>new Vector2(Screen.safeArea.x+Screen.safeArea.width*.18f,Screen.safeArea.y+Mathf.Max(420*canvas.scaleFactor,Screen.safeArea.height*.22f));
++    public bool JoystickVisible=>stickBase.gameObject.activeInHierarchy;
++    public void BeginStick(Vector2 p){Stick.Radius=JoystickRadius;var idle=IdleJoystickPosition;Stick.Begin(Vector2.Distance(p,idle)<=Stick.Radius?idle:p);Stick.Move(p);}
+     public void MoveStick(Vector2 p){Stick.Move(p);}
+-    public void ReleaseStick(){Stick.Release();Velocity=Vector2.zero;}
++    public void ReleaseStick(){Stick.Release();finger=-1;Velocity=Vector2.zero;}
+     bool CanTouch(Vector2 p){if(EventSystem.current==null)return true;if(pointer==null)pointer=new PointerEventData(EventSystem.current);pointer.position=p;hits.Clear();EventSystem.current.RaycastAll(pointer,hits);return hits.Count==0;}
+     void ReadInput(){
+ #if ENABLE_INPUT_SYSTEM
+@@ -201,8 +213,8 @@
+         Btn("Continue",result.transform,"CONTINUE",new Vector2(.5f,.36f),new Vector2(640,120),Vector2.zero,Green,()=>{if(State==ScreenState.Won){LoadLevel(Mathf.Min(29,LevelIndex+1));StartPlay();}else Retry();});
+         Btn("Home",result.transform,"HOME",new Vector2(.5f,.27f),new Vector2(520,90),Vector2.zero,Blue,()=>{LoadLevel(LevelIndex);ShowHome();});
+         CreateModal(pause,"Pause");Label("Title",pause.transform,"PAUSED",64,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Btn("Resume",pause.transform,"RESUME",new Vector2(.5f,.52f),new Vector2(640,120),Vector2.zero,Green,Resume);Btn("Retry",pause.transform,"RESTART",new Vector2(.5f,.42f),new Vector2(540,100),Vector2.zero,Blue,Retry);Btn("Home",pause.transform,"HOME",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Blue,()=>{LoadLevel(LevelIndex);ShowHome();});
+-        CreateModal(settings,"Settings");Label("Title",settings.transform,"SETTINGS",60,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Label("Controls",settings.transform,"FLOATING JOYSTICK\n\nHold to move. Release to stop.\nPull farther for speed, up to the limit.",30,Ink,new Vector2(.5f,.5f),new Vector2(770,300),Vector2.zero);Btn("Done",settings.transform,"DONE",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Green,()=>settings.SetActive(false));
+-        var pad=Panel("Joystick",canvas.transform,new Vector2(.5f,.5f),new Vector2(200,200),new Color(1,1,1,.24f),Vector2.zero);pad.sprite=Style("JoystickOutline")??circle;pad.type=Image.Type.Simple;stickBase=pad.rectTransform;var knob=Panel("Knob",pad.transform,new Vector2(.5f,.5f),new Vector2(82,82),new Color(1,1,1,.65f),Vector2.zero);knob.sprite=Style("JoystickMarker")??circle;knob.type=Image.Type.Simple;stickKnob=knob.rectTransform;stickBase.gameObject.SetActive(false);
++        CreateModal(settings,"Settings");Label("Title",settings.transform,"SETTINGS",60,Ink,new Vector2(.5f,.66f),new Vector2(780,120),Vector2.zero);Label("Controls",settings.transform,"JOYSTICK\n\nDrag the stick to move. Release to stop.\nYou can also drag on an empty area.",30,Ink,new Vector2(.5f,.5f),new Vector2(770,300),Vector2.zero);Btn("Done",settings.transform,"DONE",new Vector2(.5f,.32f),new Vector2(540,100),Vector2.zero,Green,()=>settings.SetActive(false));
++        var pad=Panel("Joystick",canvas.transform,new Vector2(.5f,.5f),new Vector2(200,200),new Color(1,1,1,.65f),Vector2.zero);pad.sprite=Style("JoystickOutline")??circle;pad.type=Image.Type.Simple;stickBase=pad.rectTransform;var knob=Panel("Knob",pad.transform,new Vector2(.5f,.5f),new Vector2(82,82),new Color(1,1,1,.9f),Vector2.zero);knob.sprite=Style("JoystickMarker")??circle;knob.type=Image.Type.Simple;stickKnob=knob.rectTransform;stickBase.gameObject.SetActive(false);
+     }
+     void CreateModal(GameObject panel,string name){var shade=Panel("Shade",panel.transform,new Vector2(.5f,.5f),new Vector2(4000,4000),new Color(.12f,.17f,.25f,.55f),Vector2.zero);shade.raycastTarget=true;Panel("Card",panel.transform,new Vector2(.5f,.5f),new Vector2(940,1070),new Color(.97f,.97f,.95f),Vector2.zero);}
+     void BuildGoals(){if(goalLabels!=null)foreach(var t in goalLabels)if(t!=null)Destroy(t.transform.parent.gameObject);int count=Mathf.Max(1,level.goals.Length);goalLabels=new Text[count];goalIcons=new Image[count];float width=Mathf.Min(164,990f/count-14);
+@@ -220,7 +232,16 @@
+     bool Needed(int id){if(id==-1)return false;if(level.goals.Length==0)return true;for(int i=0;i<goalCounts.Length;i++)if(level.goals[i].id==id&&goalCounts[i]<level.goals[i].amount)return true;return false;}
+     void RefreshBoosters(){int[] activation={3,5,9,12};string[] names={"SIZE","SPEED","FIND","FREEZE"};for(int i=0;i<4;i++){boostButtons[i].interactable=LevelIndex+1>=activation[i]&&!boostUsed[i];boostLabels[i].text=LevelIndex+1<activation[i]?names[i]+"\nLV "+activation[i]:boostUsed[i]?"USED":names[i];}}
+     void UpdateHoleLabels(){if(holeSize==null)return;Vector3 screen=cam.WorldToScreenPoint(HolePosition+Vector3.back*(VisualRadius+1));RectTransformUtility.ScreenPointToLocalPointInRectangle((RectTransform)hud.transform,screen,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera,out var point);holeSize.rectTransform.anchoredPosition=point;holeSize.text="Size "+(GrowthTier(GrowthPoints)+1);growthToast.gameObject.SetActive(State==ScreenState.Playing&&Time.unscaledTime<growthFlash);growthToast.rectTransform.anchoredPosition=point+new Vector2(0,240+(growthFlash-Time.unscaledTime)*30);}
+-    void UpdateStickVisual(){stickBase.gameObject.SetActive(State==ScreenState.Playing&&Stick.Held);if(!Stick.Held)return;RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect,Stick.Origin,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera,out var local);stickBase.anchoredPosition=local;float diameter=Stick.Radius*2/canvas.scaleFactor;stickBase.sizeDelta=Vector2.one*diameter;stickKnob.sizeDelta=Vector2.one*diameter*.4f;stickKnob.anchoredPosition=Stick.Value*diameter*.32f;}
++    void UpdateStickVisual(){
++        stickBase.gameObject.SetActive(State==ScreenState.Playing);
++        if(State!=ScreenState.Playing)return;
++        Vector2 origin=Stick.Held?Stick.Origin:IdleJoystickPosition;
++        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect,origin,canvas.renderMode==RenderMode.ScreenSpaceOverlay?null:canvas.worldCamera,out var local);
++        stickBase.anchoredPosition=local;
++        float diameter=(Stick.Held?Stick.Radius:JoystickRadius)*2/canvas.scaleFactor;
++        stickBase.sizeDelta=Vector2.one*diameter;stickKnob.sizeDelta=Vector2.one*diameter*.4f;
++        stickKnob.anchoredPosition=(Stick.Held?Stick.Value:Vector2.zero)*diameter*.32f;
++    }
+     void ShowResult(bool won,string title){hud.SetActive(false);result.SetActive(true);resultTitle.text=title;string detail="";for(int i=0;i<goalCounts.Length;i++)detail+=models[level.goals[i].id].label+"  "+goalCounts[i]+" / "+level.goals[i].amount+"\n";if(goalCounts.Length==0)detail="COLLECTED  "+Collected+" / "+level.points.Length;resultDetail.text=detail;result.transform.Find("Continue/Label").GetComponent<Text>().text=won?"NEXT LEVEL":"TRY AGAIN";}
+     // Bounded hooks for desktop verification: still use the real mouth/collection path.
+     public Vector3 NearestCollectible(){testBombs.Clear();foreach(var a in actors)if(a.model.id==-1&&a.state==0)testBombs.Add(a);Vector3 best=HolePosition;float score=float.MaxValue;foreach(var a in actors){if(a.state!=0||a.model.id==-1||a.radius>Radius*1.02f)continue;Vector3 aim=new Vector3(a.pos.x,0,a.pos.z);
+--- 3차/Source/Assets/Tests/Reference/Reference.Tests.asmdef
++++ 4차/Source/Assets/Tests/Reference/Reference.Tests.asmdef
+@@ -1 +1,23 @@
+-{"name":"Reference.Tests","references":["HoleIt.Runtime","Unity.ugui","UnityEngine.TestRunner","UnityEditor.TestRunner"],"includePlatforms":[],"excludePlatforms":[],"allowUnsafeCode":false,"overrideReferences":true,"precompiledReferences":["nunit.framework.dll"],"autoReferenced":false,"defineConstraints":["UNITY_INCLUDE_TESTS"],"versionDefines":[],"noEngineReferences":false}
++{
++  "name": "Reference.Tests",
++  "references": [
++    "HoleIt.Runtime",
++    "Unity.ugui",
++    "UnityEngine.TestRunner",
++    "UnityEditor.TestRunner",
++    "Unity.InputSystem"
++  ],
++  "includePlatforms": [],
++  "excludePlatforms": [],
++  "allowUnsafeCode": false,
++  "overrideReferences": true,
++  "precompiledReferences": [
++    "nunit.framework.dll"
++  ],
++  "autoReferenced": false,
++  "defineConstraints": [
++    "UNITY_INCLUDE_TESTS"
++  ],
++  "versionDefines": [],
++  "noEngineReferences": false
++}--- 3차/Source/Assets/Tests/Reference/ReferenceTouchTests.cs
++++ 4차/Source/Assets/Tests/Reference/ReferenceTouchTests.cs
+@@ -0,0 +1,78 @@
++using System.Collections;
++using NUnit.Framework;
++using UnityEngine;
++using UnityEngine.EventSystems;
++using UnityEngine.InputSystem;
++using UnityEngine.InputSystem.LowLevel;
++using UnityEngine.InputSystem.UI;
++using UnityEngine.SceneManagement;
++using UnityEngine.TestTools;
++using UnityEngine.UI;
++
++public class ReferenceTouchTests {
++    Touchscreen screen;
++    InputSettings.BackgroundBehavior oldBackground;
++    InputSettings.EditorInputBehaviorInPlayMode oldEditorInput;
++    int unlocked,selected;bool hadUnlocked,hadSelected;
++    void Touch(int id,UnityEngine.InputSystem.TouchPhase phase,Vector2 p){
++        InputSystem.QueueStateEvent(screen,new TouchState{touchId=id,phase=phase,position=p,pressure=phase==UnityEngine.InputSystem.TouchPhase.Ended?0:1});
++    }
++    Vector2 ButtonPosition(string name){
++        foreach(var b in Object.FindObjectsByType<Button>(FindObjectsSortMode.None))
++            if(b.name==name)return RectTransformUtility.WorldToScreenPoint(null,b.transform.position);
++        Assert.Fail("Visible button missing: "+name);return Vector2.zero;
++    }
++    IEnumerator Tap(string name,int id){var p=ButtonPosition(name);Touch(id,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;Touch(id,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;}
++    [UnitySetUp]public IEnumerator Setup(){
++        // Batchmode has no focused Game View; route injected devices as a player would.
++        oldBackground=InputSystem.settings.backgroundBehavior;oldEditorInput=InputSystem.settings.editorInputBehaviorInPlayMode;
++        InputSystem.settings.backgroundBehavior=InputSettings.BackgroundBehavior.IgnoreFocus;
++        InputSystem.settings.editorInputBehaviorInPlayMode=InputSettings.EditorInputBehaviorInPlayMode.AllDeviceInputAlwaysGoesToGameView;
++        hadUnlocked=PlayerPrefs.HasKey("Gaeun.Ref.Unlocked");unlocked=PlayerPrefs.GetInt("Gaeun.Ref.Unlocked");hadSelected=PlayerPrefs.HasKey("Gaeun.Ref.Selected");selected=PlayerPrefs.GetInt("Gaeun.Ref.Selected");
++        yield return SceneManager.LoadSceneAsync("Main");yield return null;
++        ReferenceGame.Instance.TestInput=false;ReferenceGame.Instance.LoadLevel(0);ReferenceGame.Instance.ShowHome();
++        screen=InputSystem.AddDevice<Touchscreen>();yield return null;
++    }
++    [UnityTearDown]public IEnumerator Cleanup(){
++        if(screen!=null)InputSystem.RemoveDevice(screen);
++        InputSystem.settings.backgroundBehavior=oldBackground;InputSystem.settings.editorInputBehaviorInPlayMode=oldEditorInput;
++        var scene=SceneManager.GetSceneByName("Main");SceneManager.SetActiveScene(SceneManager.CreateScene("TouchCleanup"));yield return SceneManager.UnloadSceneAsync(scene);
++        if(hadUnlocked)PlayerPrefs.SetInt("Gaeun.Ref.Unlocked",unlocked);else PlayerPrefs.DeleteKey("Gaeun.Ref.Unlocked");
++        if(hadSelected)PlayerPrefs.SetInt("Gaeun.Ref.Selected",selected);else PlayerPrefs.DeleteKey("Gaeun.Ref.Selected");
++    }
++    [UnityTest]public IEnumerator TouchPlaysDragsStopsAndResumes(){
++        var g=ReferenceGame.Instance;
++        Assert.IsTrue(ReferenceGame.NativeInputEnabled,"Production input must not compile out");
++        Assert.IsInstanceOf<InputSystemUIInputModule>(EventSystem.current.currentInputModule);
++        Assert.IsFalse(g.JoystickVisible);
++        yield return Tap("Play",1);
++        Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State,"Native touch must operate PLAY");
++        Assert.IsTrue(g.JoystickVisible,"Joystick must be visible before a finger touches it");
++        var p=g.IdleJoystickPosition;var before=g.HolePosition;
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
++        Assert.IsTrue(g.Stick.Held,"Real input path must acquire the touch");
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.right*Screen.width*.6f);yield return new WaitForSeconds(.4f);
++        Assert.Greater(g.HolePosition.x-before.x,.5f);Assert.Less(g.HolePosition.x-before.x,g.MaximumSpeed*.55f);
++        Assert.AreEqual(1,g.Stick.Value.magnitude,.01f);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);before=g.HolePosition;
++        yield return new WaitForSeconds(.15f);Assert.AreEqual(before,g.HolePosition);Assert.IsTrue(g.JoystickVisible);
++        yield return Tap("Pause",3);Assert.AreEqual(ReferenceGame.ScreenState.Paused,g.State);Assert.IsFalse(g.JoystickVisible);
++        yield return Tap("Resume",4);Assert.AreEqual(ReferenceGame.ScreenState.Playing,g.State);Assert.IsTrue(g.JoystickVisible);
++        // The UI touch must not leak into movement when the menu closes.
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(before,g.HolePosition);
++    }
++    [UnityTest]public IEnumerator FloatingTouchKeepsOwnerAndCancelStops(){
++        var g=ReferenceGame.Instance;yield return Tap("Play",1);
++        var p=new Vector2(Screen.width*.55f,Screen.height*.42f);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Began,p);yield return null;yield return null;
++        Assert.IsTrue(g.Stick.Held);Assert.AreEqual(p,g.Stick.Origin);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Moved,p+Vector2.up*Screen.width*.2f);yield return null;yield return null;
++        Assert.Greater(g.Stick.Value.y,.9f);
++        Touch(3,UnityEngine.InputSystem.TouchPhase.Began,p+Vector2.left*100);yield return null;yield return null;
++        Assert.AreEqual(p,g.Stick.Origin,"A second finger must not move the origin");
++        Touch(3,UnityEngine.InputSystem.TouchPhase.Ended,p);yield return null;yield return null;Assert.IsTrue(g.Stick.Held);
++        Touch(2,UnityEngine.InputSystem.TouchPhase.Canceled,p);yield return null;yield return null;
++        Assert.IsFalse(g.Stick.Held);Assert.AreEqual(Vector2.zero,g.Velocity);Assert.IsTrue(g.JoystickVisible);
++    }
++}
+--- 3차/Source/Assets/Tests/Reference/ReferenceTouchTests.cs.meta
++++ 4차/Source/Assets/Tests/Reference/ReferenceTouchTests.cs.meta
+@@ -0,0 +1,2 @@
++fileFormatVersion: 2
++guid: fe02efb75d32598468c01af97c02da4d--- 3차/Source/ProjectSettings/ProjectSettings.asset
++++ 4차/Source/ProjectSettings/ProjectSettings.asset
+@@ -143,7 +143,7 @@
+   loadStoreDebugModeEnabled: 0
+   visionOSBundleVersion: 1.0
+   tvOSBundleVersion: 1.0
+-  bundleVersion: 4.0.0
++  bundleVersion: 4.1.0
+   preloadedAssets: []
+   metroInputSource: 0
+   wsaTransparentSwapchain: 0
+@@ -173,7 +173,7 @@
+     iPhone: 0
+     tvOS: 0
+   overrideDefaultApplicationIdentifier: 1
+-  AndroidBundleVersionCode: 5
++  AndroidBundleVersionCode: 6
+   AndroidMinSdkVersion: 26
+   AndroidTargetSdkVersion: 0
+   AndroidPreferredInstallLocation: 1
+@@ -783,7 +783,7 @@
+   qnxGraphicConfPath: 
+   apiCompatibilityLevel: 6
+   captureStartupLogs: {}
+-  activeInputHandler: 0
++  activeInputHandler: 1
+   windowsGamepadBackendHint: 0
+   cloudProjectId: 
+   framebufferDepthMemorylessMode: 0
+--- 3차/Source/README.txt
++++ 4차/Source/README.txt
+@@ -1,4 +1,4 @@
+-Gaeun's Hole · edition 3 · Unity 6000.3.6f1
++Gaeun's Hole · edition 4 · Unity 6000.3.6f1
+ 
+ Open this Source folder in Unity with Android Build Support, SDK/NDK/OpenJDK.
+ Main scene: Assets/Scenes/Main.unity. Runtime: Assets/Scripts/ReferenceGame.cs.
+@@ -20,3 +20,8 @@
+ 
+ The provided assets retain their original ownership. Nanum Gothic Bold and its
+ OFL license are bundled under Assets/Resources/Fonts.
++
++Edition 4 fixes the disabled input backend and displays the joystick at idle.
++Input tests inject TouchState into an actual Input System Touchscreen device,
++including PLAY/PAUSE/RESUME UI clicks, drag movement, release, cancellation and
++second-finger ownership. Tests do not replace the movement input with TestDirection.
+--- 3차/Verification/APK-Verification.txt
++++ 4차/Verification/APK-Verification.txt
+@@ -1,135 +0,0 @@
+-Verifies
+-Verified using v1 scheme (JAR signing): false
+-Verified using v2 scheme (APK Signature Scheme v2): true
+-Verified using v3 scheme (APK Signature Scheme v3): false
+-Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+-Verified using v4 scheme (APK Signature Scheme v4): false
+-Verified for SourceStamp: false
+-Number of signers: 1
+-Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+-Signer #1 certificate SHA-256 digest: 03b2e61e715a8e2fd3854fb1acddf905a453766389b9765f1e15281b4767c5fa
+-Signer #1 certificate SHA-1 digest: 8e4be7b3f8892212f7eb2046650fe215fa1b0d3d
+-Signer #1 certificate MD5 digest: fe1b7ce0ea3a2c4d0efe438b8a9c059c
+-Signer #1 key algorithm: RSA
+-Signer #1 key size (bits): 2048
+-Signer #1 public key SHA-256 digest: 40db0805fbd873ff2467639309f157969ffc00f505512514a7f18d3fcd146973
+-Signer #1 public key SHA-1 digest: 676465f6d696a9e785a984e7d6e908f78af84c8a
+-Signer #1 public key MD5 digest: 6831893faf9f545ebc6ef45dff515f62
+-package: name='com.pocketplayground.pocketpit' versionCode='5' versionName='4.0.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+-install-location:'preferExternal'
+-sdkVersion:'26'
+-targetSdkVersion:'36'
+-uses-permission: name='android.permission.INTERNET'
+-uses-permission: name='com.pocketplayground.pocketpit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+-application-label:'Gaeun's Hole'
+-application-label-af:'Gaeun's Hole'
+-application-label-am:'Gaeun's Hole'
+-application-label-ar:'Gaeun's Hole'
+-application-label-as:'Gaeun's Hole'
+-application-label-az:'Gaeun's Hole'
+-application-label-be:'Gaeun's Hole'
+-application-label-bg:'Gaeun's Hole'
+-application-label-bn:'Gaeun's Hole'
+-application-label-bs:'Gaeun's Hole'
+-application-label-ca:'Gaeun's Hole'
+-application-label-cs:'Gaeun's Hole'
+-application-label-da:'Gaeun's Hole'
+-application-label-de:'Gaeun's Hole'
+-application-label-el:'Gaeun's Hole'
+-application-label-en-AU:'Gaeun's Hole'
+-application-label-en-CA:'Gaeun's Hole'
+-application-label-en-GB:'Gaeun's Hole'
+-application-label-en-IN:'Gaeun's Hole'
+-application-label-en-XC:'Gaeun's Hole'
+-application-label-es:'Gaeun's Hole'
+-application-label-es-US:'Gaeun's Hole'
+-application-label-et:'Gaeun's Hole'
+-application-label-eu:'Gaeun's Hole'
+-application-label-fa:'Gaeun's Hole'
+-application-label-fi:'Gaeun's Hole'
+-application-label-fr:'Gaeun's Hole'
+-application-label-fr-CA:'Gaeun's Hole'
+-application-label-gl:'Gaeun's Hole'
+-application-label-gu:'Gaeun's Hole'
+-application-label-hi:'Gaeun's Hole'
+-application-label-hr:'Gaeun's Hole'
+-application-label-hu:'Gaeun's Hole'
+-application-label-hy:'Gaeun's Hole'
+-application-label-in:'Gaeun's Hole'
+-application-label-is:'Gaeun's Hole'
+-application-label-it:'Gaeun's Hole'
+-application-label-iw:'Gaeun's Hole'
+-application-label-ja:'Gaeun's Hole'
+-application-label-ka:'Gaeun's Hole'
+-application-label-kk:'Gaeun's Hole'
+-application-label-km:'Gaeun's Hole'
+-application-label-kn:'Gaeun's Hole'
+-application-label-ko:'Gaeun's Hole'
+-application-label-ky:'Gaeun's Hole'
+-application-label-lo:'Gaeun's Hole'
+-application-label-lt:'Gaeun's Hole'
+-application-label-lv:'Gaeun's Hole'
+-application-label-mk:'Gaeun's Hole'
+-application-label-ml:'Gaeun's Hole'
+-application-label-mn:'Gaeun's Hole'
+-application-label-mr:'Gaeun's Hole'
+-application-label-ms:'Gaeun's Hole'
+-application-label-my:'Gaeun's Hole'
+-application-label-nb:'Gaeun's Hole'
+-application-label-ne:'Gaeun's Hole'
+-application-label-nl:'Gaeun's Hole'
+-application-label-or:'Gaeun's Hole'
+-application-label-pa:'Gaeun's Hole'
+-application-label-pl:'Gaeun's Hole'
+-application-label-pt:'Gaeun's Hole'
+-application-label-pt-BR:'Gaeun's Hole'
+-application-label-pt-PT:'Gaeun's Hole'
+-application-label-ro:'Gaeun's Hole'
+-application-label-ru:'Gaeun's Hole'
+-application-label-si:'Gaeun's Hole'
+-application-label-sk:'Gaeun's Hole'
+-application-label-sl:'Gaeun's Hole'
+-application-label-sq:'Gaeun's Hole'
+-application-label-sr:'Gaeun's Hole'
+-application-label-sr-Latn:'Gaeun's Hole'
+-application-label-sv:'Gaeun's Hole'
+-application-label-sw:'Gaeun's Hole'
+-application-label-ta:'Gaeun's Hole'
+-application-label-te:'Gaeun's Hole'
+-application-label-th:'Gaeun's Hole'
+-application-label-tl:'Gaeun's Hole'
+-application-label-tr:'Gaeun's Hole'
+-application-label-uk:'Gaeun's Hole'
+-application-label-ur:'Gaeun's Hole'
+-application-label-uz:'Gaeun's Hole'
+-application-label-vi:'Gaeun's Hole'
+-application-label-zh-CN:'Gaeun's Hole'
+-application-label-zh-HK:'Gaeun's Hole'
+-application-label-zh-TW:'Gaeun's Hole'
+-application-label-zu:'Gaeun's Hole'
+-application-icon-120:'res/Ut.png'
+-application-icon-160:'res/W5.png'
+-application-icon-240:'res/YA.png'
+-application-icon-320:'res/l4.png'
+-application-icon-480:'res/Iw.png'
+-application-icon-640:'res/oj.png'
+-application: label='Gaeun's Hole' icon='res/W5.png'
+-launchable-activity: name='com.unity3d.player.UnityPlayerGameActivity'  label='' icon=''
+-feature-group: label=''
+-  uses-gl-es: '0x30000'
+-  uses-feature-not-required: name='android.hardware.touchscreen'
+-  uses-feature-not-required: name='android.hardware.touchscreen.multitouch'
+-  uses-feature-not-required: name='android.hardware.touchscreen.multitouch.distinct'
+-  uses-feature: name='android.hardware.screen.portrait'
+-  uses-implied-feature: name='android.hardware.screen.portrait' reason='one or more activities have specified a portrait orientation'
+-main
+-supports-screens: 'small' 'normal' 'large' 'xlarge'
+-supports-any-density: 'true'
+-locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+-densities: '120' '160' '240' '320' '480' '640'
+-native-code: 'arm64-v8a' 'armeabi-v7a'
+-package: com.pocketplayground.pocketpit
+-uses-permission: name='android.permission.INTERNET'
+-permission: com.pocketplayground.pocketpit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+-uses-permission: name='com.pocketplayground.pocketpit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
+-SHA256: 31410045276E73F72A3E7B2CBFA4E3D82FDE9ACA3A53A77BD32F1A02056E711C
+--- 3차/Verification/AndroidBuild.txt
++++ 4차/Verification/AndroidBuild.txt
+@@ -1,3 +1,3 @@
+-2026-10-12T19:43:42.1763263Z
++2026-10-12T19:59:31.3629758Z
+ Succeeded
+ Errors: 0--- 3차/Verification/BorderRecoveryTest.xml
++++ 4차/Verification/BorderRecoveryTest.xml
+@@ -1,28 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:30:35Z" end-time="2026-10-12 19:30:36Z" duration="0.8649241">
+-  <test-suite type="TestSuite" id="1015" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:30:35Z" end-time="2026-10-12 19:30:36Z" duration="0.864924" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-    <properties>
+-      <property name="platform" value="PlayMode" />
+-    </properties>
+-    <test-suite type="Assembly" id="1012" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:30:35Z" end-time="2026-10-12 19:30:36Z" duration="0.859543" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-      <properties>
+-        <property name="_PID" value="74840" />
+-        <property name="_APPDOMAIN" value="Unity Child Domain" />
+-        <property name="platform" value="PlayMode" />
+-        <property name="EditorOnly" value="False" />
+-      </properties>
+-      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:30:35Z" end-time="2026-10-12 19:30:36Z" duration="0.858212" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-        <properties />
+-        <test-case id="1004" name="GrowthOverlapAtBorderCanMoveBackInside" fullname="ReferenceTests.GrowthOverlapAtBorderCanMoveBackInside" methodname="GrowthOverlapAtBorderCanMoveBackInside" classname="ReferenceTests" runstate="Runnable" seed="1848976456" result="Passed" start-time="2026-10-12 19:30:35Z" end-time="2026-10-12 19:30:36Z" duration="0.849279" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-border-tests.xml
+-]]></output>
+-        </test-case>
+-      </test-suite>
+-    </test-suite>
+-  </test-suite>
+-</test-run>--- 3차/Verification/FinalStartPositionTest.xml
++++ 4차/Verification/FinalStartPositionTest.xml
+@@ -1,28 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<test-run id="2" testcasecount="1" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:35:36Z" end-time="2026-10-12 19:35:39Z" duration="3.5656098">
+-  <test-suite type="TestSuite" id="1015" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:35:36Z" end-time="2026-10-12 19:35:39Z" duration="3.565610" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-    <properties>
+-      <property name="platform" value="PlayMode" />
+-    </properties>
+-    <test-suite type="Assembly" id="1012" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:35:36Z" end-time="2026-10-12 19:35:39Z" duration="3.559257" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-      <properties>
+-        <property name="_PID" value="57104" />
+-        <property name="_APPDOMAIN" value="Unity Child Domain" />
+-        <property name="platform" value="PlayMode" />
+-        <property name="EditorOnly" value="False" />
+-      </properties>
+-      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:35:36Z" end-time="2026-10-12 19:35:39Z" duration="3.557814" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-        <properties />
+-        <test-case id="1009" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="1597104009" result="Passed" start-time="2026-10-12 19:35:36Z" end-time="2026-10-12 19:35:39Z" duration="3.549719" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-start-tests.xml
+-]]></output>
+-        </test-case>
+-      </test-suite>
+-    </test-suite>
+-  </test-suite>
+-</test-run>--- 3차/Verification/Input-Fix.txt
++++ 4차/Verification/Input-Fix.txt
+@@ -0,0 +1,16 @@
++Root cause: edition 3 selected the legacy backend (activeInputHandler: 0),
++but ReferenceGame.ReadInput was entirely guarded by ENABLE_INPUT_SYSTEM.
++The Android player therefore contained no executable joystick polling path.
++Earlier movement tests used TestInput/TestDirection and missed this defect.
++
++Edition 4 selects the new Input System (activeInputHandler: 1). The joystick
++is visible while playing even at rest, above the booster buttons. Touching
++it uses its displayed center. Dragging another empty area starts a floating
++stick there. Movement is speed limited; releasing or canceling stops it.
++ReferenceInputBuildGuard rejects inconsistent backend configurations.
++
++ReferenceTouchTests exercises Input System Touchscreen events and the real
++runtime/UI code, without movement override. This is desktop simulation,
++not physical Android touchscreen verification. No phone was connected.
++Previews are Windows standalone renders. The Android APK build, package
++version, architectures and signature were checked separately.
+--- 3차/Verification/ReferenceCampaign.txt
++++ 4차/Verification/ReferenceCampaign.txt
+@@ -1,31 +0,0 @@
+-Automated mouth/stack sweep. Test teleports between targets; this is not a human timing benchmark.
+-Level 1: Won; collected=30; radius=0.9313077
+-Level 2: Won; collected=225; radius=1.368876
+-Level 3: Won; collected=329; radius=1.592
+-Level 4: Won; collected=519; radius=1.772868
+-Level 5: Won; collected=808; radius=2.016356
+-Level 6: Won; collected=401; radius=2.035075
+-Level 7: Won; collected=760; radius=1.813498
+-Level 8: Won; collected=1028; radius=2.441857
+-Level 9: Won; collected=808; radius=2.03798
+-Level 10: Won; collected=991; radius=2.037999
+-Level 11: Won; collected=362; radius=1.814955
+-Level 12: Won; collected=771; radius=2.225409
+-Level 13: Won; collected=711; radius=2.26076
+-Level 14: Won; collected=1009; radius=2.260876
+-Level 15: Won; collected=1075; radius=2.260999
+-Level 16: Won; collected=2973; radius=2.929999
+-Level 17: Won; collected=637; radius=2.037999
+-Level 18: Won; collected=1052; radius=2.260999
+-Level 19: Won; collected=851; radius=2.425238
+-Level 20: Won; collected=536; radius=1.815
+-Level 21: Won; collected=674; radius=2.037666
+-Level 22: Won; collected=657; radius=2.260088
+-Level 23: Won; collected=1273; radius=2.483999
+-Level 24: Won; collected=1851; radius=2.706999
+-Level 25: Won; collected=1194; radius=2.260999
+-Level 26: Won; collected=693; radius=2.19212
+-Level 27: Won; collected=781; radius=2.323797
+-Level 28: Won; collected=623; radius=2.037925
+-Level 29: Won; collected=1162; radius=2.483999
+-Level 30: Won; collected=945; radius=2.48399
+--- 3차/Verification/ReferenceStructures.txt
++++ 4차/Verification/ReferenceStructures.txt
+@@ -1,30 +0,0 @@
+-Level 1: 30 actors, 84 scene transforms, timer 300
+-Level 2: 225 actors, 81 scene transforms, timer 240
+-Level 3: 329 actors, 84 scene transforms, timer 240
+-Level 4: 519 actors, 87 scene transforms, timer 210
+-Level 5: 808 actors, 78 scene transforms, timer 150
+-Level 6: 401 actors, 84 scene transforms, timer 110
+-Level 7: 760 actors, 90 scene transforms, timer 120
+-Level 8: 1028 actors, 90 scene transforms, timer 120
+-Level 9: 808 actors, 84 scene transforms, timer 160
+-Level 10: 991 actors, 84 scene transforms, timer 130
+-Level 11: 362 actors, 90 scene transforms, timer 135
+-Level 12: 771 actors, 84 scene transforms, timer 120
+-Level 13: 711 actors, 78 scene transforms, timer 110
+-Level 14: 1009 actors, 90 scene transforms, timer 115
+-Level 15: 1075 actors, 87 scene transforms, timer 135
+-Level 16: 2973 actors, 87 scene transforms, timer 135
+-Level 17: 637 actors, 84 scene transforms, timer 95
+-Level 18: 1052 actors, 78 scene transforms, timer 125
+-Level 19: 851 actors, 90 scene transforms, timer 135
+-Level 20: 536 actors, 87 scene transforms, timer 80
+-Level 21: 676 actors, 78 scene transforms, timer 80
+-Level 22: 657 actors, 84 scene transforms, timer 115
+-Level 23: 1273 actors, 84 scene transforms, timer 120
+-Level 24: 1851 actors, 87 scene transforms, timer 145
+-Level 25: 1194 actors, 90 scene transforms, timer 95
+-Level 26: 698 actors, 84 scene transforms, timer 120
+-Level 27: 782 actors, 78 scene transforms, timer 105
+-Level 28: 625 actors, 87 scene transforms, timer 115
+-Level 29: 1165 actors, 87 scene transforms, timer 120
+-Level 30: 945 actors, 87 scene transforms, timer 100
+--- 3차/Verification/ReferenceTests.xml
++++ 4차/Verification/ReferenceTests.xml
+@@ -1,83 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<test-run id="2" testcasecount="9" result="Passed" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.2749306">
+-  <test-suite type="TestSuite" id="1014" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.274931" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+-    <properties>
+-      <property name="platform" value="PlayMode" />
+-    </properties>
+-    <test-suite type="Assembly" id="1011" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.269308" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+-      <properties>
+-        <property name="_PID" value="68380" />
+-        <property name="_APPDOMAIN" value="Unity Child Domain" />
+-        <property name="platform" value="PlayMode" />
+-        <property name="EditorOnly" value="False" />
+-      </properties>
+-      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.267731" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+-        <properties />
+-        <test-case id="1009" name="AllLevelsHaveGoalsAndBoundedSceneObjects" fullname="ReferenceTests.AllLevelsHaveGoalsAndBoundedSceneObjects" methodname="AllLevelsHaveGoalsAndBoundedSceneObjects" classname="ReferenceTests" runstate="Runnable" seed="782998567" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:25:57Z" duration="3.978393" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1010" name="AllThirtyStagesCompleteThroughMouthAndStackSimulation" fullname="ReferenceTests.AllThirtyStagesCompleteThroughMouthAndStackSimulation" methodname="AllThirtyStagesCompleteThroughMouthAndStackSimulation" classname="ReferenceTests" runstate="Runnable" seed="1742182998" result="Passed" start-time="2026-10-12 19:25:57Z" end-time="2026-10-12 19:29:18Z" duration="200.493094" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="Timeout" value="600000" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1003" name="AuthoredArenaStopsMovementAtBorder" fullname="ReferenceTests.AuthoredArenaStopsMovementAtBorder" methodname="AuthoredArenaStopsMovementAtBorder" classname="ReferenceTests" runstate="Runnable" seed="255838515" result="Passed" start-time="2026-10-12 19:29:18Z" end-time="2026-10-12 19:29:18Z" duration="0.530368" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1007" name="BombLosesAndRetryResets" fullname="ReferenceTests.BombLosesAndRetryResets" methodname="BombLosesAndRetryResets" classname="ReferenceTests" runstate="Runnable" seed="2031595680" result="Passed" start-time="2026-10-12 19:29:18Z" end-time="2026-10-12 19:29:19Z" duration="0.715329" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1008" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="72120915" result="Passed" start-time="2026-10-12 19:29:19Z" end-time="2026-10-12 19:29:22Z" duration="3.179311" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1002" name="GrowthConsumesWeightedPointsAndCapsPhysicalSize" fullname="ReferenceTests.GrowthConsumesWeightedPointsAndCapsPhysicalSize" methodname="GrowthConsumesWeightedPointsAndCapsPhysicalSize" classname="ReferenceTests" runstate="Runnable" seed="1488146354" result="Passed" start-time="2026-10-12 19:29:22Z" end-time="2026-10-12 19:29:22Z" duration="0.075714" asserts="0">
+-          <properties>
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1005" name="HoldingMovesAtSpeedLimitAndReleaseStops" fullname="ReferenceTests.HoldingMovesAtSpeedLimitAndReleaseStops" methodname="HoldingMovesAtSpeedLimitAndReleaseStops" classname="ReferenceTests" runstate="Runnable" seed="1356152327" result="Passed" start-time="2026-10-12 19:29:22Z" end-time="2026-10-12 19:29:23Z" duration="0.730979" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1004" name="JoystickIsBoundedVelocityNotTravelDistance" fullname="ReferenceTests.JoystickIsBoundedVelocityNotTravelDistance" methodname="JoystickIsBoundedVelocityNotTravelDistance" classname="ReferenceTests" runstate="Runnable" seed="1902536113" result="Passed" start-time="2026-10-12 19:29:23Z" end-time="2026-10-12 19:29:23Z" duration="0.077968" asserts="0">
+-          <properties>
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-        </test-case>
+-        <test-case id="1006" name="TimersPauseAndRetryUseOriginalBudget" fullname="ReferenceTests.TimersPauseAndRetryUseOriginalBudget" methodname="TimersPauseAndRetryUseOriginalBudget" classname="ReferenceTests" runstate="Runnable" seed="331620723" result="Passed" start-time="2026-10-12 19:29:23Z" end-time="2026-10-12 19:29:23Z" duration="0.476424" asserts="0">
+-          <properties>
+-            <property name="_JOINTYPE" value="UnityCombinatorial" />
+-            <property name="retryIteration" value="0" />
+-            <property name="repeatIteration" value="0" />
+-          </properties>
+-          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-release-tests.xml
+-]]></output>
+-        </test-case>
+-      </test-suite>
+-    </test-suite>
+-  </test-suite>
+-</test-run>--- 3차/Verification/reference4-apk-verification.txt
++++ 4차/Verification/reference4-apk-verification.txt
+@@ -0,0 +1,130 @@
++Verifies
++Verified using v1 scheme (JAR signing): false
++Verified using v2 scheme (APK Signature Scheme v2): true
++Verified using v3 scheme (APK Signature Scheme v3): false
++Verified using v3.1 scheme (APK Signature Scheme v3.1): false
++Verified using v4 scheme (APK Signature Scheme v4): false
++Verified for SourceStamp: false
++Number of signers: 1
++Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
++Signer #1 certificate SHA-256 digest: 03b2e61e715a8e2fd3854fb1acddf905a453766389b9765f1e15281b4767c5fa
++Signer #1 certificate SHA-1 digest: 8e4be7b3f8892212f7eb2046650fe215fa1b0d3d
++Signer #1 certificate MD5 digest: fe1b7ce0ea3a2c4d0efe438b8a9c059c
++Signer #1 key algorithm: RSA
++Signer #1 key size (bits): 2048
++Signer #1 public key SHA-256 digest: 40db0805fbd873ff2467639309f157969ffc00f505512514a7f18d3fcd146973
++Signer #1 public key SHA-1 digest: 676465f6d696a9e785a984e7d6e908f78af84c8a
++Signer #1 public key MD5 digest: 6831893faf9f545ebc6ef45dff515f62
++package: name='com.pocketplayground.pocketpit' versionCode='6' versionName='4.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
++install-location:'preferExternal'
++sdkVersion:'26'
++targetSdkVersion:'36'
++uses-permission: name='android.permission.INTERNET'
++uses-permission: name='com.pocketplayground.pocketpit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION'
++application-label:'Gaeun's Hole'
++application-label-af:'Gaeun's Hole'
++application-label-am:'Gaeun's Hole'
++application-label-ar:'Gaeun's Hole'
++application-label-as:'Gaeun's Hole'
++application-label-az:'Gaeun's Hole'
++application-label-be:'Gaeun's Hole'
++application-label-bg:'Gaeun's Hole'
++application-label-bn:'Gaeun's Hole'
++application-label-bs:'Gaeun's Hole'
++application-label-ca:'Gaeun's Hole'
++application-label-cs:'Gaeun's Hole'
++application-label-da:'Gaeun's Hole'
++application-label-de:'Gaeun's Hole'
++application-label-el:'Gaeun's Hole'
++application-label-en-AU:'Gaeun's Hole'
++application-label-en-CA:'Gaeun's Hole'
++application-label-en-GB:'Gaeun's Hole'
++application-label-en-IN:'Gaeun's Hole'
++application-label-en-XC:'Gaeun's Hole'
++application-label-es:'Gaeun's Hole'
++application-label-es-US:'Gaeun's Hole'
++application-label-et:'Gaeun's Hole'
++application-label-eu:'Gaeun's Hole'
++application-label-fa:'Gaeun's Hole'
++application-label-fi:'Gaeun's Hole'
++application-label-fr:'Gaeun's Hole'
++application-label-fr-CA:'Gaeun's Hole'
++application-label-gl:'Gaeun's Hole'
++application-label-gu:'Gaeun's Hole'
++application-label-hi:'Gaeun's Hole'
++application-label-hr:'Gaeun's Hole'
++application-label-hu:'Gaeun's Hole'
++application-label-hy:'Gaeun's Hole'
++application-label-in:'Gaeun's Hole'
++application-label-is:'Gaeun's Hole'
++application-label-it:'Gaeun's Hole'
++application-label-iw:'Gaeun's Hole'
++application-label-ja:'Gaeun's Hole'
++application-label-ka:'Gaeun's Hole'
++application-label-kk:'Gaeun's Hole'
++application-label-km:'Gaeun's Hole'
++application-label-kn:'Gaeun's Hole'
++application-label-ko:'Gaeun's Hole'
++application-label-ky:'Gaeun's Hole'
++application-label-lo:'Gaeun's Hole'
++application-label-lt:'Gaeun's Hole'
++application-label-lv:'Gaeun's Hole'
++application-label-mk:'Gaeun's Hole'
++application-label-ml:'Gaeun's Hole'
++application-label-mn:'Gaeun's Hole'
++application-label-mr:'Gaeun's Hole'
++application-label-ms:'Gaeun's Hole'
++application-label-my:'Gaeun's Hole'
++application-label-nb:'Gaeun's Hole'
++application-label-ne:'Gaeun's Hole'
++application-label-nl:'Gaeun's Hole'
++application-label-or:'Gaeun's Hole'
++application-label-pa:'Gaeun's Hole'
++application-label-pl:'Gaeun's Hole'
++application-label-pt:'Gaeun's Hole'
++application-label-pt-BR:'Gaeun's Hole'
++application-label-pt-PT:'Gaeun's Hole'
++application-label-ro:'Gaeun's Hole'
++application-label-ru:'Gaeun's Hole'
++application-label-si:'Gaeun's Hole'
++application-label-sk:'Gaeun's Hole'
++application-label-sl:'Gaeun's Hole'
++application-label-sq:'Gaeun's Hole'
++application-label-sr:'Gaeun's Hole'
++application-label-sr-Latn:'Gaeun's Hole'
++application-label-sv:'Gaeun's Hole'
++application-label-sw:'Gaeun's Hole'
++application-label-ta:'Gaeun's Hole'
++application-label-te:'Gaeun's Hole'
++application-label-th:'Gaeun's Hole'
++application-label-tl:'Gaeun's Hole'
++application-label-tr:'Gaeun's Hole'
++application-label-uk:'Gaeun's Hole'
++application-label-ur:'Gaeun's Hole'
++application-label-uz:'Gaeun's Hole'
++application-label-vi:'Gaeun's Hole'
++application-label-zh-CN:'Gaeun's Hole'
++application-label-zh-HK:'Gaeun's Hole'
++application-label-zh-TW:'Gaeun's Hole'
++application-label-zu:'Gaeun's Hole'
++application-icon-120:'res/Ut.png'
++application-icon-160:'res/W5.png'
++application-icon-240:'res/YA.png'
++application-icon-320:'res/l4.png'
++application-icon-480:'res/Iw.png'
++application-icon-640:'res/oj.png'
++application: label='Gaeun's Hole' icon='res/W5.png'
++launchable-activity: name='com.unity3d.player.UnityPlayerGameActivity'  label='' icon=''
++feature-group: label=''
++  uses-gl-es: '0x30000'
++  uses-feature-not-required: name='android.hardware.touchscreen'
++  uses-feature-not-required: name='android.hardware.touchscreen.multitouch'
++  uses-feature-not-required: name='android.hardware.touchscreen.multitouch.distinct'
++  uses-feature: name='android.hardware.screen.portrait'
++  uses-implied-feature: name='android.hardware.screen.portrait' reason='one or more activities have specified a portrait orientation'
++main
++supports-screens: 'small' 'normal' 'large' 'xlarge'
++supports-any-density: 'true'
++locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
++densities: '120' '160' '240' '320' '480' '640'
++native-code: 'arm64-v8a' 'armeabi-v7a'
+--- 3차/Verification/reference4-regression-tests.xml
++++ 4차/Verification/reference4-regression-tests.xml
+@@ -0,0 +1,55 @@
++<?xml version="1.0" encoding="utf-8"?>
++<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:56:48Z" end-time="2026-10-12 19:56:54Z" duration="5.742765">
++  <test-suite type="TestSuite" id="1018" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:48Z" end-time="2026-10-12 19:56:54Z" duration="5.742765" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
++    <properties>
++      <property name="platform" value="PlayMode" />
++    </properties>
++    <test-suite type="Assembly" id="1015" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:48Z" end-time="2026-10-12 19:56:54Z" duration="5.735547" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
++      <properties>
++        <property name="_PID" value="72408" />
++        <property name="_APPDOMAIN" value="Unity Child Domain" />
++        <property name="platform" value="PlayMode" />
++        <property name="EditorOnly" value="False" />
++      </properties>
++      <test-suite type="TestFixture" id="1001" name="ReferenceTests" fullname="ReferenceTests" classname="ReferenceTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:56:48Z" end-time="2026-10-12 19:56:54Z" duration="5.733806" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
++        <properties />
++        <test-case id="1008" name="BombLosesAndRetryResets" fullname="ReferenceTests.BombLosesAndRetryResets" methodname="BombLosesAndRetryResets" classname="ReferenceTests" runstate="Runnable" seed="1459817326" result="Passed" start-time="2026-10-12 19:56:48Z" end-time="2026-10-12 19:56:49Z" duration="1.498513" asserts="0">
++          <properties>
++            <property name="_JOINTYPE" value="UnityCombinatorial" />
++            <property name="retryIteration" value="0" />
++            <property name="repeatIteration" value="0" />
++          </properties>
++        </test-case>
++        <test-case id="1009" name="FirstStageCompletesUsingCappedMovement" fullname="ReferenceTests.FirstStageCompletesUsingCappedMovement" methodname="FirstStageCompletesUsingCappedMovement" classname="ReferenceTests" runstate="Runnable" seed="1669961712" result="Passed" start-time="2026-10-12 19:56:49Z" end-time="2026-10-12 19:56:52Z" duration="2.925244" asserts="0">
++          <properties>
++            <property name="_JOINTYPE" value="UnityCombinatorial" />
++            <property name="retryIteration" value="0" />
++            <property name="repeatIteration" value="0" />
++          </properties>
++        </test-case>
++        <test-case id="1006" name="HoldingMovesAtSpeedLimitAndReleaseStops" fullname="ReferenceTests.HoldingMovesAtSpeedLimitAndReleaseStops" methodname="HoldingMovesAtSpeedLimitAndReleaseStops" classname="ReferenceTests" runstate="Runnable" seed="1538988243" result="Passed" start-time="2026-10-12 19:56:52Z" end-time="2026-10-12 19:56:53Z" duration="0.728320" asserts="0">
++          <properties>
++            <property name="_JOINTYPE" value="UnityCombinatorial" />
++            <property name="retryIteration" value="0" />
++            <property name="repeatIteration" value="0" />
++          </properties>
++        </test-case>
++        <test-case id="1005" name="JoystickIsBoundedVelocityNotTravelDistance" fullname="ReferenceTests.JoystickIsBoundedVelocityNotTravelDistance" methodname="JoystickIsBoundedVelocityNotTravelDistance" classname="ReferenceTests" runstate="Runnable" seed="214978078" result="Passed" start-time="2026-10-12 19:56:53Z" end-time="2026-10-12 19:56:53Z" duration="0.077070" asserts="0">
++          <properties>
++            <property name="retryIteration" value="0" />
++            <property name="repeatIteration" value="0" />
++          </properties>
++        </test-case>
++        <test-case id="1007" name="TimersPauseAndRetryUseOriginalBudget" fullname="ReferenceTests.TimersPauseAndRetryUseOriginalBudget" methodname="TimersPauseAndRetryUseOriginalBudget" classname="ReferenceTests" runstate="Runnable" seed="417053727" result="Passed" start-time="2026-10-12 19:56:53Z" end-time="2026-10-12 19:56:54Z" duration="0.494323" asserts="0">
++          <properties>
++            <property name="_JOINTYPE" value="UnityCombinatorial" />
++            <property name="retryIteration" value="0" />
++            <property name="repeatIteration" value="0" />
++          </properties>
++          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference4-regression-tests.xml
++]]></output>
++        </test-case>
++      </test-suite>
++    </test-suite>
++  </test-suite>
++</test-run>--- 3차/Verification/reference4-touch-tests.xml
++++ 4차/Verification/reference4-touch-tests.xml
+@@ -0,0 +1,35 @@
++<?xml version="1.0" encoding="utf-8"?>
++<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-10-12 19:56:20Z" end-time="2026-10-12 19:56:22Z" duration="2.1137377">
++  <test-suite type="TestSuite" id="1018" name="Gaeun's Hole" fullname="Gaeun's Hole" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:20Z" end-time="2026-10-12 19:56:22Z" duration="2.113738" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
++    <properties>
++      <property name="platform" value="PlayMode" />
++    </properties>
++    <test-suite type="Assembly" id="1015" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:20Z" end-time="2026-10-12 19:56:22Z" duration="2.108080" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
++      <properties>
++        <property name="_PID" value="17572" />
++        <property name="_APPDOMAIN" value="Unity Child Domain" />
++        <property name="platform" value="PlayMode" />
++        <property name="EditorOnly" value="False" />
++      </properties>
++      <test-suite type="TestFixture" id="1012" name="ReferenceTouchTests" fullname="ReferenceTouchTests" classname="ReferenceTouchTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-10-12 19:56:20Z" end-time="2026-10-12 19:56:22Z" duration="2.106670" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
++        <properties />
++        <test-case id="1014" name="FloatingTouchKeepsOwnerAndCancelStops" fullname="ReferenceTouchTests.FloatingTouchKeepsOwnerAndCancelStops" methodname="FloatingTouchKeepsOwnerAndCancelStops" classname="ReferenceTouchTests" runstate="Runnable" seed="1124508957" result="Passed" start-time="2026-10-12 19:56:20Z" end-time="2026-10-12 19:56:21Z" duration="1.138661" asserts="0">
++          <properties>
++            <property name="_JOINTYPE" value="UnityCombinatorial" />
++            <property name="retryIteration" value="0" />
++            <property name="repeatIteration" value="0" />
++          </properties>
++        </test-case>
++        <test-case id="1013" name="TouchPlaysDragsStopsAndResumes" fullname="ReferenceTouchTests.TouchPlaysDragsStopsAndResumes" methodname="TouchPlaysDragsStopsAndResumes" classname="ReferenceTouchTests" runstate="Runnable" seed="241160086" result="Passed" start-time="2026-10-12 19:56:21Z" end-time="2026-10-12 19:56:22Z" duration="0.959060" asserts="0">
++          <properties>
++            <property name="_JOINTYPE" value="UnityCombinatorial" />
++            <property name="retryIteration" value="0" />
++            <property name="repeatIteration" value="0" />
++          </properties>
++          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference4-touch-tests.xml
++]]></output>
++        </test-case>
++      </test-suite>
++    </test-suite>
++  </test-suite>
++</test-run>--- 3차/읽어주세요.txt
++++ 4차/읽어주세요.txt
+@@ -1,35 +1,25 @@
+-가은이 홀 게임 · 3차 · 4.0.0 (5)
++가은이 홀 게임 · 4차 · 4.1.0 (6)
+ 
+-설치 파일: Gaeun_Hole_3.apk
+-전체 묶음: HoleIt_3차_APK_Source.zip
+-소스 프로젝트: Source
+-실제 실행 화면: Previews (Windows 렌더링 캡처)
+-검증 기록: Verification
++설치 파일: Gaeun_Hole_4.apk
++전체 소스와 APK: HoleIt_4차_APK_Source.zip
+ 
+-APK를 Android 휴대전화로 옮겨 설치하세요. Android 8.0 이상, ARM64/ARMv7용이며
+-개인 설치용 테스트 서명을 사용합니다. 2차와 패키지 식별자/서명을 유지했습니다.
+-이번 버전의 스테이지 진행 기록은 새로 시작합니다.
++3차에서 조이스틱 입력 코드와 APK의 입력 방식 설정이 달라 이동 입력이
++실행되지 않던 오류를 수정했습니다. 3차와 동일한 앱 식별자/서명으로
++제작하여 기존 앱 위에 업데이트 설치할 수 있습니다. 진행 기록은 유지합니다.
+ 
+-화면을 누른 지점이 조이스틱 중심입니다. 그 상태로 원하는 방향으로 당기면 이동하고,
+-같은 방향으로 누르고 있으면 계속 이동합니다. 손을 떼면 멈춥니다.
+-손가락을 멀리 뻗어도 최고 속도를 넘지 않으며, 손가락 위치로 홀이 이동하지 않습니다.
++PLAY를 누르면 왼쪽 아래, 부스터 버튼 위에 조이스틱이 항상 보입니다.
++조이스틱을 원하는 방향으로 당긴 채 누르고 있으면 계속 이동합니다.
++손을 떼면 즉시 멈춥니다. 화면의 다른 빈 곳을 눌러 드래그해도 됩니다.
++멀리 당겨도 최고 속도를 넘지 않습니다.
+ 
+-첨부된 원작 1.31.17의 첫 30개 스테이지 순서·목표·배치와 259종 모형을 사용했습니다.
+-제한 시간은 해당 데이터의 80~300초입니다. 첫 스테이지는 5분입니다.
+-성장은 단순 수집 개수가 아니라 각 배치에 지정된 점수로 계산합니다.
+-단계별 필요 점수는 10, 20, 100, 150, 200, 300, 400, 500, 600, 700이며
+-레벨업할 때 차감하고 초과 점수는 이월합니다. 실제 크기의 증가는 10단계에서 멈춥니다.
+-초기 스케일 .7, 외형 증가 .25, 이동 판정 반경 증가 .223을 반영했습니다.
+-원작 바닥/벽의 배치, 홀 모형과 텍스처, 목표 카드와 버튼 이미지도 반영했습니다.
++첫 30개 맵, 모형, 성장 규칙, 제한 시간 및 폭탄 규칙은 3차를 유지합니다.
++화면 언어는 영어, 실제 Nanum Gothic Bold 글꼴과 OFL을 포함합니다.
++Source는 Unity 6000.3.6f1 프로젝트입니다. Build-Android.ps1로 빌드합니다.
+ 
+-폭탄은 원작 데이터상 21번째 맵부터 등장합니다. 먹으면 실패하며 TRY AGAIN으로
+-같은 맵을 다시 시작합니다. SIZE / SPEED / FIND / FREEZE는 각각 3/5/9/12 레벨부터
+-한 판에 한 번 쓸 수 있습니다. 화면 언어는 영어, 글꼴은 Nanum Gothic Bold입니다.
++가상 터치로 PLAY / 드래그 / 정지 / 취소 / 멀티터치 / 일시정지·재개를
++검사했습니다. APK 빌드 및 서명 검증도 통과했습니다.
++연결된 Android 기기가 없어 실제 휴대전화에서의 터치와 FPS는 미검증입니다.
++Previews는 Windows 실행 화면이며, 검사 기록은 Verification에 있습니다.
+ 
+-이 묶음은 원작 자료를 활용한 별도 재구현입니다. 원작 전체 앱의 완전한 복제본은 아닙니다.
+-전체 원작 스테이지/이벤트/광고/결제/온라인 시스템은 포함하지 않았습니다.
+-낙하 물리, 카메라 추적·확대, 조명, 일부 화면 배치와 메뉴는 자체 구현입니다.
+-바닥 테마 선택과 폭탄 좌표는 별도로 정했습니다. 자세한 차이는 검증 문서에 적었습니다.
+-자동 검사는 통과했지만 연결된 Android 기기가 없어 실제 휴대전화 터치감과 FPS는
+-확인하지 못했습니다. 30개 맵 완료 검사는 수집 위치를 이동시키는 검사로,
+-사람이 제한 시간 안에 완료하기 쉬운지 검증한 결과는 아닙니다.
++원작 자료를 활용한 별도 재구현이며 원작 전체 앱의 완전한 복제본은 아닙니다.
++원작 자산의 권리는 원권리자에게 있습니다.

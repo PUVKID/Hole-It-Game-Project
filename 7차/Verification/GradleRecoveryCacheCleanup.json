@@ -1,0 +1,56 @@
+{
+  "Reason": "Unity completed native compile and generated self-contained Gradle inputs; remove regenerable native compilation/symbol caches to finish unchanged Gradle assembleRelease after disk exhaustion",
+  "Targets": [
+    "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\artifacts\\Android",
+    "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\artifacts\\objcopy_5lmi",
+    "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\artifacts\\objcopy_b9ry",
+    "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\artifacts\\objcopy_lfx0"
+  ],
+  "PreservedGradleNativeInputs": [
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libil2cpp.so",
+      "Length": 39590464,
+      "SHA256": "E90FCB8462E002A4C671E3377130528E96A7481C6BE9FA4BCC7A27CAFF746692"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libmain.so",
+      "Length": 6696,
+      "SHA256": "D1472B24E12CF04D86AF157637EE84E93D17A267561E8005A4626BE35B2A0C8E"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libunity.so",
+      "Length": 18885840,
+      "SHA256": "0622D9C1A2C23F1748649771C31F5BBBF3A2160036D708B31D2AA2BA1C3D8976"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libil2cpp.so",
+      "Length": 33009960,
+      "SHA256": "089D5DA59AD3F1E1A94A741014A926825B41DF6165D2EF3DB7CD055B43438052"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libmain.so",
+      "Length": 8260,
+      "SHA256": "3CFDA0534D4C9E1BBCC65DBF68DE568FA04541FFE897E9B80181C5E61BD4B717"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libunity.so",
+      "Length": 14262156,
+      "SHA256": "692B3B8F888BF33A1AA9C2EA6594E6DD9F8E5D4301B4A8C077A752C67A823616"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\x86_64\\libil2cpp.so",
+      "Length": 38937536,
+      "SHA256": "87053368C2A7114A0ABA9763303024FE635E152FFF3FCA60B1B54B6236141738"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\x86_64\\libmain.so",
+      "Length": 8920,
+      "SHA256": "AFE19B3A20F47BDEE3DD53F1762D4ABD9A24CB15E02CFE81E72E2D2069E79031"
+    },
+    {
+      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\x86_64\\libunity.so",
+      "Length": 20961888,
+      "SHA256": "4B402F1E97848E398F6031D97E6AD1AEE95D12909F512049565B1C6ADAB6FBBA"
+    }
+  ]
+}
