@@ -22498,26 +22498,32 @@
   {
     "path": "2차/Verification/english-edit.xml",
     "source": "2차/Verification/english-edit.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 10345,
-    "sha256": "054fa88b601db8efbd667da16e4f370e7348e74bcf7183489672b11b09228e8a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 10245,
+    "sha256": "6817d47bf8a738883c6eb3258e3c8434dd55841f9f809d87c2e4f17923bf99fc",
+    "source_sha256": "054fa88b601db8efbd667da16e4f370e7348e74bcf7183489672b11b09228e8a",
+    "source_bytes": 10345
   },
   {
     "path": "2차/Verification/english-play.xml",
     "source": "2차/Verification/english-play.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 12193,
-    "sha256": "09e411b040ab73a79af07a085a98ad99291dcf3bf7f32a78d2e8594aed21287b"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 12093,
+    "sha256": "f5e759438b55142b1e84f61df4c2d378e136cf50dc00d8573ae5c89fd9afd066",
+    "source_sha256": "09e411b040ab73a79af07a085a98ad99291dcf3bf7f32a78d2e8594aed21287b",
+    "source_bytes": 12193
   },
   {
     "path": "2차/Verification/gameplay-play.xml",
     "source": "2차/Verification/gameplay-play.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 12919,
-    "sha256": "0f8ec18ce193ffa3e7f135dcc9c1cd115f8f46f014d73ff769d183e31d0c4989"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 12819,
+    "sha256": "2a686e8e145d69d4817026bdf4df4a71ff112293755dce2946cbb523f2806d5f",
+    "source_sha256": "0f8ec18ce193ffa3e7f135dcc9c1cd115f8f46f014d73ff769d183e31d0c4989",
+    "source_bytes": 12919
   },
   {
     "path": "2차/Verification/검사_설명.txt",
@@ -39330,18 +39336,22 @@
   {
     "path": "3차/Verification/BorderRecoveryTest.xml",
     "source": "3차/Verification/BorderRecoveryTest.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2581,
-    "sha256": "c6d2354cf26582172f076d4a203abd348c4b657f962f41ebd68d417a3f52e7ea"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2481,
+    "sha256": "2ea14c9564524ddd815af404d500e8f642eaa716e6b225b7a2ce8e83b5bad465",
+    "source_sha256": "c6d2354cf26582172f076d4a203abd348c4b657f962f41ebd68d417a3f52e7ea",
+    "source_bytes": 2581
   },
   {
     "path": "3차/Verification/FinalStartPositionTest.xml",
     "source": "3차/Verification/FinalStartPositionTest.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2580,
-    "sha256": "42dd32e7efdb31539b1888bef0f5fb56c8b61ae2a338175749b8bbf218607582"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2480,
+    "sha256": "aa04319ef59233cd1684c50cc7e483bd9cf9b4b6372bcbd43e8d5919184c82c2",
+    "source_sha256": "42dd32e7efdb31539b1888bef0f5fb56c8b61ae2a338175749b8bbf218607582",
+    "source_bytes": 2580
   },
   {
     "path": "3차/Verification/Reference-Comparison.txt",
@@ -39370,10 +39380,12 @@
   {
     "path": "3차/Verification/ReferenceTests.xml",
     "source": "3차/Verification/ReferenceTests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 7578,
-    "sha256": "e3684a0afc2fe39a5e4eb05ceefb70d5414f00148950e83885d9340b12395ddd"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 7478,
+    "sha256": "a950a3714cfa6ad82fa950f8e18a5e3a89b40328889fa4b922b6b30e08245e05",
+    "source_sha256": "e3684a0afc2fe39a5e4eb05ceefb70d5414f00148950e83885d9340b12395ddd",
+    "source_bytes": 7578
   },
   {
     "path": "3차/읽어주세요.txt",
@@ -56194,18 +56206,22 @@
   {
     "path": "4차/Verification/reference4-regression-tests.xml",
     "source": "4차/Verification/reference4-regression-tests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5001,
-    "sha256": "96dd484daee7e9d57d48bde5ef1fe5ee172b5e2abe9882aab2f70f8fffe840a2"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4901,
+    "sha256": "e66ae27961c92609310f7125a124eed13a7efddad65c414ba2f838472ad41416",
+    "source_sha256": "96dd484daee7e9d57d48bde5ef1fe5ee172b5e2abe9882aab2f70f8fffe840a2",
+    "source_bytes": 5001
   },
   {
     "path": "4차/Verification/reference4-touch-tests.xml",
     "source": "4차/Verification/reference4-touch-tests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3218,
-    "sha256": "cd24c307c7c74e7208675967d957271c10693ae6362c424e4f2bbdf9ca0b1362"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3118,
+    "sha256": "d4ab88485a818d28d2035f4ad8e1a9963925a5736d45fbc5733a133773278067",
+    "source_sha256": "cd24c307c7c74e7208675967d957271c10693ae6362c424e4f2bbdf9ca0b1362",
+    "source_bytes": 3218
   },
   {
     "path": "4차/읽어주세요.txt",
@@ -73314,10 +73330,12 @@
   {
     "path": "5차/Verification/reference5-final-tests.xml",
     "source": "5차/Verification/reference5-final-tests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 15977,
-    "sha256": "a0dd11a17137a233f33a1f89e03788596c433dda289fdce97bff8366c3f00236"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 15877,
+    "sha256": "1e43b9706017a5c162dc8ee9f3a63785f2a15bf3ed009394ebeb3d148c4f0f51",
+    "source_sha256": "a0dd11a17137a233f33a1f89e03788596c433dda289fdce97bff8366c3f00236",
+    "source_bytes": 15977
   },
   {
     "path": "5차/읽어주세요.txt",
@@ -73354,10 +73372,12 @@
   {
     "path": "6차/Audit/BuildCacheCleanup.json",
     "source": "6차/Audit/BuildCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 125,
-    "sha256": "faa7ab55b6c30438cb3933a2c0c568b989e7252f7bdb2fce5f62bf4ca18623d8"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 91,
+    "sha256": "82565dd68b15fd58c53a77431cc4dc91a0f50cdd7260287073d77d947f968a27",
+    "source_sha256": "faa7ab55b6c30438cb3933a2c0c568b989e7252f7bdb2fce5f62bf4ca18623d8",
+    "source_bytes": 125
   },
   {
     "path": "6차/Audit/CollisionFixes/report.json",
@@ -73378,10 +73398,12 @@
   {
     "path": "6차/Audit/FinalCleanup.json",
     "source": "6차/Audit/FinalCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 464,
-    "sha256": "1b379ee6e03c6cf09027101843f236e7352d51ccbf568af8b7a1e9686a792195"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 396,
+    "sha256": "d1b20277281c55fc101b43a20660a7922a2ea0fa17f2289cd4b3554d9c1c1366",
+    "source_sha256": "1b379ee6e03c6cf09027101843f236e7352d51ccbf568af8b7a1e9686a792195",
+    "source_bytes": 464
   },
   {
     "path": "6차/Audit/LevelFidelityAudit.json",
@@ -73418,42 +73440,52 @@
   {
     "path": "6차/Audit/Tests-initial.xml",
     "source": "6차/Audit/Tests-initial.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 32741,
-    "sha256": "f9dccd2f151e211da96ff4c7a16bd76b126ab7707970701c93472f6a15c3cd50"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 32611,
+    "sha256": "928e9a984e36d458a34d77dc751c8968cec96ccdede5568a7bad98c07e65562c",
+    "source_sha256": "f9dccd2f151e211da96ff4c7a16bd76b126ab7707970701c93472f6a15c3cd50",
+    "source_bytes": 32741
   },
   {
     "path": "6차/Audit/Tests.xml",
     "source": "6차/Audit/Tests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 34261,
-    "sha256": "7579bd8130697d01fb85410c04e0892868af77165c3a955f4831ca667765f546"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 34181,
+    "sha256": "5454f02ecf9009725183ee677303f9be30be756e5d7263e55ef15bbea1f7421d",
+    "source_sha256": "7579bd8130697d01fb85410c04e0892868af77165c3a955f4831ca667765f546",
+    "source_bytes": 34261
   },
   {
     "path": "6차/Audit/VerifiedDuplicateCleanup.json",
     "source": "6차/Audit/VerifiedDuplicateCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 357,
-    "sha256": "b518e3fd7784b7818f85540eefd7e5fe489fdc68ececcbbfff3d5e986cf2994c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 267,
+    "sha256": "93d7cac5a61e5f76f9fb135f939e57feda39c69feef3724d939fd16a7763884e",
+    "source_sha256": "b518e3fd7784b7818f85540eefd7e5fe489fdc68ececcbbfff3d5e986cf2994c",
+    "source_bytes": 357
   },
   {
-    "path": "6차/Audit/cleanup_generated.ps1",
+    "path": "6차/Audit/cleanup_generated.ps1.PUBLIC-NOTE.md",
     "source": "6차/Audit/cleanup_generated.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2126,
-    "sha256": "7a72e19b8c422b1dc1fbe8576f440aefd5823692670aa94135a772cac87e513f"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "7a72e19b8c422b1dc1fbe8576f440aefd5823692670aa94135a772cac87e513f",
+    "source_bytes": 2126
   },
   {
-    "path": "6차/Audit/export_reference6_content.py",
+    "path": "6차/Audit/export_reference6_content.py.PUBLIC-NOTE.md",
     "source": "6차/Audit/export_reference6_content.py",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 6985,
-    "sha256": "07e1c58711a1773b3c66c5c75999acc09ad265186a65cb5d0bb89353a70cf419"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "07e1c58711a1773b3c66c5c75999acc09ad265186a65cb5d0bb89353a70cf419",
+    "source_bytes": 6985
   },
   {
     "path": "6차/Audit/package_release.py",
@@ -73464,12 +73496,14 @@
     "sha256": "9482e156641c9b019ace94824a4e6f6290516d4950679c27cfc33cf193c4ede4"
   },
   {
-    "path": "6차/Audit/verify_apk.ps1",
+    "path": "6차/Audit/verify_apk.ps1.PUBLIC-NOTE.md",
     "source": "6차/Audit/verify_apk.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2226,
-    "sha256": "b11b031f87d36cbf2cd8a258391dfb69909e6c8294ed64efac84514d27bb4e2f"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "b11b031f87d36cbf2cd8a258391dfb69909e6c8294ed64efac84514d27bb4e2f",
+    "source_bytes": 2226
   },
   {
     "path": "6차/SHA256.json",
@@ -91322,10 +91356,12 @@
   {
     "path": "6차/Verification/BuildCacheCleanup.json",
     "source": "6차/Verification/BuildCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 125,
-    "sha256": "faa7ab55b6c30438cb3933a2c0c568b989e7252f7bdb2fce5f62bf4ca18623d8"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 91,
+    "sha256": "82565dd68b15fd58c53a77431cc4dc91a0f50cdd7260287073d77d947f968a27",
+    "source_sha256": "faa7ab55b6c30438cb3933a2c0c568b989e7252f7bdb2fce5f62bf4ca18623d8",
+    "source_bytes": 125
   },
   {
     "path": "6차/Verification/ContentExpansion.json",
@@ -91394,18 +91430,22 @@
   {
     "path": "6차/Verification/Tests.xml",
     "source": "6차/Verification/Tests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 34261,
-    "sha256": "7579bd8130697d01fb85410c04e0892868af77165c3a955f4831ca667765f546"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 34181,
+    "sha256": "5454f02ecf9009725183ee677303f9be30be756e5d7263e55ef15bbea1f7421d",
+    "source_sha256": "7579bd8130697d01fb85410c04e0892868af77165c3a955f4831ca667765f546",
+    "source_bytes": 34261
   },
   {
     "path": "6차/Verification/VerifiedDuplicateCleanup.json",
     "source": "6차/Verification/VerifiedDuplicateCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 357,
-    "sha256": "b518e3fd7784b7818f85540eefd7e5fe489fdc68ececcbbfff3d5e986cf2994c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 267,
+    "sha256": "93d7cac5a61e5f76f9fb135f939e57feda39c69feef3724d939fd16a7763884e",
+    "source_sha256": "b518e3fd7784b7818f85540eefd7e5fe489fdc68ececcbbfff3d5e986cf2994c",
+    "source_bytes": 357
   },
   {
     "path": "6차/읽어주세요.txt",
@@ -91418,10 +91458,12 @@
   {
     "path": "7차/Audit/AnalysisCacheCleanup.json",
     "source": "7차/Audit/AnalysisCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 607,
-    "sha256": "913b0770ec5d4620c2e545a9a908a229eb5b7cd9566327ac7ba3f2aeba4dcd32"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 383,
+    "sha256": "d5ed527fdd06d8c24252270388a1284b30b49dd279bed4c4dcd23eb47a269f5b",
+    "source_sha256": "913b0770ec5d4620c2e545a9a908a229eb5b7cd9566327ac7ba3f2aeba4dcd32",
+    "source_bytes": 607
   },
   {
     "path": "7차/Audit/AndroidBuild-discarded-before-floor-fix.txt",
@@ -91442,10 +91484,12 @@
   {
     "path": "7차/Audit/AndroidPlayerCacheCleanup.json",
     "source": "7차/Audit/AndroidPlayerCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 402,
-    "sha256": "e784f0dd4868dbca1781b6e9597aca1866bf13c4c63d427e4f0c5fe19e3b6ad1"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 334,
+    "sha256": "82b3818a527d13a5cbd91791138238d718209901d11a32f839e92b9b4383e4a3",
+    "source_sha256": "e784f0dd4868dbca1781b6e9597aca1866bf13c4c63d427e4f0c5fe19e3b6ad1",
+    "source_bytes": 402
   },
   {
     "path": "7차/Audit/AndroidQAUnavailable.json",
@@ -91482,10 +91526,12 @@
   {
     "path": "7차/Audit/ArchitecturePlan.json",
     "source": "7차/Audit/ArchitecturePlan.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1018,
-    "sha256": "2e5185b88a6ac6f9a0c4ee2c0b251663559325a19e27554d5408e048a64a8cf6"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 962,
+    "sha256": "879a32d15ee0567f068429367a006b51b242ae20eb8b02b0a62a9bfc0c39769a",
+    "source_sha256": "2e5185b88a6ac6f9a0c4ee2c0b251663559325a19e27554d5408e048a64a8cf6",
+    "source_bytes": 1018
   },
   {
     "path": "7차/Audit/BombInfoSource7.json",
@@ -91498,10 +91544,12 @@
   {
     "path": "7차/Audit/BuildCacheCleanup.json",
     "source": "7차/Audit/BuildCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 250,
-    "sha256": "e8591b62557e0491d6ea00544da33df53d16be60b45522b51f170b6eb8305fdc"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 216,
+    "sha256": "6eeaaf585f9a002461de535f4518a0a3fc6d0954c0c823309f565c65ed037fbc",
+    "source_sha256": "e8591b62557e0491d6ea00544da33df53d16be60b45522b51f170b6eb8305fdc",
+    "source_bytes": 250
   },
   {
     "path": "7차/Audit/BuildConfigSource7.json",
@@ -91610,18 +91658,22 @@
   {
     "path": "7차/Audit/FinalCleanup.json",
     "source": "7차/Audit/FinalCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 400,
-    "sha256": "e117b82491ee5e7985dbfeb112e9105b8db79d99a1bee878fc2ce9817649c049"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 366,
+    "sha256": "9d9ad20f3e1be7fa2461b95d7ef996bb00d231cf3d7abba186288c2b3882eec3",
+    "source_sha256": "e117b82491ee5e7985dbfeb112e9105b8db79d99a1bee878fc2ce9817649c049",
+    "source_bytes": 400
   },
   {
     "path": "7차/Audit/FinalPreviewCacheCleanup.json",
     "source": "7차/Audit/FinalPreviewCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 396,
-    "sha256": "c57e09254fa9462496812205cc4cf314d2443d3f60cebcd3a5a8720a4a3cf279"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 328,
+    "sha256": "b9880f60990207ec04715f830a3874bebb65872768dc690cae82c005c119cd7f",
+    "source_sha256": "c57e09254fa9462496812205cc4cf314d2443d3f60cebcd3a5a8720a4a3cf279",
+    "source_bytes": 396
   },
   {
     "path": "7차/Audit/FinalRegressionSourceHashes.json",
@@ -91690,18 +91742,22 @@
   {
     "path": "7차/Audit/Fresh2AbiGradleRecoveryCompleted.json",
     "source": "7차/Audit/Fresh2AbiGradleRecoveryCompleted.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 564,
-    "sha256": "ad2b183855278a2fc2780885b4780a7ae0e0a4928f63230b0486255133a58a73"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 496,
+    "sha256": "54d611fdb69b561928fd091fd9b5a51d1766c0cd300b539abfc855a7aadb4a8d",
+    "source_sha256": "ad2b183855278a2fc2780885b4780a7ae0e0a4928f63230b0486255133a58a73",
+    "source_bytes": 564
   },
   {
     "path": "7차/Audit/Fresh2AbiRecoveryEvidence.json",
     "source": "7차/Audit/Fresh2AbiRecoveryEvidence.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1138883,
-    "sha256": "1d6c12334af1024a943f98885f46c224c6d212dbd300d928c71475b25104fd3a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 1138679,
+    "sha256": "b3e7e867764f024779bae2218e2f944fa7ecd0779f837f83008add6c0da8b60e",
+    "source_sha256": "1d6c12334af1024a943f98885f46c224c6d212dbd300d928c71475b25104fd3a",
+    "source_bytes": 1138883
   },
   {
     "path": "7차/Audit/FreshAndroidBuildCompletion.json",
@@ -91722,34 +91778,42 @@
   {
     "path": "7차/Audit/FreshNativeCacheCleanup.json",
     "source": "7차/Audit/FreshNativeCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1045,
-    "sha256": "3b804ac08f5aaf4f1204afad8f22db3457acfa70dd54043636aa39df68008347"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 943,
+    "sha256": "3808a3a5ff66f0fb42a13be28f6d65e915bdf1fb41142f472ad4f8d02f2ac5cc",
+    "source_sha256": "3b804ac08f5aaf4f1204afad8f22db3457acfa70dd54043636aa39df68008347",
+    "source_bytes": 1045
   },
   {
     "path": "7차/Audit/FreshPlayerCacheCleanup.json",
     "source": "7차/Audit/FreshPlayerCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1110649,
-    "sha256": "95bd9d909ddd34a3552ca6fdaee239b2d07007fd26e17612be9833258c07ec25"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 1110615,
+    "sha256": "8e8b96b74f10824f79085e78f3e944488a3edadb4dffe379b1d48ad9122d63fd",
+    "source_sha256": "95bd9d909ddd34a3552ca6fdaee239b2d07007fd26e17612be9833258c07ec25",
+    "source_bytes": 1110649
   },
   {
     "path": "7차/Audit/GradleCacheCompression.json",
     "source": "7차/Audit/GradleCacheCompression.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 9271,
-    "sha256": "a2cfd9e02c9267421f8ae9f0b8ad6c7a56eaa7b008ee3a532c5e4815582c306d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8789,
+    "sha256": "c4186a90c49a26e2aa8b9b39c8d45d0ff79384466e12fd7f5ab027bc1e33ae4d",
+    "source_sha256": "a2cfd9e02c9267421f8ae9f0b8ad6c7a56eaa7b008ee3a532c5e4815582c306d",
+    "source_bytes": 9271
   },
   {
     "path": "7차/Audit/GradleRecoveryCacheCleanup.json",
     "source": "7차/Audit/GradleRecoveryCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3307,
-    "sha256": "6c7892f9280c685289d5146645d4c90033a82901c58e8056c3cfcb838b3641dc"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2865,
+    "sha256": "39a8b83129c27029863189e49f16ce617605bb86a80ca76be63578341b6a2a87",
+    "source_sha256": "6c7892f9280c685289d5146645d4c90033a82901c58e8056c3cfcb838b3641dc",
+    "source_bytes": 3307
   },
   {
     "path": "7차/Audit/HoleContactMeshSource7.json",
@@ -91818,18 +91882,22 @@
   {
     "path": "7차/Audit/ObsoleteAndroidCacheCleanup.json",
     "source": "7차/Audit/ObsoleteAndroidCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 500,
-    "sha256": "b0f5067d6d8ef4b1a9860eaaccddb2a82b0a3c70a1914c72726468b3137f39a9"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 466,
+    "sha256": "36f651aff71b2d094f326d44234bdd185845a9a375301c8d6be4490732101e1d",
+    "source_sha256": "b0f5067d6d8ef4b1a9860eaaccddb2a82b0a3c70a1914c72726468b3137f39a9",
+    "source_bytes": 500
   },
   {
     "path": "7차/Audit/ObsoleteGradleTransformCacheCleanup.json",
     "source": "7차/Audit/ObsoleteGradleTransformCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 398,
-    "sha256": "9efbd226cc5e84774335b7d69d075b8df2b34d6bb2ae81423ea31ce65231d411"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 382,
+    "sha256": "d45d5586fe93c37a790db8129f52efeb9292047f131d121543eedd1bb81c43ca",
+    "source_sha256": "9efbd226cc5e84774335b7d69d075b8df2b34d6bb2ae81423ea31ce65231d411",
+    "source_bytes": 398
   },
   {
     "path": "7차/Audit/OriginalPhysicsManager.json",
@@ -91890,10 +91958,12 @@
   {
     "path": "7차/Audit/PrePackageCacheCleanup.json",
     "source": "7차/Audit/PrePackageCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 769,
-    "sha256": "63dd1433aa330293b68f980dc50defd1bed03fe605c0703d09c8b06b9b89f094"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 667,
+    "sha256": "2f29c8bb9f19a069e7dca72581438440902761b9f12ff323546151259fcd92cf",
+    "source_sha256": "63dd1433aa330293b68f980dc50defd1bed03fe605c0703d09c8b06b9b89f094",
+    "source_bytes": 769
   },
   {
     "path": "7차/Audit/PriorWorkCompression.json",
@@ -91906,18 +91976,22 @@
   {
     "path": "7차/Audit/PriorWorkGeneratedCleanup.json",
     "source": "7차/Audit/PriorWorkGeneratedCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 697,
-    "sha256": "a4b158444e9f5178e57b6853ad930663ad3860fd3f7d209f1268f8ebd50d2a5a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 529,
+    "sha256": "b569ee2d9bed0a3a92e86db755007a1e840ef2264430c58a8a0b0594f9035176",
+    "source_sha256": "a4b158444e9f5178e57b6853ad930663ad3860fd3f7d209f1268f8ebd50d2a5a",
+    "source_bytes": 697
   },
   {
     "path": "7차/Audit/PriorWorkingCacheCleanup.json",
     "source": "7차/Audit/PriorWorkingCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 390,
-    "sha256": "f10edc7e03768f4a4d55bef16e0be6549e53e7bd6354897ba1f4852267377688"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 334,
+    "sha256": "3eb3b0a267f0d810409f53de2ad2c71e101b023878b038ea5777b7f0d7566cb7",
+    "source_sha256": "f10edc7e03768f4a4d55bef16e0be6549e53e7bd6354897ba1f4852267377688",
+    "source_bytes": 390
   },
   {
     "path": "7차/Audit/ReferenceGame.Diagnostics.pending.cs",
@@ -92066,10 +92140,12 @@
   {
     "path": "7차/Audit/StorageCompression.json",
     "source": "7차/Audit/StorageCompression.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1079,
-    "sha256": "6a53590d6ba62b6a6296be10547556718801d04a4b6eed945736c7630c8ca03a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 841,
+    "sha256": "fd9720c7094243e68ca4608c3eec0745f5c1597edf4d1bf023070c31cfdef188",
+    "source_sha256": "6a53590d6ba62b6a6296be10547556718801d04a4b6eed945736c7630c8ca03a",
+    "source_bytes": 1079
   },
   {
     "path": "7차/Audit/TestProvenance.json",
@@ -92082,210 +92158,262 @@
   {
     "path": "7차/Audit/Tests-before-final-20261013T103550Z.xml",
     "source": "7차/Audit/Tests-before-final-20261013T103550Z.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 59684,
-    "sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 59504,
+    "sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
+    "source_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "source_bytes": 59684
   },
   {
     "path": "7차/Audit/Tests-campaign-all30-initial.xml",
     "source": "7차/Audit/Tests-campaign-all30-initial.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 9116,
-    "sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8986,
+    "sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
+    "source_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "source_bytes": 9116
   },
   {
     "path": "7차/Audit/Tests-campaign-basket-failure.xml",
     "source": "7차/Audit/Tests-campaign-basket-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 4704,
-    "sha256": "3180fec8be477e6a3d03615c75c7cd225a5cfd0cabb13736f8f882694fc14323"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4574,
+    "sha256": "8701fa6ee12a83b11737dc4871e910cade294451396cc7d2759106fe1678c937",
+    "source_sha256": "3180fec8be477e6a3d03615c75c7cd225a5cfd0cabb13736f8f882694fc14323",
+    "source_bytes": 4704
   },
   {
     "path": "7차/Audit/Tests-campaign-diagonal-failure.xml",
     "source": "7차/Audit/Tests-campaign-diagonal-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5707,
-    "sha256": "cefaaa2069f407f97849be12b7a66d363e524230127177f1e48a74729291aa2e"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5577,
+    "sha256": "2a3fe50fc056ec99db1651fdc65dbc106bae2ecbaa6dc1c4cf7a5c14996e2a56",
+    "source_sha256": "cefaaa2069f407f97849be12b7a66d363e524230127177f1e48a74729291aa2e",
+    "source_bytes": 5707
   },
   {
     "path": "7차/Audit/Tests-campaign-edge-failure.xml",
     "source": "7차/Audit/Tests-campaign-edge-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3786,
-    "sha256": "d61b72c8e092395fc5f372565e0202d17305fdfbeeaf8d166bbd739ce977a5e7"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3656,
+    "sha256": "6fde7110d91418df2d8b7db2104bc05cf1385ecf78588bf74af6d8f223ddf50a",
+    "source_sha256": "d61b72c8e092395fc5f372565e0202d17305fdfbeeaf8d166bbd739ce977a5e7",
+    "source_bytes": 3786
   },
   {
     "path": "7차/Audit/Tests-campaign-exhaustion-failure.xml",
     "source": "7차/Audit/Tests-campaign-exhaustion-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5704,
-    "sha256": "377da3d29bf6e79e4072b9f3a180dd6d068f58f9a5f99811b43ad72715846910"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5574,
+    "sha256": "33adc7d4499063deee96d28e19fe828e93bf99db9e1341909fab929ef87fdfd2",
+    "source_sha256": "377da3d29bf6e79e4072b9f3a180dd6d068f58f9a5f99811b43ad72715846910",
+    "source_bytes": 5704
   },
   {
     "path": "7차/Audit/Tests-campaign-intermittent-cluster-failure.xml",
     "source": "7차/Audit/Tests-campaign-intermittent-cluster-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5708,
-    "sha256": "3645e35bf79e5b32169e86106410b066bba2eb37bd45f0710534f31386ccd54e"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5578,
+    "sha256": "2ec62460f3ed89391f69f58c3689bd2a70771e92d9679d6e6eb75f50de9c409a",
+    "source_sha256": "3645e35bf79e5b32169e86106410b066bba2eb37bd45f0710534f31386ccd54e",
+    "source_bytes": 5708
   },
   {
     "path": "7차/Audit/Tests-campaign.xml",
     "source": "7차/Audit/Tests-campaign.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 9116,
-    "sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8986,
+    "sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
+    "source_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "source_bytes": 9116
   },
   {
     "path": "7차/Audit/Tests-final.xml",
     "source": "7차/Audit/Tests-final.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 65201,
-    "sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 65071,
+    "sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
+    "source_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "source_bytes": 65201
   },
   {
     "path": "7차/Audit/Tests-initial.xml",
     "source": "7차/Audit/Tests-initial.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 62497,
-    "sha256": "700093b9d3128b115d0a60856bbd57c908823422350e67541ebaeb40d4094a84"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 62167,
+    "sha256": "f4853ceb027cfa2ac0078014548202f3e68afaa595a084883e289aa39e1dc1e8",
+    "source_sha256": "700093b9d3128b115d0a60856bbd57c908823422350e67541ebaeb40d4094a84",
+    "source_bytes": 62497
   },
   {
     "path": "7차/Audit/Tests-remaining-normal.xml",
     "source": "7차/Audit/Tests-remaining-normal.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 12266,
-    "sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 12136,
+    "sha256": "2fe8c4faacd273fdac423f74f1b212af3b0239c10449457aecab05ef94982436",
+    "source_sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+    "source_bytes": 12266
   },
   {
     "path": "7차/Audit/Tests-remaining.xml",
     "source": "7차/Audit/Tests-remaining.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 12266,
-    "sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 12136,
+    "sha256": "2fe8c4faacd273fdac423f74f1b212af3b0239c10449457aecab05ef94982436",
+    "source_sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+    "source_bytes": 12266
   },
   {
     "path": "7차/Audit/Tests-second.xml",
     "source": "7차/Audit/Tests-second.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 59684,
-    "sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 59504,
+    "sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
+    "source_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "source_bytes": 59684
   },
   {
     "path": "7차/Audit/Tests.xml",
     "source": "7차/Audit/Tests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 65201,
-    "sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 65071,
+    "sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
+    "source_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "source_bytes": 65201
   },
   {
     "path": "7차/Audit/TraceFocusedSix-before-rotated-floor.xml",
     "source": "7차/Audit/TraceFocusedSix-before-rotated-floor.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5015,
-    "sha256": "c63bddba2b71a2cb083c4838fdc5053c97c4bae6d63d3642684dce9c353dcc59"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4885,
+    "sha256": "2e849b56752dfec858d98f0ecb0e1f52140cb358ebfd3e7291b860287332cee7",
+    "source_sha256": "c63bddba2b71a2cb083c4838fdc5053c97c4bae6d63d3642684dce9c353dcc59",
+    "source_bytes": 5015
   },
   {
     "path": "7차/Audit/TraceFocusedSix.xml",
     "source": "7차/Audit/TraceFocusedSix.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 6147,
-    "sha256": "6c8127d7f20b43e89888aa68f9cf09f1c5367c5d5b1d3355dab356c640b153d3"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 6017,
+    "sha256": "271c3b52a240c2594ce137eef97b2ec827ff7ae9d7ba7475079d1f61eccb6566",
+    "source_sha256": "6c8127d7f20b43e89888aa68f9cf09f1c5367c5d5b1d3355dab356c640b153d3",
+    "source_bytes": 6147
   },
   {
     "path": "7차/Audit/TraceStage11-cluster-failure.xml",
     "source": "7차/Audit/TraceStage11-cluster-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3750,
-    "sha256": "299bd2686199e1213fbedf52b7697f21c0f92733fcb156ee0df6b79863e01ace"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3620,
+    "sha256": "85065124913e5e96d47e91dd73e876f36ccb147a66bfc053744d88c1a6f35caa",
+    "source_sha256": "299bd2686199e1213fbedf52b7697f21c0f92733fcb156ee0df6b79863e01ace",
+    "source_bytes": 3750
   },
   {
     "path": "7차/Audit/TraceStage11-conservative-fit-failure.xml",
     "source": "7차/Audit/TraceStage11-conservative-fit-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3749,
-    "sha256": "76e24aa0196014307c23a828c9ddb5cd9b419b4e66d9fb47160e3adcd40127a6"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3619,
+    "sha256": "db80b69853ee43c24179db1674fccd5022b6d180b77fe02c7083d44aaac2c697",
+    "source_sha256": "76e24aa0196014307c23a828c9ddb5cd9b419b4e66d9fb47160e3adcd40127a6",
+    "source_bytes": 3749
   },
   {
     "path": "7차/Audit/TraceStage11-passed-before-geometry.xml",
     "source": "7차/Audit/TraceStage11-passed-before-geometry.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2666,
-    "sha256": "780ee41d620f3f3c3bf3299470394683a97aaa6a1045f52a7858556775a4f3ec"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2586,
+    "sha256": "68aae71ddbbbe785df8fc952a67004b5cc0b34cfbc79a3a8bb1f837fc54dac16",
+    "source_sha256": "780ee41d620f3f3c3bf3299470394683a97aaa6a1045f52a7858556775a4f3ec",
+    "source_bytes": 2666
   },
   {
     "path": "7차/Audit/TraceStage11.xml",
     "source": "7차/Audit/TraceStage11.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2666,
-    "sha256": "c8c6d224fbb15d0be3cd3879b479fab0b0164540c7c1ae3bf6bb83344f7afd7a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2586,
+    "sha256": "99ad9ecdefd72ea09c5f695f2c5fd4b4d29454adbfe3a5d159ea6495cadbf519",
+    "source_sha256": "c8c6d224fbb15d0be3cd3879b479fab0b0164540c7c1ae3bf6bb83344f7afd7a",
+    "source_bytes": 2666
   },
   {
     "path": "7차/Audit/TraceStage14-centered-aim-failure.xml",
     "source": "7차/Audit/TraceStage14-centered-aim-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3740,
-    "sha256": "e8da1d213f42da41aeee58eb449fc6fdcd522afa46216d91eada396cb7a72554"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3610,
+    "sha256": "8530c22eb17250a4b6795f61d6a73319377cf3677f70730578f75e5a5129eba0",
+    "source_sha256": "e8da1d213f42da41aeee58eb449fc6fdcd522afa46216d91eada396cb7a72554",
+    "source_bytes": 3740
   },
   {
     "path": "7차/Audit/TraceStage14.xml",
     "source": "7차/Audit/TraceStage14.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2661,
-    "sha256": "7789493baa413bd916ecd4ad56d7a2248794616e7ebd72ff04854c8c8835077c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2581,
+    "sha256": "8eb5664a0ff2bfdc50d7770e2590e93c1ba90d11c6d53e0836c41d8a34a1d1ce",
+    "source_sha256": "7789493baa413bd916ecd4ad56d7a2248794616e7ebd72ff04854c8c8835077c",
+    "source_bytes": 2661
   },
   {
     "path": "7차/Audit/TraceStage26.xml",
     "source": "7차/Audit/TraceStage26.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5059,
-    "sha256": "0d4e628316ac04e49930c7d68925832eaf606bdbfced071ecb2a4a66fd17e754"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4929,
+    "sha256": "1f35451dad66027f07c0721b25a4dfaa083e0615a58c9c86c5eb3cd03c141fc1",
+    "source_sha256": "0d4e628316ac04e49930c7d68925832eaf606bdbfced071ecb2a4a66fd17e754",
+    "source_bytes": 5059
   },
   {
     "path": "7차/Audit/TraceStage3.xml",
     "source": "7차/Audit/TraceStage3.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2665,
-    "sha256": "e8cf19d2b08d0fb966efc4f5b2ed71c18effd16eef0d565bdf1299e2b07cfe65"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2585,
+    "sha256": "eae2ad37f58c17140559d8084f3722a0b114692046a8e127256d493506b232e0",
+    "source_sha256": "e8cf19d2b08d0fb966efc4f5b2ed71c18effd16eef0d565bdf1299e2b07cfe65",
+    "source_bytes": 2665
   },
   {
     "path": "7차/Audit/TraceStage9-wide-probes-failure.xml",
     "source": "7차/Audit/TraceStage9-wide-probes-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5049,
-    "sha256": "ec752c4594f298af570bdcc0d51d3655414eb339f6ac32498159461ad4d85ad1"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4919,
+    "sha256": "6c83522e5a4c818240ab59ba109f4c6c8cbe1a0a1a9b6d38a49663dd5fee2f44",
+    "source_sha256": "ec752c4594f298af570bdcc0d51d3655414eb339f6ac32498159461ad4d85ad1",
+    "source_bytes": 5049
   },
   {
     "path": "7차/Audit/TraceStage9.xml",
     "source": "7차/Audit/TraceStage9.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 4326,
-    "sha256": "8c29a0902e6a46e2f2a5f45464df907d1a8833c3279b3cb21d78f9fd2781e09f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4246,
+    "sha256": "dbb9bcf52d82e2f5039ffb66dd31e57edcf098d31630fce2e9aea7ba07ff75e2",
+    "source_sha256": "8c29a0902e6a46e2f2a5f45464df907d1a8833c3279b3cb21d78f9fd2781e09f",
+    "source_bytes": 4326
   },
   {
     "path": "7차/Audit/TrumpetPlannerBounds7.json",
@@ -92322,42 +92450,52 @@
   {
     "path": "7차/Audit/VerificationSnapshotDifference.patch",
     "source": "7차/Audit/VerificationSnapshotDifference.patch",
-    "kind": "원본 파일",
-    "reason": "과거 검증입력 선택 코드의 실제 전체차이: 제품 실험 기록으로 원문 판독",
-    "bytes": 18787,
-    "sha256": "d5cc6d9becbade86dad95ae5bffb0e171cffb2cc84ac819caad08913432b943a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 221,
+    "sha256": "65f8b6b6c2f82fadeb036352c928e4e8a39eb5344c221ee464f02ab50c2d7cd3",
+    "source_sha256": "d5cc6d9becbade86dad95ae5bffb0e171cffb2cc84ac819caad08913432b943a",
+    "source_bytes": 18787
   },
   {
     "path": "7차/Audit/WindowsCacheCleanup.json",
     "source": "7차/Audit/WindowsCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 199,
-    "sha256": "c1cfd9da4acce7ed54d9588de852ce6994eb8a844f640a66eb18cde4857efd2c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 165,
+    "sha256": "88007ed686206e0dd9c0a18c4fc55783dcee3b97b505e28418cf957c6fa65be2",
+    "source_sha256": "c1cfd9da4acce7ed54d9588de852ce6994eb8a844f640a66eb18cde4857efd2c",
+    "source_bytes": 199
   },
   {
-    "path": "7차/Audit/cleanup_editor_cache-fresh2abi.ps1",
+    "path": "7차/Audit/cleanup_editor_cache-fresh2abi.ps1.PUBLIC-NOTE.md",
     "source": "7차/Audit/cleanup_editor_cache-fresh2abi.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2733,
-    "sha256": "e38d02414c094d31fab8fad61a262f8bb1caaeb65257284da630e78f3952cfad"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 412,
+    "sha256": "cadced0401221f37edc2e8482858264a2fc28450510ebea55554c536a53beb30",
+    "source_sha256": "e38d02414c094d31fab8fad61a262f8bb1caaeb65257284da630e78f3952cfad",
+    "source_bytes": 2733
   },
   {
-    "path": "7차/Audit/cleanup_editor_cache.ps1",
+    "path": "7차/Audit/cleanup_editor_cache.ps1.PUBLIC-NOTE.md",
     "source": "7차/Audit/cleanup_editor_cache.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2597,
-    "sha256": "2bb05ee0963efbeb88f8b3244f2eb24c5ef6d5ad4d06e5e617eb04f61fb71113"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "2bb05ee0963efbeb88f8b3244f2eb24c5ef6d5ad4d06e5e617eb04f61fb71113",
+    "source_bytes": 2597
   },
   {
-    "path": "7차/Audit/cleanup_generated.ps1",
+    "path": "7차/Audit/cleanup_generated.ps1.PUBLIC-NOTE.md",
     "source": "7차/Audit/cleanup_generated.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2133,
-    "sha256": "bde58d6de4ebfe33c788606116b4189c719e30e6b382059bd9a5c345da55b984"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "bde58d6de4ebfe33c788606116b4189c719e30e6b382059bd9a5c345da55b984",
+    "source_bytes": 2133
   },
   {
     "path": "7차/Audit/create_packager.py",
@@ -92368,12 +92506,14 @@
     "sha256": "05dcfc9d4ea334dd924f421cde837f6f239066adec914c45dce058e044ec96d1"
   },
   {
-    "path": "7차/Audit/export_physics7.py",
+    "path": "7차/Audit/export_physics7.py.PUBLIC-NOTE.md",
     "source": "7차/Audit/export_physics7.py",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 4996,
-    "sha256": "a9584a7e445f31a912fd63cc82978d44e5afd8ee7b85a07525fdf882c7b8e096"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "a9584a7e445f31a912fd63cc82978d44e5afd8ee7b85a07525fdf882c7b8e096",
+    "source_bytes": 4996
   },
   {
     "path": "7차/Audit/finalize_physics_verification.py",
@@ -92384,28 +92524,34 @@
     "sha256": "d277973a7f5653f752911ae9144d818f800d34092f021e55a9d880c031bbe9b7"
   },
   {
-    "path": "7차/Audit/finish_gradle_recovery-fresh2abi.ps1",
+    "path": "7차/Audit/finish_gradle_recovery-fresh2abi.ps1.PUBLIC-NOTE.md",
     "source": "7차/Audit/finish_gradle_recovery-fresh2abi.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 6293,
-    "sha256": "a58064933e3542b9a29723aaab2c78b8bd035a83efc5dbe850d25422056db055"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 412,
+    "sha256": "cadced0401221f37edc2e8482858264a2fc28450510ebea55554c536a53beb30",
+    "source_sha256": "a58064933e3542b9a29723aaab2c78b8bd035a83efc5dbe850d25422056db055",
+    "source_bytes": 6293
   },
   {
-    "path": "7차/Audit/finish_gradle_recovery.ps1",
+    "path": "7차/Audit/finish_gradle_recovery.ps1.PUBLIC-NOTE.md",
     "source": "7차/Audit/finish_gradle_recovery.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3443,
-    "sha256": "dfced99ee5d4235a7b372885623d75ebe90b3eac76125d09ddbca02de7ebb0a9"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "dfced99ee5d4235a7b372885623d75ebe90b3eac76125d09ddbca02de7ebb0a9",
+    "source_bytes": 3443
   },
   {
-    "path": "7차/Audit/fresh2abi_recovery_guard.ps1",
+    "path": "7차/Audit/fresh2abi_recovery_guard.ps1.PUBLIC-NOTE.md",
     "source": "7차/Audit/fresh2abi_recovery_guard.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 15617,
-    "sha256": "0fce2e376aa65f0735b341ecfdd7aa66bccdd1aa6f0797a6638c054d6d68dec4"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "0fce2e376aa65f0735b341ecfdd7aa66bccdd1aa6f0797a6638c054d6d68dec4",
+    "source_bytes": 15617
   },
   {
     "path": "7차/Audit/merge_test_results.py",
@@ -92432,20 +92578,24 @@
     "sha256": "02d3c24f8b4b5dc0ddd304a5f245b4b5d341fe2c7c267cd84c19db83110eb87a"
   },
   {
-    "path": "7차/Audit/prepare_hull_patch7.py",
+    "path": "7차/Audit/prepare_hull_patch7.py.PUBLIC-NOTE.md",
     "source": "7차/Audit/prepare_hull_patch7.py",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2820,
-    "sha256": "f8022860d44c70125a2e79ad9ac505e88772a7512b48549985c8605cf373d8c8"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "f8022860d44c70125a2e79ad9ac505e88772a7512b48549985c8605cf373d8c8",
+    "source_bytes": 2820
   },
   {
-    "path": "7차/Audit/retry_native_unit.py",
+    "path": "7차/Audit/retry_native_unit.py.PUBLIC-NOTE.md",
     "source": "7차/Audit/retry_native_unit.py",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 956,
-    "sha256": "f33d2269f8600284862ffaf70da5f27f4a8484c807bcd2b435427bb396d5ae34"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "f33d2269f8600284862ffaf70da5f27f4a8484c807bcd2b435427bb396d5ae34",
+    "source_bytes": 956
   },
   {
     "path": "7차/Audit/source_build_manifest.py",
@@ -92464,12 +92614,14 @@
     "sha256": "c2b2c8d109714dbd9ea048c35bb703bc1dca83bf3079158c629a546c4f1d3575"
   },
   {
-    "path": "7차/Audit/verify_apk.ps1",
+    "path": "7차/Audit/verify_apk.ps1.PUBLIC-NOTE.md",
     "source": "7차/Audit/verify_apk.ps1",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2963,
-    "sha256": "6c06ddf2607ac402d55c8aef1615639132c8daada2662696f499ad12c3e555e3"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "6c06ddf2607ac402d55c8aef1615639132c8daada2662696f499ad12c3e555e3",
+    "source_bytes": 2963
   },
   {
     "path": "7차/SHA256.json",
@@ -108538,10 +108690,12 @@
   {
     "path": "7차/Source/Assets/Resources/ReferenceTypography/Edition7UIProvenance.json",
     "source": "7차/Source/Assets/Resources/ReferenceTypography/Edition7UIProvenance.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2603,
-    "sha256": "6dbbf408001487b46775d4e9b40b06cae13bf09d717f7008c9bacc51a56963c0"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2569,
+    "sha256": "a25c903ff70f51b8c73738cfc0e11015f605a9822a14d3c9bada7906be872a0f",
+    "source_sha256": "6dbbf408001487b46775d4e9b40b06cae13bf09d717f7008c9bacc51a56963c0",
+    "source_bytes": 2603
   },
   {
     "path": "7차/Source/Assets/Resources/ReferenceTypography/TextPresets.json",
@@ -110378,10 +110532,12 @@
   {
     "path": "7차/Source/TestResults/AndroidGradleBuild.txt",
     "source": "7차/Source/TestResults/AndroidGradleBuild.txt",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 412,
-    "sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 382,
+    "sha256": "e7e4fb6b657806919a469d13a7c3c18f8757a052997447aa7c1caeeb2cbe3be5",
+    "source_sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7",
+    "source_bytes": 412
   },
   {
     "path": "7차/Source/TestResults/FifthStageAudit.txt",
@@ -110762,10 +110918,12 @@
   {
     "path": "7차/Verification/AnalysisCacheCleanup.json",
     "source": "7차/Verification/AnalysisCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 607,
-    "sha256": "913b0770ec5d4620c2e545a9a908a229eb5b7cd9566327ac7ba3f2aeba4dcd32"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 383,
+    "sha256": "d5ed527fdd06d8c24252270388a1284b30b49dd279bed4c4dcd23eb47a269f5b",
+    "source_sha256": "913b0770ec5d4620c2e545a9a908a229eb5b7cd9566327ac7ba3f2aeba4dcd32",
+    "source_bytes": 607
   },
   {
     "path": "7차/Verification/AndroidBuild-discarded-before-floor-fix.txt",
@@ -110794,18 +110952,22 @@
   {
     "path": "7차/Verification/AndroidGradleBuild.txt",
     "source": "7차/Verification/AndroidGradleBuild.txt",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 412,
-    "sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 382,
+    "sha256": "e7e4fb6b657806919a469d13a7c3c18f8757a052997447aa7c1caeeb2cbe3be5",
+    "source_sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7",
+    "source_bytes": 412
   },
   {
     "path": "7차/Verification/AndroidPlayerCacheCleanup.json",
     "source": "7차/Verification/AndroidPlayerCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 402,
-    "sha256": "e784f0dd4868dbca1781b6e9597aca1866bf13c4c63d427e4f0c5fe19e3b6ad1"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 334,
+    "sha256": "82b3818a527d13a5cbd91791138238d718209901d11a32f839e92b9b4383e4a3",
+    "source_sha256": "e784f0dd4868dbca1781b6e9597aca1866bf13c4c63d427e4f0c5fe19e3b6ad1",
+    "source_bytes": 402
   },
   {
     "path": "7차/Verification/AndroidQAUnavailable.json",
@@ -110842,10 +111004,12 @@
   {
     "path": "7차/Verification/ArchitecturePlan.json",
     "source": "7차/Verification/ArchitecturePlan.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1018,
-    "sha256": "2e5185b88a6ac6f9a0c4ee2c0b251663559325a19e27554d5408e048a64a8cf6"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 962,
+    "sha256": "879a32d15ee0567f068429367a006b51b242ae20eb8b02b0a62a9bfc0c39769a",
+    "source_sha256": "2e5185b88a6ac6f9a0c4ee2c0b251663559325a19e27554d5408e048a64a8cf6",
+    "source_bytes": 1018
   },
   {
     "path": "7차/Verification/BombInfoSource7.json",
@@ -110858,10 +111022,12 @@
   {
     "path": "7차/Verification/BuildCacheCleanup.json",
     "source": "7차/Verification/BuildCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 250,
-    "sha256": "e8591b62557e0491d6ea00544da33df53d16be60b45522b51f170b6eb8305fdc"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 216,
+    "sha256": "6eeaaf585f9a002461de535f4518a0a3fc6d0954c0c823309f565c65ed037fbc",
+    "source_sha256": "e8591b62557e0491d6ea00544da33df53d16be60b45522b51f170b6eb8305fdc",
+    "source_bytes": 250
   },
   {
     "path": "7차/Verification/BuildConfigSource7.json",
@@ -110978,10 +111144,12 @@
   {
     "path": "7차/Verification/FinalPreviewCacheCleanup.json",
     "source": "7차/Verification/FinalPreviewCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 396,
-    "sha256": "c57e09254fa9462496812205cc4cf314d2443d3f60cebcd3a5a8720a4a3cf279"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 328,
+    "sha256": "b9880f60990207ec04715f830a3874bebb65872768dc690cae82c005c119cd7f",
+    "source_sha256": "c57e09254fa9462496812205cc4cf314d2443d3f60cebcd3a5a8720a4a3cf279",
+    "source_bytes": 396
   },
   {
     "path": "7차/Verification/FinalRegressionSourceHashes.json",
@@ -111050,18 +111218,22 @@
   {
     "path": "7차/Verification/Fresh2AbiGradleRecoveryCompleted.json",
     "source": "7차/Verification/Fresh2AbiGradleRecoveryCompleted.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 564,
-    "sha256": "ad2b183855278a2fc2780885b4780a7ae0e0a4928f63230b0486255133a58a73"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 496,
+    "sha256": "54d611fdb69b561928fd091fd9b5a51d1766c0cd300b539abfc855a7aadb4a8d",
+    "source_sha256": "ad2b183855278a2fc2780885b4780a7ae0e0a4928f63230b0486255133a58a73",
+    "source_bytes": 564
   },
   {
     "path": "7차/Verification/Fresh2AbiRecoveryEvidence.json",
     "source": "7차/Verification/Fresh2AbiRecoveryEvidence.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1138883,
-    "sha256": "1d6c12334af1024a943f98885f46c224c6d212dbd300d928c71475b25104fd3a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 1138679,
+    "sha256": "b3e7e867764f024779bae2218e2f944fa7ecd0779f837f83008add6c0da8b60e",
+    "source_sha256": "1d6c12334af1024a943f98885f46c224c6d212dbd300d928c71475b25104fd3a",
+    "source_bytes": 1138883
   },
   {
     "path": "7차/Verification/FreshAndroidBuildCompletion.json",
@@ -111082,34 +111254,42 @@
   {
     "path": "7차/Verification/FreshNativeCacheCleanup.json",
     "source": "7차/Verification/FreshNativeCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1045,
-    "sha256": "3b804ac08f5aaf4f1204afad8f22db3457acfa70dd54043636aa39df68008347"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 943,
+    "sha256": "3808a3a5ff66f0fb42a13be28f6d65e915bdf1fb41142f472ad4f8d02f2ac5cc",
+    "source_sha256": "3b804ac08f5aaf4f1204afad8f22db3457acfa70dd54043636aa39df68008347",
+    "source_bytes": 1045
   },
   {
     "path": "7차/Verification/FreshPlayerCacheCleanup.json",
     "source": "7차/Verification/FreshPlayerCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1110649,
-    "sha256": "95bd9d909ddd34a3552ca6fdaee239b2d07007fd26e17612be9833258c07ec25"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 1110615,
+    "sha256": "8e8b96b74f10824f79085e78f3e944488a3edadb4dffe379b1d48ad9122d63fd",
+    "source_sha256": "95bd9d909ddd34a3552ca6fdaee239b2d07007fd26e17612be9833258c07ec25",
+    "source_bytes": 1110649
   },
   {
     "path": "7차/Verification/GradleCacheCompression.json",
     "source": "7차/Verification/GradleCacheCompression.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 9271,
-    "sha256": "a2cfd9e02c9267421f8ae9f0b8ad6c7a56eaa7b008ee3a532c5e4815582c306d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8789,
+    "sha256": "c4186a90c49a26e2aa8b9b39c8d45d0ff79384466e12fd7f5ab027bc1e33ae4d",
+    "source_sha256": "a2cfd9e02c9267421f8ae9f0b8ad6c7a56eaa7b008ee3a532c5e4815582c306d",
+    "source_bytes": 9271
   },
   {
     "path": "7차/Verification/GradleRecoveryCacheCleanup.json",
     "source": "7차/Verification/GradleRecoveryCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3307,
-    "sha256": "6c7892f9280c685289d5146645d4c90033a82901c58e8056c3cfcb838b3641dc"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2865,
+    "sha256": "39a8b83129c27029863189e49f16ce617605bb86a80ca76be63578341b6a2a87",
+    "source_sha256": "6c7892f9280c685289d5146645d4c90033a82901c58e8056c3cfcb838b3641dc",
+    "source_bytes": 3307
   },
   {
     "path": "7차/Verification/HoleContactMeshSource7.json",
@@ -111178,18 +111358,22 @@
   {
     "path": "7차/Verification/ObsoleteAndroidCacheCleanup.json",
     "source": "7차/Verification/ObsoleteAndroidCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 500,
-    "sha256": "b0f5067d6d8ef4b1a9860eaaccddb2a82b0a3c70a1914c72726468b3137f39a9"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 466,
+    "sha256": "36f651aff71b2d094f326d44234bdd185845a9a375301c8d6be4490732101e1d",
+    "source_sha256": "b0f5067d6d8ef4b1a9860eaaccddb2a82b0a3c70a1914c72726468b3137f39a9",
+    "source_bytes": 500
   },
   {
     "path": "7차/Verification/ObsoleteGradleTransformCacheCleanup.json",
     "source": "7차/Verification/ObsoleteGradleTransformCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 398,
-    "sha256": "9efbd226cc5e84774335b7d69d075b8df2b34d6bb2ae81423ea31ce65231d411"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 382,
+    "sha256": "d45d5586fe93c37a790db8129f52efeb9292047f131d121543eedd1bb81c43ca",
+    "source_sha256": "9efbd226cc5e84774335b7d69d075b8df2b34d6bb2ae81423ea31ce65231d411",
+    "source_bytes": 398
   },
   {
     "path": "7차/Verification/OriginalPhysicsManager.json",
@@ -111234,10 +111418,12 @@
   {
     "path": "7차/Verification/PrePackageCacheCleanup.json",
     "source": "7차/Verification/PrePackageCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 769,
-    "sha256": "63dd1433aa330293b68f980dc50defd1bed03fe605c0703d09c8b06b9b89f094"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 667,
+    "sha256": "2f29c8bb9f19a069e7dca72581438440902761b9f12ff323546151259fcd92cf",
+    "source_sha256": "63dd1433aa330293b68f980dc50defd1bed03fe605c0703d09c8b06b9b89f094",
+    "source_bytes": 769
   },
   {
     "path": "7차/Verification/PriorWorkCompression.json",
@@ -111250,18 +111436,22 @@
   {
     "path": "7차/Verification/PriorWorkGeneratedCleanup.json",
     "source": "7차/Verification/PriorWorkGeneratedCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 697,
-    "sha256": "a4b158444e9f5178e57b6853ad930663ad3860fd3f7d209f1268f8ebd50d2a5a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 529,
+    "sha256": "b569ee2d9bed0a3a92e86db755007a1e840ef2264430c58a8a0b0594f9035176",
+    "source_sha256": "a4b158444e9f5178e57b6853ad930663ad3860fd3f7d209f1268f8ebd50d2a5a",
+    "source_bytes": 697
   },
   {
     "path": "7차/Verification/PriorWorkingCacheCleanup.json",
     "source": "7차/Verification/PriorWorkingCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 390,
-    "sha256": "f10edc7e03768f4a4d55bef16e0be6549e53e7bd6354897ba1f4852267377688"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 334,
+    "sha256": "3eb3b0a267f0d810409f53de2ad2c71e101b023878b038ea5777b7f0d7566cb7",
+    "source_sha256": "f10edc7e03768f4a4d55bef16e0be6549e53e7bd6354897ba1f4852267377688",
+    "source_bytes": 390
   },
   {
     "path": "7차/Verification/ReferenceCampaign.txt",
@@ -111754,10 +111944,12 @@
   {
     "path": "7차/Verification/StorageCompression.json",
     "source": "7차/Verification/StorageCompression.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 1079,
-    "sha256": "6a53590d6ba62b6a6296be10547556718801d04a4b6eed945736c7630c8ca03a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 841,
+    "sha256": "fd9720c7094243e68ca4608c3eec0745f5c1597edf4d1bf023070c31cfdef188",
+    "source_sha256": "6a53590d6ba62b6a6296be10547556718801d04a4b6eed945736c7630c8ca03a",
+    "source_bytes": 1079
   },
   {
     "path": "7차/Verification/TestProvenance.json",
@@ -111770,202 +111962,252 @@
   {
     "path": "7차/Verification/Tests-before-final-20261013T103550Z.xml",
     "source": "7차/Verification/Tests-before-final-20261013T103550Z.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 59684,
-    "sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 59504,
+    "sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
+    "source_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "source_bytes": 59684
   },
   {
     "path": "7차/Verification/Tests-campaign-all30-initial.xml",
     "source": "7차/Verification/Tests-campaign-all30-initial.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 9116,
-    "sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8986,
+    "sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
+    "source_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "source_bytes": 9116
   },
   {
     "path": "7차/Verification/Tests-campaign-basket-failure.xml",
     "source": "7차/Verification/Tests-campaign-basket-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 4704,
-    "sha256": "3180fec8be477e6a3d03615c75c7cd225a5cfd0cabb13736f8f882694fc14323"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4574,
+    "sha256": "8701fa6ee12a83b11737dc4871e910cade294451396cc7d2759106fe1678c937",
+    "source_sha256": "3180fec8be477e6a3d03615c75c7cd225a5cfd0cabb13736f8f882694fc14323",
+    "source_bytes": 4704
   },
   {
     "path": "7차/Verification/Tests-campaign-diagonal-failure.xml",
     "source": "7차/Verification/Tests-campaign-diagonal-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5707,
-    "sha256": "cefaaa2069f407f97849be12b7a66d363e524230127177f1e48a74729291aa2e"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5577,
+    "sha256": "2a3fe50fc056ec99db1651fdc65dbc106bae2ecbaa6dc1c4cf7a5c14996e2a56",
+    "source_sha256": "cefaaa2069f407f97849be12b7a66d363e524230127177f1e48a74729291aa2e",
+    "source_bytes": 5707
   },
   {
     "path": "7차/Verification/Tests-campaign-edge-failure.xml",
     "source": "7차/Verification/Tests-campaign-edge-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3786,
-    "sha256": "d61b72c8e092395fc5f372565e0202d17305fdfbeeaf8d166bbd739ce977a5e7"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3656,
+    "sha256": "6fde7110d91418df2d8b7db2104bc05cf1385ecf78588bf74af6d8f223ddf50a",
+    "source_sha256": "d61b72c8e092395fc5f372565e0202d17305fdfbeeaf8d166bbd739ce977a5e7",
+    "source_bytes": 3786
   },
   {
     "path": "7차/Verification/Tests-campaign-exhaustion-failure.xml",
     "source": "7차/Verification/Tests-campaign-exhaustion-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5704,
-    "sha256": "377da3d29bf6e79e4072b9f3a180dd6d068f58f9a5f99811b43ad72715846910"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5574,
+    "sha256": "33adc7d4499063deee96d28e19fe828e93bf99db9e1341909fab929ef87fdfd2",
+    "source_sha256": "377da3d29bf6e79e4072b9f3a180dd6d068f58f9a5f99811b43ad72715846910",
+    "source_bytes": 5704
   },
   {
     "path": "7차/Verification/Tests-campaign-intermittent-cluster-failure.xml",
     "source": "7차/Verification/Tests-campaign-intermittent-cluster-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5708,
-    "sha256": "3645e35bf79e5b32169e86106410b066bba2eb37bd45f0710534f31386ccd54e"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5578,
+    "sha256": "2ec62460f3ed89391f69f58c3689bd2a70771e92d9679d6e6eb75f50de9c409a",
+    "source_sha256": "3645e35bf79e5b32169e86106410b066bba2eb37bd45f0710534f31386ccd54e",
+    "source_bytes": 5708
   },
   {
     "path": "7차/Verification/Tests-campaign.xml",
     "source": "7차/Verification/Tests-campaign.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 9116,
-    "sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8986,
+    "sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
+    "source_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "source_bytes": 9116
   },
   {
     "path": "7차/Verification/Tests-final.xml",
     "source": "7차/Verification/Tests-final.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 65201,
-    "sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 65071,
+    "sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
+    "source_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "source_bytes": 65201
   },
   {
     "path": "7차/Verification/Tests-initial.xml",
     "source": "7차/Verification/Tests-initial.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 62497,
-    "sha256": "700093b9d3128b115d0a60856bbd57c908823422350e67541ebaeb40d4094a84"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 62167,
+    "sha256": "f4853ceb027cfa2ac0078014548202f3e68afaa595a084883e289aa39e1dc1e8",
+    "source_sha256": "700093b9d3128b115d0a60856bbd57c908823422350e67541ebaeb40d4094a84",
+    "source_bytes": 62497
   },
   {
     "path": "7차/Verification/Tests-remaining.xml",
     "source": "7차/Verification/Tests-remaining.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 12266,
-    "sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 12136,
+    "sha256": "2fe8c4faacd273fdac423f74f1b212af3b0239c10449457aecab05ef94982436",
+    "source_sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+    "source_bytes": 12266
   },
   {
     "path": "7차/Verification/Tests-second.xml",
     "source": "7차/Verification/Tests-second.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 59684,
-    "sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 59504,
+    "sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
+    "source_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "source_bytes": 59684
   },
   {
     "path": "7차/Verification/Tests.xml",
     "source": "7차/Verification/Tests.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 65201,
-    "sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 65071,
+    "sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
+    "source_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "source_bytes": 65201
   },
   {
     "path": "7차/Verification/TraceFocusedSix-before-rotated-floor.xml",
     "source": "7차/Verification/TraceFocusedSix-before-rotated-floor.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5015,
-    "sha256": "c63bddba2b71a2cb083c4838fdc5053c97c4bae6d63d3642684dce9c353dcc59"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4885,
+    "sha256": "2e849b56752dfec858d98f0ecb0e1f52140cb358ebfd3e7291b860287332cee7",
+    "source_sha256": "c63bddba2b71a2cb083c4838fdc5053c97c4bae6d63d3642684dce9c353dcc59",
+    "source_bytes": 5015
   },
   {
     "path": "7차/Verification/TraceFocusedSix.xml",
     "source": "7차/Verification/TraceFocusedSix.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 6147,
-    "sha256": "6c8127d7f20b43e89888aa68f9cf09f1c5367c5d5b1d3355dab356c640b153d3"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 6017,
+    "sha256": "271c3b52a240c2594ce137eef97b2ec827ff7ae9d7ba7475079d1f61eccb6566",
+    "source_sha256": "6c8127d7f20b43e89888aa68f9cf09f1c5367c5d5b1d3355dab356c640b153d3",
+    "source_bytes": 6147
   },
   {
     "path": "7차/Verification/TraceStage11-cluster-failure.xml",
     "source": "7차/Verification/TraceStage11-cluster-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3750,
-    "sha256": "299bd2686199e1213fbedf52b7697f21c0f92733fcb156ee0df6b79863e01ace"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3620,
+    "sha256": "85065124913e5e96d47e91dd73e876f36ccb147a66bfc053744d88c1a6f35caa",
+    "source_sha256": "299bd2686199e1213fbedf52b7697f21c0f92733fcb156ee0df6b79863e01ace",
+    "source_bytes": 3750
   },
   {
     "path": "7차/Verification/TraceStage11-conservative-fit-failure.xml",
     "source": "7차/Verification/TraceStage11-conservative-fit-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3749,
-    "sha256": "76e24aa0196014307c23a828c9ddb5cd9b419b4e66d9fb47160e3adcd40127a6"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3619,
+    "sha256": "db80b69853ee43c24179db1674fccd5022b6d180b77fe02c7083d44aaac2c697",
+    "source_sha256": "76e24aa0196014307c23a828c9ddb5cd9b419b4e66d9fb47160e3adcd40127a6",
+    "source_bytes": 3749
   },
   {
     "path": "7차/Verification/TraceStage11-passed-before-geometry.xml",
     "source": "7차/Verification/TraceStage11-passed-before-geometry.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2666,
-    "sha256": "780ee41d620f3f3c3bf3299470394683a97aaa6a1045f52a7858556775a4f3ec"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2586,
+    "sha256": "68aae71ddbbbe785df8fc952a67004b5cc0b34cfbc79a3a8bb1f837fc54dac16",
+    "source_sha256": "780ee41d620f3f3c3bf3299470394683a97aaa6a1045f52a7858556775a4f3ec",
+    "source_bytes": 2666
   },
   {
     "path": "7차/Verification/TraceStage11.xml",
     "source": "7차/Verification/TraceStage11.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2666,
-    "sha256": "c8c6d224fbb15d0be3cd3879b479fab0b0164540c7c1ae3bf6bb83344f7afd7a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2586,
+    "sha256": "99ad9ecdefd72ea09c5f695f2c5fd4b4d29454adbfe3a5d159ea6495cadbf519",
+    "source_sha256": "c8c6d224fbb15d0be3cd3879b479fab0b0164540c7c1ae3bf6bb83344f7afd7a",
+    "source_bytes": 2666
   },
   {
     "path": "7차/Verification/TraceStage14-centered-aim-failure.xml",
     "source": "7차/Verification/TraceStage14-centered-aim-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 3740,
-    "sha256": "e8da1d213f42da41aeee58eb449fc6fdcd522afa46216d91eada396cb7a72554"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3610,
+    "sha256": "8530c22eb17250a4b6795f61d6a73319377cf3677f70730578f75e5a5129eba0",
+    "source_sha256": "e8da1d213f42da41aeee58eb449fc6fdcd522afa46216d91eada396cb7a72554",
+    "source_bytes": 3740
   },
   {
     "path": "7차/Verification/TraceStage14.xml",
     "source": "7차/Verification/TraceStage14.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2661,
-    "sha256": "7789493baa413bd916ecd4ad56d7a2248794616e7ebd72ff04854c8c8835077c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2581,
+    "sha256": "8eb5664a0ff2bfdc50d7770e2590e93c1ba90d11c6d53e0836c41d8a34a1d1ce",
+    "source_sha256": "7789493baa413bd916ecd4ad56d7a2248794616e7ebd72ff04854c8c8835077c",
+    "source_bytes": 2661
   },
   {
     "path": "7차/Verification/TraceStage26.xml",
     "source": "7차/Verification/TraceStage26.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5059,
-    "sha256": "0d4e628316ac04e49930c7d68925832eaf606bdbfced071ecb2a4a66fd17e754"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4929,
+    "sha256": "1f35451dad66027f07c0721b25a4dfaa083e0615a58c9c86c5eb3cd03c141fc1",
+    "source_sha256": "0d4e628316ac04e49930c7d68925832eaf606bdbfced071ecb2a4a66fd17e754",
+    "source_bytes": 5059
   },
   {
     "path": "7차/Verification/TraceStage3.xml",
     "source": "7차/Verification/TraceStage3.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2665,
-    "sha256": "e8cf19d2b08d0fb966efc4f5b2ed71c18effd16eef0d565bdf1299e2b07cfe65"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2585,
+    "sha256": "eae2ad37f58c17140559d8084f3722a0b114692046a8e127256d493506b232e0",
+    "source_sha256": "e8cf19d2b08d0fb966efc4f5b2ed71c18effd16eef0d565bdf1299e2b07cfe65",
+    "source_bytes": 2665
   },
   {
     "path": "7차/Verification/TraceStage9-wide-probes-failure.xml",
     "source": "7차/Verification/TraceStage9-wide-probes-failure.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 5049,
-    "sha256": "ec752c4594f298af570bdcc0d51d3655414eb339f6ac32498159461ad4d85ad1"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4919,
+    "sha256": "6c83522e5a4c818240ab59ba109f4c6c8cbe1a0a1a9b6d38a49663dd5fee2f44",
+    "source_sha256": "ec752c4594f298af570bdcc0d51d3655414eb339f6ac32498159461ad4d85ad1",
+    "source_bytes": 5049
   },
   {
     "path": "7차/Verification/TraceStage9.xml",
     "source": "7차/Verification/TraceStage9.xml",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 4326,
-    "sha256": "8c29a0902e6a46e2f2a5f45464df907d1a8833c3279b3cb21d78f9fd2781e09f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4246,
+    "sha256": "dbb9bcf52d82e2f5039ffb66dd31e57edcf098d31630fce2e9aea7ba07ff75e2",
+    "source_sha256": "8c29a0902e6a46e2f2a5f45464df907d1a8833c3279b3cb21d78f9fd2781e09f",
+    "source_bytes": 4326
   },
   {
     "path": "7차/Verification/TrumpetPlannerBounds7.json",
@@ -112002,34 +112244,42 @@
   {
     "path": "7차/Verification/VerificationSnapshotDifference.patch",
     "source": "7차/Verification/VerificationSnapshotDifference.patch",
-    "kind": "원본 파일",
-    "reason": "과거 검증입력 선택 코드의 실제 전체차이: 동일 사본 경로 유지",
-    "bytes": 18787,
-    "sha256": "d5cc6d9becbade86dad95ae5bffb0e171cffb2cc84ac819caad08913432b943a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 221,
+    "sha256": "65f8b6b6c2f82fadeb036352c928e4e8a39eb5344c221ee464f02ab50c2d7cd3",
+    "source_sha256": "d5cc6d9becbade86dad95ae5bffb0e171cffb2cc84ac819caad08913432b943a",
+    "source_bytes": 18787
   },
   {
     "path": "7차/Verification/WindowsCacheCleanup.json",
     "source": "7차/Verification/WindowsCacheCleanup.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 199,
-    "sha256": "c1cfd9da4acce7ed54d9588de852ce6994eb8a844f640a66eb18cde4857efd2c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 165,
+    "sha256": "88007ed686206e0dd9c0a18c4fc55783dcee3b97b505e28418cf957c6fa65be2",
+    "source_sha256": "c1cfd9da4acce7ed54d9588de852ce6994eb8a844f640a66eb18cde4857efd2c",
+    "source_bytes": 199
   },
   {
-    "path": "8차/Audit/물리_수정_적용.py",
+    "path": "8차/Audit/물리_수정_적용.py.PUBLIC-NOTE.md",
     "source": "8차/Audit/물리_수정_적용.py",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 9239,
-    "sha256": "651af9412cbb994ea459cd1a6061c39d811cdfef516a5ef15154c76971ea879a"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "651af9412cbb994ea459cd1a6061c39d811cdfef516a5ef15154c76971ea879a",
+    "source_bytes": 9239
   },
   {
     "path": "8차/Audit/수정_범위와_검증.md",
     "source": "8차/Audit/수정_범위와_검증.md",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
     "bytes": 1805,
-    "sha256": "bcceb27df32ea619520f044e0eb99dbb78adeb322ee8dceb719aa7744b55bacf"
+    "sha256": "3ef7aef233332277fb1ccdaf95eee889bf2165ab09d9295bb2889b3de937dd27",
+    "source_sha256": "bcceb27df32ea619520f044e0eb99dbb78adeb322ee8dceb719aa7744b55bacf",
+    "source_bytes": 1805
   },
   {
     "path": "8차/Audit/수집과_성장_수정_적용.py",
@@ -112056,20 +112306,24 @@
     "sha256": "7d31d5b06fe426cef69f0d0d3ec7ea49017720a411dc65d15ced3866f552c484"
   },
   {
-    "path": "8차/Audit/원본_재검토.py",
+    "path": "8차/Audit/원본_재검토.py.PUBLIC-NOTE.md",
     "source": "8차/Audit/원본_재검토.py",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 4213,
-    "sha256": "3934a47fadd608469ac45675b89a071b025cafe76fb85190ce06a3426ed93a9f"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "3934a47fadd608469ac45675b89a071b025cafe76fb85190ce06a3426ed93a9f",
+    "source_bytes": 4213
   },
   {
     "path": "8차/Audit/작업_중단_기록.md",
     "source": "8차/Audit/작업_중단_기록.md",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 4450,
-    "sha256": "6307d5f735b81b23b0228fb1b93b3c030eb8c3f7bc4d9bba1d29e00c19a4f40f"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4245,
+    "sha256": "e9e252d1f299d1d4fd1b218b960ef654f545b6565d25b3252b9bfeee3d9a869e",
+    "source_sha256": "6307d5f735b81b23b0228fb1b93b3c030eb8c3f7bc4d9bba1d29e00c19a4f40f",
+    "source_bytes": 4450
   },
   {
     "path": "8차/Source/Assets/Editor.meta",
@@ -128130,10 +128384,12 @@
   {
     "path": "8차/Source/Assets/Resources/ReferenceTypography/Edition7UIProvenance.json",
     "source": "8차/Source/Assets/Resources/ReferenceTypography/Edition7UIProvenance.json",
-    "kind": "원본 파일",
-    "reason": "원문 바이트 공개 추가: 제품 코드·설정·설계·사용법·라이선스·리소스·검증/실험 자료 내용 확인",
-    "bytes": 2603,
-    "sha256": "6dbbf408001487b46775d4e9b40b06cae13bf09d717f7008c9bacc51a56963c0"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2569,
+    "sha256": "a25c903ff70f51b8c73738cfc0e11015f605a9822a14d3c9bada7906be872a0f",
+    "source_sha256": "6dbbf408001487b46775d4e9b40b06cae13bf09d717f7008c9bacc51a56963c0",
+    "source_bytes": 2603
   },
   {
     "path": "8차/Source/Assets/Resources/ReferenceTypography/TextPresets.json",
@@ -130064,12 +130320,14 @@
     "sha256": "7112def1be6b5f691be111d27d8dae0860a61cd0c25286e1e1b9a844baa5418f"
   },
   {
-    "path": "보존자료/작업소스/9차/work/audit_reference5.py",
+    "path": "보존자료/작업소스/9차/work/audit_reference5.py.PUBLIC-NOTE.md",
     "source": "9차/work/audit_reference5.py",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 3402,
-    "sha256": "5f9d14b1e11db84226fda5e3d612d3e8cae2983491117b40b67216f63c39fb66"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "5f9d14b1e11db84226fda5e3d612d3e8cae2983491117b40b67216f63c39fb66",
+    "source_bytes": 3402
   },
   {
     "path": "보존자료/작업소스/9차/work/debug_reference.py",
@@ -130082,18 +130340,22 @@
   {
     "path": "보존자료/작업소스/9차/work/edit-final.xml",
     "source": "9차/work/edit-final.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 9778,
-    "sha256": "1c5322b0c98da8eb291da24b2bf289b8e047b1deb4d6b113da4659ebad3cc3c7"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 9678,
+    "sha256": "d22ff5d5207f8c725a8d86cd53d81e48a721f88c1550becdcd8a28457f253a7f",
+    "source_sha256": "1c5322b0c98da8eb291da24b2bf289b8e047b1deb4d6b113da4659ebad3cc3c7",
+    "source_bytes": 9778
   },
   {
     "path": "보존자료/작업소스/9차/work/edit-smooth.xml",
     "source": "9차/work/edit-smooth.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 11304,
-    "sha256": "e7757a585e7ce7daba0eb6204c1da65fc73c9e74a1c03f283d6cae0cc9ad8cef"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 11204,
+    "sha256": "1b6c8dbe44db91f44bd4332e8fe693c0c60b2a55cc62afa551862c0236163886",
+    "source_sha256": "e7757a585e7ce7daba0eb6204c1da65fc73c9e74a1c03f283d6cae0cc9ad8cef",
+    "source_bytes": 11304
   },
   {
     "path": "보존자료/작업소스/9차/work/english-checks.ps1",
@@ -130176,12 +130438,14 @@
     "sha256": "5dcc00a21a6a7fe38151e3ea028ca43435fce470b77e725e462f6440ab93c058"
   },
   {
-    "path": "보존자료/작업소스/9차/work/finish-checks.ps1",
+    "path": "보존자료/작업소스/9차/work/finish-checks.ps1.PUBLIC-NOTE.md",
     "source": "9차/work/finish-checks.ps1",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 1967,
-    "sha256": "d5e1a7fed59157cd0a73313aaf89d88c64c120c45ebe0e15461f40e31385ff2f"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "d5e1a7fed59157cd0a73313aaf89d88c64c120c45ebe0e15461f40e31385ff2f",
+    "source_bytes": 1967
   },
   {
     "path": "보존자료/작업소스/9차/work/fix_reference_input.py",
@@ -130202,10 +130466,12 @@
   {
     "path": "보존자료/작업소스/9차/work/gameplay-edit.xml",
     "source": "9차/work/gameplay-edit.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 10342,
-    "sha256": "60865de8932e5c1ff15c88f14d25bd5289e401eac2961ee1f05c7796d7a86ab5"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 10242,
+    "sha256": "efb14809157848ecfaec67e3a0aec21fcbcc7bf0d12bfa283a609501f6416825",
+    "source_sha256": "60865de8932e5c1ff15c88f14d25bd5289e401eac2961ee1f05c7796d7a86ab5",
+    "source_bytes": 10342
   },
   {
     "path": "보존자료/작업소스/9차/work/il2cpp-analysis/config.json",
@@ -130288,12 +130554,14 @@
     "sha256": "98083c67a5153b5feff9429599b35b2e4bdbc313c793105e3cdbaff62ff49117"
   },
   {
-    "path": "보존자료/작업소스/9차/work/inspect_reference.py",
+    "path": "보존자료/작업소스/9차/work/inspect_reference.py.PUBLIC-NOTE.md",
     "source": "9차/work/inspect_reference.py",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 987,
-    "sha256": "80768cb4df3b0ce1281701429b9e28dc672c5ba8c9391bd00679ef34b584c2db"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "80768cb4df3b0ce1281701429b9e28dc672c5ba8c9391bd00679ef34b584c2db",
+    "source_bytes": 987
   },
   {
     "path": "보존자료/작업소스/9차/work/original/HoleIt_Source/Documentation/LEVEL_MATRIX.csv",
@@ -130432,36 +130700,44 @@
     "sha256": "ec9df1c079bc808510a14862055b18c9e29f5c36db40eabb21fba7347345ba95"
   },
   {
-    "path": "보존자료/작업소스/9차/work/package_final.py",
+    "path": "보존자료/작업소스/9차/work/package_final.py.PUBLIC-NOTE.md",
     "source": "9차/work/package_final.py",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 8619,
-    "sha256": "bb50f4650936b9690583636d008231c9b45d351e0100a125c2e4f11d626325b8"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "bb50f4650936b9690583636d008231c9b45d351e0100a125c2e4f11d626325b8",
+    "source_bytes": 8619
   },
   {
-    "path": "보존자료/작업소스/9차/work/package_reference.py",
+    "path": "보존자료/작업소스/9차/work/package_reference.py.PUBLIC-NOTE.md",
     "source": "9차/work/package_reference.py",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 8567,
-    "sha256": "d20bed92eb626777d67ba62b79a402b0cebf8d63de12b7222a1c7b854ecd0ee8"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "d20bed92eb626777d67ba62b79a402b0cebf8d63de12b7222a1c7b854ecd0ee8",
+    "source_bytes": 8567
   },
   {
-    "path": "보존자료/작업소스/9차/work/package_reference4.py",
+    "path": "보존자료/작업소스/9차/work/package_reference4.py.PUBLIC-NOTE.md",
     "source": "9차/work/package_reference4.py",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 6205,
-    "sha256": "c9625362ab2909c44a042a07e181d2122d687e4dc340604bcdd3a0cf4ef440a0"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "c9625362ab2909c44a042a07e181d2122d687e4dc340604bcdd3a0cf4ef440a0",
+    "source_bytes": 6205
   },
   {
-    "path": "보존자료/작업소스/9차/work/package_reference5.py",
+    "path": "보존자료/작업소스/9차/work/package_reference5.py.PUBLIC-NOTE.md",
     "source": "9차/work/package_reference5.py",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 6970,
-    "sha256": "db34a08fdb0fb3bfbd1e720fc9f9faf1e07c8311bdbae27a4c1a890aa3455fe7"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "db34a08fdb0fb3bfbd1e720fc9f9faf1e07c8311bdbae27a4c1a890aa3455fe7",
+    "source_bytes": 6970
   },
   {
     "path": "보존자료/작업소스/9차/work/patch_fifth_capture.py",
@@ -130506,42 +130782,52 @@
   {
     "path": "보존자료/작업소스/9차/work/play-final.xml",
     "source": "9차/work/play-final.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 7498,
-    "sha256": "ef109f91e70b46eb75995c2051ccc081d3b51f7c64d38981b4bb7b75ca5f2c16"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 7398,
+    "sha256": "37678273a5de1b7a8acd73bed89766a2ffeda4cdfd9bb2427ed8f4626d39d2c1",
+    "source_sha256": "ef109f91e70b46eb75995c2051ccc081d3b51f7c64d38981b4bb7b75ca5f2c16",
+    "source_bytes": 7498
   },
   {
     "path": "보존자료/작업소스/9차/work/play-other-final.xml",
     "source": "9차/work/play-other-final.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 6776,
-    "sha256": "e47345c4eafeac9f3d94a237557938ff0c736d6585368215548f065abe3b9866"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 6676,
+    "sha256": "ad95303958be2cdaab3a6ae1a8460e185e524b47e451c170bba15f2195b57294",
+    "source_sha256": "e47345c4eafeac9f3d94a237557938ff0c736d6585368215548f065abe3b9866",
+    "source_bytes": 6776
   },
   {
     "path": "보존자료/작업소스/9차/work/play-results.xml",
     "source": "9차/work/play-results.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 8074,
-    "sha256": "1515ecf57eb2894a3da8a69591d8dd3d5234820300d04e234cd0b56f994a2d6d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 7974,
+    "sha256": "98a0dfd5ff3e99dc9f8232e7bf434995a8589bce8070a13dc7677b031ac6df4e",
+    "source_sha256": "1515ecf57eb2894a3da8a69591d8dd3d5234820300d04e234cd0b56f994a2d6d",
+    "source_bytes": 8074
   },
   {
     "path": "보존자료/작업소스/9차/work/play-smooth.xml",
     "source": "9차/work/play-smooth.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 8520,
-    "sha256": "0e5889ed75814cc01f3e13f59261a6f853fcf3733973bae57b1428a65236b174"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8370,
+    "sha256": "9896078114460749cf2d9a7c5100716fac12ce290e7c4ba18370f63fed344fcc",
+    "source_sha256": "0e5889ed75814cc01f3e13f59261a6f853fcf3733973bae57b1428a65236b174",
+    "source_bytes": 8520
   },
   {
     "path": "보존자료/작업소스/9차/work/precision-tests.xml",
     "source": "9차/work/precision-tests.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 4641,
-    "sha256": "e55d4cf0b137e2064d1b8978733467072a61ce3b90386a101904e555c89caec9"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 4541,
+    "sha256": "91abbff44887f024754d0a1e5a2c794b2ea3a0b1f633de3f88f132eb54fd5955",
+    "source_sha256": "e55d4cf0b137e2064d1b8978733467072a61ce3b90386a101904e555c89caec9",
+    "source_bytes": 4641
   },
   {
     "path": "보존자료/작업소스/9차/work/prepare_export5.py",
@@ -130562,34 +130848,42 @@
   {
     "path": "보존자료/작업소스/9차/work/reference-final-tests.xml",
     "source": "9차/work/reference-final-tests.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 6370,
-    "sha256": "7015ebbc91a1990ff2cdf43d345100af2a433d5343b99e26164bfab4fe6ac483"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 6270,
+    "sha256": "94db39752c65e45ea6b66220192335784bc902933a675cb0766575bea943691d",
+    "source_sha256": "7015ebbc91a1990ff2cdf43d345100af2a433d5343b99e26164bfab4fe6ac483",
+    "source_bytes": 6370
   },
   {
     "path": "보존자료/작업소스/9차/work/reference-growth-tests.xml",
     "source": "9차/work/reference-growth-tests.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 8598,
-    "sha256": "ecd468b383352088c6df010a87b539590f8096072f527e4bf56709309a82932a"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8398,
+    "sha256": "bddbc6fdc02fbab2109045f23552123da73629727f9f9eb1f2d61988a8709e5d",
+    "source_sha256": "ecd468b383352088c6df010a87b539590f8096072f527e4bf56709309a82932a",
+    "source_bytes": 8598
   },
   {
     "path": "보존자료/작업소스/9차/work/reference-size-diagnostic.xml",
     "source": "9차/work/reference-size-diagnostic.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 3710,
-    "sha256": "208bab01fe3d4c4a63eec411d7841440785ec0b230592344f7a2d0ce5cde9868"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3560,
+    "sha256": "707ded57dfaa634544f76b0fcdb7b1d58b633719f8f681a47f87eb7805c92435",
+    "source_sha256": "208bab01fe3d4c4a63eec411d7841440785ec0b230592344f7a2d0ce5cde9868",
+    "source_bytes": 3710
   },
   {
     "path": "보존자료/작업소스/9차/work/reference-tests.xml",
     "source": "9차/work/reference-tests.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 7388,
-    "sha256": "ba8e8c1c3c817d9c09dbc13ba383ae84c72043710a2dc0e2a6b42df7e4e0e9f6"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 7238,
+    "sha256": "74d1618ed4a1eadc66a15429f0d85bed77d72b2e8e840b25b4e041fa226f0a05",
+    "source_sha256": "ba8e8c1c3c817d9c09dbc13ba383ae84c72043710a2dc0e2a6b42df7e4e0e9f6",
+    "source_bytes": 7388
   },
   {
     "path": "보존자료/작업소스/9차/work/reference4-previews/DesktopFrameTimes.txt",
@@ -130602,34 +130896,42 @@
   {
     "path": "보존자료/작업소스/9차/work/reference5-before-arena-tests.xml",
     "source": "9차/work/reference5-before-arena-tests.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 16321,
-    "sha256": "8279685566c0190a23653e742279d99b74e6457ce2740653a5b5f22492c018b3"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 16171,
+    "sha256": "07e6e84ea9630371b35d803ffe32244581370347feceadf472c6d99a5d1c0e63",
+    "source_sha256": "8279685566c0190a23653e742279d99b74e6457ce2740653a5b5f22492c018b3",
+    "source_bytes": 16321
   },
   {
     "path": "보존자료/작업소스/9차/work/reference5-before-hulls-tests.xml",
     "source": "9차/work/reference5-before-hulls-tests.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 16853,
-    "sha256": "86931372d81858938be0153c5fa3cca31057c7fcce34ed9161ef0ea67dfe213d"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 16703,
+    "sha256": "c9cb382a0ede3e96fc8f9769ff0058267b49a63669c6faadc002dd7978332328",
+    "source_sha256": "86931372d81858938be0153c5fa3cca31057c7fcce34ed9161ef0ea67dfe213d",
+    "source_bytes": 16853
   },
   {
     "path": "보존자료/작업소스/9차/work/reference5-first-tests.xml",
     "source": "9차/work/reference5-first-tests.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 5220,
-    "sha256": "f23c7ac2bdaec2b87e457ab6d35994d01e533053aa1ae04c43820c06bd8cb93c"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 5120,
+    "sha256": "a651a930d982f3aeedb4a342c8665e898dc28d8774f978f77cf5b6c49b85f65f",
+    "source_sha256": "f23c7ac2bdaec2b87e457ab6d35994d01e533053aa1ae04c43820c06bd8cb93c",
+    "source_bytes": 5220
   },
   {
     "path": "보존자료/작업소스/9차/work/reference5-full-audit.xml",
     "source": "9차/work/reference5-full-audit.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 7723,
-    "sha256": "22f1355b2ed34074b47b4bc608a89e7421415184165e11694c09acd69d24e5f3"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 7573,
+    "sha256": "7b520f12f4ec7ba9a58b7a1d8b1fb98cfd8c4c3cf43f454718ffc146b8a08df5",
+    "source_sha256": "22f1355b2ed34074b47b4bc608a89e7421415184165e11694c09acd69d24e5f3",
+    "source_bytes": 7723
   },
   {
     "path": "보존자료/작업소스/9차/work/reference5_boosters.py",
@@ -130648,12 +130950,14 @@
     "sha256": "1fa76b3c7febad88c53e4de1b4a8660a68eadd5ad55937c8f89f69fb23312abc"
   },
   {
-    "path": "보존자료/작업소스/9차/work/reference_catalog.py",
+    "path": "보존자료/작업소스/9차/work/reference_catalog.py.PUBLIC-NOTE.md",
     "source": "9차/work/reference_catalog.py",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 1910,
-    "sha256": "5a08cb66fd6b2b79aff36fe25b223ed0766bb4faf345795f8f567ed05cbd9c48"
+    "kind": "공개 보류 안내",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 390,
+    "sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
+    "source_sha256": "5a08cb66fd6b2b79aff36fe25b223ed0766bb4faf345795f8f567ed05cbd9c48",
+    "source_bytes": 1910
   },
   {
     "path": "보존자료/작업소스/9차/work/reference_details.py",
@@ -130682,10 +130986,12 @@
   {
     "path": "보존자료/작업소스/9차/work/soft-edit-final.xml",
     "source": "9차/work/soft-edit-final.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 10350,
-    "sha256": "c03ea93d33c915b10a6225014d87e578582c5d1918ccf41aa6917bf365364aea"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 10250,
+    "sha256": "05be0632c0bc1ceff0ceba086be6c4e6722fbe6dce5a762a1337bf4d39873275",
+    "source_sha256": "c03ea93d33c915b10a6225014d87e578582c5d1918ccf41aa6917bf365364aea",
+    "source_bytes": 10350
   },
   {
     "path": "보존자료/작업소스/9차/work/soft-finalize.ps1",
@@ -130698,34 +131004,42 @@
   {
     "path": "보존자료/작업소스/9차/work/soft-play-final.xml",
     "source": "9차/work/soft-play-final.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 10876,
-    "sha256": "1995ada31468175e1330ea32df75154e9c5ccd45c6110c7ebffecb6f1931e1b2"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 10726,
+    "sha256": "fb48a8f1eb07baf29d0f4bcba70aec1f8526724f4a9d0149a08f0c69d785fb1d",
+    "source_sha256": "1995ada31468175e1330ea32df75154e9c5ccd45c6110c7ebffecb6f1931e1b2",
+    "source_bytes": 10876
   },
   {
     "path": "보존자료/작업소스/9차/work/soft-play.xml",
     "source": "9차/work/soft-play.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 8506,
-    "sha256": "a2933154f288b6e97f116cf1caa11affe494884544e3486b86db16d0ae6df9b2"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 8406,
+    "sha256": "a53788b65c2d3ebcd8e0b77e170d2556be4f4cf808382ec693149fee6a87104d",
+    "source_sha256": "a2933154f288b6e97f116cf1caa11affe494884544e3486b86db16d0ae6df9b2",
+    "source_bytes": 8506
   },
   {
     "path": "보존자료/작업소스/9차/work/tower-diagnostic.xml",
     "source": "9차/work/tower-diagnostic.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 3702,
-    "sha256": "fa26b07320e320ad4f053a2359256ad1819dfb7b2e2085c53097f7a0cdfe9d49"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 3552,
+    "sha256": "40b9dbb12d798f483207a7b1f7d7920959d98c9c9c3c9ce7b1a36be8ee368e19",
+    "source_sha256": "fa26b07320e320ad4f053a2359256ad1819dfb7b2e2085c53097f7a0cdfe9d49",
+    "source_bytes": 3702
   },
   {
     "path": "보존자료/작업소스/9차/work/tower-test2.xml",
     "source": "9차/work/tower-test2.xml",
-    "kind": "원본 파일",
-    "reason": "작업 경로의 고유 코드·설계·사용법·실험 노트 원문 보존(독립 배포본 아님)",
-    "bytes": 2675,
-    "sha256": "847ee2fe64ad1f7ccff0822611244d291e7c259e74acb92d604b2c0cf505a7ec"
+    "kind": "공개 사본 정리",
+    "reason": "개인 경로·표시 정리 또는 과거 환경 도구의 비공개 보류. 원본 바이트와 현재 공개 사본을 구분합니다.",
+    "bytes": 2575,
+    "sha256": "387b6da5a262efffa08bb0e1ef36520cf90b1e7eaffe99bf5a20972c1a31ce08",
+    "source_sha256": "847ee2fe64ad1f7ccff0822611244d291e7c259e74acb92d604b2c0cf505a7ec",
+    "source_bytes": 2675
   },
   {
     "path": "보존자료/작업소스/9차/work/upgrade_reference_style.py",

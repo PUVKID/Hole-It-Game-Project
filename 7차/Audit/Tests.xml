@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1105" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-13 10:03:45Z" end-time="2026-10-13 10:34:44Z" duration="1858.426420" total="81" passed="80" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1105" name="Reference.Tests.dll" fullname="./work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-13 10:03:45Z" end-time="2026-10-13 10:34:44Z" duration="1858.426420" total="81" passed="80" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="66864" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -425,7 +425,7 @@ Stage 26 1200 simulated seconds stage limit; sim=1200.05 collected=682 hole=(-1.
   Expected: <empty>
   But was:  < "Stage 13 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=313.11 collected=708 hole=(15.46, 0.00, -13.39) aperture=1.881 active=3 target=185/111/Radio Green pivot=(16.23, 0.91, -13.12) fit=1.920 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=2 switch=7 latch=False initial=False activeBoundsCenter=(16.49, 0.80, -13.39) size=(4.64, 1.44, 4.63) enabled=1 detection=True floorRayY=aperture", "Stage 14 45 simulated seconds without collection, a new input attempt, or active downward progress; sim=371.63 collected=1003 hole=(-10.24, 0.00, -5.87) aperture=1.881 active=1 target=583/113/Arcade Machine pivot=(-11.13, 1.36, -4.53) fit=1.790 bottom=0.081 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=10 latch=False initial=False activeBoundsCenter=(-11.37, 1.36, -4.74) size=(3.81, 2.55, 3.92) enabled=1 detection=True floorRayY=aperture", "Stage 26 1200 simulated seconds stage limit; sim=1200.05 collected=682 hole=(-1.14, 0.00, -11.31) aperture=1.689 active=3 target=683/255/Robot Red pivot=(-0.71, 1.55, -8.41) fit=1.484 bottom=0.040 kinematic=False velocity=(0.00, 0.00, 0.00) angular=(0.00, 0.00, 0.00) group=0 switch=6 latch=False initial=False activeBoundsCenter=(-1.14, 1.59, -11.32) size=(3.50, 3.09, 5.85) enabled=1 detection=True floorRayY=0.069" >
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__19.MoveNext () [0x00591] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:79
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__19.MoveNext () [0x00591] in .\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:79
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -598,7 +598,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Tests-final.xml
+          <output><![CDATA[Saving results to: .\7차\Audit\Tests-final.xml
 ]]></output>
         </test-case>
       </test-suite>

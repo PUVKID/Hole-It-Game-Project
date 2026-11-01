@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1090" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="73" result="Failed" site="Child" start-time="2026-10-13 06:36:54Z" end-time="2026-10-13 06:42:19Z" duration="325.743546" total="73" passed="68" failed="5" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1090" name="Reference.Tests.dll" fullname="./work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="73" result="Failed" site="Child" start-time="2026-10-13 06:36:54Z" end-time="2026-10-13 06:42:19Z" duration="325.743546" total="73" passed="68" failed="5" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="96252" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -230,7 +230,7 @@ Couldn't create a Convex Mesh from source mesh, within the maximum polygons limi
   Expected: greater than 22.5f
   But was:  22.3055553f
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceFifthTests+<MovementReachesAuthoredFloorBeyondInitialItemBounds>d__10.MoveNext () [0x000b7] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceFifthTests.cs:45
+            <stack-trace><![CDATA[at ReferenceFifthTests+<MovementReachesAuthoredFloorBeyondInitialItemBounds>d__10.MoveNext () [0x000b7] in .\work\Build7\Assets\Tests\Reference\ReferenceFifthTests.cs:45
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -342,7 +342,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
               <message><![CDATA[System.ArgumentException : Scene with name "SeventhApertureProbe" already exists]]></message>
               <stack-trace><![CDATA[  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.CreateScene_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.SceneManagement.CreateSceneParameters&,UnityEngine.SceneManagement.Scene&)
   at UnityEngine.SceneManagement.SceneManager.CreateScene (System.String sceneName, UnityEngine.SceneManagement.CreateSceneParameters parameters) [0x00039] in <18b3b31e3d8341f487466ebb6800bc67>:0 
-  at ReferenceSeventhPhysicsTests.ActualSourceApertureDropsOnlyBodiesThatPhysicallyFit (System.Single size, System.Single offset, System.Boolean shouldFall) [0x00005] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhPhysicsTests.cs:62 
+  at ReferenceSeventhPhysicsTests.ActualSourceApertureDropsOnlyBodiesThatPhysicallyFit (System.Single size, System.Single offset, System.Boolean shouldFall) [0x00005] in .\work\Build7\Assets\Tests\Reference\ReferenceSeventhPhysicsTests.cs:62 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1eb9db207454431c84a47bcd81e79c37>:0 ]]></stack-trace>
             </failure>
@@ -356,7 +356,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
               <message><![CDATA[System.ArgumentException : Scene with name "SeventhApertureProbe" already exists]]></message>
               <stack-trace><![CDATA[  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.CreateScene_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.SceneManagement.CreateSceneParameters&,UnityEngine.SceneManagement.Scene&)
   at UnityEngine.SceneManagement.SceneManager.CreateScene (System.String sceneName, UnityEngine.SceneManagement.CreateSceneParameters parameters) [0x00039] in <18b3b31e3d8341f487466ebb6800bc67>:0 
-  at ReferenceSeventhPhysicsTests.ActualSourceApertureDropsOnlyBodiesThatPhysicallyFit (System.Single size, System.Single offset, System.Boolean shouldFall) [0x00005] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhPhysicsTests.cs:62 
+  at ReferenceSeventhPhysicsTests.ActualSourceApertureDropsOnlyBodiesThatPhysicallyFit (System.Single size, System.Single offset, System.Boolean shouldFall) [0x00005] in .\work\Build7\Assets\Tests\Reference\ReferenceSeventhPhysicsTests.cs:62 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <1eb9db207454431c84a47bcd81e79c37>:0 ]]></stack-trace>
             </failure>
@@ -377,7 +377,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <message><![CDATA[  Expected: 0.0199999996f
   But was:  0.0199999921f
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceSeventhPhysicsTests.NativeReleaseSettingsDifferFromSerializedAndDebugGravity () [0x0002d] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhPhysicsTests.cs:12
+            <stack-trace><![CDATA[at ReferenceSeventhPhysicsTests.NativeReleaseSettingsDifferFromSerializedAndDebugGravity () [0x0002d] in .\work\Build7\Assets\Tests\Reference\ReferenceSeventhPhysicsTests.cs:12
 ]]></stack-trace>
           </failure>
         </test-case>
@@ -459,7 +459,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
   Expected: Won
   But was:  Playing
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__15.MoveNext () [0x00198] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:25
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__15.MoveNext () [0x00198] in .\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:25
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -594,7 +594,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Tests.xml
+          <output><![CDATA[Saving results to: .\7차\Audit\Tests.xml
 ]]></output>
         </test-case>
       </test-suite>

@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1015" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-10-12 17:52:34Z" end-time="2026-10-12 17:59:26Z" duration="411.643830" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1015" name="HoleIt.PlayModeTests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="11" result="Failed" site="Child" start-time="2026-10-12 17:52:34Z" end-time="2026-10-12 17:59:26Z" duration="411.643830" total="11" passed="10" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="74864" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -96,7 +96,7 @@
   Expected: LevelClear
   But was:  Playing
 ]]></message>
-            <stack-trace><![CDATA[at ReleasePlayTests+<AllThirtyLevelsCompleteThroughPhysicalSwallowing>d__10.MoveNext () [0x005ca] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\PlayMode\ReleasePlayTests.cs:74
+            <stack-trace><![CDATA[at ReleasePlayTests+<AllThirtyLevelsCompleteThroughPhysicalSwallowing>d__10.MoveNext () [0x005ca] in .\work\AndroidFinal\Assets\Tests\PlayMode\ReleasePlayTests.cs:74
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -114,7 +114,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\soft-play-final.xml
+          <output><![CDATA[Saving results to: .\work\soft-play-final.xml
 ]]></output>
         </test-case>
       </test-suite>

@@ -4,7 +4,7 @@
     <properties>
       <property name="platform" value="PlayMode" />
     </properties>
-    <test-suite type="Assembly" id="1055" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build6/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-10-12 22:48:19Z" end-time="2026-10-12 22:55:32Z" duration="432.963658" total="44" passed="44" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1055" name="Reference.Tests.dll" fullname="./work/Build6/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="44" result="Passed" start-time="2026-10-12 22:48:19Z" end-time="2026-10-12 22:55:32Z" duration="432.963658" total="44" passed="44" failed="0" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="73956" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -332,7 +332,7 @@
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\6차\Audit\Tests.xml
+          <output><![CDATA[Saving results to: .\6차\Audit\Tests.xml
 ]]></output>
         </test-case>
       </test-suite>

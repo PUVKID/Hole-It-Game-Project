@@ -1,8 +1,8 @@
 {
   "Utc": "2026-10-13T10:39:29.4516123Z",
   "RemovedGeneratedPaths": [
-    "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Builds\\Windows",
-    "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\PlayerDataCache\\Win642"
+    ".\\7차\\Source\\Builds\\Windows",
+    ".\\7차\\Source\\Library\\PlayerDataCache\\Win642"
   ],
   "FreeBytesBefore": 7206764544,
   "FreeBytesAfter": 8665894912,

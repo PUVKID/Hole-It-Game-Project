@@ -106,17 +106,17 @@
   {
     "path": "Verification/BorderRecoveryTest.xml",
     "status": "이전만 존재",
-    "before_bytes": 2581,
+    "before_bytes": 2481,
     "after_bytes": null,
-    "before_sha256": "c6d2354cf26582172f076d4a203abd348c4b657f962f41ebd68d417a3f52e7ea",
+    "before_sha256": "2ea14c9564524ddd815af404d500e8f642eaa716e6b225b7a2ce8e83b5bad465",
     "after_sha256": null
   },
   {
     "path": "Verification/FinalStartPositionTest.xml",
     "status": "이전만 존재",
-    "before_bytes": 2580,
+    "before_bytes": 2480,
     "after_bytes": null,
-    "before_sha256": "42dd32e7efdb31539b1888bef0f5fb56c8b61ae2a338175749b8bbf218607582",
+    "before_sha256": "aa04319ef59233cd1684c50cc7e483bd9cf9b4b6372bcbd43e8d5919184c82c2",
     "after_sha256": null
   },
   {
@@ -146,9 +146,9 @@
   {
     "path": "Verification/ReferenceTests.xml",
     "status": "이전만 존재",
-    "before_bytes": 7578,
+    "before_bytes": 7478,
     "after_bytes": null,
-    "before_sha256": "e3684a0afc2fe39a5e4eb05ceefb70d5414f00148950e83885d9340b12395ddd",
+    "before_sha256": "a950a3714cfa6ad82fa950f8e18a5e3a89b40328889fa4b922b6b30e08245e05",
     "after_sha256": null
   },
   {
@@ -163,17 +163,17 @@
     "path": "Verification/reference4-regression-tests.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 5001,
+    "after_bytes": 4901,
     "before_sha256": null,
-    "after_sha256": "96dd484daee7e9d57d48bde5ef1fe5ee172b5e2abe9882aab2f70f8fffe840a2"
+    "after_sha256": "e66ae27961c92609310f7125a124eed13a7efddad65c414ba2f838472ad41416"
   },
   {
     "path": "Verification/reference4-touch-tests.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 3218,
+    "after_bytes": 3118,
     "before_sha256": null,
-    "after_sha256": "cd24c307c7c74e7208675967d957271c10693ae6362c424e4f2bbdf9ca0b1362"
+    "after_sha256": "d4ab88485a818d28d2035f4ad8e1a9963925a5736d45fbc5733a133773278067"
   },
   {
     "path": "읽어주세요.txt",

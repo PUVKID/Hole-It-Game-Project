@@ -63788,7 +63788,7 @@
 -      "id": 261
 -    }
 -  ],
--  "textAudit": "C:\\Users\\PUVKID\\Desktop\\Hole It\\6\ucc28\\Audit\\OriginalTypographyUI.json"
+-  "textAudit": ".\\6\ucc28\\Audit\\OriginalTypographyUI.json"
 -}--- 8차/Assets/Resources/ReferenceTypography/FontSource.json
 +++ 9차/Assets/Resources/ReferenceTypography/FontSource.json
 @@ -1 +0,0 @@

@@ -315,17 +315,17 @@
     "path": "Verification/BorderRecoveryTest.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 2581,
+    "after_bytes": 2481,
     "before_sha256": null,
-    "after_sha256": "c6d2354cf26582172f076d4a203abd348c4b657f962f41ebd68d417a3f52e7ea"
+    "after_sha256": "2ea14c9564524ddd815af404d500e8f642eaa716e6b225b7a2ce8e83b5bad465"
   },
   {
     "path": "Verification/FinalStartPositionTest.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 2580,
+    "after_bytes": 2480,
     "before_sha256": null,
-    "after_sha256": "42dd32e7efdb31539b1888bef0f5fb56c8b61ae2a338175749b8bbf218607582"
+    "after_sha256": "aa04319ef59233cd1684c50cc7e483bd9cf9b4b6372bcbd43e8d5919184c82c2"
   },
   {
     "path": "Verification/PhysicalCampaign.txt",
@@ -363,32 +363,32 @@
     "path": "Verification/ReferenceTests.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 7578,
+    "after_bytes": 7478,
     "before_sha256": null,
-    "after_sha256": "e3684a0afc2fe39a5e4eb05ceefb70d5414f00148950e83885d9340b12395ddd"
+    "after_sha256": "a950a3714cfa6ad82fa950f8e18a5e3a89b40328889fa4b922b6b30e08245e05"
   },
   {
     "path": "Verification/english-edit.xml",
     "status": "이전만 존재",
-    "before_bytes": 10345,
+    "before_bytes": 10245,
     "after_bytes": null,
-    "before_sha256": "054fa88b601db8efbd667da16e4f370e7348e74bcf7183489672b11b09228e8a",
+    "before_sha256": "6817d47bf8a738883c6eb3258e3c8434dd55841f9f809d87c2e4f17923bf99fc",
     "after_sha256": null
   },
   {
     "path": "Verification/english-play.xml",
     "status": "이전만 존재",
-    "before_bytes": 12193,
+    "before_bytes": 12093,
     "after_bytes": null,
-    "before_sha256": "09e411b040ab73a79af07a085a98ad99291dcf3bf7f32a78d2e8594aed21287b",
+    "before_sha256": "f5e759438b55142b1e84f61df4c2d378e136cf50dc00d8573ae5c89fd9afd066",
     "after_sha256": null
   },
   {
     "path": "Verification/gameplay-play.xml",
     "status": "이전만 존재",
-    "before_bytes": 12919,
+    "before_bytes": 12819,
     "after_bytes": null,
-    "before_sha256": "0f8ec18ce193ffa3e7f135dcc9c1cd115f8f46f014d73ff769d183e31d0c4989",
+    "before_sha256": "2a686e8e145d69d4817026bdf4df4a71ff112293755dce2946cbb523f2806d5f",
     "after_sha256": null
   },
   {

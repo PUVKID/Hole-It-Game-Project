@@ -1,10 +1,10 @@
 [
   {
-    "path": "Audit/물리_수정_적용.py",
+    "path": "Audit/물리_수정_적용.py.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 9239,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "651af9412cbb994ea459cd1a6061c39d811cdfef516a5ef15154c76971ea879a",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
@@ -12,7 +12,7 @@
     "status": "이전만 존재",
     "before_bytes": 1805,
     "after_bytes": null,
-    "before_sha256": "bcceb27df32ea619520f044e0eb99dbb78adeb322ee8dceb719aa7744b55bacf",
+    "before_sha256": "3ef7aef233332277fb1ccdaf95eee889bf2165ab09d9295bb2889b3de937dd27",
     "after_sha256": null
   },
   {
@@ -40,19 +40,19 @@
     "after_sha256": null
   },
   {
-    "path": "Audit/원본_재검토.py",
+    "path": "Audit/원본_재검토.py.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 4213,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "3934a47fadd608469ac45675b89a071b025cafe76fb85190ce06a3426ed93a9f",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
     "path": "Audit/작업_중단_기록.md",
     "status": "이전만 존재",
-    "before_bytes": 4450,
+    "before_bytes": 4245,
     "after_bytes": null,
-    "before_sha256": "6307d5f735b81b23b0228fb1b93b3c030eb8c3f7bc4d9bba1d29e00c19a4f40f",
+    "before_sha256": "e9e252d1f299d1d4fd1b218b960ef654f545b6565d25b3252b9bfeee3d9a869e",
     "after_sha256": null
   },
   {
@@ -16330,9 +16330,9 @@
   {
     "path": "Source/Assets/Resources/ReferenceTypography/Edition7UIProvenance.json",
     "status": "이전만 존재",
-    "before_bytes": 2603,
+    "before_bytes": 2569,
     "after_bytes": null,
-    "before_sha256": "6dbbf408001487b46775d4e9b40b06cae13bf09d717f7008c9bacc51a56963c0",
+    "before_sha256": "a25c903ff70f51b8c73738cfc0e11015f605a9822a14d3c9bada7906be872a0f",
     "after_sha256": null
   },
   {

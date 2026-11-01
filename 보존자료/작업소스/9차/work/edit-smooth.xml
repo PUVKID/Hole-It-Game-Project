@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1016" name="HoleIt.EditModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/PocketPit/Library/ScriptAssemblies/HoleIt.EditModeTests.dll" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-10-12 17:19:03Z" end-time="2026-10-12 17:19:04Z" duration="1.084219" total="13" passed="12" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1016" name="HoleIt.EditModeTests.dll" fullname="./work/PocketPit/Library/ScriptAssemblies/HoleIt.EditModeTests.dll" runstate="Runnable" testcasecount="13" result="Failed" site="Child" start-time="2026-10-12 17:19:03Z" end-time="2026-10-12 17:19:04Z" duration="1.084219" total="13" passed="12" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="69424" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -117,7 +117,7 @@ UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
               <property name="retryIteration" value="0" />
               <property name="repeatIteration" value="0" />
             </properties>
-            <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\edit-smooth.xml
+            <output><![CDATA[Saving results to: .\work\edit-smooth.xml
 ]]></output>
           </test-case>
         </test-suite>

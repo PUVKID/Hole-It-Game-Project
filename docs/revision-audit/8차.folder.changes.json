@@ -2,9 +2,9 @@
   {
     "path": "Audit/AnalysisCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 607,
+    "before_bytes": 383,
     "after_bytes": null,
-    "before_sha256": "913b0770ec5d4620c2e545a9a908a229eb5b7cd9566327ac7ba3f2aeba4dcd32",
+    "before_sha256": "d5ed527fdd06d8c24252270388a1284b30b49dd279bed4c4dcd23eb47a269f5b",
     "after_sha256": null
   },
   {
@@ -26,9 +26,9 @@
   {
     "path": "Audit/AndroidPlayerCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 402,
+    "before_bytes": 334,
     "after_bytes": null,
-    "before_sha256": "e784f0dd4868dbca1781b6e9597aca1866bf13c4c63d427e4f0c5fe19e3b6ad1",
+    "before_sha256": "82b3818a527d13a5cbd91791138238d718209901d11a32f839e92b9b4383e4a3",
     "after_sha256": null
   },
   {
@@ -66,9 +66,9 @@
   {
     "path": "Audit/ArchitecturePlan.json",
     "status": "이전만 존재",
-    "before_bytes": 1018,
+    "before_bytes": 962,
     "after_bytes": null,
-    "before_sha256": "2e5185b88a6ac6f9a0c4ee2c0b251663559325a19e27554d5408e048a64a8cf6",
+    "before_sha256": "879a32d15ee0567f068429367a006b51b242ae20eb8b02b0a62a9bfc0c39769a",
     "after_sha256": null
   },
   {
@@ -82,9 +82,9 @@
   {
     "path": "Audit/BuildCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 250,
+    "before_bytes": 216,
     "after_bytes": null,
-    "before_sha256": "e8591b62557e0491d6ea00544da33df53d16be60b45522b51f170b6eb8305fdc",
+    "before_sha256": "6eeaaf585f9a002461de535f4518a0a3fc6d0954c0c823309f565c65ed037fbc",
     "after_sha256": null
   },
   {
@@ -194,17 +194,17 @@
   {
     "path": "Audit/FinalCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 400,
+    "before_bytes": 366,
     "after_bytes": null,
-    "before_sha256": "e117b82491ee5e7985dbfeb112e9105b8db79d99a1bee878fc2ce9817649c049",
+    "before_sha256": "9d9ad20f3e1be7fa2461b95d7ef996bb00d231cf3d7abba186288c2b3882eec3",
     "after_sha256": null
   },
   {
     "path": "Audit/FinalPreviewCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 396,
+    "before_bytes": 328,
     "after_bytes": null,
-    "before_sha256": "c57e09254fa9462496812205cc4cf314d2443d3f60cebcd3a5a8720a4a3cf279",
+    "before_sha256": "b9880f60990207ec04715f830a3874bebb65872768dc690cae82c005c119cd7f",
     "after_sha256": null
   },
   {
@@ -274,17 +274,17 @@
   {
     "path": "Audit/Fresh2AbiGradleRecoveryCompleted.json",
     "status": "이전만 존재",
-    "before_bytes": 564,
+    "before_bytes": 496,
     "after_bytes": null,
-    "before_sha256": "ad2b183855278a2fc2780885b4780a7ae0e0a4928f63230b0486255133a58a73",
+    "before_sha256": "54d611fdb69b561928fd091fd9b5a51d1766c0cd300b539abfc855a7aadb4a8d",
     "after_sha256": null
   },
   {
     "path": "Audit/Fresh2AbiRecoveryEvidence.json",
     "status": "이전만 존재",
-    "before_bytes": 1138883,
+    "before_bytes": 1138679,
     "after_bytes": null,
-    "before_sha256": "1d6c12334af1024a943f98885f46c224c6d212dbd300d928c71475b25104fd3a",
+    "before_sha256": "b3e7e867764f024779bae2218e2f944fa7ecd0779f837f83008add6c0da8b60e",
     "after_sha256": null
   },
   {
@@ -306,33 +306,33 @@
   {
     "path": "Audit/FreshNativeCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 1045,
+    "before_bytes": 943,
     "after_bytes": null,
-    "before_sha256": "3b804ac08f5aaf4f1204afad8f22db3457acfa70dd54043636aa39df68008347",
+    "before_sha256": "3808a3a5ff66f0fb42a13be28f6d65e915bdf1fb41142f472ad4f8d02f2ac5cc",
     "after_sha256": null
   },
   {
     "path": "Audit/FreshPlayerCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 1110649,
+    "before_bytes": 1110615,
     "after_bytes": null,
-    "before_sha256": "95bd9d909ddd34a3552ca6fdaee239b2d07007fd26e17612be9833258c07ec25",
+    "before_sha256": "8e8b96b74f10824f79085e78f3e944488a3edadb4dffe379b1d48ad9122d63fd",
     "after_sha256": null
   },
   {
     "path": "Audit/GradleCacheCompression.json",
     "status": "이전만 존재",
-    "before_bytes": 9271,
+    "before_bytes": 8789,
     "after_bytes": null,
-    "before_sha256": "a2cfd9e02c9267421f8ae9f0b8ad6c7a56eaa7b008ee3a532c5e4815582c306d",
+    "before_sha256": "c4186a90c49a26e2aa8b9b39c8d45d0ff79384466e12fd7f5ab027bc1e33ae4d",
     "after_sha256": null
   },
   {
     "path": "Audit/GradleRecoveryCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 3307,
+    "before_bytes": 2865,
     "after_bytes": null,
-    "before_sha256": "6c7892f9280c685289d5146645d4c90033a82901c58e8056c3cfcb838b3641dc",
+    "before_sha256": "39a8b83129c27029863189e49f16ce617605bb86a80ca76be63578341b6a2a87",
     "after_sha256": null
   },
   {
@@ -402,17 +402,17 @@
   {
     "path": "Audit/ObsoleteAndroidCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 500,
+    "before_bytes": 466,
     "after_bytes": null,
-    "before_sha256": "b0f5067d6d8ef4b1a9860eaaccddb2a82b0a3c70a1914c72726468b3137f39a9",
+    "before_sha256": "36f651aff71b2d094f326d44234bdd185845a9a375301c8d6be4490732101e1d",
     "after_sha256": null
   },
   {
     "path": "Audit/ObsoleteGradleTransformCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 398,
+    "before_bytes": 382,
     "after_bytes": null,
-    "before_sha256": "9efbd226cc5e84774335b7d69d075b8df2b34d6bb2ae81423ea31ce65231d411",
+    "before_sha256": "d45d5586fe93c37a790db8129f52efeb9292047f131d121543eedd1bb81c43ca",
     "after_sha256": null
   },
   {
@@ -474,9 +474,9 @@
   {
     "path": "Audit/PrePackageCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 769,
+    "before_bytes": 667,
     "after_bytes": null,
-    "before_sha256": "63dd1433aa330293b68f980dc50defd1bed03fe605c0703d09c8b06b9b89f094",
+    "before_sha256": "2f29c8bb9f19a069e7dca72581438440902761b9f12ff323546151259fcd92cf",
     "after_sha256": null
   },
   {
@@ -490,17 +490,17 @@
   {
     "path": "Audit/PriorWorkGeneratedCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 697,
+    "before_bytes": 529,
     "after_bytes": null,
-    "before_sha256": "a4b158444e9f5178e57b6853ad930663ad3860fd3f7d209f1268f8ebd50d2a5a",
+    "before_sha256": "b569ee2d9bed0a3a92e86db755007a1e840ef2264430c58a8a0b0594f9035176",
     "after_sha256": null
   },
   {
     "path": "Audit/PriorWorkingCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 390,
+    "before_bytes": 334,
     "after_bytes": null,
-    "before_sha256": "f10edc7e03768f4a4d55bef16e0be6549e53e7bd6354897ba1f4852267377688",
+    "before_sha256": "3eb3b0a267f0d810409f53de2ad2c71e101b023878b038ea5777b7f0d7566cb7",
     "after_sha256": null
   },
   {
@@ -650,9 +650,9 @@
   {
     "path": "Audit/StorageCompression.json",
     "status": "이전만 존재",
-    "before_bytes": 1079,
+    "before_bytes": 841,
     "after_bytes": null,
-    "before_sha256": "6a53590d6ba62b6a6296be10547556718801d04a4b6eed945736c7630c8ca03a",
+    "before_sha256": "fd9720c7094243e68ca4608c3eec0745f5c1597edf4d1bf023070c31cfdef188",
     "after_sha256": null
   },
   {
@@ -666,209 +666,209 @@
   {
     "path": "Audit/Tests-before-final-20261013T103550Z.xml",
     "status": "이전만 존재",
-    "before_bytes": 59684,
+    "before_bytes": 59504,
     "after_bytes": null,
-    "before_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "before_sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-campaign-all30-initial.xml",
     "status": "이전만 존재",
-    "before_bytes": 9116,
+    "before_bytes": 8986,
     "after_bytes": null,
-    "before_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "before_sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-campaign-basket-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 4704,
+    "before_bytes": 4574,
     "after_bytes": null,
-    "before_sha256": "3180fec8be477e6a3d03615c75c7cd225a5cfd0cabb13736f8f882694fc14323",
+    "before_sha256": "8701fa6ee12a83b11737dc4871e910cade294451396cc7d2759106fe1678c937",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-campaign-diagonal-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5707,
+    "before_bytes": 5577,
     "after_bytes": null,
-    "before_sha256": "cefaaa2069f407f97849be12b7a66d363e524230127177f1e48a74729291aa2e",
+    "before_sha256": "2a3fe50fc056ec99db1651fdc65dbc106bae2ecbaa6dc1c4cf7a5c14996e2a56",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-campaign-edge-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3786,
+    "before_bytes": 3656,
     "after_bytes": null,
-    "before_sha256": "d61b72c8e092395fc5f372565e0202d17305fdfbeeaf8d166bbd739ce977a5e7",
+    "before_sha256": "6fde7110d91418df2d8b7db2104bc05cf1385ecf78588bf74af6d8f223ddf50a",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-campaign-exhaustion-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5704,
+    "before_bytes": 5574,
     "after_bytes": null,
-    "before_sha256": "377da3d29bf6e79e4072b9f3a180dd6d068f58f9a5f99811b43ad72715846910",
+    "before_sha256": "33adc7d4499063deee96d28e19fe828e93bf99db9e1341909fab929ef87fdfd2",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-campaign-intermittent-cluster-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5708,
+    "before_bytes": 5578,
     "after_bytes": null,
-    "before_sha256": "3645e35bf79e5b32169e86106410b066bba2eb37bd45f0710534f31386ccd54e",
+    "before_sha256": "2ec62460f3ed89391f69f58c3689bd2a70771e92d9679d6e6eb75f50de9c409a",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-campaign.xml",
     "status": "이전만 존재",
-    "before_bytes": 9116,
+    "before_bytes": 8986,
     "after_bytes": null,
-    "before_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "before_sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-final.xml",
     "status": "이전만 존재",
-    "before_bytes": 65201,
+    "before_bytes": 65071,
     "after_bytes": null,
-    "before_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "before_sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-initial.xml",
     "status": "이전만 존재",
-    "before_bytes": 62497,
+    "before_bytes": 62167,
     "after_bytes": null,
-    "before_sha256": "700093b9d3128b115d0a60856bbd57c908823422350e67541ebaeb40d4094a84",
+    "before_sha256": "f4853ceb027cfa2ac0078014548202f3e68afaa595a084883e289aa39e1dc1e8",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-remaining-normal.xml",
     "status": "이전만 존재",
-    "before_bytes": 12266,
+    "before_bytes": 12136,
     "after_bytes": null,
-    "before_sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+    "before_sha256": "2fe8c4faacd273fdac423f74f1b212af3b0239c10449457aecab05ef94982436",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-remaining.xml",
     "status": "이전만 존재",
-    "before_bytes": 12266,
+    "before_bytes": 12136,
     "after_bytes": null,
-    "before_sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+    "before_sha256": "2fe8c4faacd273fdac423f74f1b212af3b0239c10449457aecab05ef94982436",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests-second.xml",
     "status": "이전만 존재",
-    "before_bytes": 59684,
+    "before_bytes": 59504,
     "after_bytes": null,
-    "before_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "before_sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
     "after_sha256": null
   },
   {
     "path": "Audit/Tests.xml",
     "status": "이전만 존재",
-    "before_bytes": 65201,
+    "before_bytes": 65071,
     "after_bytes": null,
-    "before_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "before_sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceFocusedSix-before-rotated-floor.xml",
     "status": "이전만 존재",
-    "before_bytes": 5015,
+    "before_bytes": 4885,
     "after_bytes": null,
-    "before_sha256": "c63bddba2b71a2cb083c4838fdc5053c97c4bae6d63d3642684dce9c353dcc59",
+    "before_sha256": "2e849b56752dfec858d98f0ecb0e1f52140cb358ebfd3e7291b860287332cee7",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceFocusedSix.xml",
     "status": "이전만 존재",
-    "before_bytes": 6147,
+    "before_bytes": 6017,
     "after_bytes": null,
-    "before_sha256": "6c8127d7f20b43e89888aa68f9cf09f1c5367c5d5b1d3355dab356c640b153d3",
+    "before_sha256": "271c3b52a240c2594ce137eef97b2ec827ff7ae9d7ba7475079d1f61eccb6566",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage11-cluster-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3750,
+    "before_bytes": 3620,
     "after_bytes": null,
-    "before_sha256": "299bd2686199e1213fbedf52b7697f21c0f92733fcb156ee0df6b79863e01ace",
+    "before_sha256": "85065124913e5e96d47e91dd73e876f36ccb147a66bfc053744d88c1a6f35caa",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage11-conservative-fit-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3749,
+    "before_bytes": 3619,
     "after_bytes": null,
-    "before_sha256": "76e24aa0196014307c23a828c9ddb5cd9b419b4e66d9fb47160e3adcd40127a6",
+    "before_sha256": "db80b69853ee43c24179db1674fccd5022b6d180b77fe02c7083d44aaac2c697",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage11-passed-before-geometry.xml",
     "status": "이전만 존재",
-    "before_bytes": 2666,
+    "before_bytes": 2586,
     "after_bytes": null,
-    "before_sha256": "780ee41d620f3f3c3bf3299470394683a97aaa6a1045f52a7858556775a4f3ec",
+    "before_sha256": "68aae71ddbbbe785df8fc952a67004b5cc0b34cfbc79a3a8bb1f837fc54dac16",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage11.xml",
     "status": "이전만 존재",
-    "before_bytes": 2666,
+    "before_bytes": 2586,
     "after_bytes": null,
-    "before_sha256": "c8c6d224fbb15d0be3cd3879b479fab0b0164540c7c1ae3bf6bb83344f7afd7a",
+    "before_sha256": "99ad9ecdefd72ea09c5f695f2c5fd4b4d29454adbfe3a5d159ea6495cadbf519",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage14-centered-aim-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3740,
+    "before_bytes": 3610,
     "after_bytes": null,
-    "before_sha256": "e8da1d213f42da41aeee58eb449fc6fdcd522afa46216d91eada396cb7a72554",
+    "before_sha256": "8530c22eb17250a4b6795f61d6a73319377cf3677f70730578f75e5a5129eba0",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage14.xml",
     "status": "이전만 존재",
-    "before_bytes": 2661,
+    "before_bytes": 2581,
     "after_bytes": null,
-    "before_sha256": "7789493baa413bd916ecd4ad56d7a2248794616e7ebd72ff04854c8c8835077c",
+    "before_sha256": "8eb5664a0ff2bfdc50d7770e2590e93c1ba90d11c6d53e0836c41d8a34a1d1ce",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage26.xml",
     "status": "이전만 존재",
-    "before_bytes": 5059,
+    "before_bytes": 4929,
     "after_bytes": null,
-    "before_sha256": "0d4e628316ac04e49930c7d68925832eaf606bdbfced071ecb2a4a66fd17e754",
+    "before_sha256": "1f35451dad66027f07c0721b25a4dfaa083e0615a58c9c86c5eb3cd03c141fc1",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage3.xml",
     "status": "이전만 존재",
-    "before_bytes": 2665,
+    "before_bytes": 2585,
     "after_bytes": null,
-    "before_sha256": "e8cf19d2b08d0fb966efc4f5b2ed71c18effd16eef0d565bdf1299e2b07cfe65",
+    "before_sha256": "eae2ad37f58c17140559d8084f3722a0b114692046a8e127256d493506b232e0",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage9-wide-probes-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5049,
+    "before_bytes": 4919,
     "after_bytes": null,
-    "before_sha256": "ec752c4594f298af570bdcc0d51d3655414eb339f6ac32498159461ad4d85ad1",
+    "before_sha256": "6c83522e5a4c818240ab59ba109f4c6c8cbe1a0a1a9b6d38a49663dd5fee2f44",
     "after_sha256": null
   },
   {
     "path": "Audit/TraceStage9.xml",
     "status": "이전만 존재",
-    "before_bytes": 4326,
+    "before_bytes": 4246,
     "after_bytes": null,
-    "before_sha256": "8c29a0902e6a46e2f2a5f45464df907d1a8833c3279b3cb21d78f9fd2781e09f",
+    "before_sha256": "dbb9bcf52d82e2f5039ffb66dd31e57edcf098d31630fce2e9aea7ba07ff75e2",
     "after_sha256": null
   },
   {
@@ -906,41 +906,41 @@
   {
     "path": "Audit/VerificationSnapshotDifference.patch",
     "status": "이전만 존재",
-    "before_bytes": 18787,
+    "before_bytes": 221,
     "after_bytes": null,
-    "before_sha256": "d5cc6d9becbade86dad95ae5bffb0e171cffb2cc84ac819caad08913432b943a",
+    "before_sha256": "65f8b6b6c2f82fadeb036352c928e4e8a39eb5344c221ee464f02ab50c2d7cd3",
     "after_sha256": null
   },
   {
     "path": "Audit/WindowsCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 199,
+    "before_bytes": 165,
     "after_bytes": null,
-    "before_sha256": "c1cfd9da4acce7ed54d9588de852ce6994eb8a844f640a66eb18cde4857efd2c",
+    "before_sha256": "88007ed686206e0dd9c0a18c4fc55783dcee3b97b505e28418cf957c6fa65be2",
     "after_sha256": null
   },
   {
-    "path": "Audit/cleanup_editor_cache-fresh2abi.ps1",
+    "path": "Audit/cleanup_editor_cache-fresh2abi.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 2733,
+    "before_bytes": 412,
     "after_bytes": null,
-    "before_sha256": "e38d02414c094d31fab8fad61a262f8bb1caaeb65257284da630e78f3952cfad",
+    "before_sha256": "cadced0401221f37edc2e8482858264a2fc28450510ebea55554c536a53beb30",
     "after_sha256": null
   },
   {
-    "path": "Audit/cleanup_editor_cache.ps1",
+    "path": "Audit/cleanup_editor_cache.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 2597,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "2bb05ee0963efbeb88f8b3244f2eb24c5ef6d5ad4d06e5e617eb04f61fb71113",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
-    "path": "Audit/cleanup_generated.ps1",
+    "path": "Audit/cleanup_generated.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 2133,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "bde58d6de4ebfe33c788606116b4189c719e30e6b382059bd9a5c345da55b984",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
@@ -952,11 +952,11 @@
     "after_sha256": null
   },
   {
-    "path": "Audit/export_physics7.py",
+    "path": "Audit/export_physics7.py.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 4996,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "a9584a7e445f31a912fd63cc82978d44e5afd8ee7b85a07525fdf882c7b8e096",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
@@ -968,27 +968,27 @@
     "after_sha256": null
   },
   {
-    "path": "Audit/finish_gradle_recovery-fresh2abi.ps1",
+    "path": "Audit/finish_gradle_recovery-fresh2abi.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 6293,
+    "before_bytes": 412,
     "after_bytes": null,
-    "before_sha256": "a58064933e3542b9a29723aaab2c78b8bd035a83efc5dbe850d25422056db055",
+    "before_sha256": "cadced0401221f37edc2e8482858264a2fc28450510ebea55554c536a53beb30",
     "after_sha256": null
   },
   {
-    "path": "Audit/finish_gradle_recovery.ps1",
+    "path": "Audit/finish_gradle_recovery.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 3443,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "dfced99ee5d4235a7b372885623d75ebe90b3eac76125d09ddbca02de7ebb0a9",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
-    "path": "Audit/fresh2abi_recovery_guard.ps1",
+    "path": "Audit/fresh2abi_recovery_guard.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 15617,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "0fce2e376aa65f0735b341ecfdd7aa66bccdd1aa6f0797a6638c054d6d68dec4",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
@@ -1016,19 +1016,19 @@
     "after_sha256": null
   },
   {
-    "path": "Audit/prepare_hull_patch7.py",
+    "path": "Audit/prepare_hull_patch7.py.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 2820,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "f8022860d44c70125a2e79ad9ac505e88772a7512b48549985c8605cf373d8c8",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
-    "path": "Audit/retry_native_unit.py",
+    "path": "Audit/retry_native_unit.py.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 956,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "f33d2269f8600284862ffaf70da5f27f4a8484c807bcd2b435427bb396d5ae34",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
@@ -1048,20 +1048,20 @@
     "after_sha256": null
   },
   {
-    "path": "Audit/verify_apk.ps1",
+    "path": "Audit/verify_apk.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 2963,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "6c06ddf2607ac402d55c8aef1615639132c8daada2662696f499ad12c3e555e3",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
-    "path": "Audit/물리_수정_적용.py",
+    "path": "Audit/물리_수정_적용.py.PUBLIC-NOTE.md",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 9239,
+    "after_bytes": 390,
     "before_sha256": null,
-    "after_sha256": "651af9412cbb994ea459cd1a6061c39d811cdfef516a5ef15154c76971ea879a"
+    "after_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774"
   },
   {
     "path": "Audit/수정_범위와_검증.md",
@@ -1069,7 +1069,7 @@
     "before_bytes": null,
     "after_bytes": 1805,
     "before_sha256": null,
-    "after_sha256": "bcceb27df32ea619520f044e0eb99dbb78adeb322ee8dceb719aa7744b55bacf"
+    "after_sha256": "3ef7aef233332277fb1ccdaf95eee889bf2165ab09d9295bb2889b3de937dd27"
   },
   {
     "path": "Audit/수집과_성장_수정_적용.py",
@@ -1096,20 +1096,20 @@
     "after_sha256": "7d31d5b06fe426cef69f0d0d3ec7ea49017720a411dc65d15ced3866f552c484"
   },
   {
-    "path": "Audit/원본_재검토.py",
+    "path": "Audit/원본_재검토.py.PUBLIC-NOTE.md",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 4213,
+    "after_bytes": 390,
     "before_sha256": null,
-    "after_sha256": "3934a47fadd608469ac45675b89a071b025cafe76fb85190ce06a3426ed93a9f"
+    "after_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774"
   },
   {
     "path": "Audit/작업_중단_기록.md",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 4450,
+    "after_bytes": 4245,
     "before_sha256": null,
-    "after_sha256": "6307d5f735b81b23b0228fb1b93b3c030eb8c3f7bc4d9bba1d29e00c19a4f40f"
+    "after_sha256": "e9e252d1f299d1d4fd1b218b960ef654f545b6565d25b3252b9bfeee3d9a869e"
   },
   {
     "path": "Previews/DesktopFrameTimes.txt",
@@ -1226,9 +1226,9 @@
   {
     "path": "Source/TestResults/AndroidGradleBuild.txt",
     "status": "이전만 존재",
-    "before_bytes": 412,
+    "before_bytes": 382,
     "after_bytes": null,
-    "before_sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7",
+    "before_sha256": "e7e4fb6b657806919a469d13a7c3c18f8757a052997447aa7c1caeeb2cbe3be5",
     "after_sha256": null
   },
   {
@@ -1594,9 +1594,9 @@
   {
     "path": "Verification/AnalysisCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 607,
+    "before_bytes": 383,
     "after_bytes": null,
-    "before_sha256": "913b0770ec5d4620c2e545a9a908a229eb5b7cd9566327ac7ba3f2aeba4dcd32",
+    "before_sha256": "d5ed527fdd06d8c24252270388a1284b30b49dd279bed4c4dcd23eb47a269f5b",
     "after_sha256": null
   },
   {
@@ -1626,17 +1626,17 @@
   {
     "path": "Verification/AndroidGradleBuild.txt",
     "status": "이전만 존재",
-    "before_bytes": 412,
+    "before_bytes": 382,
     "after_bytes": null,
-    "before_sha256": "94f48b8c9bcc0361ea1cec1dfa5fe77fd2f21e63ea7d595e719e5ebe8a309df7",
+    "before_sha256": "e7e4fb6b657806919a469d13a7c3c18f8757a052997447aa7c1caeeb2cbe3be5",
     "after_sha256": null
   },
   {
     "path": "Verification/AndroidPlayerCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 402,
+    "before_bytes": 334,
     "after_bytes": null,
-    "before_sha256": "e784f0dd4868dbca1781b6e9597aca1866bf13c4c63d427e4f0c5fe19e3b6ad1",
+    "before_sha256": "82b3818a527d13a5cbd91791138238d718209901d11a32f839e92b9b4383e4a3",
     "after_sha256": null
   },
   {
@@ -1674,9 +1674,9 @@
   {
     "path": "Verification/ArchitecturePlan.json",
     "status": "이전만 존재",
-    "before_bytes": 1018,
+    "before_bytes": 962,
     "after_bytes": null,
-    "before_sha256": "2e5185b88a6ac6f9a0c4ee2c0b251663559325a19e27554d5408e048a64a8cf6",
+    "before_sha256": "879a32d15ee0567f068429367a006b51b242ae20eb8b02b0a62a9bfc0c39769a",
     "after_sha256": null
   },
   {
@@ -1690,9 +1690,9 @@
   {
     "path": "Verification/BuildCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 250,
+    "before_bytes": 216,
     "after_bytes": null,
-    "before_sha256": "e8591b62557e0491d6ea00544da33df53d16be60b45522b51f170b6eb8305fdc",
+    "before_sha256": "6eeaaf585f9a002461de535f4518a0a3fc6d0954c0c823309f565c65ed037fbc",
     "after_sha256": null
   },
   {
@@ -1810,9 +1810,9 @@
   {
     "path": "Verification/FinalPreviewCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 396,
+    "before_bytes": 328,
     "after_bytes": null,
-    "before_sha256": "c57e09254fa9462496812205cc4cf314d2443d3f60cebcd3a5a8720a4a3cf279",
+    "before_sha256": "b9880f60990207ec04715f830a3874bebb65872768dc690cae82c005c119cd7f",
     "after_sha256": null
   },
   {
@@ -1882,17 +1882,17 @@
   {
     "path": "Verification/Fresh2AbiGradleRecoveryCompleted.json",
     "status": "이전만 존재",
-    "before_bytes": 564,
+    "before_bytes": 496,
     "after_bytes": null,
-    "before_sha256": "ad2b183855278a2fc2780885b4780a7ae0e0a4928f63230b0486255133a58a73",
+    "before_sha256": "54d611fdb69b561928fd091fd9b5a51d1766c0cd300b539abfc855a7aadb4a8d",
     "after_sha256": null
   },
   {
     "path": "Verification/Fresh2AbiRecoveryEvidence.json",
     "status": "이전만 존재",
-    "before_bytes": 1138883,
+    "before_bytes": 1138679,
     "after_bytes": null,
-    "before_sha256": "1d6c12334af1024a943f98885f46c224c6d212dbd300d928c71475b25104fd3a",
+    "before_sha256": "b3e7e867764f024779bae2218e2f944fa7ecd0779f837f83008add6c0da8b60e",
     "after_sha256": null
   },
   {
@@ -1914,33 +1914,33 @@
   {
     "path": "Verification/FreshNativeCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 1045,
+    "before_bytes": 943,
     "after_bytes": null,
-    "before_sha256": "3b804ac08f5aaf4f1204afad8f22db3457acfa70dd54043636aa39df68008347",
+    "before_sha256": "3808a3a5ff66f0fb42a13be28f6d65e915bdf1fb41142f472ad4f8d02f2ac5cc",
     "after_sha256": null
   },
   {
     "path": "Verification/FreshPlayerCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 1110649,
+    "before_bytes": 1110615,
     "after_bytes": null,
-    "before_sha256": "95bd9d909ddd34a3552ca6fdaee239b2d07007fd26e17612be9833258c07ec25",
+    "before_sha256": "8e8b96b74f10824f79085e78f3e944488a3edadb4dffe379b1d48ad9122d63fd",
     "after_sha256": null
   },
   {
     "path": "Verification/GradleCacheCompression.json",
     "status": "이전만 존재",
-    "before_bytes": 9271,
+    "before_bytes": 8789,
     "after_bytes": null,
-    "before_sha256": "a2cfd9e02c9267421f8ae9f0b8ad6c7a56eaa7b008ee3a532c5e4815582c306d",
+    "before_sha256": "c4186a90c49a26e2aa8b9b39c8d45d0ff79384466e12fd7f5ab027bc1e33ae4d",
     "after_sha256": null
   },
   {
     "path": "Verification/GradleRecoveryCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 3307,
+    "before_bytes": 2865,
     "after_bytes": null,
-    "before_sha256": "6c7892f9280c685289d5146645d4c90033a82901c58e8056c3cfcb838b3641dc",
+    "before_sha256": "39a8b83129c27029863189e49f16ce617605bb86a80ca76be63578341b6a2a87",
     "after_sha256": null
   },
   {
@@ -2010,17 +2010,17 @@
   {
     "path": "Verification/ObsoleteAndroidCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 500,
+    "before_bytes": 466,
     "after_bytes": null,
-    "before_sha256": "b0f5067d6d8ef4b1a9860eaaccddb2a82b0a3c70a1914c72726468b3137f39a9",
+    "before_sha256": "36f651aff71b2d094f326d44234bdd185845a9a375301c8d6be4490732101e1d",
     "after_sha256": null
   },
   {
     "path": "Verification/ObsoleteGradleTransformCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 398,
+    "before_bytes": 382,
     "after_bytes": null,
-    "before_sha256": "9efbd226cc5e84774335b7d69d075b8df2b34d6bb2ae81423ea31ce65231d411",
+    "before_sha256": "d45d5586fe93c37a790db8129f52efeb9292047f131d121543eedd1bb81c43ca",
     "after_sha256": null
   },
   {
@@ -2066,9 +2066,9 @@
   {
     "path": "Verification/PrePackageCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 769,
+    "before_bytes": 667,
     "after_bytes": null,
-    "before_sha256": "63dd1433aa330293b68f980dc50defd1bed03fe605c0703d09c8b06b9b89f094",
+    "before_sha256": "2f29c8bb9f19a069e7dca72581438440902761b9f12ff323546151259fcd92cf",
     "after_sha256": null
   },
   {
@@ -2082,17 +2082,17 @@
   {
     "path": "Verification/PriorWorkGeneratedCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 697,
+    "before_bytes": 529,
     "after_bytes": null,
-    "before_sha256": "a4b158444e9f5178e57b6853ad930663ad3860fd3f7d209f1268f8ebd50d2a5a",
+    "before_sha256": "b569ee2d9bed0a3a92e86db755007a1e840ef2264430c58a8a0b0594f9035176",
     "after_sha256": null
   },
   {
     "path": "Verification/PriorWorkingCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 390,
+    "before_bytes": 334,
     "after_bytes": null,
-    "before_sha256": "f10edc7e03768f4a4d55bef16e0be6549e53e7bd6354897ba1f4852267377688",
+    "before_sha256": "3eb3b0a267f0d810409f53de2ad2c71e101b023878b038ea5777b7f0d7566cb7",
     "after_sha256": null
   },
   {
@@ -2586,9 +2586,9 @@
   {
     "path": "Verification/StorageCompression.json",
     "status": "이전만 존재",
-    "before_bytes": 1079,
+    "before_bytes": 841,
     "after_bytes": null,
-    "before_sha256": "6a53590d6ba62b6a6296be10547556718801d04a4b6eed945736c7630c8ca03a",
+    "before_sha256": "fd9720c7094243e68ca4608c3eec0745f5c1597edf4d1bf023070c31cfdef188",
     "after_sha256": null
   },
   {
@@ -2602,201 +2602,201 @@
   {
     "path": "Verification/Tests-before-final-20261013T103550Z.xml",
     "status": "이전만 존재",
-    "before_bytes": 59684,
+    "before_bytes": 59504,
     "after_bytes": null,
-    "before_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "before_sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-campaign-all30-initial.xml",
     "status": "이전만 존재",
-    "before_bytes": 9116,
+    "before_bytes": 8986,
     "after_bytes": null,
-    "before_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "before_sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-campaign-basket-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 4704,
+    "before_bytes": 4574,
     "after_bytes": null,
-    "before_sha256": "3180fec8be477e6a3d03615c75c7cd225a5cfd0cabb13736f8f882694fc14323",
+    "before_sha256": "8701fa6ee12a83b11737dc4871e910cade294451396cc7d2759106fe1678c937",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-campaign-diagonal-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5707,
+    "before_bytes": 5577,
     "after_bytes": null,
-    "before_sha256": "cefaaa2069f407f97849be12b7a66d363e524230127177f1e48a74729291aa2e",
+    "before_sha256": "2a3fe50fc056ec99db1651fdc65dbc106bae2ecbaa6dc1c4cf7a5c14996e2a56",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-campaign-edge-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3786,
+    "before_bytes": 3656,
     "after_bytes": null,
-    "before_sha256": "d61b72c8e092395fc5f372565e0202d17305fdfbeeaf8d166bbd739ce977a5e7",
+    "before_sha256": "6fde7110d91418df2d8b7db2104bc05cf1385ecf78588bf74af6d8f223ddf50a",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-campaign-exhaustion-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5704,
+    "before_bytes": 5574,
     "after_bytes": null,
-    "before_sha256": "377da3d29bf6e79e4072b9f3a180dd6d068f58f9a5f99811b43ad72715846910",
+    "before_sha256": "33adc7d4499063deee96d28e19fe828e93bf99db9e1341909fab929ef87fdfd2",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-campaign-intermittent-cluster-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5708,
+    "before_bytes": 5578,
     "after_bytes": null,
-    "before_sha256": "3645e35bf79e5b32169e86106410b066bba2eb37bd45f0710534f31386ccd54e",
+    "before_sha256": "2ec62460f3ed89391f69f58c3689bd2a70771e92d9679d6e6eb75f50de9c409a",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-campaign.xml",
     "status": "이전만 존재",
-    "before_bytes": 9116,
+    "before_bytes": 8986,
     "after_bytes": null,
-    "before_sha256": "640447bb1a830545e1dbf3118c35d43537f673e1513599494e6ec600f4d7f32d",
+    "before_sha256": "e893b796590b749536b4eaa67bd0a0b6b965d8bfc9a45af8236f2fb1bd8cf030",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-final.xml",
     "status": "이전만 존재",
-    "before_bytes": 65201,
+    "before_bytes": 65071,
     "after_bytes": null,
-    "before_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "before_sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-initial.xml",
     "status": "이전만 존재",
-    "before_bytes": 62497,
+    "before_bytes": 62167,
     "after_bytes": null,
-    "before_sha256": "700093b9d3128b115d0a60856bbd57c908823422350e67541ebaeb40d4094a84",
+    "before_sha256": "f4853ceb027cfa2ac0078014548202f3e68afaa595a084883e289aa39e1dc1e8",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-remaining.xml",
     "status": "이전만 존재",
-    "before_bytes": 12266,
+    "before_bytes": 12136,
     "after_bytes": null,
-    "before_sha256": "ac253f221a1715c0e65b0378b79ba1d89c4d6c89e285aa6d8b82f314d4baea6f",
+    "before_sha256": "2fe8c4faacd273fdac423f74f1b212af3b0239c10449457aecab05ef94982436",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests-second.xml",
     "status": "이전만 존재",
-    "before_bytes": 59684,
+    "before_bytes": 59504,
     "after_bytes": null,
-    "before_sha256": "7c280642573f6da821ed9047348fbac5c5df1d798e9579b6ad91dc23ca1a189f",
+    "before_sha256": "4123959b2d7e97f339bfd61951ca79b1215ff784d6cce90a6b9934de53c948a0",
     "after_sha256": null
   },
   {
     "path": "Verification/Tests.xml",
     "status": "이전만 존재",
-    "before_bytes": 65201,
+    "before_bytes": 65071,
     "after_bytes": null,
-    "before_sha256": "cb2d0e611ea8d399e66be16737c1760a002adf3b4ac07a5c9213061c70348b8c",
+    "before_sha256": "7785c53b3bade23ccb6e1499ce7d1fb212d16fc0bd2d93fa2d4bff7d20868602",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceFocusedSix-before-rotated-floor.xml",
     "status": "이전만 존재",
-    "before_bytes": 5015,
+    "before_bytes": 4885,
     "after_bytes": null,
-    "before_sha256": "c63bddba2b71a2cb083c4838fdc5053c97c4bae6d63d3642684dce9c353dcc59",
+    "before_sha256": "2e849b56752dfec858d98f0ecb0e1f52140cb358ebfd3e7291b860287332cee7",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceFocusedSix.xml",
     "status": "이전만 존재",
-    "before_bytes": 6147,
+    "before_bytes": 6017,
     "after_bytes": null,
-    "before_sha256": "6c8127d7f20b43e89888aa68f9cf09f1c5367c5d5b1d3355dab356c640b153d3",
+    "before_sha256": "271c3b52a240c2594ce137eef97b2ec827ff7ae9d7ba7475079d1f61eccb6566",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage11-cluster-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3750,
+    "before_bytes": 3620,
     "after_bytes": null,
-    "before_sha256": "299bd2686199e1213fbedf52b7697f21c0f92733fcb156ee0df6b79863e01ace",
+    "before_sha256": "85065124913e5e96d47e91dd73e876f36ccb147a66bfc053744d88c1a6f35caa",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage11-conservative-fit-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3749,
+    "before_bytes": 3619,
     "after_bytes": null,
-    "before_sha256": "76e24aa0196014307c23a828c9ddb5cd9b419b4e66d9fb47160e3adcd40127a6",
+    "before_sha256": "db80b69853ee43c24179db1674fccd5022b6d180b77fe02c7083d44aaac2c697",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage11-passed-before-geometry.xml",
     "status": "이전만 존재",
-    "before_bytes": 2666,
+    "before_bytes": 2586,
     "after_bytes": null,
-    "before_sha256": "780ee41d620f3f3c3bf3299470394683a97aaa6a1045f52a7858556775a4f3ec",
+    "before_sha256": "68aae71ddbbbe785df8fc952a67004b5cc0b34cfbc79a3a8bb1f837fc54dac16",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage11.xml",
     "status": "이전만 존재",
-    "before_bytes": 2666,
+    "before_bytes": 2586,
     "after_bytes": null,
-    "before_sha256": "c8c6d224fbb15d0be3cd3879b479fab0b0164540c7c1ae3bf6bb83344f7afd7a",
+    "before_sha256": "99ad9ecdefd72ea09c5f695f2c5fd4b4d29454adbfe3a5d159ea6495cadbf519",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage14-centered-aim-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 3740,
+    "before_bytes": 3610,
     "after_bytes": null,
-    "before_sha256": "e8da1d213f42da41aeee58eb449fc6fdcd522afa46216d91eada396cb7a72554",
+    "before_sha256": "8530c22eb17250a4b6795f61d6a73319377cf3677f70730578f75e5a5129eba0",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage14.xml",
     "status": "이전만 존재",
-    "before_bytes": 2661,
+    "before_bytes": 2581,
     "after_bytes": null,
-    "before_sha256": "7789493baa413bd916ecd4ad56d7a2248794616e7ebd72ff04854c8c8835077c",
+    "before_sha256": "8eb5664a0ff2bfdc50d7770e2590e93c1ba90d11c6d53e0836c41d8a34a1d1ce",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage26.xml",
     "status": "이전만 존재",
-    "before_bytes": 5059,
+    "before_bytes": 4929,
     "after_bytes": null,
-    "before_sha256": "0d4e628316ac04e49930c7d68925832eaf606bdbfced071ecb2a4a66fd17e754",
+    "before_sha256": "1f35451dad66027f07c0721b25a4dfaa083e0615a58c9c86c5eb3cd03c141fc1",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage3.xml",
     "status": "이전만 존재",
-    "before_bytes": 2665,
+    "before_bytes": 2585,
     "after_bytes": null,
-    "before_sha256": "e8cf19d2b08d0fb966efc4f5b2ed71c18effd16eef0d565bdf1299e2b07cfe65",
+    "before_sha256": "eae2ad37f58c17140559d8084f3722a0b114692046a8e127256d493506b232e0",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage9-wide-probes-failure.xml",
     "status": "이전만 존재",
-    "before_bytes": 5049,
+    "before_bytes": 4919,
     "after_bytes": null,
-    "before_sha256": "ec752c4594f298af570bdcc0d51d3655414eb339f6ac32498159461ad4d85ad1",
+    "before_sha256": "6c83522e5a4c818240ab59ba109f4c6c8cbe1a0a1a9b6d38a49663dd5fee2f44",
     "after_sha256": null
   },
   {
     "path": "Verification/TraceStage9.xml",
     "status": "이전만 존재",
-    "before_bytes": 4326,
+    "before_bytes": 4246,
     "after_bytes": null,
-    "before_sha256": "8c29a0902e6a46e2f2a5f45464df907d1a8833c3279b3cb21d78f9fd2781e09f",
+    "before_sha256": "dbb9bcf52d82e2f5039ffb66dd31e57edcf098d31630fce2e9aea7ba07ff75e2",
     "after_sha256": null
   },
   {
@@ -2834,33 +2834,33 @@
   {
     "path": "Verification/VerificationSnapshotDifference.patch",
     "status": "이전만 존재",
-    "before_bytes": 18787,
+    "before_bytes": 221,
     "after_bytes": null,
-    "before_sha256": "d5cc6d9becbade86dad95ae5bffb0e171cffb2cc84ac819caad08913432b943a",
+    "before_sha256": "65f8b6b6c2f82fadeb036352c928e4e8a39eb5344c221ee464f02ab50c2d7cd3",
     "after_sha256": null
   },
   {
     "path": "Verification/WindowsCacheCleanup.json",
     "status": "이전만 존재",
-    "before_bytes": 199,
+    "before_bytes": 165,
     "after_bytes": null,
-    "before_sha256": "c1cfd9da4acce7ed54d9588de852ce6994eb8a844f640a66eb18cde4857efd2c",
+    "before_sha256": "88007ed686206e0dd9c0a18c4fc55783dcee3b97b505e28418cf957c6fa65be2",
     "after_sha256": null
   },
   {
-    "path": "Verification/cleanup_editor_cache-fresh2abi.ps1",
+    "path": "Verification/cleanup_editor_cache-fresh2abi.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 2733,
+    "before_bytes": 412,
     "after_bytes": null,
-    "before_sha256": "e38d02414c094d31fab8fad61a262f8bb1caaeb65257284da630e78f3952cfad",
+    "before_sha256": "cadced0401221f37edc2e8482858264a2fc28450510ebea55554c536a53beb30",
     "after_sha256": null
   },
   {
-    "path": "Verification/cleanup_editor_cache.ps1",
+    "path": "Verification/cleanup_editor_cache.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 2700,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "2281816fb7083cd733544ead5184fac442b9807cba16fe5da3af38a1eeaa378b",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
@@ -2872,27 +2872,27 @@
     "after_sha256": null
   },
   {
-    "path": "Verification/finish_gradle_recovery-fresh2abi.ps1",
+    "path": "Verification/finish_gradle_recovery-fresh2abi.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 6293,
+    "before_bytes": 412,
     "after_bytes": null,
-    "before_sha256": "a58064933e3542b9a29723aaab2c78b8bd035a83efc5dbe850d25422056db055",
+    "before_sha256": "cadced0401221f37edc2e8482858264a2fc28450510ebea55554c536a53beb30",
     "after_sha256": null
   },
   {
-    "path": "Verification/finish_gradle_recovery.ps1",
+    "path": "Verification/finish_gradle_recovery.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 3546,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "1ae3793fa23327a3ba2fe9e99454cd4ac3b99ba1a7a06b4e6d4f8a4fddbddf25",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {
-    "path": "Verification/fresh2abi_recovery_guard.ps1",
+    "path": "Verification/fresh2abi_recovery_guard.ps1.PUBLIC-NOTE.md",
     "status": "이전만 존재",
-    "before_bytes": 15721,
+    "before_bytes": 390,
     "after_bytes": null,
-    "before_sha256": "e14f2e1682a5f3f8535244d82c74056444a691ac16af63cd86d0c69e3489730f",
+    "before_sha256": "466d16fbb803f85bdf598010e73107ff45b526e0d72879c43533d9799c8a5774",
     "after_sha256": null
   },
   {

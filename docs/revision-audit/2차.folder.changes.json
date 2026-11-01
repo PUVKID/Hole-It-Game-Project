@@ -23443,25 +23443,25 @@
     "path": "Verification/english-edit.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 10345,
+    "after_bytes": 10245,
     "before_sha256": null,
-    "after_sha256": "054fa88b601db8efbd667da16e4f370e7348e74bcf7183489672b11b09228e8a"
+    "after_sha256": "6817d47bf8a738883c6eb3258e3c8434dd55841f9f809d87c2e4f17923bf99fc"
   },
   {
     "path": "Verification/english-play.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 12193,
+    "after_bytes": 12093,
     "before_sha256": null,
-    "after_sha256": "09e411b040ab73a79af07a085a98ad99291dcf3bf7f32a78d2e8594aed21287b"
+    "after_sha256": "f5e759438b55142b1e84f61df4c2d378e136cf50dc00d8573ae5c89fd9afd066"
   },
   {
     "path": "Verification/gameplay-play.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 12919,
+    "after_bytes": 12819,
     "before_sha256": null,
-    "after_sha256": "0f8ec18ce193ffa3e7f135dcc9c1cd115f8f46f014d73ff769d183e31d0c4989"
+    "after_sha256": "2a686e8e145d69d4817026bdf4df4a71ff112293755dce2946cbb523f2806d5f"
   },
   {
     "path": "Verification/검사_설명.txt",

@@ -2,17 +2,17 @@
   "Utc": "2026-10-13T11:07:15.6670750Z",
   "RemovedGeneratedOnly": [
     {
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library",
+      "Path": ".\\7차\\Source\\Library",
       "Files": 28025,
       "LogicalBytes": 4157481577.0
     },
     {
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Logs",
+      "Path": ".\\7차\\Source\\Logs",
       "Files": 1,
       "LogicalBytes": 211.0
     },
     {
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\.utmp",
+      "Path": ".\\7차\\Source\\.utmp",
       "Files": 270,
       "LogicalBytes": 10278794.0
     }

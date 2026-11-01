@@ -1,6 +1,6 @@
 {
   "Status": "applied_after_final_regression_exit",
-  "OriginalInput": "C:\\Users\\PUVKID\\Desktop\\Hole+it!_1.31.17_APKPure.xapk",
+  "OriginalInput": ".",
   "OriginalManifestArchitectureSplit": "config.armeabi_v7a",
   "PreviousTargets": [
     "armeabi-v7a",

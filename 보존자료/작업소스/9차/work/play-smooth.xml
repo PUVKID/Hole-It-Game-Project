@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1011" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/PocketPit/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 17:21:47Z" end-time="2026-10-12 17:22:45Z" duration="57.966141" total="8" passed="7" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1011" name="HoleIt.PlayModeTests.dll" fullname="./work/PocketPit/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 17:21:47Z" end-time="2026-10-12 17:22:45Z" duration="57.966141" total="8" passed="7" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="69328" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -72,7 +72,7 @@
   Expected: LevelClear
   But was:  Playing
 ]]></message>
-            <stack-trace><![CDATA[at ReleasePlayTests+<AllThirtyLevelsCompleteThroughPhysicalSwallowing>d__10.MoveNext () [0x00328] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\PocketPit\Assets\Tests\PlayMode\ReleasePlayTests.cs:67
+            <stack-trace><![CDATA[at ReleasePlayTests+<AllThirtyLevelsCompleteThroughPhysicalSwallowing>d__10.MoveNext () [0x00328] in .\work\PocketPit\Assets\Tests\PlayMode\ReleasePlayTests.cs:67
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -90,7 +90,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\play-smooth.xml
+          <output><![CDATA[Saving results to: .\work\play-smooth.xml
 ]]></output>
         </test-case>
       </test-suite>

@@ -1,8 +1,8 @@
 {
-  "original_generated_bytes": 99226549,
-  "original_generated_sha256": "0ddea294c8e128a3a029faa00b619466c79f2a68401e506b065ac84642add7c7",
-  "rejoined_bytes": 99226549,
-  "rejoined_sha256": "0ddea294c8e128a3a029faa00b619466c79f2a68401e506b065ac84642add7c7",
+  "original_generated_bytes": 99226515,
+  "original_generated_sha256": "883b2a7fdf2a34213d3007f23b0e10ac9571d80f17261916d1892708a97e55f9",
+  "rejoined_bytes": 99226515,
+  "rejoined_sha256": "883b2a7fdf2a34213d3007f23b0e10ac9571d80f17261916d1892708a97e55f9",
   "byte_identical": true,
   "strict_utf8_parts": true,
   "parts": [
@@ -38,8 +38,8 @@
     },
     {
       "path": "9차.part007.patch",
-      "bytes": 6723226,
-      "sha256": "573bbb0fb740650a08bd7cd9f7ca761ffa0a7c939b0643c418744d25a2e7fb64"
+      "bytes": 6723192,
+      "sha256": "b9e35fc2b54425c585593ac9d0bc546ec77bf95c9ec189e14e258da25ca0d338"
     }
   ]
 }

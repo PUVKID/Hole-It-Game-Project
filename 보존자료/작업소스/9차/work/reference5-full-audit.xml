@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1020" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-10-12 20:23:23Z" end-time="2026-10-12 20:25:33Z" duration="129.732111" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1020" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="16" result="Failed" site="Child" start-time="2026-10-12 20:23:23Z" end-time="2026-10-12 20:25:33Z" duration="129.732111" total="4" passed="3" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="41128" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -73,7 +73,7 @@ Level 459 unreachable start (0.00, 0.00, -57.97)
   Expected: <empty>
   But was:  < "Level 39 unreachable start (0.00, 0.00, -23.50)", "Level 40 unreachable start (0.00, 0.00, -23.50)", "Level 52 unreachable start (0.00, 0.00, -23.50)", "Level 53 unreachable start (0.00, 0.00, -23.50)", "Level 77 unreachable start (0.00, 0.00, -23.50)", "Level 116 unreachable start (0.00, 0.00, -23.50)", "Level 148 unreachable start (0.00, 0.00, -23.50)", "Level 150 unreachable start (0.00, 0.00, -23.50)", "Level 169 unreachable start (0.00, 0.00, -23.50)", "Level 178 unreachable start (0.00, 0.00, -23.50)"... >
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceFifthTests+<EveryAuthoredStageLoadsWithGoalsAndReachableStart>d__6.MoveNext () [0x003e7] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceFifthTests.cs:24
+            <stack-trace><![CDATA[at ReferenceFifthTests+<EveryAuthoredStageLoadsWithGoalsAndReachableStart>d__6.MoveNext () [0x003e7] in .\work\AndroidFinal\Assets\Tests\Reference\ReferenceFifthTests.cs:24
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -84,7 +84,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference5-full-audit.xml
+          <output><![CDATA[Saving results to: .\work\reference5-full-audit.xml
 ]]></output>
         </test-case>
       </test-suite>

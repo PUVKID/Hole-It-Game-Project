@@ -135009,7 +135009,7 @@
 +    <properties>
 +      <property name="platform" value="EditMode" />
 +    </properties>
-+    <test-suite type="Assembly" id="1017" name="HoleIt.EditModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.EditModeTests.dll" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-12 18:19:15Z" end-time="2026-10-12 18:19:15Z" duration="0.752756" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
++    <test-suite type="Assembly" id="1017" name="HoleIt.EditModeTests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/HoleIt.EditModeTests.dll" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-12 18:19:15Z" end-time="2026-10-12 18:19:15Z" duration="0.752756" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
 +      <properties>
 +        <property name="_PID" value="72496" />
 +        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -135103,7 +135103,7 @@
 +              <property name="retryIteration" value="0" />
 +              <property name="repeatIteration" value="0" />
 +            </properties>
-+            <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\english-edit.xml
++            <output><![CDATA[Saving results to: .\work\english-edit.xml
 +]]></output>
 +          </test-case>
 +        </test-suite>
@@ -135119,7 +135119,7 @@
 +    <properties>
 +      <property name="platform" value="PlayMode" />
 +    </properties>
-+    <test-suite type="Assembly" id="1020" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-12 18:19:28Z" end-time="2026-10-12 18:19:53Z" duration="25.540337" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
++    <test-suite type="Assembly" id="1020" name="HoleIt.PlayModeTests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-12 18:19:28Z" end-time="2026-10-12 18:19:53Z" duration="25.540337" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
 +      <properties>
 +        <property name="_PID" value="7992" />
 +        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -135234,7 +135234,7 @@
 +            <property name="retryIteration" value="0" />
 +            <property name="repeatIteration" value="0" />
 +          </properties>
-+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\english-play.xml
++          <output><![CDATA[Saving results to: .\work\english-play.xml
 +]]></output>
 +        </test-case>
 +      </test-suite>
@@ -135249,7 +135249,7 @@
 +    <properties>
 +      <property name="platform" value="PlayMode" />
 +    </properties>
-+    <test-suite type="Assembly" id="1020" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-12 18:09:43Z" end-time="2026-10-12 18:17:03Z" duration="439.223542" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
++    <test-suite type="Assembly" id="1020" name="HoleIt.PlayModeTests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-10-12 18:09:43Z" end-time="2026-10-12 18:17:03Z" duration="439.223542" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
 +      <properties>
 +        <property name="_PID" value="26524" />
 +        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -135372,7 +135372,7 @@
 +            <property name="retryIteration" value="0" />
 +            <property name="repeatIteration" value="0" />
 +          </properties>
-+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\gameplay-play.xml
++          <output><![CDATA[Saving results to: .\work\gameplay-play.xml
 +]]></output>
 +        </test-case>
 +      </test-suite>

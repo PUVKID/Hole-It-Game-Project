@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1010" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:15:50Z" end-time="2026-10-12 19:16:55Z" duration="65.000744" total="8" passed="6" failed="2" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1010" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 19:15:50Z" end-time="2026-10-12 19:16:55Z" duration="65.000744" total="8" passed="6" failed="2" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="38192" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -41,7 +41,7 @@
   Expected: Won
   But was:  Playing
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__13.MoveNext () [0x0016a] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:22
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__13.MoveNext () [0x0016a] in .\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:22
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -63,7 +63,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <message><![CDATA[  Expected: greater than 1.13999999f
   But was:  0.957714081f
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceTests+<FirstStageCompletesUsingCappedMovement>d__11.MoveNext () [0x0011d] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:19
+            <stack-trace><![CDATA[at ReferenceTests+<FirstStageCompletesUsingCappedMovement>d__11.MoveNext () [0x0011d] in .\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:19
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -93,7 +93,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-growth-tests.xml
+          <output><![CDATA[Saving results to: ./work/reference-growth-tests.xml
 ]]></output>
         </test-case>
       </test-suite>

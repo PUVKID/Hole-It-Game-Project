@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1029" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-10-12 18:56:52Z" end-time="2026-10-12 18:59:02Z" duration="130.397730" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1029" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2026-10-12 18:56:52Z" end-time="2026-10-12 18:59:02Z" duration="130.397730" total="7" passed="6" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="48644" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -41,7 +41,7 @@
   Expected: Won
   But was:  Lost
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__12.MoveNext () [0x0016a] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:21
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__12.MoveNext () [0x0016a] in .\work\AndroidFinal\Assets\Tests\Reference\ReferenceTests.cs:21
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -79,7 +79,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference-tests.xml
+          <output><![CDATA[Saving results to: .\work\reference-tests.xml
 ]]></output>
         </test-case>
       </test-suite>

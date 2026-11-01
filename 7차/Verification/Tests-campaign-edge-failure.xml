@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1096" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-13 07:22:26Z" end-time="2026-10-13 07:24:49Z" duration="142.674872" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1096" name="Reference.Tests.dll" fullname="./work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="78" result="Failed" site="Child" start-time="2026-10-13 07:22:26Z" end-time="2026-10-13 07:24:49Z" duration="142.674872" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="56672" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -34,11 +34,11 @@
   Expected: Won
   But was:  Playing
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__15.MoveNext () [0x003f4] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:43
+            <stack-trace><![CDATA[at ReferenceTests+<AllThirtyStagesCompleteThroughMouthAndStackSimulation>d__15.MoveNext () [0x003f4] in .\work\Build7\Assets\Tests\Reference\ReferenceTests.cs:43
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Tests-campaign.xml
+          <output><![CDATA[Saving results to: .\7차\Audit\Tests-campaign.xml
 ]]></output>
         </test-case>
       </test-suite>

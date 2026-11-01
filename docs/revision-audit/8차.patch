@@ -2257,7 +2257,7 @@
 -Build ID: e4aee4b55b01409eaea73f79a47d6ebb
 -APK bytes: 624400385
 -APK SHA256: bdce979858f3ada8d3811f24a89c2ada806d03b5ad66a990d748adee09204a2a
--Fresh input evidence: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\Fresh2AbiRecoveryEvidence.json
+-Fresh input evidence: .\7차\Audit\Fresh2AbiRecoveryEvidence.json
 --- 7차/TestResults/FifthStageAudit.txt
 +++ 8차/TestResults/FifthStageAudit.txt
 @@ -1,465 +0,0 @@

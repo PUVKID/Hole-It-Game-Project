@@ -4,7 +4,7 @@
     <properties>
       <property name="platform" value="PlayMode" />
     </properties>
-    <test-suite type="Assembly" id="1015" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-12 17:49:42Z" end-time="2026-10-12 17:50:02Z" duration="20.698246" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1015" name="HoleIt.PlayModeTests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="11" result="Passed" start-time="2026-10-12 17:49:42Z" end-time="2026-10-12 17:50:02Z" duration="20.698246" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="60584" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -81,7 +81,7 @@
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\soft-play.xml
+          <output><![CDATA[Saving results to: .\work\soft-play.xml
 ]]></output>
         </test-case>
       </test-suite>

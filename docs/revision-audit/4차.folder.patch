@@ -493,7 +493,7 @@
 -    <properties>
 -      <property name="platform" value="PlayMode" />
 -    </properties>
--    <test-suite type="Assembly" id="1012" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:30:35Z" end-time="2026-10-12 19:30:36Z" duration="0.859543" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-    <test-suite type="Assembly" id="1012" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:30:35Z" end-time="2026-10-12 19:30:36Z" duration="0.859543" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
 -      <properties>
 -        <property name="_PID" value="74840" />
 -        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -508,7 +508,7 @@
 -            <property name="retryIteration" value="0" />
 -            <property name="repeatIteration" value="0" />
 -          </properties>
--          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-border-tests.xml
+-          <output><![CDATA[Saving results to: ./work/reference-border-tests.xml
 -]]></output>
 -        </test-case>
 -      </test-suite>
@@ -523,7 +523,7 @@
 -    <properties>
 -      <property name="platform" value="PlayMode" />
 -    </properties>
--    <test-suite type="Assembly" id="1012" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:35:36Z" end-time="2026-10-12 19:35:39Z" duration="3.559257" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+-    <test-suite type="Assembly" id="1012" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-10-12 19:35:36Z" end-time="2026-10-12 19:35:39Z" duration="3.559257" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
 -      <properties>
 -        <property name="_PID" value="57104" />
 -        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -538,7 +538,7 @@
 -            <property name="retryIteration" value="0" />
 -            <property name="repeatIteration" value="0" />
 -          </properties>
--          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-start-tests.xml
+-          <output><![CDATA[Saving results to: ./work/reference-start-tests.xml
 -]]></output>
 -        </test-case>
 -      </test-suite>
@@ -639,7 +639,7 @@
 -    <properties>
 -      <property name="platform" value="PlayMode" />
 -    </properties>
--    <test-suite type="Assembly" id="1011" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.269308" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+-    <test-suite type="Assembly" id="1011" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-10-12 19:25:53Z" end-time="2026-10-12 19:29:23Z" duration="210.269308" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
 -      <properties>
 -        <property name="_PID" value="68380" />
 -        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -709,7 +709,7 @@
 -            <property name="retryIteration" value="0" />
 -            <property name="repeatIteration" value="0" />
 -          </properties>
--          <output><![CDATA[Saving results to: C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/reference-release-tests.xml
+-          <output><![CDATA[Saving results to: ./work/reference-release-tests.xml
 -]]></output>
 -        </test-case>
 -      </test-suite>
@@ -857,7 +857,7 @@
 +    <properties>
 +      <property name="platform" value="PlayMode" />
 +    </properties>
-+    <test-suite type="Assembly" id="1015" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:48Z" end-time="2026-10-12 19:56:54Z" duration="5.735547" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
++    <test-suite type="Assembly" id="1015" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:48Z" end-time="2026-10-12 19:56:54Z" duration="5.735547" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
 +      <properties>
 +        <property name="_PID" value="72408" />
 +        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -899,7 +899,7 @@
 +            <property name="retryIteration" value="0" />
 +            <property name="repeatIteration" value="0" />
 +          </properties>
-+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference4-regression-tests.xml
++          <output><![CDATA[Saving results to: .\work\reference4-regression-tests.xml
 +]]></output>
 +        </test-case>
 +      </test-suite>
@@ -914,7 +914,7 @@
 +    <properties>
 +      <property name="platform" value="PlayMode" />
 +    </properties>
-+    <test-suite type="Assembly" id="1015" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:20Z" end-time="2026-10-12 19:56:22Z" duration="2.108080" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
++    <test-suite type="Assembly" id="1015" name="Reference.Tests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="12" result="Passed" start-time="2026-10-12 19:56:20Z" end-time="2026-10-12 19:56:22Z" duration="2.108080" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
 +      <properties>
 +        <property name="_PID" value="17572" />
 +        <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -936,7 +936,7 @@
 +            <property name="retryIteration" value="0" />
 +            <property name="repeatIteration" value="0" />
 +          </properties>
-+          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\reference4-touch-tests.xml
++          <output><![CDATA[Saving results to: .\work\reference4-touch-tests.xml
 +]]></output>
 +        </test-case>
 +      </test-suite>

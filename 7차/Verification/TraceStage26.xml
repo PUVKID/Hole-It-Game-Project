@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1105" name="Reference.Tests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-13 09:57:33Z" end-time="2026-10-13 10:02:41Z" duration="307.800399" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1105" name="Reference.Tests.dll" fullname="./work/Build7/Library/ScriptAssemblies/Reference.Tests.dll" runstate="Runnable" testcasecount="87" result="Failed" site="Child" start-time="2026-10-13 09:57:33Z" end-time="2026-10-13 10:02:41Z" duration="307.800399" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="1824" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -34,7 +34,7 @@
   Expected: Won
   But was:  Playing
 ]]></message>
-            <stack-trace><![CDATA[at ReferenceSeventhStageProbeTests+<StageTwentySixCapsuleAxisTrace>d__1.MoveNext () [0x00331] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\Build7\Assets\Tests\Reference\ReferenceSeventhStageProbeTests.cs:28
+            <stack-trace><![CDATA[at ReferenceSeventhStageProbeTests+<StageTwentySixCapsuleAxisTrace>d__1.MoveNext () [0x00331] in .\work\Build7\Assets\Tests\Reference\ReferenceSeventhStageProbeTests.cs:28
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
@@ -47,7 +47,7 @@ at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .
             <property name="retryIteration" value="0" />
             <property name="repeatIteration" value="0" />
           </properties>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Desktop\Hole It\7차\Audit\TraceStage26.xml
+          <output><![CDATA[Saving results to: .\7차\Audit\TraceStage26.xml
 ]]></output>
         </test-case>
       </test-suite>

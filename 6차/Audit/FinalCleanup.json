@@ -1,7 +1,7 @@
 {
   "removedGeneratedDirectories": [
-    "C:\\Users\\PUVKID\\Desktop\\Hole It\\6차\\Source\\Logs",
-    "C:\\Users\\PUVKID\\Desktop\\Hole It\\6차\\Source\\Builds"
+    ".\\6차\\Source\\Logs",
+    ".\\6차\\Source\\Builds"
   ],
   "freedBytes": 617926656,
   "previousEditionsPreserved": true,

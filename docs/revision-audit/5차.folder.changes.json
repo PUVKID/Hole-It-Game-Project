@@ -522,17 +522,17 @@
   {
     "path": "Verification/reference4-regression-tests.xml",
     "status": "이전만 존재",
-    "before_bytes": 5001,
+    "before_bytes": 4901,
     "after_bytes": null,
-    "before_sha256": "96dd484daee7e9d57d48bde5ef1fe5ee172b5e2abe9882aab2f70f8fffe840a2",
+    "before_sha256": "e66ae27961c92609310f7125a124eed13a7efddad65c414ba2f838472ad41416",
     "after_sha256": null
   },
   {
     "path": "Verification/reference4-touch-tests.xml",
     "status": "이전만 존재",
-    "before_bytes": 3218,
+    "before_bytes": 3118,
     "after_bytes": null,
-    "before_sha256": "cd24c307c7c74e7208675967d957271c10693ae6362c424e4f2bbdf9ca0b1362",
+    "before_sha256": "d4ab88485a818d28d2035f4ad8e1a9963925a5736d45fbc5733a133773278067",
     "after_sha256": null
   },
   {
@@ -547,9 +547,9 @@
     "path": "Verification/reference5-final-tests.xml",
     "status": "추가",
     "before_bytes": null,
-    "after_bytes": 15977,
+    "after_bytes": 15877,
     "before_sha256": null,
-    "after_sha256": "a0dd11a17137a233f33a1f89e03788596c433dda289fdce97bff8366c3f00236"
+    "after_sha256": "1e43b9706017a5c162dc8ee9f3a63785f2a15bf3ed009394ebeb3d148c4f0f51"
   },
   {
     "path": "읽어주세요.txt",

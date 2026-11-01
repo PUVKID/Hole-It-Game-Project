@@ -7,7 +7,7 @@
     <failure>
       <message><![CDATA[One or more child tests had errors]]></message>
     </failure>
-    <test-suite type="Assembly" id="1011" name="HoleIt.PlayModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/PocketPit/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 17:25:31Z" end-time="2026-10-12 17:26:12Z" duration="41.702353" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1011" name="HoleIt.PlayModeTests.dll" fullname="./work/PocketPit/Library/ScriptAssemblies/HoleIt.PlayModeTests.dll" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2026-10-12 17:25:31Z" end-time="2026-10-12 17:26:12Z" duration="41.702353" total="1" passed="0" failed="1" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="32536" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -34,11 +34,11 @@
   Expected: LevelClear
   But was:  Playing
 ]]></message>
-            <stack-trace><![CDATA[at ReleasePlayTests+<AllThirtyLevelsCompleteThroughPhysicalSwallowing>d__10.MoveNext () [0x004bd] in C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\PocketPit\Assets\Tests\PlayMode\ReleasePlayTests.cs:68
+            <stack-trace><![CDATA[at ReleasePlayTests+<AllThirtyLevelsCompleteThroughPhysicalSwallowing>d__10.MoveNext () [0x004bd] in .\work\PocketPit\Assets\Tests\PlayMode\ReleasePlayTests.cs:68
 at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a] in .\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:44
 ]]></stack-trace>
           </failure>
-          <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\tower-diagnostic.xml
+          <output><![CDATA[Saving results to: .\work\tower-diagnostic.xml
 ]]></output>
         </test-case>
       </test-suite>

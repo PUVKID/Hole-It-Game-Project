@@ -4,7 +4,7 @@
     <properties>
       <property name="platform" value="EditMode" />
     </properties>
-    <test-suite type="Assembly" id="1017" name="HoleIt.EditModeTests.dll" fullname="C:/Users/PUVKID/Documents/Codex/2026-10-13/new-chat/work/AndroidFinal/Library/ScriptAssemblies/HoleIt.EditModeTests.dll" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-12 18:09:30Z" end-time="2026-10-12 18:09:31Z" duration="0.777749" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <test-suite type="Assembly" id="1017" name="HoleIt.EditModeTests.dll" fullname="./work/AndroidFinal/Library/ScriptAssemblies/HoleIt.EditModeTests.dll" runstate="Runnable" testcasecount="14" result="Passed" start-time="2026-10-12 18:09:30Z" end-time="2026-10-12 18:09:31Z" duration="0.777749" total="14" passed="14" failed="0" inconclusive="0" skipped="0" asserts="0">
       <properties>
         <property name="_PID" value="74112" />
         <property name="_APPDOMAIN" value="Unity Child Domain" />
@@ -98,7 +98,7 @@
               <property name="retryIteration" value="0" />
               <property name="repeatIteration" value="0" />
             </properties>
-            <output><![CDATA[Saving results to: C:\Users\PUVKID\Documents\Codex\2026-10-13\new-chat\work\gameplay-edit.xml
+            <output><![CDATA[Saving results to: .\work\gameplay-edit.xml
 ]]></output>
           </test-case>
         </test-suite>

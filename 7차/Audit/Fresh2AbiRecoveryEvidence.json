@@ -15,42 +15,42 @@
   "NativeInputs": [
     {
       "Relative": "arm64-v8a\\libil2cpp.so",
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libil2cpp.so",
+      "Path": ".\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libil2cpp.so",
       "Bytes": 39704064,
       "SHA256": "32a59c798efa3cd8f98f5066bd24ab2024d87327f34e17cab1ef7ef7e2496b54",
       "CreationUtc": "2026-10-13T10:46:04.0124820Z"
     },
     {
       "Relative": "arm64-v8a\\libmain.so",
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libmain.so",
+      "Path": ".\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libmain.so",
       "Bytes": 6696,
       "SHA256": "d1472b24e12cf04d86af157637ee84e93d17a267561e8005a4626be35b2a0c8e",
       "CreationUtc": "2026-10-13T10:40:52.4626997Z"
     },
     {
       "Relative": "arm64-v8a\\libunity.so",
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libunity.so",
+      "Path": ".\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\arm64-v8a\\libunity.so",
       "Bytes": 18887136,
       "SHA256": "ac5650d71c8f1569b47d2fe9e948c26769785f621a27b77d763536a855240ed8",
       "CreationUtc": "2026-10-13T10:41:07.4637664Z"
     },
     {
       "Relative": "armeabi-v7a\\libil2cpp.so",
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libil2cpp.so",
+      "Path": ".\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libil2cpp.so",
       "Bytes": 33108000,
       "SHA256": "3f6b2f7b7edf6c7c2d6df2936d9b9fa1a9831eeae764deac1735f18c45846fe9",
       "CreationUtc": "2026-10-13T10:49:45.8362844Z"
     },
     {
       "Relative": "armeabi-v7a\\libmain.so",
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libmain.so",
+      "Path": ".\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libmain.so",
       "Bytes": 8260,
       "SHA256": "3cfda0534d4c9e1bbcc65dbf68de568fa04541ffe897e9b80181c5e61bd4b717",
       "CreationUtc": "2026-10-13T10:40:52.4561705Z"
     },
     {
       "Relative": "armeabi-v7a\\libunity.so",
-      "Path": "C:\\Users\\PUVKID\\Desktop\\Hole It\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libunity.so",
+      "Path": ".\\7차\\Source\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\src\\main\\jniLibs\\armeabi-v7a\\libunity.so",
       "Bytes": 14263004,
       "SHA256": "cd1be0481740171aa3dcb1882ed24afa670ee0ef17ef99dcec553a8b5be2d160",
       "CreationUtc": "2026-10-13T10:41:07.5631382Z"
