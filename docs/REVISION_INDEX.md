@@ -1,28 +1,16 @@
-# 🗂️ 차수별 변화
+# 🗂️ 차수별 독립 프로젝트 안내
 
-[🏠 프로젝트](../README.md) · [**📖 전체 차수·세부 설명·파일별 비교 열기 →**](REVISION_AUDIT.md)
+[🏠 프로젝트 첫 화면](../README.md)에서 전체 구현을 읽고 아래에서 실제 차수·최종본·부분 자료를 선택할 수 있습니다. 각 상세 페이지에는 해당 코드·설정·자료 종류에 맞는 기능·사용 조건·실제 관측과 전체 비교를 연결했습니다.
 
-각 차수의 기능·설정·문서와 주석·공백을 포함한 전체 공개 파일 차이를 차수별 상세 페이지에서 확인할 수 있습니다.
-
-
-
-
-# 차수별 공개 비교
-
-
-## 🧭 모든 차수·보관본과 전체 차이
-
-각 차수의 소스·설정·리소스·사용법·설계를 함께 보관합니다. 부분 자료와 실제 제품 버전을 각 설명에서 구분합니다.
-
-| 차수·보관본 | 파일·폴더 | 설명 | 공개 파일 전체 비교 |
+| 차수·자료 | 자료 폴더·원본 | 상세 설명 | 직전 비교·범위 |
 |---|---|---|---|
-| 1차 | [📁 781개](../1%EC%B0%A8) | [기능·검증 설명](../docs/versions/1%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/1%EC%B0%A8.md) |
-| 2차 | [📁 2144개](../2%EC%B0%A8) | [기능·검증 설명](../docs/versions/2%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/2%EC%B0%A8.md) |
-| 3차 | [📁 2170개](../3%EC%B0%A8) | [기능·검증 설명](../docs/versions/3%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/3%EC%B0%A8.md) |
-| 4차 | [📁 2174개](../4%EC%B0%A8) | [기능·검증 설명](../docs/versions/4%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/4%EC%B0%A8.md) |
-| 5차 | [📁 2214개](../5%EC%B0%A8) | [기능·검증 설명](../docs/versions/5%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/5%EC%B0%A8.md) |
-| 6차 | [📁 2334개](../6%EC%B0%A8) | [기능·검증 설명](../docs/versions/6%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/6%EC%B0%A8.md) |
-| 7차 | [📁 2409개](../7%EC%B0%A8) | [기능·검증 설명](../docs/versions/7%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/7%EC%B0%A8.md) |
-| 8차 | [📁 2366개](../8%EC%B0%A8) | [기능·검증 설명](../docs/versions/8%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/8%EC%B0%A8.md) |
-| 9차 | [📁 8개](../9%EC%B0%A8) | [기능·검증 설명](../docs/versions/9%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/9%EC%B0%A8.md) |
-| 고유 작업 코드·문서 | [📁 95개](../보존자료/작업소스/) | [원본 제품자료 목록](../docs/SOURCE_MATERIALS.md) | 원래 차수·경로와 파일별 SHA-256 유지 |
+| 1차 | [자료 폴더](../1%EC%B0%A8) | [상세 설명](versions/1%EC%B0%A8.md) | [전체 비교·범위](revision-audit/1%EC%B0%A8.md) |
+| 2차 | [자료 폴더](../2%EC%B0%A8) | [상세 설명](versions/2%EC%B0%A8.md) | [전체 비교·범위](revision-audit/2%EC%B0%A8.md) |
+| 3차 | [자료 폴더](../3%EC%B0%A8) | [상세 설명](versions/3%EC%B0%A8.md) | [전체 비교·범위](revision-audit/3%EC%B0%A8.md) |
+| 4차 | [자료 폴더](../4%EC%B0%A8) | [상세 설명](versions/4%EC%B0%A8.md) | [전체 비교·범위](revision-audit/4%EC%B0%A8.md) |
+| 5차 | [자료 폴더](../5%EC%B0%A8) | [상세 설명](versions/5%EC%B0%A8.md) | [전체 비교·범위](revision-audit/5%EC%B0%A8.md) |
+| 6차 | [자료 폴더](../6%EC%B0%A8) | [상세 설명](versions/6%EC%B0%A8.md) | [전체 비교·범위](revision-audit/6%EC%B0%A8.md) |
+| 7차 | [자료 폴더](../7%EC%B0%A8) | [상세 설명](versions/7%EC%B0%A8.md) | [전체 비교·범위](revision-audit/7%EC%B0%A8.md) |
+| 8차 | [자료 폴더](../8%EC%B0%A8) | [상세 설명](versions/8%EC%B0%A8.md) | [전체 비교·범위](revision-audit/8%EC%B0%A8.md) |
+| 9차 | [자료 폴더](../9%EC%B0%A8) | [상세 설명](versions/9%EC%B0%A8.md) | [전체 비교·범위](revision-audit/9%EC%B0%A8.md) |
+| 고유 작업 코드·문서 | [자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) | [상세 설명](SOURCE_MATERIALS.md) | [전체 비교·범위](SOURCE_MATERIALS.md) |

@@ -16,6 +16,22 @@
 
 </div>
 
+<a name="implementation-details"></a>
+
+## 🧩 두 구현 계열과 게임 상태
+
+초기 제품 계열은 `GameManager`가 입력·미션·레벨·홀·UI 참조를 연결하고, 후속 Reference 계열은 `ReferenceGame`의 부분 클래스로 게임·물리·레벨·화면을 나눕니다. 서로 다른 계열의 스크립트와 씬을 같은 시점 프로젝트처럼 섞지 않습니다. 현재 보존된8차 Reference 구현과9차 제품 스크립트8개는 자료 범위가 다릅니다.
+
+제품 GameManager 코드에서는 필수 참조와 성장표 검사 후 Loading→Title→Ready→Playing으로 전환합니다. 소비한 물체의 점수·성장·미션을 반영하고 목표 완료는 Clearing→LevelClear, 시간 소진은 Failed로 이어집니다. SessionId와 보상 소유권 검사로 이전 세션의 풀링 객체가 중복 지급하는 경로를 막습니다. Pause는 시간 배율0과 입력 중단, Resume는 배율1과 Playing 복귀이며 포커스 상실도 일시정지합니다.
+
+Reference8차에서는 진입·이탈 트리거, 지연 성장, 열린 원형 게이지가 고유 변경입니다. 프레임당25개 활성화와 성장 지연0.3초는 처리 설정이며 실제 FPS나 전체 강체 수 제한을 뜻하지 않습니다. 프로필·재화·하트·출석은 로컬 게임 상태이고 서버 결제나 계정 동기화와 다릅니다.
+
+실행에는 같은 차수의 Unity 씬·Packages·ProjectSettings·모델/텍스처·직렬화 참조가 필요합니다. 공개 C#만 있는 부분본은 코드 흐름과 비교를 읽는 자료입니다. Builder와 복구/캐시 도구는 자산을 바꿀 수 있으므로 일반 플레이 명령처럼 일괄 실행하지 않습니다. 각 차수의 카탈로그·물리·저장 클래스와 실제 전체 차이는 아래 독립 안내에서 이어집니다.
+
+[🗂️ 각 차수의 코드·조건·관측·전체 비교](docs/REVISION_INDEX.md)
+
+
+
 <a name="overview"></a>
 
 <a name="latest-changes"></a>
@@ -236,18 +252,18 @@ Windows 캡처·시험 도구에는 버튼 호출, 폭탄 배치, QA 저장 상�
 
 각 차수의 소스·설정·리소스·사용법·설계를 함께 보관합니다. 부분 자료와 실제 제품 버전을 각 설명에서 구분합니다.
 
-| 차수·보관본 | 파일·폴더 | 설명 | 공개 파일 전체 비교 |
+| 차수·자료 | 자료 폴더·원본 | 상세 설명 | 직전 비교·범위 |
 |---|---|---|---|
-| 1차 | [📁 781개](1%EC%B0%A8) | [기능·검증 설명](docs/versions/1%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/1%EC%B0%A8.md) |
-| 2차 | [📁 2144개](2%EC%B0%A8) | [기능·검증 설명](docs/versions/2%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/2%EC%B0%A8.md) |
-| 3차 | [📁 2170개](3%EC%B0%A8) | [기능·검증 설명](docs/versions/3%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/3%EC%B0%A8.md) |
-| 4차 | [📁 2174개](4%EC%B0%A8) | [기능·검증 설명](docs/versions/4%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/4%EC%B0%A8.md) |
-| 5차 | [📁 2214개](5%EC%B0%A8) | [기능·검증 설명](docs/versions/5%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/5%EC%B0%A8.md) |
-| 6차 | [📁 2334개](6%EC%B0%A8) | [기능·검증 설명](docs/versions/6%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/6%EC%B0%A8.md) |
-| 7차 | [📁 2409개](7%EC%B0%A8) | [기능·검증 설명](docs/versions/7%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/7%EC%B0%A8.md) |
-| 8차 | [📁 2366개](8%EC%B0%A8) | [기능·검증 설명](docs/versions/8%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/8%EC%B0%A8.md) |
-| 9차 | [📁 8개](9%EC%B0%A8) | [기능·검증 설명](docs/versions/9%EC%B0%A8.md) | [🔍 전체 차이·해시](docs/revision-audit/9%EC%B0%A8.md) |
-| 고유 작업 코드·문서 | [📁 95개](보존자료/작업소스/) | [원본 제품자료 목록](docs/SOURCE_MATERIALS.md) | 원래 차수·경로와 파일별 SHA-256 유지 |
+| 1차 | [자료 폴더](1%EC%B0%A8) | [상세 설명](docs/versions/1%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/1%EC%B0%A8.md) |
+| 2차 | [자료 폴더](2%EC%B0%A8) | [상세 설명](docs/versions/2%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/2%EC%B0%A8.md) |
+| 3차 | [자료 폴더](3%EC%B0%A8) | [상세 설명](docs/versions/3%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/3%EC%B0%A8.md) |
+| 4차 | [자료 폴더](4%EC%B0%A8) | [상세 설명](docs/versions/4%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/4%EC%B0%A8.md) |
+| 5차 | [자료 폴더](5%EC%B0%A8) | [상세 설명](docs/versions/5%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/5%EC%B0%A8.md) |
+| 6차 | [자료 폴더](6%EC%B0%A8) | [상세 설명](docs/versions/6%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/6%EC%B0%A8.md) |
+| 7차 | [자료 폴더](7%EC%B0%A8) | [상세 설명](docs/versions/7%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/7%EC%B0%A8.md) |
+| 8차 | [자료 폴더](8%EC%B0%A8) | [상세 설명](docs/versions/8%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/8%EC%B0%A8.md) |
+| 9차 | [자료 폴더](9%EC%B0%A8) | [상세 설명](docs/versions/9%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/9%EC%B0%A8.md) |
+| 고유 작업 코드·문서 | [자료 폴더](%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) | [상세 설명](docs/SOURCE_MATERIALS.md) | [전체 비교·범위](docs/SOURCE_MATERIALS.md) |
 
 
 ### 🖼️ 차수별 화면과 검증 이미지

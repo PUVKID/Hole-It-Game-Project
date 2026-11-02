@@ -1,6 +1,101 @@
-# 원본 제품자료와 압축 소스
+<div align="center">
+
+# 🗃️ 원본 제품자료와 압축 소스
 
 기존 모든 차수는 [첫 화면 차수표](../README.md)에서 탐색합니다. 이번에는 코드·제품 설정·사용법·설계·실험 기록·자체 제작 리소스·라이선스를 원본 경로와 함께 보강했습니다. 아래는 기존 공개 기준과 바이트가 다른 제품자료 16342개 목록입니다. 전체 차수의 공개 파일은 각 차수 비교 명세에 별도로 있습니다.
+
+**기술 분류:** 제품 원본 보관 · 코드·설정·사용 문서
+
+[핵심 기능](#features) · [사용 흐름](#usage) · [자료 구성](#structure) · [준비와 실행](#setup) · [결과 읽기](#results) · [직전 변경](#changes)
+
+</div>
+
+[🏠 프로젝트](../README.md) · [🗂️ 전체 차수](REVISION_INDEX.md) · [📁 원본 자료](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4)
+
+## 🎯 목적과 이 차수의 역할
+
+기존 모든 차수는 [첫 화면 차수표](../README.md)에서 탐색합니다. 이번에는 코드·제품 설정·사용법·설계·실험 기록·자체 제작 리소스·라이선스를 원본 경로와 함께 보강했습니다. 아래는 기존 공개 기준과 바이트가 다른 제품자료 16342개 목록입니다. 전체 차수의 공개 파일은 각 차수 비교 명세에 별도로 있습니다.
+
+<a name="features"></a>
+
+## ✨ 핵심 기능과 보존 범위
+
+| 항목 | 이 차수에서 확인할 내용 |
+|---|---|
+| 1 | 기존 모든 차수는 [첫 화면 차수표](../README.md)에서 탐색합니다. 이번에는 코드·제품 설정·사용법·설계·실험 기록·자체 제작 리소스·라이선스를 원본 경로와 함께 보강했습니다. 아래는 기존 공개 기준과 바이트가 다른 제품자료 16342개 목록입니다. 전체 차수의 공개 파일은 각 차수 비교 명세에 별도로 있습니다. |
+| 2 | ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검사하고 소스 멤버를 실제 읽었습니다. 기존 공개 파일과 바이트 또는 BOM·개행만 같은 멤버는 대응 링크로 남기고, 고유 소스는 `압축원본소스`에 보존했습니다. 실행 바이너리·캐시·실제 인증 자료·실제 운영 DB·실거래 계좌 자료·원작 추출 표현 자산은 제외했습니다. 각 ZIP의 모든 멤버 판단은 비공개 검토 명세에, 공개 대응 멤버는 아래 JSON에 있습니다. |
+
+## 🔄 입력·처리·출력
+
+| 단계 | 내용 |
+|---|---|
+| 📥 입력 | 기존 차수에서 개별 보존한 작업 소스와 문서 |
+| ⚙️ 처리 | 원래 경로·출처·파일 대응을 찾아 읽기 |
+| 📤 출력 | 기능 소스·개발 도구·설명 문서의 보존 목록 |
+
+<a name="usage"></a>
+
+## 🖐️ 화면과 사용 흐름
+
+1. 보존 목록에서 원래 차수·경로를 찾습니다.
+2. 연결된 코드와 해당 차수의 설명을 함께 읽습니다.
+3. 보조 도구와 제품 실행 코드를 구분하고 필요한 입력을 확인합니다.
+
+<a name="structure"></a>
+
+## 📁 실제 자료 구성
+
+| 경로 | 자료 종류 |
+|---|---|
+| [9차/](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8) | 하위 자료 폴더 |
+
+## 🧩 주요 모듈과 코드 읽기
+
+| 파일 | 원문에 정의된 역할·구성 |
+|---|---|
+| [9차/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs) | 정의: `GameManager` |
+| [9차/work/add_reference_arena.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/add_reference_arena.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+| [9차/work/debug_reference.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/debug_reference.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+| [9차/work/export_reference5_audio.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_audio.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+| [9차/work/export_reference5_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_content.py) | 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
+| [9차/work/export_reference5_materials.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_materials.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+| [9차/work/export_reference5_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_style.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+| [9차/work/export_reference_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_content.py) | 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
+| [9차/work/export_reference_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_style.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+
+<a name="setup"></a>
+
+## 🚀 설치 환경과 실행·사용법
+
+이 묶음은 서로 다른 시점의 작업 자료를 원래 경로로 보관합니다. 한 앱의 완전한 같은 시점 설치 환경으로 합치지 않습니다.
+
+아래 원본 목록에서 필요한 파일을 고른 뒤 해당 차수의 실행 안내와 대조합니다. 검증·캐시 정리·복구·배포 도구에는 원래 경로와 기존 증거가 필요할 수 있으므로 일괄 실행하지 않습니다.
+
+<a name="results"></a>
+
+## 📊 처리 결과와 출력 읽기
+
+원래 위치와 파일 크기·SHA-256으로 보존 대응을 확인합니다. 같은 이름의 파일도 시점과 경로가 다르면 다른 자료입니다.
+
+## 🛠️ 제약과 문제 해결
+
+| 상황 | 확인할 내용 |
+|---|---|
+| 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
+| 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
+
+<a name="changes"></a>
+
+## 🔍 직전 자료와 전체 비교
+
+이 자료의 보존 범위와 기준 파일을 연결합니다.
+
+[📄 전체 비교·자료 범위](SOURCE_MATERIALS.md)
+
+추가·수정·삭제, 주석·공백·개행과 바이너리 크기·해시는 연결된 원래 비교 자료에서 확인합니다.
+
+<details>
+<summary>📚 파일별 비교·크기·해시 자세히 보기</summary>
 
 | 차수·위치 | 추가·변경 자료 수 |
 |---|---:|
@@ -14,94 +109,8 @@
 | 8차 | 2245 |
 | 보존자료 | 95 |
 
-ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검사하고 소스 멤버를 실제 읽었습니다. 기존 공개 파일과 바이트 또는 BOM·개행만 같은 멤버는 대응 링크로 남기고, 고유 소스는 `압축원본소스`에 보존했습니다. 실행 바이너리·캐시·실제 인증 자료·실제 운영 DB·실거래 계좌 자료·원작 추출 표현 자산은 제외했습니다. 각 ZIP의 모든 멤버 판단은 비공개 검토 명세에, 공개 대응 멤버는 아래 JSON에 있습니다.
-
 [파일 전체 명세](source-materials/files.json) · [공개 ZIP 멤버 대응](source-materials/archive-members.json)
 
-- [자료 목록 1](source-materials/001.md)
-- [자료 목록 2](source-materials/002.md)
-- [자료 목록 3](source-materials/003.md)
-- [자료 목록 4](source-materials/004.md)
-- [자료 목록 5](source-materials/005.md)
-- [자료 목록 6](source-materials/006.md)
-- [자료 목록 7](source-materials/007.md)
-- [자료 목록 8](source-materials/008.md)
-- [자료 목록 9](source-materials/009.md)
-- [자료 목록 10](source-materials/010.md)
-- [자료 목록 11](source-materials/011.md)
-- [자료 목록 12](source-materials/012.md)
-- [자료 목록 13](source-materials/013.md)
-- [자료 목록 14](source-materials/014.md)
-- [자료 목록 15](source-materials/015.md)
-- [자료 목록 16](source-materials/016.md)
-- [자료 목록 17](source-materials/017.md)
-- [자료 목록 18](source-materials/018.md)
-- [자료 목록 19](source-materials/019.md)
-- [자료 목록 20](source-materials/020.md)
-- [자료 목록 21](source-materials/021.md)
-- [자료 목록 22](source-materials/022.md)
-- [자료 목록 23](source-materials/023.md)
-- [자료 목록 24](source-materials/024.md)
-- [자료 목록 25](source-materials/025.md)
-- [자료 목록 26](source-materials/026.md)
-- [자료 목록 27](source-materials/027.md)
-- [자료 목록 28](source-materials/028.md)
-- [자료 목록 29](source-materials/029.md)
-- [자료 목록 30](source-materials/030.md)
-- [자료 목록 31](source-materials/031.md)
-- [자료 목록 32](source-materials/032.md)
-- [자료 목록 33](source-materials/033.md)
-- [자료 목록 34](source-materials/034.md)
-- [자료 목록 35](source-materials/035.md)
-- [자료 목록 36](source-materials/036.md)
-- [자료 목록 37](source-materials/037.md)
-- [자료 목록 38](source-materials/038.md)
-- [자료 목록 39](source-materials/039.md)
-- [자료 목록 40](source-materials/040.md)
-- [자료 목록 41](source-materials/041.md)
-- [자료 목록 42](source-materials/042.md)
-- [자료 목록 43](source-materials/043.md)
-- [자료 목록 44](source-materials/044.md)
-- [자료 목록 45](source-materials/045.md)
-- [자료 목록 46](source-materials/046.md)
-- [자료 목록 47](source-materials/047.md)
-- [자료 목록 48](source-materials/048.md)
-- [자료 목록 49](source-materials/049.md)
-- [자료 목록 50](source-materials/050.md)
-- [자료 목록 51](source-materials/051.md)
-- [자료 목록 52](source-materials/052.md)
-- [자료 목록 53](source-materials/053.md)
-- [자료 목록 54](source-materials/054.md)
-- [자료 목록 55](source-materials/055.md)
-- [자료 목록 56](source-materials/056.md)
-- [자료 목록 57](source-materials/057.md)
-- [자료 목록 58](source-materials/058.md)
-- [자료 목록 59](source-materials/059.md)
-- [자료 목록 60](source-materials/060.md)
-- [자료 목록 61](source-materials/061.md)
-- [자료 목록 62](source-materials/062.md)
-- [자료 목록 63](source-materials/063.md)
-- [자료 목록 64](source-materials/064.md)
-- [자료 목록 65](source-materials/065.md)
-- [자료 목록 66](source-materials/066.md)
-- [자료 목록 67](source-materials/067.md)
-- [자료 목록 68](source-materials/068.md)
-- [자료 목록 69](source-materials/069.md)
-- [자료 목록 70](source-materials/070.md)
-- [자료 목록 71](source-materials/071.md)
-- [자료 목록 72](source-materials/072.md)
-- [자료 목록 73](source-materials/073.md)
-- [자료 목록 74](source-materials/074.md)
-- [자료 목록 75](source-materials/075.md)
-- [자료 목록 76](source-materials/076.md)
-- [자료 목록 77](source-materials/077.md)
-- [자료 목록 78](source-materials/078.md)
-- [자료 목록 79](source-materials/079.md)
-- [자료 목록 80](source-materials/080.md)
-- [자료 목록 81](source-materials/081.md)
-- [자료 목록 82](source-materials/082.md)
+</details>
 
-
-### 🖼️ 차수별 화면과 검증 이미지
-
-[원문 이미지·차수별 출처·파일 해시](IMAGE_MATERIALS.md)에서 화면과 합성 테스트 입력을 확인할 수 있습니다.
+[🏠 프로젝트](../README.md) · [🗂️ 전체 차수](REVISION_INDEX.md) · [📁 원본 자료](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4)
