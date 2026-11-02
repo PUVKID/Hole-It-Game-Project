@@ -254,26 +254,9 @@ Windows 캡처·시험 도구에는 버튼 호출, 폭탄 배치, QA 저장 상�
 
 [원문 이미지·차수별 출처·파일 해시](docs/IMAGE_MATERIALS.md)에서 화면과 합성 테스트 입력을 확인할 수 있습니다.
 
-<!-- privacy-public-copy-20261030 -->
-
-[🔒 공개 사본의 개인 표시·경로 정리와 보존 범위](docs/PRIVACY_PUBLIC_COPY.md) · [변경 기록](docs/changes/2026-10-30-%EA%B0%9C%EC%9D%B8%ED%91%9C%EC%8B%9C%EC%99%80%EA%B2%BD%EB%A1%9C%EC%A0%95%EB%A6%AC.md)
 
 
-<details>
-<summary>🧹 공개 자료 정리 기록</summary>
 
-| 검수 대상 | 연결 자료 | 상세·이번 비교 |
-| :--- | :--- | :--- |
-| **1차** | [📁 검수 자료](1%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-1.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **2차** | [📁 검수 자료](2%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-2.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **3차** | [📁 검수 자료](3%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-3.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **4차** | [📁 검수 자료](4%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-4.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **5차** | [📁 검수 자료](5%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-5.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **6차** | [📁 검수 자료](6%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-6.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **7차** | [📁 검수 자료](7%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-7.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **8차** | [📁 검수 자료](8%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-8.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
-| **9차** | [📁 검수 자료](9%EC%B0%A8) | [📖 정리 내용](docs/publication-review/item-9.md) · [🔎 파일 비교](docs/publication-review/공개파일변경.json) |
+
 
 [🗂️ 전체 차수와 자료](docs/REVISION_INDEX.md)
-
-</details>

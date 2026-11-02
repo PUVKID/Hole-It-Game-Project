@@ -5,19 +5,24 @@
 각 차수의 기능·설정·문서와 주석·공백을 포함한 전체 공개 파일 차이를 차수별 상세 페이지에서 확인할 수 있습니다.
 
 
-<details>
-<summary>🧹 공개 자료 정리 기록</summary>
 
-| 검수 대상 | 연결 자료 | 상세·이번 비교 |
-| :--- | :--- | :--- |
-| **1차** | [📁 검수 자료](../1%EC%B0%A8) | [📖 정리 내용](publication-review/item-1.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **2차** | [📁 검수 자료](../2%EC%B0%A8) | [📖 정리 내용](publication-review/item-2.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **3차** | [📁 검수 자료](../3%EC%B0%A8) | [📖 정리 내용](publication-review/item-3.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **4차** | [📁 검수 자료](../4%EC%B0%A8) | [📖 정리 내용](publication-review/item-4.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **5차** | [📁 검수 자료](../5%EC%B0%A8) | [📖 정리 내용](publication-review/item-5.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **6차** | [📁 검수 자료](../6%EC%B0%A8) | [📖 정리 내용](publication-review/item-6.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **7차** | [📁 검수 자료](../7%EC%B0%A8) | [📖 정리 내용](publication-review/item-7.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **8차** | [📁 검수 자료](../8%EC%B0%A8) | [📖 정리 내용](publication-review/item-8.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
-| **9차** | [📁 검수 자료](../9%EC%B0%A8) | [📖 정리 내용](publication-review/item-9.md) · [🔎 파일 비교](publication-review/공개파일변경.json) |
 
-</details>
+# 차수별 공개 비교
+
+
+## 🧭 모든 차수·보관본과 전체 차이
+
+각 차수의 소스·설정·리소스·사용법·설계를 함께 보관합니다. 부분 자료와 실제 제품 버전을 각 설명에서 구분합니다.
+
+| 차수·보관본 | 파일·폴더 | 설명 | 공개 파일 전체 비교 |
+|---|---|---|---|
+| 1차 | [📁 781개](../1%EC%B0%A8) | [기능·검증 설명](../docs/versions/1%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/1%EC%B0%A8.md) |
+| 2차 | [📁 2144개](../2%EC%B0%A8) | [기능·검증 설명](../docs/versions/2%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/2%EC%B0%A8.md) |
+| 3차 | [📁 2170개](../3%EC%B0%A8) | [기능·검증 설명](../docs/versions/3%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/3%EC%B0%A8.md) |
+| 4차 | [📁 2174개](../4%EC%B0%A8) | [기능·검증 설명](../docs/versions/4%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/4%EC%B0%A8.md) |
+| 5차 | [📁 2214개](../5%EC%B0%A8) | [기능·검증 설명](../docs/versions/5%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/5%EC%B0%A8.md) |
+| 6차 | [📁 2334개](../6%EC%B0%A8) | [기능·검증 설명](../docs/versions/6%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/6%EC%B0%A8.md) |
+| 7차 | [📁 2409개](../7%EC%B0%A8) | [기능·검증 설명](../docs/versions/7%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/7%EC%B0%A8.md) |
+| 8차 | [📁 2366개](../8%EC%B0%A8) | [기능·검증 설명](../docs/versions/8%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/8%EC%B0%A8.md) |
+| 9차 | [📁 8개](../9%EC%B0%A8) | [기능·검증 설명](../docs/versions/9%EC%B0%A8.md) | [🔍 전체 차이·해시](../docs/revision-audit/9%EC%B0%A8.md) |
+| 고유 작업 코드·문서 | [📁 95개](../보존자료/작업소스/) | [원본 제품자료 목록](../docs/SOURCE_MATERIALS.md) | 원래 차수·경로와 파일별 SHA-256 유지 |
