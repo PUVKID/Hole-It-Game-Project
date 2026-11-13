@@ -178,7 +178,7 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 ### LEVEL 4 · 이 차수 구현의 실제 근거
 
-| 파일 · 원문에 정의된 역할·구성 |
+| 내용 |
 | --- |
 | **파일:** [9차/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs)<br>**원문에 정의된 역할·구성:** 정의: `GameManager` |
 | **파일:** [9차/work/add_reference_arena.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/add_reference_arena.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
@@ -288,14 +288,14 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 <a name="-실제-자료-구성"></a>
 ## 실제 자료 구성
 
-| 경로 · 자료 종류 |
+| 내용 |
 | --- |
 | **경로:** [9차/](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8)<br>**자료 종류:** 하위 자료 폴더 |
 
 <a name="-주요-모듈과-코드-읽기"></a>
 ## 주요 모듈과 코드 읽기
 
-| 파일 · 원문에 정의된 역할·구성 |
+| 내용 |
 | --- |
 | **파일:** [9차/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs)<br>**원문에 정의된 역할·구성:** 정의: `GameManager` |
 | **파일:** [9차/work/add_reference_arena.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/add_reference_arena.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
@@ -349,17 +349,17 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 <details>
 <summary>파일별 비교·크기·해시 자세히 보기</summary>
 
-| 차수·위치 | 추가·변경 자료 수 |
-|---|---:|
-| 1차 | 733 |
-| 2차 | 2086 |
-| 3차 | 2104 |
-| 4차 | 2104 |
-| 5차 | 2139 |
-| 6차 | 2261 |
-| 7차 | 2575 |
-| 8차 | 2245 |
-| 보존자료 | 95 |
+| 내용 |
+| --- |
+| **차수·위치:** 1차<br>**추가·변경 자료 수:** 733 |
+| **차수·위치:** 2차<br>**추가·변경 자료 수:** 2086 |
+| **차수·위치:** 3차<br>**추가·변경 자료 수:** 2104 |
+| **차수·위치:** 4차<br>**추가·변경 자료 수:** 2104 |
+| **차수·위치:** 5차<br>**추가·변경 자료 수:** 2139 |
+| **차수·위치:** 6차<br>**추가·변경 자료 수:** 2261 |
+| **차수·위치:** 7차<br>**추가·변경 자료 수:** 2575 |
+| **차수·위치:** 8차<br>**추가·변경 자료 수:** 2245 |
+| **차수·위치:** 보존자료<br>**추가·변경 자료 수:** 95 |
 
 [파일 전체 명세](source-materials/files.json) · [공개 ZIP 멤버 대응](source-materials/archive-members.json)
 
