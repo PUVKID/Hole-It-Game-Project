@@ -1,5 +1,9 @@
 # 오프라인 절차 생성 도구
 
+<!-- user-levels:start -->
+수준별 전체 안내: [LEVEL 1 - Beginner](../../../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) · [LEVEL 2 - Explorer](../../../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) · [LEVEL 3 - Practitioner](../../../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) · [LEVEL 4 - Advanced](../../../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) · [LEVEL 5 - Expert](../../../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md)
+<!-- user-levels:end -->
+
 이 폴더는 실제 제출 메시·아이콘·기초 캠페인·WAV를 작성한 Python 코드의 이식본입니다. Unity를 흉내 내어 컴파일하거나 실행하지 않습니다. **프로젝트를 열고 플레이하는 데 Python은 필요 없습니다.** 일반적인 편집은 Unity Inspector와 HoleIt 메뉴를 사용합니다.
 
 `generate_models.py`는 specs.json의 51종 카탈로그에서 메시, vertex-color 머티리얼, 프리팹, EdibleData, 128×128 아이콘을 생성합니다. `campaign.py`는 30개 기본 레벨/저장 배치, 6개 테마, 성장/게임 설정 및 17개 WAV를 생성합니다. `unity_assets.py`는 Unity 텍스트 직렬화 형식을 작성하는 유틸리티입니다. 최초 작성 때 실행된 로직을 프로젝트 상대경로로 바꿨으며, 이 이식본의 전체 재생성 실행은 별도 확인하지 않았습니다. 구문 검사와 보호장치 검사는 수행했습니다.

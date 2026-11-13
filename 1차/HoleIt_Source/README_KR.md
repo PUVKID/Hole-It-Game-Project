@@ -1,5 +1,9 @@
 # POCKET PIT — HoleIt_Source 인계 프로젝트
 
+<!-- user-levels:start -->
+수준별 전체 안내: [LEVEL 1 - Beginner](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) · [LEVEL 2 - Explorer](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) · [LEVEL 3 - Practitioner](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) · [LEVEL 4 - Advanced](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) · [LEVEL 5 - Expert](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md)
+<!-- user-levels:end -->
+
 **대상: Unity 6000.3.6f1 / Built-in Render Pipeline / 세로 화면 / Android 우선.**
 
 기존 `HoleIt_Full_Project_ModelRefresh_v7_fixed.zip`의 소스를 보존·수정하고 실제 씬, 프리팹, 메시, 레벨 데이터, UI, 아이콘 및 음원을 추가한 프로젝트입니다. 게임 내 독자 타이틀은 **POCKET PIT**, 프로젝트 및 Editor 메뉴 이름은 기존 **HoleIt**을 유지했습니다.

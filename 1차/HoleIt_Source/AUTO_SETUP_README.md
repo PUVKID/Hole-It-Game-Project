@@ -1,5 +1,9 @@
 # HoleIt Auto Setup (v4)
 
+<!-- user-levels:start -->
+수준별 전체 안내: [LEVEL 1 - Beginner](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md) · [LEVEL 2 - Explorer](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A82.md) · [LEVEL 3 - Practitioner](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A83.md) · [LEVEL 4 - Advanced](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A84.md) · [LEVEL 5 - Expert](../../docs/%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md)
+<!-- user-levels:end -->
+
 이번 버전은 사용자가 ZIP을 푼 뒤 별도 메뉴를 찾지 않아도 되도록 첫 Unity Editor 로드 시 자동으로 프로젝트 에셋 및 `Assets/Scenes/Main.unity`를 생성합니다.
 
 ## 이번에 고친 점
