@@ -50,10 +50,14 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 원래 위치와 파일 크기·SHA-256으로 보존 대응을 확인합니다. 같은 이름의 파일도 시점과 경로가 다르면 다른 자료입니다.
 
-| 상황 | 확인할 내용 |
-|---|---|
-| 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
-| 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
+**상황:** 한 폴더로 실행되지 않음
+
+**확인할 내용:** 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다.
+
+**상황:** 이전 파일과 내용이 다름
+
+**확인할 내용:** 원래 차수·경로·해시와 전체 비교를 함께 확인합니다.
+
 
 [자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#reading-level-5)
 
@@ -70,11 +74,18 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 ### LEVEL 2 · 입력에서 출력으로
 
-| 단계 | 내용 |
-|---|---|
-| 입력 | 기존 차수에서 개별 보존한 작업 소스와 문서 |
-| 처리 | 원래 경로·출처·파일 대응을 찾아 읽기 |
-| 출력 | 기능 소스·개발 도구·설명 문서의 보존 목록 |
+**단계:** 입력
+
+**내용:** 기존 차수에서 개별 보존한 작업 소스와 문서
+
+**단계:** 처리
+
+**내용:** 원래 경로·출처·파일 대응을 찾아 읽기
+
+**단계:** 출력
+
+**내용:** 기능 소스·개발 도구·설명 문서의 보존 목록
+
 
 입력·처리·출력은 위의 같은 자료 흐름을 다른 단계에서 읽는 기준입니다. 처리 조건과 출력의 의미를 함께 확인합니다.
 
@@ -92,10 +103,14 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 원래 위치와 파일 크기·SHA-256으로 보존 대응을 확인합니다. 같은 이름의 파일도 시점과 경로가 다르면 다른 자료입니다.
 
-| 상황 | 확인할 내용 |
-|---|---|
-| 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
-| 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
+**상황:** 한 폴더로 실행되지 않음
+
+**확인할 내용:** 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다.
+
+**상황:** 이전 파일과 내용이 다름
+
+**확인할 내용:** 원래 차수·경로·해시와 전체 비교를 함께 확인합니다.
+
 
 [자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#reading-level-5)
 
@@ -116,20 +131,31 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 2. 연결된 코드와 해당 차수의 설명을 함께 읽습니다.
 3. 보조 도구와 제품 실행 코드를 구분하고 필요한 입력을 확인합니다.
 
-| 단계 | 내용 |
-|---|---|
-| 입력 | 기존 차수에서 개별 보존한 작업 소스와 문서 |
-| 처리 | 원래 경로·출처·파일 대응을 찾아 읽기 |
-| 출력 | 기능 소스·개발 도구·설명 문서의 보존 목록 |
+**단계:** 입력
+
+**내용:** 기존 차수에서 개별 보존한 작업 소스와 문서
+
+**단계:** 처리
+
+**내용:** 원래 경로·출처·파일 대응을 찾아 읽기
+
+**단계:** 출력
+
+**내용:** 기능 소스·개발 도구·설명 문서의 보존 목록
+
 
 ### LEVEL 3 · 결과와 실패를 확인하기
 
 원래 위치와 파일 크기·SHA-256으로 보존 대응을 확인합니다. 같은 이름의 파일도 시점과 경로가 다르면 다른 자료입니다.
 
-| 상황 | 확인할 내용 |
-|---|---|
-| 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
-| 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
+**상황:** 한 폴더로 실행되지 않음
+
+**확인할 내용:** 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다.
+
+**상황:** 이전 파일과 내용이 다름
+
+**확인할 내용:** 원래 차수·경로·해시와 전체 비교를 함께 확인합니다.
+
 
 ### LEVEL 3 · 실행 전 대조할 차수 조건
 
@@ -152,23 +178,30 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 ### LEVEL 4 · 이 차수 구현의 실제 근거
 
-| 파일 | 원문에 정의된 역할·구성 |
-|---|---|
-| [9차/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs) | 정의: `GameManager` |
-| [9차/work/add_reference_arena.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/add_reference_arena.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/debug_reference.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/debug_reference.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference5_audio.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_audio.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference5_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_content.py) | 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
-| [9차/work/export_reference5_materials.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_materials.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference5_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_style.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_content.py) | 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
-| [9차/work/export_reference_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_style.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+| 파일 · 원문에 정의된 역할·구성 |
+| --- |
+| **파일:** [9차/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs)<br>**원문에 정의된 역할·구성:** 정의: `GameManager` |
+| **파일:** [9차/work/add_reference_arena.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/add_reference_arena.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/debug_reference.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/debug_reference.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference5_audio.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_audio.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference5_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_content.py)<br>**원문에 정의된 역할·구성:** 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
+| **파일:** [9차/work/export_reference5_materials.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_materials.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference5_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_style.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_content.py)<br>**원문에 정의된 역할·구성:** 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
+| **파일:** [9차/work/export_reference_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_style.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
 
-| 단계 | 내용 |
-|---|---|
-| 입력 | 기존 차수에서 개별 보존한 작업 소스와 문서 |
-| 처리 | 원래 경로·출처·파일 대응을 찾아 읽기 |
-| 출력 | 기능 소스·개발 도구·설명 문서의 보존 목록 |
+**단계:** 입력
+
+**내용:** 기존 차수에서 개별 보존한 작업 소스와 문서
+
+**단계:** 처리
+
+**내용:** 원래 경로·출처·파일 대응을 찾아 읽기
+
+**단계:** 출력
+
+**내용:** 기능 소스·개발 도구·설명 문서의 보존 목록
+
 
 ### LEVEL 4 · 조건·변경·결과를 함께 검토하기
 
@@ -178,10 +211,14 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 원래 위치와 파일 크기·SHA-256으로 보존 대응을 확인합니다. 같은 이름의 파일도 시점과 경로가 다르면 다른 자료입니다.
 
-| 상황 | 확인할 내용 |
-|---|---|
-| 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
-| 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
+**상황:** 한 폴더로 실행되지 않음
+
+**확인할 내용:** 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다.
+
+**상황:** 이전 파일과 내용이 다름
+
+**확인할 내용:** 원래 차수·경로·해시와 전체 비교를 함께 확인합니다.
+
 
 ### LEVEL 4 · 재현과 전체 비교
 
@@ -224,11 +261,18 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 <a name="-입력처리출력"></a>
 ## 입력·처리·출력
 
-| 단계 | 내용 |
-|---|---|
-| 입력 | 기존 차수에서 개별 보존한 작업 소스와 문서 |
-| 처리 | 원래 경로·출처·파일 대응을 찾아 읽기 |
-| 출력 | 기능 소스·개발 도구·설명 문서의 보존 목록 |
+**단계:** 입력
+
+**내용:** 기존 차수에서 개별 보존한 작업 소스와 문서
+
+**단계:** 처리
+
+**내용:** 원래 경로·출처·파일 대응을 찾아 읽기
+
+**단계:** 출력
+
+**내용:** 기능 소스·개발 도구·설명 문서의 보존 목록
+
 
 <a name="usage"></a>
 
@@ -244,24 +288,24 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 <a name="-실제-자료-구성"></a>
 ## 실제 자료 구성
 
-| 경로 | 자료 종류 |
-|---|---|
-| [9차/](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8) | 하위 자료 폴더 |
+| 경로 · 자료 종류 |
+| --- |
+| **경로:** [9차/](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8)<br>**자료 종류:** 하위 자료 폴더 |
 
 <a name="-주요-모듈과-코드-읽기"></a>
 ## 주요 모듈과 코드 읽기
 
-| 파일 | 원문에 정의된 역할·구성 |
-|---|---|
-| [9차/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs) | 정의: `GameManager` |
-| [9차/work/add_reference_arena.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/add_reference_arena.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/debug_reference.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/debug_reference.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference5_audio.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_audio.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference5_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_content.py) | 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
-| [9차/work/export_reference5_materials.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_materials.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference5_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_style.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
-| [9차/work/export_reference_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_content.py) | 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
-| [9차/work/export_reference_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_style.py) | 소스 본문과 설정을 함께 읽는 구성요소 |
+| 파일 · 원문에 정의된 역할·구성 |
+| --- |
+| **파일:** [9차/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/AndroidBuild/Assets/Scripts/Core/GameManager.cs)<br>**원문에 정의된 역할·구성:** 정의: `GameManager` |
+| **파일:** [9차/work/add_reference_arena.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/add_reference_arena.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/debug_reference.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/debug_reference.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference5_audio.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_audio.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference5_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_content.py)<br>**원문에 정의된 역할·구성:** 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
+| **파일:** [9차/work/export_reference5_materials.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_materials.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference5_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference5_style.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
+| **파일:** [9차/work/export_reference_content.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_content.py)<br>**원문에 정의된 역할·구성:** 정의: `resolve`, `vec`, `texture`, `material`, `mesh`, `walk` |
+| **파일:** [9차/work/export_reference_style.py](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4/9%EC%B0%A8/work/export_reference_style.py)<br>**원문에 정의된 역할·구성:** 소스 본문과 설정을 함께 읽는 구성요소 |
 
 <a name="setup"></a>
 
@@ -282,10 +326,14 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 <a name="️-제약과-문제-해결"></a>
 ## 제약과 문제 해결
 
-| 상황 | 확인할 내용 |
-|---|---|
-| 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
-| 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
+**상황:** 한 폴더로 실행되지 않음
+
+**확인할 내용:** 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다.
+
+**상황:** 이전 파일과 내용이 다름
+
+**확인할 내용:** 원래 차수·경로·해시와 전체 비교를 함께 확인합니다.
+
 
 <a name="changes"></a>
 

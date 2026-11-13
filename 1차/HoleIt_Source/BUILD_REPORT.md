@@ -8,15 +8,34 @@
 
 ## 1. 환경 및 원본
 
-| 항목 | 확인 결과 |
-|---|---|
-| 입력 원본 | HoleIt_Full_Project_ModelRefresh_v7_fixed.zip, 원본 파일 50개 |
-| Unity 목표 | 6000.3.6f1, changeset bbb010bdb8a3 |
-| 렌더링 | Built-in, customRenderPipeline 미지정 |
-| 화면/플랫폼 | Portrait, Android 우선 |
-| 제작 환경 | Linux, Python 3.13.5 |
-| Unity / dotnet / mcs / csc | 모두 실행 파일 없음 |
-| Unity 실행 사전검사 | bash 래퍼 실제 실행, exit 69 BLOCKED; Unity 프로세스 실행 안 됨 |
+**항목:** 입력 원본
+
+**확인 결과:** HoleIt_Full_Project_ModelRefresh_v7_fixed.zip, 원본 파일 50개
+
+**항목:** Unity 목표
+
+**확인 결과:** 6000.3.6f1, changeset bbb010bdb8a3
+
+**항목:** 렌더링
+
+**확인 결과:** Built-in, customRenderPipeline 미지정
+
+**항목:** 화면/플랫폼
+
+**확인 결과:** Portrait, Android 우선
+
+**항목:** 제작 환경
+
+**확인 결과:** Linux, Python 3.13.5
+
+**항목:** Unity / dotnet / mcs / csc
+
+**확인 결과:** 모두 실행 파일 없음
+
+**항목:** Unity 실행 사전검사
+
+**확인 결과:** bash 래퍼 실제 실행, exit 69 BLOCKED; Unity 프로세스 실행 안 됨
+
 
 원본 ZIP과 해시 목록을 Documentation에 보관했으며, 기존 원본 파일을 삭제하지 않았습니다. 변경 목록과 SHA-256 비교는 `Documentation/CHANGE_MANIFEST.json`에 기록합니다.
 
@@ -42,25 +61,108 @@ Android 기본값은 IL2CPP/ARM64, OpenGLES3, 최소 API 26, 타깃 API 자동, 
 
 ## 4. 실제 검증 결과
 
-| 범위 | 상태 | 실행 증거 |
-|---|---|---|
-| 오프라인 검사 13그룹 | PASS | Tools/validate_static.py 및 STATIC_VALIDATION.json |
-| 에셋 메타 | PASS | 374개 고유 GUID |
-| 네이티브 파일/참조 | PASS | 220파일/2,410객체, 외부 2,529 + 로컬 4,803 참조, 누락 0 |
-| Main 직렬화 | PASS | 215 GameObject, 30레벨 참조, 30선택 버튼, 8팝업 |
-| C# 어휘·일부 구조 | PASS | 52파일/55타입. C# 의미 분석/컴파일 아님 |
-| 메시 수치/인덱스 | PASS | 56메시/27,440정점/52,840삼각형, 비유한 값 0 |
-| 이미지·음원 파일 무결성 | PASS | PNG 55개/WAV 17개/총 음원 길이 52.51초 |
-| 30레벨 데이터/성장 경로 | PASS | 957개 배치 검사 및 완료에 필요한 성장 순서 검증 |
-| 잘못된 데이터 감지 | PASS | 서로 다른 7개 오류 주입 후 모두 검출 |
-| Safe Area 수식 | PASS | 5화면 조합. 실기기 렌더 아님 |
-| 이식 생성기 보호장치 | PASS | 무단 재생성 실행 차단, 에셋 바이트 변경 없음 |
-| Unity C# 및 셰이더 컴파일 | BLOCKED | Editor/컴파일러 없음 |
-| Unity 임포트/씬 실행/UPM | NOT RUN | Editor 없음 |
-| Unity EditMode/PlayMode | NOT RUN | 작성한 테스트를 아직 실행하지 않음 |
-| 실제 완주/모바일 터치/60fps | NOT RUN | 플레이/실기기/Profiler 없음 |
-| Android APK | BLOCKED | 빌드 환경 없음, APK 파일 없음 |
-| 최종 ZIP CRC/재압축 해제 검사 | 별도 제출 기록 | HoleIt_ZIP_VALIDATION.json에 실제 최종 검사 결과 기록 |
+**범위:** 오프라인 검사 13그룹
+
+**상태:** PASS
+
+**실행 증거:** Tools/validate_static.py 및 STATIC_VALIDATION.json
+
+**범위:** 에셋 메타
+
+**상태:** PASS
+
+**실행 증거:** 374개 고유 GUID
+
+**범위:** 네이티브 파일/참조
+
+**상태:** PASS
+
+**실행 증거:** 220파일/2,410객체, 외부 2,529 + 로컬 4,803 참조, 누락 0
+
+**범위:** Main 직렬화
+
+**상태:** PASS
+
+**실행 증거:** 215 GameObject, 30레벨 참조, 30선택 버튼, 8팝업
+
+**범위:** C# 어휘·일부 구조
+
+**상태:** PASS
+
+**실행 증거:** 52파일/55타입. C# 의미 분석/컴파일 아님
+
+**범위:** 메시 수치/인덱스
+
+**상태:** PASS
+
+**실행 증거:** 56메시/27,440정점/52,840삼각형, 비유한 값 0
+
+**범위:** 이미지·음원 파일 무결성
+
+**상태:** PASS
+
+**실행 증거:** PNG 55개/WAV 17개/총 음원 길이 52.51초
+
+**범위:** 30레벨 데이터/성장 경로
+
+**상태:** PASS
+
+**실행 증거:** 957개 배치 검사 및 완료에 필요한 성장 순서 검증
+
+**범위:** 잘못된 데이터 감지
+
+**상태:** PASS
+
+**실행 증거:** 서로 다른 7개 오류 주입 후 모두 검출
+
+**범위:** Safe Area 수식
+
+**상태:** PASS
+
+**실행 증거:** 5화면 조합. 실기기 렌더 아님
+
+**범위:** 이식 생성기 보호장치
+
+**상태:** PASS
+
+**실행 증거:** 무단 재생성 실행 차단, 에셋 바이트 변경 없음
+
+**범위:** Unity C# 및 셰이더 컴파일
+
+**상태:** BLOCKED
+
+**실행 증거:** Editor/컴파일러 없음
+
+**범위:** Unity 임포트/씬 실행/UPM
+
+**상태:** NOT RUN
+
+**실행 증거:** Editor 없음
+
+**범위:** Unity EditMode/PlayMode
+
+**상태:** NOT RUN
+
+**실행 증거:** 작성한 테스트를 아직 실행하지 않음
+
+**범위:** 실제 완주/모바일 터치/60fps
+
+**상태:** NOT RUN
+
+**실행 증거:** 플레이/실기기/Profiler 없음
+
+**범위:** Android APK
+
+**상태:** BLOCKED
+
+**실행 증거:** 빌드 환경 없음, APK 파일 없음
+
+**범위:** 최종 ZIP CRC/재압축 해제 검사
+
+**상태:** 별도 제출 기록
+
+**실행 증거:** HoleIt_ZIP_VALIDATION.json에 실제 최종 검사 결과 기록
+
 
 에디터용 검증 파일, NUnit XML, APK 또는 실제 게임 스크린샷을 만들어 놓은 것처럼 보고하지 않습니다. `STATIC_VALIDATION.json`에 나오는 PASS는 각 항목에 표시한 정적 범위의 PASS입니다.
 
