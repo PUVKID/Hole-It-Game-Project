@@ -21,7 +21,7 @@
 
 ## 한계
 
-여기서는 Unity Editor 실행 파일이 없어서 Unity 실제 컴 파일이나 APK 빌 드를 실행해 보지는 못했습니다. 자동 구성이 실패하면 Console에서 첫 번째 `[HoleItBuilder]` 또는 `[HoleIt Setup]` 오류를 확인해야 합니다.
+여기서는 Unity Editor 실행 파일이 없어서 Unity 실제 컴 파일이나 APK 빌드를 실행해 보지는 못했습니다. 자동 구성이 실패하면 Console에서 첫 번째 `[HoleItBuilder]` 또는 `[HoleIt Setup]` 오류를 확인해야 합니다.
 
 V5 FIX
 ------
