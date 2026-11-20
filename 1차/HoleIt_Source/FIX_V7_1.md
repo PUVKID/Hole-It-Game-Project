@@ -1,6 +1,6 @@
 # V7.1 FIX — 홀이 안 보이던 문제
 
-원인: `Assets/Editor/HoleItBuilder.Scene.cs` 가 `Prim(...)` 헬퍼를 3번 호출(마스크 쿼드 / Pit 원통 / 림 쿼드)하는데
+원인: `Assets/Editor/HoleItBuilder.Scene.cs` 가 `Prim(...)` 헬퍼를 3번 호출(마스크 쿼드/Pit 원통/림 쿼드)하는데
 프로젝트 어디에도 정의가 없어 Editor 어셈블리 전체가 컴파일 실패(CS0103) 했습니다.
 → HoleIt 메뉴, 첫 실행 자동 구성, Main.unity 생성이 모두 동작하지 않아 홀이 보이지 않았습니다.
 
@@ -12,8 +12,8 @@
 2. Console 에 빨간 에러가 없는지 확인한 뒤 Play.
 
 ## 추가 수정 (컴파일 오류 CS0136)
-- `HoleItBuilder.Models.cs` 370행: 감자튀김 루프의 `width` → `fryWidth` (같은 switch 블록의 자동차 case 에서 `width` 를 이미 선언)
-- `HoleItBuilder.Models.cs` 552행: 타워 창문 루프의 `col` → `winCol` (메서드 하단의 `BoxCollider col` 과 충돌)
+- `HoleItBuilder.Models.cs` 370 행: 감자 튀김 루프의 `width` → `fryWidth` (같은 switch 블록의 자동차 case 에서 `width` 를 이미 선언)
+- `HoleItBuilder.Models.cs` 552 행: 타워 창문 루프의 `col` → `winCol` (메서드 하단의 `BoxCollider col` 과 충돌)
 
 ## 런타임 수정 (Play 로그 기준)
 - **Invalid worldAABB / abnormal mesh bounds (Combined_BananaS...)**: `BuildBananaMesh` 에서 `Mathf.Pow(Mathf.Sin(PI*u), .55f)` 가 u=1 에서 음수^0.55 = NaN 이 되어 바나나 메쉬 전체가 NaN 이었음. `Mathf.Max(0, ...)` 로 수정.

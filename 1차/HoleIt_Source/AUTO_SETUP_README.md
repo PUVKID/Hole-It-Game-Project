@@ -17,12 +17,16 @@
 1. ZIP을 ASCII 경로에 풀기(예: `C:\UnityProjects\HoleIt_Source`).
 2. Unity Hub에서 `HoleIt_Source` 폴더를 엽니다.
 3. package resolve / script compilation / 자동 구성이 끝날 때까지 기다립니다.
-4. `Assets/Scenes/Main.unity`가 생성된 뒤 자동으로 열려야 합니다. Game 탭에서 Play를 누릅니다.
+4. `Assets/Scenes/Main.unity`가 생성된 뒤 자동으로 열려야합니다. Game 탭에서 Play를 누릅니다.
 
 ## 한계
 
-여기서는 Unity Editor 실행 파일이 없어서 Unity 실제 컴파일이나 APK 빌드를 실행해 보지는 못했습니다. 자동 구성이 실패하면 Console에서 첫 번째 `[HoleItBuilder]` 또는 `[HoleIt Setup]` 오류를 확인해야 합니다.
+여기서는 Unity Editor 실행 파일이 없어서 Unity 실제 컴 파일이나 APK 빌 드를 실행해 보지는 못했습니다. 자동 구성이 실패하면 Console에서 첫 번째 `[HoleItBuilder]` 또는 `[HoleIt Setup]` 오류를 확인해야 합니다.
 
 V5 FIX
 ------
-Removed TMP outline material mutation from the generated TextMeshProUGUI helper. On fresh package imports that setter could throw NullReferenceException before Main.unity was saved. A normal Unity UI Shadow is used instead.
+Removed TMP outline material mutation from the generated TextMeshProUGUI helper.
+
+On fresh package imports that setter could throw NullReferenceException before Main.unity was saved.
+
+A normal Unity UI Shadow is used instead.

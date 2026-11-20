@@ -2,15 +2,25 @@
 
 ## Current build scope
 
-This archive is the complete Unity source project (not an APK). It is intended to be extracted and opened with Unity `6000.3.6f1`. The project recreates the public core loop of a colorful mission-based black-hole puzzle using original procedural mesh models; it does not bundle the commercial game's proprietary source, 3D assets, textures, branding, exact level files, or animation clips.
+This archive is the complete Unity source project (not an APK).
 
-**Unity Editor, Play Mode, Android build, and device runtime could not be run in this packaging environment.** The package was statically inspected only. Please treat successful local Unity compilation/scene generation as the final validation step, rather than assuming an APK has already been built.
+It is intended to be extracted and opened with Unity `6000.3.6f1`.
+
+The project recreates the public core loop of a colorful mission-based black-hole puzzle using original procedural mesh models; it does not bundle the commercial game's proprietary source, 3D assets, textures, branding, exact level files, or animation clips.
+
+**Unity Editor, Play Mode, Android build, and device runtime could not be run in this packaging environment.** The package was statically inspected only.
+
+Please treat successful local Unity compilation/scene generation as the final validation step, rather than assuming an APK has already been built.
 
 ## First open (do not skip)
 
 1. Extract to an ASCII-only path, e.g. `C:\UnityProjects\HoleIt_Source`.
 2. In Unity Hub, add/open the `HoleIt_Source` folder itself. That folder should directly contain `Assets`, `Packages`, and `ProjectSettings`.
-3. Wait for package resolution and script compilation. The first-open hook detects a missing `Assets/Scenes/Main.unity`, generates all materials, meshes, prefabs, ScriptableObjects, effects, UI and the Main scene, then opens it automatically.
+3.
+
+Wait for package resolution and script compilation.
+
+The first-open hook detects a missing `Assets/Scenes/Main.unity`, generates all materials, meshes, prefabs, ScriptableObjects, effects, UI and the Main scene, then opens it automatically.
 4. If setup prints an exception, open `Window > General > Console` and fix the first red error before pressing Play. Do not press Play on an empty scene.
 5. If changing the generated project, back it up first. `HoleIt > 1. 프로젝트 전체 구성` regenerates the generated scene and data.
 6. For APK creation, install Android Build Support for this editor version and select `HoleIt > 2. Android APK 빌드`. Output path: `Builds/HoleIt.apk`.
@@ -39,7 +49,9 @@ This archive is the complete Unity source project (not an APK). It is intended t
 
 ## Input system
 
-The generated project sets Active Input Handling to `Both` because the joystick's legacy input path and `StandaloneInputModule` need the old Input Manager, while a new-input-only configuration is also handled by `UIInputModuleSelector`/the conditional Input System path. If Unity asks to activate native input backends and restart, allow it, then re-open the project and rebuild the APK after setup is complete.
+The generated project sets Active Input Handling to `Both` because the joystick's legacy input path and `StandaloneInputModule` need the old Input Manager, while a new-input-only configuration is also handled by `UIInputModuleSelector`/the conditional Input System path.
+
+If Unity asks to activate native input backends and restart, allow it, then re-open the project and rebuild the APK after setup is complete.
 
 ## Known validation limits
 
