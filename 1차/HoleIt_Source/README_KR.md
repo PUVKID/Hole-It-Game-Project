@@ -18,7 +18,7 @@
 
 `Main.unity`, `.prefab`, `.asset`는 실제로 포함되어 있으나 Unity 외부에서 텍스트 직렬화로 작성했습니다.
 
-파일·참조·메시 버 퍼 검사를 통과한 것과 Unity가 성공적으로 임 포트/실행한 것은 다릅니다.
+파일·참조·메시 버 퍼 검사를 통과한 것과 Unity가 성공적으로 임포트/실행한 것은 다릅니다.
 
 자세한 결과는 `BUILD_REPORT.md`, `Documentation/STATIC_VALIDATION.json`, `Documentation/KNOWN_LIMITATIONS.md`에 있습니다.
 
@@ -26,7 +26,7 @@
 
 1. ZIP을 해제하고 **Assets/Packages/ProjectSettings가 직접 들어 있는 `HoleIt_Source` 폴더**를 Unity Hub에 추가합니다. ZIP 파일 자체나 상위 폴더를 선택하지 않습니다.
 2. Unity **6000.3.6f1**로 엽니다. 기존 버전 파일의 changeset은 `bbb010bdb8a3`입니다. 패키지 다운로드/임포트가 끝날 때까지 편집 작업을 시작하지 않습니다.
-3. Console에 오류가 있으면 먼저 확인합니다. 특히 최초 패키지 해결, 네이티브 텍스트에 셋 임 포트 및 스크립트 컴 파일은 이번 제작 환경에서 검증하지 못한 항목입니다.
+3. Console에 오류가 있으면 먼저 확인합니다. 특히 최초 패키지 해결, 네이티브 텍스트에 셋 임포트 및 스크립트 컴파일은 이번 제작 환경에서 검증하지 못한 항목입니다.
 4. `Assets/Scenes/Main.unity`를 엽니다. 정상 제출 구조에는 이미 Main 씬과 직렬화된 30개 레벨 참조가 있으므로 전체 구성 메뉴를 먼저 실행할 필요가 없습니다.
 5. `HoleIt > 3. 프로젝트 검사`를 실행한 뒤 Game View를 세로 비율로 두고 Play Mode를 시작합니다. 메인 메뉴의 `PLAY`를 누릅니다.
 
@@ -189,7 +189,7 @@ Tier, 수량, 반지름, 맵 크기 또는 미션을 수정한 뒤에는 반드�
 
 기존 Inspector 조정 값과 GUID를 불필요하게 다시 만들지 않습니다.
 
-`HoleIt > 3. 프로젝트 검사`는 Unity에서 임 포트된 메시/셰이더, 씬 연결, 레벨 데이터를 검사하고 `TestResults` 아래에 실행 결과를 남깁니다. 이 메뉴를 아직 실행하지 않았으므로 그 결과 파일을 미리 만들어 성공으로 표시하지 않았습니다.
+`HoleIt > 3. 프로젝트 검사`는 Unity에서 임포트된 메시/셰이더, 씬 연결, 레벨 데이터를 검사하고 `TestResults` 아래에 실행 결과를 남깁니다. 이 메뉴를 아직 실행하지 않았으므로 그 결과 파일을 미리 만들어 성공으로 표시하지 않았습니다.
 
 51 종의 절차 모델 생성 원본 코드, 기본 캠페인/음원 생성 코드는 `Tools/OfflineAuthoring`에 있습니다.
 
@@ -212,7 +212,7 @@ python -m pip install -r Tools/requirements-static.txt
 python Tools/validate_static.py
 ```
 
-결과는 `Documentation/STATIC_VALIDATION.json`에 기록됩니다. 실제 포함된 파일을 읽어 13개 검사 그룹과 7개 잘못된 데이터 감지 사례를 확인합니다. **Unity를 실행하거나 C#을 컴 파일하지 않습니다.**
+결과는 `Documentation/STATIC_VALIDATION.json`에 기록됩니다. 실제 포함된 파일을 읽어 13개 검사 그룹과 7개 잘못된 데이터 감지 사례를 확인합니다. **Unity를 실행하거나 C#을 컴파일하지 않습니다.**
 
 ### Unity Test Runner
 

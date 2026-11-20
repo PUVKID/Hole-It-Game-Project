@@ -8,7 +8,7 @@
 
 Unity 컴파일/실행/출시 빌드를 완료한 것은 아닙니다. 실제 제출 파일 안에는 Main 씬, 필수 프리팹/메시/레벨/메타, Packages, ProjectSettings, 생성 도구와 테스트 코드가 있습니다.
 
-Unity가 없는 환경에서 네이티브 텍스트 에셋을 작성했으므로 최초 Unity 임 포트부터 확인이 필요합니다.
+Unity가 없는 환경에서 네이티브 텍스트 에셋을 작성했으므로 최초 Unity 임포트부터 확인이 필요합니다.
 
 ## 1. 환경 및 원본
 
@@ -82,7 +82,7 @@ Android 대상 변경 후 재컴 파일을 먼저 마치고 다시 빌드하도�
 | 에셋 메타 | PASS | 374개 고유 GUID |
 | 네이티브 파일/참조 | PASS | 220 파일/2,410 객체, 외부 2,529 + 로컬 4,803 참조, 누락 0 |
 | Main 직렬화 | PASS | 215 GameObject, 30 레벨 참조, 30 선택 버튼, 8 팝업 |
-| C # 어휘·일부 구조 | PASS | 52 파일/55 타입.<br>C # 의미 분석/컴 파일 아님 |
+| C # 어휘·일부 구조 | PASS | 52 파일/55 타입.<br>C # 의미 분석/컴파일 아님 |
 | 메시 수치/인덱스 | PASS | 56 메시/27,440 정점/52,840 삼각형, 비유한 값 0 |
 | 이미지·음원 파일 무결성 | PASS | PNG 55개/WAV 17개/총 음 원 길이 52.51초 |
 | 30 레벨 데이터/성장 경로 | PASS | 957개 배치 검사 및 완료에 필요한 성장 순서 검증 |
@@ -118,7 +118,7 @@ PlayerPrefs 사용 키를 백업/복구하도록 작성했습니다.
 
 ## 7. 남은 확인 사항
 
-`Documentation/KNOWN_LIMITATIONS.md`와 `Documentation/TEST_MATRIX.md`를 기준으로 Unity 최초 임 포트/컴 파일 → Main 렌더 → 프로젝트 검사 → EditMode/PlayMode → 30 레벨 실제 완주 → Android 실 기기 검증을 수행해야 합니다.
+`Documentation/KNOWN_LIMITATIONS.md`와 `Documentation/TEST_MATRIX.md`를 기준으로 Unity 최초 임포트/컴파일 → Main 렌더 → 프로젝트 검사 → EditMode/PlayMode → 30 레벨 실제 완주 → Android 실 기기 검증을 수행해야 합니다.
 
 후반 Penalty 레벨의 시간은 데이터상 성장 가능성만 확인했으므로 실제 경로/벌칙 밸런스 조정이 필요할 수 있습니다.
 
