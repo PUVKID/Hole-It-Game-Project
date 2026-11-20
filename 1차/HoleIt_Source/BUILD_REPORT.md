@@ -12,7 +12,7 @@ Unity가 없는 환경에서 네이티브 텍스트 에셋을 작성했으므로
 
 ## 1. 환경 및 원본
 
-| 항목 (Category) | 확인 결과 |
+| 항목 | 확인 결과 |
 | --- | --- |
 | 입력 원본 | HoleIt_Full_Project_ModelRefresh_v7_fixed.zip, 원본 파일 50개 |
 | Unity 목표 | 6000.3.6f1, changeset bbb010bdb8a3 |
