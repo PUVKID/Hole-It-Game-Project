@@ -9,11 +9,11 @@
 
 | 수준 | 이 안내에서 읽을 내용 |
 | --- | --- |
-| [LEVEL 1 - Beginner](docs/읽기안내/레벨1.md) | 낯선 용어를 풀어 쓰며 실제 동작·예시·오해하기 쉬운 범위를 읽습니다. |
-| [LEVEL 2 - Explorer](docs/읽기안내/레벨2.md) | 입력·처리·출력과 기능 사이의 연결, 차수 변화를 따라갑니다. |
-| [LEVEL 3 - Practitioner](docs/읽기안내/레벨3.md) | 준비 조건·사용 순서·설정·결과 및 실패 확인 방법을 읽습니다. |
-| [LEVEL 4 - Advanced](docs/읽기안내/레벨4.md) | 모듈 설계·상태 전이·검증 경계와 구현 선택을 검토합니다. |
-| [LEVEL 5 - Expert](docs/읽기안내/레벨5.md) | 실제 코드·프로토콜·설정값·전체 비교와 측정 근거를 대조합니다. |
+| [**LEVEL 1 - Beginner**](docs/읽기안내/레벨1.md) | 낯선 용어를 풀어 쓰며 실제 동작·예시·오해하기 쉬운 범위를 읽습니다. |
+| [**LEVEL 2 - Explorer**](docs/읽기안내/레벨2.md) | 입력·처리·출력과 기능 사이의 연결, 차수 변화를 따라갑니다. |
+| [**LEVEL 3 - Practitioner**](docs/읽기안내/레벨3.md) | 준비 조건·사용 순서·설정·결과 및 실패 확인 방법을 읽습니다. |
+| [**LEVEL 4 - Advanced**](docs/읽기안내/레벨4.md) | 모듈 설계·상태 전이·검증 경계와 구현 선택을 검토합니다. |
+| [**LEVEL 5 - Expert**](docs/읽기안내/레벨5.md) | 실제 코드·프로토콜·설정값·전체 비교와 측정 근거를 대조합니다. |
 
 모든 안내는 같은 프로젝트와 전체 차수를 다룹니다. 기존 상세 본문은 아래에 계속 보존합니다.
 <!-- project-levels:end -->
@@ -345,18 +345,18 @@ Android 성능과 일반 조이스틱 플레이는 별도로 평가합니다.
 
 각 차수의 소스·설정·리소스·사용법·설계를 함께 보관합니다. 부분 자료와 실제 제품 버전을 각 설명에서 구분합니다.
 
-| 차수·자료 | 자료 폴더·원본 | 상세 설명 | 직전 비교·범위 |
-| --- | --- | --- | --- |
-| 1차 | [자료 폴더](1%EC%B0%A8) | [상세 설명](docs/versions/1%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/1%EC%B0%A8.md) |
-| 2차 | [자료 폴더](2%EC%B0%A8) | [상세 설명](docs/versions/2%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/2%EC%B0%A8.md) |
-| 3차 | [자료 폴더](3%EC%B0%A8) | [상세 설명](docs/versions/3%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/3%EC%B0%A8.md) |
-| 4차 | [자료 폴더](4%EC%B0%A8) | [상세 설명](docs/versions/4%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/4%EC%B0%A8.md) |
-| 5차 | [자료 폴더](5%EC%B0%A8) | [상세 설명](docs/versions/5%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/5%EC%B0%A8.md) |
-| 6차 | [자료 폴더](6%EC%B0%A8) | [상세 설명](docs/versions/6%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/6%EC%B0%A8.md) |
-| 7차 | [자료 폴더](7%EC%B0%A8) | [상세 설명](docs/versions/7%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/7%EC%B0%A8.md) |
-| 8차 | [자료 폴더](8%EC%B0%A8) | [상세 설명](docs/versions/8%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/8%EC%B0%A8.md) |
-| 9차 | [자료 폴더](9%EC%B0%A8) | [상세 설명](docs/versions/9%EC%B0%A8.md) | [전체 비교·범위](docs/revision-audit/9%EC%B0%A8.md) |
-| 고유 작업 코드·문서 | [자료 폴더](%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) | [상세 설명](docs/SOURCE_MATERIALS.md) | [전체 비교·범위](docs/SOURCE_MATERIALS.md) |
+| 차수·자료 | 자료 폴더·원본 | 상세 설명 · 직전 비교·범위 |
+| --- | --- | --- |
+| 1차 | [자료 폴더](1%EC%B0%A8) | [상세 설명](docs/versions/1%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/1%EC%B0%A8.md) |
+| 2차 | [자료 폴더](2%EC%B0%A8) | [상세 설명](docs/versions/2%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/2%EC%B0%A8.md) |
+| 3차 | [자료 폴더](3%EC%B0%A8) | [상세 설명](docs/versions/3%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/3%EC%B0%A8.md) |
+| 4차 | [자료 폴더](4%EC%B0%A8) | [상세 설명](docs/versions/4%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/4%EC%B0%A8.md) |
+| 5차 | [자료 폴더](5%EC%B0%A8) | [상세 설명](docs/versions/5%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/5%EC%B0%A8.md) |
+| 6차 | [자료 폴더](6%EC%B0%A8) | [상세 설명](docs/versions/6%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/6%EC%B0%A8.md) |
+| 7차 | [자료 폴더](7%EC%B0%A8) | [상세 설명](docs/versions/7%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/7%EC%B0%A8.md) |
+| 8차 | [자료 폴더](8%EC%B0%A8) | [상세 설명](docs/versions/8%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/8%EC%B0%A8.md) |
+| 9차 | [자료 폴더](9%EC%B0%A8) | [상세 설명](docs/versions/9%EC%B0%A8.md)<br>[전체 비교·범위](docs/revision-audit/9%EC%B0%A8.md) |
+| 고유 작업 코드·문서 | [자료 폴더](%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) | [상세 설명](docs/SOURCE_MATERIALS.md)<br>[전체 비교·범위](docs/SOURCE_MATERIALS.md) |
 
 
 <a name="️-차수별-화면과-검증-이미지"></a>
