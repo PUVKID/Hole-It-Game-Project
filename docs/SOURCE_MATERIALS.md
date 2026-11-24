@@ -17,7 +17,7 @@
 
 </div>
 <!-- reading-levels:start -->
-[LEVEL 1 - Beginner](#reading-level-1) · [LEVEL 2 - Explorer](#reading-level-2) · [LEVEL 3 - Practitioner](#reading-level-3) · [LEVEL 4 - Advanced](#reading-level-4) · [LEVEL 5 - Expert](#reading-level-5)
+[LEVEL 1 - Beginner](#user-content-reading-level-1) · [LEVEL 2 - Explorer](#user-content-reading-level-2) · [LEVEL 3 - Practitioner](#user-content-reading-level-3) · [LEVEL 4 - Advanced](#user-content-reading-level-4) · [LEVEL 5 - Expert](#user-content-reading-level-5)
 
 프로젝트 전체의 설명은 [LEVEL 1 - Beginner](%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A81.md)부터 [LEVEL 5 - Expert](%EC%9D%BD%EA%B8%B0%EC%95%88%EB%82%B4/%EB%A0%88%EB%B2%A85.md)까지 같은 범위로 연결됩니다.
 
@@ -81,7 +81,7 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 | 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
 | 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
 
-[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#reading-level-5)
+[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#user-content-reading-level-5)
 
 
 </details>
@@ -147,7 +147,7 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 | 한 폴더로 실행되지 않음 | 이 묶음은 여러 작업 시점의 보존 자료이며 단일 배포 제품이 아닙니다. |
 | 이전 파일과 내용이 다름 | 원래 차수·경로·해시와 전체 비교를 함께 확인합니다. |
 
-[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#reading-level-5)
+[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#user-content-reading-level-5)
 
 
 </details>
@@ -211,7 +211,7 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 각 ZIP의 모든 멤버 판단은 비공개 검토 명세에, 공개 대응 멤버는 아래 JSON에 있습니다.
 
-[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#reading-level-5)
+[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#user-content-reading-level-5)
 
 
 </details>
@@ -289,7 +289,7 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 
 위 구성요소의 입력·출력과 실패 조건을 같은 차수 소스에 연결해 검토합니다. 전체 비교는 추가·수정·삭제와 원래 보관 범위를 구분하는 근거입니다.
 
-[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#reading-level-5)
+[자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#user-content-reading-level-5)
 
 </details>
 
@@ -299,7 +299,7 @@ ZIP은 중앙 목록과 경로 탈출·링크·암호화·크기 경계를 검�
 <a id="reading-level-5"></a>
 ## LEVEL 5 - Expert
 
-기존의 전체 설명·표·코드·함수 참조·파일별 비교는 아래에 그대로 이어집니다. [자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#reading-level-5)
+기존의 전체 설명·표·코드·함수 참조·파일별 비교는 아래에 그대로 이어집니다. [자료 폴더](../%EB%B3%B4%EC%A1%B4%EC%9E%90%EB%A3%8C/%EC%9E%91%EC%97%85%EC%86%8C%EC%8A%A4) · [직전 비교·자료 범위](SOURCE_MATERIALS.md) · [이 차수의 원래 전체 상세](#user-content-reading-level-5)
 <!-- reading-levels:end -->
 
 
