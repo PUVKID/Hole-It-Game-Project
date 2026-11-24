@@ -2,7 +2,7 @@
 
 <!-- user-levels:start -->
 <details>
-<summary><strong>읽기 수준 선택</strong></summary>
+<summary>읽기 수준 선택</summary>
 
 | 레벨 | 읽는 목적 |
 | --- | --- |
@@ -15,7 +15,7 @@
 </details>
 <!-- user-levels:end -->
 
-**대상: Unity 6000.3.6f1 / Built-in Render Pipeline / 세로 화면 / Android 우선.**
+대상: Unity 6000.3.6f1 / Built-in Render Pipeline / 세로 화면 / Android 우선.
 
 기존 `HoleIt_Full_Project_ModelRefresh_v7_fixed.zip`의 소스를 보존·수정하고 실제 씬, 프리팹, 메시, 레벨 데이터, UI, 아이콘 및 음원을 추가한 프로젝트입니다.
 
@@ -23,9 +23,9 @@
 
 ## 먼저 확인할 검증 범위
 
-이 인계본은 **구현 파일 작성 및 오프라인 정적 검증을 마친 상태**입니다.
+이 인계본은 구현 파일 작성 및 오프라인 정적 검증을 마친 상태입니다.
 
-작업 환경에 Unity Editor, C# 컴파일러, Android 빌드 모듈이 없어 **Unity 임포트·C# 컴파일·셰이더 컴파일·실제 플레이·APK 빌드는 수행하지 못했습니다.** 출시 검증이 끝난 실행 빌드 또는 무오류 보증본으로 해석하면 안 됩니다.
+작업 환경에 Unity Editor, C# 컴파일러, Android 빌드 모듈이 없어 Unity 임포트·C# 컴파일·셰이더 컴파일·실제 플레이·APK 빌드는 수행하지 못했습니다. 출시 검증이 끝난 실행 빌드 또는 무오류 보증본으로 해석하면 안 됩니다.
 
 `Main.unity`, `.prefab`, `.asset`는 실제로 포함되어 있으나 Unity 외부에서 텍스트 직렬화로 작성했습니다.
 
@@ -35,7 +35,7 @@
 
 ## 1. 열기 및 첫 실행
 
-1. ZIP을 해제하고 **Assets/Packages/ProjectSettings가 직접 들어 있는 `HoleIt_Source` 폴더**를 Unity Hub에 추가합니다.  
+1. ZIP을 해제하고 Assets/Packages/ProjectSettings가 직접 들어 있는 `HoleIt_Source` 폴더를 Unity Hub에 추가합니다.  
    ZIP 파일 자체나 상위 폴더를 선택하지 않습니다.
 2. Unity **6000.3.6f1**로 엽니다.  
    기존 버전 파일의 changeset은 `bbb010bdb8a3`입니다.  
@@ -143,7 +143,7 @@ Safe Area와 Canvas Scaler를 사용하며 짧은 화면에서는 전체 논리 
 **동작:** 현재 미완료 미션에 기여하지 않는 물체를 흡수하지 않습니다. 이미 예약된 물체도 목표 수량에 포함해 초과 예약을 막습니다.
 
 
-기존 enum 직렬화 호환성을 위해 내부 숫자는 **None=0, Blocked=1, Penalty=2**입니다.  
+기존 enum 직렬화 호환성을 위해 내부 숫자는 None=0, Blocked=1, Penalty=2입니다.  
 문서의 표시 순서로 숫자를 추정하지 말고 Inspector의 이름으로 편집합니다.
 
 시간 부스터는 기본 **8초**를 추가합니다.  
@@ -190,7 +190,7 @@ Safe Area와 Canvas Scaler를 사용하며 짧은 화면에서는 전체 논리 
 
 그룹만 바꾸고 배치를 재생성하지 않으면 실제 위치가 바뀌지 않습니다.
 
-해당 LevelData를 선택하고 **HoleIt > Tools > Rebuild Selected Level Layout**을 실행한 뒤 프로젝트 검사를 실행합니다.
+해당 LevelData를 선택하고 HoleIt > Tools > Rebuild Selected Level Layout을 실행한 뒤 프로젝트 검사를 실행합니다.
 
 Seed가 같으면 동일한 생성 순서를 사용하도록 작성했습니다.
 
@@ -252,7 +252,7 @@ python Tools/validate_static.py
 
 결과는 `Documentation/STATIC_VALIDATION.json`에 기록됩니다.  
 실제 포함된 파일을 읽어 13개 검사 그룹과 7개 잘못된 데이터 감지 사례를 확인합니다.  
-**Unity를 실행하거나 C#을 컴파일하지 않습니다.**
+Unity를 실행하거나 C#을 컴파일하지 않습니다.
 
 ### Unity Test Runner
 

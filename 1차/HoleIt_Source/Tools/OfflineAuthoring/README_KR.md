@@ -2,7 +2,7 @@
 
 <!-- user-levels:start -->
 <details>
-<summary><strong>읽기 수준 선택</strong></summary>
+<summary>읽기 수준 선택</summary>
 
 | 레벨 | 읽는 목적 |
 | --- | --- |
@@ -17,7 +17,7 @@
 
 이 폴더는 실제 제출 메시·아이콘·기초 캠페인·WAV를 작성한 Python 코드의 이식 본입니다.  
 Unity를 흉내 내어 컴파일하거나 실행하지 않습니다.  
-**프로젝트를 열고 플레이하는 데 Python은 필요 없습니다.** 일반적인 편집은 Unity Inspector와 HoleIt 메뉴를 사용합니다.
+프로젝트를 열고 플레이하는 데 Python은 필요 없습니다. 일반적인 편집은 Unity Inspector와 HoleIt 메뉴를 사용합니다.
 
 `generate_models.py`는 specs.json의 51 종 카탈로그에서 메시, vertex-color 머티리얼, 프리팹, EdibleData, 128×128 아이콘을 생성합니다.  
 `campaign.py`는 30개 기본 레벨/저장 배치, 6개 테마, 성장/게임 설정 및 17개 WAV를 생성합니다.  
