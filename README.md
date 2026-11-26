@@ -22,7 +22,7 @@
   <source media="(max-width: 600px)" srcset="assets/readme/flow-ko-light-mobile.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/readme/flow-ko-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/readme/flow-ko-light.svg" />
-  <img src="assets/readme/flow-ko-light.svg" alt="Hole It Project: 터치 · 레벨 → 흡수 · 성장 → 진행 · 로컬 저장" width="100%" />
+  <img src="assets/readme/flow-ko-light.svg" alt="터치 · 레벨: 터치 입력과 레벨 속 물체 → 흡수 · 성장: 이동·충돌·흡수로 캐릭터 성장 → 진행 · 로컬 저장: 레벨 진행과 프로필·재화 보존" width="100%" />
 </picture>
 <!-- readme-header32:end -->
 
