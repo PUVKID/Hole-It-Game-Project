@@ -1,3 +1,7 @@
+<!-- language-choice:start -->
+🔵 **한국어** · [English overview](../../en/README.md)
+<!-- language-choice:end -->
+
 # POCKET PIT — HoleIt_Source 인계 프로젝트
 
 <!-- user-levels:start -->

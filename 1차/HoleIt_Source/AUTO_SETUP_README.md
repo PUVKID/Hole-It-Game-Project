@@ -1,3 +1,7 @@
+<!-- language-choice:start -->
+🔵 **한국어** · [English overview](../../en/README.md)
+<!-- language-choice:end -->
+
 # HoleIt Auto Setup (v4)
 
 <!-- user-levels:start -->
